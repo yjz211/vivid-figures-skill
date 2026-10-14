@@ -2,6 +2,8 @@
 
 [返回首页](../README.md)
 
+本页介绍 AI Skill 的安装。只使用本地网页绘图，请直接按 [工作台启动说明](../workbench/README.md#开始使用) 操作，无需配置 AI 助手。
+
 安装分两步：先把 Skill 放到 AI 助手能找到的位置，再给它准备可用的 Python 环境。本仓库采用 [Agent Skills 开放格式](https://agentskills.io/specification)：整个文件夹是一个 Skill，根目录的 `SKILL.md` 是入口。下面先下载到普通目录，再由你使用的助手导入或配置 Skill 搜索路径。开放格式不规定统一的安装目录。
 
 ## 1. 准备基础软件
