@@ -1,0 +1,69 @@
+Veusz Features
+Veusz Features
+2D plotting features:
+X-Y plots
+(with
+errorbars
+,
+colours
+and
+sizes
+)
+Line
+and
+function plots
+Contour plots
+Images
+(with colour mappings and colorbars)
+Stepped plots (for histograms)
+Bar graphs
+Vector field plots
+Box plots
+Polar plots
+Ternary plots
+Plotting dates
+Fitting functions to data
+Stacked plots and arrays of plots
+Nested plots
+Plot keys
+Plot labels
+Shapes and arrows on plots
+LaTeX-like formatting for text
+Multiple axes
+Axes with steps in axis scale (broken axes)
+Axes scales
+          using
+functional forms
+,
+          optionally
+linked to
+            another axis
+Plotting functions of datasets
+3D plotting features:
+3D point plots
+3D surface plots from data
+3D function line plots
+3D function surface plots
+3D volume plots
+Multiple 3D axes
+Multiple plots allowed in a 3D space
+Input and output:
+EPS/PDF/PNG/SVG/EMF export
+Dataset creation/manipulation
+Embed Veusz within other programs
+Text, CSV, HDF5, FITS, NPY/NPZ, QDP, binary and user-plugin importing
+Data can be captured from external sources
+n-dimensional datasets can be sliced for plotting
+Extending:
+Use as a Python 2/3 module
+User defined functions, constants and can import external Python functions
+Plugin interface to allow user to write or load code to
+import data using new formats
+make new datasets, optionally linked to existing datasets
+arbitrarily manipulate the document
+Scripting interface
+Control with DBUS and SAMP
+Other features:
+Data picker
+Interactive tutorial
+Multithreaded rendering

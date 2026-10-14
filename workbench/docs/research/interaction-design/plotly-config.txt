@@ -1,0 +1,489 @@
+Configuration options in JavaScript
+Download Studio
+Studio and Cloud Pricing
+Dash Enterprise Pricing
+Quick Reference
+On This Page
+JavaScript
+>
+Fundamentals
+>
+Configuration Options
+Suggest an edit to this page
+Configuration Options
+                  
+                  in 
+                  JavaScript
+How to set the configuration options for figures in JavaScript.
+Plotly Studio: Transform any dataset into an interactive data application in minutes with AI.
+Try Plotly Studio now.
+The plotly.js
+config
+argument sets properties like the mode bar buttons and the interactivity in the chart.
+It's the last argument in
+Plotly.newPlot
+calls.
+View the full list of configuration options in the
+plotly.js source code on GitHub
+.
+Scroll and Zoom
+// mousewheel or two-finger scroll zooms the plot
+
+var trace1 = {
+    x:['2020-10-04', '2021-11-04', '2023-12-04'],
+    y: [90, 40, 60],
+    type: 'scatter'
+};
+
+var data = [trace1];
+
+var layout = {
+    title: {
+        text: 'Scroll and Zoom'
+    },
+    showlegend: false
+};
+
+Plotly.newPlot('myDiv', data, layout, {scrollZoom: true});
+Editable Mode
+In editable mode, users can edit the chart title, axis labels and trace names in the legend.
+var trace1 = {
+  x: [0, 1, 2, 3, 4],
+  y: [1, 5, 3, 7, 5],
+  mode: 'lines+markers',
+  type: 'scatter'
+};
+
+var trace2 = {
+  x: [1, 2, 3, 4, 5],
+  y: [4, 0, 4, 6, 8],
+  mode: 'lines+markers',
+  type: 'scatter'
+};
+
+var data = [trace1, trace2];
+var layout = {
+  title: {
+      text: 'Click Here<br>to Edit Chart Title'
+  }
+};
+
+Plotly.newPlot('myDiv', data, layout, {editable: true});
+Making a Static Chart
+var trace1 = {
+    x: [0, 1, 2, 3, 4, 5, 6],
+    y: [1, 9, 4, 7, 5, 2, 4],
+    mode: 'markers',
+    marker: {
+        size: [20, 40, 25, 10, 60, 90, 30],
+    }
+};
+
+var data = [trace1];
+
+var layout = {
+    title: {
+        text: 'Create a Static Chart'
+    },
+    showlegend: false
+};
+
+Plotly.newPlot('myDiv', data, layout, {staticPlot: true});
+Customize Download Plot Options
+var trace1 = {
+    x: [0, 1, 2, 3, 4, 5, 6],
+    y: [1, 9, 4, 7, 5, 2, 4],
+    mode: 'markers',
+    marker: {
+        size: [20, 40, 25, 10, 60, 90, 30],
+    }
+};
+
+var data = [trace1];
+
+var layout = {
+  title: {
+      text: 'Download Chart as SVG instead of PNG'
+  },
+  showlegend: false
+};
+
+var config = {
+  toImageButtonOptions: {
+    format: 'svg', // one of png, svg, jpeg, webp, full-json
+    filename: 'custom_image',
+    height: 500,
+    width: 700,
+    scale: 1 // Multiply title/legend/axis/canvas sizes by this factor
+  }
+};
+
+Plotly.newPlot('myDiv', data, layout, config);
+Force The Modebar to Always Be Visible
+When users hover over a figure generated with
+plotly.js
+, a
+modebar
+appears in the top-right of the figure. This presents users with several options for interacting with the figure.
+By default, the
+modebar
+is only visible while the user is hovering over the chart. If you would like the
+modebar
+to always be visible regardless of whether or not the user is currently hovering over the figure, set the
+displayModeBar
+attribute in the
+config
+of your figure to
+true
+.
+var data = [{
+    y:['Marc', 'Henrietta', 'Jean', 'Claude', 'Jeffrey', 'Jonathan', 'Jennifer', 'Zacharias'],
+      x: [90, 40, 60, 80, 75, 92, 87, 73],
+      type: 'bar',
+      orientation: 'h'}]
+
+var layout = {
+    title: {
+        text: 'Always Display the Modebar'
+    },
+    showlegend: false
+}
+
+Plotly.newPlot('myDiv', data, layout, {displayModeBar: true})
+Never Display The Modebar
+When users hover over a figure generated with
+plotly.js
+, a
+modebar
+appears in the top-right of the figure. This presents users with several options for interacting with the figure.
+By default, the
+modebar
+is only visible while the user is hovering over the chart. If you would like the
+modebar
+to never be visible, then set the
+displayModeBar
+attribute in the
+config
+of your figure to
+false
+.
+var trace1 = {
+    x:['Zebras', 'Lions', 'Pelicans'],
+    y: [90, 40, 60],
+    type: 'bar',
+    name: 'New York Zoo'
+};
+
+var trace2 = {
+    x:['Zebras', 'Lions', 'Pelicans'],
+    y: [10, 80, 45],
+    type: 'bar',
+    name: 'San Francisco Zoo'
+};
+
+var data = [trace1, trace2];
+
+var layout = {
+    title: {
+        text: 'Hide the Modebar'
+    },
+    showlegend: true
+};
+
+Plotly.newPlot('myDiv', data, layout, {displayModeBar: false});
+Remove ModeBar Buttons
+To delete buttons from the modebar, pass an array of strings containing the names of the buttons you want to remove to the
+modeBarButtonsToRemove
+attribute in the figure's configuration object. Note that different chart types have different default modebars. The following is a list of all the modebar buttons and the chart types they are associated with:
+-'2D',
+zoom2d
+,
+pan2d
+,
+select2d
+,
+lasso2d
+,
+zoomIn2d
+,
+zoomOut2d
+,
+autoScale2d
+,
+resetScale2d
+-'3D',
+zoom3d
+,
+pan3d
+,
+orbitRotation
+,
+tableRotation
+,
+resetCameraDefault3d
+,
+resetCameraLastSave3d
+,
+hoverClosest3d
+-'Cartesian',
+hoverClosestCartesian
+,
+hoverCompareCartesian
+-'Geo',
+zoomInGeo
+,
+zoomOutGeo
+,
+resetGeo
+,
+hoverClosestGeo
+-'Map',
+zoomInMap
+,
+zoomOutMap
+,
+resetViewMap
+-'Sankey',
+resetSankeyGroup
+-'Shape drawing',
+drawline
+,
+drawopenpath
+,
+drawclosedpath
+,
+drawcircle
+,
+drawrect
+,
+eraseshape
+-'Other',
+hoverClosestPie
+,
+toggleHover
+,
+resetViews
+,
+toImage
+,
+sendChartToCloud
+,
+toggleSpikelines
+var data = [{
+    x:['trees', 'flowers', 'hedges'],
+    y: [90, 130, 40],
+    type: 'bar'}]
+
+var layout = {
+    title: {
+        text: 'Remove Modebar Buttons'
+    },
+    showlegend: false
+}
+
+Plotly.newPlot('myDiv', data, layout, {modeBarButtonsToRemove: ['toImage']})
+Add Buttons to ModeBar
+The following example shows how to add a button to your modebar, either by using one of the
+Plotly icons
+or an
+arbitrary icon
+with a custom behaviour.
+var icon1 = {
+  'width': 500,
+  'height': 600,
+  'path': 'M224 512c35.32 0 63.97-28.65 63.97-64H160.03c0 35.35 28.65 64 63.97 64zm215.39-149.71c-19.32-20.76-55.47-51.99-55.47-154.29 0-77.7-54.48-139.9-127.94-155.16V32c0-17.67-14.32-32-31.98-32s-31.98 14.33-31.98 32v20.84C118.56 68.1 64.08 130.3 64.08 208c0 102.3-36.15 133.53-55.47 154.29-6 6.45-8.66 14.16-8.61 21.71.11 16.4 12.98 32 32.1 32h383.8c19.12 0 32-15.6 32.1-32 .05-7.55-2.61-15.27-8.61-21.71z'
+}
+
+var colors = ['green', 'red', 'blue']
+var data = [{
+  mode: 'lines',
+  y: [2, 1, 2],
+  line: {color: colors[0], width: 3, shape: 'spline'}
+}]
+
+var layout = {
+  title: {
+    text: 'add mode bar button with custom icon'
+  }
+}
+
+var config = {
+  displayModeBar: true,
+  modeBarButtonsToAdd: [
+    {
+      name: 'color toggler',
+      icon: icon1,
+      click: function(gd) {
+        var newColor = colors[Math.floor(3 * Math.random())]
+        Plotly.restyle(gd, 'line.color', newColor)
+      }},
+    {
+      name: 'button1',
+      icon: Plotly.Icons.pencil,
+      direction: 'up',
+      click: function(gd) {alert('button1')
+    }}],
+  modeBarButtonsToRemove: ['pan2d','select2d','lasso2d','resetScale2d','zoomOut2d']}
+
+Plotly.newPlot('myDiv', data, layout, config)
+Disabling Buttons for Specific Axes
+New in 3.1
+Disabling the zoom in, zoom out, and autoscale buttons for specific axes is supported on cartesian axes using the
+modebardisable
+attribute. In the following example, the zoom in and zoom out buttons are disabled on the
+xaxis
+, meaning these buttons only zoom in and out on the
+yaxis
+. Disable the autoscale button using
+modebardisable='autoscale'
+. You can also disable both autoscaling and zoom buttons using
+modebardisable='zoominout+autoscale'
+.
+var data = [{
+  type: "scatter",
+  mode: "lines+markers",
+  x: ["2023-01-01", "2023-02-01", "2023-03-01", "2023-04-01", "2023-05-01", "2023-06-01"],
+  y: [150, 160, 155, 170, 165, 180],
+  name: "Google Stock Price"
+}];
+
+var layout = {
+  title: "Google Stock Price Over Time with Mode Bar Disabled",
+  xaxis: {
+    title: "Date",
+    type: "date",
+    // Try zooming in or out using the modebar buttons. These only apply to the yaxis in this example.
+    modebardisable: "zoominout"
+  },
+  yaxis: {
+    title: "Stock Price (USD)"
+  }
+};
+
+Plotly.newPlot("myDiv", data, layout);
+Share a Chart to Plotly Cloud
+The
+sendChartToCloud
+modebar button, labelled "Share chart…", sends the chart to
+Plotly Cloud
+and opens it in a new tab, where you can copy a sharing link and set the
+chart's visibility. A confirmation dialog is shown before sending the chart.
+Sharing requires a Plotly Cloud account, which can be created during the sharing process.
+The button is shown by default. Set
+showSendToCloud: false
+to hide it, or set
+plotlyServerURL
+to send charts to
+an alternate URL instead of the default
+https://cloud.plotly.com/newchart
+.
+var data = [{
+  values: [19, 26, 55],
+  labels: ['Residential', 'Non-Residential', 'Utility'],
+  type: 'pie'
+}];
+
+var layout = {
+  title: {
+      text: 'Share a Chart to Plotly Cloud'
+  }
+};
+
+var config = {
+  // These config options match the defaults
+  showSendToCloud: true,
+  plotlyServerURL: "https://cloud.plotly.com/newchart"
+};
+
+Plotly.newPlot('myDiv', data, layout, config);
+Change the Default Locale
+Load and register a non-default locale by adding
+<script src="https://cdn.plot.ly/plotly-locale-YOUR-LOCALE-latest.js"></script>
+to your HTML after the plotly.js tag and then reference the locale in the
+config
+. For Example, the codepen example below has
+<script src="https://cdn.plot.ly/plotly-locale-fr-latest.js"></script>
+in its HTML.  For more information and a list of available locales, see
+https://github.com/plotly/plotly.js/blob/master/dist/README.md#to-include-localization
+var trace1 = {
+  type: "scatter",
+  mode: "lines",
+  x: ['2018-01-01', '2018-08-31'],
+  y: [10, 5],
+  line: {color: '#17BECF'}
+};
+
+var trace2 = {
+  type: "scatter",
+  mode: "lines",
+  x: ['2018-01-01', '2018-08-31'],
+  y: [3,7],
+  line: {color: '#7F7F7F'}
+};
+
+var data = [trace1,trace2];
+
+var layout = {
+  title: {
+    text: 'Custom Locale'
+  }
+};
+
+var config = {locale: 'fr'};
+
+Plotly.newPlot('myDiv', data, layout, config);
+Hide the Plotly Logo on the Modebar
+var trace1 = {
+    x:['trees', 'flowers', 'hedges'],
+    y: [90, 130, 40],
+    type: 'bar'
+};
+
+var data = [trace1];
+
+var layout = {
+    title: {
+        text: 'Hide the Plotly Logo on the Modebar'
+    },
+    showlegend: false
+};
+
+Plotly.newPlot('myDiv', data, layout, {displaylogo: false});
+Making a Responsive Chart
+var trace1 = {
+    type: 'bar',
+    x: [1, 2, 3, 4],
+    y: [5, 10, 2, 8],
+    marker: {
+        color: '#C8A2C8',
+        line: {
+            width: 2.5
+        }
+    }
+};
+
+var data = [ trace1 ];
+
+var layout = {
+    title: {
+      text: 'Responsive to window size!'
+    },
+    font: {size: 18}
+};
+
+Plotly.newPlot('myDiv', data, layout, {responsive: true});
+Double Click Delay
+Sets the maximum delay between two consecutive clicks to be interpreted as a double-click in ms. This is the time interval between first mousedown, and' second mouseup. The default timing is 300 ms (less than half a second).
+This setting propagates to all on-subplot double clicks, (except for geo and map).
+var data = [{
+  type: "bar",
+  y: [3, 5, 3, 2],
+  x: ["2019-09-02", "2019-10-10", "2019-11-12", "2019-12-22"]
+}];
+
+var layout = {xaxis: {type: 'date'}};
+
+var config = {doubleClickDelay: 1000}
+
+Plotly.newPlot("myDiv", data, layout, config)
+×

@@ -21,7 +21,7 @@ class SourceTests(unittest.TestCase):
     def test_all_primary_sources_match_previews_exactly(self):
         recipes = Recipes(SHARED)
         cards = {c['id']:c for c in json.loads((ROOT/'catalog/cards.json').read_text(encoding='utf8'))['cards']}
-        self.assertEqual(len(recipes.entries), 143)
+        self.assertEqual(len(recipes.entries), 144)
         for tid in recipes.entries:
             with self.subTest(tid=tid):
                 code, source = recipes.script(tid)

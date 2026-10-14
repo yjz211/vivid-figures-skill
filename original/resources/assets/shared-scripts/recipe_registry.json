@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "bundleVersion": "0.1.3",
+  "bundleVersion": "0.1.4",
   "recipes": [
     {
       "id": "basic.grouped_bar",
@@ -888,13 +888,13 @@
       "file": "figure_recipes_empirical.md",
       "title": "Prediction vs Actual with CI Band",
       "legacy": "empirical #13",
-      "contentSha256": "29402626bde7549c2583e3b21dd9c41b39d06d437624ca31612f7a15073e1da8",
+      "contentSha256": "c5bb2ef7c4023ed4d164368809c19ff1bf30ec68d3fa876b45bd0aed4594cf25",
       "scripts": {
         "main": {
           "blocks": [
             0
           ],
-          "codeSha256": "f5caa1fb00f9115bb7b34a574ab72a315027c79c1082d0c72e6c6fed6fa08769"
+          "codeSha256": "dc95a1f5e907450610a7ce04127ee857460e20051c47dffa2ee4bd28fdea50e0"
         }
       }
     },
@@ -2155,6 +2155,21 @@
             0
           ],
           "codeSha256": "f72ce056053fd614be7a331b3c818068ac265789a419ba6a20b1250bbe500e66"
+        }
+      }
+    },
+    {
+      "id": "advanced.radar_ridgeline",
+      "file": "figure_recipes_advanced.md",
+      "title": "雷达山脊融合图",
+      "legacy": "advanced #38",
+      "contentSha256": "59df6135237a0cd03e4778fd7235af1d5935e02e79011f3a93e29a371ad68239",
+      "scripts": {
+        "main": {
+          "blocks": [
+            0
+          ],
+          "codeSha256": "165c7a88d4fba0e790d19e1ad6ae17a38333eba46a69561455992453920d62b2"
         }
       }
     }

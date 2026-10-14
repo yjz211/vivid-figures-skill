@@ -1,0 +1,158 @@
+[
+  {
+    "full_name": "plotly/react-chart-editor",
+    "html_url": "https://github.com/plotly/react-chart-editor",
+    "description": "Customizable React-based editor panel for Plotly charts",
+    "stargazers_count": 523,
+    "archived": false,
+    "pushed_at": "2026-02-06T07:28:33Z",
+    "updated_at": "2026-05-26T22:50:40Z",
+    "homepage": "https://plotly.github.io/react-chart-editor/",
+    "default_branch": "master",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  {
+    "full_name": "plotly/plotly.js",
+    "html_url": "https://github.com/plotly/plotly.js",
+    "description": "Open-source JavaScript charting library behind Plotly and Dash",
+    "stargazers_count": 18338,
+    "archived": false,
+    "pushed_at": "2026-09-22T05:52:49Z",
+    "updated_at": "2026-09-22T04:03:10Z",
+    "homepage": "https://plotly.com/javascript/",
+    "default_branch": "main",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  {
+    "full_name": "veusz/veusz",
+    "html_url": "https://github.com/veusz/veusz",
+    "description": "Veusz scientific plotting application",
+    "stargazers_count": 1051,
+    "archived": false,
+    "pushed_at": "2026-08-22T09:04:14Z",
+    "updated_at": "2026-09-08T14:38:01Z",
+    "homepage": "https://veusz.github.io/",
+    "default_branch": "master",
+    "license": {
+      "key": "gpl-2.0",
+      "name": "GNU General Public License v2.0",
+      "spdx_id": "GPL-2.0",
+      "url": "https://api.github.com/licenses/gpl-2.0",
+      "node_id": "MDc6TGljZW5zZTg="
+    }
+  },
+  {
+    "repo": "labplot/labplot",
+    "error": "403 Client Error: rate limit exceeded for url: https://api.github.com/repos/labplot/labplot"
+  },
+  {
+    "full_name": "rgerum/pylustrator",
+    "html_url": "https://github.com/rgerum/pylustrator",
+    "description": "Visualisations of data are at the core of every publication of scientific research results. They have to be as clear as possible to facilitate the communication of research. As data can have different formats and shapes, the visualisations often have to be adapted to reflect the data as well as possible. We developed Pylustrator, an interface to directly edit python generated matplotlib graphs to finalize them for publication. Therefore, subplots can be resized and dragged around by the mouse, text and annotations can be added. The changes can be saved to the initial plot file as python code.",
+    "stargazers_count": 899,
+    "archived": false,
+    "pushed_at": "2026-09-01T20:44:59Z",
+    "updated_at": "2026-09-22T00:00:20Z",
+    "homepage": "",
+    "default_branch": "main",
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    }
+  },
+  {
+    "full_name": "tabulator-tables/tabulator",
+    "html_url": "https://github.com/tabulator-tables/tabulator",
+    "description": "Interactive Tables and Data Grids for JavaScript",
+    "stargazers_count": 7772,
+    "archived": false,
+    "pushed_at": "2026-09-22T03:14:28Z",
+    "updated_at": "2026-09-22T03:26:23Z",
+    "homepage": "http://tabulator-tables.github.io/tabulator/",
+    "default_branch": "master",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  {
+    "full_name": "glideapps/glide-data-grid",
+    "html_url": "https://github.com/glideapps/glide-data-grid",
+    "description": "🚀 Glide Data Grid is a no compromise, outrageously fast react data grid with rich rendering, first class accessibility, and full TypeScript support.",
+    "stargazers_count": 5343,
+    "archived": false,
+    "pushed_at": "2026-01-21T19:14:18Z",
+    "updated_at": "2026-09-20T05:23:25Z",
+    "homepage": "https://grid.glideapps.com",
+    "default_branch": "main",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  {
+    "full_name": "Comcast/react-data-grid",
+    "html_url": "https://github.com/Comcast/react-data-grid",
+    "description": "Feature-rich and customizable data grid React component",
+    "stargazers_count": 7688,
+    "archived": false,
+    "pushed_at": "2026-09-18T02:52:43Z",
+    "updated_at": "2026-09-21T17:49:56Z",
+    "homepage": "https://comcast.github.io/react-data-grid/",
+    "default_branch": "main",
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    }
+  },
+  {
+    "full_name": "Kanaries/graphic-walker",
+    "html_url": "https://github.com/Kanaries/graphic-walker",
+    "description": "An open source alternative to Tableau. Embeddable visual analytic",
+    "stargazers_count": 3249,
+    "archived": false,
+    "pushed_at": "2026-09-08T10:36:12Z",
+    "updated_at": "2026-09-20T00:31:23Z",
+    "homepage": "https://kanaries.net/graphic-walker",
+    "default_branch": "main",
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    }
+  },
+  {
+    "repo": "Kanaries/pygwalker",
+    "error": "403 Client Error: rate limit exceeded for url: https://api.github.com/repos/Kanaries/pygwalker"
+  },
+  {
+    "repo": "matplotlib/ipympl",
+    "error": "403 Client Error: rate limit exceeded for url: https://api.github.com/repos/matplotlib/ipympl"
+  }
+]

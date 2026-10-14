@@ -1,0 +1,20 @@
+# Runtime jobs, saved user data and generated test output stay on this machine.
+/workspace/*
+/verification/
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+/build/
+*.log
+.DS_Store
+Thumbs.db
+
+# Required rendering tools override the Skill root ignore rule.
+!/editor_backend/_utils/
+!/editor_backend/_utils/**
+
+# Keep generated caches excluded after the runtime directory exception.
+**/__pycache__/
+*.py[cod]

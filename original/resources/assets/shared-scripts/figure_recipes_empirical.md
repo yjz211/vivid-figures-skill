@@ -853,7 +853,7 @@ ax.text(0.02, 0.03, f'Test Metrics:\nRMSE = {rmse:.3f}\nMAE  = {mae:.3f}\nR²   
         transform=ax.transAxes, fontsize=8.5, va='bottom', ha='left', color=COLORS['text'], family='monospace',
         bbox=dict(boxstyle='round,pad=0.4', facecolor=COLORS['bg_box'], edgecolor=COLORS['grid'], alpha=0.95))
 
-ax.set_xlabel('Time Step'); ax.set_ylabel('Value')
+ax.set_xlabel('Time Step'); ax.set_ylabel('Value (a.u.)')
 ax.spines['top'].set_visible(False)
 ax.spines['right'].set_visible(False)
 ax.legend(frameon=False, labelspacing=0.35, handlelength=1.6, fontsize=9); ax.grid(alpha=0.15, linestyle='--')
@@ -863,7 +863,11 @@ ax_hist.hist(errors, bins=25, orientation='horizontal', color=_lighten(PALETTE[1
 kde = gaussian_kde(errors); y_kde = np.linspace(errors.min(), errors.max(), 100)
 ax_hist.plot(kde(y_kde), y_kde, color=PALETTE[1], linewidth=1.5)
 ax_hist.axhline(0, color=COLORS['ref_line'], linestyle='--', linewidth=0.6, alpha=0.5)
-ax_hist.set_xlabel('Density', fontsize=9); ax_hist.set_yticklabels([])
+ax_hist.set_xlabel('Density (1/a.u.)', fontsize=9)
+ax_hist.set_ylabel('Actual − predicted (a.u.)', fontsize=9)
+ax_hist.yaxis.set_label_position('right')
+ax_hist.yaxis.tick_right()
+ax_hist.tick_params(axis='y', labelsize=8, labelleft=False, labelright=True)
 ax_hist.spines['top'].set_visible(False); ax_hist.spines['right'].set_visible(False)
 
 fig.tight_layout()

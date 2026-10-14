@@ -1,0 +1,439 @@
+Clipboard | Tabulator
+Version 6.5.0 Released!
+Click to checkout the new features
+Latest version
+6.5.0
+Clipboard
+Overview
+Copying Data
+Clipboard Contents
+Column Visibility
+Row Range
+Copy Formatter
+Copy Style
+Clipboard Accessors
+Clipboard Formatters
+Pasting Data
+Paste Parser
+Paste Action
+Clipboard Mutators
+Events
+Overview
+Demo
+Clipboard functionality is provided by the
+clipboard module
+The clipboard module provides a range of functions that allow data to be copied out of the table into the clipboard and to be pasted into the table from the clipboard.
+Loading Example...
+View Source
+Source Code
+JavaScript
+//Build Tabulator
+var table = new Tabulator("#example-table", {
+     height:"311px",
+     data:tabledata,
+     clipboard:true,
+     clipboardPasteAction:"replace",
+     columns:[
+         {title:"Name", field:"name", width:200},
+         {title:"Progress", field:"progress", width:100, sorter:"number"},
+         {title:"Gender", field:"gender"},
+         {title:"Rating", field:"rating", width:80},
+         {title:"Favourite Color", field:"col"},
+         {title:"Date Of Birth", field:"dob", hozAlign:"center", sorter:"date"},
+         {title:"Driver", field:"car", hozAlign:"center", formatter:"tickCross"},
+     ],
+ });
+You can enable clipboard functionality using the
+clipboard
+config option. It can take one of four possible values:
+true
+- enable clipboard copy and paste
+"copy"
+- enable only copy functionality
+"paste"
+- enable only paste functionality
+false
+- disable all clipboard functionality
+(default)
+var table = new Tabulator("#example-table", {
+    clipboard:true, //enable clipboard functionality
+});
+Copying Data
+If the table has focus, the
+copyToClipboard
+keybinding which is by default set to the
+ctrl + c
+key combination, will trigger a copy of table to the clipboard, which data is copied depends on the state of the table.
+More information on how to configure this option can be found in the
+Keybindings Documentation
+When copying data out of the table, the raw row data will be formatted to match the current order of the columns in the table. Row data in columns that are not currently visible will not be copied to the clipboard.
+Trigger Copy Programmatically
+The
+copyToClipboard
+function allows you to copy the current table data to the clipboard.
+It takes one optional argument, a
+Row Range Lookup
+option, that will determine which rows are included in the clipboard output.It can take any following strings as input:
+visible
+- Rows currently visible in the table viewport
+active
+- Rows currently in the table
+(rows that pass current filters etc)
+selected
+- Rows currently selected by the selection module
+(this includes not currently active rows)
+all
+- All rows in the table regardless of filters
+table.copyToClipboard("selected"); //copy the currently selected rows to the clipboard
+If you leave this argument undefined, Tabulator will use the value of the
+clipboardCopyRowRange
+property, which has a default value of
+active
+Clipboard Contents
+By default Tabulator includes column headers, row groups data trees and column calculations in the clipboard output.
+You can choose to remove column headers groups, row groups or column calculations from the output data by setting the values in the
+clipboardCopyConfig
+option in the table definition:
+var table = new Tabulator("#example-table", {
+    clipboardCopyConfig:{
+        columnHeaders:false, //do not include column headers in clipboard output
+        columnGroups:false, //do not include column groups in column headers for printed table
+        rowHeaders:false, //do not include row headers in clipboard output
+        rowGroups:false, //do not include row groups in clipboard output
+        columnCalcs:false, //do not include column calculation rows in clipboard output
+        dataTree:false, //do not include data tree in printed table
+        formatCells:false, //show raw cell values without formatter
+    },
+});
+Column Groups Parsing
+- It is worth noting that if you include column group headers in your output data it will not be possible to paste that data back into Tabulator. The paste parse functions can only handle the actual column headers or no headers.
+Field Data
+It is worth noting that only columns with a
+field
+set in their definitions will be included in the output, this is because exports are generated from table data, and if a column has no field it has no data.
+Show Unformatted Cell Values
+Quite often graphical formatters like
+progress
+or
+star
+do not copy and paste well into spreadsheet applications. If you use these formatters you can set the
+formatCells
+property to
+false
+in the
+clipboardCopyConfig
+option to show only raw cell values in the clipboard output:
+var table = new Tabulator("#example-table",  {
+    clipboardCopyConfig:{
+        formatCells:false, //show raw cell values without formatter
+    },
+});
+Column Visibility
+If you don't want to show a particular column in the clipboard output you can set the
+clipboard
+property in its column definition object to
+false
+:
+var table = new Tabulator("#example-table", {
+    columns:[
+        {title:"Hidden Column", field:"secret", clipboard:false} //hide data in clipboard data
+    ]
+});
+You can also force a hidden column to be visibile in the clipboard output by setting the
+clipboard
+property in its column definition object to
+true
+:
+var table = new Tabulator("#example-table", {
+    columns:[
+        {title:"Hidden Column", field:"secret", visible:false, clipboard:true} //show hidden column in clipboard output
+    ]
+});
+For more complex usage cases you can pass a callback function to the
+clipboard
+option, this will be called just before the clipboard data is generated. The function will be passed the
+Column Component
+of its column as the first argument and should return a boolean indicating the columns visibility.
+var table = new Tabulator("#example-table", {
+    columns:[
+        {title:"id", field:"id", clipboard:function(column){
+            //column - column component for current column
+
+            return true; //make column visible in clipboard
+        }} 
+    ]
+});
+Row Range
+The
+clipboardCopyRowRange
+option takes a
+Row Range Lookup
+value and allows you to choose which rows are included in the clipboard output:
+visible
+- Rows currently visible in the table viewport
+active
+- Rows currently in the table
+(rows that pass current filters etc)
+selected
+- Rows currently selected by the selection module
+(this includes not currently active rows)
+range
+- Any currently selected ranges from the range selection module
+all
+- All rows in the table regardless of filters
+These selectors can also be used when programmatically triggering a copy event. in this case if the selector is not specified it will default to the value set in the
+clipboardCopyRowRange
+property
+(which is
+active
+by default)
+.
+var table = new Tabulator("#example-table", {
+    clipboardCopyRowRange:"selected", //change default selector to selected
+});
+Custom Row Range
+For custom row ranges it is also possible to pass a function into the
+clipboardCopyRowRange
+option that should return an array of
+Row Components
+:
+var table = new Tabulator("#example-table", {
+    clipboardCopyRowRange:function(){
+        //only copy rows to clipboard where the age is over 18
+        return this.getRows().filter((row) => {
+            return row.getData().age > 18;
+        });
+    },
+});
+Copy Formatter
+You can alter the finished output to the clipboard using the
+clipboardCopyFormatter
+callback. The callback function receives two arguments, the first is a string representing the type of content to be formatted
+(either "plain" or "html" depending on the type of data entering the clipboard)
+. The second argument is the string that is about to be inserted into the clipboard. The function and should return a string that will be inserted into the clipboard:
+var table = new Tabulator("#example-table", {
+    clipboardCopyFormatter:function(type, output){
+        //type - a string representing the type of the content, either "plain" or "html"
+        //output - the output string about to be passed to the clipboard
+
+        if(type == "plain"){
+            output += "/n Copyright Bob Green 2020";
+        }
+
+        return output;
+    }
+});
+The clipboard system will by default output a plain text version of the table as well as an HTML version to allow the content to be pasted into a range of different systems. For this reason the
+clipboardCopyFormatter
+may be called several times during one copy action as it processes the different types of clipboard data
+Copy Style
+By default Tabulator will copy some of the tables styling along with the data to give a better visual appearance when pasted into other documents.
+If you want to only copy the unstyled data then you should set the
+clipboardCopyStyled
+option to false in the table options object:
+var table = new Tabulator("#example-table", {
+    clipboard:true,
+    clipboardCopyStyled:false,
+});
+Change Column Title in Clipboard
+You can add a custom column title to be used in the clipboard data instead of the usual title by setting the
+titleClipboard
+property in the column definition object:
+var table = new Tabulator("#example-table", {
+    columns:[
+        {title:"Name", field:"name", titleClipboard:"Full Name"} //change column title to "Full Name" in clipboard output
+    ]
+});
+Clipboard Accessors
+You can use the
+accessorClipboard
+and
+accessorClipboardParams
+options on a column definition to alter the value of data in a column before it is added to the clipboard.
+The example below will transform all ages into a boolean, showing if they are over 18 or not. The
+accessorClipboardParams
+is used to pass the age limit to the accessor so the same accessor function can be used on multiple columns with different age limits:
+var ageAccessor = function(value, data, type, params, column){
+    return value >= params.legalAge;
+}
+
+{title:"Under Age", field:"age", accessorClipboard:ageAccessor, accessorClipboardParams:{legalAge:18} }
+Full details of how accessors work can be found in the
+Accessors Documentation
+.
+Clipboard Formatters
+Cell Formatters
+When copying to the clipboard you may want to apply a different formatter from the one usualy used to format the cell, you can do this using the
+formatterClipboard
+column definition option.
+You can use the
+formatterClipboardParams
+to pass in any additional params to the formatter
+These properties take the same inputs as the standard
+formatter
+property
+//define clipboard formatter
+function clipboardFormatter(cell, formatterParams, onRendered){
+    return cell.getValue() ? "YES" : "NO";
+}
+
+//column definition
+{title:"Driver", field:"driver", formatter:"tickCross", formatterClipboard:printFormatter} //show "YES"/"NO" in the cell when copying to the clipboard
+Passing a value of
+false
+into the formatter will cause the value to be shown as plain text without a formatter
+Row Formatter
+When copying to the clipboard you may want to apply a different formatter may want to apply a different formatter from the one usualy used to format the row. You can now do this using the
+rowFormatterClipboard
+table option, which takes the same inputs as the standard
+rowFormatter
+property.
+var table = new Tabulator("#example-table", {
+    rowFormatter:function(row){
+        //row - row component
+
+        var data = row.getData();
+
+        if(data.col == "blue"){
+            row.getElement().style.backgroundColor = "#1e3b20";
+        }
+    },
+    rowFormatterClipboard:function(row){
+        //row - row component
+
+        var data = row.getData();
+
+        if(data.col == "blue"){
+            row.getElement().style.backgroundColor = "#0000ff"; //use a different shade of blue background when copying to the clipboard
+        }
+    },
+});
+Passing a value of
+false
+into the formatter prevent the default row formatter from being run when the table is copied to the clipboard
+Group Header
+When copying to clipboard you may want to apply a different group header from the one usualy used in the table. You can now do this using the
+groupHeaderClipboard
+table option, which takes the same inputs as the standard
+groupHeader
+property.
+var table = new Tabulator("#example-table", {
+    groupHeader: function(value, count, data, group){
+        return value + "<span style='color:#d00; margin-left:10px;'>(" + count + " item)</span>";
+    },
+    groupHeaderClipboard: function(value, count, data, group){
+        return value + "<span style='color:#d00; margin-left:10px;'></span>";
+    },
+});
+Passing a value of
+false
+into
+groupHeaderClipboard
+will cause the header to show the groups key as plain text
+Pasting Data
+You can paste data into the table by making sure it has focus and pressing
+ctrl + v
+, there is no keybinding for this as the paste action is triggered by the paste event from the browse.
+When data is pasted into the table, it is validated and converted into rows by the paste parser, then a paste action is triggered.
+Paste Parser
+The paste parser allows Tabulator to ingest a text string from the clipboard and turn it into row formatted data
+The parser can be set using the
+clipboardPasteParser
+option, which can take one of two value:
+table
+- formats data as whole tables worth of row data
+(default)
+range
+- accepts smaller ranges of cells
+(only to be used with the range selection module)
+var table = new Tabulator("#example-table", {
+    clipboardPasteParser:"range", //use the range parser
+});
+The default
+table
+paste parser, is designed to take a table formatted text string from the clipboard and turn it into row data. it breaks the tada into rows on a newline character
+\n
+and breaks the rows down to columns on a tab character
+\t
+.
+It will then attempt to work out which columns in the data correspond to columns in the table. It tries three different ways to achieve  this. First it checks the values of all columns in the first row of data to see if they match the titles of columns in the table. If any of the columns don't match it then tries the same approach but with the column fields. If either of those options match, Tabulator will map those columns to the incoming data and import it into rows. If there is no match then Tabulator will assume the columns in the data are in the same order as the visible columns in the table and import them that way.
+The
+table
+parser will reject any clipboard data that does not contain at least one row and two columns, in that case the
+clipboardPasteError
+will be triggered.
+Custom Parser
+You can also pass a custom parser function into the
+clipboardPasteParser
+property, it should take one argument of the string of clipboard data and return an array of row data objects that will be passed to the paste action. If the clipboard data isn't valid it should return
+false
+.
+var table = new Tabulator("#example-table", {
+    clipboardPasteParser:function(clipboard){
+
+        //turn clipboard data into array
+
+        return clipboardArray; //return array
+    }
+});
+Extended Module Parser
+If you extend the clipboard module to add your own parser, you can set it to be used as default with the
+clipboardPasteParser
+property.
+var table = new Tabulator("#example-table", {
+    clipboardPasteParser:"customParser", //use a custom built in parser
+});
+Paste Action
+Once the data has been parsed into row data, it will be passed to a paste action to be added to the table. There are three inbuilt paste actions:
+insert
+- Inserts data into the table using the
+addRows
+function
+(default)
+update
+- Updates data in the table using the
+updateOrAddData
+function
+replace
+- replaces all data in the table using the
+setData
+function
+range
+- update rows in active range with parsed range data
+(only to be used with the range selection module)
+You can set which action should be performed using the
+clipboardPasteAction
+property.
+var table = new Tabulator("#example-table", {
+    clipboardPasteAction:"replace", //use replace action on paste
+});
+You can also pass a custom action function into the
+clipboardPasteAction
+property, it should take one argument of the row data from the paste parse function and trigger an action on the table and where possible return the row objects that are created
+var table = new Tabulator("#example-table", {
+    clipboardPasteAction:function(rowData){
+        return this.table.updateData(rows);
+    }
+});
+Clipboard Mutators
+You can use the
+mutatorClipboard
+and
+mutatorClipboardParams
+options on a column definition to alter the value of data in a column as it is pasted into the table.
+The example below will transform all ages into a boolean, showing if they are over 18 or not. The
+mutatorClipboardParams
+is used to pass the age limit to the accessor so the same accessor function can be used on multiple columns with different age limits:
+var ageAccessor = function(value, data, type, params, column){
+    return value >= params.legalAge;
+}
+
+{title:"Under Age", field:"age", mutatorClipboard:ageAccessor, mutatorClipboardParams:{legalAge:18} }
+Note:
+The
+mutateClipboard
+is called before the paste action is triggered, which may result in a different mutator being triggered after mutateClipboard.
+Events
+A range of events are available for the clipboard. See the
+Clipboard Events
+section for more information.

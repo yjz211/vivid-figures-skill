@@ -1,0 +1,153 @@
+<!doctype html><meta charset="utf-8"><title>雷达山脊融合图</title><style>body{font-family:system-ui;margin:28px}pre{white-space:pre-wrap;font-size:13px;line-height:1.7}span:target{background:#fff2b2}</style><h1>雷达山脊融合图</h1><p><a href="SOURCE.md">来源与编码</a> · <a href="original.py">完整源码</a></p><pre><span id="L1"><a href="#L1">   1</a> &quot;&quot;&quot;Radar-ridgeline fusion reconstructed from a user reference image.</span>
+<span id="L2"><a href="#L2">   2</a> </span>
+<span id="L3"><a href="#L3">   3</a> Each ring has a fixed radial baseline. Local Gaussian ridges at the category</span>
+<span id="L4"><a href="#L4">   4</a> spokes encode scalar values on one shared scale. They are not KDE estimates.</span>
+<span id="L5"><a href="#L5">   5</a> &quot;&quot;&quot;</span>
+<span id="L6"><a href="#L6">   6</a> from pathlib import Path</span>
+<span id="L7"><a href="#L7">   7</a> import argparse</span>
+<span id="L8"><a href="#L8">   8</a> import csv</span>
+<span id="L9"><a href="#L9">   9</a> import sys</span>
+<span id="L10"><a href="#L10">  10</a> </span>
+<span id="L11"><a href="#L11">  11</a> import numpy as np</span>
+<span id="L12"><a href="#L12">  12</a> import matplotlib</span>
+<span id="L13"><a href="#L13">  13</a> matplotlib.use(&#x27;Agg&#x27;)</span>
+<span id="L14"><a href="#L14">  14</a> import matplotlib.pyplot as plt</span>
+<span id="L15"><a href="#L15">  15</a> from matplotlib.patches import Patch</span>
+<span id="L16"><a href="#L16">  16</a> </span>
+<span id="L17"><a href="#L17">  17</a> for base in (Path.cwd(), *Path.cwd().parents, *Path(__file__).resolve().parents):</span>
+<span id="L18"><a href="#L18">  18</a>     found = next((p for p in (base/&#x27;_utils&#x27;, base/&#x27;original/resources/assets/shared-scripts&#x27;)</span>
+<span id="L19"><a href="#L19">  19</a>                   if (p/&#x27;vivid_config.py&#x27;).is_file()), None)</span>
+<span id="L20"><a href="#L20">  20</a>     if found is not None:</span>
+<span id="L21"><a href="#L21">  21</a>         sys.path.insert(0, str(found)); break</span>
+<span id="L22"><a href="#L22">  22</a> else:</span>
+<span id="L23"><a href="#L23">  23</a>     raise RuntimeError(&#x27;Run Vivid bootstrap in the workspace before using this recipe.&#x27;)</span>
+<span id="L24"><a href="#L24">  24</a> from plot_utils import PALETTE, COLORS, setup_style</span>
+<span id="L25"><a href="#L25">  25</a> </span>
+<span id="L26"><a href="#L26">  26</a> </span>
+<span id="L27"><a href="#L27">  27</a> def read_wide_csv(path):</span>
+<span id="L28"><a href="#L28">  28</a>     &quot;&quot;&quot;Read category + 2–4 layer columns from a rectangular wide CSV.&quot;&quot;&quot;</span>
+<span id="L29"><a href="#L29">  29</a>     with Path(path).open(encoding=&#x27;utf-8-sig&#x27;, newline=&#x27;&#x27;) as stream:</span>
+<span id="L30"><a href="#L30">  30</a>         rows = list(csv.reader(stream))</span>
+<span id="L31"><a href="#L31">  31</a>     if len(rows) &lt; 2 or len(rows[0]) &lt; 3 or any(len(row) != len(rows[0]) for row in rows):</span>
+<span id="L32"><a href="#L32">  32</a>         raise ValueError(&#x27;CSV must be rectangular: category plus 2–4 value columns.&#x27;)</span>
+<span id="L33"><a href="#L33">  33</a>     categories = [row[0].strip() for row in rows[1:]]</span>
+<span id="L34"><a href="#L34">  34</a>     layer_names = [name.strip() for name in rows[0][1:]]</span>
+<span id="L35"><a href="#L35">  35</a>     if any(not item for item in categories + layer_names):</span>
+<span id="L36"><a href="#L36">  36</a>         raise ValueError(&#x27;Category and layer labels must be nonempty.&#x27;)</span>
+<span id="L37"><a href="#L37">  37</a>     values = np.array([[float(value) for value in row[1:]] for row in rows[1:]], dtype=float).T</span>
+<span id="L38"><a href="#L38">  38</a>     return categories, layer_names, values</span>
+<span id="L39"><a href="#L39">  39</a> </span>
+<span id="L40"><a href="#L40">  40</a> </span>
+<span id="L41"><a href="#L41">  41</a> def validate_data(categories, layer_names, values):</span>
+<span id="L42"><a href="#L42">  42</a>     values = np.asarray(values, dtype=float)</span>
+<span id="L43"><a href="#L43">  43</a>     if not 5 &lt;= len(categories) &lt;= 16:</span>
+<span id="L44"><a href="#L44">  44</a>         raise ValueError(&#x27;Use 5–16 ordered categories for a readable radial layout.&#x27;)</span>
+<span id="L45"><a href="#L45">  45</a>     if not 2 &lt;= len(layer_names) &lt;= 4 or values.shape != (len(layer_names), len(categories)):</span>
+<span id="L46"><a href="#L46">  46</a>         raise ValueError(&#x27;Values must match 2–4 layers by all categories.&#x27;)</span>
+<span id="L47"><a href="#L47">  47</a>     if (len(set(categories)) != len(categories) or len(set(layer_names)) != len(layer_names)</span>
+<span id="L48"><a href="#L48">  48</a>             or not np.isfinite(values).all()):</span>
+<span id="L49"><a href="#L49">  49</a>         raise ValueError(&#x27;Labels must be unique and all values finite.&#x27;)</span>
+<span id="L50"><a href="#L50">  50</a>     return values</span>
+<span id="L51"><a href="#L51">  51</a> </span>
+<span id="L52"><a href="#L52">  52</a> </span>
+<span id="L53"><a href="#L53">  53</a> def wrapped_delta(theta, center):</span>
+<span id="L54"><a href="#L54">  54</a>     return np.angle(np.exp(1j * (theta - center)))</span>
+<span id="L55"><a href="#L55">  55</a> </span>
+<span id="L56"><a href="#L56">  56</a> </span>
+<span id="L57"><a href="#L57">  57</a> def ridge_curve(theta, centers, normalized, baseline, width):</span>
+<span id="L58"><a href="#L58">  58</a>     &quot;&quot;&quot;Add smooth local peaks to one circular baseline.&quot;&quot;&quot;</span>
+<span id="L59"><a href="#L59">  59</a>     curve = np.full_like(theta, baseline, dtype=float)</span>
+<span id="L60"><a href="#L60">  60</a>     heights = .18 + .55 * normalized</span>
+<span id="L61"><a href="#L61">  61</a>     for center, height in zip(centers, heights):</span>
+<span id="L62"><a href="#L62">  62</a>         curve += height * np.exp(-.5 * (wrapped_delta(theta, center) / width) ** 2)</span>
+<span id="L63"><a href="#L63">  63</a>     return curve</span>
+<span id="L64"><a href="#L64">  64</a> </span>
+<span id="L65"><a href="#L65">  65</a> </span>
+<span id="L66"><a href="#L66">  66</a> def label_alignment(theta):</span>
+<span id="L67"><a href="#L67">  67</a>     horizontal = np.sin(theta)</span>
+<span id="L68"><a href="#L68">  68</a>     return &#x27;left&#x27; if horizontal &gt; .25 else &#x27;right&#x27; if horizontal &lt; -.25 else &#x27;center&#x27;</span>
+<span id="L69"><a href="#L69">  69</a> </span>
+<span id="L70"><a href="#L70">  70</a> </span>
+<span id="L71"><a href="#L71">  71</a> def plot_chart(categories, layer_names, values, *, value_suffix=&#x27;%&#x27;, value_format=&#x27;.1f&#x27;):</span>
+<span id="L72"><a href="#L72">  72</a>     &quot;&quot;&quot;Draw 2–4 concentric ridgeline rings on a radar spoke skeleton.</span>
+<span id="L73"><a href="#L73">  73</a> </span>
+<span id="L74"><a href="#L74">  74</a>     All values use one global min/max normalization for comparable peak heights.</span>
+<span id="L75"><a href="#L75">  75</a>     Preprocess cost-type indicators so every category has the same direction.</span>
+<span id="L76"><a href="#L76">  76</a>     &quot;&quot;&quot;</span>
+<span id="L77"><a href="#L77">  77</a>     values = validate_data(categories, layer_names, values)</span>
+<span id="L78"><a href="#L78">  78</a>     setup_style()</span>
+<span id="L79"><a href="#L79">  79</a>     n_categories, n_layers = len(categories), len(layer_names)</span>
+<span id="L80"><a href="#L80">  80</a>     centers = np.linspace(0, 2*np.pi, n_categories, endpoint=False)</span>
+<span id="L81"><a href="#L81">  81</a>     theta = np.linspace(0, 2*np.pi, 1800, endpoint=True)</span>
+<span id="L82"><a href="#L82">  82</a>     span = float(np.ptp(values))</span>
+<span id="L83"><a href="#L83">  83</a>     normalized = np.full_like(values, .5) if span == 0 else (values-values.min())/span</span>
+<span id="L84"><a href="#L84">  84</a>     baselines = .82 + 1.20*np.arange(n_layers)</span>
+<span id="L85"><a href="#L85">  85</a>     width = .23 * (2*np.pi/n_categories)</span>
+<span id="L86"><a href="#L86">  86</a>     color_order = [1, 3, 0, 4]</span>
+<span id="L87"><a href="#L87">  87</a>     colors = [PALETTE[color_order[i] % len(PALETTE)] for i in range(n_layers)]</span>
+<span id="L88"><a href="#L88">  88</a> </span>
+<span id="L89"><a href="#L89">  89</a>     fig = plt.figure(figsize=(9.0, 7.7), facecolor=&#x27;white&#x27;)</span>
+<span id="L90"><a href="#L90">  90</a>     ax = fig.add_subplot(111, projection=&#x27;polar&#x27;)</span>
+<span id="L91"><a href="#L91">  91</a>     ax.set_theta_zero_location(&#x27;N&#x27;); ax.set_theta_direction(-1); ax.set_facecolor(&#x27;white&#x27;)</span>
+<span id="L92"><a href="#L92">  92</a>     curves = []</span>
+<span id="L93"><a href="#L93">  93</a>     for row, (name, baseline, color) in enumerate(zip(layer_names, baselines, colors)):</span>
+<span id="L94"><a href="#L94">  94</a>         curve = ridge_curve(theta, centers, normalized[row], baseline, width)</span>
+<span id="L95"><a href="#L95">  95</a>         curves.append(curve)</span>
+<span id="L96"><a href="#L96">  96</a>         ax.fill_between(theta, baseline, curve, color=color, alpha=.72, linewidth=0, zorder=2)</span>
+<span id="L97"><a href="#L97">  97</a>         ax.plot(theta, curve, color=color, linewidth=1.35, alpha=.95, zorder=3)</span>
+<span id="L98"><a href="#L98">  98</a>         ax.plot(theta, np.full_like(theta, baseline), color=color, linewidth=.65,</span>
+<span id="L99"><a href="#L99">  99</a>                 alpha=.38, zorder=1)</span>
+<span id="L100"><a href="#L100"> 100</a> </span>
+<span id="L101"><a href="#L101"> 101</a>     outer_label_radius = baselines[-1] + .18 + .55 + .42</span>
+<span id="L102"><a href="#L102"> 102</a>     for angle in centers:</span>
+<span id="L103"><a href="#L103"> 103</a>         ax.plot([angle, angle], [.16, outer_label_radius-.17], color=COLORS[&#x27;ref_line&#x27;],</span>
+<span id="L104"><a href="#L104"> 104</a>                 linewidth=.7, linestyle=(0, (3, 4)), alpha=.72, zorder=0)</span>
+<span id="L105"><a href="#L105"> 105</a> </span>
+<span id="L106"><a href="#L106"> 106</a>     for row, curve in enumerate(curves):</span>
+<span id="L107"><a href="#L107"> 107</a>         for column, angle in enumerate(centers):</span>
+<span id="L108"><a href="#L108"> 108</a>             idx = int(round(angle/(2*np.pi)*(len(theta)-1)))</span>
+<span id="L109"><a href="#L109"> 109</a>             ax.text(angle, curve[idx]+.055,</span>
+<span id="L110"><a href="#L110"> 110</a>                     f&#x27;{values[row, column]:{value_format}}{value_suffix}&#x27;, fontsize=6.8,</span>
+<span id="L111"><a href="#L111"> 111</a>                     ha=&#x27;center&#x27;, va=&#x27;bottom&#x27;, color=&#x27;#30343B&#x27;, zorder=5)</span>
+<span id="L112"><a href="#L112"> 112</a> </span>
+<span id="L113"><a href="#L113"> 113</a>     for angle, category in zip(centers, categories):</span>
+<span id="L114"><a href="#L114"> 114</a>         ax.text(angle, outer_label_radius, category, fontsize=10.2, fontweight=&#x27;medium&#x27;,</span>
+<span id="L115"><a href="#L115"> 115</a>                 ha=label_alignment(angle), va=&#x27;center&#x27;, color=COLORS[&#x27;text&#x27;], zorder=6)</span>
+<span id="L116"><a href="#L116"> 116</a> </span>
+<span id="L117"><a href="#L117"> 117</a>     ax.set_ylim(0, outer_label_radius+.38)</span>
+<span id="L118"><a href="#L118"> 118</a>     ax.set_xticks([]); ax.set_yticks([]); ax.grid(False); ax.spines[&#x27;polar&#x27;].set_visible(False)</span>
+<span id="L119"><a href="#L119"> 119</a>     handles = [Patch(facecolor=color, edgecolor=&#x27;none&#x27;, alpha=.78, label=name)</span>
+<span id="L120"><a href="#L120"> 120</a>                for name, color in zip(layer_names, colors)]</span>
+<span id="L121"><a href="#L121"> 121</a>     ax.legend(handles=handles, title=&#x27;数据层&#x27;, loc=&#x27;center left&#x27;, bbox_to_anchor=(1.03, .52),</span>
+<span id="L122"><a href="#L122"> 122</a>               frameon=False, handlelength=1.25, handleheight=1.25, labelspacing=.65,</span>
+<span id="L123"><a href="#L123"> 123</a>               fontsize=9.2, title_fontsize=10.2)</span>
+<span id="L124"><a href="#L124"> 124</a>     fig.subplots_adjust(left=.04, right=.82, top=.97, bottom=.04)</span>
+<span id="L125"><a href="#L125"> 125</a>     return fig</span>
+<span id="L126"><a href="#L126"> 126</a> </span>
+<span id="L127"><a href="#L127"> 127</a> </span>
+<span id="L128"><a href="#L128"> 128</a> def main():</span>
+<span id="L129"><a href="#L129"> 129</a>     parser = argparse.ArgumentParser(description=__doc__)</span>
+<span id="L130"><a href="#L130"> 130</a>     parser.add_argument(&#x27;--data&#x27;, type=Path, help=&#x27;Wide CSV: category plus 2–4 comparable layers&#x27;)</span>
+<span id="L131"><a href="#L131"> 131</a>     parser.add_argument(&#x27;--output&#x27;, type=Path, default=Path(&#x27;figures/fig_radar_ridgeline&#x27;))</span>
+<span id="L132"><a href="#L132"> 132</a>     parser.add_argument(&#x27;--suffix&#x27;, default=&#x27;%&#x27;, help=&#x27;Visible value suffix; use an empty string for none&#x27;)</span>
+<span id="L133"><a href="#L133"> 133</a>     parser.add_argument(&#x27;--format&#x27;, default=&#x27;.1f&#x27;, help=&#x27;Python numeric format without braces&#x27;)</span>
+<span id="L134"><a href="#L134"> 134</a>     args = parser.parse_args()</span>
+<span id="L135"><a href="#L135"> 135</a>     if args.data:</span>
+<span id="L136"><a href="#L136"> 136</a>         categories, layer_names, values = read_wide_csv(args.data)</span>
+<span id="L137"><a href="#L137"> 137</a>     else:</span>
+<span id="L138"><a href="#L138"> 138</a>         categories = [&#x27;精度&#x27;,&#x27;效率&#x27;,&#x27;鲁棒&#x27;,&#x27;泛化&#x27;,&#x27;稳定&#x27;,&#x27;响应&#x27;,&#x27;能耗&#x27;,&#x27;成本&#x27;,&#x27;扩展&#x27;,&#x27;安全&#x27;]</span>
+<span id="L139"><a href="#L139"> 139</a>         layer_names = [&#x27;测试组&#x27;,&#x27;训练组&#x27;,&#x27;总体&#x27;]</span>
+<span id="L140"><a href="#L140"> 140</a>         values = np.array([[32.8,25.4,29.7,18.9,24.6,21.3,16.8,22.5,27.9,19.7],</span>
+<span id="L141"><a href="#L141"> 141</a>                            [38.6,31.1,35.8,27.6,33.2,29.5,25.1,28.7,34.6,26.4],</span>
+<span id="L142"><a href="#L142"> 142</a>                            [44.7,36.2,42.1,34.5,39.8,37.4,31.6,35.2,41.3,33.8]])</span>
+<span id="L143"><a href="#L143"> 143</a>     fig = plot_chart(categories, layer_names, values,</span>
+<span id="L144"><a href="#L144"> 144</a>                      value_suffix=args.suffix, value_format=args.format)</span>
+<span id="L145"><a href="#L145"> 145</a>     args.output.parent.mkdir(parents=True, exist_ok=True)</span>
+<span id="L146"><a href="#L146"> 146</a>     for suffix in (&#x27;png&#x27;, &#x27;pdf&#x27;):</span>
+<span id="L147"><a href="#L147"> 147</a>         fig.savefig(args.output.with_suffix(&#x27;.&#x27;+suffix), dpi=320, facecolor=&#x27;white&#x27;,</span>
+<span id="L148"><a href="#L148"> 148</a>                     bbox_inches=&#x27;tight&#x27;, pad_inches=.18)</span>
+<span id="L149"><a href="#L149"> 149</a>     plt.close(fig)</span>
+<span id="L150"><a href="#L150"> 150</a>     print(&#x27;Saved PNG and PDF:&#x27;, args.output)</span>
+<span id="L151"><a href="#L151"> 151</a> </span>
+<span id="L152"><a href="#L152"> 152</a> </span>
+<span id="L153"><a href="#L153"> 153</a> if __name__ == &#x27;__main__&#x27;: main()</span></pre>

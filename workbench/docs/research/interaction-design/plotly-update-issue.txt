@@ -1,0 +1,83 @@
+Editing titles within the plot doesn't call onUpdate · Issue #1180 · plotly/react-chart-editor · GitHub
+Skip to content
+Navigation Menu
+Sign in
+Appearance settings
+Search
+/
+Sign in
+Sign up
+Appearance settings
+You signed in with another tab or window.
+Reload
+to refresh your session.
+You signed out in another tab or window.
+Reload
+to refresh your session.
+You switched accounts on another tab or window.
+Reload
+to refresh your session.
+Dismiss alert
+plotly
+/
+react-chart-editor
+Public
+Uh oh!
+There was an error while loading.
+Please reload this page
+.
+Notifications
+You must be signed in to change notification settings
+Fork
+113
+Star
+523
+Editing titles within the plot doesn't call onUpdate
+#1180
+New issue
+Copy link
+New issue
+Copy link
+Open
+Open
+Editing titles within the plot doesn't call onUpdate
+#1180
+Copy link
+Description
+alexmojaki
+opened
+on Sep 29, 2023
+Issue body actions
+The plot/axis titles can be conveniently edited 'inline', i.e. in the same place that they're displayed, but this doesn't trigger the
+PlotlyEditor.onUpdate
+callback. On the other hand, they sync nicely with the editors in the controls sidebar under Style > General/Axes, and making the edits there does correctly call
+onUpdate
+.
+For my application this makes the inline editing effectively broken, as the changes won't be saved. Is there a way to disable it so that users don't get confused?
+Overall though this is a great project that'll be very valuable to us, so thank you!
+Reactions are currently unavailable
+Activity
+Sign up for free
+to join this conversation on GitHub.
+Already have an account?
+Sign in to comment
+Metadata
+Metadata
+Assignees
+No one assigned
+Labels
+No labels
+No labels
+Type
+No type
+Projects
+No projects
+Milestone
+No milestone
+Relationships
+None yet
+Development
+No branches or pull requests
+Issue actions
+Open in GitHub Copilot app
+You can’t perform that action at this time.

@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6f3e9">
+  <title>VIVID · 绘图工作台</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="frontend/style.css">
+  <script defer src="assets/catalog.js"></script><script defer src="assets/editable.js"></script><script defer src="frontend/app.js"></script>
+</head>
+<body>
+  <a class="skip" href="#gallery">跳到图表</a>
+  <header class="topbar">
+    <a class="brand" href="index.html" aria-label="Vivid 绘图工作台首页"><svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><path fill="currentColor" d="M0 0h12v4H4v8H0zM20 0h12v12h-4V4h-8zM0 20h4v8h8v4H0zM28 20h4v12H20v-4h8zM8 9h4v10h4v-4h4V9h4v10h-4v4h-8v-4H8z"/></svg><span>VIVID<span class="brand-caption">绘图工作台</span></span></a>
+    <nav class="topnav" aria-label="图库视图"><button id="library-tab" class="nav-tab active" aria-pressed="true">图表库 <span id="total-count">147</span></button><button id="favorites-tab" class="nav-tab" aria-pressed="false">我的收藏 <span id="favorite-count">0</span></button></nav>
+    <div class="local"><i></i> 本地运行 <span class="version">/ DEMO 01</span></div>
+  </header>
+  <div class="shell">
+    <aside class="sidebar">
+      <div class="side-heading"><span>按图形找</span><span class="mono">INDEX / 01</span></div>
+      <nav id="categories" aria-label="图表分类"></nav>
+      <div class="sidebar-note"><svg viewBox="0 0 48 48" aria-hidden="true"><path fill="#c7d5a4" d="M8 4h12v8h8V0h12v16H28v8h-8V16H8z"/><path fill="#526143" d="M20 20h4v16h-4z"/><path fill="#d995a1" d="M10 32h28v4h-4v12H14V36h-4z"/><path fill="#302f2c" d="M10 32h28v4H10zM14 44h20v4H14z"/></svg><b>先看图，再拿代码。</b><p>每张图都有适用数据、<br>视觉要点和完整源码。</p><span class="mono">MADE FOR YOUR NEXT FIGURE</span></div>
+    </aside>
+    <main>
+      <section class="intro">
+        <div><div class="eyebrow"><span class="pixel-star">✦</span> 一座可以带走的图表库</div><h1>好图，从这里开始<span class="square-dot">.</span></h1><p>找到适合数据的表达，把喜欢的图变成自己的。</p></div>
+        <div class="palette-card"><div class="palette-head"><span>预览配色</span><span class="mono">COLOR / 06</span></div><div class="swatches" id="swatches"></div><strong>粉彩少女</strong><span class="palette-foot">全部预览 · 同一色调</span></div>
+      </section>
+      <section class="search-section" aria-label="搜索图表">
+        <div class="searchbox"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 2h10v3h3v10h-3v3H5v-3H2V5h3zm1 3v2H5v6h2v2h6v-2h2V7h-2V5zm11 12h3v3h3v3h-3v-3h-3z" fill="currentColor"/></svg><input id="search" type="search" autocomplete="off" placeholder="搜索图名、数据特征或用途，如：分布、三维、SHAP…" aria-label="搜索图名、关键词或用途"><button id="clear-search" hidden aria-label="清空搜索">×</button><kbd>/</kbd></div>
+        <div class="search-hints"><span>试试看</span><button data-query="山脊">山脊</button><button data-query="三维">三维</button><button data-query="相关性">相关性</button><button data-query="不确定性">不确定性</button><button data-query="SHAP">SHAP</button><label class="editable-filter"><input type="checkbox" id="editable-filter">全部可编辑 · 147</label><span class="search-note">搜索名称、别名与知识卡片</span></div>
+      </section>
+      <section aria-labelledby="result-title">
+        <div class="results-bar"><div><h2 id="result-title">全部图表</h2><span id="result-count" aria-live="polite"></span></div><div class="result-actions"><button id="reset" hidden>重置筛选 ↺</button><label for="sort">排序</label><select id="sort"><option value="recommended">精选优先</option><option value="number">模板编号</option><option value="newest">最近加入</option><option value="name">名称排序</option></select></div></div>
+        <div id="active-query" hidden></div>
+        <div class="gallery" id="gallery"></div>
+        <div class="empty" id="empty" hidden><div class="empty-pixel">[ ? ]</div><h3>暂时没有找到这张图</h3><p>换个关键词试试，例如「分布」「趋势」或「三维」。</p><button class="button primary" id="empty-reset">查看全部图表</button></div>
+        <div class="pagination" id="pagination"></div>
+      </section>
+      <footer><span><b>VIVID</b> / 图表工具箱</span><span>本地资源，无需联网 · 预览使用模板示例数据</span><a href="使用说明.md" target="_blank">使用说明 ↗</a></footer>
+    </main>
+  </div>
+  <dialog id="detail" aria-labelledby="detail-title">
+    <div class="dialog-bar"><span id="detail-number" class="mono"></span><span class="dialog-hint">模板详情</span><button id="close-detail" class="icon-button" aria-label="关闭详情">×</button></div>
+    <div class="detail-layout"><div class="preview-pane"><div class="preview-top"><span><i class="pink-square"></i> 粉彩少女 · 实际渲染</span><a id="full-image" target="_blank" rel="noopener">打开原图 ↗</a></div><div class="large-preview"><img id="detail-image" alt=""></div><div id="image-selector"></div><div class="preview-caption">模板示例数据 · 用于展示图形结构与配色</div><div class="detail-pager"><button id="prev-chart">← 上一张</button><span id="detail-position" class="mono"></span><button id="next-chart">下一张 →</button></div></div>
+      <div class="info-pane"><div class="detail-title-row"><div><div id="detail-kind" class="eyebrow"></div><h2 id="detail-title"></h2></div><button id="detail-favorite" class="icon-button" aria-label="收藏图表">☆</button></div><div id="detail-tags" class="tags"></div>
+        <div class="detail-tabs" role="tablist" aria-label="详情内容"><button id="info-tab" role="tab" aria-selected="true" aria-controls="info-content" tabindex="0">认识这张图</button><button id="code-tab" role="tab" aria-selected="false" aria-controls="code-content" tabindex="-1">查看源码</button></div>
+        <div id="info-content" role="tabpanel" aria-labelledby="info-tab"><h3>它能回答什么</h3><p id="purpose"></p><h3>适合什么数据</h3><ul id="requirements"></ul><h3>画面里的细节</h3><ul id="features"></ul><div class="adaptation"><h3>使用提示</h3><p id="adaptation"></p></div></div>
+        <div id="code-content" role="tabpanel" aria-labelledby="code-tab" hidden><div class="code-controls"><label class="sr-only" for="source-mode">源码版本</label><select id="source-mode"><option value="preview">粉彩少女预览源码</option><option value="original">库内原始源码</option></select><button id="copy-code">复制代码</button></div><p id="code-note">完整源码。运行所需的辅助模块包含在下载包中。</p><pre tabindex="0"><code id="source-code"></code></pre><a id="download-python" class="text-link" download>单独下载 .py ↗</a></div>
+        <div class="download-area"><a class="button primary" id="use-template" hidden>用此模板绘图 ↗</a><a class="button primary" id="download-bundle" download><span>↓</span> 下载模板包 <small>.zip</small></a><p>含源码、粉彩配色、辅助模块和运行说明</p></div>
+      </div>
+    </div>
+  </dialog>
+  <div id="toast" role="status" hidden></div>
+  <noscript>请启用 JavaScript 来搜索和查看本地图表库。</noscript>
+</body>
+</html>

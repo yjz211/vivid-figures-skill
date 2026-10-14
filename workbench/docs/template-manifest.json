@@ -1,0 +1,4007 @@
+{
+  "version": 1,
+  "recorded_on": "2026-10-01",
+  "source_package": "..",
+  "source_git_head": "c043f0553c7c3188b1bb8dcbf7db76d2adf98375",
+  "source_working_tree_dirty": true,
+  "note": "Snapshot of existing workbench assets. All original sources matched the source package working tree. No template was rebuilt or changed during folder cleanup.",
+  "template_count": 147,
+  "palette_count": 7,
+  "shared_files": {
+    "assets/catalog.js": "80d83f8214176d5da85ce3816db736f2cbeceeb0a172c828080dc5a7a5b0e952",
+    "assets/editable.js": "4297e16f36aa13b5ceafb1c93de07e5de421dad52f2ea0828026e5f2eb86c05e",
+    "editor_backend/_utils/china_provinces.geojson": "99adfeded5223848bbe37a0a12f8023e11ee12161c7800521c27db42fdeac275",
+    "editor_backend/_utils/NotoSansSC-Regular.ttf": "ae82f4e2a55e1316a55bcc1d05e9555ce08d8bda07e893b486896b626fd852ff",
+    "editor_backend/_utils/palettes.json": "3334a19a2c88bd2f8fe6312ac3285fbb0775388a9ac4c0ce8db113bd758bb179",
+    "editor_backend/_utils/palette_maps.py": "ae96e91a898a75b6feafd2c5ca54693298d38775ee1cf90717c0a894ac119d8a",
+    "editor_backend/_utils/plot_utils.py": "53740f5c94d6d3a4a4207f67d91d034b47df70c69a93fdf076b22d91da159c74",
+    "editor_backend/_utils/vivid_config.py": "0284ec5fb1b1bb45da3acda9d05357ddecffac297d0e2e8d1b3be20d609eda87"
+  },
+  "sources": [
+    {
+      "id": "basic.grouped_bar",
+      "name": "分组柱状对比",
+      "skill_original": "sources/basic.grouped_bar/original.py",
+      "sha256": {
+        "original.py": "75560cd613a9556c56edde797c0bd26cf2d886de9abd9209358bdf855cc71718",
+        "preview.py": "71832aadd342aa94ab89bfd5aee0e6b6c58047e826a1bb4623f3b4e359f8cef1"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/basic.grouped_bar.zip",
+          "sha256": "1df9a12e7f267cb96c11e78dc915e58597ab91b89b1a4081520978365a32c4bb"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/basic.grouped_bar-1.png",
+          "sha256": "ddd9a02445151a3fe9e100e2431e4f6ab3680c8a89caf8f6a3384e3b1137685c"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/basic.grouped_bar-1.webp",
+          "sha256": "32a045efd2b37dc0047fadbf9fee554e6bcebc4aaf7d4b5ef257df27f26bd0fb"
+        }
+      ]
+    },
+    {
+      "id": "basic.stacked_bar",
+      "name": "堆叠柱与总量趋势",
+      "skill_original": "sources/basic.stacked_bar/original.py",
+      "sha256": {
+        "original.py": "83bab8adef07920d4fa5dd635c348ab1bc6233d600c923bcf9fad5c74dbd5c66",
+        "preview.py": "01f2709462302e51e2cb3e3c0da98174c8c72bb1b7d7b07236504b4bb363b2dd"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/basic.stacked_bar.zip",
+          "sha256": "32e01ea64100f7047455815b4690d96836f0a218a1f98990d76dd755bb8e7b6a"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/basic.stacked_bar-1.png",
+          "sha256": "6ca03c4a308b96b37dfb911933531c192e62bfbc86dd384be1c1f3fdc3ea7c4f"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/basic.stacked_bar-1.webp",
+          "sha256": "b172a0ac0571370d288ed3cac0742d301dd0d54582aa869283001f6451dd995f"
+        }
+      ]
+    },
+    {
+      "id": "basic.line",
+      "name": "多序列折线与分层区间带",
+      "skill_original": "sources/basic.line/original.py",
+      "sha256": {
+        "original.py": "8ec5ff10644dde25495e93522f475cf0c4a1b371bb78714740d4693208c940c3",
+        "preview.py": "3f92547aac509909d6d58b78e5c22063d6642535662af0ddad18d2bdee4d5cf8"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/basic.line.zip",
+          "sha256": "16dd2f8e3ffb28072ebe7e99f06e6c4f4562e22b8671efe30760f4a1e0f65fd9"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/basic.line-1.png",
+          "sha256": "0d0cd3cf5e5e94af82cbad01abed4a54706e09795f082a7c8b9ec4e99da49382"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/basic.line-1.webp",
+          "sha256": "1dbddd5988d3d1b79a5e0cdc815936f9dc9d95a10022d173e78e0db26dccc484"
+        }
+      ]
+    },
+    {
+      "id": "basic.scatter_regression",
+      "name": "散点回归与双边际密度",
+      "skill_original": "sources/basic.scatter_regression/original.py",
+      "sha256": {
+        "original.py": "cdc4139729096974ce284ce4ba3ae0b73a5f4ca8a2c031f006274d79d92921c7",
+        "preview.py": "37c537308414c43949377c80351b50e37ebc005ea437cbcfa59c919253b23523"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/basic.scatter_regression.zip",
+          "sha256": "aa829a79ac65ffdd072e334fcd3215a25580168b672fccbdf70ef30f3611334a"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/basic.scatter_regression-1.png",
+          "sha256": "10bca4d542e77a6620c9bc650774a6aa0d3c9a8532880315535b4e3eaf72129a"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/basic.scatter_regression-1.webp",
+          "sha256": "cf2a6b4925b168d05f40edf7cbc179e99d827447aa8ace6062a3123b1f7e6086"
+        }
+      ]
+    },
+    {
+      "id": "basic.heatmap",
+      "name": "带双侧树状图的下三角相关矩阵",
+      "skill_original": "sources/basic.heatmap/original.py",
+      "sha256": {
+        "original.py": "1e6abb73ec44f5e2818fd49092f67c7e8688617cf61634215cac512ae8f34b6a",
+        "preview.py": "3ba0d14e02045986cd768e6019a5ed100771efcb6452eadb9bf7b31bb363563c"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/basic.heatmap.zip",
+          "sha256": "16383e51e299cd536ad5aac07ce81851f9f81f0417b698eb1aa4867860c8bec3"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/basic.heatmap-1.png",
+          "sha256": "3001ed96271dfd0bed7f9d4b708f5d78ae29cbf625b3e685e8acd0e3c2ca364d"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/basic.heatmap-1.webp",
+          "sha256": "461fd1752dc49700a12f121459d3f4181be78c9337faa9a4692de19195322b5b"
+        }
+      ]
+    },
+    {
+      "id": "basic.donut",
+      "name": "环形构成图",
+      "skill_original": "sources/basic.donut/original.py",
+      "sha256": {
+        "original.py": "00c679853d4b80d3fde20e4c8be4a45e382633ef6556d3855f99d2ec2ed23fe7",
+        "preview.py": "9623b400e0f21643321bef9a2c1c284e4efe33ff06fcd72feabcc6c86943e913"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/basic.donut.zip",
+          "sha256": "e980c6f9872a942783494a7f6d084a33004d8a904ed3312fb8dadc957ae0977a"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/basic.donut-1.png",
+          "sha256": "c9380683a70005834ddfb0df1f8aa1b27da1ff3057111d33db781fa0b63e1aec"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/basic.donut-1.webp",
+          "sha256": "f53c6844ed948298177085f18766c342b2ae7ee5fa7c258c0eb7d32d0adf5ed4"
+        }
+      ]
+    },
+    {
+      "id": "basic.raincloud",
+      "name": "竖向雨云分布组合",
+      "skill_original": "sources/basic.raincloud/original.py",
+      "sha256": {
+        "original.py": "d169c2e5e12b66fde12a76ed1cf025a15292b4e0519ff2a756ee6db6e797661e",
+        "preview.py": "c19974edaf050b0a99dc730133f132f2b5d81437265e210377b96cbb5a981026"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/basic.raincloud.zip",
+          "sha256": "d9a6db9546272d6f58a050ec0bdbe18c952596e856c7a356dbd09dc99b1b3b6d"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/basic.raincloud-1.png",
+          "sha256": "b20cab54ae525808f145ef29fee9030096e5b444034478c6863e470664014ebd"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/basic.raincloud-1.webp",
+          "sha256": "88465c3c5246855b6615e218f40c880e822c96854e944b934d7785e07c3dc15c"
+        }
+      ]
+    },
+    {
+      "id": "basic.area",
+      "name": "堆叠面积与事件标记",
+      "skill_original": "sources/basic.area/original.py",
+      "sha256": {
+        "original.py": "d991f80ab18ed5a439da7880fa5b2679eafe33b64fd5dfc19359e31f0910c5b3",
+        "preview.py": "33a42c5763a5015e2d9eeee40eccfef8f6e08bc81037b73d0acf6953c1452ffd"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/basic.area.zip",
+          "sha256": "b392cbfc67fe35d538a16d7fa2c15ef7142c183ff27c12a3abbd181afbe9cc61"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/basic.area-1.png",
+          "sha256": "81379cadb81fb3275001fdfe4ab0e344f5fd513dfb6c42fb6d80c89b48a151fd"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/basic.area-1.webp",
+          "sha256": "632bb56faff1a69b8fc67f4d6b930b4b307c844678f8fdfe3815367e4e260ecc"
+        }
+      ]
+    },
+    {
+      "id": "basic.pareto",
+      "name": "贡献排序与累计占比",
+      "skill_original": "sources/basic.pareto/original.py",
+      "sha256": {
+        "original.py": "e27ee23136df5b938032cbcd560da591ba0dc034a197cc530e6439223885d618",
+        "preview.py": "553f5035b6c408f2e878b8ebee48741f5bf1fab5addd767398b3bd816d6b683e"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/basic.pareto.zip",
+          "sha256": "4e932334c8dcd1f745b207ea7e6ba56d8d776167e4e8dc216d4fef41e6af9d5e"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/basic.pareto-1.png",
+          "sha256": "f8f4bad49b4a16a27753a8267f12250bf416353c492053464ba421a6ec1b6cfc"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/basic.pareto-1.webp",
+          "sha256": "5d5e4a4226df258672d0f236d7140e8117e3b32d57bc58534a11327a8becc25c"
+        }
+      ]
+    },
+    {
+      "id": "basic.dual_axis",
+      "name": "柱线双轴组合",
+      "skill_original": "sources/basic.dual_axis/original.py",
+      "sha256": {
+        "original.py": "d309b40f1b881300f92b7e5a0493f774a07e12300ee91b023ff9bf4e76675924",
+        "preview.py": "f680a244da518e7b0997855433088445f339e36f02d6660d22617763f150d43a"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/basic.dual_axis.zip",
+          "sha256": "01955ddcfa6f774c1682a9f1b41d9c991de6d179a639eeca12f2fa43b68bc83d"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/basic.dual_axis-1.png",
+          "sha256": "ba805eb9e6512d6090a83a4c808b5a25707df86d2d10f8510a543f29bcfe5d39"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/basic.dual_axis-1.webp",
+          "sha256": "f1d6a19cea115632ec5abea75608d5611cd364fd5264377574eb3783df87a087"
+        }
+      ]
+    },
+    {
+      "id": "basic.raincloud_violin",
+      "name": "完整小提琴与箱线显著性比较",
+      "skill_original": "sources/basic.raincloud_violin/original.py",
+      "sha256": {
+        "original.py": "935ccf183ecadc7e480d902e6ad54f6ae45d456feb2f43d1063f8f732e744d61",
+        "preview.py": "bab04f762f69f00a8f0253476cf0abb4cb6df5d7a0cbe9044debf98c88afe3e2"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/basic.raincloud_violin.zip",
+          "sha256": "df405e557b343f84d823dda2cce9d608df0556fab93b978f32572598bcf6f880"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/basic.raincloud_violin-1.png",
+          "sha256": "cb777119a14df314217063d3a45e8e63eb8cca571776f3f4dfa2e978457c4a4d"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/basic.raincloud_violin-1.webp",
+          "sha256": "6f46cc535572e1ec5b10f4a47bdd1848d20cb89779abe9fe32d342f8d144e640"
+        }
+      ]
+    },
+    {
+      "id": "basic.multipanel",
+      "name": "折线柱状散点直方四面板",
+      "skill_original": "sources/basic.multipanel/original.py",
+      "sha256": {
+        "original.py": "e60a5cad9d4cd5106c6067eee66913276fa45af1b5998ac31ed9e82640577faa",
+        "preview.py": "5346ff7cc649b861738b1aa835f55a55f74d7d54ab31fff92d980d03de655120"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/basic.multipanel.zip",
+          "sha256": "93947a32456b16b9650b7e693d9d8e2330c50925cc5e80440dc38a8737c7677f"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/basic.multipanel-1.png",
+          "sha256": "dfb8edcdd3a0891acd3d1c72bf993d788f7c0f12d9090516fd1cfea2bf8fb63c"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/basic.multipanel-1.webp",
+          "sha256": "0945b8235fa3889b927d37cf5a58257a5b07c872d10a7ba701394e602d5bc7f4"
+        }
+      ]
+    },
+    {
+      "id": "advanced.lollipop",
+      "name": "排名棒棒糖与徽章",
+      "skill_original": "sources/advanced.lollipop/original.py",
+      "sha256": {
+        "original.py": "fe3dd8ae034c80ccb83faf5193594371e81c0bcfb48795997a468f55cff4b9a2",
+        "preview.py": "614217da087779ff317a1d922e0fc896ab55f5f58c9be5bfef19ec3ed1f72fc0"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/advanced.lollipop.zip",
+          "sha256": "7ddb9e3a9536dd12baa4cac8d5505b5fcb27a5fffb94ad231dc716958c702975"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/advanced.lollipop-1.png",
+          "sha256": "d5831f80d56a1a8252b8da66fed1b580597af748480d26a019a1ab3ab86aaa07"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/advanced.lollipop-1.webp",
+          "sha256": "981637030dc5d6230103a02941c79d47a1108a3688c0b4f3ad8754addff4dcc1"
+        }
+      ]
+    },
+    {
+      "id": "advanced.dumbbell",
+      "name": "前后对比哑铃图",
+      "skill_original": "sources/advanced.dumbbell/original.py",
+      "sha256": {
+        "original.py": "3066ec5c2f58402686b33db8ecbe7dd9d73abfe0cb612a23a59fb14342c16eb4",
+        "preview.py": "2610e42263ff4183352f007f0d4c135981d3b6ea2998ef3951db2332df52731a"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/advanced.dumbbell.zip",
+          "sha256": "97c093a1c5d5527484e43cb2e5c747f6a5c94502ab911d150449d20c95919b76"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/advanced.dumbbell-1.png",
+          "sha256": "893d3d0fd2d64665e9468b40854fd32eec4e6a35cd986d4add743060ef557367"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/advanced.dumbbell-1.webp",
+          "sha256": "3fb100d56d3d4e9efeef2d4776c5f92db4eb81bec0f729b6fee44c93271bf16d"
+        }
+      ]
+    },
+    {
+      "id": "advanced.slope",
+      "name": "两阶段斜率与排名变化",
+      "skill_original": "sources/advanced.slope/original.py",
+      "sha256": {
+        "original.py": "689fb80c0f324b5e77dccc8f45bd76c9298c36e5aa076039369383dcd497ae6c",
+        "preview.py": "460b4d22c92f375f80e5da10c4436be9e12e9339d184f968f360c9305a67aaee"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/advanced.slope.zip",
+          "sha256": "cca3861dd81f7e248bc36ddea1a1bb5b04e6c6c03e827d8f811fd6c351880e99"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/advanced.slope-1.png",
+          "sha256": "500891b72444135c2598610df5327229e1797f809d000229cf7283ce3c68c49a"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/advanced.slope-1.webp",
+          "sha256": "56bf0ef5f82618ec5cc4c8669c8d2b873f102b84e0ccb8888f11a0d7d8c628bf"
+        }
+      ]
+    },
+    {
+      "id": "advanced.bump",
+      "name": "多阶段名次轨迹",
+      "skill_original": "sources/advanced.bump/original.py",
+      "sha256": {
+        "original.py": "b08dc33ea8bcdf58c4367e49eecd41a6237b830bad8d5ba51453132072b30abd",
+        "preview.py": "ad13dbfc1a14920d3f02d0e783d585f7396808570498a1ee73b1cd86e1ba4eed"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/advanced.bump.zip",
+          "sha256": "e4b45f0d86e89042ab907e88a63270e4b816b752693010cf10d9616a1301bf5d"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/advanced.bump-1.png",
+          "sha256": "dee244955e317d1e3ec21ac0e08e1422568ba6bca098029df2ac44d56bb3ea2b"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/advanced.bump-1.webp",
+          "sha256": "6f0cc5434973fb58082a472314ff2c9345464cfabeca4b540a108ecace3766bd"
+        }
+      ]
+    },
+    {
+      "id": "advanced.sankey",
+      "name": "流量分配桑基图",
+      "skill_original": "sources/advanced.sankey/original.py",
+      "sha256": {
+        "original.py": "f5a6f75a166fdad6fb7bbf919fad4f8a1cace33d8d9239b171a9454959a0fb99",
+        "preview.py": "cebd33577631a4c9dddfc966bcad45dc1757911cdf053e00e0e38da146b7f834"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/advanced.sankey.zip",
+          "sha256": "fb6f794a4a722bad13617149d729cd929f6cf43a0e9ce53cb3ddf486ae2be6e4"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/advanced.sankey-1.png",
+          "sha256": "a630f970a842fe005567df4040fc5a5b373fd94110ca221745f81488096fbc1c"
+        },
+        {
+          "path": "assets/previews/advanced.sankey-2.png",
+          "sha256": "3227a5dc198deef3ec62c8aeb08617785f44c8ec69727aa2ce1aea5b7fd5d81d"
+        },
+        {
+          "path": "assets/previews/advanced.sankey-3.png",
+          "sha256": "d27a9e79d8baff5fa03f44980b5165c34d227048e80a47966d883d742fbc1c85"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/advanced.sankey-1.webp",
+          "sha256": "8c64009689faf7a6b0c1886a5a0efcdeaa7dd675edf788c24d9d85ddd427102f"
+        },
+        {
+          "path": "assets/thumbs/advanced.sankey-2.webp",
+          "sha256": "4d6fc849b50eebf85f10da6b6d5c0165cca682eafedfde8b622439307eb6a63f"
+        },
+        {
+          "path": "assets/thumbs/advanced.sankey-3.webp",
+          "sha256": "3f7be8c7704099962daf230bac1807d814967b1432402731f1d66009833a619a"
+        }
+      ]
+    },
+    {
+      "id": "advanced.waterfall",
+      "name": "累计增益阶梯与贡献色带",
+      "skill_original": "sources/advanced.waterfall/original.py",
+      "sha256": {
+        "original.py": "0dddc0405c5938fed50a92c8ee6eab7ffaa46930b5d93a118dda1d565fa16b77",
+        "preview.py": "2cef67cbf3d9ee2b20032ec0f31a96a6c33571936e826dd0f6305fc1047ebb32"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/advanced.waterfall.zip",
+          "sha256": "0dc68686c1ddd694a2b6080db1f6c5632809d9f902c5f73705e81331bd6e9e0a"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/advanced.waterfall-1.png",
+          "sha256": "7c4a8d97b7ebcb4e0481ce6811d8aaf773e8264d496a9baaf52c21c4835bf831"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/advanced.waterfall-1.webp",
+          "sha256": "b3be25d8336071f7d4c866d79226342653ca9867d0c0593ce1209eb66da2ecaf"
+        }
+      ]
+    },
+    {
+      "id": "advanced.shap_summary",
+      "name": "SHAP散点蜂群与平均贡献条",
+      "skill_original": "sources/advanced.shap_summary/original.py",
+      "sha256": {
+        "original.py": "bc51db00207052097fc1a5e9466c40f1a94867e99212e1fe97dea20f97586a9b",
+        "preview.py": "bc016e9e1336192eceac071e51973d9922be3b3958cecd01bd65fae7f617427b"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/advanced.shap_summary.zip",
+          "sha256": "3f3979f861698d6a2b5b70b925ce2063825105808156c1efa32acd96ae734968"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/advanced.shap_summary-1.png",
+          "sha256": "4032a77c5cae951fa6251b17d3a46b1ea3cb7604343a8a29ed7948a422802ff4"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/advanced.shap_summary-1.webp",
+          "sha256": "335479e1ba0e83c789bd25ec08bc5f52131c39814277aa020b11f2762d2a3a48"
+        }
+      ]
+    },
+    {
+      "id": "advanced.bland_altman",
+      "name": "Bland–Altman一致性图",
+      "skill_original": "sources/advanced.bland_altman/original.py",
+      "sha256": {
+        "original.py": "212d9fa8cc00e96d278a384c241caf5aaf25c8ad399ee200b546da7386555a4a",
+        "preview.py": "373d70392384ebaceea2701e8d06bb2f9dd0c9d56c56f35280756db9d3cd1f96"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/advanced.bland_altman.zip",
+          "sha256": "c966c567e5ad920f9854d505563041051425a2417a8fc6dbacd6a0bccf56f8f2"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/advanced.bland_altman-1.png",
+          "sha256": "833acccebd46efcd465eaa8a7f02b42dfd405c4d02ac474986104fa2585a6b44"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/advanced.bland_altman-1.webp",
+          "sha256": "e18ae4acf7084aa1740d67fd437a8aeb6da6245ec31b7b241c56a9c02a415475"
+        }
+      ]
+    },
+    {
+      "id": "advanced.kaplan_meier",
+      "name": "生存阶梯与风险人数表",
+      "skill_original": "sources/advanced.kaplan_meier/original.py",
+      "sha256": {
+        "original.py": "a5849a1a1d17d515c65ad50f43132f4b826396897dca1c784e324bc46f9df108",
+        "preview.py": "14af48e518ca8a87078219e2499ed185d2d74e4c013e8b6c3a8e051e8d0e50c5"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/advanced.kaplan_meier.zip",
+          "sha256": "47b80363cd165ddd4f89086404aadcc2cc23d6650f82a36cc08baa95f63b0584"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/advanced.kaplan_meier-1.png",
+          "sha256": "476745d39c5c996b7b19a9417fc6044c74cb561cd8c9099ae5e8ea2975f89c4f"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/advanced.kaplan_meier-1.webp",
+          "sha256": "d814835c4b2a1b4f59952a88dfbb437fdf998fb945ebdb4ea3a8ced742bb8dd7"
+        }
+      ]
+    },
+    {
+      "id": "advanced.volcano",
+      "name": "差异倍数与显著性火山图",
+      "skill_original": "sources/advanced.volcano/original.py",
+      "sha256": {
+        "original.py": "9b80ad99a5683d5e5004839bd67fb132305ce0d17784881fd2d702a9e2055d2b",
+        "preview.py": "e1c880b408247fb1c5540ff275c47221efe490f30c68d3aaced9070f19e8d046"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/advanced.volcano.zip",
+          "sha256": "d4175c285c57a5eb0626e7cd6081a5bf20205981bbc2570267231cc4a5b731f4"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/advanced.volcano-1.png",
+          "sha256": "065f8edae7e1391fefeb9b6a2272dd0b82a261d694091f38c8ef329da9e1942e"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/advanced.volcano-1.webp",
+          "sha256": "c61f00ac8b7d82b04d2e4d59e2fb74b97a3dc80badd29b1ace368efe76f4ad10"
+        }
+      ]
+    },
+    {
+      "id": "advanced.calibration",
+      "name": "概率校准与预测概率分布",
+      "skill_original": "sources/advanced.calibration/original.py",
+      "sha256": {
+        "original.py": "fac27d456dd3383ca62f43237464ae159f7a2f09a7593d4402ebca4225872fa4",
+        "preview.py": "5b7da47658300d90fc6f0c9e432afaf7cc61f01f7d58439027a4ab9c5354dda6"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/advanced.calibration.zip",
+          "sha256": "8cfe9659ebfae689d34c3b4eeb988d9b5a67aa6d721b14d64e8e66caa8b2be39"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/advanced.calibration-1.png",
+          "sha256": "016ebc01cece12ec2ba4edf91085ef911716dd900139f53e2cacdd9768a72e90"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/advanced.calibration-1.webp",
+          "sha256": "846bbe36759cdaa28889ddcac43672a7f922b4eecd9de90c50b059af1206c5c9"
+        }
+      ]
+    },
+    {
+      "id": "advanced.funnel",
+      "name": "Meta分析漏斗图",
+      "skill_original": "sources/advanced.funnel/original.py",
+      "sha256": {
+        "original.py": "1f1d1643a61239d32f6912ff50549e03ad0c77d62e369a60475a53f0e5f593cd",
+        "preview.py": "f9a32e2c4657636e4bfcd319bf28c06d24dd0a621578550ebd7fdad39fdeda5e"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/advanced.funnel.zip",
+          "sha256": "f0aef5ad3b755104028d3b3ea72b82fe2e48bb87bc56ee4fc086cb1d466e0129"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/advanced.funnel-1.png",
+          "sha256": "8916217fb3fc5d4a27fb86c40d925e6f30b9c9d5f4bebb84d8cacd088e5214ef"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/advanced.funnel-1.webp",
+          "sha256": "17562f0f7915721b3c7eb444407f44fc79fbd77693162a09553f8aa094a0709c"
+        }
+      ]
+    },
+    {
+      "id": "advanced.dot_ci",
+      "name": "多指标点区间与汇总菱形",
+      "skill_original": "sources/advanced.dot_ci/original.py",
+      "sha256": {
+        "original.py": "f6f55ff76e90afeb348f9437bce8557463ffce0c00d40ca7c96d4143a11b4ad5",
+        "preview.py": "f7fd05228059e8f4d156eedc5012978178526a7edebb632aae6810a077c679b7"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/advanced.dot_ci.zip",
+          "sha256": "e173e6ec7724b710ed3d54aebd201e1976adcbd4a3d30f2de52a5aae5296aec5"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/advanced.dot_ci-1.png",
+          "sha256": "81f2038607c62e330cba891cfa43c073f070d305b710adf7738cd7fc615496ae"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/advanced.dot_ci-1.webp",
+          "sha256": "0295fa2d434d5aef6299f6884a465839a9896588b3b997df7ebd01faf51c866b"
+        }
+      ]
+    },
+    {
+      "id": "advanced.cluster_heatmap",
+      "name": "列聚类树与数值热力矩阵",
+      "skill_original": "sources/advanced.cluster_heatmap/original.py",
+      "sha256": {
+        "original.py": "afaf99e2d36a5fb6190bc2dad26cbd9fbed7ee1693f732011e7be9b54d04f17b",
+        "preview.py": "c8d8ef93e667e7d23979cdcf32c37ffb404221aa321a6ad6ceeef3f21ca37d1f"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/advanced.cluster_heatmap.zip",
+          "sha256": "83d8c4eda0f6171ee2e4833cdead7822305067132fb1b957c2000471d896cd48"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/advanced.cluster_heatmap-1.png",
+          "sha256": "849e098468f099aad7c3a07050a00f8f3d3c1008a95a9e3fba51affaf7c3e916"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/advanced.cluster_heatmap-1.webp",
+          "sha256": "0b0328a6e9907366dc6208869efe2021c6b880a01a32155057603d60cd3db5df"
+        }
+      ]
+    },
+    {
+      "id": "advanced.network",
+      "name": "社区网络与透明凸包",
+      "skill_original": "sources/advanced.network/original.py",
+      "sha256": {
+        "original.py": "c36087d1e223cc6943b62a6c73b40f7eb54a0919d11aabf1eb0d50719f06342c",
+        "preview.py": "b34725349c90fabf2cfde972fdea085f3bb7ef1d2bb38497b1dd04f8a6c6cd6d"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/advanced.network.zip",
+          "sha256": "0b17330a2aa0baee3d85123c941a5a85e955d4bb517a315de505e04c70a8faa7"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/advanced.network-1.png",
+          "sha256": "8500c1a0a9c391d7ddee97189db9d10e520ec7bf443836adb3582ff7c33a7fd7"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/advanced.network-1.webp",
+          "sha256": "857921a76e0611448112aead3f1d851244f39534906ded8bffa1748e645989a4"
+        }
+      ]
+    },
+    {
+      "id": "advanced.method_heatmap",
+      "name": "多指标方法排名热力图",
+      "skill_original": "sources/advanced.method_heatmap/original.py",
+      "sha256": {
+        "original.py": "111179a9c2772aaa40c45be19859a2f3efdf595f872763adbeaac4cb9abcb9ed",
+        "preview.py": "2c0ccd3dba6e649ff766929ad0918c65533f1bd3bbdb80a6e7c91e89b5ea0e5b"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/advanced.method_heatmap.zip",
+          "sha256": "21d5ff1c83fdbc9fa9c0545c30b74196d9237d3e6bde64a64aeef67995b5b07d"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/advanced.method_heatmap-1.png",
+          "sha256": "e4665e4715ec9b287e9cf484b9e511e4cfd601fe63d742d16b58797c8a3d29f9"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/advanced.method_heatmap-1.webp",
+          "sha256": "bfdcfddaf6b7c289bda79919819df1753e898720fe920e9c48d538e04c71bdc7"
+        }
+      ]
+    },
+    {
+      "id": "advanced.parallel_coordinates",
+      "name": "多指标平行坐标",
+      "skill_original": "sources/advanced.parallel_coordinates/original.py",
+      "sha256": {
+        "original.py": "d8149559247376823a3acdc805abe41b2f3b5b5d0ea93a3cdf03aa2736724c42",
+        "preview.py": "400d97ab6dfa55d0d6563e4f4c422324e243077b1ee79c36e2be562dedd5591f"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/advanced.parallel_coordinates.zip",
+          "sha256": "71fd322a25ced7892c9a94f722e114cd9ab83bbc4996aeaf6a6173af602bc0a0"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/advanced.parallel_coordinates-1.png",
+          "sha256": "5fe8bfe5cba133c7bd2c42c01d65e1989f44880f65f1b8296cb41b751f365f78"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/advanced.parallel_coordinates-1.webp",
+          "sha256": "680de0e5683940f75a89f62e511040f04b6ecf3acb37dc6fe0df73079423ed04"
+        }
+      ]
+    },
+    {
+      "id": "advanced.pca_biplot",
+      "name": "PCA样本得分与载荷双标图",
+      "skill_original": "sources/advanced.pca_biplot/original.py",
+      "sha256": {
+        "original.py": "646cc05addf0cf0b5d549eaca9872cdeca1e4c4be071dc3c12dbebfc1ad97ee2",
+        "preview.py": "dee8b6c4f9ef974dfc401581dac5fc643e117128ab2b3a0049ad3961f42da83d"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/advanced.pca_biplot.zip",
+          "sha256": "56eac5d704d551175feafe77759c2f7bd7ce1a60db5fa326e1f31d2665175649"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/advanced.pca_biplot-1.png",
+          "sha256": "617e4b32c5da1e03e80c9d61bf9d3f5ce104eed957d7630a6736c26da3461453"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/advanced.pca_biplot-1.webp",
+          "sha256": "5ecb77be27e364e9ba095f9432ca4008e2d87f2657818baaf466c63ad1fa3b2d"
+        }
+      ]
+    },
+    {
+      "id": "advanced.taylor",
+      "name": "Taylor模型综合比较",
+      "skill_original": "sources/advanced.taylor/original.py",
+      "sha256": {
+        "original.py": "777ed9e184f89370c4f35740ba86b11329c5e4f2bb25795ebf6a823c14f600c3",
+        "preview.py": "db1770f84484caf499384a7c50ad1958b6d072a875ff7ba4ac1866654f4aeade"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/advanced.taylor.zip",
+          "sha256": "b61a2f45655c3209c34913ee5176472a70a3e92e82fe40c6abae7c48ca2ae7cf"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/advanced.taylor-1.png",
+          "sha256": "140eb097dc8cf50177f57982abb9ea30971e16f698e5dbe4d889795ad9695cc5"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/advanced.taylor-1.webp",
+          "sha256": "59d3d3ba315dc212f5c9b5304e7ff57d060a57a5edfbd15eb6a842e4471ed4e6"
+        }
+      ]
+    },
+    {
+      "id": "advanced.diverging_bar",
+      "name": "相对基线发散条形",
+      "skill_original": "sources/advanced.diverging_bar/original.py",
+      "sha256": {
+        "original.py": "d536d5e66b820bec642f006bccdfbd355e0605aa2b791611e063e0085ea6a03a",
+        "preview.py": "b1f41a0170e278d77d6d4287194be2c91787e9b58e35f9f81a103e63b0f8d836"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/advanced.diverging_bar.zip",
+          "sha256": "da55cff4ef0d3a5ba15a4f3d739f30f76b99737093ba469a9e3f6bbbe3cc3004"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/advanced.diverging_bar-1.png",
+          "sha256": "b660460c5f356ea290169d5c606c08660d1a97948887b3c3691ff44bd6b00779"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/advanced.diverging_bar-1.webp",
+          "sha256": "7309d012ce1ce26a80a2faf38e072b78c6b45a8aa29687848c272713dbcc05f9"
+        }
+      ]
+    },
+    {
+      "id": "advanced.back_to_back_bar",
+      "name": "两组镜像条形比较",
+      "skill_original": "sources/advanced.back_to_back_bar/original.py",
+      "sha256": {
+        "original.py": "f0c3f92cabee84ebc83d04c3bd32365faa79a36627f168d3c8a6d7b58eac9000",
+        "preview.py": "42ceab9dc79b43d88040bd190160466f7a75b9b80f2f7b3665b208e541868402"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/advanced.back_to_back_bar.zip",
+          "sha256": "335f4b6847316f4993d65240bc87d58311358f732de18daa3305430a46eee03b"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/advanced.back_to_back_bar-1.png",
+          "sha256": "60d122b707454b421508f2381096919d8b1e4fb4eb6a9d866ac65ccfc8912ad2"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/advanced.back_to_back_bar-1.webp",
+          "sha256": "9d3cfb56b8150928fd4c4d04a9dd35e8911f145fbbb8304b244353b94ec6ebf4"
+        }
+      ]
+    },
+    {
+      "id": "advanced.paired_dot",
+      "name": "个体配对变化与均值箭头",
+      "skill_original": "sources/advanced.paired_dot/original.py",
+      "sha256": {
+        "original.py": "a36e4b828bb773d2871f21049158b5db825372d5af2dc696107e8c7fe4a5cfcd",
+        "preview.py": "784a66a1a2f0490c57b575cb97ce3ef7e7d0b05978fb33dde1b6923cba5809b6"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/advanced.paired_dot.zip",
+          "sha256": "316f3b54f244dc05a90c021a55c5cde176cb598a96cc73fd65b540d8c74feca4"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/advanced.paired_dot-1.png",
+          "sha256": "4167feae2f5fac027ba0b6ffae73ce7d4cd38f6710167ad5da1da8a1edeb6392"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/advanced.paired_dot-1.webp",
+          "sha256": "f5d951b82df39bd85dbb146e3f59ca7670c57c3bf771cb2d6da0d316dee5cf08"
+        }
+      ]
+    },
+    {
+      "id": "advanced.ridgeline",
+      "name": "堆叠山脊密度",
+      "skill_original": "sources/advanced.ridgeline/original.py",
+      "sha256": {
+        "original.py": "db9b89f16e1cbcbda46879340dc9cd4653c7a02e8d348128cb3f457c64f2f550",
+        "preview.py": "301e7e7514eb02f68c7c60438011f3b217c0457d32bf63fcc4f9750058b39619"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/advanced.ridgeline.zip",
+          "sha256": "62f37ea5922feb57a44ca62db314d4065a26996e6cb6616e0fb50f2f4df7f662"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/advanced.ridgeline-1.png",
+          "sha256": "9c70ff4220e30676a53f75e3964fa3426f7ca6166dd6c2e7ee06600e7cf702e8"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/advanced.ridgeline-1.webp",
+          "sha256": "765720755874c0ed3b17acd7a31fba428371d2776b918aca5105b86b0c90bed1"
+        }
+      ]
+    },
+    {
+      "id": "advanced.grouped_violin",
+      "name": "类别内多方法小提琴",
+      "skill_original": "sources/advanced.grouped_violin/original.py",
+      "sha256": {
+        "original.py": "ccdfcf28a0a5c6485107fbecdc1416d8953a8f0e40582373b941c4c303a8865d",
+        "preview.py": "68b399f8a7e7b6585aebf2ef0866651545f7bb96e9189a496fca67cf5838ba7c"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/advanced.grouped_violin.zip",
+          "sha256": "d99ad770f140c93d72aab6c80759ce3b77bb08bf067b07329ea59811be2ba98a"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/advanced.grouped_violin-1.png",
+          "sha256": "370bea26bc983634b1cfae896d22d92c670875808f276c773e0a3dc2800fa316"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/advanced.grouped_violin-1.webp",
+          "sha256": "6e17cd393e1a815df2b5e2e3dd717146f12a9381f3ded191ac470537baeac15d"
+        }
+      ]
+    },
+    {
+      "id": "advanced.performance_profile",
+      "name": "Dolan–Moré性能剖面",
+      "skill_original": "sources/advanced.performance_profile/original.py",
+      "sha256": {
+        "original.py": "7ca521f442c40e1a26d09cd45991480e4b7e2c6012231684b2e57d5d7fda9b18",
+        "preview.py": "6dd18bd1e4d5e49d932474b53878f493b7f2354419856ef986edec9e7bdd9b27"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/advanced.performance_profile.zip",
+          "sha256": "a92c25610fc3acc4dde5cef345b3c82252f7ac5ba94b42fda31216cd0cbd617a"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/advanced.performance_profile-1.png",
+          "sha256": "6a4e27767110052b532939e240279aa6190d3bb98a3277d8da4186bc74a45cee"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/advanced.performance_profile-1.webp",
+          "sha256": "33457a776935749f0d08ec9281a6e0ca94434f8630fb3a706cb85f1bb9bcc4cf"
+        }
+      ]
+    },
+    {
+      "id": "advanced.ice_pdp",
+      "name": "ICE个体响应与PDP组合",
+      "skill_original": "sources/advanced.ice_pdp/original.py",
+      "sha256": {
+        "original.py": "d19f687669a18282268955d9afca3c3bc7ed4f93d6c90bc9b32f55ec3f06f2fd",
+        "preview.py": "06906fbca0eb3a083eea18508fd22220139f5323f149c6a22089235f0a0f27bc"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/advanced.ice_pdp.zip",
+          "sha256": "fe3874b852c3886ed15c12f6faccffc83d2ff6e475874cfb98a7f80d9816e982"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/advanced.ice_pdp-1.png",
+          "sha256": "e14f52c159c2e56059ec269c4430a4428a992adfd31e125b372f2a4690adb0ca"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/advanced.ice_pdp-1.webp",
+          "sha256": "5e2696e23b8610948d6a7d47faa2cd3464212703e66f3cdf3e42edeaeadee5fe"
+        }
+      ]
+    },
+    {
+      "id": "advanced.fan",
+      "name": "历史与预测分位数扇形图",
+      "skill_original": "sources/advanced.fan/original.py",
+      "sha256": {
+        "original.py": "833691c24e69a8263f2eadf5222eced3587f65283c6fa15094729ffa244b9a04",
+        "preview.py": "9266130ac1b36a2ce64ac5a374c428bc362128adbf02d779fa8951e417bbdcfd"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/advanced.fan.zip",
+          "sha256": "24b4fa3ef1d1f8068088394de41d38d9ccd9ea345a613a00858f84245bdfe21e"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/advanced.fan-1.png",
+          "sha256": "5d1d54aa2d5ed5e8764d27623be8e0f53416fa43db33be8b2fc25877c129caee"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/advanced.fan-1.webp",
+          "sha256": "35831a3a199d0eaa81fb492ad4f6d274d4b215cab64bbf0a730e36c8b7c10a30"
+        }
+      ]
+    },
+    {
+      "id": "advanced.calendar_heatmap",
+      "name": "日历格点热图",
+      "skill_original": "sources/advanced.calendar_heatmap/original.py",
+      "sha256": {
+        "original.py": "289cc4b1bcf47bc6017d46c17d52facfa641d579ba40bd799c8f58befbacfe42",
+        "preview.py": "37efa12001a23e15da274b0d287e7f321ed49bd8cb4342c4a97e6c1bed7d7504"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/advanced.calendar_heatmap.zip",
+          "sha256": "5a6d56b792c4dc5199fd69750edba6babed89c3020ae1ccc14f1f03ced1a03e2"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/advanced.calendar_heatmap-1.png",
+          "sha256": "4fcf8659ed7ffe2b5e4d5371f6fd6d9b765c54aff149a0b823d11a2f09ee876f"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/advanced.calendar_heatmap-1.webp",
+          "sha256": "b878c49aaec53c03fe662a0c5bb0414408d4f6c6c2a7ceb91cd101fd19d2f308"
+        }
+      ]
+    },
+    {
+      "id": "advanced.hovmoller",
+      "name": "Hovmöller时空异常图",
+      "skill_original": "sources/advanced.hovmoller/original.py",
+      "sha256": {
+        "original.py": "0a05f220dcb36d0890e8d85d304223c2986ec7387e0ee7bcb35cb88ae70f56c3",
+        "preview.py": "7ad16e171f1cab069e641bc46d33a15707220274981dd5565a76887012e26c83"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/advanced.hovmoller.zip",
+          "sha256": "02ccc37ff9d5b594cd84bac1bd31db2fe2a15870045b6f1c3b332b1a335bdcc7"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/advanced.hovmoller-1.png",
+          "sha256": "8534f8c312918b37efe976d4a70628310097b97f3171b392ddb9551252209769"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/advanced.hovmoller-1.webp",
+          "sha256": "5ed004eafd630cb23253bd482e4562a70c59b926f801a8a463add3da24c80ba4"
+        }
+      ]
+    },
+    {
+      "id": "advanced.pair_plot",
+      "name": "分布与Pearson成对关系矩阵",
+      "skill_original": "sources/advanced.pair_plot/original.py",
+      "sha256": {
+        "original.py": "d8a54b298b57f5b27dd1ccbf78aabb241e9718d33501e525d6b8d802fd493ad9",
+        "preview.py": "c7c3ce17db96c61e786afb21c389ae651a034841e0170db84cbc9e7a555ef8f6"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/advanced.pair_plot.zip",
+          "sha256": "044997ee5b6d3c1075e9142ee0d71d321e67f04d4725c2539deb5b2fa1d22a7c"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/advanced.pair_plot-1.png",
+          "sha256": "5ba650bd346e0e7dd6d5a84c68568c824f9304117014b0dbdc59bff1de564b0c"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/advanced.pair_plot-1.webp",
+          "sha256": "c2828bd1dc2277cbf5cf7ee28bfbd7111eb1b138802847a1ad205aeba5ed737d"
+        }
+      ]
+    },
+    {
+      "id": "advanced.triptych",
+      "name": "输入—中间响应—输出三联图",
+      "skill_original": "sources/advanced.triptych/original.py",
+      "sha256": {
+        "original.py": "fc47571251183bf3341bf8d0098ba246d4f37bea0f37c6911a9afe97fe076d19",
+        "preview.py": "24d0c134bfef43db1fc16aaad9c8a0a0187d6c50288a6cc012b35bbf1c938bee"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/advanced.triptych.zip",
+          "sha256": "1ecb21e162200f563acdad69ab996eb4c59870cf502981dab471239cf71cc177"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/advanced.triptych-1.png",
+          "sha256": "d8cc37ff7778e54c4338d56498268028a9467065c84181e46e9f7771da565745"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/advanced.triptych-1.webp",
+          "sha256": "da6fdd6cea00853148300bf2b80fd4217ac9e87ab9d8a6461e11452479c50c14"
+        }
+      ]
+    },
+    {
+      "id": "advanced.posterior_trace_density",
+      "name": "MCMC轨迹与后验密度",
+      "skill_original": "sources/advanced.posterior_trace_density/original.py",
+      "sha256": {
+        "original.py": "fa7293be5908d2b8b2236992ec4728e4c224633970bd1817e474997e66b169a3",
+        "preview.py": "725d68dfc8f9f630c308d8f268772a7805975dae622374fcba3329c818562bae"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/advanced.posterior_trace_density.zip",
+          "sha256": "ce045c74a576f9ac51449e957eadc3aacbb270823afc7c66c51725d1691c5b11"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/advanced.posterior_trace_density-1.png",
+          "sha256": "5b8bc9aa55ac1334c14a1eeb4b1c9dcfee5f59cc51c8a23773b9e962bd26d4c8"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/advanced.posterior_trace_density-1.webp",
+          "sha256": "b62db36143cb933a4f5b34bc7efdb3abcdc48fa00ecf538fad008b8bcbbb8e57"
+        }
+      ]
+    },
+    {
+      "id": "advanced.streamgraph",
+      "name": "居中流带图",
+      "skill_original": "sources/advanced.streamgraph/original.py",
+      "sha256": {
+        "original.py": "de4d29b4aad150315bfe08a1be1f79cd4d66bfbb6b823b4143743a36be3d7c9e",
+        "preview.py": "dee72020196e68f0368c3eb337822d6254cbb98cdb5eed8af5506e958d9cc7fc"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/advanced.streamgraph.zip",
+          "sha256": "4c7b3d86bb7961424d330feb7552c2ca0c75a9208e1ec22f52cbc8645c78838c"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/advanced.streamgraph-1.png",
+          "sha256": "8c9858c467c091415ee304a43d341bc590803fa7e1ee36506ec6d73b7c558fec"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/advanced.streamgraph-1.webp",
+          "sha256": "0da44c0e83e73e31c6e88adeb49d2bc5cc78a87fafe094c0ed14ee7fa7dfa958"
+        }
+      ]
+    },
+    {
+      "id": "advanced.bivariate_choropleth",
+      "name": "双变量空间网格与九宫格图例",
+      "skill_original": "sources/advanced.bivariate_choropleth/original.py",
+      "sha256": {
+        "original.py": "6ba77d1d03d9d78b67bb321633015f1f0584e6d590d7949f93d9d36941714bce",
+        "preview.py": "0d08ea61314508dada650016601c890f51a1ce88feb4f6baa67df1d871a05d75"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/advanced.bivariate_choropleth.zip",
+          "sha256": "cd4bf2e342baa5cc81dc5c0c12cb18ea1c2f0a70696902f1b05e8728cb7be79c"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/advanced.bivariate_choropleth-1.png",
+          "sha256": "91f6701c83d0d683c398dec53a30755b9fbf519926b01c9f6755353c5f651189"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/advanced.bivariate_choropleth-1.webp",
+          "sha256": "c90480e3ba49f0095bf8918c0ad8b6316ae17a26d00002d7ef978d7373c701f0"
+        }
+      ]
+    },
+    {
+      "id": "empirical.forest",
+      "name": "效应森林图与权重摘要",
+      "skill_original": "sources/empirical.forest/original.py",
+      "sha256": {
+        "original.py": "e17ab634542e965eb1a2972ef38f678f3fcdb1592e8d7d5b281a5c31ca568732",
+        "preview.py": "28357b33ef4ae673b9149ea43998d84a9539d61202daf4300d869497e8969ab5"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/empirical.forest.zip",
+          "sha256": "a44122c6828a349a75fcf01a790c93310eee0358aadd41b59fbea690847d7ca7"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/empirical.forest-1.png",
+          "sha256": "b34cac711d4dcc56bf616f1a3271fdd4923dc312d0f8d1f3c0291a45c4378389"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/empirical.forest-1.webp",
+          "sha256": "24ccb41a435395ab069184691a8514c54561abbf4d32f6764f383e3f6104c0d5"
+        }
+      ]
+    },
+    {
+      "id": "empirical.parallel_trends",
+      "name": "处理组与对照组趋势",
+      "skill_original": "sources/empirical.parallel_trends/original.py",
+      "sha256": {
+        "original.py": "94623d317f23264068e7d1b63abfe4d76635d1dc1cc74cb8bf7fd16778f90d1b",
+        "preview.py": "b35166e11b00870e146b9e6c3b09b0a7cacc631b8103d440adaac2cdf1fb3f2e"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/empirical.parallel_trends.zip",
+          "sha256": "f6b8cda61f556974a5cf50a58cbfe3f629c01d5c26cf330000477d3e2fe52324"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/empirical.parallel_trends-1.png",
+          "sha256": "dce9b5c8abc7257a06ac4e4ca90c07263d34625496232a11343d4620ec2b5ee9"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/empirical.parallel_trends-1.webp",
+          "sha256": "81d52b71e943fc099bea66165c1067f0187ee5da3bff8bafee1ebd4072492397"
+        }
+      ]
+    },
+    {
+      "id": "empirical.event_study",
+      "name": "事件时间系数与累计效应",
+      "skill_original": "sources/empirical.event_study/original.py",
+      "sha256": {
+        "original.py": "0a6919fb3d0c84d9b31f571e0815b0ca88b116e44dc2e4c334967ebf9981648f",
+        "preview.py": "b01cb55ac91433ab325a1c52624ed5bef9ec6ea83988af502fa7d05db0a4c623"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/empirical.event_study.zip",
+          "sha256": "48d6f7ad81bcd5056c77ee2f7bc55c841e77aa4e24d0821ed4a9bff17491f40d"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/empirical.event_study-1.png",
+          "sha256": "d031eabac6a935fd9798bb4a0c2c75ff3f1ef868a4f27c544e0a679e449810af"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/empirical.event_study-1.webp",
+          "sha256": "20696d94b218e1ea517a53248ed65528867d76b67d08a9e4d54a7603da5e4a50"
+        }
+      ]
+    },
+    {
+      "id": "empirical.placebo",
+      "name": "安慰剂系数分布与真实效应",
+      "skill_original": "sources/empirical.placebo/original.py",
+      "sha256": {
+        "original.py": "43d457f59023d4bf4ff06989f10a74dd06a9e6d233be5ff9e1a5fc2e310e81ad",
+        "preview.py": "bff32524da36c9eca4021755f95fa8ada8e4f75da315ac08b749f900cc59d766"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/empirical.placebo.zip",
+          "sha256": "2f1379934b1fa71e8af2102f7eb6d0c7e11c37f2d2a767f1ca8bd0089c741700"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/empirical.placebo-1.png",
+          "sha256": "135cbbd5e136a799faa0e64d13532ffd179292fc34026ce72ff779029695f31c"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/empirical.placebo-1.webp",
+          "sha256": "852c9e8d72661e588de5e333b2b38d08f6a2ce8cec7553e1bfc221dfffc8aa64"
+        }
+      ]
+    },
+    {
+      "id": "empirical.correlation_heatmap",
+      "name": "相关显著性热图与顶部树",
+      "skill_original": "sources/empirical.correlation_heatmap/original.py",
+      "sha256": {
+        "original.py": "0e918c95694b8f53df34c55e510e4f7682fbcb560e2162de2b0e800cfbe6207b",
+        "preview.py": "1be18285ac76dffec13bb3e0f55234b2c93f5b86d436ca1e18cd9e8d35bbbcc0"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/empirical.correlation_heatmap.zip",
+          "sha256": "4817d9abac41ea3ded17bfadac1f6fdb44f0c9347447a94792b6876f8cb69518"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/empirical.correlation_heatmap-1.png",
+          "sha256": "555b0d7c39e2a2efbd6178d89aefeddca5769b737ad7890752344042ca8fec69"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/empirical.correlation_heatmap-1.webp",
+          "sha256": "77cee1e3ee1419edb5450bb4171cb72ebada958ecf35797a74f1e238a228b3f5"
+        }
+      ]
+    },
+    {
+      "id": "empirical.raincloud",
+      "name": "横向长尾分布雨云与分位标记",
+      "skill_original": "sources/empirical.raincloud/original.py",
+      "sha256": {
+        "original.py": "9af4183b50baf84495c7ddbd8fd0ddbf135751eaec993a95e1e02b4195ea7532",
+        "preview.py": "12d7fbf8d426041db0e41dfb37445d9c6c38becd5716f2ae7a504238b9f5c977"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/empirical.raincloud.zip",
+          "sha256": "f7bf13c5a2f2dda33bece0cc794ce5d52a950e389dcd1cd162de5fac6d11582a"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/empirical.raincloud-1.png",
+          "sha256": "83a4a4fa9b6c06ae3005d034f034318f30205933d822b1d17bed8260b4de9dc2"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/empirical.raincloud-1.webp",
+          "sha256": "135edb326b87b6e6adf013b3932a39cc11d8ad9fd13c7347bb140ba46317fccb"
+        }
+      ]
+    },
+    {
+      "id": "empirical.time_series",
+      "name": "双指标时序与事件背景",
+      "skill_original": "sources/empirical.time_series/original.py",
+      "sha256": {
+        "original.py": "70bef6939888bfd3f8e1997dfab6e5bf07fd330e9c00dcfc0f1b813ffb80ea7d",
+        "preview.py": "7b454203e16dcfdb41ca0a8b168cd8ae3191801fd987ccee883b95f2ebe7c3b6"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/empirical.time_series.zip",
+          "sha256": "b35be53199acd98ad816752038328f2801c496d6fdb8e60b8f7f5f3117062a89"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/empirical.time_series-1.png",
+          "sha256": "5c3268e66c629e3960f8fe7568e488f640bc2e85770be6e8dd6b10ff7ca76ef2"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/empirical.time_series-1.webp",
+          "sha256": "5fb914cae4cbce99b1724b0d300ba785431e7ea47d445d58af258d4e6b5b0ba7"
+        }
+      ]
+    },
+    {
+      "id": "empirical.residual_diagnostics",
+      "name": "回归残差四面板与影响点",
+      "skill_original": "sources/empirical.residual_diagnostics/original.py",
+      "sha256": {
+        "original.py": "a9ee73493673b35c19c762622b7b13bc2f29823bdd68ed1d411d7d4ba342c168",
+        "preview.py": "9b93014c929c5f32d65d7d9f64caae065ce0f280e32f7b191dd6a77d85902a85"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/empirical.residual_diagnostics.zip",
+          "sha256": "4fa97558ff272056c3f2ab5abf7d09ed6dc1e40dd2806b3e5b1515f6b8241a69"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/empirical.residual_diagnostics-1.png",
+          "sha256": "7287f2673df803032f2daf6b2e21aa34f461cf8b783d53cfb06e57844a673505"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/empirical.residual_diagnostics-1.webp",
+          "sha256": "abe7af27127756a0a918d492a9c491644606e72a9a70848d4061011044c09f22"
+        }
+      ]
+    },
+    {
+      "id": "empirical.marginal_effects",
+      "name": "边际效应与条件预测双面板",
+      "skill_original": "sources/empirical.marginal_effects/original.py",
+      "sha256": {
+        "original.py": "6c13cfdb5f04f750e838b5966dc916066e7f35e960e1c4e9e38d5cee5d13dc74",
+        "preview.py": "821b790a37f9a4f0e762af4f8b947debcf18cf8c5a0247479c7f00f2483fab2a"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/empirical.marginal_effects.zip",
+          "sha256": "184c9e8a665fa2b7b3404a72b69a9beb77f3974b15d73e2e8e5985fd60556508"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/empirical.marginal_effects-1.png",
+          "sha256": "d4551e050189eb6d4045da0dbbb7ef5ce4bf4f9e2d8d0ad669d8a0cf37747393"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/empirical.marginal_effects-1.webp",
+          "sha256": "ff273f3d33e4204374f528846fdee54dcca9870758306b937960db4f19cd58dd"
+        }
+      ]
+    },
+    {
+      "id": "empirical.subgroup_forest",
+      "name": "分层异质性森林图",
+      "skill_original": "sources/empirical.subgroup_forest/original.py",
+      "sha256": {
+        "original.py": "d935a304190af847e5935a97da97b10401501ad1b114f855be58840fa1e0d7c0",
+        "preview.py": "9bb161ca39bd96392a95c386af500a835026da55104e5a6c9d0c55aff5301a16"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/empirical.subgroup_forest.zip",
+          "sha256": "3d86f4f95e7888abb15a1b4e9d0aab380dfd563a7965710f9442709acb82ef2d"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/empirical.subgroup_forest-1.png",
+          "sha256": "4696bac1822a8cca3318b8e5058887da135d317cb5782a5169ac786d50814a4f"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/empirical.subgroup_forest-1.webp",
+          "sha256": "6a7fff6b422a50364b9a0f252220ecf59eece715e865e324496402ecc1b1768c"
+        }
+      ]
+    },
+    {
+      "id": "empirical.quantile_regression",
+      "name": "分位数回归与OLS对照",
+      "skill_original": "sources/empirical.quantile_regression/original.py",
+      "sha256": {
+        "original.py": "7bed2d0a7a1b37e630ee9acce8a314b2114d757c97a9dac995904a661d449064",
+        "preview.py": "cf1858a8ad248c8a0a5aef3618c094e089430306de087f1b2b19f16ddec4b511"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/empirical.quantile_regression.zip",
+          "sha256": "28be69be63e4b34e1e49ef8cc3a4a43c1abe1a31c8bba1bc3b757e2e0b6cc19f"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/empirical.quantile_regression-1.png",
+          "sha256": "046f3c5c7f0056b7eec6f1f1b588c62ce989ffebfc8bc75c03407abc97d0dced"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/empirical.quantile_regression-1.webp",
+          "sha256": "839a41eb2a939429fa5c49baaa154dcb31aacd69c9356620d9aaa341b397b9ec"
+        }
+      ]
+    },
+    {
+      "id": "empirical.psm_balance",
+      "name": "匹配前后协变量平衡图",
+      "skill_original": "sources/empirical.psm_balance/original.py",
+      "sha256": {
+        "original.py": "9a7a8c89ea8838ba7554532b000a2b178eaabe97d5d32b2a098d621f2ac02195",
+        "preview.py": "c270d8a158ad36180ba6172b460ddd42c6a970078aa73861b334e3802f90d716"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/empirical.psm_balance.zip",
+          "sha256": "9a1e28503ff500d7d78ee6ae0aa6845537bed6321b4acfc5d7df3d1b0d2a2a96"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/empirical.psm_balance-1.png",
+          "sha256": "b913e9ebfa4c62c65e984ace98fc357f041560aa44e14872b1605292c1cb825b"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/empirical.psm_balance-1.webp",
+          "sha256": "18f24389f67e1a228c760a0b99b9725227ba5ba7986bd6a9e2be13dba9a124b7"
+        }
+      ]
+    },
+    {
+      "id": "empirical.prediction_ci",
+      "name": "时序预测与误差侧分布",
+      "skill_original": "sources/empirical.prediction_ci/original.py",
+      "sha256": {
+        "original.py": "dc95a1f5e907450610a7ce04127ee857460e20051c47dffa2ee4bd28fdea50e0",
+        "preview.py": "e738256d55e8d1985619b9b255b5b358dd4f6c98a1e428efd189bd0a8ddab311"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/empirical.prediction_ci.zip",
+          "sha256": "5fb4ac33f833433daf9b1168175c3817ae0e884a1cd08df933b258ba821b19bb"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/empirical.prediction_ci-1.png",
+          "sha256": "4faa3d553f3179ad53ef1e61cf39d5020a9ffacfdc5d4522f97bd305859bf4bf"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/empirical.prediction_ci-1.webp",
+          "sha256": "52ab5dcf64748197812c9fab68904b8e3cc753faebcec6efa86ee98259756f1d"
+        }
+      ]
+    },
+    {
+      "id": "empirical.prediction_accuracy_heatmap",
+      "name": "多模型多指标预测热力排名",
+      "skill_original": "sources/empirical.prediction_accuracy_heatmap/original.py",
+      "sha256": {
+        "original.py": "a799fc6137913210bace4b7dbb055dd54fc0698ef15cefd4532f9fd9fea36db5",
+        "preview.py": "afeb81237440bea4e5d352461e0c5d91930683253efa0ec6f1e2db8fd70599b8"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/empirical.prediction_accuracy_heatmap.zip",
+          "sha256": "4ea5c616235f616edec911730756cf3685422869549ce84ece25f2d7852a0eda"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/empirical.prediction_accuracy_heatmap-1.png",
+          "sha256": "09ee2382d7faa34ca4a4b248a41872594ef7e95eccc5a7f4afbd103fffed3dfa"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/empirical.prediction_accuracy_heatmap-1.webp",
+          "sha256": "e3b79d728ac32ee0c0e7ad455c808c709e7e9eec1d72f82abe0f6458f9e914b1"
+        }
+      ]
+    },
+    {
+      "id": "empirical.prediction_error_raincloud",
+      "name": "模型误差横向雨云",
+      "skill_original": "sources/empirical.prediction_error_raincloud/original.py",
+      "sha256": {
+        "original.py": "d8b4861490bf5ca3a593e25d15aa97b265a2051933f0fe8ccd2f8d56dc19bacf",
+        "preview.py": "e2eed16b84da2cf10af16ad7af405332ecaa98db484254a8dd57082567f9d793"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/empirical.prediction_error_raincloud.zip",
+          "sha256": "f99730bc172e047274fe97860306d62d978aa56336da75e735a70c70039b42e4"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/empirical.prediction_error_raincloud-1.png",
+          "sha256": "76b2887243ef9c4813b86dccb7f7d5e09de16d84c692d0932b4fab83892a45cb"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/empirical.prediction_error_raincloud-1.webp",
+          "sha256": "8493e1b4782f4f1fe4955cbef7573015ab0e865c15046565115247181ab5d66d"
+        }
+      ]
+    },
+    {
+      "id": "empirical.multistep_decay",
+      "name": "预测步长性能与模型跨度",
+      "skill_original": "sources/empirical.multistep_decay/original.py",
+      "sha256": {
+        "original.py": "7d7660723e060cafe19ef9e8522cb6b0f7ffeb896b34c0f19b6243b404c2913b",
+        "preview.py": "ce31adac83814e314a12cafd1fce14fc7d3bc9e4686d39bf95744241cabfd650"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/empirical.multistep_decay.zip",
+          "sha256": "f45acef8132b88204b8ca11ff7079298b3db0b58065e6db5c37f6930e408c26e"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/empirical.multistep_decay-1.png",
+          "sha256": "9db6b12cd2130b9aaacd9798fbe0e57f3ed7eec2ef38dc2bf5be18b853e8556d"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/empirical.multistep_decay-1.webp",
+          "sha256": "d69e785d5634a1cd82ce4485ab3be020a7362cc79fc7a21954a7335f910923cd"
+        }
+      ]
+    },
+    {
+      "id": "empirical.moran_scatter",
+      "name": "Moran空间滞后散点",
+      "skill_original": "sources/empirical.moran_scatter/original.py",
+      "sha256": {
+        "original.py": "4e0badb77db7d2c42db5870243a054cf80c08a7302f8106af99396eb23552166",
+        "preview.py": "d1d224f176bdc3775cf36b5418edc72bc6cee7481b39d91c8cbfc398f181bdb5"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/empirical.moran_scatter.zip",
+          "sha256": "521117c1a444f4953fa2b7ecbe7e176a2b9ac2d1bbbacf2ea5258ec96dfc5090"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/empirical.moran_scatter-1.png",
+          "sha256": "6623dc7f2b5a273e4583b55c9827113ef08a2bcb63408f8d0d3096d8c1731906"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/empirical.moran_scatter-1.webp",
+          "sha256": "c6aba24a6e1fa09c906a323e0ad99c1204ecb943e3ccbcc1a44b66d818e450fa"
+        }
+      ]
+    },
+    {
+      "id": "empirical.lisa_map",
+      "name": "LISA局部空间聚类地图",
+      "skill_original": "sources/empirical.lisa_map/original.py",
+      "sha256": {
+        "original.py": "973bce69e8332215f9a82f03ff7be165e3fd6b26910f413a6594c95afe726c99",
+        "preview.py": "22c09c3de65a5ad88b3725d4610115606f616553b40f2a864d0285c40f9e963b"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/empirical.lisa_map.zip",
+          "sha256": "1a3af50ba56b147c9f4b029c2836d037051e50b0aba13acd80722370c5f35e81"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/empirical.lisa_map-1.png",
+          "sha256": "2fde3afb1fcff8501bcea9d3ba0f298b64c2a6830be750c59268a3d540c3eb3e"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/empirical.lisa_map-1.webp",
+          "sha256": "22ac7128dca1e4d235c563d33725c5d8d434d24261b22f62d98886f9e5ed4ffc"
+        }
+      ]
+    },
+    {
+      "id": "empirical.coefficient_stability",
+      "name": "逐步控制的系数稳定性",
+      "skill_original": "sources/empirical.coefficient_stability/original.py",
+      "sha256": {
+        "original.py": "41bd4714e9e7b4cbb3a7dbc8e42e298b56509e48cf652bb2aaa0f59b44e1b91a",
+        "preview.py": "1a6b3068428a108f59e7d568b8f9180eafc5ea6c3066c331aaad041d663adc9d"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/empirical.coefficient_stability.zip",
+          "sha256": "dc95d12f849de40c77bc74f5d557b493cae75782d69342def97b9d9ad8d78986"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/empirical.coefficient_stability-1.png",
+          "sha256": "a0d512b484c82e0115213833971b00bc0204565634e2b3dc5b88c5ae214889ab"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/empirical.coefficient_stability-1.webp",
+          "sha256": "18f66df95d976d86821aa69f6837ab4a1cecc0e1c996e3f0b93eb03e9c7002c0"
+        }
+      ]
+    },
+    {
+      "id": "empirical.variance_decomposition",
+      "name": "方差分解总览与次要成分放大",
+      "skill_original": "sources/empirical.variance_decomposition/original.py",
+      "sha256": {
+        "original.py": "9bbcbf3764fa41182381d54bddc8bc8443c5c56e1d60df051217278f5657c952",
+        "preview.py": "431de55bd2872362150e06083b4049772cd20b9896fc3cf8bfdce753a04e5462"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/empirical.variance_decomposition.zip",
+          "sha256": "bc8d5388cfb9d3b6710abbb195b5fb610f07cbdf2acf81349e9f165bea28edbd"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/empirical.variance_decomposition-1.png",
+          "sha256": "82af5070c4186e058fbfae8d015ef4bde7b8ffd029a438d75e9fef7b46576034"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/empirical.variance_decomposition-1.webp",
+          "sha256": "5de98e1a69605f18ca4b55b6d4089efbba2b95bec77c03770401f0d56b0f8c88"
+        }
+      ]
+    },
+    {
+      "id": "empirical.impulse_response",
+      "name": "多路径脉冲响应四面板",
+      "skill_original": "sources/empirical.impulse_response/original.py",
+      "sha256": {
+        "original.py": "6c4ddf4666aed1a6c877ef6744afccaae680073e1766fee4c34c2f2309918164",
+        "preview.py": "28be964a1d38d9250f01fef08ec875c6d3ea160a2e1538a91d8a88a067451ac1"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/empirical.impulse_response.zip",
+          "sha256": "38bb27aa986eb7308a19fd37678f86ebe016fa521f0ac007a50d85095332eb20"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/empirical.impulse_response-1.png",
+          "sha256": "1475e6a242f9760708a97fe8fd7069831ffddbfb4a950f9061ab0fc094f1bd94"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/empirical.impulse_response-1.webp",
+          "sha256": "96278ab5d497134900cc175ebd8317dd50954fecce6f05746e8c59842f934354"
+        }
+      ]
+    },
+    {
+      "id": "academic.ablation",
+      "name": "消融配置柱状比较",
+      "skill_original": "sources/academic.ablation/original.py",
+      "sha256": {
+        "original.py": "75870dede0fdf262ab0b457b6da5505ba9bc7f0cee65668e0ddd2cfa7c41cb5a",
+        "preview.py": "5556ddafc91bb9ebb1ccd8032ffc3599210a086393e1081e8e2d40842a7936ef"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/academic.ablation.zip",
+          "sha256": "e7e204f359efbc98db678f1b68c414cf711fba7e69d388534b202ad03fda6548"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/academic.ablation-1.png",
+          "sha256": "652b1fe485d1845887e8d0b0a5fe7856a7bb8f6be2492e948757fef80047b1a6"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/academic.ablation-1.webp",
+          "sha256": "f27180cfa73d9dee3e501e9ab03b384802b0b65d7d668864c484f94791c56b94"
+        }
+      ]
+    },
+    {
+      "id": "academic.training_curves",
+      "name": "损失准确率双轴与学习率插图",
+      "skill_original": "sources/academic.training_curves/original.py",
+      "sha256": {
+        "original.py": "2745ee1de2711c500d27d913a5910389f9e482f6e9710dfd389dd8b8168ff138",
+        "preview.py": "711eac2af689bd690722c2014e0bc5e558e4ed0a313beb86108e7411efdbbae4"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/academic.training_curves.zip",
+          "sha256": "d943cb51e4442232fbdeec7dd1c72d7c3e34f7846a83b1b31a9de1477d2e7263"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/academic.training_curves-1.png",
+          "sha256": "3f01908b60ba2ff94335950f4144481dac5b03892224d905b5f47022617787fd"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/academic.training_curves-1.webp",
+          "sha256": "8bbe9c8c92e11e59b9370eb4c8756c9bedf292be252c298dbb547cd8fb4b6687"
+        }
+      ]
+    },
+    {
+      "id": "academic.tsne_umap",
+      "name": "二维嵌入簇与密度轮廓",
+      "skill_original": "sources/academic.tsne_umap/original.py",
+      "sha256": {
+        "original.py": "4a9dab21570289bd54fd12e1dac05e13cb4323c6b5a7bb8448cad57b44361c93",
+        "preview.py": "a28ec8e4f8de83df21ed4fdbb368a7550eea1d18675621ac35640ee355643693"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/academic.tsne_umap.zip",
+          "sha256": "1b447ffa61a7a21f40c90a0a1b662122e4241c8c467edd5e30f6e6c75b8f9dac"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/academic.tsne_umap-1.png",
+          "sha256": "e086f579d14a14185c2b6506c721ac678f83b43c324c09f9b1694f71ea6314b6"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/academic.tsne_umap-1.webp",
+          "sha256": "d8d4d591b39597a6ea4762e2c934c03020372570b09badd936593b3588e8788d"
+        }
+      ]
+    },
+    {
+      "id": "academic.attention_heatmap",
+      "name": "注意力矩阵与双侧聚类树",
+      "skill_original": "sources/academic.attention_heatmap/original.py",
+      "sha256": {
+        "original.py": "aa5347a9a06bd652f05d1282d02a821bf4f98abbe43022f0a55afb7ca4672ee7",
+        "preview.py": "d84ecb640eb34fa3b44a4ec321eeeac03c3addce772a033b7c3a21c267a3545e"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/academic.attention_heatmap.zip",
+          "sha256": "82f43f7870c1e5fabb848db416e4874c89c4d2909d2dfc3e518d8eb5c64691eb"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/academic.attention_heatmap-1.png",
+          "sha256": "5762b236eceb495dfec4a0cec73c89479803f2143d124c55ebc506242f499f7e"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/academic.attention_heatmap-1.webp",
+          "sha256": "7d951811c580b0523b90b0a09b27ddeb24bc74a9fd4062c670441337508ec46f"
+        }
+      ]
+    },
+    {
+      "id": "academic.radar",
+      "name": "多数据集分组性能柱图",
+      "skill_original": "sources/academic.radar/original.py",
+      "sha256": {
+        "original.py": "183797bf275930ef4cc5fddbb112f66c212cb78da478cc39771bff11074913e5",
+        "preview.py": "6067be80116b187dfc9d4d8ec5015b60a2381240ea3cabb94e381a1117de6a6e"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/academic.radar.zip",
+          "sha256": "7c575d61593ce7ceb6c8fd4bf205134789f6f2b5c317096a10a5d3578403c208"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/academic.radar-1.png",
+          "sha256": "b41245d7f9659aebe2059c1b94552bf9bddb990a5f756aa5865fd3087e0008c1"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/academic.radar-1.webp",
+          "sha256": "4a6fbb183341eaa1996c14f2815db91e4ab712825b5258b5e67f69f6e143b8ec"
+        }
+      ]
+    },
+    {
+      "id": "academic.hyperparameter_sensitivity",
+      "name": "超参数性能四面板",
+      "skill_original": "sources/academic.hyperparameter_sensitivity/original.py",
+      "sha256": {
+        "original.py": "19d9d399387ea91cfeaf485818d75e268689f1319a7f8e7caadac28d28fa6be9",
+        "preview.py": "77bf38568c33721adff451ec23a68db38545a20b3fe2ddbabba82bb84ddeb41d"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/academic.hyperparameter_sensitivity.zip",
+          "sha256": "558ddb49fa04e7c7e3cd989156e163a7e750bf3f8532cd14394f533887e794bd"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/academic.hyperparameter_sensitivity-1.png",
+          "sha256": "85cda7f1cc048c4fe6dc58d647ebb76963ba7ec6b3372cd0ee8c1620d66d8f69"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/academic.hyperparameter_sensitivity-1.webp",
+          "sha256": "b709adaa4d1a11259e7f92fb4870dddce4f8c07e55ed8ecc752bdab0d591ca16"
+        }
+      ]
+    },
+    {
+      "id": "academic.confusion_matrix",
+      "name": "雨云分布与效应量显著性",
+      "skill_original": "sources/academic.confusion_matrix/original.py",
+      "sha256": {
+        "original.py": "1ba1fae06eeb27b36207fdab7964aa637e9e342b2671f010bb2538d6c6884a6f",
+        "preview.py": "7a1795d29c1b5b098fac482a33739e37e5851ba2edbbc02f7bee39d01c89a66e"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/academic.confusion_matrix.zip",
+          "sha256": "328b468b84c830397f3e693625cc0095ae2c7f877033e05ac8648e2f87efb625"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/academic.confusion_matrix-1.png",
+          "sha256": "64dc4a7f31f8b9b720323ded5563ca17bbf445c98de9439aca88eca0729e54b1"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/academic.confusion_matrix-1.webp",
+          "sha256": "8e81df2aa37d46f6b4b653327cfb37fdf0395d6fc7e7d244733e9dac477df68b"
+        }
+      ]
+    },
+    {
+      "id": "academic.feature_importance",
+      "name": "三维损失地形与优化轨迹",
+      "skill_original": "sources/academic.feature_importance/original.py",
+      "sha256": {
+        "original.py": "74da6c9e5e67f6dfd3a2bc5ef579c0028481fc897551a3578c3ef396fcdceb89",
+        "preview.py": "b8d1ddeb5f4e40bbf65800ae7f2d099040db0f0e61755fc00360a05c77cf97f6"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/academic.feature_importance.zip",
+          "sha256": "f8604579777bcf4100009b07cd61db8506e29c818edb4502f769add5ef7c5a91"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/academic.feature_importance-1.png",
+          "sha256": "b6fac94290798ca1c98dc5d88481329b168094a0c451eedd3f90f9e6ed2e4d79"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/academic.feature_importance-1.webp",
+          "sha256": "0d818bd5274456680ac82cc972642cc2b3c4dbf3d18b83f3d289ee62385f16cb"
+        }
+      ]
+    },
+    {
+      "id": "academic.learning_rate",
+      "name": "图像重建与误差多面板",
+      "skill_original": "sources/academic.learning_rate/original.py",
+      "sha256": {
+        "original.py": "4531f6849b9853068c05c382f8e931920c1911ef0bd2c47cf75a4022e6a22704",
+        "preview.py": "cad9ff85336b80d27315b91c2aef6b958fcdaaaf45dca7b6ca43f1ad01172f77"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/academic.learning_rate.zip",
+          "sha256": "3d2120925c45429fc5d5efa5742f58ee2a38718c2880dfbfee3d69b2c23968e1"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/academic.learning_rate-1.png",
+          "sha256": "0afd60d414c4ba545302e05076b559cdac7f479e18de903ffe40185566312537"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/academic.learning_rate-1.webp",
+          "sha256": "8fffd9c3b47e8d50f0b0d1f35103a01f5eb5ec4533fd82beb1eb899c3f367698"
+        }
+      ]
+    },
+    {
+      "id": "academic.latent_interpolation",
+      "name": "归一化多指标雷达对比",
+      "skill_original": "sources/academic.latent_interpolation/original.py",
+      "sha256": {
+        "original.py": "685d752691278292fc25e6f31d1f86c28ff7ff280519de97a63f8131eb57cdda",
+        "preview.py": "a13a01aaf13f0e7378ab726bd09a312dc6f8180a6dd2a9924897d79f346e6f7f"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/academic.latent_interpolation.zip",
+          "sha256": "cd8a9b24582affec95838f227b3f2043d1ea131e96c015cfe1c736e73dbf2603"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/academic.latent_interpolation-1.png",
+          "sha256": "41a6d2c7a630e459023d316861085ecab46f47515fedd3fc4e8ca518958d0101"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/academic.latent_interpolation-1.webp",
+          "sha256": "7e25285cb848674196e46274ef1f02cccd4dec09f8348e73eec232d334576663"
+        }
+      ]
+    },
+    {
+      "id": "academic.benchmark_table",
+      "name": "三维分组点云与凸包投影",
+      "skill_original": "sources/academic.benchmark_table/original.py",
+      "sha256": {
+        "original.py": "77a5e449821a4ac1e919183400f5fff02c21da0fc59a2e3b6bb72fd1b4a9a7d0",
+        "preview.py": "f9e9e92d5f5a19ed499266d21a779d12492db7af1d74d11be7430f985a3e260f"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/academic.benchmark_table.zip",
+          "sha256": "4e1634b0feb16c93cc0b8739aae388e8cd55db823a8804388f24a38de44f5cf4"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/academic.benchmark_table-1.png",
+          "sha256": "168d2f3d4dd8135bb2d2b1b9eb620c84de288243d88ea4f7a9c41e93bdb21fe4"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/academic.benchmark_table-1.webp",
+          "sha256": "aaeaa6658410ea6f3419294dcf3ccb6421ee4764da79966f431d3d6e62a7a0c0"
+        }
+      ]
+    },
+    {
+      "id": "academic.error_analysis",
+      "name": "精度成本气泡与Pareto比较",
+      "skill_original": "sources/academic.error_analysis/original.py",
+      "sha256": {
+        "original.py": "05c5d4cbc125692c4b359eb1e939351c7f8865406f4dce4223fba9c5bd284404",
+        "preview.py": "ad3e814b10aaa0ceb1aa0cf63eff6497515d5836559cf0f74876fc49d1df20a4"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/academic.error_analysis.zip",
+          "sha256": "78e2b9cd0051daf9bff9806f5c5fe13864c19886e6ffdd76a23a3592bd821802"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/academic.error_analysis-1.png",
+          "sha256": "fe29adc7f28b5a31f3f428ebd194acbfc16743e62e45032f390301a064ec2de4"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/academic.error_analysis-1.webp",
+          "sha256": "9b238c526fcc8d5b6b1c865a01c43644c469cc4c61499f0fe295d4535ba99150"
+        }
+      ]
+    },
+    {
+      "id": "competition.convergence",
+      "name": "多算法迭代收敛曲线",
+      "skill_original": "sources/competition.convergence/original.py",
+      "sha256": {
+        "original.py": "2fa6666f01148669edbc5b7a5aaec095854ab2beca6c46f8443f2c16b3d980e5",
+        "preview.py": "2c593ec56dc0dd2f2dd9f291812b48ac73568f615f83726ddd441093c6bdb2e1"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/competition.convergence.zip",
+          "sha256": "2a5cf2f69fdbed2c7282e26f157e6370325081cddf66b7165d865d3232f986c9"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/competition.convergence-1.png",
+          "sha256": "3a951c8222778a64960310bff2238b7400a907db9e6506dce2a4f2271e41c2a6"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/competition.convergence-1.webp",
+          "sha256": "589c2cae9eb5b86a9088f9858b828494b186c1fd1859a54f1405551af7b0618e"
+        }
+      ]
+    },
+    {
+      "id": "competition.tornado",
+      "name": "参数上下扰动龙卷风图",
+      "skill_original": "sources/competition.tornado/original.py",
+      "sha256": {
+        "original.py": "d9a73252033c7f240c28617aedb6d1f4a755397f5f531632a92dd688450857f8",
+        "preview.py": "034e7a6de086f6e999d9bc715072ac706cc1ad3f0e838ffef617fbfbfc643d1e"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/competition.tornado.zip",
+          "sha256": "57aa76acfc7f6514f58d326f4b6b1eb635834d019b30d77538af7173862c3c11"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/competition.tornado-1.png",
+          "sha256": "544d356fefa97697860d6f9d316bc01e2b6850b104379f45e44bfe5d8b47d1fc"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/competition.tornado-1.webp",
+          "sha256": "fc888d1a7b0336485fd8d3f6bf215a4c95cb2a816a52ad22a9bbd3bd91a3dc4a"
+        }
+      ]
+    },
+    {
+      "id": "competition.pareto_front",
+      "name": "双目标Pareto前沿与代表解",
+      "skill_original": "sources/competition.pareto_front/original.py",
+      "sha256": {
+        "original.py": "9112652d251af2ea92d1ff7c905ab1eafd6586959bdfb39c92da21491141d1c5",
+        "preview.py": "a0a09d268bf141979da2df84b7893cebdcd97d87729ef2fe011ef30bdadeb9b2"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/competition.pareto_front.zip",
+          "sha256": "18901169f1de01fb6872ea48d466a375b8f40d49ff405bbf23b3c1dc7d0891b7"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/competition.pareto_front-1.png",
+          "sha256": "ffdfa765a4ec26598d9ddb1d353e2aa1ef181f97137866aa04963abb99675613"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/competition.pareto_front-1.webp",
+          "sha256": "a330092b5e64e3bcda662b422b24be6422462a6e509f7cb84b205ed75cb1de54"
+        }
+      ]
+    },
+    {
+      "id": "competition.prediction_actual",
+      "name": "预测对实际散点与下方残差分布",
+      "skill_original": "sources/competition.prediction_actual/original.py",
+      "sha256": {
+        "original.py": "dec062e6b433b8192f15399bdfc754a5bbcceddcade695906dc9ecd35bb35ca6",
+        "preview.py": "359316899cbd43e565adce32011a7b051e5a93438bcfff8cd33010789c619d84"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/competition.prediction_actual.zip",
+          "sha256": "dccc37fc2c52397502d11ebe37c244884712acdc60d6eb1b858c834e4d590e32"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/competition.prediction_actual-1.png",
+          "sha256": "4579ba9fb70e1927c5d777ae342307251ce625143cd8a96d481b2cddac515d25"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/competition.prediction_actual-1.webp",
+          "sha256": "0a064e585c47d61c6adc84bca6bea11137aff13f3692b4ccb256fd7c3aab4351"
+        }
+      ]
+    },
+    {
+      "id": "competition.radar",
+      "name": "多方案雷达与交替背景环",
+      "skill_original": "sources/competition.radar/original.py",
+      "sha256": {
+        "original.py": "3b5102ce0b1433eb19a67a6fafc6633f752900d76c583430fb7706a3b84c1936",
+        "preview.py": "ce6cba3a94845780327339580c165b4fcc070bbe409d950ecf15971e9ffd6419"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/competition.radar.zip",
+          "sha256": "a145506201ba595ef698720d517721b783b9a2079a109717b299e09216b89d6f"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/competition.radar-1.png",
+          "sha256": "73ef0933cac18cb8c90cd97efaf0e6442757d6bd23744e19161f1aec873189fc"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/competition.radar-1.webp",
+          "sha256": "f0bca6a128f98588297479fda72a7b7f8c40cbec15621c3a708b98f55a7b3738"
+        }
+      ]
+    },
+    {
+      "id": "competition.surface_3d",
+      "name": "三维目标曲面与底部等高线",
+      "skill_original": "sources/competition.surface_3d/original.py",
+      "sha256": {
+        "original.py": "e09ac12b585158199462b0ea7df5838890fca907b3edcf38b53d34519b4a8e12",
+        "preview.py": "26e0a372da544b2c024d29bad863ac91b10f032dc6eb0e372950db2b32fcac57"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/competition.surface_3d.zip",
+          "sha256": "073efe8dc523a346227f1e8ccf720f57ee8301a5f1a85693495f2ba722d839cc"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/competition.surface_3d-1.png",
+          "sha256": "0f1f85b13de7a8087aa43d67f63349bbea64f3e6fd904d38f482797243853494"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/competition.surface_3d-1.webp",
+          "sha256": "4ad2c272545d58a527d1045eb5277b8f2109e182d3f4f8183cfd7189c6ae5e0c"
+        }
+      ]
+    },
+    {
+      "id": "competition.china_choropleth",
+      "name": "中国省级数值分级地图",
+      "skill_original": "sources/competition.china_choropleth/original.py",
+      "sha256": {
+        "original.py": "eccc990d1903903344dc708da750f657f494c6c689b3cf21636a88f98dcf879f",
+        "preview.py": "98dfcbaa737d7e281b6621b8d4483525be9e9d23db76b0a3e10501a59f36cedb"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/competition.china_choropleth.zip",
+          "sha256": "dcd924f84f4a2bb9183aa506a459f97f868586641cda4d77d7f8217cc913125b"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/competition.china_choropleth-1.png",
+          "sha256": "67170c6f6afd65942c335348c4c1a4dd3bde57d682fe6c74ef695df9fb1e1e07"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/competition.china_choropleth-1.webp",
+          "sha256": "c8f856111e25cca8bc6dff5b0c6cc6575ec657e2e7417fba594e49d088be2c94"
+        }
+      ]
+    },
+    {
+      "id": "competition.residual_diagnostics",
+      "name": "残差分布与自相关四面板",
+      "skill_original": "sources/competition.residual_diagnostics/original.py",
+      "sha256": {
+        "original.py": "03fbe96bd214f6f339e09dd71f8e7d7edc277345162b8ba0fb2fde860b7893e7",
+        "preview.py": "5d8159823d7e704dd1f90841a0b8673a0dff9d20a9c03368b5dbb704cd3b70e9"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/competition.residual_diagnostics.zip",
+          "sha256": "67bcd80f43e7eb17790d253a90c867fa54d8fc008960e6c4565ab4e45aaf1b3b"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/competition.residual_diagnostics-1.png",
+          "sha256": "1b8f47298234aa7c92eca18cf72daa2e9b8dd57427c8afedc1d5087cb93313a2"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/competition.residual_diagnostics-1.webp",
+          "sha256": "28e87a5a08fa3dadf08d0e62d2b7e956963c4fe9cb884ed757cbf31983104a45"
+        }
+      ]
+    },
+    {
+      "id": "competition.feature_importance",
+      "name": "特征贡献排序条形",
+      "skill_original": "sources/competition.feature_importance/original.py",
+      "sha256": {
+        "original.py": "261f8285bfe9174e52f955030d043d0feef6b372a7aa15b8dc507cdd0caf01d4",
+        "preview.py": "7b6ef4f5b2f35ec92386584dfa23f570126cadf37926ad424429e4702912469c"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/competition.feature_importance.zip",
+          "sha256": "2aa15f59c9ad044766fec3c3631673fe8e24d5d5cfc0a0325af724044802d49c"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/competition.feature_importance-1.png",
+          "sha256": "0ccd2a88c29020ec784cb659636334188b12fe180391b1cb4efb6721281ba99c"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/competition.feature_importance-1.webp",
+          "sha256": "0460c71327c6a7563360b271dcb4f4697f388ddc393d8914fa63cb5293e53cb1"
+        }
+      ]
+    },
+    {
+      "id": "competition.confusion_matrix",
+      "name": "分类混淆矩阵",
+      "skill_original": "sources/competition.confusion_matrix/original.py",
+      "sha256": {
+        "original.py": "51a09f1c215ea0fbbb1f1dc8b6cf08814e71bc89a396892136bda79322cceea8",
+        "preview.py": "b3f5a4a482e944ebb0f003a0b871def7a6e6e93e56369eb7a718aac273b81b85"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/competition.confusion_matrix.zip",
+          "sha256": "2b6ec7d83c9e5dcb3ee396ba94e36fb9943012887b68f46e7238c82bda4db848"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/competition.confusion_matrix-1.png",
+          "sha256": "cccfc46be2498d04a55d0bd7aa0c249d05757d0d0d5b6b999e3a8b4b3f84bab1"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/competition.confusion_matrix-1.webp",
+          "sha256": "006a35125b785e43ba9867c1a90f40cd2e5d0880e1417a2ae66e28bf408fc248"
+        }
+      ]
+    },
+    {
+      "id": "competition.roc",
+      "name": "多模型ROC曲线",
+      "skill_original": "sources/competition.roc/original.py",
+      "sha256": {
+        "original.py": "03f261f8ff55ac2e087c9d343fba389e12c2b4bd9baf510e3eee487b639918a9",
+        "preview.py": "6d8953ff664edf3fc2b15bd46e6ca7ed8c1795b3869ab7bcaaf1035abebfc698"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/competition.roc.zip",
+          "sha256": "6255dff5ce12ce4aae0027ee6faf5558d2ffb6b334039e7af6211a03ff5df497"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/competition.roc-1.png",
+          "sha256": "245d17adf5bb4743a039e83235ce8c2b11933158c09e4c89616ff0f8a15b2118"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/competition.roc-1.webp",
+          "sha256": "f9067b8c5b29057436c901d728fe6f6fc9838d4d3d32daceea3cb841fcf54224"
+        }
+      ]
+    },
+    {
+      "id": "competition.correlation_matrix",
+      "name": "简洁下三角相关矩阵",
+      "skill_original": "sources/competition.correlation_matrix/original.py",
+      "sha256": {
+        "original.py": "2ba96d2561895e23b7e6d8676e969c49e5b5484f9b886994e67bbc12d9c8b2d3",
+        "preview.py": "b768b5064a7d8df21ac8fd9cd38e77d5c874742854a4b9af4bc0b897a6d3033a"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/competition.correlation_matrix.zip",
+          "sha256": "9b74b7f8788f542c8c81b62d2658e220780881e6ea1e783cf3ffb70a2385932b"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/competition.correlation_matrix-1.png",
+          "sha256": "d3fbc7be30621d96e4016b610d22cc49253e92bfdc25044ee17ea0c3c21c9894"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/competition.correlation_matrix-1.webp",
+          "sha256": "4514c8a87d4496572e7f52504505bf16b825aa8f965404e21a6589c48eba8339"
+        }
+      ]
+    },
+    {
+      "id": "competition.gravity_migration",
+      "name": "空间重心时间轨迹",
+      "skill_original": "sources/competition.gravity_migration/original.py",
+      "sha256": {
+        "original.py": "1773c5c63644189badb60ea715233fe5df20ed6b764eba6695c8c9a838c148d5",
+        "preview.py": "e17e89575c0b08d6adfbce9dd6a5b468a28ab73782395bed5fd172a1fa09ba4b"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/competition.gravity_migration.zip",
+          "sha256": "2c2cb8bf02f3b59ae4ae78bb33d32ced8c7881ecd4697b2a051e05d8e205038c"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/competition.gravity_migration-1.png",
+          "sha256": "cb1f3ef040bbbcb85654b27033ac333cdb36066e063b6dcc4caebadf5be1ba4e"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/competition.gravity_migration-1.webp",
+          "sha256": "fe85fe2208c0334038607772700d8eb05c36e254b25cf41be1c4c9a175007918"
+        }
+      ]
+    },
+    {
+      "id": "competition.contour",
+      "name": "双参数目标等高线",
+      "skill_original": "sources/competition.contour/original.py",
+      "sha256": {
+        "original.py": "e35430683a8f52a83e176d945407d3526e2bb2ff62c0c6a00349865c7fa96f9f",
+        "preview.py": "489de99a3db5f537f803cea91c38757cbc16526d77ad0f570f494c0b3416ff86"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/competition.contour.zip",
+          "sha256": "4c1866a8809f539fdeac28bc20bca038abc9eb3437d2b3078942c8f43bb16160"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/competition.contour-1.png",
+          "sha256": "c881232ee42bb4f5b86ccd8effecd70cd665288b92560e8b85e388527e6b8d8c"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/competition.contour-1.webp",
+          "sha256": "35125ec8c1872aee12d9ae6f5d9faa74578799a4a93e769a5fe5e6d893b05fcc"
+        }
+      ]
+    },
+    {
+      "id": "competition.gantt",
+      "name": "任务排程甘特图",
+      "skill_original": "sources/competition.gantt/original.py",
+      "sha256": {
+        "original.py": "3121be8dadb19d53d05dca5e20154664f57f7a6add00d75bc817aa1b8852d935",
+        "preview.py": "347059f0447dafa482be995058458e346fe7bb10300f647c72f60b94c4c6e0b9"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/competition.gantt.zip",
+          "sha256": "b6160a656e99c17c007706a901a0b74c6d7c026d082f4b34c4b0249916e92bf3"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/competition.gantt-1.png",
+          "sha256": "f0f877fe7fe64b0fa13f31810fe1c9f041a114a40278e352379730065893648a"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/competition.gantt-1.webp",
+          "sha256": "95c184a89ef9e432f175ebdb46faed4cea8fe1819cc984b3f3bfcc498490fc87"
+        }
+      ]
+    },
+    {
+      "id": "competition.network_path",
+      "name": "网络路线与节点布局",
+      "skill_original": "sources/competition.network_path/original.py",
+      "sha256": {
+        "original.py": "4443417e1becea3ffb28e071d35987131f30d5801f0f09194580c184727adaea",
+        "preview.py": "f2131cbdf90ae8c615d786e21acc1e49e2ce98b3e5739e1afd94438e2f15ac5a"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/competition.network_path.zip",
+          "sha256": "f3f619c5fbd4d85e33a51e943244f264b2eb699c664a57bee818eb6d504c5b74"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/competition.network_path-1.png",
+          "sha256": "d53658d95d7804be44f840ecda06a4a0bcc64e191df029bc5c3830152222b20c"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/competition.network_path-1.webp",
+          "sha256": "fe3f873ca3c67b78138b5320681f43ab8addee88136200b0315626c1314a08af"
+        }
+      ]
+    },
+    {
+      "id": "competition.multistep_decay",
+      "name": "多步预测性能衰减",
+      "skill_original": "sources/competition.multistep_decay/original.py",
+      "sha256": {
+        "original.py": "4625658c722891cc745d86e1c333b730cbe719378b49d219cf9657ed38e35357",
+        "preview.py": "50721e293fa9e2e1db8690c1f93803feee80d64939b4f7cd74ebe0a912322be1"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/competition.multistep_decay.zip",
+          "sha256": "43005d66fcd811a77c2f3e4662019265052a2ad0e73c2f93c638c0cd7c737f1b"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/competition.multistep_decay-1.png",
+          "sha256": "1038e92134ce472e28e8cb11761bc1418d980a29fb661ff806dc43ceba63675a"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/competition.multistep_decay-1.webp",
+          "sha256": "00293fe99cd08f1039fa4578f842c267001c83a350f2f112a6a6382571c2eda9"
+        }
+      ]
+    },
+    {
+      "id": "competition.spatiotemporal_heatmap",
+      "name": "地区年份数值热力表",
+      "skill_original": "sources/competition.spatiotemporal_heatmap/original.py",
+      "sha256": {
+        "original.py": "bbd339716ead29fd96b35c4941c73d75ec6532a4d082fb204a81c531c2c19eba",
+        "preview.py": "cbcbe9797ab308a68216261a5753d1dab1916893c29a1fd0675153826f923c63"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/competition.spatiotemporal_heatmap.zip",
+          "sha256": "7c5639f405274401cf4251d8d8ac14c59fc047a61591ddf890d175e109fbae02"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/competition.spatiotemporal_heatmap-1.png",
+          "sha256": "0126eb54e16faf1a6e540bb15f23f999c0e1f38c0ec014cc2327e042899e99fa"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/competition.spatiotemporal_heatmap-1.webp",
+          "sha256": "6f227858f27439ba563bbbb47fce6fa75991fc1593600b04cd5f6141593d2739"
+        }
+      ]
+    },
+    {
+      "id": "competition.pareto_surface_3d",
+      "name": "三目标候选解与前沿散点",
+      "skill_original": "sources/competition.pareto_surface_3d/original.py",
+      "sha256": {
+        "original.py": "1d0c5a5b8058a7ee82b64ab04cc055479c88c0d3fbba047950e2b46e3d00b4a0",
+        "preview.py": "f8c3050425d8371611ed2b3aa38c62d986f98d49e444f3bacd2455b1f3fc8573"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/competition.pareto_surface_3d.zip",
+          "sha256": "72a49b142200e650fe108c1773048600185fd67bfc0c225465fe78cfb4d5e9a1"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/competition.pareto_surface_3d-1.png",
+          "sha256": "22078dcf2d6219c6ab931479d3c8077a7e1ffd3c306bb255b0e505733295b601"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/competition.pareto_surface_3d-1.webp",
+          "sha256": "bd087032ebae7199812897ffa9a0b06c1a5e96ef74444c1607f3fc221cb3e9fe"
+        }
+      ]
+    },
+    {
+      "id": "competition.waterfall",
+      "name": "增减贡献浮动柱瀑布",
+      "skill_original": "sources/competition.waterfall/original.py",
+      "sha256": {
+        "original.py": "d94448efb2214861b12bd76e587918c23ec2e48910d98217a1b294a5fe668157",
+        "preview.py": "e1261279d40bd62f6a7bcee6dd342bc06b73162ab8ec34eeb69324f4c4632a1d"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/competition.waterfall.zip",
+          "sha256": "838ead0dbf0ce68d09798bf6a88e469405760b55104184ed8a869d1ca31263d1"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/competition.waterfall-1.png",
+          "sha256": "6f601ebdd3b34576347970c0336e5c7d4ce0b8f25ac52f118b1468c08c5d612a"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/competition.waterfall-1.webp",
+          "sha256": "d1604a77cf2a3404cdb6eae919ff89d697cef676096584866885fce92fce5783"
+        }
+      ]
+    },
+    {
+      "id": "competition.bubble_joint",
+      "name": "气泡与双边际密度",
+      "skill_original": "sources/competition.bubble_joint/original.py",
+      "sha256": {
+        "original.py": "0efa3adc5aad03a3159aba12c85d794efcb04b9286f0faaf67e89200473b20cf",
+        "preview.py": "d177d1f200d8fd0e70dbb18da06851cd3d0d70caae5ca301a81682acc6be0375"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/competition.bubble_joint.zip",
+          "sha256": "275bf1ef0132842f08c853786f21d69546a1a776c49de58c17cca5c356e7ddf2"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/competition.bubble_joint-1.png",
+          "sha256": "97c4147a9238241e544a2d7ac1c3ff400c1e4e4ca120cbd4cc7536b7134b1816"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/competition.bubble_joint-1.webp",
+          "sha256": "870b729757608106ac29f2f3f4a3929af6025a9b08d5e289286054d14a1ecccc"
+        }
+      ]
+    },
+    {
+      "id": "competition.bubble_kde",
+      "name": "二维密度等高线与散点",
+      "skill_original": "sources/competition.bubble_kde/original.py",
+      "sha256": {
+        "original.py": "0e7218ab48b06682dffea7cc76987a5a48d987187e326c6a4f6cf2760cc0d534",
+        "preview.py": "8cb5e5ef36d47c9e78dbef8eef37514da7f92501af3ac18e1bce22e9a83f12ec"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/competition.bubble_kde.zip",
+          "sha256": "5618095f35a9c6953596104238492c1745cbc8dd87df0c9fa90a923fb44f31b0"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/competition.bubble_kde-1.png",
+          "sha256": "5de62eb3719bd9a39b724adbe87c0c2d2e91683fff63409e8d2f71a44ab0d34b"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/competition.bubble_kde-1.webp",
+          "sha256": "7e7900ffe3982df8849f95c4956c28f4e4abd84cc8e5a56bd2a3e2554717e800"
+        }
+      ]
+    },
+    {
+      "id": "competition.kmeans",
+      "name": "聚类分布与轮廓系数双面板",
+      "skill_original": "sources/competition.kmeans/original.py",
+      "sha256": {
+        "original.py": "2c3acf0f0d7a420476cb2889659716b8ccf5f2428ac4d1a7e79cf557a0960446",
+        "preview.py": "cf8bb4f98c83538afaff102380b143bc24e24bad82640ed7d44ebba3ef355eba"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/competition.kmeans.zip",
+          "sha256": "9773a9efe8768b19135fe672aca15295ed649fc29632bc96f2086834f8af15c6"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/competition.kmeans-1.png",
+          "sha256": "97f3f59e14824528cd889578281dd9cae05b780b79cf5ef804a5489b985148b1"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/competition.kmeans-1.webp",
+          "sha256": "e5646bd7a831318885dfdc1baaf9fc115d8acf9ae36ac00ff218cfb88b7c5b48"
+        }
+      ]
+    },
+    {
+      "id": "competition.hexbin_joint",
+      "name": "六边形计数与边际直方",
+      "skill_original": "sources/competition.hexbin_joint/original.py",
+      "sha256": {
+        "original.py": "30a1e2235d420902dfe87458ec8dff7cdbe25c61053a8a1be16ab93ec8169d72",
+        "preview.py": "39d6e7f88b277d5b3916bc97e941ef3785aa86d8d0c24dda9d10d9304c1f39a1"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/competition.hexbin_joint.zip",
+          "sha256": "4a9f9096273095dbec373e153ead7d7aa5af501b08c1b1197e142bf0c68750f5"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/competition.hexbin_joint-1.png",
+          "sha256": "3fafe4b700e94f73fd9dabdffd8b65843266fa03b7fab6b42fe948181277c321"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/competition.hexbin_joint-1.webp",
+          "sha256": "7e52fd30031dee8dbb5912da44790a2718a8fd2eadd311ea65d163ab3aa2bc31"
+        }
+      ]
+    },
+    {
+      "id": "competition.kde_joint",
+      "name": "二维密度与双边际联合图",
+      "skill_original": "sources/competition.kde_joint/original.py",
+      "sha256": {
+        "original.py": "ddcbc7f698f8b9a1f2619f66e779e4a77850a37b99c6dad2470b6687ab90cc95",
+        "preview.py": "d3ccbf8b55fe403a583e813f559ddb5bb4768829b1fdd698c81c7f5a085c84d1"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/competition.kde_joint.zip",
+          "sha256": "2f9719d7db8ad1578df39b6a5b7e1cbc6b97f9515b34da1249eb9c7f485a0b6d"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/competition.kde_joint-1.png",
+          "sha256": "528f5b4515e86fa46bef2971d4afa24d50c8af1ca133860c1ed0cc836bb30865"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/competition.kde_joint-1.webp",
+          "sha256": "78675fcdd2ce3443dca029f754a367c7ba854302280c61f38b4a0b309cdd3677"
+        }
+      ]
+    },
+    {
+      "id": "competition.scatter_regression_marginals",
+      "name": "简洁回归散点与边际KDE",
+      "skill_original": "sources/competition.scatter_regression_marginals/original.py",
+      "sha256": {
+        "original.py": "f0bf5a23521906e8718a633c5e4f4ea452a24f7102004fdb8e59795573118aa2",
+        "preview.py": "0e12075d4e6edd89a2774405bcd21b4bcc9ab40c309fea85a74243b92b586bd2"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/competition.scatter_regression_marginals.zip",
+          "sha256": "1eba068a64db5972d4e15fe56903ddd0010f4dd3779b407321daa041454fae9c"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/competition.scatter_regression_marginals-1.png",
+          "sha256": "95e417bc6570d33f03a04ada4bda2edfbf01009cb4f5e6cf6b073f623f25b6c0"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/competition.scatter_regression_marginals-1.webp",
+          "sha256": "f556f03cff168d7890bc89189d596bb89d5db9772a76d7c59e597a9e58ef1d5a"
+        }
+      ]
+    },
+    {
+      "id": "competition.cluster_3d",
+      "name": "三维分组散点",
+      "skill_original": "sources/competition.cluster_3d/original.py",
+      "sha256": {
+        "original.py": "5ec93a2cccc0f1b050b3766b9487fd2fd9b54a5f3a4e20388b7ba5b950430511",
+        "preview.py": "f9591f68cbc6efeaa263d76a13eefe4e79405456799b5eddf77a3255f1981165"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/competition.cluster_3d.zip",
+          "sha256": "efc5ddf6b3e55409579119ed601b37faa6ad28a3bcd691aa3d451db44cd83ea4"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/competition.cluster_3d-1.png",
+          "sha256": "0364e18e4b717f7ccd8ca47888f4c3ce0ca91cdd49496de7f4be19d4a9c1d2ee"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/competition.cluster_3d-1.webp",
+          "sha256": "413fa4d7ae6075a5fdde71d45a90760a996adb21786624eaecb5de7ef742ce43"
+        }
+      ]
+    },
+    {
+      "id": "competition.feasible_region",
+      "name": "二维可行性分区与约束边界",
+      "skill_original": "sources/competition.feasible_region/original.py",
+      "sha256": {
+        "original.py": "ca3f8ac55264441e5620bd626af7e30336653134bc27fb7086610696b8bd2798",
+        "preview.py": "5fe2dd1a86c8194c752354378bed7bfcdf24898dff1eef981c15c2c4c0e49b2d"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/competition.feasible_region.zip",
+          "sha256": "db5f17dba299ed284157ab60a71938ef86046ee66e3f8d7086cd70c27073f1d2"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/competition.feasible_region-1.png",
+          "sha256": "b33fef5e0e71ad97d4400d1c28643f9ad8defaa7f5fc49b3e940bb7e84d6919b"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/competition.feasible_region-1.webp",
+          "sha256": "95da780a81046446a318e45abd16d4d03b03bf299d6dc1a51f11bb0069788406"
+        }
+      ]
+    },
+    {
+      "id": "competition.state_grid",
+      "name": "离散状态时间栅格",
+      "skill_original": "sources/competition.state_grid/original.py",
+      "sha256": {
+        "original.py": "060164c197f6e117211799340e72265a1a1339701710faf85578b70c43f06126",
+        "preview.py": "6f0769c1e15edb8938b045a88c470934e713265f546a7385b9bed7f888d4ef7a"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/competition.state_grid.zip",
+          "sha256": "f9babe47f4d24a8b24178c184cd0b96ded4995a437b8e3d40df44aae6a9fe1cb"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/competition.state_grid-1.png",
+          "sha256": "dd89decd00159d0f3dc1c718bd2f8b7ccc8a53605f24159721d0be962579811c"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/competition.state_grid-1.webp",
+          "sha256": "760b2cf0104cccd04b08eab838a883f3a5ea748186c85475c4d9d3fe2dafd238"
+        }
+      ]
+    },
+    {
+      "id": "template.sem_violin_pearson",
+      "name": "残差小提琴与Pearson完整组合",
+      "skill_original": "sources/template.sem_violin_pearson/original.py",
+      "sha256": {
+        "original.py": "30648b826cbb67a3e917e80de739d1bbeb9bc11a5865a6f0f9b9b0fed3b0e6a0",
+        "preview.py": "36522c44e447f55be8198130728d637616a9d23b54388e0a988dccdf8015f265"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/template.sem_violin_pearson.zip",
+          "sha256": "59de4528a534f78b788116a4cebf4229254e417daee22b5e24c0de4b8e8806b1"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/template.sem_violin_pearson-1.png",
+          "sha256": "9fd055c877d05eb06b6940f2ce9dbc0f5a2ec19016066ed30529d574d8609fcd"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/template.sem_violin_pearson-1.webp",
+          "sha256": "5cd46e7f6afdbcc489e74b12a9a78c7a4b15fbdff26dfb38b067ce768f7454be"
+        }
+      ]
+    },
+    {
+      "id": "screenshot.fan_violin_heatmap",
+      "name": "扇形小提琴与热图",
+      "skill_original": "sources/screenshot.fan_violin_heatmap/restored.py",
+      "sha256": {
+        "original.py": "c8df6d2e9ac1e3ca1da60412309845d0c50354fa51ef35f7525698e20bbffc13",
+        "preview.py": "d45394be03e374e1aff7fde214f2f4c18f602c21d6f27c31532b37222cf390e9"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/screenshot.fan_violin_heatmap.zip",
+          "sha256": "3bf90d0d2d9ab0f12241b92eb456be42ed2312e1b84f101285f375d5f40845ce"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/screenshot.fan_violin_heatmap-1.png",
+          "sha256": "e713f86a896fc60bcb32b2f90935bb7bda6b25df81b446c96d0afe50eae3caf7"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/screenshot.fan_violin_heatmap-1.webp",
+          "sha256": "aa36321d7ccf7e160d14688d6cc83c48e6b4dd3b3cb5323e5dd8351ab83c8e39"
+        }
+      ]
+    },
+    {
+      "id": "screenshot.layered_area_3d",
+      "name": "三维分层面积图",
+      "skill_original": "sources/screenshot.layered_area_3d/restored.py",
+      "sha256": {
+        "original.py": "b9a23c4f7ed58d55e1d4b251a15b46c44d63636df0b7a7a528fbfc4ad80e37a7",
+        "preview.py": "c2259b02911b930339b9962dd15ef7c3a47c421fc1718183c94203e3992121b7"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/screenshot.layered_area_3d.zip",
+          "sha256": "1890d2e1382a134f631eb60b187d81815a4d122120665bdea07df3f76601ecff"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/screenshot.layered_area_3d-1.png",
+          "sha256": "16f455a32f973b117029a49fc5ec0fdb99b9e10416dbd3738ec9f565a513c6d5"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/screenshot.layered_area_3d-1.webp",
+          "sha256": "dd71e5327eb1b03569f9736565ddd5e86ee2f1e7c47ef00b0c69e72bc3fdd464"
+        }
+      ]
+    },
+    {
+      "id": "screenshot.heatmap_slabs_3d",
+      "name": "三维分层热图",
+      "skill_original": "sources/screenshot.heatmap_slabs_3d/restored.py",
+      "sha256": {
+        "original.py": "68c67e3f6f1aa98dc4f275d8a8c2130094982a31c56f16cf405f15927bc55662",
+        "preview.py": "7232256906fc26caad1ec4c83260b275648e98cee5baabf4d8c0f272aae2f994"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/screenshot.heatmap_slabs_3d.zip",
+          "sha256": "1955d51015de5e94b928e0478d941d0a159452ed909db560d837d489f3cec9a2"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/screenshot.heatmap_slabs_3d-1.png",
+          "sha256": "ac9b6896a39b3f501095c140df94d6c7c033cc808efdbd322e2611f333300cb6"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/screenshot.heatmap_slabs_3d-1.webp",
+          "sha256": "6d84238ac08ca8fa6373f9470a1c4691156379008f1cfee7685f0e2a17573fcf"
+        }
+      ]
+    },
+    {
+      "id": "screenshot.sunburst",
+      "name": "多层旭日图",
+      "skill_original": "sources/screenshot.sunburst/restored.py",
+      "sha256": {
+        "original.py": "9980fa5fd7423c081536906bc2182aa461566695e7779ae292f405057bedfad9",
+        "preview.py": "108d6fbd831095f421db8b3690cfc15bd2ccee03e639ebd542cd5d3b09f671a6"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/screenshot.sunburst.zip",
+          "sha256": "2536f8b6e0b21760fbfd152814bbff87a8847c0e3505e8a9947c2c90c2ca972c"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/screenshot.sunburst-1.png",
+          "sha256": "14e8e0b579ce3b60faff002195932a21b048849ec6ac63ec8b6047e7f7107d45"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/screenshot.sunburst-1.webp",
+          "sha256": "f59744eac4a8e529f96dda15f17c706e0d60ba6987f370854d422697547318a4"
+        }
+      ]
+    },
+    {
+      "id": "screenshot.peak_stacked_area",
+      "name": "峰值标注堆叠面积图",
+      "skill_original": "sources/screenshot.peak_stacked_area/restored.py",
+      "sha256": {
+        "original.py": "010c3d1bbeb9ddf35982ffb77d9399f475ae56d17b993c810d85f4b2e54beffb",
+        "preview.py": "0fa15a2a0b504d81796b67a1f5639a22bcc344e3868a20c47c1827392e709741"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/screenshot.peak_stacked_area.zip",
+          "sha256": "ba08520dd3e6a2f098e5d9872b06dba87a7632e38d30f5627730ce89b589a4f9"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/screenshot.peak_stacked_area-1.png",
+          "sha256": "580f233090cd28ef717da8df70ca5e39c6d82974f05744af0d5d9ffeddbbf85a"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/screenshot.peak_stacked_area-1.webp",
+          "sha256": "c605e26dc726293806653c03202dcd94d83959577ca59b9227f81f6791a13d46"
+        }
+      ]
+    },
+    {
+      "id": "screenshot.triangle_heatmap",
+      "name": "双指标三角热图",
+      "skill_original": "sources/screenshot.triangle_heatmap/restored.py",
+      "sha256": {
+        "original.py": "5b5fc5ffe3c2c259bb814ebac8ce4bcd1aec39979cc8a2d71dd87099b716f9ae",
+        "preview.py": "6b4c231f824ca38bdcd495b865456d3014abe05afef1dee188fe094aefa74cd5"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/screenshot.triangle_heatmap.zip",
+          "sha256": "f44ddad1da46c65b63cc3de46771420ef28f7647b8c8acae64b302542dcc0984"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/screenshot.triangle_heatmap-1.png",
+          "sha256": "2b6c2b7b86f67d340acadafd5aca8d9dc64142b66701f35191641081455264bd"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/screenshot.triangle_heatmap-1.webp",
+          "sha256": "dc20388508fe9633ed8cc8018c091fc79295ffe272283dd9fb4c45dd4e9f3ba9"
+        }
+      ]
+    },
+    {
+      "id": "screenshot.cone_vortex",
+      "name": "三维涡旋向量图",
+      "skill_original": "sources/screenshot.cone_vortex/restored.py",
+      "sha256": {
+        "original.py": "26eda8470101679f0b1143e00ff293671e2f57530ab933a4233882471f78b184",
+        "preview.py": "464c6d0e072ead1ff9b37144edaa3dbd731656bbb2b04789949436ebbdd8d290"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/screenshot.cone_vortex.zip",
+          "sha256": "d05ef08783b71e9026412b0648e8662395f954543c2d2af91b0c3619f73a0875"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/screenshot.cone_vortex-1.png",
+          "sha256": "7897dbda98467f0034e2b580358074c2346348928fb60eedb36c6574a04e0e84"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/screenshot.cone_vortex-1.webp",
+          "sha256": "cc9c206979588e41f50127f6d7ddc54bb5bc5697a91efc59bf6128567a9d3b28"
+        }
+      ]
+    },
+    {
+      "id": "screenshot.isosurface",
+      "name": "三维等值面",
+      "skill_original": "sources/screenshot.isosurface/restored.py",
+      "sha256": {
+        "original.py": "dc125f7642e3eb6933b8068ee18a9f69d7703e897112143975d254fb068b7e6a",
+        "preview.py": "d64f9b8b59e650146a9209671632490c776010050dddeb0b7a8c2e6ea22180f2"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/screenshot.isosurface.zip",
+          "sha256": "49e300f2cfc9580bfbc3959b3ebbeb1620ecfd322be3076b9f21077ec8b3425a"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/screenshot.isosurface-1.png",
+          "sha256": "58c8a63f0cf9b2ec7a7ae0e67b84ea06507a3831055b864b2b012cc9f207c117"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/screenshot.isosurface-1.webp",
+          "sha256": "5b6a96d82e5243a95634786e7a0e928a49484aa86df0dde26fb9e0c17966999c"
+        }
+      ]
+    },
+    {
+      "id": "screenshot.spiral_bubbles_3d",
+      "name": "三维螺旋气泡",
+      "skill_original": "sources/screenshot.spiral_bubbles_3d/restored.py",
+      "sha256": {
+        "original.py": "16ed7bba2b7589137d10dcca597cd942838a1cfc15e174833713a53a21214be5",
+        "preview.py": "f9c31c0dcc43ee7449d5a41cb20157c91256c89c3e48f1103c350cf9a8ace265"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/screenshot.spiral_bubbles_3d.zip",
+          "sha256": "6de568cd6607510f5b2d9e5a92232a79b1454341f4531d3efa89068bca722262"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/screenshot.spiral_bubbles_3d-1.png",
+          "sha256": "b81202e6d297262674163b00f6fe520414633898a79ca08ffc31fbc5d44ca893"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/screenshot.spiral_bubbles_3d-1.webp",
+          "sha256": "227ce6827ca5065f73025a345cff7b0c882439d11ad8abc0c954e8fc1a7e9063"
+        }
+      ]
+    },
+    {
+      "id": "screenshot.volume",
+      "name": "三维体绘制",
+      "skill_original": "sources/screenshot.volume/restored.py",
+      "sha256": {
+        "original.py": "36df5f48ec0ac182d7d57c4ea855f980575d06bc154a8baeb94b4ad320f3c038",
+        "preview.py": "c13ee09f791a6b44fed2bb92eee19c870a54550866ca21e64a4b1ef39638b9bb"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/screenshot.volume.zip",
+          "sha256": "64aa2ee29e156f9e00d3b7c4831266a7ed3011d68244262cec6eddee4b59184e"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/screenshot.volume-1.png",
+          "sha256": "3251bd9384fac045499211f9f8f6f98de4bef86ea9ef15f0138b661eb2a9f1da"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/screenshot.volume-1.webp",
+          "sha256": "543f688af866e1218e7b8fe7f17884be72bceaed69b3e416258135a2c167f7dc"
+        }
+      ]
+    },
+    {
+      "id": "screenshot.gridded_scatter_3d",
+      "name": "三维网格散点场",
+      "skill_original": "sources/screenshot.gridded_scatter_3d/restored.py",
+      "sha256": {
+        "original.py": "a22e4b55949f703bd7cc7ccdf57427563ab33a8eee5455db18da8807b0f2a566",
+        "preview.py": "dd68ddc05df39e50088329888f8bfb4dc2fa89d0b426c81f266dea356285ccc8"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/screenshot.gridded_scatter_3d.zip",
+          "sha256": "e87d70f19f5bf733435e50f27fb6d787ed1009536458ac1d085e7824dda3a035"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/screenshot.gridded_scatter_3d-1.png",
+          "sha256": "3c4c0508a5e4206e87e7e43993ca576e1ddebc38b85adda603e28f3bc4979bf6"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/screenshot.gridded_scatter_3d-1.webp",
+          "sha256": "63760f8aa2218196ee23706f4c3d74cff701fb7006c3a9b2e6532b684716b2bc"
+        }
+      ]
+    },
+    {
+      "id": "screenshot.contour_lines_3d",
+      "name": "三维等高线",
+      "skill_original": "sources/screenshot.contour_lines_3d/restored.py",
+      "sha256": {
+        "original.py": "c8b14a550080521d543a67515643bded664cd5a4763150eaf99d554b4b83ab4e",
+        "preview.py": "f140b8696163c55de726e1db25c91ef60a1577785f813e0c3f3f2ef753d45a17"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/screenshot.contour_lines_3d.zip",
+          "sha256": "5698f1ce3991ac90f78e8f30d0f1678253b9c568d74e6d37c9a347dd418617e8"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/screenshot.contour_lines_3d-1.png",
+          "sha256": "a446e3a844cb12f2b4b2a201716e1e6048ed93b49aa937a43f02695622545782"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/screenshot.contour_lines_3d-1.webp",
+          "sha256": "d7c93b3d97752652e80a10fabccd15dee64072fbb4d4dd684d41d64716b7a864"
+        }
+      ]
+    },
+    {
+      "id": "screenshot.block_surface_3d",
+      "name": "三维方柱曲面",
+      "skill_original": "sources/screenshot.block_surface_3d/restored.py",
+      "sha256": {
+        "original.py": "a61ab369248f0abf7b09e1f4da5c3cdf2e7a2dc73e2148b85c9fb6bf3eb3b596",
+        "preview.py": "cf432bc1fe3d56bb4152c5724ffbbdebf50e466e4ce7fd515e3db0f1f90be9b2"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/screenshot.block_surface_3d.zip",
+          "sha256": "29ca1a3aeb35a3badfd74c9524a47832bc834f5b837a747e1f40c2710f8cc168"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/screenshot.block_surface_3d-1.png",
+          "sha256": "081361ca1ca0a6455ed735823449a6081a82eee79d2a34895ad894e6c8ede52d"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/screenshot.block_surface_3d-1.webp",
+          "sha256": "fa1e7ddc416d88223c9f4a692816dd473a820d392513a00c67b806f912cf2eee"
+        }
+      ]
+    },
+    {
+      "id": "screenshot.mesh_surface_3d",
+      "name": "三维网格曲面",
+      "skill_original": "sources/screenshot.mesh_surface_3d/restored.py",
+      "sha256": {
+        "original.py": "7ae379dde5835c5e88646492c9d2adf8b7bcaf57da7b6fd3c7e75e9b16407eac",
+        "preview.py": "658d7e99c817d30bf5409812c28b6b904488443cb40e970a53e1c0d5dda4a672"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/screenshot.mesh_surface_3d.zip",
+          "sha256": "7578328f0cb375f260bc45ead03708ad6e92bd90e0811c52d9bc38d74db96fb1"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/screenshot.mesh_surface_3d-1.png",
+          "sha256": "b3028b36ca0960f9d70cf42087d7d26938aa8913ae9dc0bd2f823ab8d3734a4e"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/screenshot.mesh_surface_3d-1.webp",
+          "sha256": "5a3dffdd4ee7aa184261933a6d8b85d92dec816750aa09a9ccd0369afbed2dac"
+        }
+      ]
+    },
+    {
+      "id": "screenshot.depreciation_area",
+      "name": "多型号价格堆叠面积",
+      "skill_original": "sources/screenshot.depreciation_area/restored.py",
+      "sha256": {
+        "original.py": "48aef3f3226ec564c79d4df6967db515b50c839b9015053cc46abbedebdf372b",
+        "preview.py": "82f83cc20400a3c0fa91019b02444c982721af668ceb9e785457be9031d13542"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/screenshot.depreciation_area.zip",
+          "sha256": "d24a6e206d3e175da563cc889539934ec6b757108a21d33901c5776c0757fc84"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/screenshot.depreciation_area-1.png",
+          "sha256": "7664f1bd121106750344c86d4fb9441d4c9894635e4d14080d3097a961510f18"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/screenshot.depreciation_area-1.webp",
+          "sha256": "edf12e06ded3dffdfed251eb0dfc1bf8c92e4d0943f4c6b94df3f5488040eaf6"
+        }
+      ]
+    },
+    {
+      "id": "screenshot.concentric_bars",
+      "name": "同心环形柱状图",
+      "skill_original": "sources/screenshot.concentric_bars/restored.py",
+      "sha256": {
+        "original.py": "b19b375b589743f058665b0c2f5b6ee4ee1de41cd4db5b4e08ccc38f063307e8",
+        "preview.py": "65214b24757fb8db9d2f51ddd541a92af0f01030e912d91341199b347b78c8ce"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/screenshot.concentric_bars.zip",
+          "sha256": "536391f992d6bc6bc3b333474c9e8986b4ebf4696537e516947cc0819dea815a"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/screenshot.concentric_bars-1.png",
+          "sha256": "a36615d12ecb251da802ad6961e8496958ab28d36c8b2ad1b4e7893b8c51f967"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/screenshot.concentric_bars-1.webp",
+          "sha256": "6a16aedfd32ee08c83574d6d27a49f9f41065f699b8b56db1d60d174b9eedb37"
+        }
+      ]
+    },
+    {
+      "id": "screenshot.rose",
+      "name": "南丁格尔玫瑰图",
+      "skill_original": "sources/screenshot.rose/restored.py",
+      "sha256": {
+        "original.py": "2eb4b270171e03b7c6e657c6e7be9582db4304e33ad3c78278fd597aeb45f078",
+        "preview.py": "bd835c86fabb0631d9e76f43e646a215450f938893c108978c5070b1a4725eb5"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/screenshot.rose.zip",
+          "sha256": "7254c3df5d5d176711f90a16429b309f2b319be1bd8e87e8186097eaffae2e2e"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/screenshot.rose-1.png",
+          "sha256": "75613bac40bd63a9a0a2fd8e4642af2a0b081abd17794e3342baed2c0564ed1a"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/screenshot.rose-1.webp",
+          "sha256": "34a7e83e5b7b464959ec66ff26768a8cb2c6a55087f74e390ced417c6cfa1f84"
+        }
+      ]
+    },
+    {
+      "id": "screenshot.nested_donut",
+      "name": "嵌套环形图",
+      "skill_original": "sources/screenshot.nested_donut/restored.py",
+      "sha256": {
+        "original.py": "48b0995e9de3b6dee491062c09083508d8941fc17fb324c1ec7e4d30782ccb4c",
+        "preview.py": "630597cf78c6e28fcfddba5518f45864f0176fb962bd40e71bf532279a6a9457"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/screenshot.nested_donut.zip",
+          "sha256": "c98c7e650643e75d2b21c0aadb46a9da03adae273e83ff83838ca3dd8a86e759"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/screenshot.nested_donut-1.png",
+          "sha256": "3738957760c7537fc55870d64cf364a6dc3bb544ae5fea787230ab88acec4d5a"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/screenshot.nested_donut-1.webp",
+          "sha256": "298d211be5436f58469e48de30e782ee8879ded32e888257be7aa3da68577db0"
+        }
+      ]
+    },
+    {
+      "id": "screenshot.ranked_arcs",
+      "name": "排名圆弧条形图",
+      "skill_original": "sources/screenshot.ranked_arcs/restored.py",
+      "sha256": {
+        "original.py": "f60c03f41d57a9dedd5da85977838a7da357bb922073fed1d6dbf426f300b30e",
+        "preview.py": "dc6f0d54d48c9dd414d551e0136ac3f4bc976b01d24b01367b33faf2b5b3341c"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/screenshot.ranked_arcs.zip",
+          "sha256": "14b04b3ca95fd4422a2ffc388f591225700365b9aebae2d43ba73626e4aeccdb"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/screenshot.ranked_arcs-1.png",
+          "sha256": "42d7f36138659d6d4d285f4cb12a04b41f11dd3e4c8faf8f5faf7b09d602b97b"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/screenshot.ranked_arcs-1.webp",
+          "sha256": "9ea1af32dcf98ba6af27d4c71fe50ebe6d15245064277bebec3fad91f8130be4"
+        }
+      ]
+    },
+    {
+      "id": "screenshot.horizon",
+      "name": "正负折叠地平线图",
+      "skill_original": "sources/screenshot.horizon/restored.py",
+      "sha256": {
+        "original.py": "3a6c7a1600e45a0625bc229af277d777ca7cd25ea5a66173f2de600b8dfebef3",
+        "preview.py": "905cc628cf79916e04b9a4dcab9f7f45b9ee5d4aeb9a381cfdf60dd1f46a59fc"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/screenshot.horizon.zip",
+          "sha256": "3c6e72e7800aca666bcfb77aac59045a000d85ab3fe373984dbbc8cdbf7fefe7"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/screenshot.horizon-1.png",
+          "sha256": "c523b762757736891b5c1b0e908eb6d64eb8f97cd66f8a6e4837ea67ff5a6077"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/screenshot.horizon-1.webp",
+          "sha256": "93947476ca67075b0268d17f257343b7aa9a2a159200f6f6f1e745cb64139518"
+        }
+      ]
+    },
+    {
+      "id": "screenshot.radial_bars",
+      "name": "极坐标径向柱状图",
+      "skill_original": "sources/screenshot.radial_bars/restored.py",
+      "sha256": {
+        "original.py": "cd8e4236444824e70cce770a972611473abd5cf8b3afd3a1169fa76aa6b7fe41",
+        "preview.py": "4eb804c81eb3ae857be9ab0832357dab459f343f3b54156293dda0cb0d324735"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/screenshot.radial_bars.zip",
+          "sha256": "e7e580232d822b2322ae6ab8f1fa32ca4b60bb1c21097bee7f14b4d24734a9db"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/screenshot.radial_bars-1.png",
+          "sha256": "bd5bb5d8482572440565046a2ea7303e7639062806e41997f52deb783407ec01"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/screenshot.radial_bars-1.webp",
+          "sha256": "7df27a4405710429e591a80b2dd9122acc785b637d0149927d0dccb07d1dfc30"
+        }
+      ]
+    },
+    {
+      "id": "screenshot.chord",
+      "name": "透明弦图",
+      "skill_original": "sources/screenshot.chord/restored.py",
+      "sha256": {
+        "original.py": "d04455b3cb9188d83f4b3293a5f23438ca6efd78de5e583ac827fe9552c20852",
+        "preview.py": "c2fb0f361b02771ec11c9c7b52118aa8f8d954ec4f33adbd237b7b73e3921ada"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/screenshot.chord.zip",
+          "sha256": "106301de3f53f4a3464e3ca3de726b7065eec6473c2f4161d8825079f39d4d17"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/screenshot.chord-1.png",
+          "sha256": "5378be2b81d0345cf3c8108897f9eaad7e53c1bf2414301f5ac33e99b9831da6"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/screenshot.chord-1.webp",
+          "sha256": "a06073b374b07a95beb6f42fbfecad95409559c1c8d89859554766edecacb143"
+        }
+      ]
+    },
+    {
+      "id": "screenshot.marginal_heatmap",
+      "name": "带边际柱形的表格热图",
+      "skill_original": "sources/screenshot.marginal_heatmap/restored.py",
+      "sha256": {
+        "original.py": "c5ec4a3d67e02f5730c09f01894b6af5cca4bd9f45c539d91e09ae4e681a0abf",
+        "preview.py": "a479df4bcac9fd4d9c6fa81d14e81997930cdd29e5e797ec9e064084ed9388f2"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/screenshot.marginal_heatmap.zip",
+          "sha256": "81382f7c2acb0500b918548c0749b9f5e4d631e126fdc6fc64a67804e37c51b4"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/screenshot.marginal_heatmap-1.png",
+          "sha256": "fb1b4550188e7c36dec003375aeac59bc09e667ac694a15aca13667a07366e73"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/screenshot.marginal_heatmap-1.webp",
+          "sha256": "7fc24bce618f4820a0d47a4c59a8d0ce83b1b62260df629afd0bb6686c69ac03"
+        }
+      ]
+    },
+    {
+      "id": "screenshot.interval_steps",
+      "name": "阶梯折线与区间带",
+      "skill_original": "sources/screenshot.interval_steps/restored.py",
+      "sha256": {
+        "original.py": "63139bd8b8a4bcfcf24488181407a455690350b1d24da9d75c4880fb8b6e598d",
+        "preview.py": "a65d5c882dc02b2a4e1de452cfff7de280715bedda8307d05e8689615734e13a"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/screenshot.interval_steps.zip",
+          "sha256": "669c98dbe965454a4fcf2969283a3a04527a3075cec2957eb54c8f7c60a88340"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/screenshot.interval_steps-1.png",
+          "sha256": "e48d533729024aa9ac80077de362ce87ad89071404b242499915d729c5bbe3d8"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/screenshot.interval_steps-1.webp",
+          "sha256": "6a5bd2d09eebb799eff299183e7dc69e9fd2e48f4db61eb9f2fdbd9bedcaed2b"
+        }
+      ]
+    },
+    {
+      "id": "screenshot.streamgraph",
+      "name": "双向峰形河流图",
+      "skill_original": "sources/screenshot.streamgraph/restored.py",
+      "sha256": {
+        "original.py": "accd40013fa37c8e2dd095bbdff9c3ac0bca26a023fef5b9f76b9bf145cf7c5d",
+        "preview.py": "b53fc38de9946b2e7b1bdd4e6dd1d53b4f41e52e9b278ff111db4af219fb3b4e"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/screenshot.streamgraph.zip",
+          "sha256": "26438f1a6b3ec901f8476b97e71c9123d5abc3db050a1bb4520fe78c308591ab"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/screenshot.streamgraph-1.png",
+          "sha256": "04ee8a014728a3d093f2bc75e89b8bbeab029b2315a6a32243a66641a7b4bee6"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/screenshot.streamgraph-1.webp",
+          "sha256": "a59bcaa7f11ce687646a07cecde63bd35ef7905e03c32f4a3f8b5c1fe4ea503b"
+        }
+      ]
+    },
+    {
+      "id": "screenshot.correlation_network",
+      "name": "相关矩阵与连线网络",
+      "skill_original": "sources/screenshot.correlation_network/restored.py",
+      "sha256": {
+        "original.py": "e4b4155bbdf84bdeae097bce9f930270061ab55bc04526c08ca3e8f5ddeb57c9",
+        "preview.py": "dd79d557a8a908a91065949def19e973dcae63628ac69b7e123c0f26f536847d"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/screenshot.correlation_network.zip",
+          "sha256": "50e6150e802d6338a7aa22f68956b374a3d1b16e08eef3b07de79ce4d98f2d6e"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/screenshot.correlation_network-1.png",
+          "sha256": "f8e9a83269c813d86c47d54b50d500473eda17120a0cae747cb3c1ca61724eb7"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/screenshot.correlation_network-1.webp",
+          "sha256": "102603b71a9bf5e1d903b2c05f4956f79155ccd575309a1d48dbafffb78d3ebe"
+        }
+      ]
+    },
+    {
+      "id": "screenshot.radial_heatmap",
+      "name": "径向环形热图",
+      "skill_original": "sources/screenshot.radial_heatmap/restored.py",
+      "sha256": {
+        "original.py": "1fe8731392ef98319047709be75ad88d4ed8e7acf65119350e733211da61c114",
+        "preview.py": "b8acaec9952cad676f2838f28be22c94cadfc92fca085d2f0ce4b85bc950030e"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/screenshot.radial_heatmap.zip",
+          "sha256": "02810990e52992b129dea71a017d5e8f11e8905cbb6544dfb7c2bfcb3addb26c"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/screenshot.radial_heatmap-1.png",
+          "sha256": "2e91685e5dfebb59ef4a5c4dbadaeced7bc2ce5040a19333df5e39319bdd6e41"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/screenshot.radial_heatmap-1.webp",
+          "sha256": "5dde055e1c9b3f99584441fa0cb5c11698192adb5188f15b449a1347dd485c23"
+        }
+      ]
+    },
+    {
+      "id": "screenshot.hexbin",
+      "name": "六边形空间热图",
+      "skill_original": "sources/screenshot.hexbin/restored.py",
+      "sha256": {
+        "original.py": "12278777792cf48af53f3d47ae68b37c2a2fde6c1b73297b2ee80b93b8e29ac2",
+        "preview.py": "ec09a10000e8e0dbe9108c4b91fb97017e0ff8ee3c0a039128fa7ff0325d7da2"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/screenshot.hexbin.zip",
+          "sha256": "62aa345a2d0f4c9714fe2c730556c238c2c60a9e1749c7f8392e568f7dd3f87d"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/screenshot.hexbin-1.png",
+          "sha256": "1fa163ac4e469c6d86d1da136295be2d7a0a00c936d9b8606c61d91f6b418dc2"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/screenshot.hexbin-1.webp",
+          "sha256": "1ef4a03a3990fe7abc8b4dd4d3d9d19ee12b7387f32eb0f8f974602f29b232ac"
+        }
+      ]
+    },
+    {
+      "id": "screenshot.classified_scatter",
+      "name": "分类散点与决策区域",
+      "skill_original": "sources/screenshot.classified_scatter/restored.py",
+      "sha256": {
+        "original.py": "b2c0c60d9aac1521234095acf757ea6969ac755ae9b6dd1f82d196a719370ad6",
+        "preview.py": "a5a610d470892c36ba1d99608c36ad482dbab69394ba2d77efa4990eead4233b"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/screenshot.classified_scatter.zip",
+          "sha256": "89c43e05d0329c8c641ca173cfbe426683aa7c727e5e5a8f8b17ea4175ab50d6"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/screenshot.classified_scatter-1.png",
+          "sha256": "28a325c10f3f506bf7b17d1671af0e3f4c79bb18d82643de113087bb2c261dc7"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/screenshot.classified_scatter-1.webp",
+          "sha256": "2923a592f95944fd575b2862b10896086b0a46071dea9497d7bcc16c1a77428e"
+        }
+      ]
+    },
+    {
+      "id": "screenshot.polar_scatter",
+      "name": "带背景圆环的极坐标散点",
+      "skill_original": "sources/screenshot.polar_scatter/restored.py",
+      "sha256": {
+        "original.py": "d776a32b129252191b8e4241f7a5f4ef499d638d713b6281f0d02094d53d1366",
+        "preview.py": "d0dde46f87f68e773b3692f7379293db434bdf3493eee72f44c9ae5579ec30a1"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/screenshot.polar_scatter.zip",
+          "sha256": "ab2591ed0bde9f9f4a38481e29da8544247f453185b0756473dc02a853166628"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/screenshot.polar_scatter-1.png",
+          "sha256": "a6a215aa09700fbd8c154ce9be316f9d363bff96e9abe2ef884f6f0f613d0344"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/screenshot.polar_scatter-1.webp",
+          "sha256": "5b086bcbe426ba6ece03bb8ad60952abcccd6878986f4d335c67a1f8fd991d01"
+        }
+      ]
+    },
+    {
+      "id": "screenshot.polar_step_area",
+      "name": "环形刻度阶梯面积图",
+      "skill_original": "sources/screenshot.polar_step_area/restored.py",
+      "sha256": {
+        "original.py": "77e0e6de5316e51e4e11243c10806f9efce69e54c487eef080a190818f5ba861",
+        "preview.py": "c1d89f0333c0adb8a6a6442a778755443e0aa9e136e4b1857932887b121de8c8"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/screenshot.polar_step_area.zip",
+          "sha256": "5fb748a9499c379c00d0e026e1b12176b1fb0e73de59cf5a5b62882cc1bbd5ae"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/screenshot.polar_step_area-1.png",
+          "sha256": "7fa019dd17561db94532e8e1cfa4cb4911d77f00bc106c94a87c24bf6c601842"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/screenshot.polar_step_area-1.webp",
+          "sha256": "a2f30af1cf7328239151f275b719e31fc9bdc4e870e602c7ddf16b394aef13e1"
+        }
+      ]
+    },
+    {
+      "id": "screenshot.polar_area",
+      "name": "平滑极坐标面积叠加",
+      "skill_original": "sources/screenshot.polar_area/restored.py",
+      "sha256": {
+        "original.py": "cebe88538ee6ee0b7fd984a11b9b606b66dbe69b3831145d5779007ae44d9751",
+        "preview.py": "92236f66f2e008ccb5bc86fa9851c9f101be6577889a4ce977b8180c859077eb"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/screenshot.polar_area.zip",
+          "sha256": "59262b9a51ca616984538554cf2c26ca120359a5fc74c79e16006b4a7fdbee0a"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/screenshot.polar_area-1.png",
+          "sha256": "10dc3b6d34f5d1fe6645394d0fdeb08efc1f5674ad2e7e642cea5cf3323428ab"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/screenshot.polar_area-1.webp",
+          "sha256": "d8ed8376c8334b7697b4802975623b611787ba3e5af155328e2ac0ea1cd84164"
+        }
+      ]
+    },
+    {
+      "id": "advanced.grouped_bar_3d",
+      "name": "三维分组渐变柱状图",
+      "skill_original": "sources/advanced.grouped_bar_3d/original.py",
+      "sha256": {
+        "original.py": "58014f254f4bcddcb4bb6cd5b0c8ec0482667345aa0509e77f76c7c9fc95ec14",
+        "preview.py": "145abe497b131cf0a611644890ed862a63b4bb62e5f9fe425e2465d0b41b5fd8"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/advanced.grouped_bar_3d.zip",
+          "sha256": "45d78559e9d265ce5709cba1102259c09f118e9a2c35df73c6876dae68ae633f"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/advanced.grouped_bar_3d-1.png",
+          "sha256": "3efe83e84026613c5c4b9fb340d711e8b26b0fdcfa9ae5ebe3eec04010653f6b"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/advanced.grouped_bar_3d-1.webp",
+          "sha256": "d49abe66cf1f25942f4665f92e8251665bfa825751ee4b8b27c836ed260edb4e"
+        }
+      ]
+    },
+    {
+      "id": "advanced.multi_y_gradient_hist",
+      "name": "多Y轴渐变直方图与正态拟合",
+      "skill_original": "sources/advanced.multi_y_gradient_hist/original.py",
+      "sha256": {
+        "original.py": "df18fabca541884c2e16957f8fbe961deb48b421b09257d0f9e664f3b4779f41",
+        "preview.py": "812673ccfb38289c27ea98581564fe04a14513fad159a4c8c96813db766946a1"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/advanced.multi_y_gradient_hist.zip",
+          "sha256": "2f05c0bd6d2802ba3a130828606bb320ab013dfbc03c2bf6e1d1b2e7ce327052"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/advanced.multi_y_gradient_hist-1.png",
+          "sha256": "6548d6e59ad38158ff5aed4247d4563e43306a83d5eef6becb0eb5e3af3b704c"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/advanced.multi_y_gradient_hist-1.webp",
+          "sha256": "186db809d1285ef1637c2402f235d95ffbd3e24817606100d582a1852af9a6ce"
+        }
+      ]
+    },
+    {
+      "id": "advanced.relief_correlation_heatmap",
+      "name": "立体方块相关性热图",
+      "skill_original": "sources/advanced.relief_correlation_heatmap/original.py",
+      "sha256": {
+        "original.py": "f72ce056053fd614be7a331b3c818068ac265789a419ba6a20b1250bbe500e66",
+        "preview.py": "2ddaab01bf32d158704b84f80bff248f45c3440d11b080a8344b49b18ca1eeeb"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/advanced.relief_correlation_heatmap.zip",
+          "sha256": "9b9882104900f5eb8ba53da73dd61960b02a38f0f91a6df0440ce075e65ab9fd"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/advanced.relief_correlation_heatmap-1.png",
+          "sha256": "b646e71de2ded12b7738bb4ca9e28c16364f98b5ea8ce3ad002c4d51aac8c84c"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/advanced.relief_correlation_heatmap-1.webp",
+          "sha256": "e3717a579ba5815e4ab721aeb4e524ddb89e3e5a3e11ec857c414ca763d57aee"
+        }
+      ]
+    },
+    {
+      "id": "template.shap_dependence",
+      "name": "SHAP重要性蜂群与依赖图组合",
+      "skill_original": "sources/shap-composites/original.py",
+      "sha256": {
+        "original.py": "4f34051e9ece8f89f352e876eb289f023a805be8b4e81aabb2ea24a03a0a735f",
+        "preview.py": "737a261b44ec83c1d872af32cabc8baff9200a6d463acc76b5462a444f94cf18"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/template.shap_dependence.zip",
+          "sha256": "2e1aec01a9cb9d0e130123f762e14dfc4ec180d773fdb31fccc4477988bbabac"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/template.shap_dependence-1.png",
+          "sha256": "3c28e687c8fad18693a2d3699cfe262d67e41e91f6a74a59a7789cc1d1789276"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/template.shap_dependence-1.webp",
+          "sha256": "f27f5de21aff598694289597f074c0e97c5d92b87c848a5f292cb03afb1ed35d"
+        }
+      ]
+    },
+    {
+      "id": "template.shap_contribution",
+      "name": "SHAP排名双层贡献环与蜂群组合",
+      "skill_original": "sources/shap-composites/original.py",
+      "sha256": {
+        "original.py": "4f34051e9ece8f89f352e876eb289f023a805be8b4e81aabb2ea24a03a0a735f",
+        "preview.py": "737a261b44ec83c1d872af32cabc8baff9200a6d463acc76b5462a444f94cf18"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/template.shap_contribution.zip",
+          "sha256": "744fb43d8a651f283a11ef3299684c2b4c3a4bfc735f27c73788015396749617"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/template.shap_contribution-1.png",
+          "sha256": "82192d4e02229aa6de0a0525b7330a64d62c2df6cd4b2b60cb2444369531aec4"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/template.shap_contribution-1.webp",
+          "sha256": "fa63bda3b47469c6ef49f21c3379a8cda6c49f9d85c6d5a235be6997980fab76"
+        }
+      ]
+    },
+    {
+      "id": "advanced.radar_ridgeline",
+      "name": "雷达山脊融合图",
+      "skill_original": "sources/advanced.radar_ridgeline/original.py",
+      "sha256": {
+        "original.py": "165c7a88d4fba0e790d19e1ad6ae17a38333eba46a69561455992453920d62b2",
+        "preview.py": "dc04e3b54043a33b9fcdd54656ffc9b2634b70fdfced2bfd4c38c208afcca236"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/advanced.radar_ridgeline.zip",
+          "sha256": "92425c90e9fdf0ad77b9930e434b4a1555569ca78593315582bcb66cc800d1d5"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/advanced.radar_ridgeline-1.png",
+          "sha256": "2107493168de2084d6c8fe56d8d6124c7012b796910be8adce753fd7fcf4a4a4"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/advanced.radar_ridgeline-1.webp",
+          "sha256": "241cd0ee37767f129cd20cc1632e9d517f278026060f635d745b899a74bd2517"
+        }
+      ]
+    }
+  ]
+}

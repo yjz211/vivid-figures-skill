@@ -1,0 +1,1573 @@
+30.4 Mini Toolbar
+30.4 Mini Toolbar
+By default, Mini Toolbars will appear when you select an object or click in certain key areas inside the page.
+To hide the Mini Toolbars, you can uncheck the
+View：Mini Toolbars
+menu.
+Press
+Shift
+after the Mini Toolbar has faded away to make it re-appear.
+To find the exact button in the Mini Toolbar, you can use the
+Search
+tool
+in the main menu.
+For example: If you want to use the Mini Toolbar button to freeze the rows in Worksheet, enter the key word
+freeze
+in the
+Search
+tool. Then you will find it lists all the related button under
+Mini Toolbars
+section. When the mouse hover on one of them, it will shows the detail hint of this button.
+When you click the item in the
+Object Manager
+, it also will show the corresponding Mini Toolbars of the object.
+Contents
+1
+Plots Type
+1.1
+Scatter Plot
+1.2
+Line Plot
+1.3
+Column Plot
+1.4
+Area Plot
+1.5
+Box Plot
+1.6
+Histogram
+1.7
+Dot Plot
+1.8
+Pie Plot
+1.9
+2D & 3D Vector Plot
+1.10
+Contour & Heatmap
+1.11
+Error Bar
+1.12
+3D Scatter Plot
+1.13
+3D Bar Plot
+1.14
+XYY 3D Bar Plot
+1.15
+3D Ribbon & 3D Wall
+1.16
+3D Surface
+1.17
+Output Plot
+2
+Axis
+2.1
+Axis
+2.2
+Axis Tick Labels
+2.3
+Axis Title
+2.4
+Axis Break
+2.5
+Reference Lines
+3
+Data Label
+4
+Graph Layer
+4.1
+2D Layer
+4.2
+3D Layer
+5
+Graph Page
+5.1
+Floating/ Embedded Graph on Worksheet
+6
+Layout Page
+7
+Object
+7.1
+Text Object
+7.2
+Graph Page/ Layer Title
+7.3
+Legend
+7.4
+Legend Symbol
+7.5
+Color Scale
+7.6
+Bubble Scale
+7.7
+Draw Object
+7.7.1
+Line/ Arrow / Curve Arrow / Elbow Arrow / Angle Annotation / Distance Annotation / Slope Annotation
+7.7.2
+Other Draw Object
+7.8
+Asterisk Bracket
+7.9
+Multiple Objects
+7.10
+XY Scaler
+7.11
+Axis Scrollbar
+7.12
+Data selector/ Regional Data Selector
+7.13
+Analysis Marker
+7.14
+Table
+7.15
+Selection Region to Zoom
+8
+WorkSheet
+8.1
+Worksheet
+8.2
+Single Column
+8.3
+Multiple Columns
+8.4
+Single Row
+8.5
+Multiple Rows
+8.6
+Single Cell
+8.7
+Multiple Cells /Range
+8.8
+Label Row
+8.9
+Worksheet inserted in Layout
+9
+Matrix
+10
+Image Page
+11
+Data Highlighter
+12
+Project Explorer
+13
+Report Sheet
+13.1
+Graph in the Report Sheet
+14
+Buttons that Increment
+Plots Type
+For the Group plot, you can custom the plots properties togethter by the buttons under the Group tab.
+Ungroup
+Also, you can custom one plot properties by the buttons under the Single tab.
+Scatter Plot
+Single Data Point
+Symbol Edge Color
+Symbol Fill Color
+Plot Symbol Style
+Symbol Size
+Increase Symbol Size
+Decrease Symbol Size
+Symbol Transparency
+Show Data Labels
+Set Levels
+Rescale Colormap
+Flip Colormap
+Copy Plot.
+Then paste (Ctrl+V) into other layer as new plot.
+For the group plots,
+Under the
+Group
+tab, the Copy Plot button could copy all plots in the group.
+Under the
+Single
+tab, the Copy Plot button only copy the selected single plot.
+Plot on Right Y
+Plot on Left Y
+Edit Range
+Change Plot to
+Add Fitted Curves
+You can refer to
+the options in
+Fitted Curves Plot
+tab of
+Linear Fit
+dialog
+to learn the details on these items.
+Once the fitted curve has been added, you can select the curve and choose buttons from the popped-up minitoolbar for customization. See
+"Reference Lines" section
+for details.
+Add Trend Line.
+Refer to
+the "Trendline" section in the Description of 2D Smoother App
+to learn the details of each trend type.
+Once the trend line has been added, you can select the line and choose buttons from the popped-up Mini Toolbar for customization. See
+"Reference Lines" section
+for details.
+Add Trend Line is supplied in single plot and group plots tab of Mini Toolbar.
+Selectable
+Hide Data Point
+Open Plot Details
+Line Plot
+Line/ Border Color
+Line Thickness
+Increase Line Thickness
+Decrease Line Thickness
+Show Data Labels
+Go to Source Sheet
+Copy Plot
+Then paste (Ctrl+V) into other layer as new plot.
+For the group plots,
+Under the
+Group
+tab, the Copy Plot button could copy all plots in the group.
+Under the
+Single
+tab, the Copy Plot button only copy the selected single plot.
+Edit Range
+Plot on Right Y
+Plot on Left Y
+Sort X
+Change Plot to
+Add Fitted Curves
+You can refer to
+the options in
+Fitted Curves Plot
+tab of
+Linear Fit
+dialog
+to learn the details on these items.
+Once the fitted curve has been added, you can select the curve and choose buttons from the popped-up minitoolbar for customization. See
+"Reference Lines" section
+for details.
+Add trend line.
+Refer to
+the "Trendline" section in the Description of 2D Smoother App
+to learn the details of each trend type.
+Once the trend line has been added, you can select the line and choose buttons from the popped-up Mini Toolbar for customization. See
+"Reference Lines" section
+for details.
+Add Trend Line is supplied in single plot and group plots tab of Mini Toolbar.
+Selectable
+Open Plot Details
+Column Plot
+Single column
+Fill Color
+Border Color
+Column Stack
+Click this button, you can select the stack methods in the list:
+Show Data Labels
+Larger Gap
+Smaller Gap
+Plot on Right Y
+Plot on Left Y
+Edit Range
+Change Plot to
+Selectable
+Hide Data Point
+Open Plot Details
+Area Plot
+Line/ Border Color
+Fill Color
+Line Thickness
+Open Plot Details
+Increase Line Thickness
+Decrease Line Thickness
+Plot on Right Y
+Plot on Left Y
+Edit Range
+Change Plot to
+Selectable
+Open Plot Details
+Box Plot
+Data Type for Box Plot:
+Interval Plot:
+Box Style
+Click this button, you can select the Box Style in the list:
+Box Type
+Click this button, you can select the Box Type in the list:
+Box Line
+Click this button, you can define which Box Line show in graph:
+Box & Whisker
+Click this button, you can customize the Box & Whisker
+For a interval plot, this dropdown list is availiable:
+Larger Gap
+Smaller Gap
+Fill Color
+Border Color
+Plot Symbol(when Box Type = Data)/Percentile Symbol
+/
+Plot on Right Y/Plot on Left Y
+Edit Range
+Selectable
+Go to Source Sheet
+Open Plot Details
+Histogram
+Fill Color
+Border Color
+Bin Number +1
+Bin Number -1
+Bin Settings
+Curve Type
+Larger Gap
+Smaller Gap
+Show Data Labels
+Go to Source Sheet
+Plot on Right Y
+Plot on Left Y
+Edit Range
+Selectable
+Open Plot Details
+Dot Plot
+Grouped
+/
+Stacked Dot Plots
+Group
+tab
+Single
+tab
+Symbol edge color.
+Symbol filled color.
+Change symbol shape from drop-down list.
+Increase symbol size, which will change bin size/number accordingly.
+Decrease symbol size, which will change bin size/number accordingly.
+Edit range
+Click to make current plot unselectable.
+Go to the source worksheet.
+Open
+Plot Details
+dialog.
+Pie Plot
+Fill Color
+Border Color
+Rotate Pie Plot Clockwise
+Rotate Pie Plot Counterclockwise
+Show Data Labels
+Show Doughnut
+Larger Hole
+Smaller Hole
+Edit Range
+Selectable
+Explode
+Hide Data Point
+Open Plot Details
+2D & 3D Vector Plot
+Line/ Border Color
+Line Thickness
+Increase Line Thickness
+Decrease Line Thickness
+Show Data Labels
+Edit Range
+Vecotr Arrow Angle + 15
+Vecotr Arrow Angle - 15
+Vecotr Arrow Length + 10
+Vecotr Arrow Length - 10
+Selectable
+Open Plot Details
+Contour & Heatmap
+Contour:
+Heatmap:
+Heatmap with Split Tiles
+Major Level +1
+Major Level -1
+Set Levels
+Rescale Colormap
+Palettes
+Click the button to select palettes in the dropdown list
+Flip Colormap
+Go to Source Sheet
+Copy Plot
+Then paste (Ctrl+V) into anther layer as new plot.
+Contour Style
+Enable Cell Border (Only for Heatmap)
+Note:
+Click this button,
+Border
+group
+in
+Colormap
+tab will be enabled.
+Border Color
+button
+will show up to let you specify the border line color.
+Increase Border Thickness
+Decrease Border Thickness
+Show Contour Labels / Show Data Labels
+Label Font Size
+Increase Font Size
+Decrease Font Size
+Reposition Labels
+Annotate Min&Max Value
+To annotate the data points at max and min Z values.
+Extract Data Points
+Click this button, you can open the dialog to specify the data points to be extracted.
+Edit Range (Only for Heatmap)
+Selectable
+Open Plot Details
+Error Bar
+2D Error Bar:
+3D Error Bar:
+Line/ Border Color
+Line Thickness
+Increase Line Thickness
+Decrease Line Thickness
+Larger Cap Width
+Smaller Cap Width
+Fill Area
+Fill Color
+If select
+Fill Area
+, the fill color of error bar area can be customize by this button.
+Y Error Bar Direction
+X Error Bar Direction
+Edit Range
+Cap Line of 3D Error Bar:
+Selectable
+Open Plot Details
+3D Scatter Plot
+Single Data Point
+Symbol Edge Color
+3D Symbol Style
+Increase Symbol Size
+Decrease Symbol Size
+Symbol Size
+Enable Connection Line between symbols
+Connection Line Color
+Connection Line Thickness
+Increase Connection Line Thickness
+Decrease Connection Line Thickness
+Enable Projection on following planes:
+Show Data Labels
+Edit Range
+Change Plot to
+Open Plot Details
+3D Bar Plot
+Fill Color
+Border Color
+Bar Shape:
+Show Data Labels
+Larger Gap
+Smaller Gap
+Change Plot to
+Edit Range
+Column Stack
+Click this button, you can select the stack methods in the list:
+Open Plot Details
+XYY 3D Bar Plot
+One plot in the graph:
+Single Bar
+Multiple plots in the graph:
+Fill Color
+Border Color
+Bar Shape:
+Show Data Labels
+Change Plot to
+Column Stack
+Click this button, you can select the stack methods in the list:
+Gap Width + 5%
+Gap Width - 5%
+Increase bar width in Z direction
+Decrease bar width in Z direction
+Edit Range
+Open Plot Details
+3D Ribbon & 3D Wall
+One plot in the 3D Ribbon & Wall graph:
+Multiple plots in 3D Ribbon graph:
+Multiple plots in 3D Wall graph:
+Fill Color
+Outline Width + 5%
+Outline Width - 5%
+Column Stack
+Click this button, you can select the stack methods in the list:
+Change Plot to
+Border Line Color
+Border Line Thickness
+Increase Border Line Thickness
+Decrease Border Line Thickness
+Edit Range
+Open Plot Details
+3D Surface
+Major Level +1
+Major Level -1
+Set Levels
+Rescale Colormap
+Palettes
+Click to select palettes in the dropdown list
+Flip Colormap
+Enable Mesh Lines
+Change Plot to
+Open Plot Details
+Output Plot
+The output plot of the analysis result will show the Change Parameter button.
+Change Parameter
+Axis
+Axis
+Axis Scale
+Click this button, you can define the Axis Scale in this popup dialog:
+Rescale Axis
+Show Gridlines
+Click this button, you can define whether to show the Major or Minor gridlines
+Axis Tick Style
+Click this button, you can define the Axis Tick Style in the list:
+Longer Ticks
+Shorter Ticks
+Show Opposite Axis
+Add Secondary Axis
+Click this button, you can select the type of the Double-Y axis, and customize the formula.
+Flip Scale
+Show Tick Labels
+Add Reference Line
+Click this button to open the
+Reference Line
+dialog. You can customize the Reference Line position and format in this dialog.
+Add Axis Break
+Click this button to open the
+Add Axis Breaks
+dialog. You can customize the break from and to value, and the position.
+Apply Formatting to...
+Apply formatting of this object to other objects of this type
+Apply formatting to
+This Layer
+Apply formatting to
+This Window
+Open Axis dialog
+Hide Selected Object
+Axis Tick Labels
+Set Font
+Font Size
+Increase Font Size
+Decrease Font Size
+Font Color
+Bold
+Rotate Clockwise
+Rotate Counterclockwise
+Wrap Text
+Adjust width to see the wrapping effect
+Hide Selected Object
+Apply Formatting to...
+Apply formatting of this object to other objects of this type.
+Apply formatting to
+This Layer
+Apply formatting to
+This Window
+Open Properties Dialog
+Axis Title
+Set Font
+Font Size
+Increase Font Size
+Decrease Font Size
+Font Color
+Bold
+Rotate Clockwise
+Rotate Counterclockwise
+Wrap Text
+Adjust width to see the wrapping effect
+Hide Selected Object
+Apply Formatting to...
+Apply Formatting of this object to other objects of this type.
+Apply formatting to
+This Layer
+Apply formatting to
+This Window
+Link to Substitution
+Open Properties Dialog
+Axis Break
+Larger Break Length
+Smaller Break Length
+Larger Break Gap
+Smaller Break Gap
+Connect Line Across Axis Break
+Connect Column/Bar across Axis Break
+Axis Break Symbol
+Add axis break as a band across the whole layer.
+When break band is not set to
+None
+, use mini toolbar buttons
+,
+,
+to customize the break band.
+Keep Line Trend as if no Axis Break
+Use Proportional Unit for Axis Break Position
+Plot Break Symbol
+Break Bar Border
+Available when axis break band is on. Specify the band line color. Default "Auto" follows the axis line color.
+Available when axis break band is on. Fill color between the band lines.
+Available when axis break band is on. Enter or select the band line thickness
+Available when axis break band is on. Specify line style.
+Available when axis break band is on. Increase band line thickness.
+Available when axis break band is on. Decrease band line thickness.
+Reference Lines
+Clicking on the reference Lines will bring up the following mini toolbar for customization:
+Reference Lines
+Especially, if the reference line is a fitted curve/trend line (which can be added to
+scatter
+or
+line plot
+by
+Fitted Curves
+button
+or
+Trend Line
+button
+), selecting the line will pop-up the following mini toolbar:
+Fitted Curves/Trend Line
+Specify line color.
+Select or type in line thickness in pt.
+Increase line thickness
+Decrease line thickness
+Specify line style.
+Specify whether to fill color to area between the current line and the selected reference line. If yes, you can select from the drop-down list the desired reference line to which the color is filled.
+Note that fitted curves, trend lines, other reference lines added from the
+Axis
+dialog, and begin and end axes will be listed in the drop-down.
+Show Labels
+Add label of reference value. For fitted curves and trend lines (available when
+Trend Type
+is not set to
+Moving Average
+), you can choose to show the fitted equation/trend line equation and/or R-Square value. For linear fitted curves (when
+Trend Type
+is set to
+Linear
+), you can also show the Pearson's R..
+The label is added to the end of the line by default. You can use
+Label Position
+button
+to change the position.
+You can select the labels and customize the labels by
+using the popped-up Mini Toolbar
+.
+Label Position
+Once a label is added, choose from the drop-down list to specify the label position or relative the label to Panel/Layer.
+Hide selected fitted curve/trend line.
+Notes:
+Once a fitted curve/trend line is hidden, it cannot be brought back. You will need to select the scatter/line plot and add the fitted curve/trend line again.
+Click this button to push the selected reference line back to the data plot.
+Available for fitted curves and trend lines. Change the trend type.
+Refer to
+the "Trendline" section in the Description of 2D Smoother App
+to learn the details of each trend type.
+Clicking this button will pop up the
+Fix Parameters
+dialog to specify which parameter(s) to be fixed and the value to fix to.
+Available when
+Trend Type
+is set to
+Polynomial
+. Specify order value from 2 to 10, or enter the order number in the last edit box.
+Available when
+Trend Type
+is set to
+Moving Average
+. Specify the number of points in a moving window. Value from 2 to 10, and you can manually enter the number in the last edit box.
+Apply format settings of the current reference line to reference lines in the active layer or window.
+Set current formattings of selected reference line as default for other reference lines created later.
+Open the
+Reference Lines
+dialog
+.
+If you choose
+Fill to
+button
+to fill color between reference lines, clicking on the fill color will bring up following mini toolbar for customization.
+The color filled between reference lines
+Fill Color.
+Drag the slider to change the transparency.
+Show Line for Begin
+Show Line for End
+Push filled color in front of the data plot.
+Open the
+Reference Lines
+dialog
+.
+Data Label
+Set Font
+Font Size
+Increase Font Size
+Decrease Font Size
+Font Color
+Bold
+Label Source
+Scatter
+,
+Column/Bar
+...
+> 1 point labeled
+Scatter
+,
+Column/Bar
+...
+only 1 point labeled
+Histogram
+Stacked Column
+Position
+Scatter
+Column
+/
+Bar
+/
+Histogram
+Dendrogram
+Circular Dendrogram
+Rotate Clockwise
+Rotate Counterclockwise
+Leader Lines
+Hide Selected Object
+Apply Formatting to...
+Apply Formatting of this object to other objects of this type
+You can select
+Color
+or
+Font
+in this list.
+Open Plot Details
+Graph Layer
+Click the space area within the layer frame to pop up the mini toolbar for graph layer:
+2D Layer
+When multiple layers are selected:
+Rescale
+Layer Frame
+Hide / Show Layer Frame
+Axes Arrangements
+Click this button, you can select the Axes Arrangements in the list:
+Layer Background Color
+Hide Other Layers
+Add Stats Reference Lines
+Legend
+Set XY axis scale to have the same length in pixels for the same linearized scale range.
+Add Layer Title
+Add Plot
+Clip Data to Frame
+Open dialog
+Auto Rescale
+Selectable
+Show Data Plots
+Show and Hide Plots in the Layer
+Apply Formatting to...
+Apply Formatting of this object to other objects of this type
+Hide selected object.
+Axis Tick Style
+Click this button, you can define the Axis Tick Style in the list:
+Align the selected layers. Available only when multiple layers are selected.
+Swap the position of selected layers. Only available when two layers are selected.
+Uniform height of selected layers. Available only when multiple layers are selected.
+Uniform width of selected layers. Available only when multiple layers are selected.
+3D Layer
+Clidk to resize layer frame
+Click to rotate layer frame
+Rescale
+Show/Hide Planes:
+Select
+Additional Plane
+to open dialog:
+Show grid lines on following plane(s)
+Add Plot
+Show/Hide Plots in the Layer
+Orientation of axis ticks and lables:
+Show/Hide Cube Frame
+Auto Rescale
+Add Layer Title
+Open dialog
+Graph Page
+Move the cursor to the page edge, click the edge or gray area outside the graph page when the cursor turns to
+. The mini toolbar below will appear:
+2D (one layer in a graph)
+2D (multiple layers in a graph)
+3D
+Graph Styles
+Click this button to open
+Theme Preview
+app
+.
+Show Locks
+Show Recalculation Locks
+Send graph to PowerPoint
+without open the dialog.
+Send with the following settings:
+select
+Active Page
+only
+Insert Graphs as
+=
+Embedded Object
+Keep Aspect Ratio ✓
+Send to Opened word Document ✓
+Add Metadata to Alt. Text ✓
+Send graph to Word
+without open the dialog.
+Send with the following settings:
+select Active page only
+Insert Graphs as
+=
+Embedded Object
+Keep page size at 100% ✓
+Slide Mode
+=
+Start New
+Add Metadata to Alt. Text ✓
+Show/ Hide Analysis Marker
+Show Grids
+Select
+Page Grids Settings...
+to open this dialog.
+Increase Grid Spacing
+Decrease Grid Spacing
+Toggle data point or data plot tooltip
+Show/ Hide Speed Mode Banner
+Show/ Hide Layer Icons
+Set Active Layer by Layer Icon Only
+Show Active Layer Only
+Show/ Hide Axis Icons
+Show Active Layer Indicator
+Copy Graph as Image...
+Add Page Title
+Select from drop-down list to hide or show the masked data points from current graph. Available only when where is masked data in the graph.
+Auto
+: follow the global settings.
+Hide
+Show
+Dense Data Plot
+Cache data plots as an image to allow quick changes to labels etc.
+Refresh graph to update images.
+Window View
+Center Layer(s) to Page
+Fit Page to Layers
+Click this button to open Fit Page to Layers dialog
+Column Switching Browser Graph
+Sheet/Book Switching Browser Graph
+Arrange Layers
+Click this button to open Arrange Layers dialog
+Highlight plot when mouse over
+Data Slicer
+Click this button to add Data Slicer to Graph. See details
+here
+.
+Add filter condition to Layer Title for all layers in the graph page.
+This button is available when graph has Data Slicer.
+Check following properties to apply customizations to all layers:
+Add Label for Layers
+Open the dialog to add labels to layers in a graph.
+In this dialog, you can customize the labels type, position and font style.
+Reverse Colors
+Tick Style
+Show/ Hide legend for all layers
+Open Properties Dialog
+Floating/ Embedded Graph on Worksheet
+Floating Graph
+Embedded Graph
+Auto Rescale
+Copy As Image
+Define Name
+Insert Note
+Note
+:
+Note inserted into worksheet cell supports
+Origin Rich Text
+syntax, and shows as Render Mode.
+Insert Latex Equation.
+Convert cell formula or cell link to plane value
+Select from sub-menu to clear formats (bold, fill color, etc.), contents, inserted notes, or all above in the worksheet.
+Layout Page
+Move the cursor to the page edge, click the edge or gray area outside the page when the cursor turns to
+. The mini toolbar below will appear:
+Send to PowerPoint
+Send the active layout page to PowerPoint
+Send to Word
+Send the active layout page to Word
+Copy Graph as Image...
+Click this button to open the following dialog:
+Show Grids
+Select
+Grid Settings...
+to open this dialog to customize the grid settings:
+Turn on/off Slide View (no border shown)
+Enable/Disable embedded graph selection
+Open Properties Dialog
+Object
+Text Object
+Including:
+Text
+,
+Annotation
+Set Font
+Font Size
+Increase Font Size
+Decrease Font Size
+Font Color
+Bold
+Wrap Text
+Adjust width to see the wrapping effect
+Alignment
+Rotate Clockwise
+Rotate Counterclockwise
+Apply Formatting to...
+Apply Formatting of this object to other objects of this type
+You can select
+Color
+or
+Font
+in this list.
+Link to Substitution
+Selectable
+Clear All Formatting (for one or multiple selected objects)
+Open Properties Dialog
+Graph Page/ Layer Title
+Set Font
+Font Size
+Increase Font Size
+Decrease Font Size
+Font Color
+Box Width
+Bold
+Wrap Text
+Adjust width to see the wrapping effect
+Rotate Clockwise
+Rotate Counterclockwise
+Alignment
+Apply Formatting to...
+Apply Formatting of this object to other objects of this type
+You can select
+Color
+or
+Font
+in this list.
+Link to Substitution
+Open Properties Dialog
+Legend
+Set Font
+Font Size
+Increase Font Size
+Decrease Font Size
+Font Color
+Frame
+Reconstruct Legend
+Data Plot Legend Translation Mode
+Select
+Custom
+to open
+Update Legend
+dialog
+.
+Reverse
+Arrange in Horizontal
+Show/Hide
+Attach to Plots
+Wrap Text
+Indicate Active Dataset
+Hide Selected Object
+Open Properties Dialog
+Legend Symbol
+Larger Symbol Width
+Smaller Symbol Width
+Increase Scatter Symbol Size
+Decrease Scatter Symbol Size
+Increase Line Thickness
+Decrease Line Thickness
+Larger Pattern Block Width
+Smaller Pattern Block Width
+Larger Pattern Block Height
+Smaller Pattern Block Height
+Open Properties Dialog
+Color Scale
+Show Head and Tail Level
+Show Title
+Major Level +1
+Major Level -1
+Range Label
+Decimal Places
+Separate Layout
+Reverse Order
+Arrangement
+Max&Min Levels
+Open Properties Dialog
+Bubble Scale
+Add Level
+Delete Level
+Larger Symbol Gap
+Smaller Symbol Gap
+Layout
+Digits
+Bubble Style
+Show Title
+Open Properties Dialog
+Draw Object
+Line/ Arrow / Curve Arrow / Elbow Arrow / Angle Annotation / Distance Annotation / Slope Annotation
+Line/ Border Color
+Line Thickness
+Increase Line Thickness
+Decrease Line Thickness
+Line Style
+Open Properties Dialog
+Begin Arrow Shape
+End Arrow Shape
+Larger Arrow Width
+Smaller Arrow Width
+Larger Arrow Length
+Smaller Arrow Length
+Rotate Clockwise
+Rotate Counterclockwise
+Arrow on Arc
+Edit Points
+Direction of Elbow Arrow
+Change to Inside Arrowheads.
+Once click this button, it will be shown as
+to change the arrowheads to be outside.
+Other Draw Object
+Including:
+Polyline
+,
+Curve
+,
+Freehand Draw
+,
+Rectangle
+,
+Circle
+,
+Polygon
+and
+Region
+object.
+Line/ Border Color
+Line Thickness
+Increase Line Thickness
+Decrease Line Thickness
+Fill Color
+Transparency
+Edit Points
+Isosceles Trapezoid
+(For the Trapezoid object)
+Front
+Back
+Forward
+Backward
+Back (data)
+Rotate Clockwise
+Rotate Counterclockwise
+Open Properties Dialog
+Asterisk Bracket
+Asterisk brackets added by the
+Add Object to Graph
+toolbar, can be edited using the Mini toolbar buttons.
+Click on the bracket, the Mini toolbar below will show:
+Line/ Border Color
+Line Thickness
+Increase Line Thickness
+Decrease Line Thickness
+Top (Orientation)
+Bottom (Orientation)
+Left (Orientation)
+Right (Orientation)
+Bracket Type
+Begin Arrow Shape
+End Arrow Shape
+Multiple Objects
+When select multiple Text or Draw objects, you can use this Mini Toolbar to these objects. If the selected objects are the same type, they can be changed the setting in sync by Mini Toolbar.
+Ungroup
+Group
+Select
+Text and Draw
+objects
+Select two
+Text
+objects
+Select three or more
+Text
+objects
+Select two
+Draw
+objects (lines)
+Select three or more
+Draw
+objects (lines)
+Select two
+Draw
+objects
+Select three or more
+Draw
+objects
+Besides the basic buttons for
+Text Object
+or
+Draw Object
+, there are two specific buttons:
+Left Alignment
+Right Alignment
+Top Alignment
+Bottom Alignment
+Horizontal Alignment
+Vertical Alignment
+Uniform Width (rectangles, ellipses, and UIM objects)
+Uniform Height (rectangles, ellipses, and UIM objects)
+Distribute Horizontally
+Distribute Vertically
+Group
+Ungroup
+Front
+Back
+Forward
+Backward
+Back (data)
+Hide Selected Object
+Align the selected objects.
+Swap the position of selected objects. Available only when two objects are selected.
+XY Scaler
+Scales
+Font Size
+Factor of X increment
+Factor of Y increment
+Increase Font Size
+Decrease Font Size
+Line/ Border Color
+Line Thickness
+Increase Line Thickness
+Decrease Line Thickness
+Larger Arrow Width
+Smaller Arrow Width
+Open Properties Dialog
+Axis Scrollbar
+Zoom In Axis Range
+Zoom Out Axis Range
+Zoom In Scroll Range
+Zoom Out Scroll Range
+Reset
+Open Properties Dialog
+Data selector/ Regional Data Selector
+Set Display Range
+Remove Selector
+Copy Data for All Selectors
+Copy Data
+Delete Data
+Analysis Marker
+Marker Size
+Table
+Table Style
+Column Label
+Quantities in Table
+Header Fill Color
+Cell Fill Color
+Color for Banded Row
+Border Color
+Border Width
+Increase Line Thickness
+Decrease Line Thickness
+Set Font
+Font Size
+Increase Font Size
+Decrease Font Size
+Font Color
+Digits
+Selection Region to Zoom
+When the cursor is on
+Pointer
+mode
+, select a rectangle region (red border) inside a graph layer, then
+this Mini Toolbar
+will show.
+Scale In
+Enlarge to Separate Graph
+Copy Data
+To copy all data in the rectangle as multiple columns.
+Copy Data as One Set
+To copy all data in rectangle as one XY column
+WorkSheet
+Worksheet
+Go to the last column in current worksheet, move the cursor to the edge of the worksheet, click the gray area when the cursor turns to
+. The mini toolbar below will appear:
+Unhide Columns
+Resize column width to show all contents. It skip hidden column(s) by default.
+Column List View
+Show cell formulas/linked syntax.
+Same as
+View: Show Formula
+(
+Ctrl
++
+`
+)
+Show Category Indices
+Unfreeze panes in the Worksheet. Availabe if there is frozen column in the worksheet.
+Turn on
+banded rows
+Open the
+Worksheet Banded Rows Color
+dialog
+.
+Available only when banded rows is turned on
+Select from sub-menu to clear formats (bold, fill color, etc.), contents, inserted notes, or all above in the worksheet.
+Add Column
+Open simple dialog to search in worksheet
+Open
+Sheet Notes
+dialog to add comments and tab color to current sheet
+Open
+the
+Protect Sheet Options
+dialog
+Open
+Properties
+dialog
+Single Column
+Click the column header to select the column. The mini toolbar below will appear:
+Text
+Text & Numeric / Numeric
+Date
+Time
+Color
+Hide Column(s)
+Resize to Show All
+Sort Worksheet Ascending
+Find
+Add Sparkline
+Categorical
+Add data filter
+Delete
+Sampling Interval
+Set begin and increment x value so separate X column will not be needed.
+Insert
+Copy for Plotting
+Set as X
+Set as Y
+Set as Z
+Set as Disregard
+Set_as X Err
+Set as Y Err
+Set column format from the drop-down list
+Select from the dorp-down list to set the number of digits for numeric display
+Date
+Define named range
+Time
+Fix Time Wrap Around
+Save As Increment List
+Load Color
+Freeze the selected column
+Unfreeze panes
+Convert cell formula and cell link to plane value.
+Select from sub-menu to clear formats (bold, fill color, etc.), contents, inserted notes, or all above in the worksheet.
+Open
+Column Properties
+Multiple Columns
+Press the left key of mouse to select the first column and drag-and-drop to select multiple columns. The mini toolbar below will appear:
+Hide Columns
+Resize to Show All
+Find
+Add Sparkline
+Add data filter
+Delete selected columns
+Insert the number of columns selected before the first selected column
+Copy for Plotting
+Select from the dorp-down list to set the number of digits for numeric display
+Set columns' format from the drop-down list
+Freeze the selected columns
+Convert cell formula to value
+Clear contents/formats/notes of the selected columns
+Open the
+Column Properties
+dialog
+Single Row
+Click the row header to select the row. The mini toolbar below will appear:
+Hide
+Unhide Row
+Mask/ Unmask Data
+Delete
+Freeze the selected row
+Unfreeze panes
+Move to Long Name
+Move to Units
+Move to Comment
+Move to User Defined Label
+Insert
+Delete all data rows before the selected row.
+Move selected row up
+Move selected row down
+Box of Source Data
+Available when a row in result sheet (
+DescStatsQuantities
+) of
+Statistics on Whole Sheet
+is selected. Click this button to create a box chart from the source data column of the selected row.
+Histogram of Source Data
+Available when a row in result sheet (
+DescStatsQuantities
+) of
+Statistics on Whole Sheet
+is selected. Click this button to create histogram from the source data column of the selected row.
+Probability Plot of Source Data
+Available when a row in result sheet (
+DescStatsQuantities
+) of
+Statistics on Whole Sheet
+is selected. Click this button to create a P-P plot from the source data column of the selected row.
+Multiple Linear Regression
+Available when a row in the
+Summary
+sheet of
+Best Subset Selection
+app
+is selected. Click this button to perform Multiple Linear Regression with the model specified by the current row.
+Multiple Rows
+Press the left key of mouse to select the first row and drag-and-drop down to select multiple rows. The mini toolbar below will appear:
+Hide
+Unhide Row
+Mask/ Unmask Data
+Delete
+Freeze the selected row
+Unfreeze panes
+Insert
+Delete all data rows before the selected row.
+Move selected rows up
+Move selected rows down
+Box of Source Data
+Available when rows in result sheet (
+DescStatsQuantities
+) of
+Statistics on Whole Sheet
+are selected. Click this button to create box chart from the source data columns of the selected rows.
+Histogram of Source Data
+Available when rows in result sheet (
+DescStatsQuantities
+) of
+Statistics on Whole Sheet
+are selected. Click this button to create histogram from the source data columns of the selected rows.
+Single Cell
+Click on the single cell with value. The mini toolbar below will appear:
+Cell contains data
+Cell contains image
+Cell in Color Column
+Mask/ Unmask Data
+Extend selection to last row with data
+Clear rows before selected cell. Available when the selected cell is not in the first row.
+Define named range
+Insert Note
+Note
+:
+Note inserted into worksheet cell supports
+Origin Rich Text
+syntax, and shows as Render Mode.
+Open note in a separated Notes window
+Insert Latex Equation.
+Copy As Image
+Freeze Panes
+Unfreeze panes
+Pick New Color
+Edit Color.
+Click this button to open standard
+Color
+dialog.
+Convert cell formula or cell link to plane value
+Select from sub-menu to clear formats (bold, fill color, etc.), contents, inserted notes, or all above in the worksheet.
+Multiple Cells /Range
+Highlight multiple cells in a column:
+Highlight multiple cells in mutiple columns:
+Mask/ Unmask Data
+Copy for Plotting
+Extend Selection to last row with data
+Clear rows before selected cell. Available when the selected cell is not in the first row.
+Dynamically merge selected cells
+Freeze Panes
+Unfreeze panes
+Convert cell formula or cell link to plane value
+Select from sub-menu to clear formats (bold, fill color, etc.), contents, inserted notes, or all above in the worksheet.
+Label Row
+When a column label row is selected:
+When label row = Long Name is selected:
+When a user-defined parameter row is selected:
+Rich Text
+Wrap Text
+Adjust width&height to see the wrapping effect
+Insert User Parameters
+Hide/Show User Parameters
+Set selected label row as categorical.
+Apply selected User Parameters row (including formual if any) to other sheets.
+Move Row Up
+Move Row Down
+Extract Units from Long Name
+Dynamically merge cells in the selected row
+Hide
+Extract Units from Long Name...
+Select from sub-menu to clear formats (bold, fill color, etc.), contents, inserted notes, or all above in the worksheet.
+Open Properties Dialog
+Worksheet inserted in Layout
+Fill Color
+Color for Banded Row
+Frame Thickness
+Show Grids
+Gridline Thickness.
+Gridline Color
+Thicker Gridline
+Thinner Gridline
+Frame Color
+Font Size
+Font Color
+Increase Font Size
+Decrease Font Size
+Update of Worksheet
+Matrix
+Click on the left-top corner of the matrix to select the whole matrix object. The mini toolbar below will appear:
+Fill color palette for the image thumbnails.
+Available when Image Selector is turned on.
+Missing Value Color.
+Available when Image Selector is turned on.
+Flip Colormap.
+Available when Image Selector is turned on.
+Show X/Y
+View Image
+Image Selector
+Slider or Thumbnails
+Clear Data
+Copy for Plotting
+Open Sheet Notes dialog to add notes and tab color for current sheet
+Open New Name dailog to define a range
+Show Organizer
+Open Properties Dialog
+Image Page
+Move the cursor to the page edge, click the edge or gray area outside the image page when the cursor turns to
+. The mini toolbar below will appear:
+Single frame Image
+Video
+Multi-frame stacked Image
+Add ROI.
+Display Actual Size
+Check to show actual size of the image. Uncheck will fit image to page size.
+Fill missing values with selected color. Available only when the image has missing values.
+Grayscale Slider
+Click to open a dialog allowing to drag the slider to set gray scale display. Available only for grayscale image with z1 and z2. See
+this page
+for details.
+Note
+: one can also run following LabTalk command to open this dialog.
+run.
+section
+(
+imgfile,grayslider
+)
+;
+Flip Horizontal
+Flip Vertical
+Rotate 90 Degree Clockwise
+Select from following 4 navigation ways:
+Rotate Clockwise.
+The increment degree is determined by
+@IMGR
+.
+Rotate Counter-Clockwise.
+The increment degree is determined by
+@IMGR
+.
+Gray
+Convert color image into gray scale image
+Revise Palette
+Revise the applied palette
+Set Grayscale Range
+Open
+cvgraymax
+dialog to set gray scale display range. Available for gray scale image only.
+Reset Grayscale Range
+Reset the gray scale range to the original values. Available only when the gray scale range of the image has been changed before.
+Data Highlighter
+When open
+Data Highlighter
+, this Mini Toolbar will show in the right-top conner of the Graph window or Workbook window.
+Create Subset Sheet
+Create Categories
+Mask/Unmask Highlight Points
+Mask/Unmask Dimmed Points
+Delete Points
+Data Info Panel
+Open Properties Dialog
+Project Explorer
+Click the folders name in the Project Explorer to pop up this mini toolbar:
+Folder Notes
+Duplicate Folder
+Open Folder Properties Dialog
+Report Sheet
+Move the cursor to the edge or the title of the report sheet, click the edge or blank area outside the report sheet when the cursor turns to
+. The mini toolbar below will appear:
+Click on the cell of report table with numeric data. The mini toolbar below will appear:
+Send All Open Branches to Word
+Send All Graphs to PowerPoint
+Duplicate Operation for Special Sheets
+Click this button to open the dialog to
+duplicate this report with data from other sheets
+.
+Add Summary Sheet
+Click this button to open the dialog to
+create Summary sheet
+for Batch Processing.
+Create Copy as New Sheet
+If the table only with a column result value, it will copy the table to a new sheet directly.
+If there are two or more columns result value, it will open the
+Copy Table to New Sheet
+dialog that will list all columns label of this table. You can select which columns will be copied.
+Open Digits Dialog
+Send to Layout
+Define Name
+Insert Note
+Note
+:
+Note inserted into worksheet cell supports
+Origin Rich Text
+syntax, and shows as Render Mode.
+Graph in the Report Sheet
+Click the graph in the report sheet to pop up this mini toolbar:
+Open Graph for Editing
+Change Graph Size and Arrangement
+Click this button you can change graph size and arrangement in this report sheet.
+Send to PowerPoint
+Send the selected graph to PowerPoint
+Send to Word
+Send the selected graph to Word
+Print
+Apply to
+Apply Formatting of this object to other objects of this node.
+Buttons that Increment
+Some Mini Toolbar buttons increase or decrease some property by some increment each time you click the button (e.g. font size of text). Control incrementing using the following LabTalk system variables:
+You can check the increment value of a particular button by hovering on it. The
+Status Bar
+reports the current increment and the LabTalk system variable that you can modify to change the increment.
+For information on changing the value of a LabTalk system variable see
+FAQ-708 How do I permanently change the value of a system variable?
+.
+Object
+Mini Toolbar Buttons
+System Variable
+Default Increment
+Symbol Size
+@INCSS
+1
+Line Thickness
+@INCLT
+1
+Font Size
+@INCFS
+1
+Tick Label Rotation
+@INCTLR
+15
+Text Object Rotation
+@INCTOR
+90
+Graph Object Rotation
+@INCGOR
+45
+Tick Length
+@INCTL
+1
+Pie Rotation
+@INCPR
+10
+Doughnut Hole Size
+@INCDHS
+5
+Spacing Gap (column, doughnut, box)
+(Example from Doughnut Chart)
+@INCSG
+5
+Break Length
+@INCBL
+1
+Break Gap
+@INCBG
+15
+30.1 Origin Toolbars
+30.2 Code Builder Toolbars
+30.3 X-Function Builder Toolbars
+30.4 Mini Toolbar

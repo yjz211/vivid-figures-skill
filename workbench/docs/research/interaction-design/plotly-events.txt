@@ -1,0 +1,569 @@
+Event handlers in JavaScript
+Download Studio
+Studio and Cloud Pricing
+Dash Enterprise Pricing
+Quick Reference
+On This Page
+JavaScript
+>
+Event Handlers
+Suggest an edit to this page
+Event Handlers
+                  
+                  in 
+                  JavaScript
+Definitions and examples of how to use Plotly.js event handlers to add additional interactive capabilities to Plotly charts.
+Plotly Studio: Transform any dataset into an interactive data application in minutes with AI.
+Try Plotly Studio now.
+Using Plotly.js Events
+Plotly graphs emit events prefixed with plotly_ (i.e.
+'plotly_click'
+,
+'plotly_hover'
+,
+'plotly_relayout'
+) when interacted with (clicked, hovered, zoomed). Event handlers can be bound to events using the
+.on
+method that is exposed by the plot div object.
+In addition to the event handler, some events emit additional information about the point(s) or plot  interacted with. The following documentation organizes Plotly events based on the accessible information emitted with the event:
+event data
+,
+update data
+, or
+no additional data
+. The following page provides a description and example of each Plotly event as well as the structure of the data or update returned with the event.
+myDiv.on('plotly_event', function(){
+    	// do something;
+	});
+Simple Event Example
+Here's a simple example using a Plotly event. Click on a point on the chart below to see an alert triggered by the
+plotly_click
+event.
+var myPlot = document.getElementById('myDiv'),
+    x = [1, 2, 3, 4, 5],
+    y = [10, 20, 30, 20, 10],
+    data = [{x:x, y:y, type:'scatter',
+             mode:'markers', marker:{size:20}
+            }],
+    layout = {hovermode:'closest',
+              title: {text: 'Click on Points'}
+     };
+
+Plotly.newPlot('myDiv', data, layout);
+
+myPlot.on('plotly_click', function(){
+    alert('You clicked this Plotly chart!');
+});
+Event Data
+Many Plotly events emit event data when the event is triggered. Event data is information about the data point related to the event (i.e. the point clicked).
+The following events emit event data:
+plotly_click
+,
+plotly_hover
+,
+plotly_unhover
+,
+plotly_selecting
+, and
+plotly_selected
+.
+Event data differs depending on the type of plot the user is interacting with. The event data structure for Cartesian (2D) plots, 3D plots, and maps can be found below, along with examples of each event.
+Since v4,
+plotly_click
+and
+plotly_hover
+event data also has top-level
+xPixel
+and
+yPixel
+keys. They hold the cursor position in pixels, measured from the top-left corner of the graph div. Each entry of the
+points
+array has its own
+xPixel
+and
+yPixel
+, which give the position of that point.
+// Cartesian
+{
+  points: [{
+    curveNumber: 1,  // index in data of the trace associated with the selected point
+    pointNumber: 1,  // index of the selected point
+    x: 1,        // x value
+    y: 1,      // y value
+    data: {/* */},       // ref to the trace as sent to Plotly.newPlot associated with the selected point
+    fullData: {/* */},   // ref to the trace including all of the default attributes
+   xaxis: {/* */},   // ref to x-axis object (i.e layout.xaxis) associated with the selected point
+   yaxis: {/* */}    // ref to y-axis object " "
+  }, {
+    /* similarly for other selected points */
+  }]
+}
+
+// Cartesian Histograms
+{
+  points: [{
+    curveNumber: 1,  // index in data of the trace associated with the selected point
+    pointNumbers: [1, 5, 28, 33, 41, ...],  // Array of indices of the points aggregated into selected bin
+    x: 1,        // x value
+    y: 45,      // y value
+    data: {/* */},       // ref to the trace as sent to Plotly.newPlot associated with the selected point
+    fullData: {/* */},   // ref to the trace including all of the default attributes
+   xaxis: {/* */},   // ref to x-axis object (i.e layout.xaxis) associated with the selected point
+   yaxis: {/* */}    // ref to y-axis object " "
+  }, {
+    /* similarly for other selected points */
+  }]
+}
+
+// 3D
+{
+  points: [{
+    curveNumber: 2,  // index in data of the trace associated with the selected point
+    pointNumber: 2,  // index of the selected point
+    x: 5,        // x value
+    y: 600,      // y value
+    z: 12,       // z value
+    data: {/* */},       // ref to the trace as sent to Plotly.newPlot associated with the selected point
+    fullData: {/* */},   // ref to the trace including all of the default attributes
+   xaxis: {/* */},   // ref to x-axis object (i.e layout.xaxis) associated with the selected point
+   yaxis: {/* */}    // ref to y-axis object " "
+   zaxis: {/* */}    // ref to z-axis object " "
+  }, {
+    /* similarly for other selected points */
+  }]
+}
+
+// Maps
+{
+  points: [{
+    curveNumber: 2,  // index in data of the trace associated with the selected point
+    pointNumber: 2,  // index of the selected point
+    lat: 50,        // latitude value
+    lon: -12,      // longitude value
+    data: {/* */},       // ref to the trace as sent to Plotly.newPlot associated with the selected point
+    fullData: {/* */},   // ref to the trace including all of the default attributes
+    location:       //
+  }, {
+    /* similarly for other selected points */
+  }]
+}
+Click Event
+Here's a simple example of using the data returned from the
+plotly_click
+event to restyle the graph. After creating a plot, we can change the color of the point clicked on by updating the
+marker.color
+array at the index of the point we clicked on then using
+Plotly.restyle()
+to apply the update. For more examples of using
+plotly_click
+events, see:
+https://plotly.com/javascript/click-events/
+var myPlot = document.getElementById('myDiv'),
+    x = [1, 2, 3, 4, 5, 6],
+    y = [1, 2, 3, 2, 3, 4],
+    colors = ['#00000','#00000','#00000',
+              '#00000','#00000','#00000'],
+    data = [{x:x, y:y, type:'scatter',
+             mode:'markers', marker:{size:16, color:colors}}],
+    layout = {
+        hovermode:'closest',
+        title: {text: 'Click on a Point to Change Color<br>Double Click (anywhere) to Change it Back'}
+     };
+
+Plotly.newPlot('myDiv', data, layout);
+
+myPlot.on('plotly_click', function(data){
+  var pn='',
+      tn='',
+      colors=[];
+  for(var i=0; i < data.points.length; i++){
+    pn = data.points[i].pointNumber;
+    tn = data.points[i].curveNumber;
+    colors = data.points[i].data.marker.color;
+  };
+  colors[pn] = '#C54C82';
+
+  var update = {'marker':{color: colors, size:16}};
+  Plotly.restyle('myDiv', update, [tn]);
+});
+Legend Click Events
+plotly_legendclick
+and
+plotly_legenddoubleclick
+allow customization of the plotly legend. The default behaviour of
+plotly_legendclick
+is to hide a trace and the default behavior of
+plotly_legenddoubleclick
+is to select one trace and hide all the others.
+We can add to the default behaviour by creating a new
+plotly_legendclick
+event with a function of our choice. We can also disable the default behaviour by creating a function that returns
+false
+. In the example below, we do both in order to create a
+plotly_legendclick
+event which changes the marker color back to black instead of erasing the trace.
+var myPlot = document.getElementById('myDiv'),
+    x = [1, 2, 3, 4, 5, 6],
+    y = [1, 2, 3, 2, 3, 4],
+    y2 = [1, 4, 7, 6, 1, 5],
+    colors = [['#5C636E','#5C636E','#5C636E','#5C636E','#5C636E','#5C636E'],
+              ['#393e46','#393e46','#393e46','#393e46','#393e46','#393e46']],
+    data = [{x:x, y:y, type:'scatter',
+             mode:'line', line:{ color:'#5C636E'},marker:{size:16, color:colors[0]}},
+            {x:x, y:y2, type:'scatter',
+             mode:'line',line:{ color:'#393e46'}, marker:{size:16, color:colors[1]}}],
+    layout = {
+        showlegend: true,
+        hovermode:'closest',
+        title: {text: 'Click on a Point to Change Color<br>Click on a Trace in the Legend to Change Back One Trace Only'}
+     };
+
+Plotly.newPlot('myDiv', data, layout);
+
+myPlot.on('plotly_click', function(data){
+  var pn='',
+      tn='',
+      colors=[];
+  for(var i=0; i < data.points.length; i++){
+    pn = data.points[i].pointNumber;
+    tn = data.points[i].curveNumber;
+    colors = data.points[i].data.marker.color;
+  };
+  colors[pn] = '#C54C82';
+  var update = {'marker':{color: colors, size:16}};
+  Plotly.restyle('myDiv', update,[tn]);
+});
+
+myPlot.on('plotly_legendclick', function(data){
+  var trColors = [['#5C636E','#5C636E','#5C636E','#5C636E','#5C636E','#5C636E'],
+              ['#393e46','#393e46','#393e46','#393e46','#393e46','#393e46']];
+  var update = {'marker':{color: trColors[data.curveNumber], size:16}};
+  Plotly.restyle('myDiv', update,[data.curveNumber]);
+  return false;
+});
+Hover Event
+Here's a simple example of using the data returned from the
+plotly_hover
+and
+plotly_unhover
+events to restyle the graph. After creating a plot, we can change the color of the point hovered on by updating the
+marker.color
+array at the index of the point we hovered on then using
+Plotly.restyle()
+to apply the update. Then we can use
+plotly_unhover
+to change the
+marker.color
+back to the original color. For more examples of using
+plotly_hover
+events, see: https://plotly.com/javascript/hover-events/
+var myPlot = document.getElementById('myDiv'),
+    x = [1, 2, 3, 4, 5, 6, 7],
+    y = [1, 2, 3, 2, 3, 4, 3],
+    colors =['#00000','#00000','#00000',
+             '#00000','#00000','#00000',
+             '#00000'],
+    data = [{x:x, y:y,
+             type:'scatter',
+             mode:'markers', marker:{size:16, color:colors}}],
+    layout = {
+        hovermode:'closest',
+        title: {text: 'Hover on a Point<br>to Change Color'}
+     };
+
+Plotly.newPlot('myDiv', data, layout);
+
+myPlot.on('plotly_hover', function(data){
+  var pn='',
+      tn='',
+      colors=[];
+  for(var i=0; i < data.points.length; i++){
+    pn = data.points[i].pointNumber;
+    tn = data.points[i].curveNumber;
+    colors = data.points[i].data.marker.color;
+  };
+  colors[pn] = '#C54C82';
+
+  var update = {'marker':{color: colors, size:16}};
+  Plotly.restyle('myDiv', update, [tn]);
+});
+
+myPlot.on('plotly_unhover', function(data){
+  var pn='',
+      tn='',
+      colors=[];
+  for(var i=0; i < data.points.length; i++){
+    pn = data.points[i].pointNumber;
+    tn = data.points[i].curveNumber;
+    colors = data.points[i].data.marker.color;
+  };
+  colors[pn] = '#00000';
+
+  var update = {'marker':{color: colors, size:16}};
+  Plotly.restyle('myDiv', update, [tn]);
+});
+Select Event
+Here's a simple example using the data returned from the
+plotly_selected
+event.
+plotly_selected
+returns event data for all points selected simultaneously. After creating a scatter plot with random data and two histograms that display the x and y distributions of that random data, we can select points by clicking and dragging on the plot. Upon
+plotly_selected
+the histograms will update to display the distribution of the x and y values of the selected points. The color of the scatter plot will be updated as well to highlight the selected points. For more examples of using
+plotly_selected
+and
+plotly_selecting
+events, see: https://plotly.com/javascript/lasso-selection/
+var graphDiv = document.getElementById('myDiv');
+var N = 1000;
+var color1 = '#7b3294';
+var color1Light = '#c2a5cf';
+var colorX = '#ffa7b5';
+var colorY = '#fdae61';
+
+function randomArray() {
+  var out = new Array(N);
+  for(var i = 0; i < N; i++) {
+    out[i] = Math.random();
+  }
+  return out;
+}
+var x = randomArray();
+var y = randomArray();
+
+Plotly.newPlot(graphDiv, [{
+  type: 'scatter',
+  mode: 'markers',
+  x: x,
+  y: y,
+  xaxis: 'x',
+  yaxis: 'y',
+  name: 'random data',
+  marker: {color: color1, size: 10}
+}, {
+  type: 'histogram',
+  x: x,
+  xaxis: 'x2',
+  yaxis: 'y2',
+  name: 'x coord dist.',
+  marker: {color: colorX}
+}, {
+  type: 'histogram',
+  x: y,
+  xaxis: 'x3',
+  yaxis: 'y3',
+  name: 'y coord dist.',
+  marker: {color: colorY}
+}], {
+  title: {
+    text: 'Lasso around the scatter points to see sub-distributions'
+  },
+  dragmode: 'lasso',
+  xaxis: {
+    zeroline: false,
+  },
+  yaxis: {
+    domain: [0.55, 1],
+  },
+  xaxis2: {
+    domain: [0, 0.45],
+    anchor: 'y2',
+  },
+  yaxis2: {
+    domain: [0, 0.45],
+    anchor: 'x2'
+  },
+  xaxis3: {
+    domain: [0.55, 1],
+    anchor: 'y3'
+  },
+  yaxis3: {
+    domain: [0, 0.45],
+    anchor: 'x3'
+  }
+});
+
+graphDiv.on('plotly_selected', function(eventData) {
+  var x = [];
+  var y = [];
+
+  var colors = [];
+  for(var i = 0; i < N; i++) colors.push(color1Light);
+
+  eventData.points.forEach(function(pt) {
+    x.push(pt.x);
+    y.push(pt.y);
+    colors[pt.pointNumber] = color1;
+  });
+
+  Plotly.restyle(graphDiv, {
+    x: [x, y],
+    xbins: {}
+  }, [1, 2]);
+
+  Plotly.restyle(graphDiv, 'marker.color', [colors], [0]);
+});
+Update Data
+The following Plotly events emit update information when the event is triggered:
+plotly_restyle
+and
+plotly_relayout
+.
+The update emitted with
+plotly_restyle
+is similar across plot types and includes an array containing an object of the newly updated
+attributes and an array of the trace numbers that were updated.
+For Cartesian (2D) plots,
+plotly_relayout
+emits only the xaxis and yaxis ranges which were directly changed by the triggering event.
+For 3D plots,
+layout.scene.camera
+data is similarly emitted.
+See the full structures below:
+// plotly_restyle update
+[
+  {update},  // update object -- attribute updated: new value
+  [0]       // array of traces updated
+]
+
+// plotly_relayout update: Cartesian
+//// Upon resizing plot:
+{
+ xaxis.range[0]: , // new value if xaxis.range[0] was updated
+ xaxis.range[1]: ,
+ yaxis.range[0]: , // new value if yaxis.range[0] was updated
+ yaxis.range[1]:
+}
+//// Upon autosizing plot:
+{
+ xaxis.autorange: true,
+ yaxis.autorange: true
+}
+
+// plotly_relayout update: 3D
+// a subset of the following data will be emitted depending on
+// which attributes were changed by the triggering event.
+{
+  scene: {
+    center: { // https://plotly.com/javascript/reference/layout/scene/#layout-scene-camera-center
+      x: 0,
+      y: 0,
+      z: 0
+    }
+  },
+  {
+    eye: { // https://plotly.com/javascript/reference/layout/scene/#layout-scene-camera-eye
+      x: 1.25,
+      y: 1.25,
+      z: 1.25
+    }
+  }.
+  {
+    up: { // https://plotly.com/javascript/reference/layout/scene/#layout-scene-camera-up
+      x: 0,
+      y: 0,
+      z: 1
+    }
+  }
+}
+Additional Events
+The following Plotly events do not emit additional data or update information:
+plotly_webglcontextlost
+,
+plotly_afterplot
+,
+plotly_autosize
+,
+plotly_deselect
+,
+plotly_doubleclick
+,
+plotly_redraw
+, and
+plotly_animated
+. These event handlers can be used to notify or trigger an additional event with the following syntax:
+function eventTriggeredHandler() {
+   /*  add your event triggered handler here */
+}
+
+myDiv.on('plotly_event', eventTriggeredHandler);
+Webgl Context Lost Event
+Plotly graphs which use WebGL receive a "WebGL context" from the browser which gives them access to gpu resources.
+A program may lose its WebGL context if the browser is overloaded with them and is forced to shut one down.
+The event handler:
+plotly_webglcontextlost
+, can be used to trigger an event after a graph loses it's WebGL context.
+Afterplot Event
+The event handler:
+plotly_afterplot
+, can be used to trigger an event each time a chart is plotted. This also includes re-plotting after the restyling or relayout of a plot.
+Users also have the option of adding a post-plot handler to the plot call with the following syntax:
+Plotly.newPlot('myDiv', data, layout, config).then(postPlotHandler);
+The simple example below logs a console message each time the chart is plotted. Zoom or pan on the graph below to trigger the
+plotly_afterplot
+handler.
+var myPlot = document.getElementById('myDiv'),
+    N = 20,
+    x = d3.range(N),
+    y = d3.range(N).map( d3.random.normal() ),
+    data = [{x:x, y:y, type:'scatter',
+            mode:'markers', marker:{size:14}}
+           ];
+
+Plotly.newPlot('myDiv', data);
+
+myPlot.on('plotly_afterplot', function(){
+    console.log('done plotting');
+});
+Double Click Event
+In addition to
+plotly_click
+,
+plotly_doubleclick
+can be used as an event handle in Plotly charts as well. You may already be familiar with
+plotly_doubleclick
+if you regularly use Plotly's zoom and pan functionality, double clicking on the graph will restore the axes ranges after zooming into a specific area. Unlike
+plotly_click
+, a
+plotly_doubleclick
+is registered upon clicking anywhere on the graph (not just data points), therefore,
+plotly_doubleclick
+does not return data. In the following example, we'll build off of our
+plotly_click
+example, and reset the color of our data points upon double clicking anywhere on the graph.
+var myPlot = document.getElementById('myDiv'),
+    x = [1, 2, 3, 4, 5, 6],
+    y = [1, 2, 3, 2, 3, 4],
+    colors = ['#00000','#00000','#00000',
+              '#00000','#00000','#00000'],
+    data = [{x:x, y:y, type:'scatter',
+             mode:'markers', marker:{size:16, color:colors}}],
+    layout = {
+        hovermode:'closest',
+        title: {text: 'Click on a Point to Change Color<br>Double Click (anywhere) to Change it Back'}
+     };
+
+Plotly.newPlot('myDiv', data, layout);
+
+myPlot.on('plotly_click', function(data){
+  var pn='',
+      tn='',
+      colors=[];
+  for(var i=0; i < data.points.length; i++){
+    pn = data.points[i].pointNumber;
+    tn = data.points[i].curveNumber;
+    colors = data.points[i].data.marker.color;
+  };
+  colors[pn] = '#C54C82';
+
+  var update = {'marker':{color: colors, size:16}};
+  Plotly.restyle('myDiv', update, [tn]);
+});
+
+myPlot.on('plotly_doubleclick', function(data){
+  var orgColors = ['#00000','#00000','#00000',
+                   '#00000','#00000','#00000'];
+  var update = {'marker':{color: orgColors, size:16}};
+  Plotly.restyle('myDiv', update);
+});
+×

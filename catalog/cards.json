@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "scope": "143 recipes plus 3 complete composition templates (SEM and two SHAP compositions)",
+  "scope": "144 recipes plus 3 complete composition templates (SEM and two SHAP compositions)",
   "cards": [
     {
       "id": "basic.grouped_bar",
@@ -7898,9 +7898,9 @@
         "execution_code": "sources/empirical.prediction_ci/render.py",
         "recipe_section": "sources/empirical.prediction_ci/recipe.md",
         "recipe_file": "figure_recipes_empirical.md",
-        "content_sha256": "29402626bde7549c2583e3b21dd9c41b39d06d437624ca31612f7a15073e1da8",
-        "code_sha256": "a1339e1df23a471a9db81778ff06f0e54c87f65cd936999f20dfcb4b36cac174",
-        "execution_sha256": "a1339e1df23a471a9db81778ff06f0e54c87f65cd936999f20dfcb4b36cac174",
+        "content_sha256": "c5bb2ef7c4023ed4d164368809c19ff1bf30ec68d3fa876b45bd0aed4594cf25",
+        "code_sha256": "dc95a1f5e907450610a7ce04127ee857460e20051c47dffa2ee4bd28fdea50e0",
+        "execution_sha256": "dc95a1f5e907450610a7ce04127ee857460e20051c47dffa2ee4bd28fdea50e0",
         "code_view": "sources/empirical.prediction_ci/original.html"
       },
       "title_mismatch": false,
@@ -7910,7 +7910,7 @@
         {
           "path": "previews/empirical.prediction_ci-1.png",
           "thumbnail": "thumbnails/empirical.prediction_ci-1.jpg",
-          "sha256": "11766f34ecafeec5ff270f7293032cd48af1482d6ce08ac27f691324ce7b7035",
+          "sha256": "20959a39937b0d4ed28c32d42aa45b080d22b376fbd9296437a3b35e39bd5354",
           "pixels": [
             1980,
             900
@@ -7973,7 +7973,7 @@
       "fidelity_checkpoints": [
         {
           "feature": "预测带与侧边误差分布",
-          "preserve": "保留主图逐层叠加的透明预测带（本示例为12层alpha=0.025）、实际/预测线型区分，以及右侧竖向误差直方和密度；不能把分层带直接替换成一次实色填充。",
+          "preserve": "保留主图逐层叠加的透明预测带（本示例为12层alpha=0.025）、实际/预测线型区分，以及右侧竖向误差直方和密度；不能把分层带直接替换成一次实色填充。 侧栏保留独立数值刻度和残差单位；演示为任意单位a.u.，接入数据时替换为实际单位。",
           "allowed_adaptation": "真实区间端点决定色带外边界，内层仅表示视觉渐变，不宣称额外置信水平。仅有真实训练/测试标签或已定义的评估方案时保留分界；没有时移除这组背景、分界和训练/测试文字，不自行发明70/30或80/20划分。指标使用明确的真实样本范围，多方法分别计算并标明n、MAE和RMSE；不得把多个方法的同一批观测合并冒充独立样本。多站点可复用主图＋误差侧栏并留足轴标签间距；残差纵轴和预测量纵轴独立设置，保留各自可读的数值刻度与单位。",
           "evidence": [
             {
@@ -8017,11 +8017,26 @@
               "end_line": 51,
               "code": "ax_hist.plot(kde(y_kde), y_kde, color=PALETTE[1], linewidth=1.5)",
               "href": "sources/empirical.prediction_ci/original.html#L51"
+            },
+            {
+              "line": 54,
+              "end_line": 57,
+              "code": "ax_hist.set_ylabel('Actual − predicted (a.u.)', fontsize=9)\nax_hist.yaxis.set_label_position('right')\nax_hist.yaxis.tick_right()\nax_hist.tick_params(axis='y', labelsize=8, labelleft=False, labelright=True)",
+              "href": "sources/empirical.prediction_ci/original.html#L54"
             }
           ]
         }
       ],
-      "fidelity_scope": "当前主要示例；源码行定位已核对，适配后仍需对照实图。不是统计认证或自动通过条件。"
+      "fidelity_scope": "当前主要示例；源码行定位已核对，适配后仍需对照实图。不是统计认证或自动通过条件。",
+      "review_requirements": {
+        "quantitative_axes": [
+          {
+            "method": "hist",
+            "orientation": "horizontal",
+            "axis": "y"
+          }
+        ]
+      }
     },
     {
       "id": "empirical.prediction_accuracy_heatmap",
@@ -18928,6 +18943,149 @@
         }
       ],
       "fidelity_scope": "主要截图结构重建；适配后核对实图。"
+    },
+    {
+      "id": "advanced.radar_ridgeline",
+      "number": 147,
+      "kind": "recipe",
+      "display_name": "雷达山脊融合图",
+      "tags": [
+        "极坐标",
+        "多维",
+        "比较",
+        "融合"
+      ],
+      "purpose": "多个数据层在一组有序指标上的相对高低和轮廓差异如何？",
+      "data_requirements": [
+        "5–16个唯一指标及一致排列顺序",
+        "2–4个同尺度数据层；成本型指标先统一方向"
+      ],
+      "composition": "雷达径向骨架上的同心山脊环；独立基准圆、局部峰、逐峰数值与外置图例",
+      "visual_features": [
+        "径向虚线雷达骨架",
+        "同心独立基准环",
+        "指标方向平滑局部峰",
+        "半透明填充与同色轮廓",
+        "逐峰数值和外围指标名"
+      ],
+      "adaptation_notes": "仅效果图重建；演示值为人工构造。峰高使用全部数据共同归一化，峰宽固定。山脊不是KDE，不表达样本分布、样本量或不确定性。",
+      "legacy_title": "雷达山脊融合图",
+      "legacy_ref": "advanced #38",
+      "source": {
+        "original_code": "sources/advanced.radar_ridgeline/original.py",
+        "execution_code": "sources/advanced.radar_ridgeline/original.py",
+        "recipe_section": "sources/advanced.radar_ridgeline/recipe.md",
+        "recipe_file": "figure_recipes_advanced.md",
+        "content_sha256": "59df6135237a0cd03e4778fd7235af1d5935e02e79011f3a93e29a371ad68239",
+        "code_sha256": "165c7a88d4fba0e790d19e1ad6ae17a38333eba46a69561455992453920d62b2",
+        "execution_sha256": "165c7a88d4fba0e790d19e1ad6ae17a38333eba46a69561455992453920d62b2",
+        "code_view": "sources/advanced.radar_ridgeline/original.html",
+        "provenance": "sources/advanced.radar_ridgeline/provenance.json"
+      },
+      "title_mismatch": false,
+      "compatibility_patches": [
+        "仅效果图重建；声明标量峰编码及非KDE含义；接入项目配色和宽表输入"
+      ],
+      "preview_scope": "complete_synthetic_reconstruction",
+      "previews": [
+        {
+          "path": "previews/advanced.radar_ridgeline-1.png",
+          "thumbnail": "thumbnails/advanced.radar_ridgeline-1.jpg",
+          "sha256": "68cf34d07e15cc5a70facee58c640d19d84d0d499b19c6ab5d6125aac97eebe9",
+          "pixels": [
+            2688,
+            2361
+          ],
+          "palette_id": "olive-apricot"
+        }
+      ],
+      "code_evidence": [
+        {
+          "line": 96,
+          "operation": "fill_between",
+          "code": "        ax.fill_between(theta, baseline, curve, color=color, alpha=.72, linewidth=0, zorder=2)"
+        },
+        {
+          "line": 97,
+          "operation": "plot",
+          "code": "        ax.plot(theta, curve, color=color, linewidth=1.35, alpha=.95, zorder=3)"
+        },
+        {
+          "line": 103,
+          "operation": "plot",
+          "code": "        ax.plot([angle, angle], [.16, outer_label_radius-.17], color=COLORS['ref_line'],\n                linewidth=.7, linestyle=(0, (3, 4)), alpha=.72, zorder=0)"
+        },
+        {
+          "line": 109,
+          "operation": "text",
+          "code": "            ax.text(angle, curve[idx]+.055,\n                    f'{values[row, column]:{value_format}}{value_suffix}', fontsize=6.8,\n                    ha='center', va='bottom', color='#30343B', zorder=5)"
+        },
+        {
+          "line": 121,
+          "operation": "legend",
+          "code": "    ax.legend(handles=handles, title='数据层', loc='center left', bbox_to_anchor=(1.03, .52),\n              frameon=False, handlelength=1.25, handleheight=1.25, labelspacing=.65,\n              fontsize=9.2, title_fontsize=10.2)"
+        }
+      ],
+      "literal_colormaps": [],
+      "aliases": [
+        "radar ridgeline",
+        "radial ridge",
+        "雷达山脊图",
+        "环形山脊",
+        "极坐标山脊",
+        "雷达融合图"
+      ],
+      "related_ids": [
+        "competition.radar",
+        "advanced.ridgeline",
+        "screenshot.polar_area"
+      ],
+      "review": {
+        "visual": "main_preview_inspected",
+        "code": "shared_normalization_and_radial_layers_checked",
+        "statistical_audit": false
+      },
+      "card_path": "cards/advanced.radar_ridgeline.md",
+      "fidelity_checkpoints": [
+        {
+          "feature": "雷达骨架上的同心标量山脊",
+          "preserve": "保留每层独立基准圆环、指标方向平滑局部峰、半透明填充与同色轮廓、径向虚线、逐峰数值和外置图例；所有层使用同一个全局归一化尺度。",
+          "allowed_adaptation": "可替换指标、数据层、数值、数值后缀与项目配色；可按类别数调整峰宽及画布。不能将各层分别归一化后声称环间峰高可比，也不能把标量峰描述为样本密度。",
+          "evidence": [
+            {
+              "line": 96,
+              "end_line": 96,
+              "code": "        ax.fill_between(theta, baseline, curve, color=color, alpha=.72, linewidth=0, zorder=2)",
+              "href": "sources/advanced.radar_ridgeline/original.html#L96"
+            },
+            {
+              "line": 97,
+              "end_line": 97,
+              "code": "        ax.plot(theta, curve, color=color, linewidth=1.35, alpha=.95, zorder=3)",
+              "href": "sources/advanced.radar_ridgeline/original.html#L97"
+            },
+            {
+              "line": 103,
+              "end_line": 104,
+              "code": "        ax.plot([angle, angle], [.16, outer_label_radius-.17], color=COLORS['ref_line'],\n                linewidth=.7, linestyle=(0, (3, 4)), alpha=.72, zorder=0)",
+              "href": "sources/advanced.radar_ridgeline/original.html#L103"
+            },
+            {
+              "line": 109,
+              "end_line": 111,
+              "code": "            ax.text(angle, curve[idx]+.055,\n                    f'{values[row, column]:{value_format}}{value_suffix}', fontsize=6.8,\n                    ha='center', va='bottom', color='#30343B', zorder=5)",
+              "href": "sources/advanced.radar_ridgeline/original.html#L109"
+            },
+            {
+              "line": 121,
+              "end_line": 123,
+              "code": "    ax.legend(handles=handles, title='数据层', loc='center left', bbox_to_anchor=(1.03, .52),\n              frameon=False, handlelength=1.25, handleheight=1.25, labelspacing=.65,\n              fontsize=9.2, title_fontsize=10.2)",
+              "href": "sources/advanced.radar_ridgeline/original.html#L121"
+            }
+          ]
+        }
+      ],
+      "fidelity_scope": "效果图重建；共同数值尺度、独立圆环和非KDE语义须保留。"
     }
   ]
 }

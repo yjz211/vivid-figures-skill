@@ -27,7 +27,7 @@ python "<SKILL>/scripts/profile_figure_data.py" "<WORKSPACE>/data.xlsx" --sheet 
 
 在现有图表计划或任务记录里保留所选 ID、预览路径和简短理由即可，无需新增表单或审批。卡片帮助找图，不替代原绘图指导与完整源码。
 
-143 个配方（含新增截图恢复模板）均用当前资源提取器将完整主示例写入工作脚本：
+144 个配方（含新增截图恢复模板）均用当前资源提取器将完整主示例写入工作脚本：
 
 ```bash
 python "<SKILL>/original/resources/assets/shared-scripts/get_recipe.py" --id advanced.pair_plot --script figures/gen_fig_pair_plot.py

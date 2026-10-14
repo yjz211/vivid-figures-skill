@@ -11,6 +11,8 @@ import difflib
 import json
 from pathlib import Path
 import sys
+from review_attention import (AXIS_CALLS, BANDS, value_names, geometry_dependencies,
+                              focused_findings, finding_priority, summary_lines)
 
 UNKNOWN = object()
 LAYOUT = set('figure subplots subplot add_subplot add_axes GridSpec add_gridspec set_size_inches subplots_adjust tight_layout set_position'.split())
@@ -19,10 +21,12 @@ DRAW.update('PathPatch Rectangle Polygon Ellipse Circle FancyArrowPatch PolyColl
 DRAW.update('Sunburst Scatter Scatter3d Cone Isosurface Volume Surface Mesh3d add_trace initialize_from_matrix'.split())
 DRAW.update(LAYOUT)
 DRAW.update({'set_fontsize', 'set_fontweight', 'set_fontfamily'})
+DRAW.update(AXIS_CALLS)
 PARAMS = set('alpha linewidth linewidths lw edgecolor edgecolors marker markeredgecolor markeredgewidth linestyle linestyles ls fill hatch cmap levels zdir center vmin vmax mask annot yerr xerr showmeans showmedians showextrema zorder'.split())
 PARAMS.update('opacity colorscale cmin cmax isomin isomax surface_count sizeref sizemode textinfo stackgroup baseline caps contours flatshading'.split())
 PARAMS.update('figsize width_ratios height_ratios left right top bottom wspace hspace fontsize size fontweight weight fontfamily pad labelpad ncols nrows loc xy xytext textcoords xycoords ha va rotation boxstyle facecolor'.split())
 PARAMS.update({'sharex', 'sharey', 'bbox_to_anchor', 'markersize'})
+PARAMS.update({'orientation', 'axis', 'labelleft', 'labelright', 'labelbottom', 'labeltop'})
 DATA_KEYS = {'levels', 'vmin', 'vmax', 'center', 'mask', 'yerr', 'xerr'}
 STYLE_DICTS = {'boxprops', 'medianprops', 'whiskerprops', 'capprops', 'flierprops', 'wedgeprops', 'arrowprops'}
 STYLE_DICTS.update({'bbox', 'fontdict', 'gridspec_kw', 'marker', 'line', 'link_kws', 'label_kws'})
@@ -89,7 +93,7 @@ def inspect_source(source):
     records = []
     expansion = [0]
 
-    def calls(node, env, context):
+    def calls(node, env, context, loops):
         for call in ast.walk(node):
             if not isinstance(call, ast.Call) or method(call) not in DRAW: continue
             values = {k.arg: k.value for k in call.keywords if k.arg in PARAMS}
@@ -108,6 +112,8 @@ def inspect_source(source):
                         values[f'{keyword.arg}.{key}'] = expression
             setters = {'set_alpha': 'alpha', 'set_linewidth': 'linewidth', 'set_facecolor': 'facecolor', 'set_edgecolor': 'edgecolor'}
             setters.update(set_fontsize='fontsize', set_fontweight='fontweight', set_fontfamily='fontfamily')
+            setters.update(set_xlabel='label', set_ylabel='label', set_xticks='ticks', set_yticks='ticks',
+                           set_xticklabels='ticklabels', set_yticklabels='ticklabels')
             if method(call) in setters and call.args:
                 values[setters[method(call)]] = call.args[0]
             if method(call) == '_lighten' and len(call.args) > 1:
@@ -124,11 +130,20 @@ def inspect_source(source):
                 value = literal(expression, env)
                 props[key] = {'known': fully_known(value), 'value': value if fully_known(value) else None,
                               'expression': ast.unparse(expression)}
+            band_loop = None
+            if method(call) in BANDS:
+                geometry = list(call.args[1:3]) + [k.value for k in call.keywords if k.arg in {'y1', 'y2', 'x1', 'x2'}]
+                dependencies = set().union(*(value_names(arg) for arg in geometry))
+                for loop in reversed(loops):
+                    if dependencies & loop['geometry_names']:
+                        band_loop = {k: loop[k] for k in ('line', 'count')}
+                        break
             records.append({'method': method(call), 'line': call.lineno, 'end_line': call.end_lineno,
                             'code': ast.get_source_segment(source, call), 'context': context,
-                            'properties': props})
+                            'receiver': ast.unparse(call.func.value) if isinstance(call.func, ast.Attribute) else '',
+                            'band_loop': band_loop, 'properties': props})
 
-    def block(statements, env, context=()):
+    def block(statements, env, context=(), loops=()):
         for node in statements:
             # A list built through append/extend is not still its initial literal [].
             # Conservatively discard that value, including mutations inside loops;
@@ -140,30 +155,32 @@ def inspect_source(source):
                     env[call.func.value.id] = UNKNOWN
             if isinstance(node, (ast.For, ast.AsyncFor)):
                 values = literal(node.iter, env)
+                frame = dict(line=node.lineno, count=len(values) if isinstance(values, (list, tuple)) else None,
+                             geometry_names=geometry_dependencies(node))
                 if isinstance(values, (list, tuple)) and len(values) <= 64 and expansion[0] + len(values) <= 256:
                     expansion[0] += len(values)
                     for value in values:
                         nested = dict(env); bind(node.target, value, nested)
-                        block(node.body, nested, context + (f'for@{node.lineno}',))
+                        block(node.body, nested, context + (f'for@{node.lineno}',), loops + (frame,))
                 else:
                     nested = dict(env); bind(node.target, UNKNOWN, nested)
-                    block(node.body, nested, context + (f'data-dependent for@{node.lineno}',))
-                block(node.orelse, dict(env), context)
+                    block(node.body, nested, context + (f'data-dependent for@{node.lineno}',), loops + (frame,))
+                block(node.orelse, dict(env), context, loops)
             elif isinstance(node, ast.If):
                 # Both branches are possible. Do not claim runtime reachability.
-                block(node.body, dict(env), context + (f'conditional@{node.lineno}',))
-                block(node.orelse, dict(env), context + (f'conditional@{node.lineno}',))
+                block(node.body, dict(env), context + (f'conditional@{node.lineno}',), loops)
+                block(node.orelse, dict(env), context + (f'conditional@{node.lineno}',), loops)
             elif isinstance(node, (ast.FunctionDef, ast.AsyncFunctionDef, ast.ClassDef)):
                 block(node.body, {}, context + (f'definition:{node.name}',))
             elif isinstance(node, (ast.With, ast.AsyncWith)):
-                block(node.body, dict(env), context)
+                block(node.body, dict(env), context, loops)
             elif isinstance(node, ast.Try):
-                block(node.body, dict(env), context + ('try',))
-                for handler in node.handlers: block(handler.body, dict(env), context + ('except',))
-                block(node.orelse, dict(env), context)
-                block(node.finalbody, dict(env), context)
+                block(node.body, dict(env), context + ('try',), loops)
+                for handler in node.handlers: block(handler.body, dict(env), context + ('except',), loops)
+                block(node.orelse, dict(env), context, loops)
+                block(node.finalbody, dict(env), context, loops)
             else:
-                calls(node, env, context)
+                calls(node, env, context, loops)
                 if isinstance(node, ast.Assign):
                     for target in node.targets: bind(target, literal(node.value, env), env)
                 elif isinstance(node, ast.AnnAssign):
@@ -207,7 +224,7 @@ def repeating_unit(values):
     return values
 
 
-def compare_sources(baseline, candidate):
+def compare_sources(baseline, candidate, requirements=None):
     original, changed = inspect_source(baseline), inspect_source(candidate)
     old, new = defaultdict(list), defaultdict(list)
     for item in original: old[item['method']].append(item)
@@ -215,6 +232,7 @@ def compare_sources(baseline, candidate):
     findings = []
     repetition_changes = set()
     for operation in sorted(old.keys() | new.keys()):
+        if operation in AXIS_CALLS: continue
         expected, found = old.get(operation, []), new.get(operation, [])
         if not expected:
             findings.append({'kind': 'call_added', 'method': operation,
@@ -264,12 +282,15 @@ def compare_sources(baseline, candidate):
     if repetition_changes:
         findings.append({'kind': 'repetition_changed', 'methods': sorted(repetition_changes),
                          'message': '样式值及其周期内顺序相同，重复次数不同；可能来自组数或循环组织变化。若重复用于叠加透明图层，仍需核对层数。'})
+    findings = focused_findings(original, changed, requirements) + findings
     for finding in findings:
         operation = finding.get('method')
         if operation:
             finding.setdefault('source_lines', sorted({x['line'] for x in old.get(operation, [])}))
             finding.setdefault('candidate_lines', sorted({x['line'] for x in new.get(operation, [])}))
         finding['severity'] = 'advisory'
+        finding['priority'] = 'focus' if finding_priority(finding) == 0 else 'detail'
+    findings.sort(key=finding_priority)
     return {'findings': findings, 'baseline_calls': len(original), 'candidate_calls': len(changed),
             'verdict': '仅提供源码差异线索，不判定视觉通过或失败。即使无提示，仍需按现有流程对照实图。',
             'limits': '不执行代码、不判断分支实际运行、不跨辅助文件追踪，不验证坐标语义或最终层次是否可见。'}
@@ -280,10 +301,10 @@ def package_root(workspace=None):
     return resolve(workspace)
 
 
-def review_file(candidate, baseline_path, template_id, checkpoints=None):
+def review_file(candidate, baseline_path, template_id, checkpoints=None, requirements=None):
     baseline = Path(baseline_path).read_text(encoding='utf-8-sig')
     current = Path(candidate).read_text(encoding='utf-8-sig')
-    report = compare_sources(baseline, current)
+    report = compare_sources(baseline, current, requirements)
     report.update(template_id=template_id, baseline=str(baseline_path), candidate=str(candidate),
                   checkpoints=checkpoints or [],
                   source_diff=''.join(difflib.unified_diff(baseline.splitlines(True),current.splitlines(True),fromfile='template',tofile='adapted')))
@@ -344,7 +365,8 @@ def main(argv=None):
         if args.output and (args.output.resolve() in protected or args.output.suffix != '.json'):
             raise ValueError('Output must be a separate .json report')
         for candidate, baseline, tid in jobs:
-            reports.append(review_file(candidate, baseline, tid, by_id.get(tid, {}).get('fidelity_checkpoints')))
+            card = by_id.get(tid, {})
+            reports.append(review_file(candidate, baseline, tid, card.get('fidelity_checkpoints'), card.get('review_requirements')))
         result = reports[0] if args.candidate else {'reports': reports, 'tracked_scripts': len(reports),
             'limits': 'Only registered scripts are covered; unregistered or helper files need separate review.'}
         if args.output:
@@ -356,14 +378,7 @@ def main(argv=None):
                 for point in report['checkpoints']:
                     print('  保留重点: ' + point['preserve'])
                     print('  适配边界: ' + point['allowed_adaptation'])
-                def priority(f):
-                    if f['kind'] in {'operation_not_found', 'call_added', 'call_sites_changed'}: return 0
-                    if f.get('parameter') in {'alpha', 'opacity', 'figsize', 'lightening'}: return 1
-                    if f.get('parameter', '').startswith('bbox.'): return 2
-                    return 3
-                for finding in sorted(report['findings'], key=priority)[:12]:
-                    print('  ' + json.dumps(finding,ensure_ascii=False))
-                if len(report['findings']) > 12: print('  More findings in detailed JSON report.')
+                for line in summary_lines(report): print(line)
             if not reports: print('No tracked scripts; source comparison not performed.')
             print('Source differences are advisory; data and rendered images still require review.')
         elif not args.output: print(json.dumps(result,ensure_ascii=False,indent=2))
