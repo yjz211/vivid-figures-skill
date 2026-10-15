@@ -61,7 +61,7 @@ def check(skill_root=None):
     if ids!=actual: raise ValueError('模板目录与来源记录不同。')
     palettes = read(WEB/'editor_backend/_utils/palettes.json')['palettes']
     if len(palettes)!=manifest['palette_count']: raise ValueError('配色数量与来源记录不同。')
-    for name in ['index.html', 'editor.html']:
+    for name in ['index.html', 'editor.html', 'agent.html']:
         parser = ResourceParser(); parser.feed((WEB/name).read_text(encoding='utf8'))
         for resource in parser.paths:
             if not (WEB/resource.split('?')[0]).is_file():
@@ -133,12 +133,18 @@ def main():
     commands = parser.add_subparsers(dest='command', required=True)
     serve = commands.add_parser('serve', help='启动本地绘图服务')
     serve.add_argument('--open', action='store_true')
+    agent = commands.add_parser('agent', help='启动 Agent 工作台（需 requirements-agent.txt）')
+    agent.add_argument('--open', action='store_true')
+    agent.add_argument('--port', type=int, default=8766)
     checks = commands.add_parser('check', help='检查资源、来源快照与代码语法')
     checks.add_argument('--skill-root', type=Path, help='额外比较指定 Skill 的原始源码')
     commands.add_parser('test', help='运行常用回归，测试项目自动收拢')
     args = parser.parse_args()
     if args.command=='serve':
         run([sys.executable, '-X', 'utf8', WEB/'editor_backend/server.py']+(['--open'] if args.open else []))
+    elif args.command=='agent':
+        local_python=WEB/'.venv'/('Scripts/python.exe' if os.name=='nt' else 'bin/python')
+        run([local_python if local_python.exists() else sys.executable,'-X','utf8',WEB/'editor_backend/agent_server.py','--port',args.port]+(['--open'] if args.open else []))
     elif args.command=='check': check(args.skill_root)
     elif args.command=='test': test()
 

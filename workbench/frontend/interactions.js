@@ -17,12 +17,14 @@ async function restoreLocalDraft(tid){
   if(saved?.template===tid){project=saved;toast('已恢复本机项目草稿');}
 }
 function scheduleAutosave(){
+  if(window.VIVID_EMBED){window.VividBridge?.changed();return;}
   if(!projectId)return;
   clearTimeout(saveTimer);$('autosave-status').textContent='正在自动保存…';
   try{localStorage.setItem('vivid-recovery-'+projectId,JSON.stringify(project));localStorage.setItem('vivid-last-'+project.template,projectId);}catch{}
   saveTimer=setTimeout(flushAutosave,650);
 }
 function flushAutosave(){
+  if(window.VIVID_EMBED)return window.parent.VividAgent?.flush()||Promise.resolve();
   clearTimeout(saveTimer);if(!projectId||!project)return Promise.resolve();
   signature();const id=projectId,value=clone(project),revision=++autosaveRevision;
   autosaveChain=autosaveChain.catch(()=>{}).then(()=>api('/api/library',{kind:'projects',id,value})).then(()=>{if(revision===autosaveRevision&&id===projectId)$('autosave-status').textContent='已自动保存到本机';}).catch(()=>{$('autosave-status').textContent='保存失败 · 请下载项目备份';});
@@ -43,8 +45,8 @@ async function loadObjects(base){
 function refreshObjectPanel(){
   if(!$('object-select'))return;
   const objects=objectManifest?.objects||[];
-  if(!objects.some(o=>o.id===selectedObject))selectedObject=objects[0]?.id||'';
-  $('object-select').innerHTML=objects.length?objects.map(o=>`<option value="${esc(o.id)}" ${o.id===selectedObject?'selected':''}>${esc(o.name)}</option>`).join(''):'<option>更新预览后可编辑对象</option>';
+  if(!objects.some(o=>o.id===selectedObject))selectedObject=window.VIVID_EMBED?'':objects[0]?.id||'';
+  $('object-select').innerHTML=objects.length?(window.VIVID_EMBED?'<option value="">点选图形或选择对象</option>':'')+objects.map(o=>`<option value="${esc(o.id)}" ${o.id===selectedObject?'selected':''}>${esc(o.name)}</option>`).join(''):'<option>更新预览后可编辑对象</option>';
   $('clear-stale').hidden=!objectManifest?.skipped?.length;objectFields();
   DirectEdit.sync();
 }
@@ -73,12 +75,16 @@ function objectFields(){
   });
 }
 function selectObject(id){
+  if(!id){DirectEdit.clearSelection();objectFields();return;}
   DirectEdit.activate();
-  selectedObject=id;$('object-select').value=id;objectFields();window.Studio?.inspect('object');
+  selectedObject=id;$('object-select').value=id;objectFields();
+  const keepCanvas=window.VIVID_EMBED&&$('editor-shell').classList.contains('settings-folded');
+  if(!keepCanvas)window.Studio?.inspect('object');
+  window.VividBridge?.selection(id);
   const doc=$('object-preview').contentDocument;
   doc?.querySelectorAll('.vivid-picked').forEach(el=>el.classList.remove('vivid-picked'));
   const obj=objectManifest.objects.find(o=>o.id===id);doc?.getElementById(obj?.dom_id)?.classList.add('vivid-picked');
-  document.querySelector('.settings-panel').classList.remove('unused');$('editor-shell').classList.remove('settings-folded');$('show-settings').hidden=true;
+  document.querySelector('.settings-panel').classList.remove('unused');if(!keepCanvas){$('editor-shell').classList.remove('settings-folded');$('show-settings').hidden=true;}
   document.querySelector('.settings-scroll').scrollTop=0;
   DirectEdit.updateToolbar();DirectEdit.position();
 }

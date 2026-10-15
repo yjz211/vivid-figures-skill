@@ -1,6 +1,6 @@
 ---
 name: vivid-figures-skill
-description: 规划、生成、修改和检查数学建模与科研图表；包含144个完整源码配方、3套组合模板、统一配色和来源差异工具，以及Draw.io/TikZ、HTML/Mermaid和科学场景插图。
+description: 规划、生成、修改和检查数学建模与科研图表；包含145个完整源码配方、3套组合模板、统一配色和来源差异工具，以及Draw.io/TikZ、HTML/Mermaid和科学场景插图。
 ---
 
 # Vivid Figures Skill

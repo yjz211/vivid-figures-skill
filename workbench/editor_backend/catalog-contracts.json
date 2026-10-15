@@ -467652,5 +467652,199 @@
     "notes": [
       "四张独立输入表对应四个子图；未提供折线误差，省略演示的固定±1带。"
     ]
+  },
+  "advanced.grouped_radial_bar": {
+    "id": "advanced.grouped_radial_bar",
+    "name": "环形分组柱状对比图",
+    "family": "catalog",
+    "size": [
+      13.31,
+      12.52
+    ],
+    "cut": [
+      "",
+      ""
+    ],
+    "tables": [
+      {
+        "key": "scores",
+        "title": "任务与模型数值",
+        "kind": "matrix",
+        "headers": [
+          "任务",
+          "GroundingPI",
+          "Top 1 baseline",
+          "Top 2 baseline",
+          "Top 3 baseline",
+          "Top 4 baseline"
+        ],
+        "rows": [
+          [
+            "Visual Prompt",
+            73.59,
+            65.84,
+            56.52,
+            54.85,
+            43.26
+          ],
+          [
+            "Grounding",
+            59.5,
+            58.86,
+            58.03,
+            56.8,
+            56.59
+          ],
+          [
+            "Dense",
+            57.48,
+            55.24,
+            51.17,
+            51.08,
+            40.98
+          ],
+          [
+            "Referring",
+            84.89,
+            82.52,
+            79.02,
+            78.56,
+            78.31
+          ],
+          [
+            "Robo Point",
+            75.12,
+            81.08,
+            66.61,
+            65.39,
+            63.33
+          ],
+          [
+            "Referring Point",
+            89.71,
+            85.51,
+            84.56,
+            82.29,
+            79.96
+          ],
+          [
+            "Grounding Point",
+            82.15,
+            79.66,
+            74.89,
+            70.94,
+            70.83
+          ],
+          [
+            "Dense Point",
+            74.37,
+            76.1,
+            70.54,
+            70.26,
+            67.69
+          ],
+          [
+            "GUI",
+            78.92,
+            92.58,
+            77.73,
+            72.24,
+            70.09
+          ],
+          [
+            "OCR",
+            54.79,
+            48.89,
+            47.34,
+            45.2,
+            43.3
+          ],
+          [
+            "Layout",
+            79.95,
+            74.27,
+            71.64,
+            69.06,
+            61.5
+          ]
+        ]
+      },
+      {
+        "key": "labels",
+        "title": "任务分类与说明",
+        "kind": "columns",
+        "headers": [
+          "任务",
+          "大类",
+          "说明"
+        ],
+        "rows": [
+          [
+            "Visual Prompt",
+            "Bounding Boxes",
+            "FSC147-test, Dense200, COCO, LVIS"
+          ],
+          [
+            "Grounding",
+            "Bounding Boxes",
+            "COCO, LVIS"
+          ],
+          [
+            "Dense",
+            "Bounding Boxes",
+            "Dense200, VisDrone"
+          ],
+          [
+            "Referring",
+            "Bounding Boxes",
+            "HumanRef, RefCOCOg*5"
+          ],
+          [
+            "Robo Point",
+            "Point",
+            "RoboSpatial, RefSpatial*3"
+          ],
+          [
+            "Referring Point",
+            "Point",
+            "HumanRef, RefCOCOg*5"
+          ],
+          [
+            "Grounding Point",
+            "Point",
+            "COCO, LVIS"
+          ],
+          [
+            "Dense Point",
+            "Point",
+            "Dense200, VisDrone"
+          ],
+          [
+            "GUI",
+            "Point",
+            "Screenspot-Pro, ScreenSpot-V2, OSWorld-G"
+          ],
+          [
+            "OCR",
+            "Text & Bounding Boxes",
+            "HierText, ICDAR2015, TotalText, SROIE"
+          ],
+          [
+            "Layout",
+            "Text & Bounding Boxes",
+            "DocLayNet, M6Doc"
+          ]
+        ]
+      }
+    ],
+    "setup": "scores=T['scores'];labels=T['labels']\ntask_names=scores.text();model_names=[str(h).strip() for h in scores.h[1:]]\nassert 2<=len(task_names)<=16,'需要2–16个任务。'\nassert 2<=len(model_names)<=8,'每个任务需要2–8个模型或方案。'\nassert len(task_names)*len(model_names)<=96,'总柱数最多96根；请减少任务数或方案数。'\nassert len(set(task_names))==len(task_names),'任务名称必须唯一。'\nassert all(model_names) and len(set(model_names))==len(model_names),'模型名称必须非空且唯一。'\nvalues=scores.matrix()\nassert np.isfinite(values).all() and (values>=0).all(),'数值必须非负且有限；不自动补缺失值。'\nlabel_names=labels.text()\nassert len(set(label_names))==len(label_names),'说明表中的任务名称必须唯一。'\nassert set(label_names)==set(task_names),'说明表任务必须与数值表完全对应，不能缺少或额外增加任务。'\ngroup_map=dict(zip(label_names,labels.text(1)))\ndetail_map={name:('' if row[2] is None else str(row[2]).strip()) for name,row in zip(label_names,labels.rows)}\nmajor_groups=[group_map[name] for name in task_names];task_details=[detail_map[name] for name in task_names]\ngroup_runs=[group for i,group in enumerate(major_groups) if i==0 or group!=major_groups[i-1]]\nassert len(set(group_runs))==len(group_runs),'同一大类的任务必须在数值表中连续排列。'\nhighlight_index=settings.get('highlight',0)\nassert type(highlight_index)==int and 0<=highlight_index<len(model_names),'重点模型序号必须是现有模型的有效序号（从0开始）。'\n",
+    "derive": "",
+    "patches": [],
+    "notes": [
+      "按参考图保留组内独立的相对柱长：每个任务使用本组最小值与最大值缩放；柱长仅适合比较同一任务内的模型，跨任务请看原始数值标注。未改动、填补或重新排序输入数值。",
+      "第一张表按任务行、模型列输入；第二张表按任务名称关联分类和简短说明。分类需要连续；说明允许留空。",
+      "参考样例的Top 1–Top 4代表各任务排名前四的基线，不代表四个固定模型；45基线文字仅在完整参考数据保持不变时出现。",
+      "标题设置控制中心文字；标题留空时使用当前重点模型名。数值标签开关只隐藏柱内数值，保留任务名称、分类与说明；图例、字体大小和现有配色均可调整。"
+    ]
   }
 }

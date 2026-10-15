@@ -2,6 +2,8 @@ from pathlib import Path
 import json,urllib.request,sys
 from playwright.sync_api import sync_playwright
 WEB=Path(__file__).resolve().parent.parent;OUT=WEB/'verification/editor';OUT.mkdir(parents=True,exist_ok=True)
+EXPECTED_IDS={card['id'] for card in json.loads((WEB.parent/'catalog/cards.json').read_text(encoding='utf8'))['cards']}
+assert 'advanced.grouped_radial_bar' in EXPECTED_IDS
 errors=[];checks=[]
 def check(name,ok):
     checks.append({'name':name,'ok':bool(ok)});assert ok,name
@@ -10,7 +12,7 @@ with sync_playwright() as pw:
     context=browser.new_context(viewport={'width':1536,'height':1000},accept_downloads=True)
     page=context.new_page();page.on('pageerror',lambda e:errors.append(str(e)))
     page.goto('http://127.0.0.1:8766/index.html');page.locator('#editable-filter').check()
-    check('147 editable templates in library',page.evaluate('window.VIVID_EDITABLE_IDS.length')==147 and page.locator('.card-edit-link').count()==page.locator('.chart-card').count())
+    check('All catalog templates editable',set(page.evaluate('window.VIVID_EDITABLE_IDS'))==EXPECTED_IDS and page.locator('.card-edit-link').count()==page.locator('.chart-card').count())
     page.locator('.card-edit-link').filter(has_text='修改数据').first.click()
     page.wait_for_function('!document.getElementById("export-toggle").disabled',timeout=90000)
     check('Editor renders on opening',page.locator('#output-image').is_visible())

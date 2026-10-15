@@ -7,7 +7,8 @@ const DirectEdit=(()=>{
   let explicitSelection=false,frameObserver;
   function compatible(){
     if(!lastRender||!objectManifest||objectManifest.renderer!=='matplotlib')return false;
-    const old=JSON.parse(lastRender.signature),now=JSON.parse(signature());old[5]=null;now[5]=null;
+    const old=JSON.parse(lastRender.signature),now=JSON.parse(signature());
+    if(Array.isArray(old)){old[5]=null;now[5]=null;}else{delete old.object_edits;delete now.object_edits;}
     return JSON.stringify(old)===JSON.stringify(now);
   }
   const obj=id=>objectManifest?.objects.find(o=>o.id===id);
@@ -35,11 +36,12 @@ const DirectEdit=(()=>{
       $(id).onchange=e=>{if(type==='number'&&(!e.target.value||!e.target.checkValidity()))return;commit(selectedObject,{[key]:type==='number'?Number(e.target.value):e.target.value});};
     }
     $('mini-reset').onclick=()=>commit(selectedObject,{offset_x:0,offset_y:0});$('mini-render').onclick=render;
-    $('mini-close').onclick=()=>{explicitSelection=false;position();window.Studio?.inspect('chart');};
+    $('mini-close').onclick=clearSelection;
     window.addEventListener('resize',position);document.addEventListener('scroll',position,true);
     window.addEventListener('blur',()=>{cancel();sync();});
   }
   function hide(){[selectedBox,hoverBox,toolbar,tip].forEach(el=>{if(el)el.hidden=true;});if(dockHint)dockHint.hidden=false;cancel();}
+  function clearSelection(){explicitSelection=false;selectedObject='';$('object-select').value='';position();window.VividBridge?.selection('');if(!window.VIVID_EMBED)window.Studio?.inspect('chart');}
   function boxFor(id){
     const el=elements.get(id);if(!el||frame.hidden)return null;
     const r=el.getBoundingClientRect(),f=frame.getBoundingClientRect();
@@ -166,9 +168,9 @@ const DirectEdit=(()=>{
     });
     doc.addEventListener('pointerup',()=>{if(!drag)return;const d=drag;drag=null;if(d.moved)commit(d.id,{offset_x:Math.round((d.offsetX+d.dx)*100)/100,offset_y:Math.round((d.offsetY+d.dy)*100)/100});position();});
     doc.addEventListener('pointercancel',()=>{cancel();sync();});
-    doc.addEventListener('click',e=>{if(compatible()){const id=target(e);if(id)choose(id);else{explicitSelection=false;position();window.Studio?.inspect('chart');}}});
+    doc.addEventListener('click',e=>{if(compatible()){const id=target(e);if(id)choose(id);else clearSelection();}});
     doc.addEventListener('keydown',e=>{
-      if(e.key==='Escape'){e.preventDefault();if(!drag){explicitSelection=false;window.Studio?.inspect('chart');}cancel();sync();}
+      if(e.key==='Escape'){e.preventDefault();if(!drag)clearSelection();cancel();sync();}
       if((e.ctrlKey||e.metaKey)&&e.key.toLowerCase()==='z'){e.preventDefault();(e.shiftKey?$('redo'):$('undo')).click();}
       if(['ArrowLeft','ArrowRight','ArrowUp','ArrowDown'].includes(e.key)&&'offset_x' in props(selectedObject)){
         e.preventDefault();const p=props(selectedObject),step=e.shiftKey?10:1;
@@ -177,5 +179,5 @@ const DirectEdit=(()=>{
     });
     sync();
   }
-  return {init,bind,hide,sync,position,compatible,commit,updateToolbar,isDragging:()=>!!drag,activate:()=>{explicitSelection=true;}};
+  return {init,bind,hide,sync,position,compatible,commit,updateToolbar,clearSelection,isDragging:()=>!!drag,activate:()=>{explicitSelection=true;}};
 })();

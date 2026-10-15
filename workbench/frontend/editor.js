@@ -1,4 +1,5 @@
 'use strict';
+window.VIVID_EMBED=new URLSearchParams(location.search).get('embed')==='1';
 const $=id=>document.getElementById(id), clone=v=>JSON.parse(JSON.stringify(v));
 const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 let project,spec,templates,palettes,sampleProject,historyStack=[],redoStack=[],page=0,selected={row:0,col:0},editingCell=false,rendering=false,lastRender=null,zoom=0,importedFile=null,saveTimer,toastTimer;
@@ -6,7 +7,7 @@ const PAGE=50;
 function is3D(){return /3d|surface|cone_vortex|isosurface|volume|feature_importance/.test(project.template);}
 function toast(text){$('editor-toast').textContent=text;$('editor-toast').hidden=false;clearTimeout(toastTimer);toastTimer=setTimeout(()=>$('editor-toast').hidden=true,2800);}
 async function api(path,data){const response=await fetch(path,{method:data?'POST':'GET',headers:data?{'Content-Type':'application/json'}:{},body:data?JSON.stringify(data):undefined});const result=await response.json();if(!response.ok){const e=new Error(result.error?.message||'请求失败');e.detail=result.error;throw e;}return result;}
-function signature(){if(project.tables)project.tables[project.active_table]=project.table;return JSON.stringify([project.template,project.tables||project.table,project.mapping,project.column_mappings,project.settings,project.object_edits,project.plotly_view]);}
+function signature(){if(project.tables)project.tables[project.active_table]=project.table;return JSON.stringify(window.VIVID_EMBED?project:[project.template,project.tables||project.table,project.mapping,project.column_mappings,project.settings,project.object_edits,project.plotly_view]);}
 function remember(){historyStack.push(clone(project));if(historyStack.length>30)historyStack.shift();redoStack=[];updateUndo();}
 function updateUndo(){$('undo').disabled=!historyStack.length;$('redo').disabled=!redoStack.length;}
 function setStatus(text,kind='dirty'){$('status').textContent=text;$('status').className='status-'+kind;}
@@ -49,6 +50,11 @@ function mappingRender(){
   let specific='';
   if(spec.layout_growth)specific+='<label><input data-setting="auto_layout" type="checkbox">数据增多时自动扩展画布</label>';
   if(['basic.grouped_bar','basic.line','competition.radar'].includes(project.template))specific+=`<label>重点系列<select data-setting="highlight">${m.values.map((c,i)=>`<option value="${i}">${esc(h[c])}</option>`).join('')}</select></label>`;
+  if(project.template==='advanced.grouped_radial_bar'){
+    const scores=project.active_table==='scores'?project.table:project.tables?.scores;
+    // Matrix bindings already project/reorder the stored score columns; do not apply their original indices again.
+    specific+=`<label>重点模型<select data-setting="highlight">${(scores?.headers||[]).slice(1).map((name,i)=>`<option value="${i}">${esc(name)}</option>`).join('')}</select></label>`;
+  }
   if(project.template==='competition.radar')specific+='<label>径向上限（不自动归一化）<input data-setting="radar_max" type="number" min="0.000001" step="any"></label>';
   if(project.template==='advanced.ridgeline')specific+='<label>山脊基线间距<input data-setting="overlap" type="number" min=".25" max="1.5" step=".05"></label>';
   if(project.template==='advanced.radar_ridgeline')specific+='<label>数值后缀，例如 %<input data-setting="suffix" placeholder="无单位时留空"></label><p class="mapping-note">峰高使用统一最小值与最大值归一化，标签显示输入原值。</p>';
@@ -168,8 +174,9 @@ async function init(){
     const tid=new URLSearchParams(location.search).get('template')||templates[0].id;
     sampleProject=await api('/api/sample?id='+encodeURIComponent(tid));project=clone(sampleProject);
     $('palette-select').innerHTML=Object.entries(palettes).map(([id,p])=>`<option value="${id}">${esc(p.name)}</option>`).join('');
-    await restoreLocalDraft(tid);installInteractions();
-    refresh();await render();
+    if(!window.VIVID_EMBED)await restoreLocalDraft(tid);installInteractions();
+    refresh();
+    if(window.VIVID_EMBED)window.VividBridge.ready();else await render();
   }catch(e){$('connection-error').hidden=false;$('editor-shell').hidden=true;document.querySelectorAll('.editor-actions button').forEach(b=>b.disabled=true);}
 }
 init();

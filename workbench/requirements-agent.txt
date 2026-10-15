@@ -1,0 +1,9 @@
+-r requirements.txt
+fastapi>=0.115,<1
+uvicorn>=0.30,<1
+httpx>=0.28,<1
+langgraph==1.2.15
+langgraph-checkpoint-sqlite==3.1.2
+ag-ui-protocol==0.1.22
+jsonpatch==1.35
+jsonschema>=4.23,<5

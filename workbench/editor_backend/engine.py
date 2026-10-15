@@ -9,6 +9,12 @@ def canvas_size(project,settings,notes):
     from schema import SPECS,sample
     spec=SPECS[project['template']];mode=spec.get('layout_growth')
     w,h=settings['width'],settings['height']
+    if project['template']=='basic.multipanel' and settings.get('auto_layout',True):
+        tables=project.get('tables',{})
+        if len(tables.get('line',{}).get('rows',[]))>10 or len(tables.get('bar',{}).get('rows',[]))>5:
+            factor=max(1.,9/w,8.8/h);w,h=min(24,w*factor),min(20,h*factor)
+            notes.append(f'四联图已按实际数据与标签扩展至 {w:g} × {h:g} 英寸；可关闭自动扩展并手动指定尺寸。')
+        return w,h
     if not mode or not settings.get('auto_layout',True):return w,h
     original=sample(project['template'])
     def counts(p):
@@ -55,6 +61,16 @@ def between(code,start,end,replacement):
     a=code.index(start);b=code.index(end,a)
     return code[:a]+replacement+'\n\n'+code[b:]
 
+def radial_reference_caption(inputs,reference):
+    """The reference's baseline count describes its exact example, never new data."""
+    keys=('task_names','model_names','major_groups','task_details')
+    if (inputs['highlight_index']==reference.get('highlight_index',0)
+            and all(inputs[key]==reference[key] for key in keys)
+            and np.array_equal(inputs['values'],reference['values'])):
+        return reference.get('baseline_label')
+    return None
+
+
 def adapt(tid,code):
     from catalog_data import CONTRACTS,adapt as catalog_adapt
     if tid in CONTRACTS:return catalog_adapt(tid,code)
@@ -62,6 +78,9 @@ def adapt(tid,code):
         code=between(code,'categories = [','fig, ax =','globals().update(V)')
         code=code.replace('width = 0.22','width = 0.8 / n')
         code=code.replace("is_ours = '本文' in name","is_ours = name == highlight")
+        # An empty bbox dictionary creates Matplotlib's default solid patch.
+        # Only explicit template annotation boxes should have a background.
+        code=code.replace("alpha=0.7) if is_best else {})", "alpha=0.7) if is_best else None)")
         code=code.replace("ax.set_ylim(0, max(max(v) for v in groups.values()) * 1.2)","lo=min(0., min(float(np.min(a-stds[k])) for k,a in groups.items())); hi=max(0.,max(float(np.max(a+stds[k])) for k,a in groups.items())); pad=max((hi-lo)*.15,1.); ax.set_ylim(lo-pad*.2,hi+pad)")
     elif tid=='basic.line':
         code=between(code,'x = np.arange','fig, ax =',"globals().update(V)\nmarkers = ['o','s','^','D','v','P','X','*','<','>','h','p']")
@@ -139,6 +158,14 @@ def render_project(folder):
                              value_label=s['zlabel'] or '数值',sample_label=s['xlabel'] or '样本',condition_label=s['ylabel'] or '条件')
     elif tid=='advanced.radar_ridgeline':
         fig=ns['plot_chart'](inputs['categories'],inputs['labels_col'],inputs['data'].T,value_suffix=s['suffix'])
+    elif tid=='advanced.grouped_radial_bar':
+        reference=ns['demo_data']();caption=radial_reference_caption(inputs,reference)
+        center=s['title'] or (reference['center_label'] if caption is not None else inputs['model_names'][inputs['highlight_index']])
+        fig=ns['plot_chart'](inputs['task_names'],inputs['model_names'],inputs['values'],
+                             major_groups=inputs['major_groups'],task_details=inputs['task_details'],
+                             center_label=center,highlight_index=inputs['highlight_index'],
+                             value_suffix=s.get('suffix',''),show_values=s['labels'],show_legend=s['legend'],
+                             scale_mode='within_task',baseline_label=caption)
     else:fig=ns['fig']
     if isinstance(fig,go.Figure):
         fig.update_layout(width=int(s['width']*100),height=int(s['height']*100),font=dict(family='Microsoft YaHei',size=s['font_size']*1.2),showlegend=s['legend'])
@@ -157,7 +184,7 @@ def render_project(folder):
         fig.write_html(str(folder/'interactive.html'),include_plotlyjs=True,post_script=object_editor.BRIDGE,config={'displaylogo':False,'scrollZoom':True,'editable':False})
         return write_evidence(folder,tid,notes,inputs)
     ax=ns.get('ax_main',ns.get('ax_heat',ns.get('ax',fig.axes[0])))
-    if s['title']:fig.suptitle(s['title'],y=1.02,fontsize=14)
+    if s['title'] and tid!='advanced.grouped_radial_bar':fig.suptitle(s['title'],y=1.02,fontsize=14)
     for key in ['xlabel','ylabel','zlabel']:
         if s[key] and hasattr(ax,'set_'+key):getattr(ax,'set_'+key)(s[key])
     # Fill useful axis labels from the user's selected columns, rather than demo words.
@@ -179,19 +206,27 @@ def render_project(folder):
         for axis in fig.axes:
             legend=axis.get_legend()
             if legend:legend.remove()
-    if not s['labels']:
+    if not s['labels'] and tid!='advanced.grouped_radial_bar':
         for axis in fig.axes:
             for text in axis.texts:text.set_visible(False)
     fig.set_size_inches(output_width,output_height)
     from matplotlib.text import Text
     for text in fig.findobj(match=Text):
-        text.set_fontfamily(['Microsoft YaHei','DejaVu Sans']);text.set_fontsize(text.get_fontsize()*s['font_size']/10)
+        if tid!='advanced.grouped_radial_bar':text.set_fontfamily(['Microsoft YaHei','DejaVu Sans'])
+        text.set_fontsize(text.get_fontsize()*s['font_size']/10)
         if text.get_text() in [s[k] for k in ['title','xlabel','ylabel','zlabel']] and hasattr(text,'set_parse_math'):text.set_parse_math(False)
+    if tid=='basic.multipanel':
+        # Measure actual font sizes and reserve title space at every canvas size.
+        # A fixed subplot top overrides tight_layout and collides on small figures.
+        if s['title']:fig._suptitle.set_y(.99)
+        fig.tight_layout(pad=1.5,w_pad=1.6,h_pad=1.8)
     if tid=='advanced.grouped_bar_3d' and s.get('avoid_label_overlap',True) and s['labels']:avoid_3d_label_overlap(fig,notes)
     object_editor.mpl_edit(fig,project,objects)
     object_editor.finish(objects,project,folder,notes)
     for name,dpi in [('preview.png',140),('figure.png',300),('figure.pdf',300),('figure.svg',300)]:
-        fig.savefig(folder/name,dpi=dpi,facecolor='white',bbox_inches='tight',pad_inches=.5 if tid=='advanced.grouped_bar_3d' else .18)
+        if tid=='advanced.grouped_radial_bar':
+            fig.savefig(folder/name,dpi=dpi,facecolor=fig.get_facecolor(),bbox_inches=None,pad_inches=0)
+        else:fig.savefig(folder/name,dpi=dpi,facecolor='white',bbox_inches='tight',pad_inches=.5 if tid=='advanced.grouped_bar_3d' else .18)
     plt.close('all')
     return write_evidence(folder,tid,notes,inputs)
 

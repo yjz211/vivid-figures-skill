@@ -1,15 +1,15 @@
 {
   "version": 1,
-  "recorded_on": "2026-10-01",
+  "recorded_on": "2026-10-15",
   "source_package": "..",
   "source_git_head": "c043f0553c7c3188b1bb8dcbf7db76d2adf98375",
   "source_working_tree_dirty": true,
-  "note": "Snapshot of existing workbench assets. All original sources matched the source package working tree. No template was rebuilt or changed during folder cleanup.",
-  "template_count": 147,
+  "note": "Added reference-derived grouped radial bar; existing template sources retained. New preview uses pastel-girl.",
+  "template_count": 148,
   "palette_count": 7,
   "shared_files": {
-    "assets/catalog.js": "80d83f8214176d5da85ce3816db736f2cbeceeb0a172c828080dc5a7a5b0e952",
-    "assets/editable.js": "4297e16f36aa13b5ceafb1c93de07e5de421dad52f2ea0828026e5f2eb86c05e",
+    "assets/catalog.js": "021ea5f1e341af35fd57b0fc6036747e2a554d0d99690b893a9763a66ddaa00e",
+    "assets/editable.js": "0fd8572585228049a5eebf089edf38fb44afaddbccc3beb0d77adda9495b1b1a",
     "editor_backend/_utils/china_provinces.geojson": "99adfeded5223848bbe37a0a12f8023e11ee12161c7800521c27db42fdeac275",
     "editor_backend/_utils/NotoSansSC-Regular.ttf": "ae82f4e2a55e1316a55bcc1d05e9555ce08d8bda07e893b486896b626fd852ff",
     "editor_backend/_utils/palettes.json": "3334a19a2c88bd2f8fe6312ac3285fbb0775388a9ac4c0ce8db113bd758bb179",
@@ -4000,6 +4000,33 @@
         {
           "path": "assets/thumbs/advanced.radar_ridgeline-1.webp",
           "sha256": "241cd0ee37767f129cd20cc1632e9d517f278026060f635d745b899a74bd2517"
+        }
+      ]
+    },
+    {
+      "id": "advanced.grouped_radial_bar",
+      "name": "环形分组柱状对比图",
+      "skill_original": "sources/advanced.grouped_radial_bar/original.py",
+      "sha256": {
+        "original.py": "b841ac3770978acd3d1a89681708a7ae1847a01611e210be730063f649566304",
+        "preview.py": "b841ac3770978acd3d1a89681708a7ae1847a01611e210be730063f649566304"
+      },
+      "bundle": [
+        {
+          "path": "assets/downloads/advanced.grouped_radial_bar.zip",
+          "sha256": "15ce6105b63e825c3ab2db57f8555d2fd17034f55fc1de3d954252aacaa49ea5"
+        }
+      ],
+      "preview": [
+        {
+          "path": "assets/previews/advanced.grouped_radial_bar-1.png",
+          "sha256": "648f69d294f3b38161c9c202caa68886016b027768d3ed3b2562307285b8b208"
+        }
+      ],
+      "thumb": [
+        {
+          "path": "assets/thumbs/advanced.grouped_radial_bar-1.webp",
+          "sha256": "3c524310a341245b57b11ccf3e78609b4efe1ddf2b4c7f3191f680f918d94684"
         }
       ]
     }

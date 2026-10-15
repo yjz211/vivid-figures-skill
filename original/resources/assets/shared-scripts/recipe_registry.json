@@ -2172,6 +2172,21 @@
           "codeSha256": "165c7a88d4fba0e790d19e1ad6ae17a38333eba46a69561455992453920d62b2"
         }
       }
+    },
+    {
+      "id": "advanced.grouped_radial_bar",
+      "file": "figure_recipes_advanced.md",
+      "title": "环形分组柱状对比图",
+      "legacy": "advanced #39",
+      "contentSha256": "070cb9838b4a82de94b63fc43a1541113d538debbe52a8e9bf7e09bf0a5286e3",
+      "scripts": {
+        "main": {
+          "blocks": [
+            0
+          ],
+          "codeSha256": "b841ac3770978acd3d1a89681708a7ae1847a01611e210be730063f649566304"
+        }
+      }
     }
   ]
 }

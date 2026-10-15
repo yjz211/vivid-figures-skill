@@ -1,6 +1,6 @@
 """Click successive actual glyphs with the selection toolbar left open."""
 from pathlib import Path
-import json,uuid
+import json,uuid,os
 from playwright.sync_api import sync_playwright
 ROOT=Path(__file__).resolve().parents[1];OUT=ROOT/'verification/hit-coordinate';OUT.mkdir(exist_ok=True)
 results=[];errors=[];ids=[]
@@ -11,7 +11,7 @@ try:
   p=b.new_page(viewport={'width':1400,'height':950},device_scale_factor=1.5);p.on('pageerror',lambda e:errors.append(str(e)))
   for tid in ['advanced.radar_ridgeline','basic.grouped_bar','advanced.grouped_bar_3d']:
    pid='coords-test-'+uuid.uuid4().hex;ids.append(pid)
-   p.goto('http://127.0.0.1:8766/editor.html?template='+tid+'&project='+pid);ready(p)
+   p.goto(os.environ.get('VIVID_TEST_URL','http://127.0.0.1:8766')+'/editor.html?template='+tid+'&project='+pid);ready(p)
    f=p.locator('#object-preview').element_handle().content_frame();f.wait_for_selector('[data-vivid-drag]')
    for scale in [1,.8,1.25]:
     p.evaluate('(v)=>document.body.style.zoom=v',scale);p.wait_for_timeout(80)

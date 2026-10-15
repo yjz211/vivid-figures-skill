@@ -19086,6 +19086,161 @@
         }
       ],
       "fidelity_scope": "效果图重建；共同数值尺度、独立圆环和非KDE语义须保留。"
+    },
+    {
+      "id": "advanced.grouped_radial_bar",
+      "number": 148,
+      "kind": "recipe",
+      "display_name": "环形分组柱状对比图",
+      "tags": [
+        "比较",
+        "极坐标",
+        "分组",
+        "层级"
+      ],
+      "purpose": "同一任务中，重点方法与多个基线的表现如何？同时展示任务与大类的层级。",
+      "data_requirements": [
+        "2–16个任务、2–8个方法，最多96根柱；有限非负数值",
+        "数值宽表与任务、大类、说明表；任务名称唯一且一一对应，同一大类连续排列",
+        "参考默认按任务独立缩放柱长，只能组内比较；跨任务读取原始数值或在源码中选择共享尺度"
+      ],
+      "composition": "空心中心标题；11组参考柱；宽重点柱与4档基线柱；组间留白；旋转值和任务说明；外圈大类弧线",
+      "visual_features": [
+        "宽重点柱与窄基线柱",
+        "组间留白和中心留白",
+        "逐柱原始数值与沿圆周文字",
+        "外圈层级分类弧线",
+        "重点色与基线同色系梯度"
+      ],
+      "adaptation_notes": "按用户参考图重建布局；演示数值逐项从图片读入，未独立核验原实验。参考模式把每任务最小、最大值映射到固定柱长区间，不表示跨任务绝对值或面积比例。配色读取项目粉彩少女及其他色板。",
+      "legacy_title": "环形分组柱状对比图",
+      "legacy_ref": "advanced #39",
+      "source": {
+        "original_code": "sources/advanced.grouped_radial_bar/original.py",
+        "execution_code": "sources/advanced.grouped_radial_bar/original.py",
+        "recipe_section": "sources/advanced.grouped_radial_bar/recipe.md",
+        "recipe_file": "figure_recipes_advanced.md",
+        "content_sha256": "070cb9838b4a82de94b63fc43a1541113d538debbe52a8e9bf7e09bf0a5286e3",
+        "code_sha256": "b841ac3770978acd3d1a89681708a7ae1847a01611e210be730063f649566304",
+        "execution_sha256": "b841ac3770978acd3d1a89681708a7ae1847a01611e210be730063f649566304",
+        "code_view": "sources/advanced.grouped_radial_bar/original.html",
+        "provenance": "sources/advanced.grouped_radial_bar/provenance.json"
+      },
+      "title_mismatch": false,
+      "compatibility_patches": [
+        "参考图结构重建；以项目配色替换原紫蓝，显式记录任务内柱长缩放规则"
+      ],
+      "preview_scope": "complete_reference_reconstruction",
+      "previews": [
+        {
+          "path": "previews/advanced.grouped_radial_bar-1.png",
+          "thumbnail": "thumbnails/advanced.grouped_radial_bar-1.jpg",
+          "sha256": "648f69d294f3b38161c9c202caa68886016b027768d3ed3b2562307285b8b208",
+          "pixels": [
+            2662,
+            2504
+          ],
+          "palette_id": "pastel-girl"
+        }
+      ],
+      "code_evidence": [
+        {
+          "line": 213,
+          "operation": "text",
+          "code": "    ax.text(.5, .5, title, transform=ax.transAxes, ha='center', va='center',\n            fontsize=fontsize, fontfamily=fonts, fontweight='bold', color=colors[highlight_index], zorder=9)"
+        },
+        {
+          "line": 183,
+          "operation": "text",
+          "code": "        ax.text(angle, task_radius, textwrap.fill(task, width=wrap_width), ha='center', va='center',\n                rotation=rotation, rotation_mode='anchor', fontfamily=fonts,\n                fontsize=14 if dense else 17, fontweight='bold', color=ink, zorder=7)"
+        },
+        {
+          "line": 165,
+          "operation": "bar",
+          "code": "            ax.bar(angle, length, width=widths[model], bottom=bottom, color=color,\n                   edgecolor='none', linewidth=0, zorder=3)"
+        },
+        {
+          "line": 188,
+          "operation": "text",
+          "code": "            ax.text(angle, detail_radius, detail,\n                    ha='center', va='center', rotation=rotation, rotation_mode='anchor',\n                    fontfamily=fonts, fontsize=detail_font, color=ink, zorder=7)"
+        },
+        {
+          "line": 234,
+          "operation": "legend",
+          "code": "            legend = fig.legend(handles, labels, handler_map={tuple: TopAlignedTuple(ndivide=None, pad=.10)},\n                                loc='upper left', bbox_to_anchor=(.012, .981), borderaxespad=0,\n                                frameon=False, fontsize=15.8, handlelength=1.15,\n                                handleheight=1.0, labelspacing=.35, handletextpad=.6)"
+        },
+        {
+          "line": 197,
+          "operation": "plot",
+          "code": "                ax.plot(theta, np.full_like(theta, 570), color=arc_color, linewidth=2.5, zorder=1)"
+        }
+      ],
+      "literal_colormaps": [],
+      "aliases": [
+        "环形分组柱状图",
+        "径向分组柱状图",
+        "环形模型对比",
+        "circular grouped bar",
+        "grouped radial bar",
+        "GroundingPI"
+      ],
+      "related_ids": [
+        "screenshot.radial_bars",
+        "basic.grouped_bar",
+        "competition.radar"
+      ],
+      "review": {
+        "visual": "main_preview_inspected",
+        "code": "reference_geometry_and_within_task_encoding_checked",
+        "statistical_audit": false
+      },
+      "card_path": "cards/advanced.grouped_radial_bar.md",
+      "fidelity_checkpoints": [
+        {
+          "feature": "参考图环形分组与层级标注",
+          "preserve": "保留宽重点柱、基线色阶、组间间距、中心留白、原始数值、旋转任务名和说明、大类弧线及图例；不能用单系列玫瑰图代替。",
+          "allowed_adaptation": "可替换任务、方法、分组、说明、中心文字与配色。默认任务内缩放只能用于组内比较；跨任务比较改用共享尺度并明确说明，不排序或遗漏输入方法。",
+          "evidence": [
+            {
+              "line": 213,
+              "end_line": 214,
+              "code": "    ax.text(.5, .5, title, transform=ax.transAxes, ha='center', va='center',\n            fontsize=fontsize, fontfamily=fonts, fontweight='bold', color=colors[highlight_index], zorder=9)",
+              "href": "sources/advanced.grouped_radial_bar/original.html#L213"
+            },
+            {
+              "line": 183,
+              "end_line": 185,
+              "code": "        ax.text(angle, task_radius, textwrap.fill(task, width=wrap_width), ha='center', va='center',\n                rotation=rotation, rotation_mode='anchor', fontfamily=fonts,\n                fontsize=14 if dense else 17, fontweight='bold', color=ink, zorder=7)",
+              "href": "sources/advanced.grouped_radial_bar/original.html#L183"
+            },
+            {
+              "line": 165,
+              "end_line": 166,
+              "code": "            ax.bar(angle, length, width=widths[model], bottom=bottom, color=color,\n                   edgecolor='none', linewidth=0, zorder=3)",
+              "href": "sources/advanced.grouped_radial_bar/original.html#L165"
+            },
+            {
+              "line": 188,
+              "end_line": 190,
+              "code": "            ax.text(angle, detail_radius, detail,\n                    ha='center', va='center', rotation=rotation, rotation_mode='anchor',\n                    fontfamily=fonts, fontsize=detail_font, color=ink, zorder=7)",
+              "href": "sources/advanced.grouped_radial_bar/original.html#L188"
+            },
+            {
+              "line": 234,
+              "end_line": 237,
+              "code": "            legend = fig.legend(handles, labels, handler_map={tuple: TopAlignedTuple(ndivide=None, pad=.10)},\n                                loc='upper left', bbox_to_anchor=(.012, .981), borderaxespad=0,\n                                frameon=False, fontsize=15.8, handlelength=1.15,\n                                handleheight=1.0, labelspacing=.35, handletextpad=.6)",
+              "href": "sources/advanced.grouped_radial_bar/original.html#L234"
+            },
+            {
+              "line": 197,
+              "end_line": 197,
+              "code": "                ax.plot(theta, np.full_like(theta, 570), color=arc_color, linewidth=2.5, zorder=1)",
+              "href": "sources/advanced.grouped_radial_bar/original.html#L197"
+            }
+          ]
+        }
+      ],
+      "fidelity_scope": "参考图重建。柱长按任务内独立区间缩放，标签始终是原值；实际实验结论未审计。"
     }
   ]
 }

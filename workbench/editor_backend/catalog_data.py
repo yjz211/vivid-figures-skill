@@ -78,6 +78,10 @@ def prepare(project):
     try:exec(c['setup'],scope)
     except Invalid:raise
     except Exception as e:raise Invalid('数据表之间的维度或内容不符合模板要求：'+str(e))
+    if tid=='basic.multipanel':
+        scope.update(line_names=parsed['line'].h[1:],line_labels=parsed['line'].text(),line_axis=parsed['line'].h[0],
+                     bar_names=parsed['bar'].h[1:],bar_labels=parsed['bar'].text(),bar_axis=parsed['bar'].h[0],
+                     scatter_axes=parsed['scatter'].h[1:],hist_axis=parsed['hist'].h[1])
     import types
     result={k:v for k,v in scope.items() if k not in ['__builtins__','np','pd','T'] and not isinstance(v,(Table,types.ModuleType)) and not callable(v)}
     return result,c.get('notes',[])
@@ -100,6 +104,20 @@ def adapt(tid,code):
     for before,after in c.get('patches',[]):
         if before not in code:raise RuntimeError('适配位置不再匹配：'+before[:60])
         code=code.replace(before,after)
+    if tid=='basic.multipanel':
+        replacements=[
+            ("label=f'系列{i + 1}'","label=line_names[i]"),
+            ("enumerate(['方法A', '方法B'])","enumerate(bar_names)"),
+            ("label=f'类{i + 1}'","label=sg[i]"),
+            ("label=f'分布{i + 1}'","label=hg[i]"),
+            ("ax.set_ylabel('累计值', fontsize=10)","ax.set_ylabel('数值', fontsize=10)\nline_ticks=np.unique(np.linspace(0,len(line_data)-1,min(6,len(line_data))).astype(int))\nax.set_xticks(line_ticks);ax.set_xticklabels([line_labels[i] for i in line_ticks],fontsize=8)\nax.set_xlabel(line_axis,fontsize=10)"),
+            ("ax.set_ylabel('得分', fontsize=10)","ax.set_ylabel('数值', fontsize=10)\nax.set_xticks(x);ax.set_xticklabels(bar_labels,rotation=30,ha='right',fontsize=8)\nax.set_xlabel(bar_axis,fontsize=10)"),
+            ("ax = axes[1, 0]","ax = axes[1, 0]\nax.set_xlabel(scatter_axes[0],fontsize=10);ax.set_ylabel(scatter_axes[1],fontsize=10)"),
+            ("ax.set_ylabel('频次', fontsize=10)","ax.set_ylabel('频次', fontsize=10)\nax.set_xlabel(hist_axis,fontsize=10)"),
+        ]
+        for before,after in replacements:
+            if before not in code:raise RuntimeError('组合图标签适配位置不再匹配：'+before)
+            code=code.replace(before,after)
     import re
     code=re.sub(r'\bPALETTE\[([ijkcs])\]',r'PALETTE[\1 % len(PALETTE)]',code)
     return code

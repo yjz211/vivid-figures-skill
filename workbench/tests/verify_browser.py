@@ -3,6 +3,11 @@ import json, re
 from playwright.sync_api import sync_playwright
 
 WEB=Path(__file__).resolve().parent.parent
+CARDS=json.loads((WEB.parent/'catalog/cards.json').read_text(encoding='utf8'))['cards']
+EXPECTED_COUNT=len(CARDS)
+EXPECTED_PREVIEWS=sum(len(card['previews']) for card in CARDS)
+LAST_PAGE=(EXPECTED_COUNT+23)//24
+assert 'advanced.grouped_radial_bar' in {card['id'] for card in CARDS}
 OUT=WEB/'verification'; OUT.mkdir(exist_ok=True)
 errors=[]; checks=[]
 def check(name, condition):
@@ -18,12 +23,13 @@ with sync_playwright() as p:
     page.wait_for_selector('.chart-card')
     page.locator('.chart-card img').first.wait_for()
     page.evaluate('Promise.all(Array.from(document.images).map(i => {i.loading="eager";return i.decode().catch(()=>{})}))')
-    check('147 template cards loaded', page.locator('#result-count').inner_text()=='147 张')
+    check('All catalog templates loaded', page.locator('#result-count').inner_text()==f'{EXPECTED_COUNT} 张')
+    check('New grouped radial template registered',page.evaluate('window.VIVID_CATALOG.cards.some(c=>c.id==="advanced.grouped_radial_bar")'))
     check('24 items per page',page.locator('.chart-card').count()==24)
     check('Desktop no horizontal overflow',page.evaluate('document.documentElement.scrollWidth<=innerWidth'))
     page.screenshot(path=str(OUT/'desktop.png'),full_page=True)
     # Real local asset requests, not CSS placeholders.
-    check('All 149 full previews and thumbnails decode', page.evaluate('''async()=>{let paths=window.VIVID_CATALOG.cards.flatMap(c=>c.previews.flatMap(p=>[p.full,p.thumb]));const ok=await Promise.all(paths.map(src=>new Promise(resolve=>{const image=new Image();image.onload=()=>resolve(image.naturalWidth>0);image.onerror=()=>resolve(false);image.src=src})));return ok.every(Boolean)&&paths.length===298;}'''))
+    check('All catalog previews and thumbnails decode', page.evaluate('''async(expected)=>{let paths=window.VIVID_CATALOG.cards.flatMap(c=>c.previews.flatMap(p=>[p.full,p.thumb]));const ok=await Promise.all(paths.map(src=>new Promise(resolve=>{const image=new Image();image.onload=()=>resolve(image.naturalWidth>0);image.onerror=()=>resolve(false);image.src=src})));return ok.every(Boolean)&&paths.length===expected;}''',EXPECTED_PREVIEWS*2))
     page.locator('[data-category="spatial"]').click()
     check('Spatial category contains 3D bar',page.locator('[data-open="advanced.grouped_bar_3d"]').count()==1)
     page.locator('#search').fill('zzzz-no-such-chart')
@@ -63,8 +69,8 @@ with sync_playwright() as p:
     check('Favorites survive reload',page.locator('#favorite-count').inner_text()=='1')
     page.locator('#sort').select_option('number')
     check('Number ordering',page.locator('.card-number').first.inner_text()=='NO.001')
-    page.locator('[data-page="7"]').click()
-    check('Final page contains the last templates',page.locator('.chart-card').count()==3)
+    page.locator(f'[data-page="{LAST_PAGE}"]').click()
+    check('Final page contains the last templates',page.locator('.chart-card').count()==EXPECTED_COUNT-(LAST_PAGE-1)*24)
     page.locator('#sort').select_option('recommended')
     page.locator('#search').fill('桑基')
     page.locator('[data-open="advanced.sankey"]').click()

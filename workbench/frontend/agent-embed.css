@@ -1,0 +1,20 @@
+.agent-embedded .editor-brand,.agent-embedded #recent-projects,.agent-embedded #open-project,.agent-embedded #save-project{display:none}
+.agent-embedded .editor-header{padding:8px 14px;gap:8px}.agent-embedded .project-heading{min-width:0}.agent-embedded #project-name{max-width:240px}
+.agent-embedded .studio-sidebar,.agent-embedded .project-rail{display:none}
+.agent-embedded .editor-header .button{padding:8px 12px;font-size:12px}
+.agent-embedded .project-panel{display:none}
+.agent-embedded .editor-shell{--data-height:225px;display:grid;height:calc(100dvh - 56px);min-height:0;grid-template-columns:0 minmax(280px,1fr) 238px;grid-template-rows:minmax(200px,1fr) var(--data-height)}
+.agent-embedded .editor-shell.data-folded{grid-template-rows:minmax(230px,1fr) 0}
+.agent-embedded .editor-shell.settings-folded{grid-template-columns:0 minmax(300px,1fr) 0}
+.agent-embedded .canvas-panel{height:auto;min-height:0}.agent-embedded .data-panel{height:auto;min-height:0}.agent-embedded .settings-panel{min-height:0}
+.agent-embedded .editor-header{height:56px;min-height:56px;flex-wrap:nowrap;width:100%;margin:0;max-width:none;justify-content:space-between}.agent-embedded .editor-actions{flex-wrap:nowrap;gap:8px;flex-shrink:0}.agent-embedded .project-heading{flex:1;min-width:80px;overflow:hidden}.agent-embedded #project-name{width:100%;max-width:280px;font-size:12px}.agent-embedded #template-name{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.agent-embedded .editor-actions #undo,.agent-embedded .editor-actions #redo{font-size:0}.agent-embedded .editor-actions #undo::after{content:'↶';font-size:14px}.agent-embedded .editor-actions #redo::after{content:'↷';font-size:14px}
+.agent-embedded .canvas-panel #status{max-width:230px}.agent-embedded .data-resizer{display:block}
+.agent-embedded .editor-shell.data-folded.settings-folded{grid-template-columns:0 minmax(280px,1fr) 0}
+.agent-embedded .canvas-toolbar{padding:8px 12px}.agent-embedded .preview-tools{gap:8px;flex-wrap:nowrap}
+.agent-embedded #quick-palette{background:#fffdf7;border:1px solid #c7ccba;font:12px 'Microsoft YaHei',sans-serif;padding:5px 8px;max-width:135px}
+.agent-embedded .canvas{padding:14px}.agent-embedded .method-notes{max-height:36px;font-size:11px}
+.agent-embedded .settings-scroll label{font-size:11px}.agent-embedded .settings-scroll input,.agent-embedded .settings-scroll select{font-size:12px}
+.agent-embedded .canvas-foot{font-size:10px}.agent-embedded .chart-edit-hint{font-size:11px}
+.agent-embedded .settings-panel{height:auto}.agent-embedded #show-project{display:none}
+@media(max-width:620px){.agent-embedded .editor-shell:not(.settings-folded){grid-template-columns:0 minmax(200px,1fr) 205px}.agent-embedded .project-heading{display:none}.agent-embedded .editor-actions{width:100%;justify-content:flex-end}.agent-embedded #status{max-width:150px}.agent-embedded #autosave-status{display:none}.agent-embedded .canvas-toolbar{padding:6px}.agent-embedded .preview-tools{padding:5px 6px}}
