@@ -29,6 +29,7 @@ stds = {
 }
 
 fig, ax = plt.subplots(figsize=(9, 5.5))
+highlight_index = 0  # 重点系列的位置，与显示名称无关
 x = np.arange(len(categories))
 n = len(groups)
 width = 0.22
@@ -38,7 +39,7 @@ ax.axhspan(0, max(max(v) for v in groups.values()) * 1.2, alpha=0.03, color=PALE
 
 for i, (name, vals) in enumerate(groups.items()):
     offset = (i - n / 2 + 0.5) * width
-    is_ours = '本文' in name
+    is_ours = i == highlight_index
     # 柱子阴影
     ax.bar(x + offset + 0.02, vals, width, color='#cccccc', alpha=0.08, zorder=1)
     # ★ 主柱子：淡色填充 + 原色边框
@@ -192,6 +193,7 @@ markers = ['o', 's', '^']
 stds = {k: np.random.uniform(1.5, 3.0, len(v)) for k, v in series.items()}
 
 fig, ax = plt.subplots(figsize=(8, 5))
+highlight_index = 0  # 重点系列的位置，与显示名称无关
 
 # 淡色背景渐变
 ax.axhspan(min(min(v) for v in series.values()) - 5,
@@ -199,7 +201,7 @@ ax.axhspan(min(min(v) for v in series.values()) - 5,
            alpha=0.02, color=PALETTE[0], zorder=0)
 
 for i, (name, y) in enumerate(series.items()):
-    is_ours = '本文' in name
+    is_ours = i == highlight_index
     noise = stds[name]
 
     # 渐变填充置信带

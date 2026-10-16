@@ -56,9 +56,18 @@ class Invalid(ValueError):
     def __init__(self,message,row=None,col=None):
         super().__init__(message);self.detail=dict(message=message,row=row,col=col)
 
+def validate_language_settings(settings):
+    """Validate locale fields even for incomplete drafts that cannot render yet."""
+    if not isinstance(settings,dict):raise Invalid('图表设置必须是对象。')
+    if settings.get('language','zh') not in ('zh','en'):raise Invalid('图内语言只能选择中文（zh）或 English（en）。')
+    english_labels=settings.get('english_labels',{})
+    if not isinstance(english_labels,dict) or len(english_labels)>500:raise Invalid('英文显示名需要原文到英文的对象，最多500项。')
+    if any(not isinstance(k,str) or not isinstance(v,str) or not k.strip() or not v.strip() or len(k)>300 or len(v)>300 for k,v in english_labels.items()):raise Invalid('英文显示名的原文和译文须为非空文字，每项最多300字。')
+
+
 def defaults(tid):
     spec=SPECS[tid]
-    return dict(title='',xlabel='',ylabel='',zlabel='',palette='pastel-girl',font_size=10,
+    return dict(title='',xlabel='',ylabel='',zlabel='',palette='pastel-girl',language='zh',english_labels={},font_size=10,
                 width=spec['size'][0],height=spec['size'][1],legend=True,labels=True,
                 highlight=0,radar_max=1,overlap=.6,elev=27 if tid=='advanced.grouped_bar_3d' else 30,
                 azim=-56 if tid=='advanced.grouped_bar_3d' else 135,suffix='',view_template=True)
@@ -97,6 +106,7 @@ def prepare(project):
     tid=project.get('template')
     if tid not in SPECS:raise Invalid('此模板尚未接入编辑器。')
     if project.get('schema',1)!=1:raise Invalid('项目格式版本不受支持。')
+    validate_language_settings(project.get('settings',{}))
     if tid in CONTRACTS:
         from catalog_data import prepare as catalog_prepare
         s={**defaults(tid),**project.get('settings',{})}

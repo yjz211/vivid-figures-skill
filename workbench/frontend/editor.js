@@ -63,7 +63,7 @@ function mappingRender(){
   $('specific-fields').innerHTML=specific;$('specific-settings').hidden=!specific;fillSettings();requirementsRender();fieldChips();window.Studio?.mappingStatus();
 }
 function fillSettings(){
-  document.querySelectorAll('[data-setting]').forEach(el=>{const v=project.settings[el.dataset.setting]??(['auto_layout','avoid_label_overlap'].includes(el.dataset.setting)?true:undefined);if(el.type==='checkbox')el.checked=v;else el.value=v??'';});
+  document.querySelectorAll('[data-setting]').forEach(el=>{const v=project.settings[el.dataset.setting]??(el.dataset.setting==='language'?'zh':['auto_layout','avoid_label_overlap'].includes(el.dataset.setting)?true:undefined);if(el.type==='checkbox')el.checked=v;else el.value=v??'';});
   $('zlabel-row').hidden=!is3D();
   $('palette-swatches').innerHTML=(palettes[project.settings.palette]?.colors||[]).map(c=>`<i style="background:${c}"></i>`).join('');
 }
@@ -141,7 +141,7 @@ document.addEventListener('keydown',e=>{if((e.ctrlKey||e.metaKey)&&e.key.toLower
 document.querySelector('.settings-panel').addEventListener('change',e=>{
   const el=e.target;if(!Object.keys(el.dataset).some(k=>['setting','columnRole','mapping','valueCol','errorCol'].includes(k)))return;if(el.dataset.setting&&el.tagName==='INPUT'&&el.type!=='checkbox')return;remember();
   if(el.dataset.columnRole!==undefined){project.column_mappings??={};project.column_mappings[project.active_table]??=spec.tables.find(t=>t.key===project.active_table).headers.map((_,i)=>i);project.column_mappings[project.active_table][Number(el.dataset.columnRole)]=Number(el.value);}
-  if(el.dataset.setting){const key=el.dataset.setting;project.settings[key]=el.type==='checkbox'?el.checked:el.type==='number'||key==='highlight'?Number(el.value):el.value;if(key==='view_template')project.plotly_view={};fillSettings();if(key==='palette')queueLiveRender();}
+  if(el.dataset.setting){const key=el.dataset.setting;project.settings[key]=el.type==='checkbox'?el.checked:el.type==='number'||key==='highlight'?Number(el.value):el.value;if(key==='view_template')project.plotly_view={};fillSettings();if(['palette','language'].includes(key))queueLiveRender();}
   if(el.dataset.mapping){project.mapping[el.dataset.mapping]=Number(el.value);if(el.dataset.mapping==='category'){project.mapping.values=project.mapping.values.filter(c=>c!==Number(el.value));project.settings.highlight=0;}mappingRender();}
   if(el.dataset.valueCol!==undefined){const c=Number(el.dataset.valueCol);project.mapping.values=el.checked?[...project.mapping.values,c].sort((a,b)=>a-b):project.mapping.values.filter(x=>x!==c);project.settings.highlight=0;mappingRender();}
   if(el.dataset.errorCol!==undefined){project.mapping.errors??={};project.mapping.errors[el.dataset.errorCol]=el.value===''?null:Number(el.value);}
@@ -170,11 +170,15 @@ $('export-toggle').onclick=()=>{if(!lastRender||lastRender.signature!==signature
 $('export-close').onclick=()=>$('export-dialog').close();
 async function init(){
   try{
+    const params=new URLSearchParams(location.search),tid=params.get('template');
+    if(!tid){location.replace('index.html'+(['zh','en'].includes(params.get('language'))?'?language='+params.get('language'):''));return;}
     const meta=await api('/api/templates');templates=meta.templates;palettes=meta.palettes;
-    const tid=new URLSearchParams(location.search).get('template')||templates[0].id;
     sampleProject=await api('/api/sample?id='+encodeURIComponent(tid));project=clone(sampleProject);
+    // URL language initializes new projects. Restoring a draft below retains its saved settings.
+    if(['zh','en'].includes(params.get('language')))project.settings.language=params.get('language');
     $('palette-select').innerHTML=Object.entries(palettes).map(([id,p])=>`<option value="${id}">${esc(p.name)}</option>`).join('');
-    if(!window.VIVID_EMBED)await restoreLocalDraft(tid);installInteractions();
+    if(!window.VIVID_EMBED)await restoreLocalDraft(tid);
+    sampleProject.settings.language=project.settings.language||'zh';installInteractions();
     refresh();
     if(window.VIVID_EMBED)window.VividBridge.ready();else await render();
   }catch(e){$('connection-error').hidden=false;$('editor-shell').hidden=true;document.querySelectorAll('.editor-actions button').forEach(b=>b.disabled=true);}

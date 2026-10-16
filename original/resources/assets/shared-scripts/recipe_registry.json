@@ -7,13 +7,13 @@
       "file": "figure_recipes_basic.md",
       "title": "分组柱状图（Grouped Bar）— 淡色填充 + 原色边框 + 参考线 + 顶部数值 + 最优高亮",
       "legacy": "basic #1",
-      "contentSha256": "389438c4cee19b42c2debef2123b621600103d7817f931bcf2af12d03aded11d",
+      "contentSha256": "ace069b2ffb44f2d57726060530e9be78567bacec59c4b6bdb65c9dfcd3f3470",
       "scripts": {
         "main": {
           "blocks": [
             0
           ],
-          "codeSha256": "7109fb1dc201598fe0e5406a2e9f985131d4dff8416523162516c64bec97158e"
+          "codeSha256": "a314208005f60b510c91d9885e95814d517c31b04f2fb8b6d3bc0ef30432c90b"
         }
       }
     },
@@ -37,13 +37,13 @@
       "file": "figure_recipes_basic.md",
       "title": "折线图（渐变填充 + 极值标注箭头 + 微妙网格）",
       "legacy": "basic #3",
-      "contentSha256": "b85dba2439be57af18d4508ed89bc7ca6af641b055b3dd32f42cb1539f8b356d",
+      "contentSha256": "7394dddd81fe16639c8118017d7db66536a7258fdb3dc7a87cd11782695d16c4",
       "scripts": {
         "main": {
           "blocks": [
             0
           ],
-          "codeSha256": "0af09146821f6490c8e5172f32446038d772f01f6703e65003571db38c654268"
+          "codeSha256": "e059c797e59d8ae8a7075b3335142d216465ab9a89482f258622c77609bce0cb"
         }
       }
     },
@@ -1203,13 +1203,13 @@
       "file": "figure_recipes_competition.md",
       "title": "收敛曲线对比图",
       "legacy": "competition #1",
-      "contentSha256": "f7236a3feb4ae6a05335ff8868597e69269ae03dda590f7419f6f77e74bb3c1a",
+      "contentSha256": "174dabfc89935a8e3b09853c6c7219f575f59a75349d7a5234fcca1e447a1721",
       "scripts": {
         "main": {
           "blocks": [
             0
           ],
-          "codeSha256": "08303b39583f6358c2cbd17d76b44f48422aa7be4f3de741ba9da14c467aa290"
+          "codeSha256": "5ab7cfcf50890445524ec5d5ab7dc3d8a3d1b59e77fbf0ab6565b5f0010b469d"
         }
       }
     },
@@ -1263,13 +1263,13 @@
       "file": "figure_recipes_competition.md",
       "title": "雷达图（多方案对比 + 渐变背景 + 多维度覆盖 + 顶部数值标注）",
       "legacy": "competition #5",
-      "contentSha256": "65be8493cdcb192e125b57b8604f1bb4a5d9bfe4bd636fdb79ce356a10b93948",
+      "contentSha256": "ad2000767d4198fc9cbcdc3cba7faab51509d6f4472cdbe3a4307c507cc4f5e9",
       "scripts": {
         "main": {
           "blocks": [
             0
           ],
-          "codeSha256": "9f03422ff8329a8135cc640f91d09785173e1403f76fb5db0db4e7c4e6998adb"
+          "codeSha256": "a4b3cb5fa3f7d49f3d4f13789b9f79638f34b54793a424bf1b4d4da5d73b2140"
         }
       }
     },
@@ -1353,13 +1353,13 @@
       "file": "figure_recipes_competition.md",
       "title": "ROC 曲线 + AUC 对比",
       "legacy": "competition #11",
-      "contentSha256": "3cfe7daf2f18fe4d1c821aa8d904b4e2e311adfec01e31f6b66aa9f6067540d9",
+      "contentSha256": "262e3c90685abba1b91aa2d2eb81141f7a5aae298ba1a447bc44b5ccaf078caa",
       "scripts": {
         "main": {
           "blocks": [
             0
           ],
-          "codeSha256": "06d2bff444addc9cce9d59156d29c91927532ca1d2fc804be0f4069a7976109b"
+          "codeSha256": "1765289cdff7cb85fb1b1fb439c5d3824962d58415feba368bfab30d02728501"
         }
       }
     },
@@ -1443,13 +1443,13 @@
       "file": "figure_recipes_competition.md",
       "title": "多步预测衰减图",
       "legacy": "competition #17",
-      "contentSha256": "9d0680b49ddb17694bed9efe0048d4d79cc8e3331117e318b06ec7742ac19cc2",
+      "contentSha256": "5d5342043b7ad36159898e605d146301c9edb1b5f74fc5a55c07b0626fc9cbc2",
       "scripts": {
         "main": {
           "blocks": [
             0
           ],
-          "codeSha256": "9c05236fd5bf94ccd8268d0f96fc676eaa6c7a2dd1f8ba7463154944fed38d4b"
+          "codeSha256": "2ff177c5206b063195777cdd4c36597f3a596ac0ee44de588ccdbf84f52908dc"
         }
       }
     },

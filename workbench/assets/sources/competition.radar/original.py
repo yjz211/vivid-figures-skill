@@ -15,6 +15,7 @@ methods = {
 }
 
 fig, ax = plt.subplots(figsize=(6.5, 6.5), subplot_kw=dict(polar=True))
+highlight_index = 0  # 重点系列的位置，与显示名称无关
 ax.set_facecolor('white')
 ax.set_ylim(0, 1.12)  # 留出标注空间
 
@@ -35,7 +36,7 @@ ax.tick_params(axis='x', pad=18)
 
 for i, (name, vals) in enumerate(methods.items()):
     values = vals + [vals[0]]
-    is_ours = '本文' in name
+    is_ours = i == highlight_index
     lw = 2.5 if is_ours else 1.2
     alpha_line = 1.0 if is_ours else 0.5
     alpha_fill = 0.15 if is_ours else 0.04

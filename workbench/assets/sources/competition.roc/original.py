@@ -11,13 +11,14 @@ models = {
 }
 
 fig, ax = plt.subplots(figsize=(6, 5.5))
+highlight_index = 0  # 重点系列的位置，与显示名称无关
 ax.grid(True, linestyle='--', alpha=0.15); ax.set_axisbelow(True)
 ax.plot([0,1],[0,1], '--', color=COLORS['ref_line'], linewidth=0.8, label='随机猜测')
 
 for i, (name, (auc, lw)) in enumerate(models.items()):
     fpr = np.sort(np.concatenate([[0], np.random.beta(1, auc*10, 50), [1]]))
     tpr = np.sort(np.concatenate([[0], np.random.beta(auc*10, 1, 50), [1]]))
-    alpha = 1.0 if '本文' in name else 0.6
+    alpha = 1.0 if i == highlight_index else 0.6
     ax.plot(fpr, tpr, color=PALETTE[i], linewidth=lw, label=name, alpha=alpha, zorder=3)
 
 ax.set_xlabel('假阳性率 (FPR)', fontsize=11); ax.set_ylabel('真阳性率 (TPR)', fontsize=11)

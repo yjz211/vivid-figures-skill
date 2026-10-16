@@ -23105,10 +23105,6 @@
         "ax.set_xlim(iters.min(),iters.max())"
       ],
       [
-        "methods['本文算法']",
-        "methods[next(iter(methods))]"
-      ],
-      [
         "conv_idx = np.argmax(diff < 0.15) + 1",
         "conv_idx = np.argmin(diff) + 1"
       ],

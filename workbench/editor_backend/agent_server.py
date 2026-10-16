@@ -8,7 +8,7 @@ from fastapi import FastAPI, Request
 from fastapi.responses import JSONResponse, FileResponse, StreamingResponse
 from ag_ui.encoder import EventEncoder
 from ag_ui import core as events
-from schema import SPECS, sample, prepare, Invalid
+from schema import SPECS, sample, prepare, Invalid, validate_language_settings
 import library, object_editor
 from server import job_folder, FRONTEND_FILES
 from agent import store, tools, jobs, provider, runtime
@@ -56,6 +56,7 @@ async def missing_file(request, error): return failure('本机记录或文件不
 
 def valid_project(p):
     if not isinstance(p,dict) or p.get('template') not in SPECS: raise ValueError('模板不存在。')
+    validate_language_settings(p.get('settings',{}))
     for table in (p.get('tables') or {'data':p.get('table')}).values(): tools.validate_table(table)
     object_editor.validate(p)
     return p
@@ -233,8 +234,8 @@ if __name__=='__main__':
     except (httpx.HTTPError,ValueError):running=None
     if running:
         if running.get('agent') and running.get('root')==str(WEB):
-            if args.open:webbrowser.open(f'http://127.0.0.1:{args.port}/agent.html')
+            if args.open:webbrowser.open(f'http://127.0.0.1:{args.port}/index.html')
             sys.exit(0)
         raise SystemExit(f'{args.port} 端口已有其他服务。请关闭旧工作台，或使用 --port 8767。')
-    if args.open:threading.Timer(1,lambda:webbrowser.open(f'http://127.0.0.1:{args.port}/agent.html')).start()
+    if args.open:threading.Timer(1,lambda:webbrowser.open(f'http://127.0.0.1:{args.port}/index.html')).start()
     uvicorn.run(app,host='127.0.0.1',port=args.port,log_level='warning')

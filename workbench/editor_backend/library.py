@@ -1,6 +1,7 @@
 """Local atomic project drafts and reusable appearance presets."""
 from pathlib import Path
 import json,uuid,re,threading,datetime
+from schema import validate_language_settings
 ROOT=Path(__file__).resolve().parent.parent/'workspace/library'
 LOCK=threading.Lock()
 
@@ -24,6 +25,7 @@ def save(kind,data):
     key=data.get('id') or uuid.uuid4().hex;p=path(kind,key)
     value=data['value']
     if not isinstance(value,dict):raise ValueError('保存内容需要对象。')
+    validate_language_settings(value.get('settings',{}))
     record=dict(id=key,updated=datetime.datetime.now(datetime.timezone.utc).isoformat(),value=value)
     content=json.dumps(record,ensure_ascii=False,allow_nan=False)
     with LOCK:

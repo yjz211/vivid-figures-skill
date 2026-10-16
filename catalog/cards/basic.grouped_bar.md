@@ -49,6 +49,6 @@ ID：`basic.grouped_bar`
 
 - 保留重点：保留 _lighten 浅填充、同色深描边、后方偏移浅阴影与独立误差棒，不合并成实色柱。最优高亮和均值参考有数据依据时保留。
 - 可适配：组数、柱宽、误差长度、标签位置可调；误差和最优方向按数据含义计算。
-- 源码：[L30–30](../sources/basic.grouped_bar/original.html#L30) · [L32–36](../sources/basic.grouped_bar/original.html#L32) · [L50–50](../sources/basic.grouped_bar/original.html#L50)
+- 源码：[L31–31](../sources/basic.grouped_bar/original.html#L31) · [L33–37](../sources/basic.grouped_bar/original.html#L33) · [L51–51](../sources/basic.grouped_bar/original.html#L51)
 
 按现有审图流程对照实际输出；有疑问时可用[源码差异提示](../../template-fidelity.md)。

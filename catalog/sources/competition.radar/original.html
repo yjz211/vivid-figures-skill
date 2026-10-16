@@ -15,42 +15,42 @@
 <span id="L15"><a href="#L15">  15</a> }</span>
 <span id="L16"><a href="#L16">  16</a> </span>
 <span id="L17"><a href="#L17">  17</a> fig, ax = plt.subplots(figsize=(6.5, 6.5), subplot_kw=dict(polar=True))</span>
-<span id="L18"><a href="#L18">  18</a> ax.set_facecolor(&#x27;white&#x27;)</span>
-<span id="L19"><a href="#L19">  19</a> ax.set_ylim(0, 1.12)  # 留出标注空间</span>
-<span id="L20"><a href="#L20">  20</a> </span>
-<span id="L21"><a href="#L21">  21</a> # ★ 渐变环色背景 + 自定义同心圆网格</span>
-<span id="L22"><a href="#L22">  22</a> ring_levels = [0.2, 0.4, 0.6, 0.8, 1.0]</span>
-<span id="L23"><a href="#L23">  23</a> theta_fill = np.linspace(0, 2*np.pi, 100)</span>
-<span id="L24"><a href="#L24">  24</a> for k, r in enumerate(ring_levels):</span>
-<span id="L25"><a href="#L25">  25</a>     r_prev = ring_levels[k-1] if k &gt; 0 else 0</span>
-<span id="L26"><a href="#L26">  26</a>     if k % 2 == 0:</span>
-<span id="L27"><a href="#L27">  27</a>         ax.fill_between(theta_fill, r_prev, r, alpha=0.025, color=PALETTE[0], zorder=0)</span>
-<span id="L28"><a href="#L28">  28</a>     ax.plot(theta_fill, [r]*len(theta_fill), color=&#x27;#E5E5E5&#x27;, linewidth=0.5, zorder=1)</span>
-<span id="L29"><a href="#L29">  29</a> ax.set_yticks(ring_levels)</span>
-<span id="L30"><a href="#L30">  30</a> ax.set_yticklabels([&#x27;0.2&#x27;,&#x27;0.4&#x27;,&#x27;0.6&#x27;,&#x27;0.8&#x27;,&#x27;1.0&#x27;], fontsize=7, color=&#x27;#C0C0C0&#x27;)</span>
-<span id="L31"><a href="#L31">  31</a> </span>
-<span id="L32"><a href="#L32">  32</a> ax.set_xticks(angles[:-1])</span>
-<span id="L33"><a href="#L33">  33</a> ax.set_xticklabels(categories, fontsize=10.5, color=COLORS[&#x27;text&#x27;])</span>
-<span id="L34"><a href="#L34">  34</a> ax.tick_params(axis=&#x27;x&#x27;, pad=18)</span>
-<span id="L35"><a href="#L35">  35</a> </span>
-<span id="L36"><a href="#L36">  36</a> for i, (name, vals) in enumerate(methods.items()):</span>
-<span id="L37"><a href="#L37">  37</a>     values = vals + [vals[0]]</span>
-<span id="L38"><a href="#L38">  38</a>     is_ours = &#x27;本文&#x27; in name</span>
-<span id="L39"><a href="#L39">  39</a>     lw = 2.5 if is_ours else 1.2</span>
-<span id="L40"><a href="#L40">  40</a>     alpha_line = 1.0 if is_ours else 0.5</span>
-<span id="L41"><a href="#L41">  41</a>     alpha_fill = 0.15 if is_ours else 0.04</span>
-<span id="L42"><a href="#L42">  42</a>     ax.plot(angles, values, color=PALETTE[i], linewidth=lw, label=name, alpha=alpha_line, zorder=3)</span>
-<span id="L43"><a href="#L43">  43</a>     ax.fill(angles, values, color=PALETTE[i], alpha=alpha_fill, zorder=1)</span>
-<span id="L44"><a href="#L44">  44</a>     # 本文方法顶部数值标注</span>
-<span id="L45"><a href="#L45">  45</a>     if is_ours:</span>
-<span id="L46"><a href="#L46">  46</a>         for j, (a, v) in enumerate(zip(angles[:-1], vals)):</span>
-<span id="L47"><a href="#L47">  47</a>             r_label = v + 0.08</span>
-<span id="L48"><a href="#L48">  48</a>             ax.text(a, r_label, f&#x27;{v:.2f}&#x27;, ha=&#x27;center&#x27;, va=&#x27;bottom&#x27;, fontsize=7.5,</span>
-<span id="L49"><a href="#L49">  49</a>                     fontweight=&#x27;bold&#x27;, color=PALETTE[i],</span>
-<span id="L50"><a href="#L50">  50</a>                     bbox=dict(facecolor=&#x27;white&#x27;, alpha=0.9, edgecolor=&#x27;none&#x27;, pad=1))</span>
-<span id="L51"><a href="#L51">  51</a> </span>
-<span id="L52"><a href="#L52">  52</a> ax.legend(loc=&#x27;best&#x27;, bbox_to_anchor=(1.28, 1.06),</span>
-<span id="L53"><a href="#L53">  53</a>           frameon=False, labelspacing=0.35, handlelength=1.6, fontsize=9, facecolor=&#x27;white&#x27;)</span>
-<span id="L54"><a href="#L54">  54</a> fig.tight_layout()</span>
-<span id="L55"><a href="#L55">  55</a> save_fig(fig, &#x27;figures/fig_radar.pdf&#x27;)</span>
-</pre>
+<span id="L18"><a href="#L18">  18</a> highlight_index = 0  # 重点系列的位置，与显示名称无关</span>
+<span id="L19"><a href="#L19">  19</a> ax.set_facecolor(&#x27;white&#x27;)</span>
+<span id="L20"><a href="#L20">  20</a> ax.set_ylim(0, 1.12)  # 留出标注空间</span>
+<span id="L21"><a href="#L21">  21</a> </span>
+<span id="L22"><a href="#L22">  22</a> # ★ 渐变环色背景 + 自定义同心圆网格</span>
+<span id="L23"><a href="#L23">  23</a> ring_levels = [0.2, 0.4, 0.6, 0.8, 1.0]</span>
+<span id="L24"><a href="#L24">  24</a> theta_fill = np.linspace(0, 2*np.pi, 100)</span>
+<span id="L25"><a href="#L25">  25</a> for k, r in enumerate(ring_levels):</span>
+<span id="L26"><a href="#L26">  26</a>     r_prev = ring_levels[k-1] if k &gt; 0 else 0</span>
+<span id="L27"><a href="#L27">  27</a>     if k % 2 == 0:</span>
+<span id="L28"><a href="#L28">  28</a>         ax.fill_between(theta_fill, r_prev, r, alpha=0.025, color=PALETTE[0], zorder=0)</span>
+<span id="L29"><a href="#L29">  29</a>     ax.plot(theta_fill, [r]*len(theta_fill), color=&#x27;#E5E5E5&#x27;, linewidth=0.5, zorder=1)</span>
+<span id="L30"><a href="#L30">  30</a> ax.set_yticks(ring_levels)</span>
+<span id="L31"><a href="#L31">  31</a> ax.set_yticklabels([&#x27;0.2&#x27;,&#x27;0.4&#x27;,&#x27;0.6&#x27;,&#x27;0.8&#x27;,&#x27;1.0&#x27;], fontsize=7, color=&#x27;#C0C0C0&#x27;)</span>
+<span id="L32"><a href="#L32">  32</a> </span>
+<span id="L33"><a href="#L33">  33</a> ax.set_xticks(angles[:-1])</span>
+<span id="L34"><a href="#L34">  34</a> ax.set_xticklabels(categories, fontsize=10.5, color=COLORS[&#x27;text&#x27;])</span>
+<span id="L35"><a href="#L35">  35</a> ax.tick_params(axis=&#x27;x&#x27;, pad=18)</span>
+<span id="L36"><a href="#L36">  36</a> </span>
+<span id="L37"><a href="#L37">  37</a> for i, (name, vals) in enumerate(methods.items()):</span>
+<span id="L38"><a href="#L38">  38</a>     values = vals + [vals[0]]</span>
+<span id="L39"><a href="#L39">  39</a>     is_ours = i == highlight_index</span>
+<span id="L40"><a href="#L40">  40</a>     lw = 2.5 if is_ours else 1.2</span>
+<span id="L41"><a href="#L41">  41</a>     alpha_line = 1.0 if is_ours else 0.5</span>
+<span id="L42"><a href="#L42">  42</a>     alpha_fill = 0.15 if is_ours else 0.04</span>
+<span id="L43"><a href="#L43">  43</a>     ax.plot(angles, values, color=PALETTE[i], linewidth=lw, label=name, alpha=alpha_line, zorder=3)</span>
+<span id="L44"><a href="#L44">  44</a>     ax.fill(angles, values, color=PALETTE[i], alpha=alpha_fill, zorder=1)</span>
+<span id="L45"><a href="#L45">  45</a>     # 本文方法顶部数值标注</span>
+<span id="L46"><a href="#L46">  46</a>     if is_ours:</span>
+<span id="L47"><a href="#L47">  47</a>         for j, (a, v) in enumerate(zip(angles[:-1], vals)):</span>
+<span id="L48"><a href="#L48">  48</a>             r_label = v + 0.08</span>
+<span id="L49"><a href="#L49">  49</a>             ax.text(a, r_label, f&#x27;{v:.2f}&#x27;, ha=&#x27;center&#x27;, va=&#x27;bottom&#x27;, fontsize=7.5,</span>
+<span id="L50"><a href="#L50">  50</a>                     fontweight=&#x27;bold&#x27;, color=PALETTE[i],</span>
+<span id="L51"><a href="#L51">  51</a>                     bbox=dict(facecolor=&#x27;white&#x27;, alpha=0.9, edgecolor=&#x27;none&#x27;, pad=1))</span>
+<span id="L52"><a href="#L52">  52</a> </span>
+<span id="L53"><a href="#L53">  53</a> ax.legend(loc=&#x27;best&#x27;, bbox_to_anchor=(1.28, 1.06),</span>
+<span id="L54"><a href="#L54">  54</a>           frameon=False, labelspacing=0.35, handlelength=1.6, fontsize=9, facecolor=&#x27;white&#x27;)</span>
+<span id="L55"><a href="#L55">  55</a> fig.tight_layout()</span>
+<span id="L56"><a href="#L56">  56</a> save_fig(fig, &#x27;figures/fig_radar.pdf&#x27;)</span></pre>

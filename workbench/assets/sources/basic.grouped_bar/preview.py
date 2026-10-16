@@ -17,6 +17,7 @@ stds = {
 }
 
 fig, ax = plt.subplots(figsize=(9, 5.5))
+highlight_index = 0  # 重点系列的位置，与显示名称无关
 x = np.arange(len(categories))
 n = len(groups)
 width = 0.22
@@ -26,7 +27,7 @@ ax.axhspan(0, max(max(v) for v in groups.values()) * 1.2, alpha=0.03, color=PALE
 
 for i, (name, vals) in enumerate(groups.items()):
     offset = (i - n / 2 + 0.5) * width
-    is_ours = '本文' in name
+    is_ours = i == highlight_index
     # 柱子阴影
     ax.bar(x + offset + 0.02, vals, width, color='#cccccc', alpha=0.08, zorder=1)
     # ★ 主柱子：淡色填充 + 原色边框

@@ -110,7 +110,7 @@ DESCRIPTIONS=[
  {'name':'inspect_data','description':'查看已有数据表的完整本地计算摘要及有限样例。参数 dataset_id:string。'},
  {'name':'transform_data','description':'调用原工作台的数据整理，保存新表。参数 dataset_id,name,operation。operation: {kind:sort,column:int,descending:bool} 或 {kind:filter,column,operator:eq/ne/contains/gt/gte/lt/lte/empty/nonempty,value} 或 {kind:melt,id:int,values:int[]} 或 {kind:pivot,id,group,value} 或 {kind:aggregate,group:int,value:int,method:mean/sum/std/count} 或 {kind:transpose}。不补造空缺。'},
  {'name':'bind_template','description':'用真实数据建立新图或替换当前图。参数 template_id,name,target:new/current,bindings:[{table_key,dataset_id,columns?:int[]}],mapping?:object,settings?:object。用户要独立图时target必须new；普通改样式不用此工具。普通单表键data；catalog模板必须提供全部table_keys，matrix表的columns可选标签列及数值列。mapping普通宽表{category:int,values:int[],errors:{数值列索引:误差列索引}}；samples:{group:int,value:int}；xy/xyz:{x:int,y:int,z?:int}。'},
- {'name':'update_settings','description':'修改当前图设置。参数 settings:object，允许title,xlabel,ylabel,zlabel,palette,width,height,font_size,legend,labels,elev,azim,view_template,overlap,radar_max,highlight,suffix,auto_layout,avoid_label_overlap。保持未提及设置。'},
+ {'name':'update_settings','description':'修改当前图设置。参数 settings:object，允许title,xlabel,ylabel,zlabel,palette,language（仅zh/en）,english_labels（原文到英文显示名的对象，最多500项；不修改原始数据）,width,height,font_size,legend,labels,elev,azim,view_template,overlap,radar_max,highlight,suffix,auto_layout,avoid_label_overlap。保持未提及设置。'},
  {'name':'edit_object','description':'修改现有图形对象。参数 object_id:string,props:object。文字offset_x向右pt,offset_y向下pt；图例loc,ncols；仅允许对象已声明的属性。'},
  {'name':'render','description':'使用完整模板源码验证并绘图。参数为空对象。已有图的修改也需要调用；可与前置修改放同一批。'},
 ]

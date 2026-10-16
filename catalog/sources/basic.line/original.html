@@ -13,46 +13,46 @@
 <span id="L13"><a href="#L13">  13</a> stds = {k: np.random.uniform(1.5, 3.0, len(v)) for k, v in series.items()}</span>
 <span id="L14"><a href="#L14">  14</a> </span>
 <span id="L15"><a href="#L15">  15</a> fig, ax = plt.subplots(figsize=(8, 5))</span>
-<span id="L16"><a href="#L16">  16</a> </span>
-<span id="L17"><a href="#L17">  17</a> # 淡色背景渐变</span>
-<span id="L18"><a href="#L18">  18</a> ax.axhspan(min(min(v) for v in series.values()) - 5,</span>
-<span id="L19"><a href="#L19">  19</a>            max(max(v) for v in series.values()) + 5,</span>
-<span id="L20"><a href="#L20">  20</a>            alpha=0.02, color=PALETTE[0], zorder=0)</span>
-<span id="L21"><a href="#L21">  21</a> </span>
-<span id="L22"><a href="#L22">  22</a> for i, (name, y) in enumerate(series.items()):</span>
-<span id="L23"><a href="#L23">  23</a>     is_ours = &#x27;本文&#x27; in name</span>
-<span id="L24"><a href="#L24">  24</a>     noise = stds[name]</span>
-<span id="L25"><a href="#L25">  25</a> </span>
-<span id="L26"><a href="#L26">  26</a>     # 渐变填充置信带</span>
-<span id="L27"><a href="#L27">  27</a>     for layer, alpha in enumerate([0.15, 0.08, 0.03]):</span>
-<span id="L28"><a href="#L28">  28</a>         ax.fill_between(x, y - noise * (1 - layer * 0.2), y + noise * (1 - layer * 0.2),</span>
-<span id="L29"><a href="#L29">  29</a>                         alpha=alpha, color=PALETTE[i], linewidth=0)</span>
-<span id="L30"><a href="#L30">  30</a> </span>
-<span id="L31"><a href="#L31">  31</a>     # 主折线</span>
-<span id="L32"><a href="#L32">  32</a>     ax.plot(x, y, f&#x27;{markers[i]}-&#x27;, color=PALETTE[i],</span>
-<span id="L33"><a href="#L33">  33</a>             linewidth=2.5 if is_ours else 1.8, markersize=7 if is_ours else 5,</span>
-<span id="L34"><a href="#L34">  34</a>             markeredgecolor=&#x27;white&#x27;, markeredgewidth=1.2, label=name, zorder=3)</span>
-<span id="L35"><a href="#L35">  35</a> </span>
-<span id="L36"><a href="#L36">  36</a>     # 极值标注（最大值）</span>
-<span id="L37"><a href="#L37">  37</a>     max_idx = np.argmax(y)</span>
-<span id="L38"><a href="#L38">  38</a>     ax.scatter(x[max_idx], y[max_idx], s=120 if is_ours else 80, color=PALETTE[i],</span>
-<span id="L39"><a href="#L39">  39</a>                edgecolor=&#x27;white&#x27;, linewidth=2, zorder=4, marker=&#x27;*&#x27;)</span>
-<span id="L40"><a href="#L40">  40</a>     if is_ours:</span>
-<span id="L41"><a href="#L41">  41</a>         ax.annotate(f&#x27;★ {y[max_idx]:.1f}&#x27;,</span>
-<span id="L42"><a href="#L42">  42</a>                     xy=(x[max_idx], y[max_idx]),</span>
-<span id="L43"><a href="#L43">  43</a>                     xytext=(x[max_idx] - 1.5, y[max_idx] + 3),</span>
-<span id="L44"><a href="#L44">  44</a>                     fontsize=9, fontweight=&#x27;bold&#x27;, color=PALETTE[i],</span>
-<span id="L45"><a href="#L45">  45</a>                     arrowprops=dict(arrowstyle=&#x27;-&gt;&#x27;, color=PALETTE[i], lw=1.2),</span>
-<span id="L46"><a href="#L46">  46</a>                     bbox=dict(boxstyle=&#x27;round,pad=0.3&#x27;, facecolor=&#x27;white&#x27;,</span>
-<span id="L47"><a href="#L47">  47</a>                               edgecolor=PALETTE[i], alpha=0.9))</span>
-<span id="L48"><a href="#L48">  48</a> </span>
-<span id="L49"><a href="#L49">  49</a> ax.set_xlabel(&#x27;年份&#x27;, fontsize=11)</span>
-<span id="L50"><a href="#L50">  50</a> ax.set_ylabel(&#x27;准确率 (%)&#x27;, fontsize=11)</span>
-<span id="L51"><a href="#L51">  51</a> ax.legend(frameon=False, labelspacing=0.35, handlelength=1.6, fontsize=9, loc=&#x27;best&#x27;)</span>
-<span id="L52"><a href="#L52">  52</a> ax.set_xticks(x)</span>
-<span id="L53"><a href="#L53">  53</a> ax.grid(alpha=0.12, linestyle=&#x27;--&#x27;, color=COLORS[&#x27;grid&#x27;])</span>
-<span id="L54"><a href="#L54">  54</a> ax.spines[&#x27;top&#x27;].set_visible(False)</span>
-<span id="L55"><a href="#L55">  55</a> ax.spines[&#x27;right&#x27;].set_visible(False)</span>
-<span id="L56"><a href="#L56">  56</a> fig.tight_layout()</span>
-<span id="L57"><a href="#L57">  57</a> save_fig(fig, &#x27;figures/fig_line.pdf&#x27;)</span>
-</pre>
+<span id="L16"><a href="#L16">  16</a> highlight_index = 0  # 重点系列的位置，与显示名称无关</span>
+<span id="L17"><a href="#L17">  17</a> </span>
+<span id="L18"><a href="#L18">  18</a> # 淡色背景渐变</span>
+<span id="L19"><a href="#L19">  19</a> ax.axhspan(min(min(v) for v in series.values()) - 5,</span>
+<span id="L20"><a href="#L20">  20</a>            max(max(v) for v in series.values()) + 5,</span>
+<span id="L21"><a href="#L21">  21</a>            alpha=0.02, color=PALETTE[0], zorder=0)</span>
+<span id="L22"><a href="#L22">  22</a> </span>
+<span id="L23"><a href="#L23">  23</a> for i, (name, y) in enumerate(series.items()):</span>
+<span id="L24"><a href="#L24">  24</a>     is_ours = i == highlight_index</span>
+<span id="L25"><a href="#L25">  25</a>     noise = stds[name]</span>
+<span id="L26"><a href="#L26">  26</a> </span>
+<span id="L27"><a href="#L27">  27</a>     # 渐变填充置信带</span>
+<span id="L28"><a href="#L28">  28</a>     for layer, alpha in enumerate([0.15, 0.08, 0.03]):</span>
+<span id="L29"><a href="#L29">  29</a>         ax.fill_between(x, y - noise * (1 - layer * 0.2), y + noise * (1 - layer * 0.2),</span>
+<span id="L30"><a href="#L30">  30</a>                         alpha=alpha, color=PALETTE[i], linewidth=0)</span>
+<span id="L31"><a href="#L31">  31</a> </span>
+<span id="L32"><a href="#L32">  32</a>     # 主折线</span>
+<span id="L33"><a href="#L33">  33</a>     ax.plot(x, y, f&#x27;{markers[i]}-&#x27;, color=PALETTE[i],</span>
+<span id="L34"><a href="#L34">  34</a>             linewidth=2.5 if is_ours else 1.8, markersize=7 if is_ours else 5,</span>
+<span id="L35"><a href="#L35">  35</a>             markeredgecolor=&#x27;white&#x27;, markeredgewidth=1.2, label=name, zorder=3)</span>
+<span id="L36"><a href="#L36">  36</a> </span>
+<span id="L37"><a href="#L37">  37</a>     # 极值标注（最大值）</span>
+<span id="L38"><a href="#L38">  38</a>     max_idx = np.argmax(y)</span>
+<span id="L39"><a href="#L39">  39</a>     ax.scatter(x[max_idx], y[max_idx], s=120 if is_ours else 80, color=PALETTE[i],</span>
+<span id="L40"><a href="#L40">  40</a>                edgecolor=&#x27;white&#x27;, linewidth=2, zorder=4, marker=&#x27;*&#x27;)</span>
+<span id="L41"><a href="#L41">  41</a>     if is_ours:</span>
+<span id="L42"><a href="#L42">  42</a>         ax.annotate(f&#x27;★ {y[max_idx]:.1f}&#x27;,</span>
+<span id="L43"><a href="#L43">  43</a>                     xy=(x[max_idx], y[max_idx]),</span>
+<span id="L44"><a href="#L44">  44</a>                     xytext=(x[max_idx] - 1.5, y[max_idx] + 3),</span>
+<span id="L45"><a href="#L45">  45</a>                     fontsize=9, fontweight=&#x27;bold&#x27;, color=PALETTE[i],</span>
+<span id="L46"><a href="#L46">  46</a>                     arrowprops=dict(arrowstyle=&#x27;-&gt;&#x27;, color=PALETTE[i], lw=1.2),</span>
+<span id="L47"><a href="#L47">  47</a>                     bbox=dict(boxstyle=&#x27;round,pad=0.3&#x27;, facecolor=&#x27;white&#x27;,</span>
+<span id="L48"><a href="#L48">  48</a>                               edgecolor=PALETTE[i], alpha=0.9))</span>
+<span id="L49"><a href="#L49">  49</a> </span>
+<span id="L50"><a href="#L50">  50</a> ax.set_xlabel(&#x27;年份&#x27;, fontsize=11)</span>
+<span id="L51"><a href="#L51">  51</a> ax.set_ylabel(&#x27;准确率 (%)&#x27;, fontsize=11)</span>
+<span id="L52"><a href="#L52">  52</a> ax.legend(frameon=False, labelspacing=0.35, handlelength=1.6, fontsize=9, loc=&#x27;best&#x27;)</span>
+<span id="L53"><a href="#L53">  53</a> ax.set_xticks(x)</span>
+<span id="L54"><a href="#L54">  54</a> ax.grid(alpha=0.12, linestyle=&#x27;--&#x27;, color=COLORS[&#x27;grid&#x27;])</span>
+<span id="L55"><a href="#L55">  55</a> ax.spines[&#x27;top&#x27;].set_visible(False)</span>
+<span id="L56"><a href="#L56">  56</a> ax.spines[&#x27;right&#x27;].set_visible(False)</span>
+<span id="L57"><a href="#L57">  57</a> fig.tight_layout()</span>
+<span id="L58"><a href="#L58">  58</a> save_fig(fig, &#x27;figures/fig_line.pdf&#x27;)</span></pre>

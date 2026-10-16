@@ -44,7 +44,12 @@ def check(skill_root=None):
             path = WEB/'assets/sources'/record['id']/name
             if digest(path)!=record['sha256'][name]:
                 raise ValueError(f'模板源码已变化，需要核对来源与更新记录：{path}')
-        for key in ['bundle', 'preview', 'thumb']:
+        keys=['bundle', 'preview', 'thumb']
+        if 'en' in manifest.get('preview_languages',[]):
+            keys+=['preview_en','thumb_en']
+            if len(record.get('preview_en',[]))!=len(record['preview']) or len(record.get('thumb_en',[]))!=len(record['thumb']):
+                raise ValueError(f'英文模板预览不完整：{record["id"]}')
+        for key in keys:
             for record_file in record[key]:
                 path = WEB/record_file['path']
                 if digest(path)!=record_file['sha256']:

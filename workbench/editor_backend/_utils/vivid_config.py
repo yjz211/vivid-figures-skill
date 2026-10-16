@@ -32,6 +32,25 @@ def palette_id(value):
     raise ValueError(f'Unknown palette: {value}')
 
 
+def normalize_language(value=None):
+    """Only the supported display languages are accepted; Chinese is default."""
+    if value is None:
+        return 'zh'
+    if value not in ('zh', 'en'):
+        raise ValueError('Vivid language must be zh or en')
+    return value
+
+
+def _validate_display_language(config):
+    config['language'] = normalize_language(config.get('language', 'zh'))
+    labels = config.get('english_labels', {})
+    if not isinstance(labels, dict) or any(
+        not isinstance(key, str) or not isinstance(value, str)
+        for key, value in labels.items()
+    ):
+        raise ValueError('english_labels must map original text to English display text')
+
+
 def load_config(workspace=None):
     path = workspace_root(workspace) / '.vivid/config.json'
     config = json.loads(path.read_text(encoding='utf-8')) if path.exists() else {}
@@ -40,6 +59,7 @@ def load_config(workspace=None):
     config = {'schema': 1, 'palette': registry()['default'], 'style': 'clean_open',
               'language': 'zh', 'output_format': 'pdf', **config}
     config['palette'] = palette_id(config['palette'])
+    _validate_display_language(config)
     if config['palette'] == 'custom':
         colors = config.get('colors')
         if not isinstance(colors, list) or len(colors) < 2 or any(
@@ -74,6 +94,7 @@ def write_config(workspace, **updates):
     config = load_config(root)
     config.update(updates)
     config['palette'] = palette_id(config['palette'])
+    _validate_display_language(config)
     if config['palette'] != 'custom':
         config.pop('colors', None)
     # Validate custom colors before changing a valid file.

@@ -13,8 +13,10 @@ import platform
 import numpy as np
 try:
     from . import vivid_config as vc
+    from .figure_language import font_candidates, apply_figure_fonts, localize_figure, translate_text
 except ImportError:
     import vivid_config as vc
+    from figure_language import font_candidates, apply_figure_fonts, localize_figure, translate_text
 
 # 延迟导入 matplotlib，避免在没有 GUI 的环境报错
 _plt = None
@@ -178,10 +180,13 @@ def _knobs_from_custom(spec):
     }
 
 
-def setup_style(palette='auto'):
+def setup_style(palette='auto', language=None, font_family=None):
     """Load project palette and layout; explicit palette arguments remain supported."""
     plt = _get_plt()
     import matplotlib
+    language = vc.normalize_language(vc.load_config()['language'] if language is None else language)
+    # Read family before seaborn resets rcParams; preserve a source's serif choice.
+    family = font_family if font_family is not None else list(matplotlib.rcParams['font.family'])
     sns = _get_sns()
     _project_mode = palette == 'auto' or palette is None
     _custom_spec = _read_style_custom_marker() if _project_mode else None
@@ -223,55 +228,18 @@ def setup_style(palette='auto'):
     if sns:
         sns.set_palette(colors)
 
-    # 中文字体（带可用性检测，避免小方框□）
-    from matplotlib.font_manager import fontManager
-    available_fonts = {f.name for f in fontManager.ttflist}
-
-    if platform.system() == 'Windows':
-        zh_candidates = ['Microsoft YaHei', 'SimHei', 'SimSun', 'KaiTi', 'FangSong']
-    elif platform.system() == 'Darwin':
-        zh_candidates = ['PingFang SC', 'Heiti SC', 'STHeiti', 'STSong', 'Arial Unicode MS']
-    else:
-        zh_candidates = ['Noto Sans CJK SC', 'WenQuanYi Micro Hei', 'WenQuanYi Zen Hei',
-                         'Droid Sans Fallback', 'SimHei', 'AR PL UMing CN']
-
-    zh_fonts = [f for f in zh_candidates if f in available_fonts]
-
-    if not zh_fonts:
-        # 没有任何中文字体——尝试加载内置字体文件
-        _bundled_font = None
-        for search_dir in ['_utils', 'skills/shared-scripts', '../skills/shared-scripts']:
-            font_path = os.path.join(search_dir, 'NotoSansSC-Regular.ttf')
-            if os.path.isfile(font_path):
-                _bundled_font = os.path.abspath(font_path)
-                break
-        if _bundled_font:
-            from matplotlib.font_manager import FontProperties
-            fontManager.addfont(_bundled_font)
-            fp = FontProperties(fname=_bundled_font)
-            zh_fonts = [fp.get_name()]
-            print(f"Using bundled Chinese font: {_bundled_font}")
-        elif platform.system() == 'Linux':
-            # Linux 上尝试自动安装
-            try:
-                import subprocess
-                subprocess.run(['apt-get', 'install', '-y', 'fonts-noto-cjk-extra'],
-                               capture_output=True, timeout=30)
-                fontManager.__init__()
-                available_fonts = {f.name for f in fontManager.ttflist}
-                zh_fonts = [f for f in zh_candidates if f in available_fonts]
-            except Exception:
-                pass
-        if not zh_fonts:
-            print("WARNING: No Chinese fonts found — Chinese text will show as □")
-            print("  Fix: place NotoSansSC-Regular.ttf in skills/shared-scripts/")
-            print("  Or install: Windows=SimHei, Linux=fonts-noto-cjk-extra, macOS=built-in")
-            zh_fonts = ['DejaVu Sans']
+    # One shared font policy for initialization and final export. Local fonts
+    # are registered on demand; no platform-specific installation is attempted.
+    selected_fonts = font_candidates(language, family)
+    sans_fonts = font_candidates(language, 'sans-serif')
+    serif_fonts = font_candidates(language, 'serif')
 
     matplotlib.rcParams.update({
         'font.size': 11,
-        'font.family': 'sans-serif',
-        'font.sans-serif': zh_fonts + ['Arial', 'Helvetica', 'DejaVu Sans'],
+        'font.family': selected_fonts,
+        'font.sans-serif': sans_fonts,
+        'font.serif': serif_fonts,
+        'font.monospace': font_candidates(language, 'monospace'),
         'axes.unicode_minus': False,
         'axes.labelsize': 12,
         'axes.titlesize': 13,
@@ -282,6 +250,8 @@ def setup_style(palette='auto'):
         'legend.frameon': False,
         'figure.dpi': 300,
         'savefig.dpi': 350,
+        'pdf.fonttype': 42,  # Embed TrueType text with Unicode mappings.
+        'ps.fonttype': 42,
         'savefig.bbox': 'standard',       # ★ 不用 'tight' — 否则 axes 外文字会撑爆 mediabox
         'savefig.pad_inches': 0.1,        # ★ 配合 standard，留窄边距
         'axes.grid': False,
@@ -784,6 +754,7 @@ def _save(fig, output):
     _save_kwargs['bbox_inches'] = None
     if _ext in ('png', 'jpg', 'jpeg'):
         _save_kwargs['dpi'] = 350  # 防中文标签糊（与 docx_export PDF→PNG 兜底链路一致）
+    apply_figure_fonts(fig, vc.load_config()['language'])
     # ★ 成品自检：静态闸扫不出的"边距被撑爆"，在这里实测拦一道（只提示，不阻塞）
     _warn_if_wasted_margin(fig, output)
     # ★ 成品自检：数据被轴范围裁掉（坐标系约定写错，静态扫不出来），同样实测拦一道

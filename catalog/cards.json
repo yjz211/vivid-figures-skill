@@ -32,9 +32,9 @@
         "execution_code": "sources/basic.grouped_bar/render.py",
         "recipe_section": "sources/basic.grouped_bar/recipe.md",
         "recipe_file": "figure_recipes_basic.md",
-        "content_sha256": "389438c4cee19b42c2debef2123b621600103d7817f931bcf2af12d03aded11d",
-        "code_sha256": "75560cd613a9556c56edde797c0bd26cf2d886de9abd9209358bdf855cc71718",
-        "execution_sha256": "75560cd613a9556c56edde797c0bd26cf2d886de9abd9209358bdf855cc71718",
+        "content_sha256": "ace069b2ffb44f2d57726060530e9be78567bacec59c4b6bdb65c9dfcd3f3470",
+        "code_sha256": "f7be3f588354a6775e9a1c5ef0d3a3c09ab971af2d9d18fbd9129d9c7c41e34b",
+        "execution_sha256": "f7be3f588354a6775e9a1c5ef0d3a3c09ab971af2d9d18fbd9129d9c7c41e34b",
         "code_view": "sources/basic.grouped_bar/original.html"
       },
       "title_mismatch": false,
@@ -66,14 +66,14 @@
       ],
       "code_evidence": [
         {
-          "line": 30,
+          "line": 31,
           "operation": "bar",
           "code": "    ax.bar(x + offset + 0.02, vals, width, color='#cccccc', alpha=0.08, zorder=1)"
         },
         {
-          "line": 32,
+          "line": 33,
           "operation": "bar",
-          "code": "    bars = ax.bar(x + offset, vals, width, yerr=stds[name], capsize=3,                   color=_lighten(PALETTE[i], 0.4), edgecolor=PALETTE[i],                   linewidth=1.5 if is_ours else 1.2,                   label=name, zorder=2,"
+          "code": "    bars = ax.bar(x + offset, vals, width, yerr=stds[name], capsize=3,                   color=_lighten(PALETTE[i], 0.4), edgecolor=PALETTE[i],                   linewidth=1.5 if is_ours else 1.2,                   label=name, zorder=2,                   error_kw={'elinewidth': 0.8, 'capthick': 0.6, 'color': COLORS['text']})"
         }
       ],
       "literal_colormaps": [],
@@ -95,22 +95,22 @@
           "allowed_adaptation": "组数、柱宽、误差长度、标签位置可调；误差和最优方向按数据含义计算。",
           "evidence": [
             {
-              "line": 30,
-              "end_line": 30,
+              "line": 31,
+              "end_line": 31,
               "code": "    ax.bar(x + offset + 0.02, vals, width, color='#cccccc', alpha=0.08, zorder=1)",
-              "href": "sources/basic.grouped_bar/original.html#L30"
+              "href": "sources/basic.grouped_bar/original.html#L31"
             },
             {
-              "line": 32,
-              "end_line": 36,
+              "line": 33,
+              "end_line": 37,
               "code": "    bars = ax.bar(x + offset, vals, width, yerr=stds[name], capsize=3,\n                  color=_lighten(PALETTE[i], 0.4), edgecolor=PALETTE[i],\n                  linewidth=1.5 if is_ours else 1.2,\n                  label=name, zorder=2,\n                  error_kw={'elinewidth': 0.8, 'capthick': 0.6, 'color': COLORS['text']})",
-              "href": "sources/basic.grouped_bar/original.html#L32"
+              "href": "sources/basic.grouped_bar/original.html#L33"
             },
             {
-              "line": 50,
-              "end_line": 50,
+              "line": 51,
+              "end_line": 51,
               "code": "ax.axhline(y=global_mean, color=COLORS['ref_line'], linestyle='--', linewidth=0.8, alpha=0.4)",
-              "href": "sources/basic.grouped_bar/original.html#L50"
+              "href": "sources/basic.grouped_bar/original.html#L51"
             }
           ]
         }
@@ -250,9 +250,9 @@
         "execution_code": "sources/basic.line/render.py",
         "recipe_section": "sources/basic.line/recipe.md",
         "recipe_file": "figure_recipes_basic.md",
-        "content_sha256": "c0f655145509e0710710d07976ecd2f00e878091088c6973288d36f398168b02",
-        "code_sha256": "8ec5ff10644dde25495e93522f475cf0c4a1b371bb78714740d4693208c940c3",
-        "execution_sha256": "8ec5ff10644dde25495e93522f475cf0c4a1b371bb78714740d4693208c940c3",
+        "content_sha256": "7394dddd81fe16639c8118017d7db66536a7258fdb3dc7a87cd11782695d16c4",
+        "code_sha256": "b678fb5bfd039953ddea93af6473f8d7e85f03c48987253400cde289b2f8aacf",
+        "execution_sha256": "b678fb5bfd039953ddea93af6473f8d7e85f03c48987253400cde289b2f8aacf",
         "code_view": "sources/basic.line/original.html"
       },
       "title_mismatch": false,
@@ -284,17 +284,17 @@
       ],
       "code_evidence": [
         {
-          "line": 28,
+          "line": 29,
           "operation": "fill_between",
           "code": "        ax.fill_between(x, y - noise * (1 - layer * 0.2), y + noise * (1 - layer * 0.2),                         alpha=alpha, color=PALETTE[i], linewidth=0)"
         },
         {
-          "line": 32,
+          "line": 33,
           "operation": "plot",
           "code": "    ax.plot(x, y, f'{markers[i]}-', color=PALETTE[i],             linewidth=2.5 if is_ours else 1.8, markersize=7 if is_ours else 5,             markeredgecolor='white', markeredgewidth=1.2, label=name, zorder=3)"
         },
         {
-          "line": 38,
+          "line": 39,
           "operation": "scatter",
           "code": "    ax.scatter(x[max_idx], y[max_idx], s=120 if is_ours else 80, color=PALETTE[i],                edgecolor='white', linewidth=2, zorder=4, marker='*')"
         }
@@ -315,10 +315,10 @@
           "allowed_adaptation": "以真实 SD/SE/CI 或明确的范围替换模拟宽度；区间含义、宽度和坐标可变。数据不支持区间时不造数，并说明省略。",
           "evidence": [
             {
-              "line": 24,
-              "end_line": 29,
+              "line": 25,
+              "end_line": 30,
               "code": "    noise = stds[name]\n\n    # 渐变填充置信带\n    for layer, alpha in enumerate([0.15, 0.08, 0.03]):\n        ax.fill_between(x, y - noise * (1 - layer * 0.2), y + noise * (1 - layer * 0.2),\n                        alpha=alpha, color=PALETTE[i], linewidth=0)",
-              "href": "sources/basic.line/original.html#L24"
+              "href": "sources/basic.line/original.html#L25"
             }
           ]
         },
@@ -328,10 +328,10 @@
           "allowed_adaptation": "主序列身份、点数、极值方向和标注位置按任务变化；没有主序列时不虚构主次。",
           "evidence": [
             {
-              "line": 31,
-              "end_line": 46,
+              "line": 32,
+              "end_line": 47,
               "code": "    # 主折线\n    ax.plot(x, y, f'{markers[i]}-', color=PALETTE[i],\n            linewidth=2.5 if is_ours else 1.8, markersize=7 if is_ours else 5,\n            markeredgecolor='white', markeredgewidth=1.2, label=name, zorder=3)\n\n    # 极值标注（最大值）\n    max_idx = np.argmax(y)\n    ax.scatter(x[max_idx], y[max_idx], s=120 if is_ours else 80, color=PALETTE[i],\n               edgecolor='white', linewidth=2, zorder=4, marker='*')\n    if is_ours:\n        ax.annotate(f'★ {y[max_idx]:.1f}',\n                    xy=(x[max_idx], y[max_idx]),\n                    xytext=(x[max_idx] - 1.5, y[max_idx] + 3),\n                    fontsize=9, fontweight='bold', color=PALETTE[i],\n                    arrowprops=dict(arrowstyle='->', color=PALETTE[i], lw=1.2),\n                    bbox=dict(boxstyle='round,pad=0.3', facecolor='white',",
-              "href": "sources/basic.line/original.html#L31"
+              "href": "sources/basic.line/original.html#L32"
             }
           ]
         }
@@ -10860,9 +10860,9 @@
         "execution_code": "sources/competition.convergence/render.py",
         "recipe_section": "sources/competition.convergence/recipe.md",
         "recipe_file": "figure_recipes_competition.md",
-        "content_sha256": "f7236a3feb4ae6a05335ff8868597e69269ae03dda590f7419f6f77e74bb3c1a",
-        "code_sha256": "2fa6666f01148669edbc5b7a5aaec095854ab2beca6c46f8443f2c16b3d980e5",
-        "execution_sha256": "2fa6666f01148669edbc5b7a5aaec095854ab2beca6c46f8443f2c16b3d980e5",
+        "content_sha256": "174dabfc89935a8e3b09853c6c7219f575f59a75349d7a5234fcca1e447a1721",
+        "code_sha256": "5d04c19f827052e9e16b4de6635855c71774367f018b1f4caabfcb48a413f3f4",
+        "execution_sha256": "5d04c19f827052e9e16b4de6635855c71774367f018b1f4caabfcb48a413f3f4",
         "code_view": "sources/competition.convergence/original.html"
       },
       "title_mismatch": false,
@@ -10894,17 +10894,17 @@
       ],
       "code_evidence": [
         {
-          "line": 22,
+          "line": 23,
           "operation": "plot",
           "code": "    ax.plot(iters, vals, color=PALETTE[i], linewidth=lw, label=name, alpha=alpha, zorder=3)"
         },
         {
-          "line": 31,
+          "line": 32,
           "operation": "fill_between",
-          "code": "ax.fill_between(iters, ours, alpha=0.10, color=PALETTE[3], linewidth=0, zorder=1)"
+          "code": "ax.fill_between(iters, ours, alpha=0.10, color=PALETTE[highlight_index], linewidth=0, zorder=1)"
         },
         {
-          "line": 40,
+          "line": 41,
           "operation": "scatter",
           "code": "ax.scatter([iters[conv_idx]], [ours[conv_idx]], color=COLORS['down'], s=50, zorder=5, edgecolors='white')"
         }
@@ -10928,22 +10928,22 @@
           "allowed_adaptation": "迭代次数、目标值与收敛判据按实际优化过程更新；曲线下填充不是不确定性区间。",
           "evidence": [
             {
-              "line": 22,
-              "end_line": 22,
+              "line": 23,
+              "end_line": 23,
               "code": "    ax.plot(iters, vals, color=PALETTE[i], linewidth=lw, label=name, alpha=alpha, zorder=3)",
-              "href": "sources/competition.convergence/original.html#L22"
+              "href": "sources/competition.convergence/original.html#L23"
             },
             {
-              "line": 31,
-              "end_line": 31,
-              "code": "ax.fill_between(iters, ours, alpha=0.10, color=PALETTE[3], linewidth=0, zorder=1)",
-              "href": "sources/competition.convergence/original.html#L31"
+              "line": 32,
+              "end_line": 32,
+              "code": "ax.fill_between(iters, ours, alpha=0.10, color=PALETTE[highlight_index], linewidth=0, zorder=1)",
+              "href": "sources/competition.convergence/original.html#L32"
             },
             {
-              "line": 36,
-              "end_line": 39,
+              "line": 37,
+              "end_line": 40,
               "code": "ax.annotate('收敛点', xy=(iters[conv_idx], ours[conv_idx]),\n            xytext=(iters[conv_idx]+60, ours[conv_idx]+12),\n            fontsize=10, color=COLORS['down'], fontweight='bold',\n            arrowprops=dict(arrowstyle='->', color=COLORS['down'], lw=1.5), zorder=5)",
-              "href": "sources/competition.convergence/original.html#L36"
+              "href": "sources/competition.convergence/original.html#L37"
             }
           ]
         }
@@ -11447,9 +11447,9 @@
         "execution_code": "sources/competition.radar/render.py",
         "recipe_section": "sources/competition.radar/recipe.md",
         "recipe_file": "figure_recipes_competition.md",
-        "content_sha256": "65be8493cdcb192e125b57b8604f1bb4a5d9bfe4bd636fdb79ce356a10b93948",
-        "code_sha256": "3b5102ce0b1433eb19a67a6fafc6633f752900d76c583430fb7706a3b84c1936",
-        "execution_sha256": "3b5102ce0b1433eb19a67a6fafc6633f752900d76c583430fb7706a3b84c1936",
+        "content_sha256": "ad2000767d4198fc9cbcdc3cba7faab51509d6f4472cdbe3a4307c507cc4f5e9",
+        "code_sha256": "569c99475a6b43a40eee13858bfe18ada8171fa523888914245eeeb99ef5d53c",
+        "execution_sha256": "569c99475a6b43a40eee13858bfe18ada8171fa523888914245eeeb99ef5d53c",
         "code_view": "sources/competition.radar/original.html"
       },
       "title_mismatch": false,
@@ -11481,22 +11481,22 @@
       ],
       "code_evidence": [
         {
-          "line": 27,
+          "line": 28,
           "operation": "fill_between",
           "code": "        ax.fill_between(theta_fill, r_prev, r, alpha=0.025, color=PALETTE[0], zorder=0)"
         },
         {
-          "line": 28,
+          "line": 29,
           "operation": "plot",
           "code": "    ax.plot(theta_fill, [r]*len(theta_fill), color='#E5E5E5', linewidth=0.5, zorder=1)"
         },
         {
-          "line": 42,
+          "line": 43,
           "operation": "plot",
           "code": "    ax.plot(angles, values, color=PALETTE[i], linewidth=lw, label=name, alpha=alpha_line, zorder=3)"
         },
         {
-          "line": 43,
+          "line": 44,
           "operation": "fill",
           "code": "    ax.fill(angles, values, color=PALETTE[i], alpha=alpha_fill, zorder=1)"
         }
@@ -11522,28 +11522,28 @@
           "allowed_adaptation": "指标数量与归一化、主方案和标签位置可变，不同量纲先确定可比规则。",
           "evidence": [
             {
-              "line": 27,
-              "end_line": 27,
-              "code": "        ax.fill_between(theta_fill, r_prev, r, alpha=0.025, color=PALETTE[0], zorder=0)",
-              "href": "sources/competition.radar/original.html#L27"
-            },
-            {
               "line": 28,
               "end_line": 28,
-              "code": "    ax.plot(theta_fill, [r]*len(theta_fill), color='#E5E5E5', linewidth=0.5, zorder=1)",
+              "code": "        ax.fill_between(theta_fill, r_prev, r, alpha=0.025, color=PALETTE[0], zorder=0)",
               "href": "sources/competition.radar/original.html#L28"
             },
             {
-              "line": 42,
-              "end_line": 42,
-              "code": "    ax.plot(angles, values, color=PALETTE[i], linewidth=lw, label=name, alpha=alpha_line, zorder=3)",
-              "href": "sources/competition.radar/original.html#L42"
+              "line": 29,
+              "end_line": 29,
+              "code": "    ax.plot(theta_fill, [r]*len(theta_fill), color='#E5E5E5', linewidth=0.5, zorder=1)",
+              "href": "sources/competition.radar/original.html#L29"
             },
             {
               "line": 43,
               "end_line": 43,
-              "code": "    ax.fill(angles, values, color=PALETTE[i], alpha=alpha_fill, zorder=1)",
+              "code": "    ax.plot(angles, values, color=PALETTE[i], linewidth=lw, label=name, alpha=alpha_line, zorder=3)",
               "href": "sources/competition.radar/original.html#L43"
+            },
+            {
+              "line": 44,
+              "end_line": 44,
+              "code": "    ax.fill(angles, values, color=PALETTE[i], alpha=alpha_fill, zorder=1)",
+              "href": "sources/competition.radar/original.html#L44"
             }
           ]
         }
@@ -12219,9 +12219,9 @@
         "execution_code": "sources/competition.roc/render.py",
         "recipe_section": "sources/competition.roc/recipe.md",
         "recipe_file": "figure_recipes_competition.md",
-        "content_sha256": "3cfe7daf2f18fe4d1c821aa8d904b4e2e311adfec01e31f6b66aa9f6067540d9",
-        "code_sha256": "03f261f8ff55ac2e087c9d343fba389e12c2b4bd9baf510e3eee487b639918a9",
-        "execution_sha256": "03f261f8ff55ac2e087c9d343fba389e12c2b4bd9baf510e3eee487b639918a9",
+        "content_sha256": "262e3c90685abba1b91aa2d2eb81141f7a5aae298ba1a447bc44b5ccaf078caa",
+        "code_sha256": "2a22278ccd1db7a4ad1c8f6aa1e487a70d3b48bede075569deeafb3587aa96a6",
+        "execution_sha256": "2a22278ccd1db7a4ad1c8f6aa1e487a70d3b48bede075569deeafb3587aa96a6",
         "code_view": "sources/competition.roc/original.html"
       },
       "title_mismatch": false,
@@ -12253,12 +12253,12 @@
       ],
       "code_evidence": [
         {
-          "line": 15,
+          "line": 16,
           "operation": "plot",
           "code": "ax.plot([0,1],[0,1], '--', color=COLORS['ref_line'], linewidth=0.8, label='随机猜测')"
         },
         {
-          "line": 21,
+          "line": 22,
           "operation": "plot",
           "code": "    ax.plot(fpr, tpr, color=PALETTE[i], linewidth=lw, label=name, alpha=alpha, zorder=3)"
         }
@@ -12279,22 +12279,22 @@
           "allowed_adaptation": "曲线点和 AUC 来自真实分数与标签，方法数和图例位置可变，不虚构锯齿或平滑改变统计。",
           "evidence": [
             {
-              "line": 15,
-              "end_line": 15,
+              "line": 16,
+              "end_line": 16,
               "code": "ax.plot([0,1],[0,1], '--', color=COLORS['ref_line'], linewidth=0.8, label='随机猜测')",
-              "href": "sources/competition.roc/original.html#L15"
+              "href": "sources/competition.roc/original.html#L16"
             },
             {
-              "line": 21,
-              "end_line": 21,
+              "line": 22,
+              "end_line": 22,
               "code": "    ax.plot(fpr, tpr, color=PALETTE[i], linewidth=lw, label=name, alpha=alpha, zorder=3)",
-              "href": "sources/competition.roc/original.html#L21"
+              "href": "sources/competition.roc/original.html#L22"
             },
             {
-              "line": 25,
-              "end_line": 25,
+              "line": 26,
+              "end_line": 26,
               "code": "ax.legend(frameon=False, labelspacing=0.35, handlelength=1.6, fontsize=9, loc='lower right')",
-              "href": "sources/competition.roc/original.html#L25"
+              "href": "sources/competition.roc/original.html#L26"
             }
           ]
         }
@@ -12940,9 +12940,9 @@
         "execution_code": "sources/competition.multistep_decay/render.py",
         "recipe_section": "sources/competition.multistep_decay/recipe.md",
         "recipe_file": "figure_recipes_competition.md",
-        "content_sha256": "9d0680b49ddb17694bed9efe0048d4d79cc8e3331117e318b06ec7742ac19cc2",
-        "code_sha256": "4625658c722891cc745d86e1c333b730cbe719378b49d219cf9657ed38e35357",
-        "execution_sha256": "4625658c722891cc745d86e1c333b730cbe719378b49d219cf9657ed38e35357",
+        "content_sha256": "5d5342043b7ad36159898e605d146301c9edb1b5f74fc5a55c07b0626fc9cbc2",
+        "code_sha256": "aeda91125b9e1ef1e53ba66ac3eefdb570259d002de010cd2066facd5437cda1",
+        "execution_sha256": "aeda91125b9e1ef1e53ba66ac3eefdb570259d002de010cd2066facd5437cda1",
         "code_view": "sources/competition.multistep_decay/original.html"
       },
       "title_mismatch": false,
@@ -12974,12 +12974,12 @@
       ],
       "code_evidence": [
         {
-          "line": 20,
+          "line": 21,
           "operation": "plot",
           "code": "    ax.plot(steps, vals, color=PALETTE[i], linewidth=lw, marker='o', markersize=5,             markeredgecolor='white', markeredgewidth=1, label=name, alpha=alpha, zorder=3)"
         },
         {
-          "line": 24,
+          "line": 25,
           "operation": "fill_between",
           "code": "        ax.fill_between(steps, vals-std, vals+std, alpha=0.12, color=PALETTE[i])"
         }
@@ -13002,22 +13002,22 @@
           "allowed_adaptation": "步数、方法、阈值和区间重新确定，没有重复结果时不复制示例 std。",
           "evidence": [
             {
-              "line": 20,
-              "end_line": 21,
+              "line": 21,
+              "end_line": 22,
               "code": "    ax.plot(steps, vals, color=PALETTE[i], linewidth=lw, marker='o', markersize=5,\n            markeredgecolor='white', markeredgewidth=1, label=name, alpha=alpha, zorder=3)",
-              "href": "sources/competition.multistep_decay/original.html#L20"
+              "href": "sources/competition.multistep_decay/original.html#L21"
             },
             {
-              "line": 24,
-              "end_line": 24,
+              "line": 25,
+              "end_line": 25,
               "code": "        ax.fill_between(steps, vals-std, vals+std, alpha=0.12, color=PALETTE[i])",
-              "href": "sources/competition.multistep_decay/original.html#L24"
+              "href": "sources/competition.multistep_decay/original.html#L25"
             },
             {
-              "line": 27,
-              "end_line": 27,
+              "line": 28,
+              "end_line": 28,
               "code": "ax.axhline(0.5, color=COLORS['ref_line'], linewidth=0.8, linestyle='--', alpha=0.5)",
-              "href": "sources/competition.multistep_decay/original.html#L27"
+              "href": "sources/competition.multistep_decay/original.html#L28"
             }
           ]
         }

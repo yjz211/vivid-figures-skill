@@ -4,6 +4,7 @@ import json,os,sys,runpy,hashlib,difflib,shutil
 import numpy as np
 from schema import prepare,serial
 import object_editor
+import language_adapter
 
 def canvas_size(project,settings,notes):
     from schema import SPECS,sample
@@ -77,14 +78,14 @@ def adapt(tid,code):
     if tid=='basic.grouped_bar':
         code=between(code,'categories = [','fig, ax =','globals().update(V)')
         code=code.replace('width = 0.22','width = 0.8 / n')
-        code=code.replace("is_ours = '本文' in name","is_ours = name == highlight")
+        code=code.replace("is_ours = '本文' in name","is_ours = name == highlight").replace("is_ours = i == highlight_index","is_ours = name == highlight")
         # An empty bbox dictionary creates Matplotlib's default solid patch.
         # Only explicit template annotation boxes should have a background.
         code=code.replace("alpha=0.7) if is_best else {})", "alpha=0.7) if is_best else None)")
         code=code.replace("ax.set_ylim(0, max(max(v) for v in groups.values()) * 1.2)","lo=min(0., min(float(np.min(a-stds[k])) for k,a in groups.items())); hi=max(0.,max(float(np.max(a+stds[k])) for k,a in groups.items())); pad=max((hi-lo)*.15,1.); ax.set_ylim(lo-pad*.2,hi+pad)")
     elif tid=='basic.line':
         code=between(code,'x = np.arange','fig, ax =',"globals().update(V)\nmarkers = ['o','s','^','D','v','P','X','*','<','>','h','p']")
-        code=code.replace("is_ours = '本文' in name","is_ours = name == highlight")
+        code=code.replace("is_ours = '本文' in name","is_ours = name == highlight").replace("is_ours = i == highlight_index","is_ours = name == highlight")
         code=code.replace("ax.set_xticks(x)","tick_idx=np.unique(np.linspace(0,len(x)-1,min(len(x),max(6,int(settings['width']*1.6)))).astype(int)); ax.set_xticks(x[tick_idx]); ax.set_xticklabels([categories[i] for i in tick_idx])")
     elif tid=='basic.scatter_regression':
         code=between(code,'np.random.seed(42)','fig = plt.figure','globals().update(V)')
@@ -110,7 +111,7 @@ def adapt(tid,code):
         code=code.replace('ax.set_ylim(0, 1.12)','ax.set_ylim(0, radar_max * 1.12)')
         code=code.replace('ring_levels = [0.2, 0.4, 0.6, 0.8, 1.0]','ring_levels = np.linspace(radar_max/5,radar_max,5)')
         code=code.replace("['0.2','0.4','0.6','0.8','1.0']","[f'{v:g}' for v in ring_levels]")
-        code=code.replace("is_ours = '本文' in name","is_ours = name == highlight")
+        code=code.replace("is_ours = '本文' in name","is_ours = name == highlight").replace("is_ours = i == highlight_index","is_ours = name == highlight")
         code=code.replace('v + 0.08','v + radar_max * 0.08')
     elif tid=='competition.surface_3d':
         code=between(code,'x = np.linspace','fig = plt.figure','globals().update(V)')
@@ -131,7 +132,7 @@ def render_project(folder):
     output_width,output_height=canvas_size(project,s,notes)
     os.chdir(folder);os.environ.update(VIVID_WORKSPACE=str(folder),MPLBACKEND='Agg')
     (folder/'.vivid').mkdir(exist_ok=True)
-    (folder/'.vivid/config.json').write_text(json.dumps({'palette':s['palette'],'language':'zh'}),encoding='utf8')
+    (folder/'.vivid/config.json').write_text(json.dumps({'palette':s['palette'],'language':s.get('language','zh'),'english_labels':s.get('english_labels',{})}),encoding='utf8')
     sys.path[:0]=[str(folder),str(Path(__file__).parent),str(Path(__file__).parent/'_utils')]
     import matplotlib
     matplotlib.use('Agg')
@@ -149,7 +150,7 @@ def render_project(folder):
     import copy
     ns=runpy.run_path(str(folder/'plot.py'),init_globals={'V':copy.deepcopy(inputs)},run_name='vivid_render')
     if tid=='template.sem_violin_pearson':
-        export_components(ns['component_figures'],folder,s,project,objects)
+        export_components(ns['component_figures'],folder,s,project,objects,notes)
         object_editor.finish(objects,project,folder,notes)
         plt.close('all')
         return write_evidence(folder,tid,notes,inputs)
@@ -168,7 +169,7 @@ def render_project(folder):
                              scale_mode='within_task',baseline_label=caption)
     else:fig=ns['fig']
     if isinstance(fig,go.Figure):
-        fig.update_layout(width=int(s['width']*100),height=int(s['height']*100),font=dict(family='Microsoft YaHei',size=s['font_size']*1.2),showlegend=s['legend'])
+        fig.update_layout(width=int(s['width']*100),height=int(s['height']*100),font=dict(size=s['font_size']*1.2),showlegend=s['legend'])
         if s['title']:fig.update_layout(title=s['title'])
         if not s['labels']:fig.update_layout(annotations=[])
         if s['xlabel']:fig.update_xaxes(title_text=s['xlabel'])
@@ -178,7 +179,9 @@ def render_project(folder):
             if updates:fig.update_scenes(**updates)
             if not s.get('view_template',True):
                 el,az=np.deg2rad([s['elev'],s['azim']]);fig.update_scenes(camera_eye=dict(x=float(2*np.cos(el)*np.cos(az)),y=float(2*np.cos(el)*np.sin(az)),z=float(2*np.sin(el))))
+        language_adapter.localize_plotly(fig,project,s)
         object_editor.plotly_edit(fig,project,objects)
+        language_adapter.append_language_note(language_adapter.plotly_texts(fig),s,notes)
         object_editor.finish(objects,project,folder,notes)
         for name,scale in [('preview.png',1.2),('figure.png',3),('figure.pdf',1),('figure.svg',1)]:fig.write_image(str(folder/name),scale=scale)
         fig.write_html(str(folder/'interactive.html'),include_plotlyjs=True,post_script=object_editor.BRIDGE,config={'displaylogo':False,'scrollZoom':True,'editable':False})
@@ -212,9 +215,9 @@ def render_project(folder):
     fig.set_size_inches(output_width,output_height)
     from matplotlib.text import Text
     for text in fig.findobj(match=Text):
-        if tid!='advanced.grouped_radial_bar':text.set_fontfamily(['Microsoft YaHei','DejaVu Sans'])
         text.set_fontsize(text.get_fontsize()*s['font_size']/10)
         if text.get_text() in [s[k] for k in ['title','xlabel','ylabel','zlabel']] and hasattr(text,'set_parse_math'):text.set_parse_math(False)
+    language_adapter.localize_mpl(fig,project,s)
     if tid=='basic.multipanel':
         # Measure actual font sizes and reserve title space at every canvas size.
         # A fixed subplot top overrides tight_layout and collides on small figures.
@@ -222,6 +225,11 @@ def render_project(folder):
         fig.tight_layout(pad=1.5,w_pad=1.6,h_pad=1.8)
     if tid=='advanced.grouped_bar_3d' and s.get('avoid_label_overlap',True) and s['labels']:avoid_3d_label_overlap(fig,notes)
     object_editor.mpl_edit(fig,project,objects)
+    # Legend column edits can create new Text artists. Normalize only the
+    # family after replay, keeping manual wording, size and drag offsets.
+    from _utils.figure_language import apply_figure_fonts
+    apply_figure_fonts(fig,s.get('language','zh'))
+    language_adapter.append_language_note(language_adapter.mpl_texts(fig),s,notes)
     object_editor.finish(objects,project,folder,notes)
     for name,dpi in [('preview.png',140),('figure.png',300),('figure.pdf',300),('figure.svg',300)]:
         if tid=='advanced.grouped_radial_bar':
@@ -237,7 +245,30 @@ def write_evidence(folder,tid,notes,inputs):
     (folder/'data_used.json').write_text(json.dumps(evidence,ensure_ascii=False,indent=2),encoding='utf8')
     return evidence
 
-def export_components(figures,folder,s,project,objects):
+def fit_component_labels(fig):
+    """Wrap only English labels that exceed their own matrix cell span."""
+    import textwrap
+    fig.canvas.draw();renderer=fig.canvas.get_renderer()
+    for ax in fig.axes:
+        if hasattr(ax,'_colorbar'):continue
+        area=ax.get_window_extent(renderer)
+        for label in [ax.xaxis.label,ax.yaxis.label]:
+            value=label.get_text()
+            if not value or ' ' not in value:continue
+            box=label.get_window_extent(renderer)
+            vertical=45<label.get_rotation()%180<135
+            span=box.height if vertical else box.width
+            available=(area.height if vertical else area.width)*.88
+            if span>available:
+                width=max(8,int(len(value)*available/span))
+                label.set_text(textwrap.fill(value,width=width,break_long_words=False,break_on_hyphens=False))
+                # A single English word may still exceed a narrow component.
+                wrapped=label.get_window_extent(renderer)
+                span=wrapped.height if vertical else wrapped.width
+                if span>available:label.set_fontsize(label.get_fontsize()*available/span)
+
+
+def export_components(figures,folder,s,project,objects,notes):
     """Join native vector components without redrawing their plotting bodies."""
     import fitz,io,xml.etree.ElementTree as ET
     from matplotlib.text import Text
@@ -247,12 +278,17 @@ def export_components(figures,folder,s,project,objects):
         font_scale=min(s['width']*ratio/sum(ratios)/fig.get_figwidth(),s['height']/fig.get_figheight())
         fig.set_size_inches(s['width']*ratio/sum(ratios),s['height'])
         for item in fig.findobj(match=Text):
-            item.set_fontfamily(['Microsoft YaHei','DejaVu Sans']);item.set_fontsize(item.get_fontsize()*s['font_size']/10*font_scale)
+            item.set_fontsize(item.get_fontsize()*s['font_size']/10*font_scale)
         if not s['labels']:
             for ax in fig.axes:
                 for item in ax.texts:item.set_visible(False)
         if s['title'] and i==0:fig.suptitle(s['title'])
+        language_adapter.localize_mpl(fig,project,s)
+        if s.get('language','zh')=='en':fit_component_labels(fig)
         object_editor.mpl_edit(fig,project,objects,prefix=f'part{i}-',dom_prefix=f'part{i}_')
+        from _utils.figure_language import apply_figure_fonts
+        apply_figure_fonts(fig,s.get('language','zh'))
+        language_adapter.append_language_note(language_adapter.mpl_texts(fig),s,notes)
         buf=io.BytesIO();fig.savefig(buf,format='pdf',bbox_inches='tight');docs.append(fitz.open(stream=buf.getvalue(),filetype='pdf'))
         buf=io.StringIO();fig.savefig(buf,format='svg',bbox_inches='tight');svgs.append(ET.fromstring(buf.getvalue()))
     heights=[d[0].rect.height for d in docs];height=max(heights)

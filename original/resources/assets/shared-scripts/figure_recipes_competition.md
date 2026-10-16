@@ -33,12 +33,13 @@ methods = {
 }
 
 fig, ax = plt.subplots(figsize=(7, 4.5))
+highlight_index = min(3, len(methods) - 1)  # 重点系列的位置，与显示名称无关
 ax.grid(True, linestyle='--', alpha=0.15, color=COLORS['grid']); ax.set_axisbelow(True)
 
 _end_xs, _end_ys, _end_texts, _end_colors = [], [], [], []
 for i, (name, vals) in enumerate(methods.items()):
-    lw = 2.5 if '本文' in name else 1.5
-    alpha = 1.0 if '本文' in name else 0.55
+    lw = 2.5 if i == highlight_index else 1.5
+    alpha = 1.0 if i == highlight_index else 0.55
     ax.plot(iters, vals, color=PALETTE[i], linewidth=lw, label=name, alpha=alpha, zorder=3)
     _end_xs.append(iters[-1]); _end_ys.append(vals[-1])
     _end_texts.append(f'{vals[-1]:.1f}'); _end_colors.append(PALETTE[i])
@@ -47,8 +48,8 @@ from _utils.plot_utils import save_fig, smart_labels
 smart_labels(ax, _end_xs, _end_ys, _end_texts, colors=_end_colors, fontsize=8, offset=(8, 0))
 
 # 本文算法的下方填充区域（强调单独）
-ours = methods['本文算法']
-ax.fill_between(iters, ours, alpha=0.10, color=PALETTE[3], linewidth=0, zorder=1)
+ours = list(methods.values())[highlight_index]
+ax.fill_between(iters, ours, alpha=0.10, color=PALETTE[highlight_index], linewidth=0, zorder=1)
 
 # 收敛点标注
 diff = np.abs(np.diff(ours))
@@ -368,6 +369,7 @@ methods = {
 }
 
 fig, ax = plt.subplots(figsize=(6.5, 6.5), subplot_kw=dict(polar=True))
+highlight_index = 0  # 重点系列的位置，与显示名称无关
 ax.set_facecolor('white')
 ax.set_ylim(0, 1.12)  # 留出标注空间
 
@@ -388,7 +390,7 @@ ax.tick_params(axis='x', pad=18)
 
 for i, (name, vals) in enumerate(methods.items()):
     values = vals + [vals[0]]
-    is_ours = '本文' in name
+    is_ours = i == highlight_index
     lw = 2.5 if is_ours else 1.2
     alpha_line = 1.0 if is_ours else 0.5
     alpha_fill = 0.15 if is_ours else 0.04
@@ -782,13 +784,14 @@ models = {
 }
 
 fig, ax = plt.subplots(figsize=(6, 5.5))
+highlight_index = 0  # 重点系列的位置，与显示名称无关
 ax.grid(True, linestyle='--', alpha=0.15); ax.set_axisbelow(True)
 ax.plot([0,1],[0,1], '--', color=COLORS['ref_line'], linewidth=0.8, label='随机猜测')
 
 for i, (name, (auc, lw)) in enumerate(models.items()):
     fpr = np.sort(np.concatenate([[0], np.random.beta(1, auc*10, 50), [1]]))
     tpr = np.sort(np.concatenate([[0], np.random.beta(auc*10, 1, 50), [1]]))
-    alpha = 1.0 if '本文' in name else 0.6
+    alpha = 1.0 if i == highlight_index else 0.6
     ax.plot(fpr, tpr, color=PALETTE[i], linewidth=lw, label=name, alpha=alpha, zorder=3)
 
 ax.set_xlabel('假阳性率 (FPR)', fontsize=11); ax.set_ylabel('真阳性率 (TPR)', fontsize=11)
@@ -1096,10 +1099,11 @@ models = {
 }
 
 fig, ax = plt.subplots(figsize=(7, 4.5))
+highlight_index = 0  # 重点系列的位置，与显示名称无关
 ax.grid(True, linestyle='--', alpha=0.15); ax.set_axisbelow(True)
 
 for i, (name, vals) in enumerate(models.items()):
-    is_ours = '本文' in name
+    is_ours = i == highlight_index
     lw = 2.5 if is_ours else 1.5
     alpha = 1.0 if is_ours else 0.6
     ax.plot(steps, vals, color=PALETTE[i], linewidth=lw, marker='o', markersize=5,

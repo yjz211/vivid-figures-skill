@@ -100,6 +100,45 @@ class Contracts(unittest.TestCase):
         st.update(chart_id=old['id'],project=old['project'],base_revision=1,target='current')
         bound=runtime.execute(st);self.assertFalse(bound['chart_id'])
         with self.assertRaises(ValueError):runtime.start(s['id'],'无效数据',dataset_ids=['foreign-dataset'])
+    def test_language_setting_is_validated_without_changing_data(self):
+        s=store.create_session('chart language');p=sample('basic.grouped_bar')
+        chart=store.create_chart(s['id'],p)
+        run=store.create_run(s['id'],chart['id'],{'prompt':'图内使用英文，回复用中文'})
+        state={'run_id':run['id'],'session_id':s['id'],'project':p,'round':1,'decision':{'status':'complete','actions':[{'tool':'update_settings','arguments_json':json.dumps({'settings':{'language':'en','english_labels':{'本文方法':'Our method'}}})}]}}
+        updated=runtime.execute(state)
+        self.assertEqual(updated['project']['settings']['language'],'en')
+        self.assertEqual(updated['project']['settings']['english_labels'],{'本文方法':'Our method'})
+        self.assertEqual(updated['project']['table'],p['table'])
+        self.assertEqual(p['settings']['language'],'zh')
+        state['decision']['actions'][0]['arguments_json']=json.dumps({'settings':{'language':'fr'}})
+        rejected=runtime.execute(state)
+        self.assertEqual(rejected['project']['settings']['language'],'zh')
+        self.assertIn('图内语言',rejected['observations'][-1]['error'])
+        invalid=copy.deepcopy(p);invalid['settings']['language']='fr'
+        response=self.client.post('/api/agent/charts/'+chart['id']+'/save',json={'base_revision':1,'project':invalid})
+        self.assertEqual(response.status_code,400,response.text)
+        self.assertEqual(store.chart(chart['id'])['revision'],1)
+
+    def test_rebinding_keeps_language_only_for_the_current_chart(self):
+        s=store.create_session('language rebind');p=sample('basic.grouped_bar')
+        p['settings'].update(language='en',english_labels={'本文方法':'Our method'})
+        data=store.dataset(s['id'],'original input',p['table'])
+        run=store.create_run(s['id'],None,{'prompt':'改为折线图'})
+        for target,explicit,language,labels in [
+            ('current',{'palette':'blue-sky'},'en',{'本文方法':'Our method'}),
+            ('current',{'language':'zh','english_labels':{}},'zh',{}),
+            ('new',{},'zh',{}),
+            ('new',{'language':'en','english_labels':{'本文方法':'Proposed model'}},'en',{'本文方法':'Proposed model'}),
+        ]:
+            with self.subTest(target=target,explicit=explicit):
+                args={'template_id':'basic.line','target':target,'bindings':[{'table_key':'data','dataset_id':data['id']}],'settings':explicit}
+                state={'run_id':run['id'],'session_id':s['id'],'project':copy.deepcopy(p),'round':1,'inspected':['basic.line'],'decision':{'status':'complete','actions':[{'tool':'bind_template','arguments_json':json.dumps(args)}]}}
+                updated=runtime.execute(state)['project']
+                self.assertEqual(updated['settings']['language'],language)
+                self.assertEqual(updated['settings']['english_labels'],labels)
+                self.assertEqual(updated['table'],p['table'])
+        self.assertEqual(p['settings']['language'],'en')
+
     def test_clarify_reconnect_resume(self):
         s=store.create_session('clarification');calls=[]
         def model(*a,**kw):

@@ -45,6 +45,6 @@ ID：`competition.roc`
 
 - 保留重点：保留模型曲线的线宽/透明度主次、随机对角参照与 AUC 图例；这个主示例没有各模型不同点形。
 - 可适配：曲线点和 AUC 来自真实分数与标签，方法数和图例位置可变，不虚构锯齿或平滑改变统计。
-- 源码：[L15–15](../sources/competition.roc/original.html#L15) · [L21–21](../sources/competition.roc/original.html#L21) · [L25–25](../sources/competition.roc/original.html#L25)
+- 源码：[L16–16](../sources/competition.roc/original.html#L16) · [L22–22](../sources/competition.roc/original.html#L22) · [L26–26](../sources/competition.roc/original.html#L26)
 
 按现有审图流程对照实际输出；有疑问时可用[源码差异提示](../../template-fidelity.md)。

@@ -51,6 +51,6 @@ ID：`competition.convergence`
 
 - 保留重点：保留主算法加粗、曲线下浅填充、终点标签和有依据的收敛位置箭头，不能只画等粗裸线。
 - 可适配：迭代次数、目标值与收敛判据按实际优化过程更新；曲线下填充不是不确定性区间。
-- 源码：[L22–22](../sources/competition.convergence/original.html#L22) · [L31–31](../sources/competition.convergence/original.html#L31) · [L36–39](../sources/competition.convergence/original.html#L36)
+- 源码：[L23–23](../sources/competition.convergence/original.html#L23) · [L32–32](../sources/competition.convergence/original.html#L32) · [L37–40](../sources/competition.convergence/original.html#L37)
 
 按现有审图流程对照实际输出；有疑问时可用[源码差异提示](../../template-fidelity.md)。

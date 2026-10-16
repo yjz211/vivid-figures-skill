@@ -16,50 +16,50 @@
 <span id="L16"><a href="#L16">  16</a> }</span>
 <span id="L17"><a href="#L17">  17</a> </span>
 <span id="L18"><a href="#L18">  18</a> fig, ax = plt.subplots(figsize=(9, 5.5))</span>
-<span id="L19"><a href="#L19">  19</a> x = np.arange(len(categories))</span>
-<span id="L20"><a href="#L20">  20</a> n = len(groups)</span>
-<span id="L21"><a href="#L21">  21</a> width = 0.22</span>
-<span id="L22"><a href="#L22">  22</a> </span>
-<span id="L23"><a href="#L23">  23</a> # 淡蓝背景渐变</span>
-<span id="L24"><a href="#L24">  24</a> ax.axhspan(0, max(max(v) for v in groups.values()) * 1.2, alpha=0.03, color=PALETTE[0], zorder=0)</span>
-<span id="L25"><a href="#L25">  25</a> </span>
-<span id="L26"><a href="#L26">  26</a> for i, (name, vals) in enumerate(groups.items()):</span>
-<span id="L27"><a href="#L27">  27</a>     offset = (i - n / 2 + 0.5) * width</span>
-<span id="L28"><a href="#L28">  28</a>     is_ours = &#x27;本文&#x27; in name</span>
-<span id="L29"><a href="#L29">  29</a>     # 柱子阴影</span>
-<span id="L30"><a href="#L30">  30</a>     ax.bar(x + offset + 0.02, vals, width, color=&#x27;#cccccc&#x27;, alpha=0.08, zorder=1)</span>
-<span id="L31"><a href="#L31">  31</a>     # ★ 主柱子：淡色填充 + 原色边框</span>
-<span id="L32"><a href="#L32">  32</a>     bars = ax.bar(x + offset, vals, width, yerr=stds[name], capsize=3,</span>
-<span id="L33"><a href="#L33">  33</a>                   color=_lighten(PALETTE[i], 0.4), edgecolor=PALETTE[i],</span>
-<span id="L34"><a href="#L34">  34</a>                   linewidth=1.5 if is_ours else 1.2,</span>
-<span id="L35"><a href="#L35">  35</a>                   label=name, zorder=2,</span>
-<span id="L36"><a href="#L36">  36</a>                   error_kw={&#x27;elinewidth&#x27;: 0.8, &#x27;capthick&#x27;: 0.6, &#x27;color&#x27;: COLORS[&#x27;text&#x27;]})</span>
-<span id="L37"><a href="#L37">  37</a> </span>
-<span id="L38"><a href="#L38">  38</a>     for j, (bar, v, s) in enumerate(zip(bars, vals, stds[name])):</span>
-<span id="L39"><a href="#L39">  39</a>         all_vals_j = [groups[g][j] for g in groups]</span>
-<span id="L40"><a href="#L40">  40</a>         is_best = (v == max(all_vals_j))</span>
-<span id="L41"><a href="#L41">  41</a>         ax.text(bar.get_x() + bar.get_width() / 2, bar.get_height() + s + 0.5,</span>
-<span id="L42"><a href="#L42">  42</a>                 f&#x27;{&quot;★&quot; if is_best else &quot;&quot;}{v:.1f}&#x27;,</span>
-<span id="L43"><a href="#L43">  43</a>                 ha=&#x27;center&#x27;, va=&#x27;bottom&#x27;, fontsize=7.5,</span>
-<span id="L44"><a href="#L44">  44</a>                 fontweight=&#x27;bold&#x27; if is_best else &#x27;normal&#x27;,</span>
-<span id="L45"><a href="#L45">  45</a>                 color=PALETTE[i] if is_best else COLORS[&#x27;text&#x27;],</span>
-<span id="L46"><a href="#L46">  46</a>                 bbox=dict(boxstyle=&#x27;round,pad=0.1&#x27;, facecolor=&#x27;white&#x27;, edgecolor=&#x27;none&#x27;, alpha=0.7) if is_best else {})</span>
-<span id="L47"><a href="#L47">  47</a> </span>
-<span id="L48"><a href="#L48">  48</a> # 水平参考线：全局均值</span>
-<span id="L49"><a href="#L49">  49</a> global_mean = np.mean([v for vals in groups.values() for v in vals])</span>
-<span id="L50"><a href="#L50">  50</a> ax.axhline(y=global_mean, color=COLORS[&#x27;ref_line&#x27;], linestyle=&#x27;--&#x27;, linewidth=0.8, alpha=0.4)</span>
-<span id="L51"><a href="#L51">  51</a> ax.text(len(categories) - 0.3, global_mean + 0.5, f&#x27;均值 {global_mean:.1f}&#x27;,</span>
-<span id="L52"><a href="#L52">  52</a>         fontsize=8, color=COLORS[&#x27;ref_line&#x27;], ha=&#x27;right&#x27;, style=&#x27;italic&#x27;,</span>
-<span id="L53"><a href="#L53">  53</a>         bbox=dict(boxstyle=&#x27;round,pad=0.2&#x27;, facecolor=&#x27;white&#x27;, edgecolor=&#x27;none&#x27;, alpha=0.8))</span>
-<span id="L54"><a href="#L54">  54</a> </span>
-<span id="L55"><a href="#L55">  55</a> ax.set_xticks(x)</span>
-<span id="L56"><a href="#L56">  56</a> ax.set_xticklabels(categories, fontsize=10)</span>
-<span id="L57"><a href="#L57">  57</a> ax.set_ylabel(&#x27;得分&#x27;, fontsize=11)</span>
-<span id="L58"><a href="#L58">  58</a> ax.legend(frameon=False, labelspacing=0.35, handlelength=1.6, fontsize=9, loc=&#x27;best&#x27;)</span>
-<span id="L59"><a href="#L59">  59</a> ax.set_ylim(0, max(max(v) for v in groups.values()) * 1.2)</span>
-<span id="L60"><a href="#L60">  60</a> ax.grid(axis=&#x27;y&#x27;, alpha=0.12, linestyle=&#x27;--&#x27;, color=COLORS[&#x27;grid&#x27;])</span>
-<span id="L61"><a href="#L61">  61</a> ax.spines[&#x27;top&#x27;].set_visible(False)</span>
-<span id="L62"><a href="#L62">  62</a> ax.spines[&#x27;right&#x27;].set_visible(False)</span>
-<span id="L63"><a href="#L63">  63</a> fig.tight_layout()</span>
-<span id="L64"><a href="#L64">  64</a> save_fig(fig, &#x27;figures/fig_grouped_bar.pdf&#x27;)</span>
-</pre>
+<span id="L19"><a href="#L19">  19</a> highlight_index = 0  # 重点系列的位置，与显示名称无关</span>
+<span id="L20"><a href="#L20">  20</a> x = np.arange(len(categories))</span>
+<span id="L21"><a href="#L21">  21</a> n = len(groups)</span>
+<span id="L22"><a href="#L22">  22</a> width = 0.22</span>
+<span id="L23"><a href="#L23">  23</a> </span>
+<span id="L24"><a href="#L24">  24</a> # 淡蓝背景渐变</span>
+<span id="L25"><a href="#L25">  25</a> ax.axhspan(0, max(max(v) for v in groups.values()) * 1.2, alpha=0.03, color=PALETTE[0], zorder=0)</span>
+<span id="L26"><a href="#L26">  26</a> </span>
+<span id="L27"><a href="#L27">  27</a> for i, (name, vals) in enumerate(groups.items()):</span>
+<span id="L28"><a href="#L28">  28</a>     offset = (i - n / 2 + 0.5) * width</span>
+<span id="L29"><a href="#L29">  29</a>     is_ours = i == highlight_index</span>
+<span id="L30"><a href="#L30">  30</a>     # 柱子阴影</span>
+<span id="L31"><a href="#L31">  31</a>     ax.bar(x + offset + 0.02, vals, width, color=&#x27;#cccccc&#x27;, alpha=0.08, zorder=1)</span>
+<span id="L32"><a href="#L32">  32</a>     # ★ 主柱子：淡色填充 + 原色边框</span>
+<span id="L33"><a href="#L33">  33</a>     bars = ax.bar(x + offset, vals, width, yerr=stds[name], capsize=3,</span>
+<span id="L34"><a href="#L34">  34</a>                   color=_lighten(PALETTE[i], 0.4), edgecolor=PALETTE[i],</span>
+<span id="L35"><a href="#L35">  35</a>                   linewidth=1.5 if is_ours else 1.2,</span>
+<span id="L36"><a href="#L36">  36</a>                   label=name, zorder=2,</span>
+<span id="L37"><a href="#L37">  37</a>                   error_kw={&#x27;elinewidth&#x27;: 0.8, &#x27;capthick&#x27;: 0.6, &#x27;color&#x27;: COLORS[&#x27;text&#x27;]})</span>
+<span id="L38"><a href="#L38">  38</a> </span>
+<span id="L39"><a href="#L39">  39</a>     for j, (bar, v, s) in enumerate(zip(bars, vals, stds[name])):</span>
+<span id="L40"><a href="#L40">  40</a>         all_vals_j = [groups[g][j] for g in groups]</span>
+<span id="L41"><a href="#L41">  41</a>         is_best = (v == max(all_vals_j))</span>
+<span id="L42"><a href="#L42">  42</a>         ax.text(bar.get_x() + bar.get_width() / 2, bar.get_height() + s + 0.5,</span>
+<span id="L43"><a href="#L43">  43</a>                 f&#x27;{&quot;★&quot; if is_best else &quot;&quot;}{v:.1f}&#x27;,</span>
+<span id="L44"><a href="#L44">  44</a>                 ha=&#x27;center&#x27;, va=&#x27;bottom&#x27;, fontsize=7.5,</span>
+<span id="L45"><a href="#L45">  45</a>                 fontweight=&#x27;bold&#x27; if is_best else &#x27;normal&#x27;,</span>
+<span id="L46"><a href="#L46">  46</a>                 color=PALETTE[i] if is_best else COLORS[&#x27;text&#x27;],</span>
+<span id="L47"><a href="#L47">  47</a>                 bbox=dict(boxstyle=&#x27;round,pad=0.1&#x27;, facecolor=&#x27;white&#x27;, edgecolor=&#x27;none&#x27;, alpha=0.7) if is_best else {})</span>
+<span id="L48"><a href="#L48">  48</a> </span>
+<span id="L49"><a href="#L49">  49</a> # 水平参考线：全局均值</span>
+<span id="L50"><a href="#L50">  50</a> global_mean = np.mean([v for vals in groups.values() for v in vals])</span>
+<span id="L51"><a href="#L51">  51</a> ax.axhline(y=global_mean, color=COLORS[&#x27;ref_line&#x27;], linestyle=&#x27;--&#x27;, linewidth=0.8, alpha=0.4)</span>
+<span id="L52"><a href="#L52">  52</a> ax.text(len(categories) - 0.3, global_mean + 0.5, f&#x27;均值 {global_mean:.1f}&#x27;,</span>
+<span id="L53"><a href="#L53">  53</a>         fontsize=8, color=COLORS[&#x27;ref_line&#x27;], ha=&#x27;right&#x27;, style=&#x27;italic&#x27;,</span>
+<span id="L54"><a href="#L54">  54</a>         bbox=dict(boxstyle=&#x27;round,pad=0.2&#x27;, facecolor=&#x27;white&#x27;, edgecolor=&#x27;none&#x27;, alpha=0.8))</span>
+<span id="L55"><a href="#L55">  55</a> </span>
+<span id="L56"><a href="#L56">  56</a> ax.set_xticks(x)</span>
+<span id="L57"><a href="#L57">  57</a> ax.set_xticklabels(categories, fontsize=10)</span>
+<span id="L58"><a href="#L58">  58</a> ax.set_ylabel(&#x27;得分&#x27;, fontsize=11)</span>
+<span id="L59"><a href="#L59">  59</a> ax.legend(frameon=False, labelspacing=0.35, handlelength=1.6, fontsize=9, loc=&#x27;best&#x27;)</span>
+<span id="L60"><a href="#L60">  60</a> ax.set_ylim(0, max(max(v) for v in groups.values()) * 1.2)</span>
+<span id="L61"><a href="#L61">  61</a> ax.grid(axis=&#x27;y&#x27;, alpha=0.12, linestyle=&#x27;--&#x27;, color=COLORS[&#x27;grid&#x27;])</span>
+<span id="L62"><a href="#L62">  62</a> ax.spines[&#x27;top&#x27;].set_visible(False)</span>
+<span id="L63"><a href="#L63">  63</a> ax.spines[&#x27;right&#x27;].set_visible(False)</span>
+<span id="L64"><a href="#L64">  64</a> fig.tight_layout()</span>
+<span id="L65"><a href="#L65">  65</a> save_fig(fig, &#x27;figures/fig_grouped_bar.pdf&#x27;)</span></pre>

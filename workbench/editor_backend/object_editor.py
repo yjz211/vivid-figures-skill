@@ -9,6 +9,10 @@ from pathlib import Path
 def digest(value):
     return hashlib.sha256(json.dumps(value,ensure_ascii=False,sort_keys=True,default=str).encode()).hexdigest()[:20]
 
+def source_text(obj):
+    # Display translations must not change saved object identities.
+    return getattr(obj,'_vivid_source_text',obj.get_text())
+
 def structure_guard(project,folder):
     tables=dict(project.get('tables') or {'data':project['table']})
     if project.get('active_table'):tables[project['active_table']]=project['table']
@@ -173,7 +177,7 @@ def mpl_edit(fig,project,manifest,prefix='',dom_prefix=''):
             register(manifest,oid,'colorbar' if colorbar else 'axis',name+(' 色标 ' if colorbar else ' ')+dim.upper()+' 轴',values,dom_prefix+hit_id)
             if axis.label.get_text():text(axis.label,base+'-'+dim+'-label',name+' '+dim.upper()+' 轴名称')
             for j,tick in enumerate(ticks[:100]):
-                if tick.get_text() and tick.get_visible():text(tick,base+'-'+dim+'-tick-'+digest([j,tick.get_text()]),name+' '+dim.upper()+' 刻度 · '+tick.get_text()[:25])
+                if tick.get_text() and tick.get_visible():text(tick,base+'-'+dim+'-tick-'+digest([j,source_text(tick)]),name+' '+dim.upper()+' 刻度 · '+tick.get_text()[:25])
         leg=ax.get_legend()
         if leg:
             oid='vivid-'+prefix+base+'-legend';leg.set_gid(oid)
@@ -183,8 +187,11 @@ def mpl_edit(fig,project,manifest,prefix='',dom_prefix=''):
             if 'ncols' in p:
                 # Rebuild the packer using existing handles, retaining original artists/styles.
                 handles=leg.legend_handles;labels=[t.get_text() for t in leg.texts];title=leg.get_title().get_text()
+                source_labels=[source_text(t) for t in leg.texts];source_title=source_text(leg.get_title())
                 leg.set_ncols(int(p['ncols']));leg._init_legend_box(handles,labels,markerfirst=True)
-                leg.set_title(title)
+                leg.set_loc(leg._loc)  # Attach the new packer to the original anchor.
+                for item,original in zip(leg.texts,source_labels):item._vivid_source_text=original
+                leg.set_title(title);leg.get_title()._vivid_source_text=source_title
             if 'fontsize' in p:
                 for t in leg.texts:t.set_fontsize(p['fontsize'])
             if 'frame' in p:leg.set_frame_on(p['frame'])
@@ -200,14 +207,14 @@ def mpl_edit(fig,project,manifest,prefix='',dom_prefix=''):
             for k,v in p.items():getattr(line,'set_'+k)(v)
             if leg:
                 for handle,t in zip(leg.legend_handles,leg.texts):
-                    if t.get_text()==label:
+                    if source_text(t)==label:
                         for k,v in p.items():
                             if hasattr(handle,'set_'+k):getattr(handle,'set_'+k)(v)
             register(manifest,oid,'line',name+' 曲线 · '+label,dict(color=color(line.get_color()),linewidth=line.get_linewidth(),alpha=line.get_alpha() if line.get_alpha() is not None else 1,visible=line.get_visible()),dom_prefix+oid)
         seen={}
         for t in ax.texts[:150]:
             if not t.get_text():continue
-            key=digest(t.get_text());seen[key]=seen.get(key,0)+1
+            key=digest(source_text(t));seen[key]=seen.get(key,0)+1
             text(t,f'{base}-text-{key}-{seen[key]}',name+' 标注 · '+t.get_text()[:30])
 
 def plotly_edit(fig,project,manifest):
@@ -238,8 +245,10 @@ def plotly_edit(fig,project,manifest):
     if 'fontsize' in p:fig.layout.legend.font.size=p['fontsize']
     if 'visible' in p:fig.layout.showlegend=p['visible']
     register(manifest,oid,'legend','图例',dict(fontsize=fig.layout.legend.font.size or 12,visible=fig.layout.showlegend is not False))
+    source_names=getattr(fig,'_vivid_source_names',[])
     for i,tr in enumerate(fig.data):
-        oid=f'vivid-trace-{i}-{digest([tr.name,tr.type])}'
+        identity=source_names[i] if i<len(source_names) else tr.name
+        oid=f'vivid-trace-{i}-{digest([identity,tr.type])}'
         p=props_for(project,manifest,oid,['alpha','visible'])
         if 'alpha' in p:tr.opacity=p['alpha']
         if 'visible' in p:tr.visible=p['visible']

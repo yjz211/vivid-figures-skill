@@ -8,7 +8,7 @@
 
 **Agent 工作台**使用同一套模板和可拖动编辑器。可以手动选择数据和字段直接出图，也可以让助手选图、整理数据、修改和检查图片。详细操作、开源复用和启动方式见 [Agent 工作台](docs/AGENT-WORKBENCH.md)，本轮实测范围见 [质量报告](docs/AGENT-QUALITY-REPORT.md)。常规手动编辑器仍可独立启动。
 
-Agent 入口：在 `workbench` 目录安装 `requirements-agent.txt` 后执行 `python -X utf8 scripts/manage.py agent --open`，或双击 `启动Agent工作台.cmd`。地址为 <http://127.0.0.1:8766/agent.html>。手动绘图不需要模型；使用助手时优先连接本机已登录的 Codex CLI，也支持配置兼容 API。Agent 数据整理需要 Node.js。
+Agent 入口：在 `workbench` 目录安装 `requirements-agent.txt` 后执行 `python -X utf8 scripts/manage.py agent --open`，或双击 `启动Agent工作台.cmd`。启动后先打开选图图库 <http://127.0.0.1:8766/index.html>，选好模板后进入编辑；顶部的「Agent 工作台」可进入助手页面。手动绘图不需要模型；使用助手时优先连接本机已登录的 Codex CLI，也支持配置兼容 API。Agent 数据整理需要 Node.js。
 
 安装 Python 3.11 或更新版本，在仓库根目录执行：
 
@@ -21,6 +21,20 @@ python -X utf8 scripts/manage.py serve --open
 浏览器打开 <http://127.0.0.1:8766/index.html>。Windows 安装依赖后也可双击 `启动工作台.cmd`；启动器优先使用工作台的 `.venv`，随后查找 `py` 或 `python`。服务运行期间保留启动窗口。
 
 只看图库和下载原始模板包时，可直接用浏览器打开 `index.html`。编辑数据和生成新图需要本地 Python 服务。Plotly 静态导出需要 Chrome / Chromium，中文图需要中文字体。
+
+## 图内语言
+
+图库首页和模板详情中的“模板语言”可选择中文或 English，默认中文并记住上次选择；卡片缩略图、详情大图和原图链接同步切换。两套预览使用同一源码与粉彩少女配色。选模板进入编辑时，新项目沿用所选语言，已有项目保留原来保存的语言。共享模板包可运行 `python run_demo.py --language en` 生成英文示例。
+
+编辑器图形设置中的“图内语言”也可选择中文或 English。切换后自动更新模板固定文字和字体；原始表格、数值和手动位置保留。任意专有名称可在图中点选修改，助手也可通过 `settings.english_labels` 提供明确的原文→英文映射。未译名称会在现有提示中列出，界面语言不随图内语言改变。语言和显示名映射随项目保存、历史版本与复现包导出。
+
+### 图表字体
+
+普通图默认使用 Arial 绘制英文与数字，使用 MiSans 绘制中文；保留专门设计的 Times New Roman 等衬线风格。图库、编辑器、下载与复现包共用字体选择逻辑。字号层级、字重与用户拖动位置沿用模板和编辑设置。
+
+本软件使用 MiSans 字体。需要与图库的中文效果一致时，从 [MiSans 官方下载页](https://hyperos.mi.com/font/zh/download/) 安装 TTF 格式的 Regular、Semibold、Bold；仅安装 Regular 无法表现真正的中文粗体。MiSans 和 Arial 字体文件不随本仓库或源码包分发。缺少首选字体时会使用思源黑体、Noto、微软雅黑等可用回退字体；跨机器精确复现需相同字体。
+
+英文选择参考 [Nature 官方图件规范](https://research-figure-guide.nature.com/figures/preparing-figures-our-specifications/)中的 Arial / Helvetica 建议。中文 MiSans 是本项目的视觉选择，不是期刊通用强制要求。PDF 默认嵌入 TrueType 字体，便于保留中文文本。
 
 ## 使用流程
 

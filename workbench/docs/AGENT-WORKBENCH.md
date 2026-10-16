@@ -14,7 +14,7 @@ python -m venv .venv
 .venv/Scripts/python -X utf8 scripts/manage.py agent --open
 ```
 
-安装后可双击 `启动Agent工作台.cmd`。入口为 <http://127.0.0.1:8766/agent.html>，同一个服务也提供原来的图库与编辑器。如果旧工作台已经占用 8766，先关闭旧服务，或通过 `--port 8767` 使用其他端口。
+安装后可双击 `启动Agent工作台.cmd`。默认打开选图图库 <http://127.0.0.1:8766/index.html>；先选择模板，再进入编辑。需要助手时，点击顶部「Agent 工作台」进入 <http://127.0.0.1:8766/agent.html>，同一个服务提供这三个页面。如果旧工作台已经占用 8766，先关闭旧服务，或通过 `--port 8767` 使用其他端口。
 
 ### 无需模型：选模板、对应字段、出图
 

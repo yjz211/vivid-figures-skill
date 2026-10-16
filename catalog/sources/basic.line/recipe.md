@@ -19,6 +19,7 @@ markers = ['o', 's', '^']
 stds = {k: np.random.uniform(1.5, 3.0, len(v)) for k, v in series.items()}
 
 fig, ax = plt.subplots(figsize=(8, 5))
+highlight_index = 0  # 重点系列的位置，与显示名称无关
 
 # 淡色背景渐变
 ax.axhspan(min(min(v) for v in series.values()) - 5,
@@ -26,7 +27,7 @@ ax.axhspan(min(min(v) for v in series.values()) - 5,
            alpha=0.02, color=PALETTE[0], zorder=0)
 
 for i, (name, y) in enumerate(series.items()):
-    is_ours = '本文' in name
+    is_ours = i == highlight_index
     noise = stds[name]
 
     # 渐变填充置信带
@@ -66,7 +67,7 @@ save_fig(fig, 'figures/fig_line.pdf')
 **★ 防遮挡技巧（折线图专用）：**
 ```python
 # 1. 极值标注箭头方向：根据数据走势选择 xytext 偏移方向，避免和折线重叠
-# 2. 置信带层数 3 层渐变：最内层 alpha=0.15，最外层 alpha=0.03
+# 2. 置信带层数 3 层渐变：按源码由外向内叠加 alpha=0.15、0.08、0.03；内层累计叠色更深
 # 3. 多系列（>4 条）时：只标注本文方法的极值，其余省略
 # 4. x 轴标签密集时：每隔 2 个标注一次，或 rotation=30
 ```

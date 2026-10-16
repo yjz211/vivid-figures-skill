@@ -1,15 +1,42 @@
 'use strict';
 const $ = id => document.getElementById(id);
+// Bump the app.js version in index.html when rebuilding previews in place.
+const previewRevision=new URL(document.currentScript.src).searchParams.get('v')||'1';
 const catalog = window.VIVID_CATALOG;
 const cards = catalog.cards;
 const editableIds=new Set(window.VIVID_EDITABLE_IDS||[]);
-function editorURL(id){return (location.protocol==='file:'?'http://127.0.0.1:8766/':'')+'editor.html?template='+encodeURIComponent(id);}
+function editorURL(id){return (location.protocol==='file:'?'http://127.0.0.1:8766/':'')+'editor.html?template='+encodeURIComponent(id)+'&language='+state.language;}
 const byId = new Map(cards.map(c => [c.id, c]));
 const SIZE = 24;
 let favorites;
 try { favorites = new Set(JSON.parse(localStorage.getItem('vivid-workbench-favorites') || '[]').filter(id => byId.has(id))); }
 catch { favorites = new Set(); }
-let state = {category:'all', query:'', favorites:false, sort:'recommended', page:1};
+function initialLanguage() {
+  const requested=new URLSearchParams(location.search).get('language');
+  if(['zh','en'].includes(requested))return requested;
+  try {return localStorage.getItem('vivid-workbench-preview-language')==='en'?'en':'zh';}
+  catch {return 'zh';}
+}
+let state = {category:'all', query:'', favorites:false, sort:'recommended', page:1, language:initialLanguage()};
+function languageName(){return state.language==='en'?'英文':'中文';}
+function previewURL(path){
+  const localized=state.language==='en'?path.replace('assets/previews/','assets/previews-en/').replace('assets/thumbs/','assets/thumbs-en/'):path;
+  return localized+(localized.includes('?')?'&':'?')+'v='+encodeURIComponent(previewRevision);
+}
+function syncLanguageControls(){
+  document.querySelectorAll('[data-preview-language]').forEach(el=>el.value=state.language);
+  $('preview-language-hint').textContent=`${languageName()}模板预览 · 选择模板后沿用此语言，界面保持中文。`;
+  $('detail-preview-language').textContent=languageName()+'预览';
+}
+function setLanguage(value){
+  if(!['zh','en'].includes(value))return;
+  state.language=value;
+  try {localStorage.setItem('vivid-workbench-preview-language',value);}catch{}
+  const url=new URL(location.href);url.searchParams.set('language',value);
+  history.replaceState(null,'',url);
+  syncLanguageControls();render();
+  if(current){showVariant(variant);$('use-template').href=editorURL(current.id);updateSource();}
+}
 let results = [], current = null, trigger = null, variant = 0, toastTimer;
 const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const normalize = s => s.toLocaleLowerCase().normalize('NFKC').replace(/[‐–—_]/g,' ').trim();
@@ -65,7 +92,7 @@ function render() {
     <span class="card-number">NO.${String(c.number).padStart(3,'0')}</span>
     <button class="card-favorite ${favorites.has(c.id)?'selected':''}" data-favorite="${c.id}" aria-label="${favorites.has(c.id)?'取消收藏':'收藏'}${esc(c.display_name)}" aria-pressed="${favorites.has(c.id)}">${favorites.has(c.id)?'★':'☆'}</button>
     <button class="card-open" data-open="${c.id}" aria-label="查看${esc(c.display_name)}">
-      <div class="card-preview"><img src="${c.previews[0].thumb}" alt="${esc(c.display_name)} · 粉彩少女预览" loading="lazy" width="520" height="350"></div>
+      <div class="card-preview"><img src="${previewURL(c.previews[0].thumb)}" alt="${esc(c.display_name)} · 粉彩少女${languageName()}预览" loading="lazy" width="520" height="350"><span class="preview-unavailable" role="status" hidden>${languageName()}预览暂不可用<br><small>可进入编辑器生成</small></span></div>
       ${c.previews.length>1?`<span class="card-variants">${c.previews.length} VIEWS</span>`:''}
       <div class="card-body"><h3>${esc(c.display_name)}</h3><p class="card-purpose">${esc(c.purpose)}</p><div class="card-bottom">${c.tags.slice(0,2).map(t=>`<span class="tag">${esc(t)}</span>`).join('')}<span class="card-arrow" aria-hidden="true">↗</span></div></div>
     </button>${editableIds.has(c.id)?`<a class="card-edit-link" href="${editorURL(c.id)}">修改数据，使用此模板 <span>→</span></a>`:''}</article>`).join('');
@@ -77,8 +104,12 @@ function render() {
 function setQuery(query) { state.query=query.trim(); state.page=1; $('search').value=query; render(); }
 function reset() {state.category='all'; state.query=''; state.page=1; $('search').value='';render();}
 function showVariant(n) {
-  variant=n; const p=current.previews[n]; $('detail-image').src=p.full; $('detail-image').alt=`${current.display_name}，粉彩少女，第 ${n+1} 张预览`;
-  $('full-image').href=p.full;
+  variant=n; const p=current.previews[n],url=previewURL(p.full),img=$('detail-image'),status=$('detail-preview-status');
+  img.hidden=true;status.hidden=false;status.textContent=`正在加载${languageName()}预览…`;
+  $('full-image').hidden=true;$('full-image').href=url;
+  img.onload=()=>{img.hidden=false;status.hidden=true;$('full-image').hidden=false;};
+  img.onerror=()=>{img.hidden=true;status.hidden=false;status.textContent=`${languageName()}预览暂不可用。可进入编辑器生成，或检查本地预览资源。`;$('full-image').hidden=true;};
+  img.alt=`${current.display_name}，粉彩少女，${languageName()}，第 ${n+1} 张预览`;img.src=url;
   $('image-selector').innerHTML=current.previews.length>1?current.previews.map((_,i)=>`<button class="${i===n?'active':''}" data-variant="${i}" aria-pressed="${i===n}">预览 ${i+1}</button>`).join(''):'';
 }
 function setTab(name, focus=false) {
@@ -92,7 +123,7 @@ function updateSource() {
   $('source-code').textContent=mode==='preview'?current.code:current.original;
   $('download-python').href=mode==='preview'?current.source_path:current.original_path;
   $('download-python').download=current.id+(mode==='preview'?'.pastel.py':'.original.py');
-  $('code-note').textContent=mode==='preview'?'完整模板源码，已适配粉彩少女；辅助模块与示例启动器在下载包内。':'库内源码原样保留；固定色或默认配色可能与粉彩预览不同。';
+  $('code-note').textContent=mode==='preview'?(state.language==='en'?'共享模板源码。下载模板包后运行 python run_demo.py --language en 生成英文示例；辅助模块与语言映射已包含在包内。':'完整模板源码，已适配粉彩少女；辅助模块与示例启动器在下载包内。'):'库内源码原样保留；固定色或默认配色可能与粉彩预览不同。';
 }
 function openDetail(id, opener=null) {
   current=byId.get(id); if(!current) return;
@@ -179,6 +210,16 @@ $('copy-code').onclick=async()=>{
 document.addEventListener('keydown',e=>{
   if(e.key==='/'&&!$('detail').open&&!['INPUT','TEXTAREA','SELECT'].includes(document.activeElement.tagName)){e.preventDefault();$('search').focus();}
 });
+document.querySelectorAll('[data-preview-language]').forEach(el=>el.addEventListener('change',e=>setLanguage(e.target.value)));
+$('gallery').addEventListener('error',e=>{
+  if(e.target.tagName!=='IMG')return;
+  e.target.hidden=true;const message=e.target.parentElement.querySelector('.preview-unavailable');if(message)message.hidden=false;
+},true);
+$('gallery').addEventListener('load',e=>{
+  if(e.target.tagName!=='IMG')return;
+  e.target.hidden=false;const message=e.target.parentElement.querySelector('.preview-unavailable');if(message)message.hidden=true;
+},true);
+syncLanguageControls();
 $('swatches').innerHTML=catalog.colors.map(c=>`<i style="background:${c}" title="${c}"></i>`).join('');
 render();
 const hash=decodeURIComponent(location.hash.slice(1)); if(byId.has(hash))openDetail(hash);

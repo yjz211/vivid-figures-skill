@@ -13,38 +13,38 @@
 <span id="L13"><a href="#L13">  13</a> }</span>
 <span id="L14"><a href="#L14">  14</a> </span>
 <span id="L15"><a href="#L15">  15</a> fig, ax = plt.subplots(figsize=(7, 4.5))</span>
-<span id="L16"><a href="#L16">  16</a> ax.grid(True, linestyle=&#x27;--&#x27;, alpha=0.15, color=COLORS[&#x27;grid&#x27;]); ax.set_axisbelow(True)</span>
-<span id="L17"><a href="#L17">  17</a> </span>
-<span id="L18"><a href="#L18">  18</a> _end_xs, _end_ys, _end_texts, _end_colors = [], [], [], []</span>
-<span id="L19"><a href="#L19">  19</a> for i, (name, vals) in enumerate(methods.items()):</span>
-<span id="L20"><a href="#L20">  20</a>     lw = 2.5 if &#x27;本文&#x27; in name else 1.5</span>
-<span id="L21"><a href="#L21">  21</a>     alpha = 1.0 if &#x27;本文&#x27; in name else 0.55</span>
-<span id="L22"><a href="#L22">  22</a>     ax.plot(iters, vals, color=PALETTE[i], linewidth=lw, label=name, alpha=alpha, zorder=3)</span>
-<span id="L23"><a href="#L23">  23</a>     _end_xs.append(iters[-1]); _end_ys.append(vals[-1])</span>
-<span id="L24"><a href="#L24">  24</a>     _end_texts.append(f&#x27;{vals[-1]:.1f}&#x27;); _end_colors.append(PALETTE[i])</span>
-<span id="L25"><a href="#L25">  25</a> # ★ 终点标注用 smart_labels 防重叠</span>
-<span id="L26"><a href="#L26">  26</a> from _utils.plot_utils import save_fig, smart_labels</span>
-<span id="L27"><a href="#L27">  27</a> smart_labels(ax, _end_xs, _end_ys, _end_texts, colors=_end_colors, fontsize=8, offset=(8, 0))</span>
-<span id="L28"><a href="#L28">  28</a> </span>
-<span id="L29"><a href="#L29">  29</a> # 本文算法的下方填充区域（强调单独）</span>
-<span id="L30"><a href="#L30">  30</a> ours = methods[&#x27;本文算法&#x27;]</span>
-<span id="L31"><a href="#L31">  31</a> ax.fill_between(iters, ours, alpha=0.10, color=PALETTE[3], linewidth=0, zorder=1)</span>
-<span id="L32"><a href="#L32">  32</a> </span>
-<span id="L33"><a href="#L33">  33</a> # 收敛点标注</span>
-<span id="L34"><a href="#L34">  34</a> diff = np.abs(np.diff(ours))</span>
-<span id="L35"><a href="#L35">  35</a> conv_idx = np.argmax(diff &lt; 0.15) + 1</span>
-<span id="L36"><a href="#L36">  36</a> ax.annotate(&#x27;收敛点&#x27;, xy=(iters[conv_idx], ours[conv_idx]),</span>
-<span id="L37"><a href="#L37">  37</a>             xytext=(iters[conv_idx]+60, ours[conv_idx]+12),</span>
-<span id="L38"><a href="#L38">  38</a>             fontsize=10, color=COLORS[&#x27;down&#x27;], fontweight=&#x27;bold&#x27;,</span>
-<span id="L39"><a href="#L39">  39</a>             arrowprops=dict(arrowstyle=&#x27;-&gt;&#x27;, color=COLORS[&#x27;down&#x27;], lw=1.5), zorder=5)</span>
-<span id="L40"><a href="#L40">  40</a> ax.scatter([iters[conv_idx]], [ours[conv_idx]], color=COLORS[&#x27;down&#x27;], s=50, zorder=5, edgecolors=&#x27;white&#x27;)</span>
-<span id="L41"><a href="#L41">  41</a> </span>
-<span id="L42"><a href="#L42">  42</a> ax.set_xlabel(&#x27;迭代次数&#x27;, fontsize=11); ax.set_ylabel(&#x27;目标函数值&#x27;, fontsize=11)</span>
-<span id="L43"><a href="#L43">  43</a> # ★ 图例用 loc=&#x27;best&#x27; 自适应，不要硬编码 &#x27;upper right&#x27;（避免数据在右上角时遮挡图例）</span>
-<span id="L44"><a href="#L44">  44</a> ax.legend(frameon=False, labelspacing=0.35, handlelength=1.6, fontsize=9, loc=&#x27;best&#x27;)</span>
-<span id="L45"><a href="#L45">  45</a> ax.set_xlim(0, 520)</span>
-<span id="L46"><a href="#L46">  46</a> ax.spines[&#x27;top&#x27;].set_visible(False)</span>
-<span id="L47"><a href="#L47">  47</a> ax.spines[&#x27;right&#x27;].set_visible(False)</span>
-<span id="L48"><a href="#L48">  48</a> fig.tight_layout()</span>
-<span id="L49"><a href="#L49">  49</a> save_fig(fig, &#x27;figures/fig_convergence.pdf&#x27;)</span>
-</pre>
+<span id="L16"><a href="#L16">  16</a> highlight_index = min(3, len(methods) - 1)  # 重点系列的位置，与显示名称无关</span>
+<span id="L17"><a href="#L17">  17</a> ax.grid(True, linestyle=&#x27;--&#x27;, alpha=0.15, color=COLORS[&#x27;grid&#x27;]); ax.set_axisbelow(True)</span>
+<span id="L18"><a href="#L18">  18</a> </span>
+<span id="L19"><a href="#L19">  19</a> _end_xs, _end_ys, _end_texts, _end_colors = [], [], [], []</span>
+<span id="L20"><a href="#L20">  20</a> for i, (name, vals) in enumerate(methods.items()):</span>
+<span id="L21"><a href="#L21">  21</a>     lw = 2.5 if i == highlight_index else 1.5</span>
+<span id="L22"><a href="#L22">  22</a>     alpha = 1.0 if i == highlight_index else 0.55</span>
+<span id="L23"><a href="#L23">  23</a>     ax.plot(iters, vals, color=PALETTE[i], linewidth=lw, label=name, alpha=alpha, zorder=3)</span>
+<span id="L24"><a href="#L24">  24</a>     _end_xs.append(iters[-1]); _end_ys.append(vals[-1])</span>
+<span id="L25"><a href="#L25">  25</a>     _end_texts.append(f&#x27;{vals[-1]:.1f}&#x27;); _end_colors.append(PALETTE[i])</span>
+<span id="L26"><a href="#L26">  26</a> # ★ 终点标注用 smart_labels 防重叠</span>
+<span id="L27"><a href="#L27">  27</a> from _utils.plot_utils import save_fig, smart_labels</span>
+<span id="L28"><a href="#L28">  28</a> smart_labels(ax, _end_xs, _end_ys, _end_texts, colors=_end_colors, fontsize=8, offset=(8, 0))</span>
+<span id="L29"><a href="#L29">  29</a> </span>
+<span id="L30"><a href="#L30">  30</a> # 本文算法的下方填充区域（强调单独）</span>
+<span id="L31"><a href="#L31">  31</a> ours = list(methods.values())[highlight_index]</span>
+<span id="L32"><a href="#L32">  32</a> ax.fill_between(iters, ours, alpha=0.10, color=PALETTE[highlight_index], linewidth=0, zorder=1)</span>
+<span id="L33"><a href="#L33">  33</a> </span>
+<span id="L34"><a href="#L34">  34</a> # 收敛点标注</span>
+<span id="L35"><a href="#L35">  35</a> diff = np.abs(np.diff(ours))</span>
+<span id="L36"><a href="#L36">  36</a> conv_idx = np.argmax(diff &lt; 0.15) + 1</span>
+<span id="L37"><a href="#L37">  37</a> ax.annotate(&#x27;收敛点&#x27;, xy=(iters[conv_idx], ours[conv_idx]),</span>
+<span id="L38"><a href="#L38">  38</a>             xytext=(iters[conv_idx]+60, ours[conv_idx]+12),</span>
+<span id="L39"><a href="#L39">  39</a>             fontsize=10, color=COLORS[&#x27;down&#x27;], fontweight=&#x27;bold&#x27;,</span>
+<span id="L40"><a href="#L40">  40</a>             arrowprops=dict(arrowstyle=&#x27;-&gt;&#x27;, color=COLORS[&#x27;down&#x27;], lw=1.5), zorder=5)</span>
+<span id="L41"><a href="#L41">  41</a> ax.scatter([iters[conv_idx]], [ours[conv_idx]], color=COLORS[&#x27;down&#x27;], s=50, zorder=5, edgecolors=&#x27;white&#x27;)</span>
+<span id="L42"><a href="#L42">  42</a> </span>
+<span id="L43"><a href="#L43">  43</a> ax.set_xlabel(&#x27;迭代次数&#x27;, fontsize=11); ax.set_ylabel(&#x27;目标函数值&#x27;, fontsize=11)</span>
+<span id="L44"><a href="#L44">  44</a> # ★ 图例用 loc=&#x27;best&#x27; 自适应，不要硬编码 &#x27;upper right&#x27;（避免数据在右上角时遮挡图例）</span>
+<span id="L45"><a href="#L45">  45</a> ax.legend(frameon=False, labelspacing=0.35, handlelength=1.6, fontsize=9, loc=&#x27;best&#x27;)</span>
+<span id="L46"><a href="#L46">  46</a> ax.set_xlim(0, 520)</span>
+<span id="L47"><a href="#L47">  47</a> ax.spines[&#x27;top&#x27;].set_visible(False)</span>
+<span id="L48"><a href="#L48">  48</a> ax.spines[&#x27;right&#x27;].set_visible(False)</span>
+<span id="L49"><a href="#L49">  49</a> fig.tight_layout()</span>
+<span id="L50"><a href="#L50">  50</a> save_fig(fig, &#x27;figures/fig_convergence.pdf&#x27;)</span></pre>

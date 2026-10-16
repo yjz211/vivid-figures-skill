@@ -50,6 +50,6 @@ ID：`competition.multistep_decay`
 
 - 保留重点：保留主模型粗线和浅带、白边点与阈值参考；源码的浅带围绕单个主模型，不是所有方法跨度。
 - 可适配：步数、方法、阈值和区间重新确定，没有重复结果时不复制示例 std。
-- 源码：[L20–21](../sources/competition.multistep_decay/original.html#L20) · [L24–24](../sources/competition.multistep_decay/original.html#L24) · [L27–27](../sources/competition.multistep_decay/original.html#L27)
+- 源码：[L21–22](../sources/competition.multistep_decay/original.html#L21) · [L25–25](../sources/competition.multistep_decay/original.html#L25) · [L28–28](../sources/competition.multistep_decay/original.html#L28)
 
 按现有审图流程对照实际输出；有疑问时可用[源码差异提示](../../template-fidelity.md)。

@@ -55,6 +55,6 @@ ID：`competition.radar`
 
 - 保留重点：保留闭合透明叠面、主次线宽、交替浅环与外侧读数，不以实色面遮掉其他方案。
 - 可适配：指标数量与归一化、主方案和标签位置可变，不同量纲先确定可比规则。
-- 源码：[L27–27](../sources/competition.radar/original.html#L27) · [L28–28](../sources/competition.radar/original.html#L28) · [L42–42](../sources/competition.radar/original.html#L42) · [L43–43](../sources/competition.radar/original.html#L43)
+- 源码：[L28–28](../sources/competition.radar/original.html#L28) · [L29–29](../sources/competition.radar/original.html#L29) · [L43–43](../sources/competition.radar/original.html#L43) · [L44–44](../sources/competition.radar/original.html#L44)
 
 按现有审图流程对照实际输出；有疑问时可用[源码差异提示](../../template-fidelity.md)。

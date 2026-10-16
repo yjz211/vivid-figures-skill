@@ -17,10 +17,11 @@ models = {
 }
 
 fig, ax = plt.subplots(figsize=(7, 4.5))
+highlight_index = 0  # 重点系列的位置，与显示名称无关
 ax.grid(True, linestyle='--', alpha=0.15); ax.set_axisbelow(True)
 
 for i, (name, vals) in enumerate(models.items()):
-    is_ours = '本文' in name
+    is_ours = i == highlight_index
     lw = 2.5 if is_ours else 1.5
     alpha = 1.0 if is_ours else 0.6
     ax.plot(steps, vals, color=PALETTE[i], linewidth=lw, marker='o', markersize=5,
