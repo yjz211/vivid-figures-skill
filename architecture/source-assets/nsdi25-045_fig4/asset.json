@@ -1,0 +1,86 @@
+{
+  "name": "观测建图与人工反馈的策略闭环",
+  "family": "offline-online",
+  "tags": [
+    "观测建图",
+    "策略",
+    "人工反馈",
+    "训练部署"
+  ],
+  "when_to_use": "观测数据驱动规则生成且有人机反馈；训练过程和运行部署需要放在同一总览",
+  "avoid": "纯自动单向预测；不含关系图但直接沿用网络图元的任务",
+  "preserve": [
+    "横向主线穿插上下两个层面，训练器位于中下方，反馈对象位于右下，执行器位于右上。",
+    "圆角绿框为功能模块，网络图为关系产物，人物为人工输入，书本为规则产物。",
+    "黑色箭头区分观测、训练产出和反馈；虚线仅分隔工作阶段，圆形数字标出三类主要操作。",
+    "浅绿用于处理模块，浅蓝圆圈用于步骤，深蓝用于设备及阶段标题；图标颜色不代表数据指标。",
+    "模块采用短句无衬线，图标下方粗体注明对象，阶段标签紧贴分隔线但不压线。"
+  ],
+  "adapt": "先定义关系图的节点、边和观测窗口。 明确人工反馈改变标签、分组还是规则。 若任务没有训练阶段，应重构下半区而非仅替换 Trainer 文字。",
+  "visual_note": "横向主线穿插上下两个层面，训练器位于中下方，反馈对象位于右下，执行器位于右上。",
+  "parts": [
+    {
+      "id": "observation",
+      "name": "观测入口",
+      "role": "component",
+      "box": [
+        0.03,
+        0.19,
+        0.18,
+        0.56
+      ],
+      "meaning": "设备集合产生流量或事件记录。",
+      "reuse": "换成真实观测对象和记录粒度。"
+    },
+    {
+      "id": "graph-construction",
+      "name": "关系构造",
+      "role": "component",
+      "box": [
+        0.26,
+        0.27,
+        0.19,
+        0.45
+      ],
+      "meaning": "记录被转换为节点和边。",
+      "reuse": "必须定义边含义，不能只改图标题。"
+    },
+    {
+      "id": "training-feedback",
+      "name": "训练与反馈",
+      "role": "component",
+      "box": [
+        0.5,
+        0.59,
+        0.46,
+        0.38
+      ],
+      "meaning": "训练产物由人员检查并返回意见。",
+      "reuse": "保留实际需要的人工决策，删除不存在的审批。"
+    },
+    {
+      "id": "policy-deployment",
+      "name": "策略执行",
+      "role": "component",
+      "box": [
+        0.48,
+        0.15,
+        0.47,
+        0.37
+      ],
+      "meaning": "模型与规则分别送入执行端。",
+      "reuse": "区分模型更新与规则发布的输入。"
+    }
+  ],
+  "selection_evidence": {
+    "candidate_index": 41,
+    "semantics_read": true,
+    "preview_reviewed": true,
+    "source_render_reviewed": true,
+    "render": "source-renders/41.png"
+  },
+  "implementation": "source-derived editable SVG",
+  "validation_status": "source-fidelity-checked",
+  "id": "architecture.source.nsdi25-045_fig4",
+  "display_code": "VA-053"
+}

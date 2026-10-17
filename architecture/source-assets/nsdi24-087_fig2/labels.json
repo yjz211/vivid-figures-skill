@@ -1,0 +1,302 @@
+[
+  {
+    "key": "e0002",
+    "text": "Gateway",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      28.850036621093693,
+      132.5289306640625,
+      39.3736572265625,
+      11.116058349609375
+    ],
+    "components": []
+  },
+  {
+    "key": "e0009",
+    "text": "Application",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      115.47302246093744,
+      160.2789306640625,
+      48.90386962890625,
+      11.116058349609375
+    ],
+    "components": [
+      "application-network"
+    ]
+  },
+  {
+    "key": "e0013",
+    "text": "Tower (",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      19.610046386718693,
+      47.188934326171875,
+      35.70391845703125,
+      11.116058349609375
+    ],
+    "components": [
+      "global-controller"
+    ]
+  },
+  {
+    "key": "e0014",
+    "text": "§",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      55.13000488281244,
+      47.188934326171875,
+      5.558033466339111,
+      11.116066932678223
+    ],
+    "components": [
+      "global-controller"
+    ]
+  },
+  {
+    "key": "e0015",
+    "text": "3.3)",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      60.65002441406244,
+      47.188934326171875,
+      17.1097412109375,
+      11.116058349609375
+    ],
+    "components": [
+      "global-controller"
+    ]
+  },
+  {
+    "key": "e0016",
+    "text": "RPS,",
+    "font_family": "VividSource-Arimo-Italic",
+    "bounds": [
+      21.460083007812443,
+      77.908935546875,
+      23.17449951171875,
+      11.116058349609375
+    ],
+    "components": []
+  },
+  {
+    "key": "e0017",
+    "text": "l",
+    "font_family": "VividSource-Arimo-Italic",
+    "bounds": [
+      13.059997558593693,
+      89.908935546875,
+      2.7790167331695557,
+      11.116066932678223
+    ],
+    "components": []
+  },
+  {
+    "key": "e0018",
+    "text": "atency",
+    "font_family": "VividSource-Arimo-Italic",
+    "bounds": [
+      15.219970703124943,
+      89.908935546875,
+      30.3072509765625,
+      11.116058349609375
+    ],
+    "components": []
+  },
+  {
+    "key": "e0019",
+    "text": "SLO",
+    "font_family": "VividSource-Arimo-Italic",
+    "bounds": [
+      23.059997558593693,
+      5.20892333984375,
+      19.88897705078125,
+      11.116058349609375
+    ],
+    "components": [
+      "global-controller"
+    ]
+  },
+  {
+    "key": "e0042",
+    "text": "Captain (",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      239.3500366210937,
+      67.658935546875,
+      42.92486572265625,
+      11.116058349609375
+    ],
+    "components": [
+      "local-controller"
+    ]
+  },
+  {
+    "key": "e0043",
+    "text": "§",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      282.0700073242187,
+      67.658935546875,
+      5.558033466339111,
+      11.116066932678223
+    ],
+    "components": [
+      "local-controller"
+    ]
+  },
+  {
+    "key": "e0044",
+    "text": "3.2)",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      287.59008789062494,
+      67.658935546875,
+      17.10968017578125,
+      11.116058349609375
+    ],
+    "components": [
+      "local-controller"
+    ]
+  },
+  {
+    "key": "e0047",
+    "text": "CPU scheduler",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      306.9400024414062,
+      95.06893920898438,
+      67.33685302734375,
+      11.116058349609375
+    ],
+    "components": [
+      "local-controller",
+      "local-scheduler"
+    ]
+  },
+  {
+    "key": "e0050",
+    "text": "t",
+    "font_family": "VividSource-Arimo-Italic",
+    "bounds": [
+      343.66003417968744,
+      64.89889526367188,
+      3.573021650314331,
+      11.116066932678223
+    ],
+    "components": [
+      "local-controller"
+    ]
+  },
+  {
+    "key": "e0051",
+    "text": "hrottle,",
+    "font_family": "VividSource-Arimo-Italic",
+    "bounds": [
+      346.42004394531244,
+      64.89889526367188,
+      30.3856201171875,
+      11.116058349609375
+    ],
+    "components": [
+      "local-controller"
+    ]
+  },
+  {
+    "key": "e0052",
+    "text": "u",
+    "font_family": "VividSource-Arimo-Italic",
+    "bounds": [
+      343.66003417968744,
+      76.89892578125,
+      5.558033466339111,
+      11.116066932678223
+    ],
+    "components": [
+      "local-controller"
+    ]
+  },
+  {
+    "key": "e0053",
+    "text": "sage",
+    "font_family": "VividSource-Arimo-Italic",
+    "bounds": [
+      348.78308105468744,
+      76.89892578125,
+      22.02044677734375,
+      11.116058349609375
+    ],
+    "components": [
+      "local-controller"
+    ]
+  },
+  {
+    "key": "e0054",
+    "text": "quota",
+    "font_family": "VividSource-Arimo-Italic",
+    "bounds": [
+      243.5499877929687,
+      85.10891723632812,
+      24.8690185546875,
+      11.116058349609375
+    ],
+    "components": [
+      "application-network",
+      "local-controller"
+    ]
+  },
+  {
+    "key": "e0057",
+    "text": "CPU allocation",
+    "font_family": "VividSource-Arimo-Italic",
+    "bounds": [
+      221.1400756835937,
+      24.81890869140625,
+      65.79608154296875,
+      11.116058349609375
+    ],
+    "components": [
+      "local-controller"
+    ]
+  },
+  {
+    "key": "e0058",
+    "text": "p",
+    "font_family": "VividSource-Arimo-Italic",
+    "bounds": [
+      304.38305664062494,
+      24.578948974609375,
+      5.955036163330078,
+      11.116066932678223
+    ],
+    "components": [
+      "local-controller"
+    ]
+  },
+  {
+    "key": "e0059",
+    "text": "erformance target",
+    "font_family": "VividSource-Arimo-Italic",
+    "bounds": [
+      310.2999877929687,
+      24.578948974609375,
+      79.3985595703125,
+      11.116058349609375
+    ],
+    "components": [
+      "local-controller"
+    ]
+  },
+  {
+    "key": "e0061",
+    "text": "(Tower)",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      279.5499877929687,
+      0.84893798828125,
+      34.3541259765625,
+      11.116058349609375
+    ],
+    "components": []
+  }
+]

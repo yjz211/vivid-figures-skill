@@ -1,0 +1,266 @@
+[
+  {
+    "key": "e0001",
+    "text": "OrchestratorPE Array",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      11.937289974713508,
+      -0.5177164668668865,
+      50.94780952269002,
+      3.578099810383719
+    ],
+    "components": []
+  },
+  {
+    "key": "e0002",
+    "text": "meta-data",
+    "font_family": "VividSource-DejaVuSans",
+    "bounds": [
+      -0.2372709428210511,
+      3.472025980316573,
+      7.718012236658467,
+      5.464959797933204
+    ],
+    "components": []
+  },
+  {
+    "key": "e0012",
+    "text": "s",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      11.344779944472805,
+      7.227887482622464,
+      2.009087750579752,
+      4.4997256292481325
+    ],
+    "components": [
+      "upper-fsm"
+    ]
+  },
+  {
+    "key": "e0013",
+    "text": "1",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      13.2694708530326,
+      9.304169691817151,
+      1.4526412620531701,
+      2.9529453033997015
+    ],
+    "components": [
+      "upper-fsm"
+    ]
+  },
+  {
+    "key": "e0014",
+    "text": "s",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      26.79054523994182,
+      6.940601537247858,
+      2.009087750579752,
+      4.4997256292481325
+    ],
+    "components": [
+      "upper-fsm"
+    ]
+  },
+  {
+    "key": "e0015",
+    "text": "2",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      28.71523429909973,
+      9.016884704324184,
+      1.4526412620531701,
+      2.9529453033997015
+    ],
+    "components": [
+      "upper-fsm"
+    ]
+  },
+  {
+    "key": "e0028",
+    "text": "msg+3 cycles",
+    "font_family": "VividSource-DejaVuSans",
+    "bounds": [
+      21.37404653427791,
+      3.1110126464544408,
+      38.335844964158696,
+      13.817294445278208
+    ],
+    "components": []
+  },
+  {
+    "key": "e0035",
+    "text": "s",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      11.344779944472805,
+      20.122616151300463,
+      2.009087750579752,
+      4.4997256292481325
+    ],
+    "components": [
+      "lower-fsm"
+    ]
+  },
+  {
+    "key": "e0036",
+    "text": "1",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      13.2694708530326,
+      22.19889931837679,
+      1.4526412620531701,
+      2.9529453033997015
+    ],
+    "components": []
+  },
+  {
+    "key": "e0037",
+    "text": "s",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      26.79054523994182,
+      19.835332121689135,
+      2.009087750579752,
+      4.4997256292481325
+    ],
+    "components": [
+      "lower-fsm"
+    ]
+  },
+  {
+    "key": "e0038",
+    "text": "2",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      28.71523429909973,
+      21.91161528876546,
+      1.4526412620531701,
+      2.9529453033997015
+    ],
+    "components": []
+  },
+  {
+    "key": "e0048",
+    "text": "inst1",
+    "font_family": "VividSource-DejaVuSans",
+    "bounds": [
+      31.949209955549577,
+      20.287589698120883,
+      6.428237668857491,
+      3.093560763476262
+    ],
+    "components": []
+  },
+  {
+    "key": "e0054",
+    "text": "PE[0,1]",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      40.06620407931814,
+      19.612816216973442,
+      5.465200701733011,
+      6.091416475206643
+    ],
+    "components": [
+      "execution-array"
+    ]
+  },
+  {
+    "key": "e0057",
+    "text": "PE[1,1]",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      54.887338903640284,
+      19.612816216973442,
+      5.46520449967511,
+      6.091416475206643
+    ],
+    "components": [
+      "execution-array"
+    ]
+  },
+  {
+    "key": "e0058",
+    "text": "inst2",
+    "font_family": "VividSource-DejaVuSans",
+    "bounds": [
+      32.30497840507542,
+      7.3374543819775795,
+      6.428237668857491,
+      3.0935612424170245
+    ],
+    "components": []
+  },
+  {
+    "key": "e0064",
+    "text": "inst2",
+    "font_family": "VividSource-DejaVuSans",
+    "bounds": [
+      46.88071007325357,
+      7.745282978032435,
+      6.428237668857491,
+      3.0935612424170245
+    ],
+    "components": [
+      "execution-array"
+    ]
+  },
+  {
+    "key": "e0074",
+    "text": "+3 cyclesinst2",
+    "font_family": "VividSource-DejaVuSans",
+    "bounds": [
+      46.868537668095996,
+      16.113046223103993,
+      13.05425318438597,
+      7.084966869688287
+    ],
+    "components": [
+      "execution-array"
+    ]
+  },
+  {
+    "key": "e0075",
+    "text": "............",
+    "font_family": "VividSource-DejaVuSans",
+    "bounds": [
+      17.65908059417302,
+      7.385792355031299,
+      52.88769580266853,
+      22.809470316879015
+    ],
+    "components": []
+  },
+  {
+    "key": "e0079",
+    "text": "PE[0,0]",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      40.06620407931814,
+      6.6857355748825285,
+      5.465200701733011,
+      6.09141886991074
+    ],
+    "components": [
+      "execution-array"
+    ]
+  },
+  {
+    "key": "e0082",
+    "text": "PE[1,0]",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      54.608216744923084,
+      6.6678514457435085,
+      5.46520449967511,
+      6.0914174330882815
+    ],
+    "components": [
+      "execution-array"
+    ]
+  }
+]

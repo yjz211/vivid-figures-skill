@@ -1,0 +1,156 @@
+{
+  "svg": "C:\\Users\\hhhh\\Desktop\\MCM-ICM-AI-Lab\\workstreams\\architecture-native-guides\\package\\architecture\\source-assets\\asplos26-088_fig12\\fig.svg",
+  "print_size_pt": [
+    468.0,
+    277.437125748503
+  ],
+  "text_count": 35,
+  "parts": 0,
+  "errors": [
+    {
+      "type": "text-overlap",
+      "texts": [
+        "Sorting Core 2",
+        "…"
+      ],
+      "overlap": [
+        16.0,
+        10.1
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "Sorting Core 16",
+        "…"
+      ],
+      "overlap": [
+        16.0,
+        3.1
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "Bitonic Sorting ",
+        "Unit (BSU)"
+      ],
+      "overlap": [
+        52.2,
+        3.8
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "Merge Sorting ",
+        "Unit+ (MSU+)"
+      ],
+      "overlap": [
+        67.5,
+        3.8
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "Local",
+        "Input bu"
+      ],
+      "overlap": [
+        21.2,
+        3.8
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "Local",
+        "ﬀ"
+      ],
+      "overlap": [
+        6.0,
+        3.8
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "Local",
+        "Input bu"
+      ],
+      "overlap": [
+        21.2,
+        3.8
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "Local",
+        "ﬀ"
+      ],
+      "overlap": [
+        6.0,
+        3.8
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "Local",
+        "Output bu"
+      ],
+      "overlap": [
+        26.7,
+        3.8
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "Invalid Bit",
+        "Filter"
+      ],
+      "overlap": [
+        24.9,
+        3.8
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "Invalid Bit",
+        "Filter"
+      ],
+      "overlap": [
+        24.9,
+        3.8
+      ]
+    }
+  ],
+  "warnings": [],
+  "pdf": {
+    "page_count": 1,
+    "fonts": [
+      {
+        "name": "",
+        "type": "Type3"
+      },
+      {
+        "name": "",
+        "type": "Type3"
+      },
+      {
+        "name": "",
+        "type": "Type3"
+      },
+      {
+        "name": "CAAAAA+Arimo",
+        "type": "Type0"
+      }
+    ],
+    "images": 0
+  },
+  "scope": "Measured text bounds, intersections, print font size, and PDF structure. Connections and visual fidelity require actual image inspection."
+}

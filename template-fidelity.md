@@ -12,17 +12,19 @@ python _utils/get_recipe.py --id empirical.prediction_ci --script figures/gen_fi
 
 工具核对完整配方及注册代码块，写入可执行Python源码，保存 `.vivid/template-sources/` 原始底稿与来源记录，并返回路径、状态及所选卡片的保留和适配要点。读取生成的工作脚本，以及所选卡片的保留要点和预览；无需再次把相同底稿全文打印一遍。
 
-有现成计划时可批量准备（计划中用 `recipe:empirical.prediction_ci` 等引用）：
+有现成计划时可批量准备（普通配方用 `recipe:empirical.prediction_ci`，完整组合用 `template.shap_dependence` 等原始 ID）：
 
 ```text
 python _utils/get_recipe.py --plan FIGURE_PLAN.json PAPER_PLAN.md --scripts-dir figures
 ```
 
+混合计划会分别加载普通配方和完整组合源码，保存同样的来源记录；完整组合仍按其 TEMPLATE.md 的原 CLI 运行，不能按普通配方的无参数脚本运行。批量文件按模板 ID 命名，同一模板只准备一份；同一模板用于多个独立图时，再用 `--id <ID> --script <本图脚本>` 分别准备。`asset:VA-001` 等架构引用不经 Python 配方提取器，按架构工作流准备 SVG。兼容旧的 `recipe:template.*` 引用，新的计划使用原始 `template.*` ID。
+
 `--list-variants --id advanced.cluster_heatmap` 查看注册变体，`--variant two_way` 选择双向聚类；该变体需接入真实 `data`、`labels_row`、`labels_col`，不是独立随机数据演示。不要将章节里所有代码块拼接。旧的 `--id` / `--output` 保留完整Markdown提取功能，不能用 `--output x.py` 代替源码接口。
 
 恢复时再次执行会保留已登记的适配；同名未登记文件、版本不一致或底稿缺失会报错，先核对文件，必要时用新路径准备当前版本。来源记录只能证明初始源码及保存底稿，没有防篡改权限保证。
 
-完整组合先用专用工具保存完整脚本和来源，再按对应 TEMPLATE.md 的原CLI执行，只把命令中的脚本路径换为工作文件：
+完整组合可通过上述混合批量命令，或用专用工具保存完整脚本和来源，再按对应 TEMPLATE.md 的原CLI执行，只把命令中的脚本路径换为工作文件：
 
 ```text
 python "<SKILL>/scripts/prepare_complete_template.py" --id template.shap_dependence --script figures/plot_shap.py --workspace .

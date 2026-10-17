@@ -1,0 +1,292 @@
+[
+  {
+    "key": "e0010",
+    "text": "DPA",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      127.57703352533281,
+      47.224575830663525,
+      15.440872845858394,
+      8.905059175646784
+    ],
+    "components": [
+      "dpa-memory"
+    ]
+  },
+  {
+    "key": "e0011",
+    "text": "memory",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      124.09347985126078,
+      55.13646633296776,
+      22.37359444244794,
+      7.420885192710557
+    ],
+    "components": [
+      "dpa-memory"
+    ]
+  },
+  {
+    "key": "e0014",
+    "text": "DPA",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      92.86665440164506,
+      63.2447508108271,
+      15.440872845858394,
+      8.905059175646784
+    ],
+    "components": [
+      "dpa-memory"
+    ]
+  },
+  {
+    "key": "e0015",
+    "text": "ARM",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      178.33887703344226,
+      64.48156331205337,
+      15.20836160874751,
+      7.420885192710557
+    ],
+    "components": [
+      "arm"
+    ]
+  },
+  {
+    "key": "e0018",
+    "text": "eSwitch",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      43.21039021469551,
+      55.902175704261936,
+      25.811497364604293,
+      8.905059175646784
+    ],
+    "components": [
+      "device-switch"
+    ]
+  },
+  {
+    "key": "e0019",
+    "text": "NIC",
+    "font_family": "VividSource-Tinos-Italic",
+    "bounds": [
+      14.072458430604456,
+      29.374663305399736,
+      14.8616725650827,
+      9.647148713453134
+    ],
+    "components": [
+      "pcie"
+    ]
+  },
+  {
+    "key": "e0020",
+    "text": "↔",
+    "font_family": "VividSource-Tinos-Italic",
+    "bounds": [
+      28.785954480990767,
+      29.374663305399736,
+      8.680888469431693,
+      9.647149986622253
+    ],
+    "components": [
+      "pcie"
+    ]
+  },
+  {
+    "key": "e0021",
+    "text": "Host",
+    "font_family": "VividSource-Tinos-Italic",
+    "bounds": [
+      37.216187780202745,
+      29.374663305399736,
+      16.94795878025252,
+      9.647148713453134
+    ],
+    "components": [
+      "pcie"
+    ]
+  },
+  {
+    "key": "e0022",
+    "text": "PCIe",
+    "font_family": "VividSource-Tinos-Bold",
+    "bounds": [
+      24.687042523175478,
+      36.717243504641374,
+      18.796254038425104,
+      9.647148713453134
+    ],
+    "components": [
+      "pcie"
+    ]
+  },
+  {
+    "key": "e0023",
+    "text": "NIC",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      134.9926223345101,
+      67.91730184670814,
+      13.795979086069565,
+      8.905059175646784
+    ],
+    "components": [
+      "dpa-memory"
+    ]
+  },
+  {
+    "key": "e0024",
+    "text": "DRAM",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      129.87158983759582,
+      77.92991630198685,
+      24.032584730717645,
+      8.905059175646784
+    ],
+    "components": [
+      "dpa-memory"
+    ]
+  },
+  {
+    "key": "e0032",
+    "text": "BlueField-3",
+    "font_family": "VividSource-Tinos-Bold",
+    "bounds": [
+      24.08428780200211,
+      53.11468682068153,
+      8.905059175646784,
+      39.61289505844252
+    ],
+    "components": []
+  },
+  {
+    "key": "e0033",
+    "text": "Host",
+    "font_family": "VividSource-Tinos-Bold",
+    "bounds": [
+      12.56978058456707,
+      4.94889082476584,
+      8.905061721985021,
+      16.073831419496855
+    ],
+    "components": []
+  },
+  {
+    "key": "e0035",
+    "text": "CPU",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      41.280856581404805,
+      11.748491791773517,
+      13.110891876040114,
+      7.420884556125998
+    ],
+    "components": [
+      "host"
+    ]
+  },
+  {
+    "key": "e0038",
+    "text": "Host DRAM",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      129.31881036236882,
+      11.84669132588931,
+      41.16618175381154,
+      8.905061085400462
+    ],
+    "components": [
+      "host"
+    ]
+  },
+  {
+    "key": "e0050",
+    "text": "DMA",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      100.08407698385417,
+      34.36915806995694,
+      17.045595573617902,
+      8.16297218417867
+    ],
+    "components": [
+      "pcie"
+    ]
+  },
+  {
+    "key": "e0055",
+    "text": "RX",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      42.34471669688719,
+      78.00449345627658,
+      10.33945733872315,
+      7.9156081561304745
+    ],
+    "components": [
+      "device-switch"
+    ]
+  },
+  {
+    "key": "e0060",
+    "text": "TX",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      54.56842358969152,
+      80.67452261963717,
+      9.928295010893635,
+      7.915613248806949
+    ],
+    "components": [
+      "device-switch"
+    ]
+  },
+  {
+    "key": "e0069",
+    "text": "Network fabric (Ethernet, In",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      63.14172035641968,
+      93.95008618947395,
+      91.1977761969174,
+      8.905064268323258
+    ],
+    "components": [
+      "network"
+    ]
+  },
+  {
+    "key": "e0070",
+    "text": "ﬁ",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      154.3364816888643,
+      93.95008618947395,
+      4.456395565851949,
+      8.905061085400462
+    ],
+    "components": [
+      "network"
+    ]
+  },
+  {
+    "key": "e0071",
+    "text": "niBand)",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      158.790088377762,
+      93.95008618947395,
+      25.811925149428134,
+      8.905064268323258
+    ],
+    "components": [
+      "network"
+    ]
+  }
+]

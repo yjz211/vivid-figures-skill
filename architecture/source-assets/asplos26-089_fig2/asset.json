@@ -1,0 +1,99 @@
+{
+  "name": "持续执行旁路优化与配置更新",
+  "family": "offline-online",
+  "tags": [
+    "持续运行",
+    "后台优化",
+    "状态前后",
+    "时间线"
+  ],
+  "when_to_use": "在线自适应控制与后台策略优化；需要同时解释更新步骤和配置变化",
+  "avoid": "完全离线一次性求解；要求精确甘特时间尺度的调度结果",
+  "preserve": [
+    "上层时间线、中层旁路步骤、下层左右对照，更新箭头斜向回接上层以表达异步关系。",
+    "圆角蓝块是常规迭代，黄色步骤块是优化工作；细边框竖列中每一行对应一个对象。",
+    "采集与写回箭头跨层，底部横箭头表示配置转变；顶部时间线不必与每步计算严格等距。",
+    "浅蓝区分正常工作，浅黄区分优化阶段；粉色和浅绿是配置类别，必须由图例解释。",
+    "无衬线步骤编号与短动词便于顺读，预算文字独占中部空间，长约束应移到图注。"
+  ],
+  "adapt": "确定采样时点与实际生效时点，再放置两条跨层箭头 底部比较必须维持对象顺序一致 类别增加时扩大图例并补全颜色映射 若更新会阻塞执行，在时间线上增加停顿段并调整文案",
+  "visual_note": "上层时间线、中层旁路步骤、下层左右对照，更新箭头斜向回接上层以表达异步关系。",
+  "parts": [
+    {
+      "id": "running-timeline",
+      "name": "持续工作序列",
+      "role": "component",
+      "box": [
+        0.01,
+        0.05,
+        0.95,
+        0.2
+      ],
+      "meaning": "更新期间继续推进的重复任务。",
+      "reuse": "如存在暂停必须显式画出，不应保留连续运行假象。"
+    },
+    {
+      "id": "background-optimizer",
+      "name": "旁路优化链",
+      "role": "component",
+      "box": [
+        0.15,
+        0.27,
+        0.75,
+        0.18
+      ],
+      "meaning": "从观测到分析再到优化求解的中间流程。",
+      "reuse": "按实际算法改步骤，求解器名称不能由图形惯例决定。"
+    },
+    {
+      "id": "old-state",
+      "name": "更新前配置",
+      "role": "component",
+      "box": [
+        0.005,
+        0.44,
+        0.15,
+        0.47
+      ],
+      "meaning": "按对象逐行列出原配置类别。",
+      "reuse": "对象名与右列一一对应；条形长度不是数值大小。"
+    },
+    {
+      "id": "new-state",
+      "name": "更新后配置",
+      "role": "component",
+      "box": [
+        0.83,
+        0.43,
+        0.16,
+        0.49
+      ],
+      "meaning": "显示优化应用后的类别变化。",
+      "reuse": "只能用真实或明确假设的配置，不把配色变化当改善证据。"
+    },
+    {
+      "id": "budget-legend",
+      "name": "约束和图例",
+      "role": "component",
+      "box": [
+        0.23,
+        0.55,
+        0.57,
+        0.25
+      ],
+      "meaning": "解释配置颜色，并给出共同资源预算。",
+      "reuse": "预算数值和单位来自任务定义，图例随类别变化同步修改。"
+    }
+  ],
+  "selection_evidence": {
+    "candidate_index": 23,
+    "semantics_read": true,
+    "preview_reviewed": true,
+    "source_render_reviewed": true,
+    "render": "source-renders/23.png"
+  },
+  "implementation": "source-derived editable SVG",
+  "validation_status": "source-fidelity-checked",
+  "id": "architecture.source.asplos26-089_fig2",
+  "display_code": "VA-046"
+}

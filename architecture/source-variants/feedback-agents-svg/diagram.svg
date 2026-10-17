@@ -1,0 +1,185 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 678" width="468pt" height="406.8000pt" data-vivid-architecture="1" font-family="Arial" font-size="18" fill="#29333b">
+  <title>FleetIO system architecture</title>
+  <defs>
+    <marker id="arrow-000000" viewBox="0 0 10 8" refX="9" refY="4" markerWidth="6" markerHeight="5" orient="auto-start-reverse" markerUnits="strokeWidth">
+      <path d="M0 0 L10 4 L0 8 Z" fill="#000000" />
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="780" height="678" rx="0" fill="#ffffff" stroke="none" stroke-width="1.6" data-asset-key="e0001" />
+  <g id="workload-0" data-role="component" data-bounds="54 18 150 30" data-vivid-part="workload-0">
+    <rect x="54" y="18" width="150" height="30" rx="0" fill="#ffffff" stroke="#000000" stroke-width="1.65" data-asset-key="e0002" />
+    <text x="129.0" y="40.14" font-size="21" text-anchor="middle" font-weight="normal" fill="#000000" font-family="Arial" data-asset-key="e0003">
+      <tspan x="129.0" y="40.14">Workload</tspan>
+    </text>
+  </g>
+  <g id="agent-0" data-role="region" data-bounds="27 69 198 180" data-vivid-part="agent-0">
+    <rect x="27" y="69" width="198" height="180" rx="0" fill="#fff2cc" stroke="#000000" stroke-width="1.65" data-asset-key="e0004" />
+    <text x="126" y="92.14" font-size="21" text-anchor="middle" font-weight="normal" fill="#000000" font-family="Arial" data-asset-key="e0005">
+      <tspan x="126" y="92.14">vSSD-1</tspan>
+    </text>
+    <g id="rl-agent-0" data-role="region" data-bounds="45 102 162 138" data-vivid-part="rl-agent-0">
+      <rect x="45" y="102" width="162" height="138" rx="0" fill="#d5e8d4" stroke="#000000" stroke-width="1.65" data-asset-key="e0006" />
+      <text x="126" y="123.14" font-size="21" text-anchor="middle" font-weight="normal" fill="#000000" font-family="Arial" data-asset-key="e0007">
+        <tspan x="126" y="123.14">RL Agent</tspan>
+      </text>
+      <g id="monitor-0" data-role="component" data-bounds="54 135 144 30" data-vivid-part="monitor-0">
+        <rect x="54" y="135" width="144" height="30" rx="0" fill="#e1d5e7" stroke="#000000" stroke-width="1.65" data-asset-key="e0008" />
+        <text x="126.0" y="157.14" font-size="21" text-anchor="middle" font-weight="normal" fill="#000000" font-family="Arial" data-asset-key="e0009">
+          <tspan x="126.0" y="157.14">Monitor</tspan>
+        </text>
+      </g>
+      <g id="policy-0" data-role="component" data-bounds="54 201 144 30" data-vivid-part="policy-0">
+        <rect x="54" y="201" width="144" height="30" rx="0" fill="#76608a" stroke="#000000" stroke-width="1.65" data-asset-key="e0010" />
+        <text x="126" y="223.14" font-size="21" text-anchor="middle" font-weight="normal" fill="#ffffff" font-family="Arial" data-asset-key="e0011">
+          <tspan x="126" y="223.14">RL Model</tspan>
+        </text>
+      </g>
+      <path d="M 126 165 L 126 198" fill="none" stroke="#000000" stroke-width="1.7" marker-end="url(#arrow-000000)" stroke-linejoin="round" id="state-0" data-from="monitor-0" data-to="policy-0" data-asset-key="e0012" />
+    </g>
+  </g>
+  <path d="M 126 48 L 126 67" fill="none" stroke="#000000" stroke-width="1.7" marker-end="url(#arrow-000000)" stroke-linejoin="round" id="workload-flow-0" data-from="workload-0" data-to="agent-0" data-asset-key="e0013" />
+  <g id="workload-1" data-role="component" data-bounds="321 18 150 30" data-vivid-part="workload-1">
+    <rect x="321" y="18" width="150" height="30" rx="0" fill="#ffffff" stroke="#000000" stroke-width="1.65" data-asset-key="e0014" />
+    <text x="396.0" y="40.14" font-size="21" text-anchor="middle" font-weight="normal" fill="#000000" font-family="Arial" data-asset-key="e0015">
+      <tspan x="396.0" y="40.14">Workload</tspan>
+    </text>
+  </g>
+  <g id="agent-1" data-role="region" data-bounds="294 69 198 180" data-vivid-part="agent-1">
+    <rect x="294" y="69" width="198" height="180" rx="0" fill="#fff2cc" stroke="#000000" stroke-width="1.65" data-asset-key="e0016" />
+    <text x="393" y="92.14" font-size="21" text-anchor="middle" font-weight="normal" fill="#000000" font-family="Arial" data-asset-key="e0017">
+      <tspan x="393" y="92.14">vSSD-2</tspan>
+    </text>
+    <g id="rl-agent-1" data-role="region" data-bounds="312 102 162 138" data-vivid-part="rl-agent-1">
+      <rect x="312" y="102" width="162" height="138" rx="0" fill="#d5e8d4" stroke="#000000" stroke-width="1.65" data-asset-key="e0018" />
+      <text x="393" y="123.14" font-size="21" text-anchor="middle" font-weight="normal" fill="#000000" font-family="Arial" data-asset-key="e0019">
+        <tspan x="393" y="123.14">RL Agent</tspan>
+      </text>
+      <g id="monitor-1" data-role="component" data-bounds="321 135 144 30" data-vivid-part="monitor-1">
+        <rect x="321" y="135" width="144" height="30" rx="0" fill="#e1d5e7" stroke="#000000" stroke-width="1.65" data-asset-key="e0020" />
+        <text x="393.0" y="157.14" font-size="21" text-anchor="middle" font-weight="normal" fill="#000000" font-family="Arial" data-asset-key="e0021">
+          <tspan x="393.0" y="157.14">Monitor</tspan>
+        </text>
+      </g>
+      <g id="policy-1" data-role="component" data-bounds="321 201 144 30" data-vivid-part="policy-1">
+        <rect x="321" y="201" width="144" height="30" rx="0" fill="#76608a" stroke="#000000" stroke-width="1.65" data-asset-key="e0022" />
+        <text x="393" y="223.14" font-size="21" text-anchor="middle" font-weight="normal" fill="#ffffff" font-family="Arial" data-asset-key="e0023">
+          <tspan x="393" y="223.14">RL Model</tspan>
+        </text>
+      </g>
+      <path d="M 393 165 L 393 198" fill="none" stroke="#000000" stroke-width="1.7" marker-end="url(#arrow-000000)" stroke-linejoin="round" id="state-1" data-from="monitor-1" data-to="policy-1" data-asset-key="e0024" />
+    </g>
+  </g>
+  <path d="M 393 48 L 393 67" fill="none" stroke="#000000" stroke-width="1.7" marker-end="url(#arrow-000000)" stroke-linejoin="round" id="workload-flow-1" data-from="workload-1" data-to="agent-1" data-asset-key="e0025" />
+  <g id="workload-2" data-role="component" data-bounds="588 18 150 30" data-vivid-part="workload-2">
+    <rect x="588" y="18" width="150" height="30" rx="0" fill="#ffffff" stroke="#000000" stroke-width="1.65" data-asset-key="e0026" />
+    <text x="663.0" y="40.14" font-size="21" text-anchor="middle" font-weight="normal" fill="#000000" font-family="Arial" data-asset-key="e0027">
+      <tspan x="663.0" y="40.14">Workload</tspan>
+    </text>
+  </g>
+  <g id="agent-2" data-role="region" data-bounds="561 69 198 180" data-vivid-part="agent-2">
+    <rect x="561" y="69" width="198" height="180" rx="0" fill="#fff2cc" stroke="#000000" stroke-width="1.65" data-asset-key="e0028" />
+    <text x="660" y="92.14" font-size="21" text-anchor="middle" font-weight="normal" fill="#000000" font-family="Arial" data-asset-key="e0029">
+      <tspan x="660" y="92.14">vSSD-3</tspan>
+    </text>
+    <g id="rl-agent-2" data-role="region" data-bounds="579 102 162 138" data-vivid-part="rl-agent-2">
+      <rect x="579" y="102" width="162" height="138" rx="0" fill="#d5e8d4" stroke="#000000" stroke-width="1.65" data-asset-key="e0030" />
+      <text x="660" y="123.14" font-size="21" text-anchor="middle" font-weight="normal" fill="#000000" font-family="Arial" data-asset-key="e0031">
+        <tspan x="660" y="123.14">RL Agent</tspan>
+      </text>
+      <g id="monitor-2" data-role="component" data-bounds="588 135 144 30" data-vivid-part="monitor-2">
+        <rect x="588" y="135" width="144" height="30" rx="0" fill="#e1d5e7" stroke="#000000" stroke-width="1.65" data-asset-key="e0032" />
+        <text x="660.0" y="157.14" font-size="21" text-anchor="middle" font-weight="normal" fill="#000000" font-family="Arial" data-asset-key="e0033">
+          <tspan x="660.0" y="157.14">Monitor</tspan>
+        </text>
+      </g>
+      <g id="policy-2" data-role="component" data-bounds="588 201 144 30" data-vivid-part="policy-2">
+        <rect x="588" y="201" width="144" height="30" rx="0" fill="#76608a" stroke="#000000" stroke-width="1.65" data-asset-key="e0034" />
+        <text x="660" y="223.14" font-size="21" text-anchor="middle" font-weight="normal" fill="#ffffff" font-family="Arial" data-asset-key="e0035">
+          <tspan x="660" y="223.14">RL Model</tspan>
+        </text>
+      </g>
+      <path d="M 660 165 L 660 198" fill="none" stroke="#000000" stroke-width="1.7" marker-end="url(#arrow-000000)" stroke-linejoin="round" id="state-2" data-from="monitor-2" data-to="policy-2" data-asset-key="e0036" />
+    </g>
+  </g>
+  <path d="M 660 48 L 660 67" fill="none" stroke="#000000" stroke-width="1.7" marker-end="url(#arrow-000000)" stroke-linejoin="round" id="workload-flow-2" data-from="workload-2" data-to="agent-2" data-asset-key="e0037" />
+  <text x="252" y="159.5" font-size="25" text-anchor="middle" font-weight="normal" fill="#000000" font-family="Arial" data-asset-key="e0038">
+    <tspan x="252" y="159.5">...</tspan>
+  </text>
+  <text x="519" y="159.5" font-size="25" text-anchor="middle" font-weight="normal" fill="#000000" font-family="Arial" data-asset-key="e0039">
+    <tspan x="519" y="159.5">...</tspan>
+  </text>
+  <g id="shared-system" data-role="region" data-bounds="21 357 738 297" data-vivid-part="shared-system">
+    <rect x="21" y="357" width="738" height="297" rx="0" fill="#ffffff" stroke="#000000" stroke-width="1.65" data-asset-key="e0040" />
+    <g id="admission" data-role="component" data-bounds="84 378 594 39" data-vivid-part="admission">
+      <rect x="84" y="378" width="594" height="39" rx="0" fill="#f8cecc" stroke="#000000" stroke-width="1.65" data-asset-key="e0041" />
+      <text x="381.0" y="404.64" font-size="21" text-anchor="middle" font-weight="normal" fill="#000000" font-family="Arial" data-asset-key="e0042">
+        <tspan x="381.0" y="404.64">Admission Control</tspan>
+      </text>
+    </g>
+    <g id="manager" data-role="component" data-bounds="87 528 234 69" data-vivid-part="manager">
+      <rect x="87" y="528" width="234" height="69" rx="0" fill="#dae8fc" stroke="#000000" stroke-width="1.65" data-asset-key="e0043" />
+      <text x="204.0" y="570.32" font-size="23" text-anchor="middle" font-weight="normal" fill="#000000" font-family="Arial" data-asset-key="e0044">
+        <tspan x="204.0" y="570.32">vSSD Manager</tspan>
+      </text>
+    </g>
+    <g id="resource-pool" data-role="region" data-bounds="381 486 318 156" data-vivid-part="resource-pool">
+      <rect x="381" y="486" width="318" height="156" rx="0" fill="#ffe6cc" stroke="#000000" stroke-width="1.65" stroke-dasharray="6 4" data-asset-key="e0045" />
+      <g id="resource-0" data-role="object" data-bounds="420 501 192 39" data-vivid-part="resource-0">
+        <desc>Overlapping ghost superblock records</desc>
+        <rect x="420" y="501" width="182" height="29" rx="0" fill="#8092a2" stroke="#000000" stroke-width="1.65" data-asset-key="e0046" />
+        <rect x="425" y="506" width="182" height="29" rx="0" fill="#8092a2" stroke="#000000" stroke-width="1.65" data-asset-key="e0047" />
+        <rect x="430" y="511" width="182" height="29" rx="0" fill="#8092a2" stroke="#000000" stroke-width="1.65" data-asset-key="e0048" />
+        <text x="521" y="532.46" font-size="19" text-anchor="middle" font-weight="normal" fill="#ffffff" font-family="Arial" data-asset-key="e0049">
+          <tspan x="521" y="532.46">ghost Superblock</tspan>
+        </text>
+      </g>
+      <g id="resource-1" data-role="object" data-bounds="420 570 192 39" data-vivid-part="resource-1">
+        <desc>Overlapping ghost superblock records</desc>
+        <rect x="420" y="570" width="182" height="29" rx="0" fill="#8092a2" stroke="#000000" stroke-width="1.65" data-asset-key="e0050" />
+        <rect x="425" y="575" width="182" height="29" rx="0" fill="#8092a2" stroke="#000000" stroke-width="1.65" data-asset-key="e0051" />
+        <rect x="430" y="580" width="182" height="29" rx="0" fill="#8092a2" stroke="#000000" stroke-width="1.65" data-asset-key="e0052" />
+        <text x="521" y="601.46" font-size="19" text-anchor="middle" font-weight="normal" fill="#ffffff" font-family="Arial" data-asset-key="e0053">
+          <tspan x="521" y="601.46">ghost Superblock</tspan>
+        </text>
+      </g>
+      <text x="540" y="636.8" font-size="20" text-anchor="middle" font-weight="normal" fill="#000000" font-family="Arial" data-asset-key="e0054">
+        <tspan x="540" y="636.8">Ghost Superblock Manager</tspan>
+      </text>
+    </g>
+    <text x="45" y="640.5" font-size="25" text-anchor="start" font-weight="normal" fill="#000000" font-family="Arial" data-asset-key="e0055">
+      <tspan x="45" y="640.5">SSD Virtualization</tspan>
+    </text>
+  </g>
+  <path d="M 93 249 L 135 375" fill="none" stroke="#000000" stroke-width="1.7" marker-end="url(#arrow-000000)" stroke-linejoin="round" id="action-0" data-from="agent-0" data-to="admission" data-asset-key="e0056" />
+  <path d="M 189 378 L 153 252" fill="none" stroke="#000000" stroke-width="1.7" marker-end="url(#arrow-000000)" stroke-linejoin="round" id="feedback-0" data-from="admission" data-to="agent-0" data-asset-key="e0057" />
+  <text x="58" y="292.14" font-size="21" text-anchor="middle" font-weight="normal" fill="#000000" font-family="Arial" data-asset-key="e0058">
+    <tspan x="58" y="292.14">Actions</tspan>
+  </text>
+  <text x="222" y="329.14" font-size="21" text-anchor="middle" font-weight="normal" fill="#000000" font-family="Arial" data-asset-key="e0059">
+    <tspan x="222" y="329.14">Reward</tspan>
+  </text>
+  <path d="M 354 249 L 354 375" fill="none" stroke="#000000" stroke-width="1.7" marker-end="url(#arrow-000000)" stroke-linejoin="round" id="action-1" data-from="agent-1" data-to="admission" data-asset-key="e0060" />
+  <path d="M 432 378 L 432 252" fill="none" stroke="#000000" stroke-width="1.7" marker-end="url(#arrow-000000)" stroke-linejoin="round" id="feedback-1" data-from="admission" data-to="agent-1" data-asset-key="e0061" />
+  <text x="310" y="292.14" font-size="21" text-anchor="middle" font-weight="normal" fill="#000000" font-family="Arial" data-asset-key="e0062">
+    <tspan x="310" y="292.14">Actions</tspan>
+  </text>
+  <text x="475" y="329.14" font-size="21" text-anchor="middle" font-weight="normal" fill="#000000" font-family="Arial" data-asset-key="e0063">
+    <tspan x="475" y="329.14">Reward</tspan>
+  </text>
+  <path d="M 636 249 L 585 375" fill="none" stroke="#000000" stroke-width="1.7" marker-end="url(#arrow-000000)" stroke-linejoin="round" id="action-2" data-from="agent-2" data-to="admission" data-asset-key="e0064" />
+  <path d="M 636 378 L 690 252" fill="none" stroke="#000000" stroke-width="1.7" marker-end="url(#arrow-000000)" stroke-linejoin="round" id="feedback-2" data-from="admission" data-to="agent-2" data-asset-key="e0065" />
+  <text x="568" y="292.14" font-size="21" text-anchor="middle" font-weight="normal" fill="#000000" font-family="Arial" data-asset-key="e0066">
+    <tspan x="568" y="292.14">Actions</tspan>
+  </text>
+  <text x="704" y="329.14" font-size="21" text-anchor="middle" font-weight="normal" fill="#000000" font-family="Arial" data-asset-key="e0067">
+    <tspan x="704" y="329.14">Reward</tspan>
+  </text>
+  <path d="M 321 562 L 378 562" fill="none" stroke="#000000" stroke-width="1.7" stroke-dasharray="4 3" marker-end="url(#arrow-000000)" stroke-linejoin="round" id="manage" data-from="manager" data-to="resource-pool" data-asset-key="e0068" />
+  <path d="M 513 417 L 513 483" fill="none" stroke="#000000" stroke-width="1.7" marker-end="url(#arrow-000000)" stroke-linejoin="round" id="block" data-from="admission" data-to="resource-pool" data-asset-key="e0069" />
+  <path d="M 513 486 L 513 420" fill="none" stroke="#000000" stroke-width="1.7" marker-end="url(#arrow-000000)" stroke-linejoin="round" id="harvesting" data-from="resource-pool" data-to="admission" data-asset-key="e0070" />
+  <text x="603" y="445.0" font-size="24" text-anchor="middle" font-weight="normal" fill="#000000" font-family="Arial" data-asset-key="e0071">
+    <tspan x="603" y="445.0">Block</tspan>
+    <tspan x="603" y="473.32">Harvesting</tspan>
+  </text>
+  </svg>

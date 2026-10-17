@@ -1,0 +1,1302 @@
+[
+  {
+    "key": "e0020",
+    "text": "…",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      246.3500213623047,
+      126.66598510742188,
+      12.777215957641602,
+      14.25603199005127
+    ],
+    "components": [
+      "attention-detail"
+    ]
+  },
+  {
+    "key": "e0022",
+    "text": "Query",
+    "font_family": "VividSource-texgyretermes-regular",
+    "bounds": [
+      205.6000213623047,
+      123.88595581054688,
+      33.04850769042969,
+      17.028045654296875
+    ],
+    "components": [
+      "attention-detail"
+    ]
+  },
+  {
+    "key": "e0023",
+    "text": "Key",
+    "font_family": "VividSource-texgyretermes-regular",
+    "bounds": [
+      276.5799865722656,
+      124.11593627929688,
+      21.7681884765625,
+      17.028045654296875
+    ],
+    "components": [
+      "attention-detail"
+    ]
+  },
+  {
+    "key": "e0024",
+    "text": "Value",
+    "font_family": "VividSource-texgyretermes-regular",
+    "bounds": [
+      332.4840087890625,
+      124.865966796875,
+      30.40411376953125,
+      17.028045654296875
+    ],
+    "components": [
+      "attention-detail"
+    ]
+  },
+  {
+    "key": "e0029",
+    "text": "×",
+    "font_family": "VividSource-DejaVuSans",
+    "bounds": [
+      248,
+      140.031982421875,
+      11.960464477539062,
+      16.23603630065918
+    ],
+    "components": [
+      "attention-detail"
+    ]
+  },
+  {
+    "key": "e0033",
+    "text": "×",
+    "font_family": "VividSource-DejaVuSans",
+    "bounds": [
+      348.6700134277344,
+      201.03598022460938,
+      11.985214233398438,
+      17.028038024902344
+    ],
+    "components": [
+      "attention-detail"
+    ]
+  },
+  {
+    "key": "e0035",
+    "text": "FFN Input",
+    "font_family": "VividSource-texgyretermes-regular",
+    "bounds": [
+      293.03399658203125,
+      261.05596923828125,
+      55.430572509765625,
+      17.028045654296875
+    ],
+    "components": [
+      "feedforward-detail"
+    ]
+  },
+  {
+    "key": "e0038",
+    "text": "W1",
+    "font_family": "VividSource-texgyretermes-regular",
+    "bounds": [
+      343.0240173339844,
+      301.5359649658203,
+      18.8250732421875,
+      17.028038024902344
+    ],
+    "components": [
+      "feedforward-detail"
+    ]
+  },
+  {
+    "key": "e0041",
+    "text": "W3",
+    "font_family": "VividSource-texgyretermes-regular",
+    "bounds": [
+      280.4840087890625,
+      301.7359619140625,
+      18.81268310546875,
+      17.028038024902344
+    ],
+    "components": [
+      "feedforward-detail"
+    ]
+  },
+  {
+    "key": "e0043",
+    "text": "×",
+    "font_family": "VividSource-DejaVuSans",
+    "bounds": [
+      283.75,
+      278.63597106933594,
+      11.985214233398438,
+      17.028038024902344
+    ],
+    "components": [
+      "feedforward-detail"
+    ]
+  },
+  {
+    "key": "e0044",
+    "text": "SiLU",
+    "font_family": "VividSource-texgyretermes-italic",
+    "bounds": [
+      338.2340087890625,
+      335.1809616088867,
+      30.608795166015625,
+      19.40404510498047
+    ],
+    "components": [
+      "feedforward-detail"
+    ]
+  },
+  {
+    "key": "e0045",
+    "text": "Output",
+    "font_family": "VividSource-texgyretermes-regular",
+    "bounds": [
+      259.3800048828125,
+      367.0609664916992,
+      36.293609619140625,
+      17.028038024902344
+    ],
+    "components": [
+      "feedforward-detail"
+    ]
+  },
+  {
+    "key": "e0046",
+    "text": "Score",
+    "font_family": "VividSource-texgyretermes-regular",
+    "bounds": [
+      206.01998901367188,
+      201.3159637451172,
+      29.893173217773438,
+      17.028030395507812
+    ],
+    "components": [
+      "attention-detail"
+    ]
+  },
+  {
+    "key": "e0047",
+    "text": "Input",
+    "font_family": "VividSource-texgyretermes-regular",
+    "bounds": [
+      250.1840057373047,
+      -0.464080810546875,
+      28.309219360351562,
+      17.028045654296875
+    ],
+    "components": [
+      "attention-detail"
+    ]
+  },
+  {
+    "key": "e0050",
+    "text": "⨁",
+    "font_family": "VividSource-DejaVuSans",
+    "bounds": [
+      224.77999877929688,
+      231.4879608154297,
+      18.024229049682617,
+      20.988046646118164
+    ],
+    "components": []
+  },
+  {
+    "key": "e0053",
+    "text": "⨁",
+    "font_family": "VividSource-DejaVuSans",
+    "bounds": [
+      223.5500030517578,
+      375.7429618835449,
+      18.055166244506836,
+      20.988046646118164
+    ],
+    "components": [
+      "feedforward-detail"
+    ]
+  },
+  {
+    "key": "e0055",
+    "text": "Input Emb.",
+    "font_family": "VividSource-texgyretermes-regular",
+    "bounds": [
+      114.05400085449219,
+      34.2359619140625,
+      59.01289367675781,
+      17.028045654296875
+    ],
+    "components": [
+      "decoder-block"
+    ]
+  },
+  {
+    "key": "e0056",
+    "text": "Next Token",
+    "font_family": "VividSource-texgyretermes-regular",
+    "bounds": [
+      115.27400207519531,
+      385.83596992492676,
+      61.16627502441406,
+      17.028038024902344
+    ],
+    "components": [
+      "decoder-block"
+    ]
+  },
+  {
+    "key": "e0058",
+    "text": "Previous Token",
+    "font_family": "VividSource-texgyretermes-regular",
+    "bounds": [
+      102.85400390625,
+      5.265960693359375,
+      81.27412414550781,
+      17.028045654296875
+    ],
+    "components": [
+      "decoder-block"
+    ]
+  },
+  {
+    "key": "e0061",
+    "text": "×",
+    "font_family": "VividSource-DejaVuSans",
+    "bounds": [
+      150.1300048828125,
+      252.84996032714844,
+      10.704399108886719,
+      15.048033714294434
+    ],
+    "components": [
+      "decoder-block"
+    ]
+  },
+  {
+    "key": "e0062",
+    "text": "N",
+    "font_family": "VividSource-texgyretermes-bold",
+    "bounds": [
+      162.25399780273438,
+      250.4739532470703,
+      9.900022506713867,
+      18.612041473388672
+    ],
+    "components": [
+      "decoder-block"
+    ]
+  },
+  {
+    "key": "e0064",
+    "text": "Output ",
+    "font_family": "VividSource-texgyretermes-regular",
+    "bounds": [
+      126.0199966430664,
+      273.7659606933594,
+      39.18608856201172,
+      17.028038024902344
+    ],
+    "components": [
+      "decoder-block"
+    ]
+  },
+  {
+    "key": "e0065",
+    "text": "Emb.",
+    "font_family": "VividSource-texgyretermes-regular",
+    "bounds": [
+      129.75399780273438,
+      285.7859649658203,
+      28.391204833984375,
+      17.028038024902344
+    ],
+    "components": [
+      "decoder-block"
+    ]
+  },
+  {
+    "key": "e0067",
+    "text": "SoftMax",
+    "font_family": "VividSource-texgyretermes-regular",
+    "bounds": [
+      121.4000015258789,
+      314.56097412109375,
+      45.721336364746094,
+      17.028038024902344
+    ],
+    "components": [
+      "decoder-block"
+    ]
+  },
+  {
+    "key": "e0069",
+    "text": "Top",
+    "font_family": "VividSource-texgyretermes-regular",
+    "bounds": [
+      128.12400817871094,
+      339.96097564697266,
+      20.605636596679688,
+      17.028038024902344
+    ],
+    "components": [
+      "decoder-block"
+    ]
+  },
+  {
+    "key": "e0070",
+    "text": "-",
+    "font_family": "VividSource-texgyretermes-regular",
+    "bounds": [
+      148.64999389648438,
+      339.96097564697266,
+      4.257009506225586,
+      17.028038024902344
+    ],
+    "components": [
+      "decoder-block"
+    ]
+  },
+  {
+    "key": "e0071",
+    "text": "k ",
+    "font_family": "VividSource-texgyretermes-regular",
+    "bounds": [
+      152.62400817871094,
+      339.96097564697266,
+      10.36944580078125,
+      17.028038024902344
+    ],
+    "components": [
+      "decoder-block"
+    ]
+  },
+  {
+    "key": "e0072",
+    "text": "Sampling",
+    "font_family": "VividSource-texgyretermes-regular",
+    "bounds": [
+      119.05000305175781,
+      351.98596954345703,
+      49.82670593261719,
+      17.028038024902344
+    ],
+    "components": [
+      "decoder-block"
+    ]
+  },
+  {
+    "key": "e0076",
+    "text": "Self ",
+    "font_family": "VividSource-texgyretermes-bold",
+    "bounds": [
+      138.8000030517578,
+      85.47396850585938,
+      24.252151489257812,
+      18.612030029296875
+    ],
+    "components": [
+      "decoder-block"
+    ]
+  },
+  {
+    "key": "e0077",
+    "text": "Attention",
+    "font_family": "VividSource-texgyretermes-bold",
+    "bounds": [
+      122.45399475097656,
+      97.49395751953125,
+      53.23297119140625,
+      18.612030029296875
+    ],
+    "components": [
+      "decoder-block"
+    ]
+  },
+  {
+    "key": "e0080",
+    "text": "Feed ",
+    "font_family": "VividSource-texgyretermes-bold",
+    "bounds": [
+      135.33399963378906,
+      170.24395751953125,
+      30.563003540039062,
+      18.612045288085938
+    ],
+    "components": [
+      "decoder-block"
+    ]
+  },
+  {
+    "key": "e0081",
+    "text": "Forward",
+    "font_family": "VividSource-texgyretermes-bold",
+    "bounds": [
+      124.12399291992188,
+      182.26397705078125,
+      49.48991394042969,
+      18.612045288085938
+    ],
+    "components": [
+      "decoder-block"
+    ]
+  },
+  {
+    "key": "e0084",
+    "text": "Add & ",
+    "font_family": "VividSource-texgyretermes-regular",
+    "bounds": [
+      131.03399658203125,
+      125.4859619140625,
+      39.607666015625,
+      17.028045654296875
+    ],
+    "components": [
+      "decoder-block"
+    ]
+  },
+  {
+    "key": "e0085",
+    "text": "Norm",
+    "font_family": "VividSource-texgyretermes-regular",
+    "bounds": [
+      133.7340087890625,
+      137.50595092773438,
+      30.91485595703125,
+      17.028045654296875
+    ],
+    "components": [
+      "decoder-block"
+    ]
+  },
+  {
+    "key": "e0088",
+    "text": "Add & ",
+    "font_family": "VividSource-texgyretermes-regular",
+    "bounds": [
+      130.70401000976562,
+      210.26597595214844,
+      39.68431091308594,
+      17.028030395507812
+    ],
+    "components": [
+      "decoder-block"
+    ]
+  },
+  {
+    "key": "e0089",
+    "text": "Norm",
+    "font_family": "VividSource-texgyretermes-regular",
+    "bounds": [
+      133.4040069580078,
+      222.2859649658203,
+      30.991500854492188,
+      17.028030395507812
+    ],
+    "components": [
+      "decoder-block"
+    ]
+  },
+  {
+    "key": "e0101",
+    "text": "Prompt:",
+    "font_family": "VividSource-texgyretermes-bold",
+    "bounds": [
+      32.75400161743164,
+      2.973968505859375,
+      47.500362396240234,
+      18.612030029296875
+    ],
+    "components": [
+      "macro-stages"
+    ]
+  },
+  {
+    "key": "e0103",
+    "text": "LLM is a",
+    "font_family": "VividSource-texgyretermes-regular",
+    "bounds": [
+      32.75400161743164,
+      19.555938720703125,
+      49.20890426635742,
+      17.028045654296875
+    ],
+    "components": [
+      "macro-stages"
+    ]
+  },
+  {
+    "key": "e0105",
+    "text": "(a) LLM Example",
+    "font_family": "VividSource-texgyretermes-bold",
+    "bounds": [
+      2.200000047683716,
+      400.9939670562744,
+      100.38560485839844,
+      18.612041473388672
+    ],
+    "components": []
+  },
+  {
+    "key": "e0106",
+    "text": "(c) Llama2 Block Architecture",
+    "font_family": "VividSource-texgyretermes-bold",
+    "bounds": [
+      214.55001831054688,
+      399.6439685821533,
+      168.96185302734375,
+      18.612041473388672
+    ],
+    "components": []
+  },
+  {
+    "key": "e0107",
+    "text": "(b) Decoder",
+    "font_family": "VividSource-texgyretermes-bold",
+    "bounds": [
+      109.94999694824219,
+      400.94396781921387,
+      66.09750366210938,
+      18.612041473388672
+    ],
+    "components": []
+  },
+  {
+    "key": "e0108",
+    "text": "Rotary Embedding",
+    "font_family": "VividSource-texgyretermes-italic",
+    "bounds": [
+      232.48800659179688,
+      100.30999755859375,
+      98.91641235351562,
+      17.424041748046875
+    ],
+    "components": [
+      "attention-detail"
+    ]
+  },
+  {
+    "key": "e0111",
+    "text": "Out",
+    "font_family": "VividSource-texgyretermes-regular",
+    "bounds": [
+      329.5799865722656,
+      225.88597106933594,
+      19.698822021484375,
+      17.028030395507812
+    ],
+    "components": [
+      "attention-detail"
+    ]
+  },
+  {
+    "key": "e0114",
+    "text": "Wo",
+    "font_family": "VividSource-texgyretermes-regular",
+    "bounds": [
+      279.5240173339844,
+      234.01596069335938,
+      18.37762451171875,
+      17.028045654296875
+    ],
+    "components": []
+  },
+  {
+    "key": "e0116",
+    "text": "×",
+    "font_family": "VividSource-DejaVuSans",
+    "bounds": [
+      306.45001220703125,
+      232.9319610595703,
+      11.960464477539062,
+      16.23603630065918
+    ],
+    "components": []
+  },
+  {
+    "key": "e0117",
+    "text": "...",
+    "font_family": "VividSource-texgyretermes-regular",
+    "bounds": [
+      53.775001525878906,
+      384.55297088623047,
+      9.007137298583984,
+      16.23603630065918
+    ],
+    "components": [
+      "macro-stages"
+    ]
+  },
+  {
+    "key": "e0120",
+    "text": "useful",
+    "font_family": "VividSource-texgyretermes-regular",
+    "bounds": [
+      20.45400047302246,
+      147.76596069335938,
+      32.44824981689453,
+      17.028045654296875
+    ],
+    "components": [
+      "macro-stages"
+    ]
+  },
+  {
+    "key": "e0122",
+    "text": "Decoder",
+    "font_family": "VividSource-texgyretermes-regular",
+    "bounds": [
+      34.104000091552734,
+      64.90594482421875,
+      44.87825393676758,
+      17.028045654296875
+    ],
+    "components": [
+      "macro-stages"
+    ]
+  },
+  {
+    "key": "e0124",
+    "text": "…",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      45.502994283272386,
+      128.9800129884598,
+      14.256032552248904,
+      12.777216584907194
+    ],
+    "components": [
+      "macro-stages"
+    ]
+  },
+  {
+    "key": "e0125",
+    "text": "tool",
+    "font_family": "VividSource-texgyretermes-regular",
+    "bounds": [
+      24.02899932861328,
+      257.9359588623047,
+      20.439762115478516,
+      17.028030395507812
+    ],
+    "components": [
+      "macro-stages"
+    ]
+  },
+  {
+    "key": "e0127",
+    "text": "Decoder",
+    "font_family": "VividSource-texgyretermes-regular",
+    "bounds": [
+      34.17900085449219,
+      96.90597534179688,
+      44.98046112060547,
+      17.028045654296875
+    ],
+    "components": [
+      "macro-stages"
+    ]
+  },
+  {
+    "key": "e0134",
+    "text": "×",
+    "font_family": "VividSource-DejaVuSans",
+    "bounds": [
+      57,
+      126.3499755859375,
+      10.704399108886719,
+      15.048033714294434
+    ],
+    "components": [
+      "macro-stages"
+    ]
+  },
+  {
+    "key": "e0135",
+    "text": "N",
+    "font_family": "VividSource-texgyretermes-bold",
+    "bounds": [
+      69.10399627685547,
+      123.97396850585938,
+      9.900022506713867,
+      18.612041473388672
+    ],
+    "components": [
+      "macro-stages"
+    ]
+  },
+  {
+    "key": "e0138",
+    "text": "Prefill Stage",
+    "font_family": "VividSource-texgyretermes-regular",
+    "bounds": [
+      -1.614032673818846,
+      37.36447075732963,
+      17.028042823119357,
+      65.70153883517145
+    ],
+    "components": [
+      "macro-stages"
+    ]
+  },
+  {
+    "key": "e0140",
+    "text": "Decoding Stage",
+    "font_family": "VividSource-texgyretermes-regular",
+    "bounds": [
+      -1.9890335104559687,
+      226.96620112050965,
+      17.028045514031874,
+      83.50980452120672
+    ],
+    "components": []
+  },
+  {
+    "key": "e0144",
+    "text": "×",
+    "font_family": "VividSource-DejaVuSans",
+    "bounds": [
+      235.60000610351562,
+      44.585968017578125,
+      11.985214233398438,
+      17.028038024902344
+    ],
+    "components": [
+      "attention-detail"
+    ]
+  },
+  {
+    "key": "e0151",
+    "text": "Wq",
+    "font_family": "VividSource-texgyretermes-regular",
+    "bounds": [
+      243.7340087890625,
+      72.4859619140625,
+      19.15301513671875,
+      17.028045654296875
+    ],
+    "components": [
+      "attention-detail"
+    ]
+  },
+  {
+    "key": "e0153",
+    "text": "×",
+    "font_family": "VividSource-DejaVuSans",
+    "bounds": [
+      297,
+      45.231964111328125,
+      11.960464477539062,
+      16.23603630065918
+    ],
+    "components": [
+      "attention-detail"
+    ]
+  },
+  {
+    "key": "e0154",
+    "text": "RMSNorm",
+    "font_family": "VividSource-texgyretermes-italic",
+    "bounds": [
+      274.2879943847656,
+      20.3399658203125,
+      56.1455078125,
+      17.424041748046875
+    ],
+    "components": [
+      "attention-detail"
+    ]
+  },
+  {
+    "key": "e0162",
+    "text": "Wv",
+    "font_family": "VividSource-texgyretermes-regular",
+    "bounds": [
+      367.5840148925781,
+      75.635986328125,
+      19.15301513671875,
+      17.028045654296875
+    ],
+    "components": [
+      "attention-detail"
+    ]
+  },
+  {
+    "key": "e0164",
+    "text": "×",
+    "font_family": "VividSource-DejaVuSans",
+    "bounds": [
+      358.3999938964844,
+      46.55194091796875,
+      11.960464477539062,
+      16.23603630065918
+    ],
+    "components": [
+      "attention-detail"
+    ]
+  },
+  {
+    "key": "e0173",
+    "text": "Wk",
+    "font_family": "VividSource-texgyretermes-regular",
+    "bounds": [
+      305.40399169921875,
+      73.33596801757812,
+      19.15301513671875,
+      17.028045654296875
+    ],
+    "components": [
+      "attention-detail"
+    ]
+  },
+  {
+    "key": "e0180",
+    "text": "…",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      371.8299865722656,
+      126.41595458984375,
+      12.777215957641602,
+      14.25603199005127
+    ],
+    "components": [
+      "attention-detail"
+    ]
+  },
+  {
+    "key": "e0184",
+    "text": "…",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      307.25,
+      126.41595458984375,
+      12.777215957641602,
+      14.25603199005127
+    ],
+    "components": [
+      "attention-detail"
+    ]
+  },
+  {
+    "key": "e0187",
+    "text": "Key",
+    "font_family": "VividSource-texgyretermes-regular",
+    "bounds": [
+      248.8800048828125,
+      164.63597106933594,
+      21.742645263671875,
+      17.028030395507812
+    ],
+    "components": [
+      "attention-detail"
+    ]
+  },
+  {
+    "key": "e0188",
+    "text": "Cache",
+    "font_family": "VividSource-texgyretermes-regular",
+    "bounds": [
+      243.49998474121094,
+      176.6559600830078,
+      32.90803527832031,
+      17.028030395507812
+    ],
+    "components": [
+      "attention-detail"
+    ]
+  },
+  {
+    "key": "e0190",
+    "text": "Value",
+    "font_family": "VividSource-texgyretermes-regular",
+    "bounds": [
+      366.865957066526,
+      196.60574177565152,
+      17.02804698926849,
+      30.340256486538863
+    ],
+    "components": [
+      "attention-detail"
+    ]
+  },
+  {
+    "key": "e0191",
+    "text": "Cache",
+    "font_family": "VividSource-texgyretermes-regular",
+    "bounds": [
+      378.88597652591545,
+      194.97254727704396,
+      17.028047106185113,
+      32.997452531460766
+    ],
+    "components": [
+      "attention-detail"
+    ]
+  },
+  {
+    "key": "e0195",
+    "text": "…",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      254.50001525878906,
+      201.7579803466797,
+      12.02852725982666,
+      13.464030265808105
+    ],
+    "components": [
+      "attention-detail"
+    ]
+  },
+  {
+    "key": "e0196",
+    "text": "=",
+    "font_family": "VividSource-texgyretermes-regular",
+    "bounds": [
+      256.5,
+      185.0619659423828,
+      10.184647560119629,
+      24.15605354309082
+    ],
+    "components": [
+      "attention-detail"
+    ]
+  },
+  {
+    "key": "e0201",
+    "text": "=",
+    "font_family": "VividSource-texgyretermes-regular",
+    "bounds": [
+      369.54998779296875,
+      229.011962890625,
+      10.166085243225098,
+      24.15605354309082
+    ],
+    "components": []
+  },
+  {
+    "key": "e0203",
+    "text": "RMSNorm",
+    "font_family": "VividSource-texgyretermes-italic",
+    "bounds": [
+      204.6379852294922,
+      265.81996154785156,
+      56.09440612792969,
+      17.424041748046875
+    ],
+    "components": [
+      "feedforward-detail"
+    ]
+  },
+  {
+    "key": "e0206",
+    "text": "×",
+    "font_family": "VividSource-DejaVuSans",
+    "bounds": [
+      347.7699890136719,
+      279.18597412109375,
+      11.985214233398438,
+      17.028038024902344
+    ],
+    "components": [
+      "feedforward-detail"
+    ]
+  },
+  {
+    "key": "e0207",
+    "text": "Softmax",
+    "font_family": "VividSource-texgyretermes-italic",
+    "bounds": [
+      294.65399169921875,
+      200.48997497558594,
+      42.82147216796875,
+      17.424041748046875
+    ],
+    "components": [
+      "attention-detail"
+    ]
+  },
+  {
+    "key": "e0208",
+    "text": "=",
+    "font_family": "VividSource-texgyretermes-regular",
+    "bounds": [
+      272.1000061035156,
+      262.49195861816406,
+      10.166085243225098,
+      24.15605354309082
+    ],
+    "components": [
+      "feedforward-detail"
+    ]
+  },
+  {
+    "key": "e0209",
+    "text": "=",
+    "font_family": "VividSource-texgyretermes-regular",
+    "bounds": [
+      373.6000061035156,
+      97.82192993164062,
+      10.166085243225098,
+      24.15605354309082
+    ],
+    "components": [
+      "attention-detail"
+    ]
+  },
+  {
+    "key": "e0210",
+    "text": "=",
+    "font_family": "VividSource-texgyretermes-regular",
+    "bounds": [
+      307.7200012207031,
+      107.29196166992188,
+      10.166085243225098,
+      24.15605354309082
+    ],
+    "components": [
+      "attention-detail"
+    ]
+  },
+  {
+    "key": "e0211",
+    "text": "=",
+    "font_family": "VividSource-texgyretermes-regular",
+    "bounds": [
+      247.33001708984375,
+      107.79196166992188,
+      10.166085243225098,
+      24.15605354309082
+    ],
+    "components": [
+      "attention-detail"
+    ]
+  },
+  {
+    "key": "e0215",
+    "text": "W2",
+    "font_family": "VividSource-texgyretermes-regular",
+    "bounds": [
+      220.7839813232422,
+      334.4109649658203,
+      19.15301513671875,
+      17.028038024902344
+    ],
+    "components": [
+      "feedforward-detail"
+    ]
+  },
+  {
+    "key": "e0221",
+    "text": "×",
+    "font_family": "VividSource-DejaVuSans",
+    "bounds": [
+      248.0800018310547,
+      335.63196563720703,
+      11.960464477539062,
+      16.23603630065918
+    ],
+    "components": [
+      "feedforward-detail"
+    ]
+  },
+  {
+    "key": "e0227",
+    "text": "=",
+    "font_family": "VividSource-texgyretermes-regular",
+    "bounds": [
+      244.9499969482422,
+      374.4419593811035,
+      10.166085243225098,
+      24.15605354309082
+    ],
+    "components": [
+      "feedforward-detail"
+    ]
+  },
+  {
+    "key": "e0231",
+    "text": "ELAdd",
+    "font_family": "VividSource-texgyretermes-italic",
+    "bounds": [
+      344.0039978027344,
+      363.8399658203125,
+      37.583587646484375,
+      17.424041748046875
+    ],
+    "components": [
+      "feedforward-detail"
+    ]
+  },
+  {
+    "key": "e0233",
+    "text": "⨁",
+    "font_family": "VividSource-DejaVuSans",
+    "bounds": [
+      329.8999938964844,
+      362.7319679260254,
+      14.2745943069458,
+      16.23603630065918
+    ],
+    "components": [
+      "feedforward-detail"
+    ]
+  },
+  {
+    "key": "e0236",
+    "text": "ELMul",
+    "font_family": "VividSource-texgyretermes-italic",
+    "bounds": [
+      343.0039978027344,
+      380.33996963500977,
+      37.3155517578125,
+      17.424039840698242
+    ],
+    "components": [
+      "feedforward-detail"
+    ]
+  },
+  {
+    "key": "e0240",
+    "text": "Decoder",
+    "font_family": "VividSource-texgyretermes-regular",
+    "bounds": [
+      33.729000091552734,
+      176.93597412109375,
+      45.00601577758789,
+      17.028045654296875
+    ],
+    "components": [
+      "macro-stages"
+    ]
+  },
+  {
+    "key": "e0241",
+    "text": "…",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      45.15299092999079,
+      239.86999710391927,
+      14.25603255224891,
+      12.777216584907165
+    ],
+    "components": [
+      "macro-stages"
+    ]
+  },
+  {
+    "key": "e0243",
+    "text": "Decoder",
+    "font_family": "VividSource-texgyretermes-regular",
+    "bounds": [
+      33.82899856567383,
+      208.9359588623047,
+      44.87826156616211,
+      17.028030395507812
+    ],
+    "components": [
+      "macro-stages"
+    ]
+  },
+  {
+    "key": "e0245",
+    "text": "×",
+    "font_family": "VividSource-DejaVuSans",
+    "bounds": [
+      56.624996185302734,
+      237.23995971679688,
+      10.704399108886719,
+      15.048033714294434
+    ],
+    "components": [
+      "macro-stages"
+    ]
+  },
+  {
+    "key": "e0246",
+    "text": "N",
+    "font_family": "VividSource-texgyretermes-bold",
+    "bounds": [
+      68.75399780273438,
+      234.86395263671875,
+      9.900022506713867,
+      18.612041473388672
+    ],
+    "components": [
+      "macro-stages"
+    ]
+  },
+  {
+    "key": "e0250",
+    "text": "Decoder",
+    "font_family": "VividSource-texgyretermes-regular",
+    "bounds": [
+      34.104000091552734,
+      288.11598205566406,
+      45.00600814819336,
+      17.028038024902344
+    ],
+    "components": [
+      "macro-stages"
+    ]
+  },
+  {
+    "key": "e0251",
+    "text": "…",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      45.52799740846123,
+      352.7250004773534,
+      14.25603255224891,
+      12.777216584907137
+    ],
+    "components": [
+      "macro-stages"
+    ]
+  },
+  {
+    "key": "e0253",
+    "text": "Decoder",
+    "font_family": "VividSource-texgyretermes-regular",
+    "bounds": [
+      34.20399856567383,
+      320.1109619140625,
+      44.85270309448242,
+      17.028038024902344
+    ],
+    "components": [
+      "macro-stages"
+    ]
+  },
+  {
+    "key": "e0255",
+    "text": "×",
+    "font_family": "VividSource-DejaVuSans",
+    "bounds": [
+      57,
+      350.094970703125,
+      10.704399108886719,
+      15.048033714294434
+    ],
+    "components": [
+      "macro-stages"
+    ]
+  },
+  {
+    "key": "e0256",
+    "text": "N",
+    "font_family": "VividSource-texgyretermes-bold",
+    "bounds": [
+      69.1290054321289,
+      347.7189712524414,
+      9.900022506713867,
+      18.612041473388672
+    ],
+    "components": [
+      "macro-stages"
+    ]
+  }
+]

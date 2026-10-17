@@ -1,0 +1,376 @@
+[
+  {
+    "key": "e0007",
+    "text": "Gating",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      51.160003662109375,
+      197.39199829101562,
+      37.343505859375,
+      16.92803955078125
+    ],
+    "components": [
+      "gating-column"
+    ]
+  },
+  {
+    "key": "e0010",
+    "text": "Compute",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      160.48001098632812,
+      197.39199829101562,
+      52.22314453125,
+      16.92803955078125
+    ],
+    "components": [
+      "compute-column"
+    ]
+  },
+  {
+    "key": "e0013",
+    "text": "Sum",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      289.5299987792969,
+      197.39199829101562,
+      25.03363037109375,
+      16.92803955078125
+    ],
+    "components": [
+      "sum-column"
+    ]
+  },
+  {
+    "key": "e0017",
+    "text": "Gating",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      50.8699951171875,
+      140.031982421875,
+      37.34352111816406,
+      16.92803955078125
+    ],
+    "components": [
+      "gating-column"
+    ]
+  },
+  {
+    "key": "e0020",
+    "text": "Compute",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      160.17001342773438,
+      140.031982421875,
+      52.22314453125,
+      16.92803955078125
+    ],
+    "components": [
+      "compute-column"
+    ]
+  },
+  {
+    "key": "e0023",
+    "text": "Sum",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      289.239990234375,
+      140.031982421875,
+      25.033599853515625,
+      16.92803955078125
+    ],
+    "components": [
+      "sum-column"
+    ]
+  },
+  {
+    "key": "e0033",
+    "text": "Gating",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      50.62998962402344,
+      85.1719970703125,
+      37.343536376953125,
+      16.92803955078125
+    ],
+    "components": [
+      "gating-column"
+    ]
+  },
+  {
+    "key": "e0034",
+    "text": "GPU 0",
+    "font_family": "VividSource-Carlito-Italic",
+    "bounds": [
+      47.029998779296875,
+      67.52197265625,
+      31.032730102539062,
+      14.72003173828125
+    ],
+    "components": [
+      "gating-column"
+    ]
+  },
+  {
+    "key": "e0037",
+    "text": "Compute",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      159.92996215820312,
+      85.1719970703125,
+      52.22314453125,
+      16.92803955078125
+    ],
+    "components": [
+      "compute-column"
+    ]
+  },
+  {
+    "key": "e0040",
+    "text": "Sum",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      288.97998046875,
+      85.1719970703125,
+      25.07574462890625,
+      16.92803955078125
+    ],
+    "components": [
+      "sum-column"
+    ]
+  },
+  {
+    "key": "e0041",
+    "text": "Input from previous layer",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      -3.3680290812428666,
+      71.84929757457644,
+      16.928045878453048,
+      143.8107002077245
+    ],
+    "components": []
+  },
+  {
+    "key": "e0088",
+    "text": "AllToAllv",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      108.33192436500067,
+      123.5394782066528,
+      16.928041720357015,
+      49.30853345967756
+    ],
+    "components": [
+      "dispatch-exchange"
+    ]
+  },
+  {
+    "key": "e0140",
+    "text": "Output to next layer",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      351.88194100475175,
+      85.56684175802832,
+      16.928044618841398,
+      115.18316724874012
+    ],
+    "components": []
+  },
+  {
+    "key": "e0143",
+    "text": "Dense ",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      40.06999206542969,
+      3.611968994140625,
+      38.56884765625,
+      16.92803955078125
+    ],
+    "components": [
+      "layer-overview"
+    ]
+  },
+  {
+    "key": "e0144",
+    "text": "Layer",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      42.589996337890625,
+      20.4119873046875,
+      30.473114013671875,
+      16.92803955078125
+    ],
+    "components": [
+      "layer-overview"
+    ]
+  },
+  {
+    "key": "e0147",
+    "text": "MoE",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      120.77996826171875,
+      3.571990966796875,
+      26.263092041015625,
+      16.92803955078125
+    ],
+    "components": [
+      "layer-overview"
+    ]
+  },
+  {
+    "key": "e0148",
+    "text": " ",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      147.05999755859375,
+      3.571990966796875,
+      3.174006938934326,
+      16.928037643432617
+    ],
+    "components": [
+      "layer-overview"
+    ]
+  },
+  {
+    "key": "e0149",
+    "text": "Layer",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      118.74000549316406,
+      20.3719482421875,
+      30.479873657226562,
+      16.92803955078125
+    ],
+    "components": [
+      "layer-overview"
+    ]
+  },
+  {
+    "key": "e0152",
+    "text": "Dense ",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      189.73995971679688,
+      3.352020263671875,
+      38.59295654296875,
+      16.92803955078125
+    ],
+    "components": [
+      "layer-overview"
+    ]
+  },
+  {
+    "key": "e0153",
+    "text": "Layer",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      192.260009765625,
+      20.1719970703125,
+      30.4798583984375,
+      16.92803955078125
+    ],
+    "components": [
+      "layer-overview"
+    ]
+  },
+  {
+    "key": "e0156",
+    "text": "MoE",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      303.2799987792969,
+      3.782012939453125,
+      26.2630615234375,
+      16.92803955078125
+    ],
+    "components": [
+      "layer-overview"
+    ]
+  },
+  {
+    "key": "e0157",
+    "text": " ",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      329.5599670410156,
+      3.782012939453125,
+      3.174006938934326,
+      16.928037643432617
+    ],
+    "components": [
+      "layer-overview"
+    ]
+  },
+  {
+    "key": "e0158",
+    "text": "Layer",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      301.239990234375,
+      20.58197021484375,
+      30.47308349609375,
+      16.92803955078125
+    ],
+    "components": [
+      "layer-overview"
+    ]
+  },
+  {
+    "key": "e0168",
+    "text": "AllToAllv",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      231.47193898395892,
+      122.869489878335,
+      16.928041720357044,
+      49.30853345967762
+    ],
+    "components": [
+      "return-exchange"
+    ]
+  },
+  {
+    "key": "e0169",
+    "text": "…",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      257.3699951171875,
+      7.657989501953125,
+      18.0032901763916,
+      19.87204360961914
+    ],
+    "components": [
+      "layer-overview"
+    ]
+  },
+  {
+    "key": "e0170",
+    "text": "GPU 1",
+    "font_family": "VividSource-Carlito-Italic",
+    "bounds": [
+      47.58000183105469,
+      123.32199096679688,
+      30.4315185546875,
+      14.72003173828125
+    ],
+    "components": [
+      "gating-column"
+    ]
+  },
+  {
+    "key": "e0171",
+    "text": "GPU 2",
+    "font_family": "VividSource-Carlito-Italic",
+    "bounds": [
+      48.399993896484375,
+      180.20196533203125,
+      30.66400146484375,
+      14.72003173828125
+    ],
+    "components": [
+      "gating-column"
+    ]
+  }
+]

@@ -1,0 +1,186 @@
+[
+  {
+    "key": "e0004",
+    "text": "dataplaneUnitcontrol plane",
+    "font_family": "VividSource-Arimo-Italic",
+    "bounds": [
+      7.616300106048584,
+      14.705756187438965,
+      226.41529846191406,
+      56.56242370605469
+    ],
+    "components": []
+  },
+  {
+    "key": "e0015",
+    "text": "Interface",
+    "font_family": "VividSource-Arimo-Italic",
+    "bounds": [
+      151.5357666015625,
+      29.98287010192871,
+      28.189743041992188,
+      7.710290908813477
+    ],
+    "components": [
+      "control-interface"
+    ]
+  },
+  {
+    "key": "e0016",
+    "text": "regmmiomeminstr",
+    "font_family": "VividSource-Arimo-Italic",
+    "bounds": [
+      135.10275268554688,
+      23.376731872558594,
+      61.95655822753906,
+      6.758501052856445
+    ],
+    "components": [
+      "control-interface"
+    ]
+  },
+  {
+    "key": "e0017",
+    "text": "load/store",
+    "font_family": "VividSource-Arimo-Italic",
+    "bounds": [
+      44.15980911254883,
+      15.55788516998291,
+      32.09574508666992,
+      7.71028995513916
+    ],
+    "components": []
+  },
+  {
+    "key": "e0018",
+    "text": "(inaddr,mode)(outaddr,mode)",
+    "font_family": "VividSource-Inconsolata-Regular",
+    "bounds": [
+      26.321460723876953,
+      38.49179458618164,
+      49.95693588256836,
+      25.76461410522461
+    ],
+    "components": []
+  },
+  {
+    "key": "e0019",
+    "text": "addmap()/setperms()/delmap()state update",
+    "font_family": "VividSource-Arimo-Italic",
+    "bounds": [
+      100.80976104736328,
+      -0.3021138608455658,
+      109.69576263427734,
+      45.960289001464844
+    ],
+    "components": []
+  },
+  {
+    "key": "e0020",
+    "text": "interface operations",
+    "font_family": "VividSource-Arimo-Italic",
+    "bounds": [
+      140.77572631835938,
+      8.94072437286377,
+      54.03034973144531,
+      6.746504783630371
+    ],
+    "components": []
+  },
+  {
+    "key": "e0021",
+    "text": "state queryexception",
+    "font_family": "VividSource-Arimo-Italic",
+    "bounds": [
+      9.849007606506348,
+      47.84187316894531,
+      128.95379638671875,
+      10.852291107177734
+    ],
+    "components": []
+  },
+  {
+    "key": "e0028",
+    "text": "regmem",
+    "font_family": "VividSource-Arimo-Italic",
+    "bounds": [
+      152.2777557373047,
+      45.54072570800781,
+      28.195663452148438,
+      6.7465057373046875
+    ],
+    "components": [
+      "state-store"
+    ]
+  },
+  {
+    "key": "e0029",
+    "text": "State",
+    "font_family": "VividSource-Arimo-Italic",
+    "bounds": [
+      157.1082763671875,
+      53.05788040161133,
+      16.0517578125,
+      7.710289001464844
+    ],
+    "components": [
+      "state-store"
+    ]
+  },
+  {
+    "key": "e0032",
+    "text": "map()",
+    "font_family": "VividSource-Arimo-Italic",
+    "bounds": [
+      70.33426666259766,
+      46.9118766784668,
+      18.518142700195312,
+      7.710289001464844
+    ],
+    "components": [
+      "execution-path"
+    ]
+  },
+  {
+    "key": "e0035",
+    "text": "Software",
+    "font_family": "VividSource-Arimo-Italic",
+    "bounds": [
+      65.18751525878906,
+      3.4478859901428223,
+      27.60175323486328,
+      7.710290431976318
+    ],
+    "components": [
+      "software"
+    ]
+  },
+  {
+    "key": "e0038",
+    "text": "Input",
+    "font_family": "VividSource-Arimo-Italic",
+    "bounds": [
+      70.33250427246094,
+      29.127883911132812,
+      16.836441040039062,
+      7.710289001464844
+    ],
+    "components": [
+      "execution-path"
+    ]
+  },
+  {
+    "key": "e0041",
+    "text": "Output",
+    "font_family": "VividSource-Arimo-Italic",
+    "bounds": [
+      67.35476684570312,
+      64.57538604736328,
+      21.939437866210938,
+      7.710289001464844
+    ],
+    "components": [
+      "execution-path"
+    ]
+  }
+]

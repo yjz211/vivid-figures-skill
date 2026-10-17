@@ -1,0 +1,1848 @@
+[
+  {
+    "key": "e0021",
+    "text": "System Buses",
+    "font_family": "VividSource-Carlito-BoldItalic",
+    "bounds": [
+      24.48514386198156,
+      75.36412586722146,
+      8.850603258411983,
+      40.48645983054213
+    ],
+    "components": [
+      "ssd-controller"
+    ]
+  },
+  {
+    "key": "e0025",
+    "text": "DPU",
+    "font_family": "VividSource-Carlito-BoldItalic",
+    "bounds": [
+      65.2250281728716,
+      2.4904262838172144,
+      13.346053880131421,
+      8.85059560231457
+    ],
+    "components": [
+      "device-overview"
+    ]
+  },
+  {
+    "key": "e0028",
+    "text": "HCA",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      29.06089469576955,
+      13.898207419888422,
+      12.608946258628979,
+      8.85059560231457
+    ],
+    "components": [
+      "device-overview"
+    ]
+  },
+  {
+    "key": "e0033",
+    "text": "NIC",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      29.8335878580308,
+      8.017699871935292,
+      10.423605126290116,
+      8.850607852070425
+    ],
+    "components": [
+      "device-overview"
+    ]
+  },
+  {
+    "key": "e0039",
+    "text": "PCIe Interconnection",
+    "font_family": "VividSource-Carlito-BoldItalic",
+    "bounds": [
+      40.219812854329355,
+      30.026444224443367,
+      61.96630872425431,
+      8.850607852070425
+    ],
+    "components": [
+      "device-overview"
+    ]
+  },
+  {
+    "key": "e0042",
+    "text": "DRAM",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      98.13179844617845,
+      7.929391381976529,
+      18.730562688637292,
+      8.85059560231457
+    ],
+    "components": [
+      "device-overview"
+    ]
+  },
+  {
+    "key": "e0043",
+    "text": "DDR Ctrl.",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      93.3350696728635,
+      14.592633829553051,
+      26.65981127895111,
+      8.850607852070425
+    ],
+    "components": [
+      "device-overview"
+    ]
+  },
+  {
+    "key": "e0052",
+    "text": "SSD ",
+    "font_family": "VividSource-Carlito-BoldItalic",
+    "bounds": [
+      4.354931725448297,
+      80.02912689094957,
+      8.850601727192497,
+      13.182495139955336
+    ],
+    "components": []
+  },
+  {
+    "key": "e0053",
+    "text": "Controller",
+    "font_family": "VividSource-Carlito-BoldItalic",
+    "bounds": [
+      10.135091570266413,
+      72.30428385171037,
+      8.85060249280224,
+      29.973964350890128
+    ],
+    "components": []
+  },
+  {
+    "key": "e0057",
+    "text": "Flash",
+    "font_family": "VividSource-Carlito-BoldItalic",
+    "bounds": [
+      4.354931725448297,
+      141.1705156188548,
+      8.850601727192497,
+      15.587750014281255
+    ],
+    "components": []
+  },
+  {
+    "key": "e0058",
+    "text": "Backbone",
+    "font_family": "VividSource-Carlito-BoldItalic",
+    "bounds": [
+      10.135091570266413,
+      134.33597105418235,
+      8.85060249280224,
+      29.29627110772344
+    ],
+    "components": []
+  },
+  {
+    "key": "e0061",
+    "text": "Host Interface Controller",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      37.971973467618234,
+      57.50229136430973,
+      72.7562489242664,
+      8.85059560231457
+    ],
+    "components": [
+      "ssd-controller"
+    ]
+  },
+  {
+    "key": "e0062",
+    "text": "SSD ",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      20.54117724885464,
+      39.0659800610656,
+      12.728056759685163,
+      8.850607852070425
+    ],
+    "components": [
+      "device-overview"
+    ]
+  },
+  {
+    "key": "e0063",
+    "text": "0",
+    "font_family": "VividSource-Carlito-Italic",
+    "bounds": [
+      33.27559469426752,
+      39.0659800610656,
+      3.9336006400394865,
+      8.850601727192497
+    ],
+    "components": [
+      "device-overview"
+    ]
+  },
+  {
+    "key": "e0064",
+    "text": "SSD ",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      48.33812417650939,
+      38.90542251107399,
+      12.6991167114777,
+      8.85059560231457
+    ],
+    "components": [
+      "device-overview"
+    ]
+  },
+  {
+    "key": "e0065",
+    "text": "1",
+    "font_family": "VividSource-Carlito-Italic",
+    "bounds": [
+      61.062506009438046,
+      38.90542251107399,
+      3.6685434852877634,
+      8.850601727192497
+    ],
+    "components": [
+      "device-overview"
+    ]
+  },
+  {
+    "key": "e0066",
+    "text": "SSD ",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      105.01579986889602,
+      38.65655647112362,
+      12.699119773916664,
+      8.85059560231457
+    ],
+    "components": [
+      "device-overview"
+    ]
+  },
+  {
+    "key": "e0067",
+    "text": "n",
+    "font_family": "VividSource-Carlito-Italic",
+    "bounds": [
+      117.75223239914705,
+      38.65655647112362,
+      3.722323358735082,
+      8.850601727192497
+    ],
+    "components": [
+      "device-overview"
+    ]
+  },
+  {
+    "key": "e0072",
+    "text": "DDR Ctrl.",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      40.26998785431147,
+      113.63807766937727,
+      26.609198350197182,
+      8.850601727192512
+    ],
+    "components": [
+      "ssd-controller"
+    ]
+  },
+  {
+    "key": "e0075",
+    "text": "Firmware",
+    "font_family": "VividSource-Carlito-BoldItalic",
+    "bounds": [
+      82.52938241169979,
+      67.33659136080497,
+      28.811511519273154,
+      8.85059560231457
+    ],
+    "components": [
+      "ssd-controller"
+    ]
+  },
+  {
+    "key": "e0078",
+    "text": "Cmd. Parse",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      80.44209751254131,
+      74.74242625806802,
+      32.959989337618936,
+      8.850601727192497
+    ],
+    "components": [
+      "ssd-controller"
+    ]
+  },
+  {
+    "key": "e0081",
+    "text": "Addr. Trans.",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      78.8595883029002,
+      82.7102125803017,
+      35.985899529411654,
+      8.850601727192497
+    ],
+    "components": [
+      "ssd-controller"
+    ]
+  },
+  {
+    "key": "e0086",
+    "text": "GC, WL",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      78.98501967797758,
+      90.68602249262041,
+      21.333072319057464,
+      8.850601727192497
+    ],
+    "components": [
+      "ssd-controller"
+    ]
+  },
+  {
+    "key": "e0089",
+    "text": "Firmware",
+    "font_family": "VividSource-Carlito-BoldItalic",
+    "bounds": [
+      82.52938241169979,
+      67.33659136080497,
+      28.811511519273154,
+      8.85059560231457
+    ],
+    "components": [
+      "ssd-controller"
+    ]
+  },
+  {
+    "key": "e0092",
+    "text": "Cmd. Parse",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      80.44209751254131,
+      74.74242625806802,
+      32.959989337618936,
+      8.850601727192497
+    ],
+    "components": [
+      "ssd-controller"
+    ]
+  },
+  {
+    "key": "e0095",
+    "text": "Addr. Trans.",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      78.8595883029002,
+      82.7102125803017,
+      35.985899529411654,
+      8.850601727192497
+    ],
+    "components": [
+      "ssd-controller"
+    ]
+  },
+  {
+    "key": "e0099",
+    "text": "GC, WL",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      78.98501967797758,
+      90.68602249262041,
+      21.333072319057464,
+      8.850601727192497
+    ],
+    "components": [
+      "ssd-controller"
+    ]
+  },
+  {
+    "key": "e0102",
+    "text": "Mapping Table",
+    "font_family": "VividSource-Carlito-BoldItalic",
+    "bounds": [
+      76.74520694379045,
+      106.67678028721458,
+      40.35236175319733,
+      7.867203576908196
+    ],
+    "components": [
+      "ssd-controller"
+    ]
+  },
+  {
+    "key": "e0105",
+    "text": "DRAM",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      44.3843378528452,
+      102.5072573883099,
+      18.73055962619833,
+      8.850601727192497
+    ],
+    "components": [
+      "ssd-controller"
+    ]
+  },
+  {
+    "key": "e0118",
+    "text": "LPN",
+    "font_family": "VividSource-Carlito-BoldItalic",
+    "bounds": [
+      79.26599845290185,
+      112.93563379450553,
+      11.89176898990263,
+      8.850601727192512
+    ],
+    "components": [
+      "ssd-controller"
+    ]
+  },
+  {
+    "key": "e0119",
+    "text": "PPN",
+    "font_family": "VividSource-Carlito-BoldItalic",
+    "bounds": [
+      102.30635599473955,
+      113.09619134449714,
+      12.644222493052439,
+      8.850601727192512
+    ],
+    "components": [
+      "ssd-controller"
+    ]
+  },
+  {
+    "key": "e0124",
+    "text": "Lookup",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      100.19098240540553,
+      98.42502012475008,
+      21.601672715690256,
+      8.850601727192497
+    ],
+    "components": [
+      "ssd-controller"
+    ]
+  },
+  {
+    "key": "e0129",
+    "text": "DMA Eng.",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      36.888191630541094,
+      88.20939135336631,
+      29.08364290803116,
+      8.850601727192497
+    ],
+    "components": [
+      "ssd-controller"
+    ]
+  },
+  {
+    "key": "e0134",
+    "text": "Channel ",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      25.338117330458093,
+      136.94561769860755,
+      8.850601727192501,
+      25.954069157315416
+    ],
+    "components": [
+      "flash-hierarchy"
+    ]
+  },
+  {
+    "key": "e0135",
+    "text": "0",
+    "font_family": "VividSource-Carlito-BoldItalic",
+    "bounds": [
+      25.338117330458093,
+      132.8650506126976,
+      8.850601727192501,
+      3.9336006400394865
+    ],
+    "components": [
+      "flash-hierarchy"
+    ]
+  },
+  {
+    "key": "e0138",
+    "text": "Die ",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      43.46914634316159,
+      134.260005724467,
+      11.252065302081292,
+      8.850601727192497
+    ],
+    "components": [
+      "flash-hierarchy"
+    ]
+  },
+  {
+    "key": "e0139",
+    "text": "0",
+    "font_family": "VividSource-Carlito-Italic",
+    "bounds": [
+      54.812711196601875,
+      134.260005724467,
+      3.9336006400394865,
+      8.850601727192497
+    ],
+    "components": [
+      "flash-hierarchy"
+    ]
+  },
+  {
+    "key": "e0142",
+    "text": "Die ",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      43.46914634316159,
+      134.260005724467,
+      11.252065302081292,
+      8.850601727192497
+    ],
+    "components": [
+      "flash-hierarchy"
+    ]
+  },
+  {
+    "key": "e0143",
+    "text": "0",
+    "font_family": "VividSource-Carlito-Italic",
+    "bounds": [
+      54.812711196601875,
+      134.260005724467,
+      3.9336006400394865,
+      8.850601727192497
+    ],
+    "components": [
+      "flash-hierarchy"
+    ]
+  },
+  {
+    "key": "e0146",
+    "text": "Channel ",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      105.08826942453426,
+      137.3169139234508,
+      8.850601727192497,
+      25.954066094876453
+    ],
+    "components": [
+      "flash-hierarchy"
+    ]
+  },
+  {
+    "key": "e0147",
+    "text": "C",
+    "font_family": "VividSource-Carlito-BoldItalic",
+    "bounds": [
+      105.08826942453426,
+      132.98848795720468,
+      8.850601727192497,
+      4.179450560415432
+    ],
+    "components": [
+      "flash-hierarchy"
+    ]
+  },
+  {
+    "key": "e0153",
+    "text": "Plane ",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      75.60523241416742,
+      133.35685572478886,
+      17.74863450905559,
+      8.850601727192497
+    ],
+    "components": [
+      "flash-hierarchy"
+    ]
+  },
+  {
+    "key": "e0154",
+    "text": "0",
+    "font_family": "VividSource-Carlito-Italic",
+    "bounds": [
+      93.4956272228551,
+      133.35685572478886,
+      3.9336006400394865,
+      8.850601727192497
+    ],
+    "components": [
+      "flash-hierarchy"
+    ]
+  },
+  {
+    "key": "e0159",
+    "text": "Block ",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      74.54151873961975,
+      141.35974372242507,
+      15.444878049305316,
+      7.867200514469232
+    ],
+    "components": [
+      "flash-hierarchy"
+    ]
+  },
+  {
+    "key": "e0160",
+    "text": "0",
+    "font_family": "VividSource-Carlito-Italic",
+    "bounds": [
+      89.99541873411228,
+      141.35974372242507,
+      3.4419004164827243,
+      7.867201280078973
+    ],
+    "components": [
+      "flash-hierarchy"
+    ]
+  },
+  {
+    "key": "e0163",
+    "text": "Page ",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      71.74777817054702,
+      146.53780739550646,
+      14.031611466557024,
+      7.867200514469232
+    ],
+    "components": [
+      "flash-hierarchy"
+    ]
+  },
+  {
+    "key": "e0164",
+    "text": "0",
+    "font_family": "VividSource-Carlito-Italic",
+    "bounds": [
+      85.82889090051414,
+      146.53780739550646,
+      3.4419004164827243,
+      7.867201280078973
+    ],
+    "components": [
+      "flash-hierarchy"
+    ]
+  },
+  {
+    "key": "e0171",
+    "text": "Plane ",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      75.2118560043955,
+      158.43432010336394,
+      17.79272138037777,
+      8.850601727192497
+    ],
+    "components": [
+      "flash-hierarchy"
+    ]
+  },
+  {
+    "key": "e0172",
+    "text": "P",
+    "font_family": "VividSource-Carlito-Italic",
+    "bounds": [
+      93.10626873300363,
+      158.43432010336394,
+      3.9336006400394865,
+      8.850601727192497
+    ],
+    "components": [
+      "flash-hierarchy"
+    ]
+  },
+  {
+    "key": "e0175",
+    "text": "Die ",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      43.38083785320283,
+      154.44038826732393,
+      11.266538388623985,
+      8.850601727192497
+    ],
+    "components": [
+      "flash-hierarchy"
+    ]
+  },
+  {
+    "key": "e0176",
+    "text": "D",
+    "font_family": "VividSource-Carlito-Italic",
+    "bounds": [
+      54.73243242160607,
+      154.44038826732393,
+      4.452190608917476,
+      8.850601727192497
+    ],
+    "components": [
+      "flash-hierarchy"
+    ]
+  },
+  {
+    "key": "e0179",
+    "text": "Die ",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      43.38083785320283,
+      154.44038826732393,
+      11.266538388623985,
+      8.850601727192497
+    ],
+    "components": [
+      "flash-hierarchy"
+    ]
+  },
+  {
+    "key": "e0180",
+    "text": "D",
+    "font_family": "VividSource-Carlito-Italic",
+    "bounds": [
+      54.73243242160607,
+      154.44038826732393,
+      4.452190608917476,
+      8.850601727192497
+    ],
+    "components": [
+      "flash-hierarchy"
+    ]
+  },
+  {
+    "key": "e0186",
+    "text": "Upper",
+    "font_family": "VividSource-Carlito-Italic",
+    "bounds": [
+      156.74422201537803,
+      6.09098477252428,
+      18.151565728394417,
+      8.850607852070425
+    ],
+    "components": [
+      "host-queues"
+    ]
+  },
+  {
+    "key": "e0187",
+    "text": "-",
+    "font_family": "VividSource-Carlito-Italic",
+    "bounds": [
+      174.75905596891883,
+      6.09098477252428,
+      2.216491687270832,
+      8.850601727192497
+    ],
+    "components": [
+      "host-queues"
+    ]
+  },
+  {
+    "key": "e0188",
+    "text": "layer Software",
+    "font_family": "VividSource-Carlito-Italic",
+    "bounds": [
+      176.97479180797293,
+      6.09098477252428,
+      42.447939737069646,
+      8.850607852070425
+    ],
+    "components": [
+      "host-queues"
+    ]
+  },
+  {
+    "key": "e0189",
+    "text": "(e.g., Block Layer)",
+    "font_family": "VividSource-Carlito-Italic",
+    "bounds": [
+      162.26748993333152,
+      14.773256479635165,
+      51.740310534539276,
+      8.85059560231457
+    ],
+    "components": [
+      "host-queues"
+    ]
+  },
+  {
+    "key": "e0192",
+    "text": "NVMe Driver",
+    "font_family": "VividSource-Carlito-BoldItalic",
+    "bounds": [
+      168.75813332091096,
+      27.899041374859735,
+      39.054169376950995,
+      8.85059560231457
+    ],
+    "components": [
+      "host-queues"
+    ]
+  },
+  {
+    "key": "e0233",
+    "text": "SQ",
+    "font_family": "VividSource-Carlito-Italic",
+    "bounds": [
+      173.0280307192916,
+      45.69606241954261,
+      6.582504306736155,
+      6.637946701735942
+    ],
+    "components": [
+      "host-queues"
+    ]
+  },
+  {
+    "key": "e0234",
+    "text": "CQ",
+    "font_family": "VividSource-Carlito-Italic",
+    "bounds": [
+      196.19381351132873,
+      45.69606241954261,
+      6.577616654150006,
+      6.637946701735942
+    ],
+    "components": [
+      "host-queues"
+    ]
+  },
+  {
+    "key": "e0247",
+    "text": "SQ Tail",
+    "font_family": "VividSource-Carlito-Italic",
+    "bounds": [
+      159.31218733428707,
+      74.84572844919332,
+      16.19921188997887,
+      6.637952826613855
+    ],
+    "components": [
+      "firmware-path"
+    ]
+  },
+  {
+    "key": "e0248",
+    "text": "Doorbell",
+    "font_family": "VividSource-Carlito-Italic",
+    "bounds": [
+      157.77984087487224,
+      79.34140109773763,
+      19.51605378332806,
+      6.637952826613855
+    ],
+    "components": [
+      "firmware-path"
+    ]
+  },
+  {
+    "key": "e0249",
+    "text": "CQ Head",
+    "font_family": "VividSource-Carlito-Italic",
+    "bounds": [
+      198.48179841041568,
+      74.88587089913018,
+      20.086610661786835,
+      6.637952826613855
+    ],
+    "components": [
+      "firmware-path"
+    ]
+  },
+  {
+    "key": "e0250",
+    "text": "Doorbell",
+    "font_family": "VividSource-Carlito-Italic",
+    "bounds": [
+      198.7828484103084,
+      79.3935911825579,
+      19.52162742224209,
+      6.637952826613855
+    ],
+    "components": [
+      "firmware-path"
+    ]
+  },
+  {
+    "key": "e0251",
+    "text": "DMA",
+    "font_family": "VividSource-Carlito-Italic",
+    "bounds": [
+      182.3575427765136,
+      74.98622089909442,
+      11.396719606534134,
+      6.637952826613855
+    ],
+    "components": [
+      "firmware-path"
+    ]
+  },
+  {
+    "key": "e0252",
+    "text": "Engine",
+    "font_family": "VividSource-Carlito-Italic",
+    "bounds": [
+      180.41879841685298,
+      78.9199421226681,
+      15.445668158557964,
+      6.637952826613855
+    ],
+    "components": [
+      "firmware-path"
+    ]
+  },
+  {
+    "key": "e0253",
+    "text": "Parse & Slice",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      174.6306050290232,
+      91.07435812785799,
+      33.58487388329468,
+      7.867203576908196
+    ],
+    "components": [
+      "firmware-path"
+    ]
+  },
+  {
+    "key": "e0265",
+    "text": "NVMe CMD",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      159.86711352427486,
+      102.77311996450909,
+      23.20096409085272,
+      5.900401151461665
+    ],
+    "components": [
+      "firmware-path"
+    ]
+  },
+  {
+    "key": "e0266",
+    "text": "4KB Unit",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      193.85364465229944,
+      105.48461567277128,
+      22.74164724531329,
+      7.867203576908196
+    ],
+    "components": [
+      "firmware-path"
+    ]
+  },
+  {
+    "key": "e0267",
+    "text": "Address Translation",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      166.86653827153626,
+      117.72731566840824,
+      51.804082763520455,
+      7.867203576908196
+    ],
+    "components": [
+      "firmware-path"
+    ]
+  },
+  {
+    "key": "e0282",
+    "text": "LPN",
+    "font_family": "VividSource-Carlito-BoldItalic",
+    "bounds": [
+      206.97140595743898,
+      130.8611272161568,
+      10.449543984313095,
+      7.867200514469232
+    ],
+    "components": [
+      "firmware-path"
+    ]
+  },
+  {
+    "key": "e0283",
+    "text": "PPN",
+    "font_family": "VividSource-Carlito-BoldItalic",
+    "bounds": [
+      207.03161350746635,
+      137.75717933619674,
+      11.188094014567469,
+      7.867200514469232
+    ],
+    "components": [
+      "firmware-path"
+    ]
+  },
+  {
+    "key": "e0286",
+    "text": "Cache Lookup",
+    "font_family": "VividSource-Carlito-BoldItalic",
+    "bounds": [
+      166.0085408719397,
+      144.11937178388055,
+      36.773963072831975,
+      7.867200514469232
+    ],
+    "components": [
+      "firmware-path"
+    ]
+  },
+  {
+    "key": "e0287",
+    "text": "Mapping Table",
+    "font_family": "VividSource-Carlito-Italic",
+    "bounds": [
+      176.15593237833312,
+      125.29371424054082,
+      39.218083360046876,
+      7.867200514469232
+    ],
+    "components": [
+      "firmware-path"
+    ]
+  },
+  {
+    "key": "e0290",
+    "text": " ",
+    "font_family": "VividSource-Carlito-Italic",
+    "bounds": [
+      156.86382863154634,
+      151.00825473430635,
+      7.867201280078973,
+      1.4751002878654162
+    ],
+    "components": [
+      "firmware-path"
+    ]
+  },
+  {
+    "key": "e0291",
+    "text": "Directory",
+    "font_family": "VividSource-Carlito-Italic",
+    "bounds": [
+      156.86382863154634,
+      126.83224070178451,
+      7.867197452030268,
+      24.206074933390028
+    ],
+    "components": [
+      "firmware-path"
+    ]
+  },
+  {
+    "key": "e0294",
+    "text": " ",
+    "font_family": "VividSource-Carlito-Italic",
+    "bounds": [
+      156.86382863154634,
+      151.00825473430635,
+      7.867201280078973,
+      1.4751002878654162
+    ],
+    "components": [
+      "firmware-path"
+    ]
+  },
+  {
+    "key": "e0295",
+    "text": "Directory",
+    "font_family": "VividSource-Carlito-Italic",
+    "bounds": [
+      156.86382863154634,
+      126.83224070178451,
+      7.867197452030268,
+      24.206074933390028
+    ],
+    "components": [
+      "firmware-path"
+    ]
+  },
+  {
+    "key": "e0301",
+    "text": "JBOF",
+    "font_family": "VividSource-Carlito-BoldItalic",
+    "bounds": [
+      3.065501474596737,
+      18.840726122732264,
+      11.800803952121527,
+      20.081552031854187
+    ],
+    "components": [
+      "device-overview"
+    ]
+  },
+  {
+    "key": "e0302",
+    "text": "SSD",
+    "font_family": "VividSource-Carlito-BoldItalic",
+    "bounds": [
+      3.627461292553507,
+      109.5391189245698,
+      11.800803741857461,
+      15.302824274768156
+    ],
+    "components": []
+  },
+  {
+    "key": "e0306",
+    "text": "Flash Controller",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      50.746527238090046,
+      124.13469134056325,
+      46.405523485048896,
+      8.850601727192497
+    ],
+    "components": [
+      "ssd-controller"
+    ]
+  },
+  {
+    "key": "e0313",
+    "text": "2",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      151.25707862744096,
+      50.00415455667917,
+      3.6685434852877563,
+      8.850601727192512
+    ],
+    "components": []
+  },
+  {
+    "key": "e0315",
+    "text": "2",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      151.25707862744096,
+      50.00415455667917,
+      3.6685434852877563,
+      8.850601727192512
+    ],
+    "components": []
+  },
+  {
+    "key": "e0318",
+    "text": "Ring",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      135.160948432982,
+      55.33771050570614,
+      11.623536085945489,
+      7.867197452030268
+    ],
+    "components": []
+  },
+  {
+    "key": "e0319",
+    "text": "Doorbell",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      129.59353239492705,
+      60.47964352389319,
+      22.4560564373096,
+      7.867197452030268
+    ],
+    "components": []
+  },
+  {
+    "key": "e0323",
+    "text": "Sliced",
+    "font_family": "VividSource-Carlito-BoldItalic",
+    "bounds": [
+      129.19514583501044,
+      114.16289395947344,
+      15.749290607180228,
+      7.86720357690821
+    ],
+    "components": []
+  },
+  {
+    "key": "e0324",
+    "text": "CMD",
+    "font_family": "VividSource-Carlito-BoldItalic",
+    "bounds": [
+      130.61309182449534,
+      119.95509301746782,
+      13.107630757047446,
+      7.867203576908196
+    ],
+    "components": []
+  },
+  {
+    "key": "e0326",
+    "text": "4",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      168.50524936104014,
+      90.58567249265617,
+      3.6877507196635406,
+      8.850601727192497
+    ],
+    "components": [
+      "firmware-path"
+    ]
+  },
+  {
+    "key": "e0328",
+    "text": "4",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      168.50524936104014,
+      90.58567249265617,
+      3.6877507196635406,
+      8.850601727192497
+    ],
+    "components": [
+      "firmware-path"
+    ]
+  },
+  {
+    "key": "e0330",
+    "text": "5",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      159.36536352445367,
+      117.47144889298673,
+      3.6685434852877563,
+      8.850601727192497
+    ],
+    "components": [
+      "firmware-path"
+    ]
+  },
+  {
+    "key": "e0332",
+    "text": "5",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      159.36536352445367,
+      117.47144889298673,
+      3.6685434852877563,
+      8.850601727192497
+    ],
+    "components": [
+      "firmware-path"
+    ]
+  },
+  {
+    "key": "e0335",
+    "text": "Data ",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      192.89029935234979,
+      56.97542936498577,
+      13.751575922833581,
+      7.867197452030268
+    ],
+    "components": []
+  },
+  {
+    "key": "e0336",
+    "text": "Trans.",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      191.04385690305665,
+      62.113344463252375,
+      16.089331579959435,
+      7.867197452030268
+    ],
+    "components": []
+  },
+  {
+    "key": "e0337",
+    "text": "DMA OP",
+    "font_family": "VividSource-Carlito-BoldItalic",
+    "bounds": [
+      178.21109841763976,
+      83.72874303037817,
+      22.997912137800085,
+      7.867203576908196
+    ],
+    "components": [
+      "firmware-path"
+    ]
+  },
+  {
+    "key": "e0339",
+    "text": "Flash",
+    "font_family": "VividSource-Carlito-BoldItalic",
+    "bounds": [
+      129.4490220251055,
+      143.8986036214226,
+      13.797108265346651,
+      7.867200514469232
+    ],
+    "components": []
+  },
+  {
+    "key": "e0340",
+    "text": "OP",
+    "font_family": "VividSource-Carlito-BoldItalic",
+    "bounds": [
+      132.51170598397496,
+      149.04655433217343,
+      8.033034646795386,
+      7.867200514469232
+    ],
+    "components": []
+  },
+  {
+    "key": "e0342",
+    "text": "7",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      144.82665503964475,
+      146.75357765757556,
+      3.6877507196635406,
+      8.850601727192497
+    ],
+    "components": []
+  },
+  {
+    "key": "e0344",
+    "text": "7",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      144.82665503964475,
+      146.75357765757556,
+      3.6877507196635406,
+      8.850601727192497
+    ],
+    "components": []
+  },
+  {
+    "key": "e0348",
+    "text": "6",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      185.79755596498492,
+      58.26494891408676,
+      3.6685434852877563,
+      8.850601727192497
+    ],
+    "components": []
+  },
+  {
+    "key": "e0350",
+    "text": "6",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      185.79755596498492,
+      58.26494891408676,
+      3.6685434852877563,
+      8.850601727192497
+    ],
+    "components": []
+  },
+  {
+    "key": "e0351",
+    "text": "Queue Pair (QP)",
+    "font_family": "VividSource-Carlito-Italic",
+    "bounds": [
+      169.17157483077338,
+      34.826180312820725,
+      41.686347916052,
+      7.867197452030268
+    ],
+    "components": [
+      "host-queues"
+    ]
+  },
+  {
+    "key": "e0353",
+    "text": "11",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      217.6406125637441,
+      50.15965295750266,
+      6.66756661139334,
+      7.8671974520302825
+    ],
+    "components": [
+      "host-queues"
+    ]
+  },
+  {
+    "key": "e0355",
+    "text": "11",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      217.6406125637441,
+      50.15965295750266,
+      6.66756661139334,
+      7.8671974520302825
+    ],
+    "components": [
+      "host-queues"
+    ]
+  },
+  {
+    "key": "e0360",
+    "text": "Ring",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      225.91747860083345,
+      57.29654446496899,
+      11.636533076907654,
+      7.867197452030268
+    ],
+    "components": []
+  },
+  {
+    "key": "e0361",
+    "text": "Doorbell",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      220.3500625627785,
+      62.44249540307648,
+      22.501650028601944,
+      7.867197452030268
+    ],
+    "components": []
+  },
+  {
+    "key": "e0362",
+    "text": "(b) SSD architecture.",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      35.7943772434187,
+      169.78894495512182,
+      66.96820865838481,
+      9.834001408696281
+    ],
+    "components": []
+  },
+  {
+    "key": "e0363",
+    "text": "(c) Details of I/O path.",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      147.2832333285642,
+      169.5882441895836,
+      71.85429940066206,
+      9.834001408696281
+    ],
+    "components": []
+  },
+  {
+    "key": "e0371",
+    "text": "SSD  Firmware",
+    "font_family": "VividSource-Carlito-BoldItalic",
+    "bounds": [
+      227.30253399584765,
+      91.13640314126361,
+      8.85059560231457,
+      43.49166793493988
+    ],
+    "components": []
+  },
+  {
+    "key": "e0372",
+    "text": "NV",
+    "font_family": "VividSource-Carlito-BoldItalic",
+    "bounds": [
+      114.9827830959348,
+      149.91923306416223,
+      8.85059560231457,
+      9.49830756802612
+    ],
+    "components": [
+      "flash-hierarchy"
+    ]
+  },
+  {
+    "key": "e0373",
+    "text": "-",
+    "font_family": "VividSource-Carlito-BoldItalic",
+    "bounds": [
+      114.9827830959348,
+      148.1834258160931,
+      8.850601727192497,
+      2.2126504317981244
+    ],
+    "components": [
+      "flash-hierarchy"
+    ]
+  },
+  {
+    "key": "e0374",
+    "text": "DDR",
+    "font_family": "VividSource-Carlito-BoldItalic",
+    "bounds": [
+      114.9827830959348,
+      134.93862382420073,
+      8.85059560231457,
+      13.239716811993048
+    ],
+    "components": [
+      "flash-hierarchy"
+    ]
+  },
+  {
+    "key": "e0376",
+    "text": "Host ",
+    "font_family": "VividSource-Carlito-BoldItalic",
+    "bounds": [
+      226.74056419624324,
+      20.348169368273375,
+      8.85059560231457,
+      15.385987348032359
+    ],
+    "components": []
+  },
+  {
+    "key": "e0378",
+    "text": "NVMe",
+    "font_family": "VividSource-Carlito-BoldItalic",
+    "bounds": [
+      129.7420484349132,
+      79.99571568185503,
+      16.92220473029738,
+      7.867203576908196
+    ],
+    "components": []
+  },
+  {
+    "key": "e0379",
+    "text": "CMD",
+    "font_family": "VividSource-Carlito-BoldItalic",
+    "bounds": [
+      131.64067484414866,
+      85.78390906968481,
+      13.088827381810006,
+      7.867203576908196
+    ],
+    "components": []
+  },
+  {
+    "key": "e0380",
+    "text": "(a) JBOF architecture.",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      36.94840224300743,
+      46.40863071762851,
+      70.28659402097173,
+      9.83400600235474
+    ],
+    "components": []
+  },
+  {
+    "key": "e0382",
+    "text": "1",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      157.75976352502587,
+      27.20460271543925,
+      3.6685434852877563,
+      8.850601727192497
+    ],
+    "components": [
+      "host-queues"
+    ]
+  },
+  {
+    "key": "e0384",
+    "text": "1",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      157.75976352502587,
+      27.20460271543925,
+      3.6685434852877563,
+      8.850601727192497
+    ],
+    "components": [
+      "host-queues"
+    ]
+  },
+  {
+    "key": "e0387",
+    "text": "Flash Controller",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      164.2945427829509,
+      156.66815949150558,
+      46.28974491758527,
+      8.850601727192497
+    ],
+    "components": [
+      "flash-completion"
+    ]
+  },
+  {
+    "key": "e0389",
+    "text": "9",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      209.58852954659417,
+      58.545933813888965,
+      3.6685434852877563,
+      8.850601727192497
+    ],
+    "components": []
+  },
+  {
+    "key": "e0391",
+    "text": "9",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      209.58852954659417,
+      58.545933813888965,
+      3.6685434852877563,
+      8.850601727192497
+    ],
+    "components": []
+  },
+  {
+    "key": "e0393",
+    "text": "8",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      214.32504464500383,
+      157.08962918511148,
+      3.6685434852877563,
+      8.850601727192497
+    ],
+    "components": [
+      "flash-completion"
+    ]
+  },
+  {
+    "key": "e0395",
+    "text": "8",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      214.32504464500383,
+      157.08962918511148,
+      3.6685434852877563,
+      8.850601727192497
+    ],
+    "components": [
+      "flash-completion"
+    ]
+  },
+  {
+    "key": "e0397",
+    "text": "10",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      216.8458484038711,
+      29.326995414878184,
+      6.677954404358388,
+      7.867197452030268
+    ],
+    "components": [
+      "host-queues"
+    ]
+  },
+  {
+    "key": "e0399",
+    "text": "10",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      216.8458484038711,
+      29.326995414878184,
+      6.677954404358388,
+      7.867197452030268
+    ],
+    "components": [
+      "host-queues"
+    ]
+  },
+  {
+    "key": "e0401",
+    "text": "3",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      176.83830502823642,
+      58.26494891408676,
+      3.6685434852877563,
+      8.850601727192497
+    ],
+    "components": []
+  },
+  {
+    "key": "e0403",
+    "text": "3",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      176.83830502823642,
+      58.26494891408676,
+      3.6685434852877563,
+      8.850601727192497
+    ],
+    "components": []
+  },
+  {
+    "key": "e0404",
+    "text": "Fetch",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      160.12803332398656,
+      57.8585142645734,
+      14.500807740193522,
+      7.867197452030268
+    ],
+    "components": []
+  },
+  {
+    "key": "e0405",
+    "text": "CMD",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      160.8906908737636,
+      63.004452952925035,
+      12.952377351341056,
+      7.867197452030268
+    ],
+    "components": []
+  },
+  {
+    "key": "e0408",
+    "text": "PCIe Root Complex",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      42.939298465847976,
+      21.504742317079945,
+      55.984348698309994,
+      8.85059560231457
+    ],
+    "components": [
+      "device-overview"
+    ]
+  },
+  {
+    "key": "e0409",
+    "text": "ARM",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      64.12017981816281,
+      8.539514971846984,
+      14.613560617960957,
+      8.850607852070425
+    ],
+    "components": [
+      "device-overview"
+    ]
+  },
+  {
+    "key": "e0410",
+    "text": "Processor",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      57.148856010832795,
+      13.60918668024533,
+      28.73706362806434,
+      8.85059560231457
+    ],
+    "components": [
+      "device-overview"
+    ]
+  },
+  {
+    "key": "e0413",
+    "text": "ARM",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      43.95785954031408,
+      68.46050646050209,
+      14.613566742838884,
+      8.850601727192497
+    ],
+    "components": [
+      "ssd-controller"
+    ]
+  },
+  {
+    "key": "e0414",
+    "text": "Processor",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      36.988544692944295,
+      74.97121494817203,
+      28.769127364014828,
+      8.850601727192497
+    ],
+    "components": [
+      "ssd-controller"
+    ]
+  },
+  {
+    "key": "e0417",
+    "text": "ARM",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      43.95785954031408,
+      68.46050646050209,
+      14.613566742838884,
+      8.850601727192497
+    ],
+    "components": [
+      "ssd-controller"
+    ]
+  },
+  {
+    "key": "e0418",
+    "text": "Processor",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      36.988544692944295,
+      74.97121494817203,
+      28.769127364014828,
+      8.850601727192497
+    ],
+    "components": [
+      "ssd-controller"
+    ]
+  },
+  {
+    "key": "e0420",
+    "text": "I/O",
+    "font_family": "VividSource-Carlito-BoldItalic",
+    "bounds": [
+      136.08415128299478,
+      20.468094478093917,
+      8.997237429654888,
+      7.867197452030268
+    ],
+    "components": []
+  },
+  {
+    "key": "e0421",
+    "text": "Request",
+    "font_family": "VividSource-Carlito-BoldItalic",
+    "bounds": [
+      129.7420484349132,
+      26.256287865923696,
+      21.764937461725822,
+      7.867197452030268
+    ],
+    "components": []
+  }
+]

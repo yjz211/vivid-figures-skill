@@ -1,0 +1,606 @@
+[
+  {
+    "key": "e0004",
+    "text": "s",
+    "font_family": "VividSource-Carlito-Italic",
+    "bounds": [
+      116.11264283917626,
+      64.90340545064646,
+      4.63508522500149,
+      12.669233080018216
+    ],
+    "components": [
+      "partition"
+    ]
+  },
+  {
+    "key": "e0005",
+    "text": "Task",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      120.46041666451492,
+      64.90340545064646,
+      18.983527155796764,
+      12.66923209241213
+    ],
+    "components": [
+      "partition"
+    ]
+  },
+  {
+    "key": "e0006",
+    "text": "partition",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      141.58627474332752,
+      64.90340545064646,
+      36.64767578775354,
+      12.66923209241213
+    ],
+    "components": [
+      "partition"
+    ]
+  },
+  {
+    "key": "e0008",
+    "text": "A",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      126.58752482082127,
+      43.31172913498085,
+      5.871107819987742,
+      11.433210485031964
+    ],
+    "components": []
+  },
+  {
+    "key": "e0011",
+    "text": "B",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      162.78456780289707,
+      43.36351129727154,
+      5.069624495708069,
+      11.433210485031964
+    ],
+    "components": []
+  },
+  {
+    "key": "e0012",
+    "text": "DFG of operators ",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      116.68054004105761,
+      29.693842140792185,
+      66.55935661433432,
+      11.433207522213706
+    ],
+    "components": [
+      "input-dag"
+    ]
+  },
+  {
+    "key": "e0013",
+    "text": "sTask",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      155.11609887805753,
+      78.15897532577401,
+      19.90950662184332,
+      11.433207522213706
+    ],
+    "components": []
+  },
+  {
+    "key": "e0014",
+    "text": "-",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      174.93711599461312,
+      78.15897532577401,
+      2.853474215104484,
+      11.433210485031964
+    ],
+    "components": []
+  },
+  {
+    "key": "e0015",
+    "text": "graph",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      177.79532701540666,
+      78.15897532577401,
+      21.71434489237072,
+      11.433207522213706
+    ],
+    "components": []
+  },
+  {
+    "key": "e0021",
+    "text": "A",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      88.23483008484436,
+      100.47441678620635,
+      4.944090873748053,
+      8.652159152509853
+    ],
+    "components": [
+      "task-chain"
+    ]
+  },
+  {
+    "key": "e0024",
+    "text": "B",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      104.7869184624924,
+      100.47441678620635,
+      4.075012332334893,
+      8.652159152509853
+    ],
+    "components": [
+      "task-chain"
+    ]
+  },
+  {
+    "key": "e0028",
+    "text": "A",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      119.50416114630207,
+      100.52621475019441,
+      4.944090873748053,
+      8.652159152509853
+    ],
+    "components": [
+      "task-chain"
+    ]
+  },
+  {
+    "key": "e0031",
+    "text": "B",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      136.0562495239501,
+      100.52621475019441,
+      4.075012332334893,
+      8.652159152509853
+    ],
+    "components": [
+      "task-chain"
+    ]
+  },
+  {
+    "key": "e0035",
+    "text": "A",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      151.36379621651577,
+      100.25177087022348,
+      4.944090873748053,
+      8.652159152509853
+    ],
+    "components": [
+      "task-chain"
+    ]
+  },
+  {
+    "key": "e0038",
+    "text": "B",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      167.9158845941638,
+      100.25177087022348,
+      4.075031343752016,
+      8.652159152509853
+    ],
+    "components": [
+      "task-chain"
+    ]
+  },
+  {
+    "key": "e0042",
+    "text": "A",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      182.64347738975266,
+      100.3035372308168,
+      4.944090873748053,
+      8.652159152509853
+    ],
+    "components": [
+      "task-chain"
+    ]
+  },
+  {
+    "key": "e0045",
+    "text": "B",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      199.1955657674007,
+      100.3035372308168,
+      4.075012332334893,
+      8.652159152509853
+    ],
+    "components": [
+      "task-chain"
+    ]
+  },
+  {
+    "key": "e0051",
+    "text": "s",
+    "font_family": "VividSource-Carlito-Italic",
+    "bounds": [
+      111.88749018545059,
+      121.55479757998,
+      4.63508522500149,
+      12.669233080018216
+    ],
+    "components": [
+      "scheduler"
+    ]
+  },
+  {
+    "key": "e0052",
+    "text": "Task",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      116.23524820909188,
+      121.55479757998,
+      18.983542957494137,
+      12.66923209241213
+    ],
+    "components": [
+      "scheduler"
+    ]
+  },
+  {
+    "key": "e0053",
+    "text": "scheduling",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      137.3610904862071,
+      121.55479757998,
+      45.14269989876993,
+      12.66923209241213
+    ],
+    "components": [
+      "scheduler"
+    ]
+  },
+  {
+    "key": "e0058",
+    "text": "order",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      86.33287458226368,
+      147.73443352105096,
+      20.977006089560746,
+      11.433207522213706
+    ],
+    "components": [
+      "device-map"
+    ]
+  },
+  {
+    "key": "e0061",
+    "text": "Virtualized D",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      112.19816735749737,
+      193.0357113538057,
+      54.441793380601666,
+      12.66923209241213
+    ],
+    "components": [
+      "device-map"
+    ]
+  },
+  {
+    "key": "e0062",
+    "text": "evice",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      166.57479453813357,
+      193.0357113538057,
+      21.772526742097398,
+      12.66923209241213
+    ],
+    "components": [
+      "device-map"
+    ]
+  },
+  {
+    "key": "e0063",
+    "text": "EU",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      94.52431648335369,
+      175.18767046867288,
+      10.518004813775406,
+      11.433207522213706
+    ],
+    "components": [
+      "device-map"
+    ]
+  },
+  {
+    "key": "e0066",
+    "text": "A",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      115.96249511073984,
+      165.98371900672282,
+      4.017073927508363,
+      7.1071304149739944
+    ],
+    "components": [
+      "device-map"
+    ]
+  },
+  {
+    "key": "e0069",
+    "text": "A",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      115.96249511073984,
+      160.81616892338025,
+      4.017073927508363,
+      7.1071304149739944
+    ],
+    "components": [
+      "device-map"
+    ]
+  },
+  {
+    "key": "e0072",
+    "text": "A",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      115.96249511073984,
+      155.622735659741,
+      4.017073927508363,
+      7.1071304149739944
+    ],
+    "components": [
+      "device-map"
+    ]
+  },
+  {
+    "key": "e0075",
+    "text": "B",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      135.55919133139105,
+      160.45372539074015,
+      3.2059340378232264,
+      7.1071304149739944
+    ],
+    "components": [
+      "device-map"
+    ]
+  },
+  {
+    "key": "e0078",
+    "text": "B",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      135.55919133139105,
+      155.28617530739757,
+      3.2059340378232264,
+      7.1071304149739944
+    ],
+    "components": [
+      "device-map"
+    ]
+  },
+  {
+    "key": "e0081",
+    "text": "B",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      135.55919133139105,
+      150.09274204375834,
+      3.2059340378232264,
+      7.1071304149739944
+    ],
+    "components": [
+      "device-map"
+    ]
+  },
+  {
+    "key": "e0089",
+    "text": "sEU",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      112.67804910501218,
+      177.31446042232255,
+      11.054203810726904,
+      8.652156189691596
+    ],
+    "components": [
+      "device-map"
+    ]
+  },
+  {
+    "key": "e0092",
+    "text": "sEU",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      132.16249006752696,
+      177.37658479554375,
+      11.054172207332158,
+      8.652156189691596
+    ],
+    "components": [
+      "device-map"
+    ]
+  },
+  {
+    "key": "e0093",
+    "text": "EU",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      152.66696219885125,
+      175.18767046867288,
+      10.517989012078033,
+      11.433207522213706
+    ],
+    "components": [
+      "device-map"
+    ]
+  },
+  {
+    "key": "e0096",
+    "text": "A",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      174.10515662793478,
+      165.98371900672282,
+      4.017073927508363,
+      7.1071304149739944
+    ],
+    "components": [
+      "device-map"
+    ]
+  },
+  {
+    "key": "e0099",
+    "text": "A",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      174.10515662793478,
+      160.81616892338025,
+      4.017073927508363,
+      7.1071304149739944
+    ],
+    "components": [
+      "device-map"
+    ]
+  },
+  {
+    "key": "e0102",
+    "text": "A",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      174.10515662793478,
+      155.622735659741,
+      4.017073927508363,
+      7.1071304149739944
+    ],
+    "components": [
+      "device-map"
+    ]
+  },
+  {
+    "key": "e0105",
+    "text": "B",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      193.70182124519124,
+      160.45372539074015,
+      3.2059340378232264,
+      7.1071304149739944
+    ],
+    "components": [
+      "device-map"
+    ]
+  },
+  {
+    "key": "e0108",
+    "text": "B",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      193.70182124519124,
+      155.28617530739757,
+      3.2059340378232264,
+      7.1071304149739944
+    ],
+    "components": [
+      "device-map"
+    ]
+  },
+  {
+    "key": "e0111",
+    "text": "B",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      193.70182124519124,
+      150.09274204375834,
+      3.2059340378232264,
+      7.1071304149739944
+    ],
+    "components": [
+      "device-map"
+    ]
+  },
+  {
+    "key": "e0119",
+    "text": "sEU",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      170.82586197555065,
+      177.31446042232255,
+      11.054140603937412,
+      8.652156189691596
+    ],
+    "components": [
+      "device-map"
+    ]
+  },
+  {
+    "key": "e0122",
+    "text": "sEU",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      190.31030293806543,
+      177.37658479554375,
+      11.054140603937412,
+      8.652156189691596
+    ],
+    "components": [
+      "device-map"
+    ]
+  },
+  {
+    "key": "e0124",
+    "text": "P",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      239.03433113280335,
+      160.2597753571863,
+      4.818557251788036,
+      11.433210485031964
+    ],
+    "components": [
+      "profiling-loop"
+    ]
+  },
+  {
+    "key": "e0125",
+    "text": "rofiling",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      243.8187058565527,
+      160.2597753571863,
+      26.54299597215868,
+      11.433207522213706
+    ],
+    "components": [
+      "profiling-loop"
+    ]
+  },
+  {
+    "key": "e0126",
+    "text": "sProgram",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      155.40090867150502,
+      134.87253133257218,
+      35.83448883755409,
+      11.433207522213706
+    ],
+    "components": []
+  }
+]

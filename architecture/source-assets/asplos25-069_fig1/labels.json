@@ -1,0 +1,1232 @@
+[
+  {
+    "key": "e0167",
+    "text": "(f) Bridge of two ancilla qubits",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      364.36993408203125,
+      210.63167363340426,
+      109.93690977814549,
+      10.927572497735582
+    ],
+    "components": [
+      "bridge-solution"
+    ]
+  },
+  {
+    "key": "e0243",
+    "text": "(a) Error Syndrome Measurement Circuit",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      33.02144241333008,
+      97.4686945074277,
+      148.5572523541414,
+      10.927572497735582
+    ],
+    "components": [
+      "problem-circuit"
+    ]
+  },
+  {
+    "key": "e0264",
+    "text": "(b) Code Topology",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      210.44886779785156,
+      98.1778467291074,
+      66.0586475845339,
+      10.927572497735582
+    ],
+    "components": [
+      "topology-gap"
+    ]
+  },
+  {
+    "key": "e0267",
+    "text": "Gap!",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      303.686279296875,
+      63.436254321880824,
+      17.947891020981388,
+      10.927572497735582
+    ],
+    "components": [
+      "topology-gap"
+    ]
+  },
+  {
+    "key": "e0268",
+    "text": "(c) Hardware Topology",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      319.461669921875,
+      98.1778467291074,
+      82.2208022093073,
+      10.927572497735582
+    ],
+    "components": [
+      "topology-gap"
+    ]
+  },
+  {
+    "key": "e0269",
+    "text": "QEC Code Synthesis",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      177.06364440917972,
+      8.655903614937644,
+      81.31302657271411,
+      12.48865440585064
+    ],
+    "components": []
+  },
+  {
+    "key": "e0270",
+    "text": "|",
+    "font_family": "VividSource-STIXTwoMath-Regular",
+    "bounds": [
+      38.5415403570652,
+      32.04632596047941,
+      2.5611497773108454,
+      9.366490589620525
+    ],
+    "components": [
+      "problem-circuit"
+    ]
+  },
+  {
+    "key": "e0271",
+    "text": "0",
+    "font_family": "VividSource-STIXTwoMath-Regular",
+    "bounds": [
+      42.667704971485136,
+      32.070248992369216,
+      4.74016038815364,
+      9.366490589620525
+    ],
+    "components": [
+      "problem-circuit"
+    ]
+  },
+  {
+    "key": "e0272",
+    "text": "⟩",
+    "font_family": "VividSource-DejaVuSans",
+    "bounds": [
+      47.45320491676807,
+      30.50916794332397,
+      3.7400918746554908,
+      10.927572497735586
+    ],
+    "components": [
+      "problem-circuit"
+    ]
+  },
+  {
+    "key": "e0273",
+    "text": "H",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      60.990234375,
+      29.954269137550007,
+      6.878516593867403,
+      13.529375391570738
+    ],
+    "components": [
+      "problem-circuit"
+    ]
+  },
+  {
+    "key": "e0274",
+    "text": "H",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      146.4679718017578,
+      29.954269137550007,
+      6.878516593867403,
+      13.529375391570738
+    ],
+    "components": [
+      "problem-circuit"
+    ]
+  },
+  {
+    "key": "e0275",
+    "text": "P",
+    "font_family": "VividSource-STIXTwoMath-Regular",
+    "bounds": [
+      78.49653625488283,
+      50.37969338887933,
+      5.72396671006527,
+      9.366490589620525
+    ],
+    "components": [
+      "problem-circuit"
+    ]
+  },
+  {
+    "key": "e0276",
+    "text": "1",
+    "font_family": "VividSource-STIXTwoMath-Regular",
+    "bounds": [
+      84.00813832961991,
+      54.8538925898265,
+      3.3660820858410716,
+      6.764687695785369
+    ],
+    "components": [
+      "problem-circuit"
+    ]
+  },
+  {
+    "key": "e0277",
+    "text": "P",
+    "font_family": "VividSource-STIXTwoMath-Regular",
+    "bounds": [
+      94.70118713378908,
+      60.51369607442622,
+      5.72396671006527,
+      9.366490589620525
+    ],
+    "components": [
+      "problem-circuit"
+    ]
+  },
+  {
+    "key": "e0278",
+    "text": "2",
+    "font_family": "VividSource-STIXTwoMath-Regular",
+    "bounds": [
+      100.21278920852616,
+      64.98789527537338,
+      3.642523879555256,
+      6.764687695785369
+    ],
+    "components": [
+      "problem-circuit"
+    ]
+  },
+  {
+    "key": "e0279",
+    "text": "P",
+    "font_family": "VividSource-STIXTwoMath-Regular",
+    "bounds": [
+      111.02818298339845,
+      70.60016763204341,
+      5.72396671006527,
+      9.366490589620525
+    ],
+    "components": [
+      "problem-circuit"
+    ]
+  },
+  {
+    "key": "e0280",
+    "text": "3",
+    "font_family": "VividSource-STIXTwoMath-Regular",
+    "bounds": [
+      116.53978505813554,
+      75.07435157420151,
+      3.642523879555256,
+      6.764687695785369
+    ],
+    "components": [
+      "problem-circuit"
+    ]
+  },
+  {
+    "key": "e0281",
+    "text": "P",
+    "font_family": "VividSource-STIXTwoMath-Regular",
+    "bounds": [
+      127.24258422851564,
+      80.78170144551997,
+      5.723966710065284,
+      9.366490589620525
+    ],
+    "components": [
+      "problem-circuit"
+    ]
+  },
+  {
+    "key": "e0282",
+    "text": "4",
+    "font_family": "VividSource-STIXTwoMath-Regular",
+    "bounds": [
+      132.23382538085778,
+      85.25588538767808,
+      4.162884372415306,
+      6.764687695785369
+    ],
+    "components": [
+      "problem-circuit"
+    ]
+  },
+  {
+    "key": "e0284",
+    "text": "q",
+    "font_family": "VividSource-STIXTwoMath-Regular",
+    "bounds": [
+      33.98069381713867,
+      49.365146039395775,
+      5.203605787670313,
+      9.366490589620525
+    ],
+    "components": [
+      "problem-circuit"
+    ]
+  },
+  {
+    "key": "e0285",
+    "text": "1",
+    "font_family": "VividSource-STIXTwoMath-Regular",
+    "bounds": [
+      38.429915178925285,
+      53.83934695848258,
+      3.3660827301434324,
+      6.764687695785369
+    ],
+    "components": [
+      "problem-circuit"
+    ]
+  },
+  {
+    "key": "e0287",
+    "text": "q",
+    "font_family": "VividSource-STIXTwoMath-Regular",
+    "bounds": [
+      33.98069381713867,
+      59.49914872494264,
+      5.203605787670313,
+      9.366490589620525
+    ],
+    "components": [
+      "problem-circuit"
+    ]
+  },
+  {
+    "key": "e0288",
+    "text": "2",
+    "font_family": "VividSource-STIXTwoMath-Regular",
+    "bounds": [
+      38.429915178925285,
+      63.973349644029454,
+      3.642524309090163,
+      6.764687695785369
+    ],
+    "components": [
+      "problem-circuit"
+    ]
+  },
+  {
+    "key": "e0290",
+    "text": "q",
+    "font_family": "VividSource-STIXTwoMath-Regular",
+    "bounds": [
+      33.98069381713867,
+      69.63315141048952,
+      5.203605787670313,
+      9.366490589620525
+    ],
+    "components": [
+      "problem-circuit"
+    ]
+  },
+  {
+    "key": "e0291",
+    "text": "3",
+    "font_family": "VividSource-STIXTwoMath-Regular",
+    "bounds": [
+      38.429915178925285,
+      74.10735232957633,
+      3.642524309090163,
+      6.764687695785369
+    ],
+    "components": [
+      "problem-circuit"
+    ]
+  },
+  {
+    "key": "e0293",
+    "text": "q",
+    "font_family": "VividSource-STIXTwoMath-Regular",
+    "bounds": [
+      33.98069381713867,
+      79.76715409603639,
+      5.203605787670313,
+      9.366490589620525
+    ],
+    "components": [
+      "problem-circuit"
+    ]
+  },
+  {
+    "key": "e0294",
+    "text": "4",
+    "font_family": "VividSource-STIXTwoMath-Regular",
+    "bounds": [
+      37.90955425653033,
+      84.24133975633413,
+      4.162884801950213,
+      6.764687695785369
+    ],
+    "components": [
+      "problem-circuit"
+    ]
+  },
+  {
+    "key": "e0296",
+    "text": "q",
+    "font_family": "VividSource-STIXTwoMath-Regular",
+    "bounds": [
+      201.63407897949222,
+      35.47594010677859,
+      5.203605787670313,
+      9.366490589620525
+    ],
+    "components": [
+      "topology-gap"
+    ]
+  },
+  {
+    "key": "e0297",
+    "text": "1",
+    "font_family": "VividSource-STIXTwoMath-Regular",
+    "bounds": [
+      206.08330034127883,
+      39.950125767076315,
+      3.3660827301434324,
+      6.764687695785369
+    ],
+    "components": [
+      "topology-gap"
+    ]
+  },
+  {
+    "key": "e0299",
+    "text": "q",
+    "font_family": "VividSource-STIXTwoMath-Regular",
+    "bounds": [
+      201.61088562011722,
+      74.32292497005983,
+      5.203605787670313,
+      9.366490589620525
+    ],
+    "components": [
+      "topology-gap"
+    ]
+  },
+  {
+    "key": "e0300",
+    "text": "2",
+    "font_family": "VividSource-STIXTwoMath-Regular",
+    "bounds": [
+      206.06010698190383,
+      78.79712588914664,
+      3.642524309090163,
+      6.764687695785369
+    ],
+    "components": [
+      "topology-gap"
+    ]
+  },
+  {
+    "key": "e0302",
+    "text": "q",
+    "font_family": "VividSource-STIXTwoMath-Regular",
+    "bounds": [
+      239.98823547363284,
+      35.47594010677859,
+      5.203605787670313,
+      9.366490589620525
+    ],
+    "components": [
+      "topology-gap"
+    ]
+  },
+  {
+    "key": "e0303",
+    "text": "3",
+    "font_family": "VividSource-STIXTwoMath-Regular",
+    "bounds": [
+      244.43745683541945,
+      39.950125767076315,
+      3.642524309090163,
+      6.764687695785369
+    ],
+    "components": [
+      "topology-gap"
+    ]
+  },
+  {
+    "key": "e0305",
+    "text": "q",
+    "font_family": "VividSource-STIXTwoMath-Regular",
+    "bounds": [
+      239.96841430664062,
+      74.32292497005983,
+      5.203605787670313,
+      9.366490589620525
+    ],
+    "components": [
+      "topology-gap"
+    ]
+  },
+  {
+    "key": "e0306",
+    "text": "4",
+    "font_family": "VividSource-STIXTwoMath-Regular",
+    "bounds": [
+      243.89727474603228,
+      78.79712588914664,
+      4.162884801950213,
+      6.764687695785369
+    ],
+    "components": [
+      "topology-gap"
+    ]
+  },
+  {
+    "key": "e0307",
+    "text": "(d) Without fixed data qubits mapping",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      37.55131912231446,
+      210.63167363340426,
+      139.41911368909498,
+      10.927572497735582
+    ],
+    "components": [
+      "swapping-solutions"
+    ]
+  },
+  {
+    "key": "e0308",
+    "text": "(e) With fixed data qubits mapping",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      198.5304870605469,
+      210.63167363340426,
+      126.66830467961339,
+      10.927572497735582
+    ],
+    "components": [
+      "swapping-solutions"
+    ]
+  },
+  {
+    "key": "e0309",
+    "text": "Swapping-Based Solution",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      128.0531921386719,
+      121.25587920087514,
+      103.75709828874645,
+      12.488654405850639
+    ],
+    "components": [
+      "swapping-solutions"
+    ]
+  },
+  {
+    "key": "e0310",
+    "text": "Bridging-Based Solution",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      370.27038574218756,
+      121.25587920087514,
+      98.01619587636014,
+      12.488654405850639
+    ],
+    "components": [
+      "bridge-solution"
+    ]
+  },
+  {
+    "key": "e0311",
+    "text": "|",
+    "font_family": "VividSource-STIXTwoMath-Regular",
+    "bounds": [
+      36.40213987488747,
+      145.32193020852628,
+      2.5611497773108454,
+      9.366490589620525
+    ],
+    "components": [
+      "swapping-solutions"
+    ]
+  },
+  {
+    "key": "e0312",
+    "text": "0",
+    "font_family": "VividSource-STIXTwoMath-Regular",
+    "bounds": [
+      40.5283044893074,
+      145.34585324041612,
+      4.74016038815364,
+      9.366490589620525
+    ],
+    "components": [
+      "swapping-solutions"
+    ]
+  },
+  {
+    "key": "e0313",
+    "text": "⟩",
+    "font_family": "VividSource-DejaVuSans",
+    "bounds": [
+      45.31380443459034,
+      143.78477219137088,
+      3.7400918746554908,
+      10.927572497735582
+    ],
+    "components": [
+      "swapping-solutions"
+    ]
+  },
+  {
+    "key": "e0314",
+    "text": "H",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      58.06263732910156,
+      143.11723300473753,
+      6.878516593867403,
+      13.529375391570738
+    ],
+    "components": [
+      "swapping-solutions"
+    ]
+  },
+  {
+    "key": "e0315",
+    "text": "H",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      149.60646057128906,
+      143.11723300473753,
+      6.878516593867403,
+      13.529375391570738
+    ],
+    "components": [
+      "swapping-solutions"
+    ]
+  },
+  {
+    "key": "e0316",
+    "text": "P",
+    "font_family": "VividSource-STIXTwoMath-Regular",
+    "bounds": [
+      72.52873992919923,
+      164.89392983907464,
+      5.72396671006527,
+      9.366490589620525
+    ],
+    "components": [
+      "swapping-solutions"
+    ]
+  },
+  {
+    "key": "e0317",
+    "text": "1",
+    "font_family": "VividSource-STIXTwoMath-Regular",
+    "bounds": [
+      78.04034200393632,
+      169.36811378123278,
+      3.3660820858410716,
+      6.764687695785369
+    ],
+    "components": [
+      "swapping-solutions"
+    ]
+  },
+  {
+    "key": "e0318",
+    "text": "P",
+    "font_family": "VividSource-STIXTwoMath-Regular",
+    "bounds": [
+      89.74679565429689,
+      175.9287351369262,
+      5.72396671006527,
+      9.366490589620525
+    ],
+    "components": [
+      "swapping-solutions"
+    ]
+  },
+  {
+    "key": "e0319",
+    "text": "2",
+    "font_family": "VividSource-STIXTwoMath-Regular",
+    "bounds": [
+      95.25839772903397,
+      180.40291907908434,
+      3.642523879555256,
+      6.764687695785369
+    ],
+    "components": [
+      "swapping-solutions"
+    ]
+  },
+  {
+    "key": "e0320",
+    "text": "P",
+    "font_family": "VividSource-STIXTwoMath-Regular",
+    "bounds": [
+      107.31239318847658,
+      186.91596353048092,
+      5.72396671006527,
+      9.366490589620525
+    ],
+    "components": [
+      "swapping-solutions"
+    ]
+  },
+  {
+    "key": "e0321",
+    "text": "3",
+    "font_family": "VividSource-STIXTwoMath-Regular",
+    "bounds": [
+      112.82399526321366,
+      191.390147472639,
+      3.642523879555256,
+      6.764687695785369
+    ],
+    "components": [
+      "swapping-solutions"
+    ]
+  },
+  {
+    "key": "e0322",
+    "text": "P",
+    "font_family": "VividSource-STIXTwoMath-Regular",
+    "bounds": [
+      133.32298278808597,
+      186.96352517598874,
+      5.72396671006527,
+      9.366490589620525
+    ],
+    "components": [
+      "swapping-solutions"
+    ]
+  },
+  {
+    "key": "e0323",
+    "text": "4",
+    "font_family": "VividSource-STIXTwoMath-Regular",
+    "bounds": [
+      138.3142239404281,
+      191.4377091181468,
+      4.162884372415306,
+      6.764687695785369
+    ],
+    "components": [
+      "swapping-solutions"
+    ]
+  },
+  {
+    "key": "e0324",
+    "text": "|",
+    "font_family": "VividSource-STIXTwoMath-Regular",
+    "bounds": [
+      201.0144899030209,
+      164.78669982106842,
+      2.2603164143565095,
+      8.325769603900426
+    ],
+    "components": [
+      "swapping-solutions"
+    ]
+  },
+  {
+    "key": "e0325",
+    "text": "0",
+    "font_family": "VividSource-STIXTwoMath-Regular",
+    "bounds": [
+      204.65522380323412,
+      164.80780924971555,
+      4.179146564001826,
+      8.325769603900426
+    ],
+    "components": [
+      "swapping-solutions"
+    ]
+  },
+  {
+    "key": "e0326",
+    "text": "⟩",
+    "font_family": "VividSource-DejaVuSans",
+    "bounds": [
+      208.87772375495436,
+      163.2467273416005,
+      3.29290694858571,
+      9.886851512015483
+    ],
+    "components": [
+      "swapping-solutions"
+    ]
+  },
+  {
+    "key": "e0327",
+    "text": "H",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      220.76730346679688,
+      163.60969141615078,
+      5.260520451478783,
+      9.886851512015483
+    ],
+    "components": [
+      "swapping-solutions"
+    ]
+  },
+  {
+    "key": "e0328",
+    "text": "P",
+    "font_family": "VividSource-STIXTwoMath-Regular",
+    "bounds": [
+      233.60380554199222,
+      143.69277462478138,
+      4.805204859150649,
+      8.325769603900426
+    ],
+    "components": [
+      "swapping-solutions"
+    ]
+  },
+  {
+    "key": "e0329",
+    "text": "1",
+    "font_family": "VividSource-STIXTwoMath-Regular",
+    "bounds": [
+      238.46698386849758,
+      147.36510936007585,
+      3.1221636014626597,
+      6.244327202925319
+    ],
+    "components": [
+      "swapping-solutions"
+    ]
+  },
+  {
+    "key": "e0330",
+    "text": "P",
+    "font_family": "VividSource-STIXTwoMath-Regular",
+    "bounds": [
+      268.3599548339844,
+      187.28498348708607,
+      4.805204859150649,
+      8.325769603900426
+    ],
+    "components": [
+      "swapping-solutions"
+    ]
+  },
+  {
+    "key": "e0331",
+    "text": "3",
+    "font_family": "VividSource-STIXTwoMath-Regular",
+    "bounds": [
+      273.22313316048974,
+      190.95731822238056,
+      3.1221636014626597,
+      6.244327202925319
+    ],
+    "components": [
+      "swapping-solutions"
+    ]
+  },
+  {
+    "key": "e0332",
+    "text": "P",
+    "font_family": "VividSource-STIXTwoMath-Regular",
+    "bounds": [
+      282.2928466796875,
+      196.164362759547,
+      4.805204859150649,
+      8.325769603900426
+    ],
+    "components": [
+      "swapping-solutions"
+    ]
+  },
+  {
+    "key": "e0333",
+    "text": "4",
+    "font_family": "VividSource-STIXTwoMath-Regular",
+    "bounds": [
+      286.6356645133328,
+      199.83669749484147,
+      4.162884801950213,
+      6.244327202925319
+    ],
+    "components": [
+      "swapping-solutions"
+    ]
+  },
+  {
+    "key": "e0334",
+    "text": "P",
+    "font_family": "VividSource-STIXTwoMath-Regular",
+    "bounds": [
+      247.44662475585938,
+      152.47556576247666,
+      4.805204859150649,
+      8.325769603900426
+    ],
+    "components": [
+      "swapping-solutions"
+    ]
+  },
+  {
+    "key": "e0335",
+    "text": "2",
+    "font_family": "VividSource-STIXTwoMath-Regular",
+    "bounds": [
+      252.30980308236474,
+      156.1479004977712,
+      3.1221636014626597,
+      6.244327202925319
+    ],
+    "components": [
+      "swapping-solutions"
+    ]
+  },
+  {
+    "key": "e0336",
+    "text": "H",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      297.44793701171875,
+      174.0814931739633,
+      5.260520451478783,
+      9.886851512015483
+    ],
+    "components": [
+      "swapping-solutions"
+    ]
+  },
+  {
+    "key": "e0337",
+    "text": "|",
+    "font_family": "VividSource-STIXTwoMath-Regular",
+    "bounds": [
+      358.5419099469662,
+      163.43550353200592,
+      2.2603164143565095,
+      8.325769603900426
+    ],
+    "components": [
+      "bridge-solution"
+    ]
+  },
+  {
+    "key": "e0338",
+    "text": "0",
+    "font_family": "VividSource-STIXTwoMath-Regular",
+    "bounds": [
+      362.1826438471794,
+      163.45661296065305,
+      4.179146564001826,
+      8.325769603900426
+    ],
+    "components": [
+      "bridge-solution"
+    ]
+  },
+  {
+    "key": "e0339",
+    "text": "⟩",
+    "font_family": "VividSource-DejaVuSans",
+    "bounds": [
+      366.40514379889964,
+      161.895531052538,
+      3.29290694858571,
+      9.886851512015483
+    ],
+    "components": [
+      "bridge-solution"
+    ]
+  },
+  {
+    "key": "e0340",
+    "text": "|",
+    "font_family": "VividSource-STIXTwoMath-Regular",
+    "bounds": [
+      358.5419099469662,
+      176.79324584157624,
+      2.2603164143565095,
+      8.325769603900426
+    ],
+    "components": [
+      "bridge-solution"
+    ]
+  },
+  {
+    "key": "e0341",
+    "text": "0",
+    "font_family": "VividSource-STIXTwoMath-Regular",
+    "bounds": [
+      362.1826438471794,
+      176.81435527022336,
+      4.179146564001826,
+      8.325769603900426
+    ],
+    "components": [
+      "bridge-solution"
+    ]
+  },
+  {
+    "key": "e0342",
+    "text": "⟩",
+    "font_family": "VividSource-DejaVuSans",
+    "bounds": [
+      366.40514379889964,
+      175.2532733621083,
+      3.29290694858571,
+      9.886851512015483
+    ],
+    "components": [
+      "bridge-solution"
+    ]
+  },
+  {
+    "key": "e0343",
+    "text": "H",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      379.1370849609375,
+      162.25849512708828,
+      5.260520451478783,
+      9.886851512015483
+    ],
+    "components": [
+      "bridge-solution"
+    ]
+  },
+  {
+    "key": "e0344",
+    "text": "P",
+    "font_family": "VividSource-STIXTwoMath-Regular",
+    "bounds": [
+      408.0023193359375,
+      143.21828732009385,
+      4.805204859150649,
+      8.325769603900426
+    ],
+    "components": [
+      "bridge-solution"
+    ]
+  },
+  {
+    "key": "e0345",
+    "text": "1",
+    "font_family": "VividSource-STIXTwoMath-Regular",
+    "bounds": [
+      412.86549766244286,
+      146.89062205538835,
+      3.1221636014626597,
+      6.244327202925319
+    ],
+    "components": [
+      "bridge-solution"
+    ]
+  },
+  {
+    "key": "e0346",
+    "text": "P",
+    "font_family": "VividSource-STIXTwoMath-Regular",
+    "bounds": [
+      422.8585510253906,
+      151.55068478103135,
+      4.805204859150649,
+      8.325769603900426
+    ],
+    "components": [
+      "bridge-solution"
+    ]
+  },
+  {
+    "key": "e0347",
+    "text": "2",
+    "font_family": "VividSource-STIXTwoMath-Regular",
+    "bounds": [
+      427.721729351896,
+      155.22301951632588,
+      3.1221636014626597,
+      6.244327202925319
+    ],
+    "components": [
+      "bridge-solution"
+    ]
+  },
+  {
+    "key": "e0348",
+    "text": "P",
+    "font_family": "VividSource-STIXTwoMath-Regular",
+    "bounds": [
+      408.0965576171875,
+      188.18578609939073,
+      4.805204859150649,
+      8.325769603900426
+    ],
+    "components": [
+      "bridge-solution"
+    ]
+  },
+  {
+    "key": "e0349",
+    "text": "3",
+    "font_family": "VividSource-STIXTwoMath-Regular",
+    "bounds": [
+      412.95973594369286,
+      191.85812083468525,
+      3.1221636014626597,
+      6.244327202925319
+    ],
+    "components": [
+      "bridge-solution"
+    ]
+  },
+  {
+    "key": "e0350",
+    "text": "P",
+    "font_family": "VividSource-STIXTwoMath-Regular",
+    "bounds": [
+      422.86157226562506,
+      196.3895672273204,
+      4.805204859150649,
+      8.325769603900426
+    ],
+    "components": [
+      "bridge-solution"
+    ]
+  },
+  {
+    "key": "e0351",
+    "text": "4",
+    "font_family": "VividSource-STIXTwoMath-Regular",
+    "bounds": [
+      427.20439009927037,
+      200.06190196261494,
+      4.162884801950213,
+      6.244327202925319
+    ],
+    "components": [
+      "bridge-solution"
+    ]
+  },
+  {
+    "key": "e0352",
+    "text": "H",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      454.0160827636719,
+      162.25849512708828,
+      5.260520451478783,
+      9.886851512015483
+    ],
+    "components": [
+      "bridge-solution"
+    ]
+  },
+  {
+    "key": "e0353",
+    "text": "Physical qubit",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      435.75021362304693,
+      7.050893604107387,
+      50.34481056938057,
+      10.927572497735586
+    ],
+    "components": [
+      "symbol-legend"
+    ]
+  },
+  {
+    "key": "e0354",
+    "text": "Ancilla qubit",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      437.5543769485844,
+      23.05237370664645,
+      46.21613822278874,
+      10.927572497735582
+    ],
+    "components": [
+      "symbol-legend"
+    ]
+  },
+  {
+    "key": "e0355",
+    "text": "Data qubit",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      441.7122802734375,
+      39.05385380918551,
+      38.42001436783721,
+      10.927572497735582
+    ],
+    "components": [
+      "symbol-legend"
+    ]
+  },
+  {
+    "key": "e0356",
+    "text": "Controlled-",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      440.33337402343756,
+      56.1997736089902,
+      41.07904162014893,
+      10.927572497735582
+    ],
+    "components": [
+      "symbol-legend"
+    ]
+  },
+  {
+    "key": "e0357",
+    "text": "Pauli gate",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      443.1769714355469,
+      67.23457890684178,
+      35.58608737387294,
+      10.927572497735582
+    ],
+    "components": [
+      "symbol-legend"
+    ]
+  },
+  {
+    "key": "e0358",
+    "text": "SWAP gate",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      441.2261657714844,
+      90.89725285703709,
+      39.497360076954465,
+      10.927572497735582
+    ],
+    "components": [
+      "symbol-legend"
+    ]
+  },
+  {
+    "key": "e0359",
+    "text": "P",
+    "font_family": "VividSource-STIXTwoMath-Regular",
+    "bounds": [
+      421.176513671875,
+      70.7859753083751,
+      4.805204859150649,
+      8.325769603900426
+    ],
+    "components": [
+      "symbol-legend"
+    ]
+  }
+]

@@ -1,0 +1,304 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 582.87496 152.375" width="468pt" height="122.3444pt" data-vivid-architecture="1" font-family="Times New Roman, Times, serif" font-size="18" fill="#000000" data-template-revision="network-inset-2">
+  <title>Helix overview — same-content vector reconstruction</title>
+  <defs />
+  <rect x="0" y="0" width="582.87496" height="152.375" rx="0" fill="#ffffff" stroke="none" stroke-width="1.6" data-asset-key="e0001" />
+  <g id="controller" data-role="region" data-bounds="0 0 163 127" data-vivid-part="controller">
+    <g data-source-piece="controller-frame">
+      <path d="M.5 12.977C.5 6.086 6.086 .5 12.977 .5H150.023C156.914 .5 162.5 6.086 162.5 12.977V114.023C162.5 120.914 156.914 126.5 150.023 126.5H12.977C6.086 126.5 .5 120.914 .5 114.023ZM.5 12.977" fill="#deebf7" fill-rule="evenodd" data-asset-key="e0002" />
+      <path stroke-width=".999998" stroke-linecap="butt" stroke-miterlimit="8" stroke-linejoin="miter" fill="none" stroke="#000000" d="M.5 12.977C.5 6.086 6.086 .5 12.977 .5H150.023C156.914 .5 162.5 6.086 162.5 12.977V114.023C162.5 120.914 156.914 126.5 150.023 126.5H12.977C6.086 126.5 .5 120.914 .5 114.023ZM.5 12.977" data-asset-key="e0003" />
+    </g>
+    <g id="profiler" data-role="component" data-bounds="12.499666224180281 5.751880826744112 92.9975167079013 16.499559415917968" data-vivid-part="profiler">
+      <g data-source-piece="profiler-box">
+        <path d="M12.5 5.75H105.5V22.25H12.5Z" fill="#bdd7ee" data-asset-key="e0004" />
+        <path stroke-width=".75" stroke-linecap="butt" stroke-miterlimit="8" stroke-linejoin="miter" fill="none" stroke="#000000" d="M12.5 5.75H105.5V22.25H12.5Z" data-asset-key="e0005" />
+      </g>
+      <text x="37.446504" y="18.875004" font-size="14.25" font-family="Times New Roman" fill="#000000" transform="matrix(1 0 0 1 0 0)" data-asset-key="e0006">Profiler</text>
+    </g>
+    <g id="planner" data-role="component" data-bounds="12.499666224180281 41.12567303409134 92.9975167079013 25.499643337937222" data-vivid-part="planner">
+      <g data-source-piece="planner-box">
+        <path d="M12.5 42.5H105.5V66.5H12.5Z" fill="#c5e0b4" data-asset-key="e0007" />
+        <path stroke-width=".75" stroke-linecap="butt" stroke-miterlimit="8" stroke-linejoin="miter" fill="none" stroke="#000000" d="M12.5 42.5H105.5V66.5H12.5Z" data-asset-key="e0008" />
+      </g>
+      <text x="20.232504" y="51.125005" font-size="11.25" font-family="Times New Roman" fill="#000000" transform="matrix(1 0 0 1 0 0)" data-asset-key="e0009">Model Placement</text>
+      <text x="41.9825" y="64.62501" font-size="11.25" font-family="Times New Roman" fill="#000000" transform="matrix(1 0 0 1 0 0)" data-asset-key="e0010">Planner</text>
+    </g>
+    <g id="scheduler" data-role="component" data-bounds="12.499666224180281 86.74971795943233 92.9975167079013 19.499479309721238" data-vivid-part="scheduler">
+      <g data-source-piece="scheduler-box">
+        <path d="M12.5 86.75H105.5V106.25H12.5Z" fill="#ffe699" data-asset-key="e0011" />
+        <path stroke-width=".75" stroke-linecap="butt" stroke-miterlimit="8" stroke-linejoin="miter" fill="none" stroke="#000000" d="M12.5 86.75H105.5V106.25H12.5Z" data-asset-key="e0012" />
+      </g>
+      <text x="30.758753" y="101.375" font-size="14.25" font-family="Times New Roman" fill="#000000" transform="matrix(1 0 0 1 0 0)" data-asset-key="e0013">Scheduler</text>
+    </g>
+    <g id="init-worker" data-role="output" data-bounds="122.37295300525466 41.875653007542155 32.8118069390527 24.99967194735163" data-vivid-part="init-worker">
+      <text x="123.37625" y="51.875005" font-size="9.75" font-family="Consolas" fill="#000000" transform="matrix(1 0 0 1 0 0)" data-asset-key="e0014">Init</text>
+      <text x="123.37625" y="63.875" font-size="9.75" font-family="Consolas" fill="#000000" transform="matrix(1 0 0 1 0 0)" data-asset-key="e0015">Worker</text>
+    </g>
+    <g id="worker-exec" data-role="output" data-bounds="122.61894863375348 83.8745277061925 32.81180693905269 24.99967576194703" data-vivid-part="worker-exec">
+      <text x="123.62225" y="93.875" font-size="9.75" font-family="Consolas" fill="#000000" transform="matrix(1 0 0 1 0 0)" data-asset-key="e0016">Worker</text>
+      <text x="123.62225" y="105.875" font-size="9.75" font-family="Consolas" fill="#000000" transform="matrix(1 0 0 1 0 0)" data-asset-key="e0017">Exec</text>
+    </g>
+    <g data-source-piece="profile-to-plan" id="profile-to-plan" data-from="profiler" data-to="planner">
+      <path d="M19.75 22.25V37.129H18.75V22.25ZM22.25 36.129 19.25 42.129 16.25 36.129ZM22.25 36.129" data-asset-key="e0018" />
+    </g>
+    <g data-source-piece="plan-to-schedule" id="plan-to-schedule" data-from="planner" data-to="scheduler">
+      <path d="M19.75 66.5V81.379H18.75V66.5ZM22.25 80.379 19.25 86.379 16.25 80.379ZM22.25 80.379" data-asset-key="e0019" />
+    </g>
+    <g data-source-piece="plan-to-init" id="plan-to-init" data-from="planner" data-to="init-worker">
+      <path d="M105.5 54.875H111.594V54.125H105.5ZM110.594 57.5 116.594 54.5 110.594 51.5ZM110.594 57.5" data-asset-key="e0020" />
+    </g>
+    <g data-source-piece="schedule-to-exec" id="schedule-to-exec" data-from="scheduler" data-to="worker-exec">
+      <path d="M105.5 96.875H111.789V96.125H105.5ZM110.789 99.5 116.789 96.5 110.789 93.5ZM110.789 99.5" data-asset-key="e0021" />
+    </g>
+    <text x="26.395253" y="36.125005" font-size="12.0" font-family="Times New Roman" fill="#000000" transform="matrix(1 0 0 1 0 0)" data-asset-key="e0022">Cluster Info</text>
+    <text x="26.395253" y="81.875" font-size="12.0" font-family="Times New Roman" fill="#000000" transform="matrix(1 0 0 1 0 0)" data-asset-key="e0023">Placement</text>
+    <text x="81.149" y="121.625" font-size="14.25" font-family="Times New Roman" fill="#000000" transform="matrix(1 0 0 1 0 0)" data-asset-key="e0024">Coordinator</text>
+  </g>
+  <g id="cluster" data-role="region" data-bounds="176 6 192 118" data-vivid-part="cluster">
+    <g id="coordinator" data-role="component" data-bounds="176.74528040990918 20.751480295760448 24.74933912387695 68.99815755747515" data-vivid-part="coordinator">
+      <g data-source-piece="coordinator-box">
+        <path d="M176.75 20.75H201.5V89.75H176.75Z" fill="#d8e2f3" data-asset-key="e0025" />
+        <path stroke-width=".999998" stroke-linecap="butt" stroke-miterlimit="8" stroke-linejoin="miter" fill="none" stroke="#000000" d="M176.75 20.75H201.5V89.75H176.75Z" data-asset-key="e0026" />
+      </g>
+      <text x="28.625004" y="-185.06076" font-size="11.25" font-family="Times New Roman" fill="#000000" transform="matrix(0 1 -1 -0 0 0)" data-asset-key="e0027">Coordinator</text>
+    </g>
+    <g id="site-a" data-role="object" data-bounds="216.86920898952786 22.62643022938749 38.998958619442476 28.49923899113104" data-vivid-part="site-a">
+      <g data-source-piece="node-a">
+        <path d="M216.875 36.875C216.875 29.004 225.605 22.625 236.375 22.625 247.145 22.625 255.875 29.004 255.875 36.875 255.875 44.746 247.145 51.125 236.375 51.125 225.605 51.125 216.875 44.746 216.875 36.875ZM216.875 36.875" fill="#bdd7ee" fill-rule="evenodd" data-asset-key="e0028" />
+        <path d="M233 29H239V47H233Z" fill="#d0cece" data-asset-key="e0029" />
+        <path stroke-width=".999998" stroke-linecap="butt" stroke-miterlimit="8" stroke-linejoin="miter" fill="none" stroke="#000000" d="M233 29H239V47H233Z" data-asset-key="e0030" />
+        <path d="M239 29H245V47H239Z" fill="#d0cece" data-asset-key="e0031" />
+        <path stroke-width=".999998" stroke-linecap="butt" stroke-miterlimit="8" stroke-linejoin="miter" fill="none" stroke="#000000" d="M239 29H245V47H239Z" data-asset-key="e0032" />
+      </g>
+    </g>
+    <g id="site-b" data-role="object" data-bounds="216.86920898952786 56.37552903467425 38.998958619442476 28.49923899113103" data-vivid-part="site-b">
+      <g data-source-piece="node-b">
+        <path d="M216.875 70.625C216.875 62.754 225.605 56.375 236.375 56.375 247.145 56.375 255.875 62.754 255.875 70.625 255.875 78.496 247.145 84.875 236.375 84.875 225.605 84.875 216.875 78.496 216.875 70.625ZM216.875 70.625" fill="#c5e0b4" fill-rule="evenodd" data-asset-key="e0033" />
+        <path d="M233 62.75H239V80.75H233Z" fill="#d0cece" data-asset-key="e0034" />
+        <path stroke-width=".999998" stroke-linecap="butt" stroke-miterlimit="8" stroke-linejoin="miter" fill="none" stroke="#000000" d="M233 62.75H239V80.75H233Z" data-asset-key="e0035" />
+      </g>
+    </g>
+    <g id="site-d" data-role="object" data-bounds="265.61790726383094 41.37592956565791 39.748938592893296 29.249218964581857" data-vivid-part="site-d">
+      <g data-source-piece="node-d">
+        <path d="M265.625 56C265.625 47.922 274.523 41.375 285.5 41.375 296.477 41.375 305.375 47.922 305.375 56 305.375 64.078 296.477 70.625 285.5 70.625 274.523 70.625 265.625 64.078 265.625 56ZM265.625 56" fill="#ffe699" fill-rule="evenodd" data-asset-key="e0036" />
+        <path d="M277.25 48.5H284V66.5H277.25Z" fill="#d0cece" data-asset-key="e0037" />
+        <path stroke-width=".999998" stroke-linecap="butt" stroke-miterlimit="8" stroke-linejoin="miter" fill="none" stroke="#000000" d="M277.25 48.5H284V66.5H277.25Z" data-asset-key="e0038" />
+        <path d="M283.25 48.5H289.25V66.5H283.25Z" fill="#d0cece" data-asset-key="e0039" />
+        <path stroke-width=".999998" stroke-linecap="butt" stroke-miterlimit="8" stroke-linejoin="miter" fill="none" stroke="#000000" d="M283.25 48.5H289.25V66.5H283.25Z" data-asset-key="e0040" />
+        <path d="M289.25 48.5H295.25V66.5H289.25Z" fill="#d0cece" data-asset-key="e0041" />
+        <path stroke-width=".999998" stroke-linecap="butt" stroke-miterlimit="8" stroke-linejoin="miter" fill="none" stroke="#000000" d="M289.25 48.5H295.25V66.5H289.25Z" data-asset-key="e0042" />
+      </g>
+    </g>
+    <g id="site-e" data-role="object" data-bounds="311.3666856443308 22.62643022938749 38.998958619442476 28.49923899113104" data-vivid-part="site-e">
+      <g data-source-piece="node-e">
+        <path d="M311.375 36.875C311.375 29.004 320.105 22.625 330.875 22.625 341.645 22.625 350.375 29.004 350.375 36.875 350.375 44.746 341.645 51.125 330.875 51.125 320.105 51.125 311.375 44.746 311.375 36.875ZM311.375 36.875" fill="#bdd7ee" fill-rule="evenodd" data-asset-key="e0043" />
+        <path d="M320.75 29H326.75V47H320.75Z" fill="#d0cece" data-asset-key="e0044" />
+        <path stroke-width=".999998" stroke-linecap="butt" stroke-miterlimit="8" stroke-linejoin="miter" fill="none" stroke="#000000" d="M320.75 29H326.75V47H320.75Z" data-asset-key="e0045" />
+        <path d="M327.5 29H333.5V47H327.5Z" fill="#d0cece" data-asset-key="e0046" />
+        <path stroke-width=".999998" stroke-linecap="butt" stroke-miterlimit="8" stroke-linejoin="miter" fill="none" stroke="#000000" d="M327.5 29H333.5V47H327.5Z" data-asset-key="e0047" />
+      </g>
+    </g>
+    <g id="site-c" data-role="object" data-bounds="216.86920898952786 93.87452770721508 39.748938592893296 29.249218964581857" data-vivid-part="site-c">
+      <g data-source-piece="node-c">
+        <path d="M216.875 108.5C216.875 100.422 225.773 93.875 236.75 93.875 247.727 93.875 256.625 100.422 256.625 108.5 256.625 116.578 247.727 123.125 236.75 123.125 225.773 123.125 216.875 116.578 216.875 108.5ZM216.875 108.5" fill="#bdd7ee" fill-rule="evenodd" data-asset-key="e0048" />
+        <path d="M227.75 100.25H234.5V118.25H227.75Z" fill="#d0cece" data-asset-key="e0049" />
+        <path stroke-width=".999998" stroke-linecap="butt" stroke-miterlimit="8" stroke-linejoin="miter" fill="none" stroke="#000000" d="M227.75 100.25H234.5V118.25H227.75Z" data-asset-key="e0050" />
+        <path d="M233.75 100.25H239.75V118.25H233.75Z" fill="#d0cece" data-asset-key="e0051" />
+        <path stroke-width=".999998" stroke-linecap="butt" stroke-miterlimit="8" stroke-linejoin="miter" fill="none" stroke="#000000" d="M233.75 100.25H239.75V118.25H233.75Z" data-asset-key="e0052" />
+        <path d="M239.75 100.25H245.75V118.25H239.75Z" fill="#d0cece" data-asset-key="e0053" />
+        <path stroke-width=".999998" stroke-linecap="butt" stroke-miterlimit="8" stroke-linejoin="miter" fill="none" stroke="#000000" d="M239.75 100.25H245.75V118.25H239.75Z" data-asset-key="e0054" />
+      </g>
+    </g>
+    <g id="site-f" data-role="object" data-bounds="309.11674572397834 87.12470794615774 39.748938592893296 28.499238991131037" data-vivid-part="site-f">
+      <g data-source-piece="node-f">
+        <path d="M309.125 101.375C309.125 93.504 318.023 87.125 329 87.125 339.977 87.125 348.875 93.504 348.875 101.375 348.875 109.246 339.977 115.625 329 115.625 318.023 115.625 309.125 109.246 309.125 101.375ZM309.125 101.375" fill="#c5e0b4" fill-rule="evenodd" data-asset-key="e0055" />
+        <path d="M319.25 93.5H325.25V111.5H319.25Z" fill="#d0cece" data-asset-key="e0056" />
+        <path stroke-width=".999998" stroke-linecap="butt" stroke-miterlimit="8" stroke-linejoin="miter" fill="none" stroke="#000000" d="M319.25 93.5H325.25V111.5H319.25Z" data-asset-key="e0057" />
+        <path d="M325.25 93.5H331.25V111.5H325.25Z" fill="#d0cece" data-asset-key="e0058" />
+        <path stroke-width=".999998" stroke-linecap="butt" stroke-miterlimit="8" stroke-linejoin="miter" fill="none" stroke="#000000" d="M325.25 93.5H331.25V111.5H325.25Z" data-asset-key="e0059" />
+      </g>
+    </g>
+    <g data-source-piece="a-to-d" id="a-to-d" data-from="site-a" data-to="site-d">
+      <path d="M245.094 37.637 281.301 46.805 281.117 47.531 244.906 38.363ZM280.977 44.012 286.055 48.395 279.504 49.828ZM280.977 44.012" data-asset-key="e0060" />
+    </g>
+    <g data-source-piece="b-to-d" id="b-to-d" data-from="site-b" data-to="site-d">
+      <path d="M239.129 72.121 272.992 59.586 272.73 58.883 238.871 71.418ZM272.965 62.395 277.551 57.5 270.883 56.77ZM272.965 62.395" data-asset-key="e0061" />
+    </g>
+    <g data-source-piece="c-to-d" id="c-to-d" data-from="site-c" data-to="site-d">
+      <path d="M246.004 109.801 288.773 70.172 288.266 69.625 245.496 109.254ZM289.824 72.777 292.188 66.5 285.746 68.379ZM289.824 72.777" data-asset-key="e0062" />
+    </g>
+    <g data-source-piece="d-to-e" id="d-to-e" data-from="site-d" data-to="site-e">
+      <path d="M295.477 57.855 316.977 41.344 316.52 40.75 295.023 57.262ZM317.785 44.035 320.715 38 314.129 39.277ZM317.785 44.035" data-asset-key="e0063" />
+    </g>
+    <g data-source-piece="d-to-f" id="d-to-f" data-from="site-d" data-to="site-f">
+      <path d="M295.582 57.324 316.852 98.008 316.184 98.355 294.918 57.676ZM318.715 95.906 318.836 102.613 313.395 98.684ZM318.715 95.906" data-asset-key="e0064" />
+    </g>
+    <g data-source-piece="dispatch-a" id="dispatch-a" data-from="coordinator" data-to="site-a">
+      <path d="M201.5 36.875H211.688V37.625H201.5ZM210.688 34.25 216.688 37.25 210.688 40.25ZM210.688 34.25" data-asset-key="e0065" />
+    </g>
+    <g data-source-piece="dispatch-b" id="dispatch-b" data-from="coordinator" data-to="site-b">
+      <path d="M201.508 70.625 211.813 70.801 211.801 71.551 201.492 71.375ZM210.859 68.16 216.809 71.262 210.758 74.156ZM210.859 68.16" data-asset-key="e0066" />
+    </g>
+    <g data-source-piece="dispatch-c" id="dispatch-c" data-from="coordinator" data-to="site-c">
+      <path d="M189.125 89.75V109.059H212.395V108.309H189.5L189.875 108.684V89.75ZM211.395 111.684 217.395 108.684 211.395 105.684ZM211.395 111.684" data-asset-key="e0067" />
+    </g>
+    <g data-source-piece="return-e" id="return-e" data-from="site-e" data-to="coordinator">
+      <path d="M351.211 36.637H367.211L366.836 37.012V6.863L367.211 7.238H189.5L189.875 6.863V15.75H189.125V6.488H367.586V37.387H351.211ZM192.5 14.75 189.5 20.75 186.5 14.75ZM192.5 14.75" data-asset-key="e0068" />
+    </g>
+    <g data-source-piece="return-f" id="return-f" data-from="site-f" data-to="coordinator">
+      <path d="M349.328 101.297H367.328L366.953 101.672V6.91L367.328 7.285H189.5L189.875 6.91V15.75H189.125V6.535H367.703V102.047H349.328ZM192.5 14.75 189.5 20.75 186.5 14.75ZM192.5 14.75" data-asset-key="e0069" />
+    </g>
+  </g>
+  <g data-source-piece="controller-zoom-top" id="controller-zoom-top" data-from="coordinator" data-to="controller">
+    <path stroke-width=".75" stroke-linecap="butt" stroke-dasharray="3,2.25" stroke-miterlimit="8" stroke-linejoin="miter" fill="none" stroke="#000000" d="M177.004 20.758 156.5 2.75" data-asset-key="e0070" />
+  </g>
+  <g data-source-piece="node-zoom-top" id="node-zoom-top" data-from="site-d" data-to="node-detail">
+    <path transform="matrix(1,0,0,-1,0,0)" stroke-width=".75" stroke-linecap="butt" stroke-dasharray="3,2.25" stroke-miterlimit="8" stroke-linejoin="miter" fill="none" stroke="#000000" d="M305.75-56.547 393.645-34.25" data-asset-key="e0071" />
+  </g>
+  <g data-source-piece="controller-zoom-bottom" id="controller-zoom-bottom" data-from="coordinator" data-to="controller">
+    <path transform="matrix(-1,0,0,1,0,0)" stroke-width=".75" stroke-linecap="butt" stroke-dasharray="3,2.25" stroke-miterlimit="8" stroke-linejoin="miter" fill="none" stroke="#000000" d="M-177.035 89.75-160.25 121.199" data-asset-key="e0072" />
+  </g>
+  <g data-source-piece="node-zoom-bottom" id="node-zoom-bottom" data-from="site-d" data-to="node-detail">
+    <path stroke-width=".75" stroke-linecap="butt" stroke-dasharray="3,2.25" stroke-miterlimit="8" stroke-linejoin="miter" fill="none" stroke="#000000" d="M305.75 56.75 389.223 114.836" data-asset-key="e0073" />
+  </g>
+  <g id="node-detail" data-role="region" data-bounds="381 34 163 88" data-vivid-part="node-detail">
+    <g data-source-piece="detail-frame">
+      <path d="M381.5 46.004C381.5 39.512 386.762 34.25 393.254 34.25H524.246C530.738 34.25 536 39.512 536 46.004V109.496C536 115.988 530.738 121.25 524.246 121.25H393.254C386.762 121.25 381.5 115.988 381.5 109.496ZM381.5 46.004" fill="#fee599" fill-rule="evenodd" data-asset-key="e0074" />
+      <path stroke-width=".999998" stroke-linecap="butt" stroke-miterlimit="8" stroke-linejoin="miter" fill="none" stroke="#000000" d="M381.5 46.004C381.5 39.512 386.762 34.25 393.254 34.25H524.246C530.738 34.25 536 39.512 536 46.004V109.496C536 115.988 530.738 121.25 524.246 121.25H393.254C386.762 121.25 381.5 115.988 381.5 109.496ZM381.5 46.004" data-asset-key="e0075" />
+    </g>
+    <g id="queue-1" data-role="component" data-bounds="388.9896128964903 41.75091955238332 15.749579442467166 55.49851803536043" data-vivid-part="queue-1">
+      <g data-source-piece="queue-1-box">
+        <path d="M389 41.75H404.75V97.25H389Z" fill="#a8d08c" data-asset-key="e0076" />
+        <path stroke-width=".999998" stroke-linecap="butt" stroke-miterlimit="8" stroke-linejoin="miter" fill="none" stroke="#000000" d="M389 41.75H404.75V97.25H389Z" data-asset-key="e0077" />
+      </g>
+      <text x="48.875005" y="-392.4155" font-size="12.0" font-family="Times New Roman" fill="#000000" transform="matrix(0 1 -1 -0 0 0)" data-asset-key="e0078">Queue 1</text>
+    </g>
+    <g id="layer-1" data-role="component" data-bounds="413.6683667469871 41.75091955238332 15.07018474239652 55.49851803536043" data-vivid-part="layer-1">
+      <g data-source-piece="layer-1-box">
+        <path d="M413.75 41.75H428.75V97.25H413.75Z" fill="#d0cece" data-asset-key="e0079" />
+        <path stroke-width=".999998" stroke-linecap="butt" stroke-miterlimit="8" stroke-linejoin="miter" fill="none" stroke="#000000" d="M413.75 41.75H428.75V97.25H413.75Z" data-asset-key="e0080" />
+      </g>
+      <text x="50.375005" y="-416.6795" font-size="12.0" font-family="Times New Roman" fill="#000000" transform="matrix(0 1 -1 -0 0 0)" data-asset-key="e0081">Layer 1</text>
+    </g>
+    <g data-source-piece="q1-l1" id="q1-l1" data-from="queue-1" data-to="layer-1">
+      <path d="M404.75 69.125H408.82V69.875H404.75ZM407.82 66.5 413.82 69.5 407.82 72.5ZM407.82 66.5" data-asset-key="e0082" />
+    </g>
+    <g data-source-piece="l1-q2" id="l1-q2" data-from="layer-1" data-to="queue-2">
+      <path d="M428.75 69.125H432.68V69.875H428.75ZM431.68 66.5 437.68 69.5 431.68 72.5ZM431.68 66.5" data-asset-key="e0083" />
+    </g>
+    <g id="queue-2" data-role="component" data-bounds="437.73831117079345 41.75091955238332 14.999599469016346 55.49851803536043" data-vivid-part="queue-2">
+      <g data-source-piece="queue-2-box">
+        <path d="M437.75 41.75H452.75V97.25H437.75Z" fill="#a8d08c" data-asset-key="e0084" />
+        <path stroke-width=".999998" stroke-linecap="butt" stroke-miterlimit="8" stroke-linejoin="miter" fill="none" stroke="#000000" d="M437.75 41.75H452.75V97.25H437.75Z" data-asset-key="e0085" />
+      </g>
+      <text x="48.875005" y="-440.80326" font-size="12.0" font-family="Times New Roman" fill="#000000" transform="matrix(0 1 -1 -0 0 0)" data-asset-key="e0086">Queue 2</text>
+    </g>
+    <g id="layer-2" data-role="component" data-bounds="461.7376703212196 41.75091955238332 14.999599469016346 55.49851803536043" data-vivid-part="layer-2">
+      <g data-source-piece="layer-2-box">
+        <path d="M461.75 41.75H476.75V97.25H461.75Z" fill="#d0cece" data-asset-key="e0087" />
+        <path stroke-width=".999998" stroke-linecap="butt" stroke-miterlimit="8" stroke-linejoin="miter" fill="none" stroke="#000000" d="M461.75 41.75H476.75V97.25H461.75Z" data-asset-key="e0088" />
+      </g>
+      <text x="50.375005" y="-464.92027" font-size="12.0" font-family="Times New Roman" fill="#000000" transform="matrix(0 1 -1 -0 0 0)" data-asset-key="e0089">Layer 2</text>
+    </g>
+    <g data-source-piece="q2-l2" id="q2-l2" data-from="queue-2" data-to="layer-2">
+      <path d="M452.75 69.125H456.68V69.875H452.75ZM455.68 66.5 461.68 69.5 455.68 72.5ZM455.68 66.5" data-asset-key="e0090" />
+    </g>
+    <g data-source-piece="l2-q3" id="l2-q3" data-from="layer-2" data-to="queue-3">
+      <path d="M476.75 69.125H480.418V69.875H476.75ZM479.418 66.5 485.418 69.5 479.418 72.5ZM479.418 66.5" data-asset-key="e0091" />
+    </g>
+    <g id="queue-3" data-role="component" data-bounds="485.7370294716457 41.75091955238332 14.999599469016346 55.49851803536043" data-vivid-part="queue-3">
+      <g data-source-piece="queue-3-box">
+        <path d="M485.75 41.75H500.75V97.25H485.75Z" fill="#a8d08c" data-asset-key="e0092" />
+        <path stroke-width=".999998" stroke-linecap="butt" stroke-miterlimit="8" stroke-linejoin="miter" fill="none" stroke="#000000" d="M485.75 41.75H500.75V97.25H485.75Z" data-asset-key="e0093" />
+      </g>
+      <text x="48.875005" y="-488.77476" font-size="12.0" font-family="Times New Roman" fill="#000000" transform="matrix(0 1 -1 -0 0 0)" data-asset-key="e0094">Queue 3</text>
+    </g>
+    <g id="layer-3" data-role="component" data-bounds="509.73638862207184 41.75091955238332 14.999599469016346 55.49851803536043" data-vivid-part="layer-3">
+      <g data-source-piece="layer-3-box">
+        <path d="M509.75 41.75H524.75V97.25H509.75Z" fill="#d0cece" data-asset-key="e0095" />
+        <path stroke-width=".999998" stroke-linecap="butt" stroke-miterlimit="8" stroke-linejoin="miter" fill="none" stroke="#000000" d="M509.75 41.75H524.75V97.25H509.75Z" data-asset-key="e0096" />
+      </g>
+      <text x="50.375005" y="-512.8917" font-size="12.0" font-family="Times New Roman" fill="#000000" transform="matrix(0 1 -1 -0 0 0)" data-asset-key="e0097">Layer 3</text>
+    </g>
+    <g data-source-piece="q3-l3" id="q3-l3" data-from="queue-3" data-to="layer-3">
+      <path d="M500.75 69.125H504.68V69.875H500.75ZM503.68 66.5 509.68 69.5 503.68 72.5ZM503.68 66.5" data-asset-key="e0098" />
+    </g>
+    <g id="node-output" data-role="port" data-bounds="537 66 7 7" />
+    <g data-source-piece="node-output" id="node-output-edge" data-from="layer-3" data-to="node-output">
+      <path d="M524.75 69.125H538.41V69.875H524.75ZM537.41 66.5 543.41 69.5 537.41 72.5ZM537.41 66.5" data-asset-key="e0099" />
+    </g>
+    <text x="442.199" y="114.125" font-size="14.25" font-family="Times New Roman" fill="#000000" transform="matrix(1 0 0 1 0 0)" data-asset-key="e0100">Compute Node</text>
+  </g>
+  <g id="request-tensor" data-role="input" data-bounds="517.23618835658 4.3766529045280365 65.24825769022107 25.374587072642214" data-vivid-part="request-tensor">
+    <g data-source-piece="tensor-box">
+      <path d="M517.25 5H582.5V29.75H517.25Z" fill="#e7e6e6" data-asset-key="e0101" />
+      <path stroke-width=".75" stroke-linecap="butt" stroke-miterlimit="8" stroke-linejoin="miter" fill="none" stroke="#000000" d="M517.25 5H582.5V29.75H517.25Z" data-asset-key="e0102" />
+    </g>
+    <text x="530.3038" y="14.375003" font-size="9.75" font-family="Consolas" fill="#000000" transform="matrix(1 0 0 1 0 0)" data-asset-key="e0103">Request</text>
+    <text x="533.0533" y="26.375" font-size="9.75" font-family="Consolas" fill="#000000" transform="matrix(1 0 0 1 0 0)" data-asset-key="e0104">Tensor</text>
+  </g>
+  <g data-source-piece="input-q1" id="input-q1" data-from="request-tensor" data-to="queue-1">
+    <path d="M516.977 16.625H396.125V36.664H396.875V17L396.5 17.375H516.977ZM393.5 35.664 396.5 41.664 399.5 35.664ZM393.5 35.664" data-asset-key="e0105" />
+  </g>
+  <g data-source-piece="input-q2" id="input-q2" data-from="request-tensor" data-to="queue-2">
+    <path d="M517.34 16.625H444.875V36.664H445.625V17L445.25 17.375H517.34ZM442.25 35.664 445.25 41.664 448.25 35.664ZM442.25 35.664" data-asset-key="e0106" />
+  </g>
+  <g data-source-piece="input-q3" id="input-q3" data-from="request-tensor" data-to="queue-3">
+    <path d="M517.367 16.625H492.875V36.664H493.625V17L493.25 17.375H517.367ZM490.25 35.664 493.25 41.664 496.25 35.664ZM490.25 35.664" data-asset-key="e0107" />
+  </g>
+  <g id="new-request" data-role="input" data-bounds="6.499826436573746 133.24847631338298 74.99799734508169 18.749499336270418" data-vivid-part="new-request">
+    <g data-source-piece="request-event-box">
+      <path d="M6.5 133.25H81.5V152H6.5Z" fill="#e7e6e6" data-asset-key="e0108" />
+      <path stroke-width=".75" stroke-linecap="butt" stroke-miterlimit="8" stroke-linejoin="miter" fill="none" stroke="#000000" d="M6.5 133.25H81.5V152H6.5Z" data-asset-key="e0109" />
+    </g>
+    <text x="13.288252" y="146.375" font-size="9.75" font-family="Consolas" fill="#000000" transform="matrix(1 0 0 1 0 0)" data-asset-key="e0110">New Request</text>
+  </g>
+  <g id="worker-finished" data-role="input" data-bounds="87.49766356926196 133.24847631338298 97.49739654860619 18.749499336270418" data-vivid-part="worker-finished">
+    <g data-source-piece="finished-event-box">
+      <path d="M87.5 133.25H185V152H87.5Z" fill="#e7e6e6" data-asset-key="e0111" />
+      <path stroke-width=".75" stroke-linecap="butt" stroke-miterlimit="8" stroke-linejoin="miter" fill="none" stroke="#000000" d="M87.5 133.25H185V152H87.5Z" data-asset-key="e0112" />
+    </g>
+    <text x="94.71275" y="145.625" font-size="9.75" font-family="Consolas" fill="#000000" transform="matrix(1 0 0 1 0 0)" data-asset-key="e0113">Worker Finished</text>
+  </g>
+  <g data-source-piece="event-to-scheduler" id="request-to-scheduler" data-from="new-request" data-to="scheduler">
+    <path d="M36.75 133.363V119.305H37.25L36.75 119.805V111.25H37.75V120.305H37.25L37.75 119.805V133.363ZM34.25 112.25 37.25 106.25 40.25 112.25ZM34.25 112.25" data-asset-key="e0114" />
+  </g>
+  <g id="event-bus" data-role="connector" data-bounds="37.24900534805724 129.4985764461289 99.388352524554 0.0" data-vivid-part="event-bus">
+    <g data-source-piece="events-horizontal">
+      <path stroke-width=".999998" stroke-linecap="butt" stroke-linejoin="round" fill="none" stroke="#000000" d="M37.25 129.5H136.641" data-asset-key="e0115" />
+    </g>
+  </g>
+  <g data-source-piece="finished-join" id="finished-to-bus" data-from="worker-finished" data-to="event-bus">
+    <path stroke-width=".999998" stroke-linecap="butt" stroke-linejoin="round" fill="none" stroke="#000000" d="M136.25 133.68V129.5" data-asset-key="e0116" />
+  </g>
+  <g id="legend" data-role="legend" data-bounds="187 127 311 24" data-vivid-part="legend">
+    <g data-source-piece="legend-frame">
+      <path d="M187.625 131.5C187.625 129.359 189.359 127.625 191.5 127.625H493.5C495.641 127.625 497.375 129.359 497.375 131.5V147C497.375 149.141 495.641 150.875 493.5 150.875H191.5C189.359 150.875 187.625 149.141 187.625 147ZM187.625 131.5" fill="#f2f2f2" fill-rule="evenodd" data-asset-key="e0117" />
+    </g>
+    <g id="legend-type1" data-role="legend-item" data-bounds="193.61982981255255 130.62354640630514 67.99562085142833 18.749499336270418" data-vivid-part="legend-type1">
+      <g data-source-piece="legend-type1">
+        <path d="M193.625 140C193.625 134.82 199.836 130.625 207.5 130.625 215.164 130.625 221.375 134.82 221.375 140 221.375 145.18 215.164 149.375 207.5 149.375 199.836 149.375 193.625 145.18 193.625 140ZM193.625 140" fill="#ffe699" fill-rule="evenodd" data-asset-key="e0118" />
+      </g>
+      <text x="228.389" y="144.125" font-size="9.75" font-family="Consolas" fill="#000000" transform="matrix(1 0 0 1 0 0)" data-asset-key="e0119">Type-1</text>
+    </g>
+    <g id="legend-type2" data-role="legend-item" data-bounds="264.8679272903801 129.87356643285432 68.7035182083676 18.749499336270418" data-vivid-part="legend-type2">
+      <g data-source-piece="legend-type2">
+        <path d="M264.875 139.25C264.875 134.07 271.086 129.875 278.75 129.875 286.414 129.875 292.625 134.07 292.625 139.25 292.625 144.43 286.414 148.625 278.75 148.625 271.086 148.625 264.875 144.43 264.875 139.25ZM264.875 139.25" fill="#bdd7ee" fill-rule="evenodd" data-asset-key="e0120" />
+      </g>
+      <text x="300.06578" y="143.375" font-size="9.75" font-family="Consolas" fill="#000000" transform="matrix(1 0 0 1 0 0)" data-asset-key="e0121">Type-2</text>
+    </g>
+    <g id="legend-type3" data-role="legend-item" data-bounds="339.11594466201103 129.87356643285432 68.2550133389907 18.749499336270418" data-vivid-part="legend-type3">
+      <g data-source-piece="legend-type3">
+        <path d="M339.125 139.25C339.125 134.07 345.336 129.875 353 129.875 360.664 129.875 366.875 134.07 366.875 139.25 366.875 144.43 360.664 148.625 353 148.625 345.336 148.625 339.125 144.43 339.125 139.25ZM339.125 139.25" fill="#c5e0b4" fill-rule="evenodd" data-asset-key="e0122" />
+      </g>
+      <text x="373.86726" y="143.375" font-size="9.75" font-family="Consolas" fill="#000000" transform="matrix(1 0 0 1 0 0)" data-asset-key="e0123">Type-3</text>
+    </g>
+    <g id="legend-layer" data-role="legend-item" data-bounds="418.988811834523 130.24855641957973 71.4766070009884 17.999519362819598" data-vivid-part="legend-layer">
+      <g data-source-piece="legend-layer">
+        <path d="M419 130.25H425V148.25H419Z" fill="#d0cece" data-asset-key="e0124" />
+        <path stroke-width=".999998" stroke-linecap="butt" stroke-miterlimit="8" stroke-linejoin="miter" fill="none" stroke="#000000" d="M419 130.25H425V148.25H419Z" data-asset-key="e0125" />
+      </g>
+      <text x="431.85353" y="142.625" font-size="9.75" font-family="Consolas" fill="#000000" transform="matrix(1 0 0 1 0 0)" data-asset-key="e0126">Model Layer</text>
+    </g>
+  </g>
+  </svg>

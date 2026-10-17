@@ -1,0 +1,86 @@
+{
+  "name": "互补资源池之间的拆分迁移",
+  "family": "comparison",
+  "tags": [
+    "资源池",
+    "拆分合并",
+    "迁移",
+    "利用率"
+  ],
+  "when_to_use": "算力与内存互补的动态放置；两类资源制约下的工作单元迁移",
+  "avoid": "只有一种资源的简单分配；需要精确地理拓扑的跨站网络",
+  "preserve": [
+    "两池同高度同尺度，容量条紧贴各池底部；上方留出弧形迁移和新增对象的路由空间。",
+    "小矩形表示可移动工作单元，圆角外框表示资源池，三角感叹号标记逼近上限。",
+    "虚线弧箭头表现放置和迁移，池内短箭头表现拆分或合并；箭头不是固定网络连接。",
+    "蓝色关联存储需求，橙色关联计算需求，灰色表示混合对象；资源条复用对应色系。",
+    "无衬线小字与斜体动作注释配合，池名和资源名应保持短且相互一致。"
+  ],
+  "adapt": "先定义方块表示对象还是对象分片，避免数量混淆 依据容量或清楚标注的假设设置两维占用条 拆分后应能说明子块与父块关系，合并不能凭空创造容量 增加第三池时需重排弧线，不能直接复制在下方造成循环方向不明",
+  "visual_note": "两池同高度同尺度，容量条紧贴各池底部；上方留出弧形迁移和新增对象的路由空间。",
+  "parts": [
+    {
+      "id": "resource-legend",
+      "name": "需求类别图例",
+      "role": "legend",
+      "box": [
+        0.08,
+        0.37,
+        0.68,
+        0.1
+      ],
+      "meaning": "定义对象所需资源类型而非执行状态。",
+      "reuse": "可替换为两类瓶颈资源及混合任务，须同步修改容量条名称。"
+    },
+    {
+      "id": "pool-a",
+      "name": "第一资源池",
+      "role": "component",
+      "box": [
+        0.11,
+        0.59,
+        0.28,
+        0.35
+      ],
+      "meaning": "第一组对象及其两维资源使用情况。",
+      "reuse": "按数据重画条形长度，警告只放在达到定义阈值的资源旁。"
+    },
+    {
+      "id": "pool-b",
+      "name": "第二资源池",
+      "role": "component",
+      "box": [
+        0.48,
+        0.59,
+        0.31,
+        0.35
+      ],
+      "meaning": "与第一池存在互补余量的另一组资源。",
+      "reuse": "容量总尺度必须和第一池一致，异容量需注明。"
+    },
+    {
+      "id": "migration",
+      "name": "动态操作区",
+      "role": "component",
+      "box": [
+        0.23,
+        0.44,
+        0.38,
+        0.22
+      ],
+      "meaning": "展示新建、拆分与跨池迁移的方向。",
+      "reuse": "删去系统不支持的操作，迁移箭头必须落到对象或池的明确位置。"
+    }
+  ],
+  "selection_evidence": {
+    "candidate_index": 42,
+    "semantics_read": true,
+    "preview_reviewed": true,
+    "source_render_reviewed": true,
+    "render": "source-renders/42.png"
+  },
+  "implementation": "source-derived editable SVG",
+  "validation_status": "source-fidelity-checked",
+  "id": "architecture.source.nsdi25-052_fig2",
+  "display_code": "VA-054"
+}

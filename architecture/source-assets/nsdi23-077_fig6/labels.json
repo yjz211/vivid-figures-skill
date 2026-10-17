@@ -1,0 +1,402 @@
+[
+  {
+    "key": "e0009",
+    "text": "doorbell",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      72.62392425537111,
+      47.88327347362792,
+      20.87653932899525,
+      7.4486777416896075
+    ],
+    "components": []
+  },
+  {
+    "key": "e0010",
+    "text": "credit",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      144.5468902587891,
+      56.6865876826123,
+      14.398668192600212,
+      7.4486777416896075
+    ],
+    "components": []
+  },
+  {
+    "key": "e0011",
+    "text": "RNIC",
+    "font_family": "VividSource-Carlito-Italic",
+    "bounds": [
+      203.05435180664065,
+      140.42816398070775,
+      20.504165974387888,
+      12.56965729190506
+    ],
+    "components": []
+  },
+  {
+    "key": "e0016",
+    "text": "Host",
+    "font_family": "VividSource-Carlito-Italic",
+    "bounds": [
+      204.48635864257815,
+      33.339907144770194,
+      19.185299326011773,
+      12.56965729190506
+    ],
+    "components": [
+      "host-queues"
+    ]
+  },
+  {
+    "key": "e0022",
+    "text": "3",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      166.37075805664065,
+      120.09259354198727,
+      3.1096802382378144,
+      7.448684543091531
+    ],
+    "components": [
+      "policy-queue"
+    ]
+  },
+  {
+    "key": "e0023",
+    "text": "Schedule Queue",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      133.66322326660156,
+      129.56454788769045,
+      41.45524866846404,
+      7.4486777416896075
+    ],
+    "components": []
+  },
+  {
+    "key": "e0024",
+    "text": "QPC",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      73.56690216064455,
+      132.79614578808108,
+      10.729903576871834,
+      7.4486777416896075
+    ],
+    "components": [
+      "state-table"
+    ]
+  },
+  {
+    "key": "e0028",
+    "text": "Congestion",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      179.69815063476565,
+      60.2846707576673,
+      37.123874473849355,
+      9.776403138771457
+    ],
+    "components": [
+      "event-control"
+    ]
+  },
+  {
+    "key": "e0029",
+    "text": "Control",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      185.98027038574222,
+      70.09088413657355,
+      24.58313674292276,
+      9.776403138771457
+    ],
+    "components": [
+      "event-control"
+    ]
+  },
+  {
+    "key": "e0030",
+    "text": "Scheduler",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      86.95681762695314,
+      141.58208805388765,
+      37.21940356456504,
+      11.405801394766058
+    ],
+    "components": [
+      "state-table"
+    ]
+  },
+  {
+    "key": "e0041",
+    "text": "…",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      144.6995391845703,
+      27.919246257012674,
+      6.386665186776952,
+      11.405797994065097
+    ],
+    "components": [
+      "host-queues"
+    ]
+  },
+  {
+    "key": "e0042",
+    "text": "SQ1",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      65.28530883789064,
+      7.9898408564404235,
+      10.069635380597674,
+      7.4486777416896075
+    ],
+    "components": [
+      "host-queues"
+    ]
+  },
+  {
+    "key": "e0043",
+    "text": "SQ2",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      84.60317230224611,
+      7.878405919916958,
+      10.069635380597674,
+      7.4486777416896075
+    ],
+    "components": [
+      "host-queues"
+    ]
+  },
+  {
+    "key": "e0044",
+    "text": "SQ3",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      106.70657348632814,
+      7.878405919916958,
+      10.069635380597674,
+      7.4486777416896075
+    ],
+    "components": [
+      "host-queues"
+    ]
+  },
+  {
+    "key": "e0045",
+    "text": "SQ4",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      127.17258453369143,
+      7.5441011103466735,
+      10.218754417418609,
+      7.4486777416896075
+    ],
+    "components": [
+      "host-queues"
+    ]
+  },
+  {
+    "key": "e0047",
+    "text": "…",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      80.03643798828126,
+      123.32422195995608,
+      4.233529651631699,
+      7.448684543091531
+    ],
+    "components": [
+      "state-table"
+    ]
+  },
+  {
+    "key": "e0048",
+    "text": "dequeue",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      149.45091247558597,
+      73.95889603222167,
+      21.94559898647583,
+      7.4486777416896075
+    ],
+    "components": [
+      "event-control"
+    ]
+  },
+  {
+    "key": "e0051",
+    "text": "QP1: active 0, credit 1, ready 0",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      49.009601593017585,
+      92.71944852337037,
+      63.46422821911393,
+      6.284821844550606
+    ],
+    "components": []
+  },
+  {
+    "key": "e0054",
+    "text": "QP2: active 0, credit 1, ready 0",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      49.05472564697266,
+      101.63415189251103,
+      63.46422821911393,
+      6.284821844550606
+    ],
+    "components": []
+  },
+  {
+    "key": "e0057",
+    "text": "QP3: active 1, credit 1, ready 1",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      49.05460357666016,
+      110.54888577922972,
+      63.46422821911393,
+      6.284821844550606
+    ],
+    "components": []
+  },
+  {
+    "key": "e0060",
+    "text": "QP4: active 1, credit 0, ready 0",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      49.00936508178712,
+      119.0179104374329,
+      63.46422821911393,
+      6.284821844550606
+    ],
+    "components": []
+  },
+  {
+    "key": "e0067",
+    "text": "DMA ",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      13.208359718322754,
+      91.48623936118292,
+      18.56528012597005,
+      9.776403138771457
+    ],
+    "components": [
+      "dma-path"
+    ]
+  },
+  {
+    "key": "e0068",
+    "text": "Engine",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      10.399289131164553,
+      101.2924527400892,
+      22.294155531897793,
+      9.776403138771457
+    ],
+    "components": [
+      "dma-path"
+    ]
+  },
+  {
+    "key": "e0069",
+    "text": "WQE",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      50.12636709679793,
+      19.69043289745605,
+      12.73931316183382,
+      7.4486777416896075
+    ],
+    "components": [
+      "host-queues"
+    ]
+  },
+  {
+    "key": "e0070",
+    "text": "enqueue",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      124.06733703613284,
+      109.50641190136233,
+      21.952951301955068,
+      7.4486777416896075
+    ],
+    "components": []
+  },
+  {
+    "key": "e0073",
+    "text": "Data ",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      20.047412872314457,
+      19.356128087885736,
+      12.941107356201318,
+      7.4486777416896075
+    ],
+    "components": [
+      "host-queues"
+    ]
+  },
+  {
+    "key": "e0074",
+    "text": "Buffer",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      18.23683547973633,
+      26.710788122065424,
+      15.202292937915676,
+      7.4486777416896075
+    ],
+    "components": [
+      "host-queues"
+    ]
+  },
+  {
+    "key": "e0078",
+    "text": "Schedule",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      142.3982086181641,
+      92.23408829296386,
+      22.51742345248806,
+      7.4486777416896075
+    ],
+    "components": []
+  },
+  {
+    "key": "e0079",
+    "text": "Policy",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      146.41772460937503,
+      99.58874832714352,
+      14.54231720192422,
+      7.4486777416896075
+    ],
+    "components": [
+      "policy-queue"
+    ]
+  },
+  {
+    "key": "e0083",
+    "text": "Event Mux",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      70.89572906494142,
+      65.18777744712042,
+      35.31298080752778,
+      9.776403138771457
+    ],
+    "components": [
+      "event-control"
+    ]
+  }
+]

@@ -5,6 +5,12 @@ import hashlib
 import json
 from pathlib import Path
 
+COMPLETE_TEMPLATES = {
+    'template.sem_violin_pearson': 'templates/sem-violin-pearson/plot_sem_violin_pearson.py',
+    'template.shap_dependence': 'templates/shap-composites/plot_shap_composites.py',
+    'template.shap_contribution': 'templates/shap-composites/plot_shap_composites.py',
+}
+
 
 def digest(value):
     return hashlib.sha256(value.encode('utf-8') if isinstance(value, str) else value).hexdigest()
@@ -20,6 +26,19 @@ def package_root(workspace=None):
             root = resources.parent.parent
             if (root/'catalog/cards.json').is_file(): return root
     return None
+
+
+def complete_source(template_id, workspace=None):
+    """Resolve complete compositions identically for individual and batch preparation."""
+    key = template_id.removeprefix('recipe:')
+    if key not in COMPLETE_TEMPLATES:
+        raise ValueError('Unknown complete template ID: ' + key)
+    root = package_root(workspace)
+    if root is None:
+        raise ValueError('Complete template package unavailable; bootstrap the workspace with the current package')
+    relative = COMPLETE_TEMPLATES[key]
+    code = (root / relative).read_text(encoding='utf-8')
+    return code, dict(id=key, variant=key.split('.')[-1], file=relative, codeSha256=digest(code))
 
 
 def workspace_for(candidate, workspace=None):

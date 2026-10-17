@@ -1,0 +1,276 @@
+[
+  {
+    "key": "e0036",
+    "text": "Layer 5: SSD ch./die",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      11.90421152044644,
+      77.46058031235317,
+      74.80781915153604,
+      11.575718855159721
+    ],
+    "components": [
+      "concept-layers"
+    ]
+  },
+  {
+    "key": "e0041",
+    "text": "Applications",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      105.14590268709618,
+      4.05029759534844,
+      45.21763976615331,
+      11.575721180027017
+    ],
+    "components": [
+      "software-stack"
+    ]
+  },
+  {
+    "key": "e0045",
+    "text": "Layer 4: Physical zone",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      8.600992019016873,
+      58.770779930692704,
+      81.41426125421823,
+      11.575718855159728
+    ],
+    "components": [
+      "concept-layers"
+    ]
+  },
+  {
+    "key": "e0047",
+    "text": "Layer 3: Logical zone",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      10.722402428396096,
+      40.2678833805162,
+      77.35125497160244,
+      11.575721954982782
+    ],
+    "components": [
+      "concept-layers"
+    ]
+  },
+  {
+    "key": "e0049",
+    "text": "Layer 2: Namespace",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      11.916923894821027,
+      21.968127535018997,
+      74.96221513857564,
+      11.575721954982786
+    ],
+    "components": [
+      "concept-layers"
+    ]
+  },
+  {
+    "key": "e0051",
+    "text": "Layer 1: Tenant",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      21.62343162000548,
+      3.4408475344682548,
+      55.094209209173655,
+      11.575721180027019
+    ],
+    "components": [
+      "concept-layers"
+    ]
+  },
+  {
+    "key": "e0054",
+    "text": "NVMe driver",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      105.31905880330307,
+      76.5342229890539,
+      45.24320710676331,
+      11.575718855159721
+    ],
+    "components": [
+      "software-stack"
+    ]
+  },
+  {
+    "key": "e0055",
+    "text": "(a). Layered view",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      19.230324819122192,
+      90.74658934373475,
+      60.54210484196939,
+      11.575718855159721
+    ],
+    "components": [
+      "concept-layers"
+    ]
+  },
+  {
+    "key": "e0056",
+    "text": "(b). SW stack",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      103.58891116055021,
+      90.68357614054368,
+      48.13234139427733,
+      11.575718855159721
+    ],
+    "components": [
+      "software-stack"
+    ]
+  },
+  {
+    "key": "e0057",
+    "text": "(c). I/O path",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      174.82102241436044,
+      90.68357614054368,
+      42.59631779184747,
+      11.575718855159721
+    ],
+    "components": [
+      "operation-paths"
+    ]
+  },
+  {
+    "key": "e0060",
+    "text": "Host CPU",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      179.018827602622,
+      3.4408475344682548,
+      36.414303462725,
+      11.575721180027019
+    ],
+    "components": [
+      "operation-paths"
+    ]
+  },
+  {
+    "key": "e0063",
+    "text": "Controller CPU",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      170.1819760122544,
+      22.027851825941983,
+      54.7709596603363,
+      11.575721954982786
+    ],
+    "components": []
+  },
+  {
+    "key": "e0066",
+    "text": "Write Cache",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      174.81891453467873,
+      58.770779930692704,
+      44.94729799732704,
+      11.575718855159728
+    ],
+    "components": [
+      "operation-paths"
+    ]
+  },
+  {
+    "key": "e0069",
+    "text": "NAND Flash",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      175.0289709446079,
+      77.61433153619602,
+      44.39219408279314,
+      11.575718855159721
+    ],
+    "components": [
+      "operation-paths"
+    ]
+  },
+  {
+    "key": "e0070",
+    "text": "wr",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      185.2636815448441,
+      12.184423366226271,
+      9.361316853763128,
+      11.575721180027019
+    ],
+    "components": [
+      "operation-paths"
+    ]
+  },
+  {
+    "key": "e0071",
+    "text": "rd",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      162.66655419435486,
+      12.477962660932123,
+      7.077602808714801,
+      11.575721180027019
+    ],
+    "components": []
+  },
+  {
+    "key": "e0074",
+    "text": "Zone Mapping",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      171.1489596165957,
+      40.71411840931251,
+      52.68883330861354,
+      11.575721954982782
+    ],
+    "components": []
+  },
+  {
+    "key": "e0087",
+    "text": "Zoned block ",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      104.94189093213664,
+      35.506043687481004,
+      47.715805770231796,
+      11.575721954982782
+    ],
+    "components": [
+      "software-stack"
+    ]
+  },
+  {
+    "key": "e0088",
+    "text": "device layer",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      106.00233420177757,
+      45.078470891014156,
+      43.58548373001578,
+      11.575718855159721
+    ],
+    "components": [
+      "software-stack"
+    ]
+  },
+  {
+    "key": "e0089",
+    "text": "reset",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      221.480513879269,
+      12.184423366226271,
+      17.608954076629743,
+      11.575721180027019
+    ],
+    "components": [
+      "operation-paths"
+    ]
+  }
+]

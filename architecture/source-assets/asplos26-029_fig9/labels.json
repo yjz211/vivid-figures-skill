@@ -1,0 +1,268 @@
+[
+  {
+    "key": "e0143",
+    "text": "M  XFP Core",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      104.53619384765625,
+      32.061248779296875,
+      97.0069580078125,
+      20.37042236328125
+    ],
+    "components": [
+      "core-stack"
+    ]
+  },
+  {
+    "key": "e0144",
+    "text": "Off-chip Memory (DRAM)",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      5.519165039062557,
+      22.22580337524414,
+      20.37042236328125,
+      198.74891662597656
+    ],
+    "components": [
+      "memory-network"
+    ]
+  },
+  {
+    "key": "e0145",
+    "text": "Network on-chip",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      55.163177490234375,
+      58.21868896484381,
+      20.37042236328125,
+      122.46176147460938
+    ],
+    "components": [
+      "memory-network"
+    ]
+  },
+  {
+    "key": "e0146",
+    "text": "Controller",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      125.41128540039062,
+      58.288360595703125,
+      74.77972412109375,
+      20.370391845703125
+    ],
+    "components": [
+      "core-stack"
+    ]
+  },
+  {
+    "key": "e0147",
+    "text": "L1 cache",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      161.10818481445312,
+      87.79208374023438,
+      65.60772705078125,
+      20.37042236328125
+    ],
+    "components": [
+      "core-stack"
+    ]
+  },
+  {
+    "key": "e0148",
+    "text": "Compute Engine",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      140.37640380859375,
+      141.74136352539062,
+      121.63812255859375,
+      20.37042236328125
+    ],
+    "components": [
+      "core-stack"
+    ]
+  },
+  {
+    "key": "e0149",
+    "text": "Vector Unit",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      154.45361328125,
+      200.29696655273438,
+      83.90664672851562,
+      20.37042236328125
+    ],
+    "components": [
+      "core-stack"
+    ]
+  },
+  {
+    "key": "e0150",
+    "text": "DMA",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      229.69485473632812,
+      58.288360595703125,
+      42.58551025390625,
+      20.370391845703125
+    ],
+    "components": [
+      "core-stack"
+    ]
+  },
+  {
+    "key": "e0151",
+    "text": "Dot Product Unit Array",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      461.29022216796875,
+      84.05178833007812,
+      169.98345947265625,
+      20.37042236328125
+    ],
+    "components": [
+      "weight-array-output"
+    ]
+  },
+  {
+    "key": "e0152",
+    "text": "Weight Buffer",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      498.8052978515625,
+      15.15618896484375,
+      104.16339111328125,
+      20.37042236328125
+    ],
+    "components": [
+      "weight-array-output"
+    ]
+  },
+  {
+    "key": "e0153",
+    "text": "Output Buffer",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      494.68359375,
+      137.28665161132812,
+      101.94720458984375,
+      20.37042236328125
+    ],
+    "components": [
+      "weight-array-output"
+    ]
+  },
+  {
+    "key": "e0154",
+    "text": "Quantization Engine",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      396.1292724609375,
+      171.2476806640625,
+      148.6094970703125,
+      20.37042236328125
+    ],
+    "components": [
+      "quantization"
+    ]
+  },
+  {
+    "key": "e0155",
+    "text": "Activation Buffer",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      353.9543790817261,
+      25.632812500000114,
+      20.37042236328125,
+      127.92474365234375
+    ],
+    "components": [
+      "activation-decode"
+    ]
+  },
+  {
+    "key": "e0156",
+    "text": "Encoding Unit",
+    "font_family": "VividSource-Tinos-Bold",
+    "bounds": [
+      552.79931640625,
+      173.8338623046875,
+      112.33135986328125,
+      20.37042236328125
+    ],
+    "components": [
+      "quantization"
+    ]
+  },
+  {
+    "key": "e0157",
+    "text": "Top-1 Decode Unit",
+    "font_family": "VividSource-Tinos-Bold",
+    "bounds": [
+      390.1722831726074,
+      11.1011962890625,
+      20.37042236328125,
+      144.1373291015625
+    ],
+    "components": [
+      "activation-decode"
+    ]
+  },
+  {
+    "key": "e0158",
+    "text": "Scaling & ",
+    "font_family": "VividSource-Tinos-Bold",
+    "bounds": [
+      435.20257568359375,
+      200.29696655273438,
+      80.00494384765625,
+      20.37042236328125
+    ],
+    "components": [
+      "quantization"
+    ]
+  },
+  {
+    "key": "e0159",
+    "text": "N",
+    "font_family": "VividSource-Tinos-Bold",
+    "bounds": [
+      515.208984375,
+      200.29696655273438,
+      13.580280303955078,
+      20.370420455932617
+    ],
+    "components": [
+      "quantization"
+    ]
+  },
+  {
+    "key": "e0160",
+    "text": "ormalize Unit",
+    "font_family": "VividSource-Tinos-Bold",
+    "bounds": [
+      528.2086181640625,
+      200.29696655273438,
+      106.26177978515625,
+      20.37042236328125
+    ],
+    "components": [
+      "quantization"
+    ]
+  },
+  {
+    "key": "e0161",
+    "text": "2",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      122.08529663085938,
+      31.63128662109375,
+      6.11112642288208,
+      13.580280303955078
+    ],
+    "components": [
+      "core-stack"
+    ]
+  }
+]

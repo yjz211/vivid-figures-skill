@@ -226,12 +226,9 @@ el('toggle-agent').onclick=()=>{document.body.classList.toggle('agent-hidden');e
 el('toggle-sidebar').onclick=()=>document.body.classList.toggle('sidebar-hidden');
 setInterval(()=>{if(state.run&&['queued','running'].includes(state.run.status)){const sec=Math.max(0,Math.floor(Date.now()/1000-state.run.created));el('run-elapsed').textContent=sec<60?sec+' 秒':Math.floor(sec/60)+' 分 '+sec%60+' 秒';el('run-elapsed').title='模型响应和本机绘图累计用时';}else el('run-elapsed').textContent='';},1000);
 
-function providerFields(){el('api-fields').hidden=el('provider').value!=='api';el('cli-hint').hidden=el('provider').value!=='codex';}
-function configForm(c){state.config=c;el('provider').value=c.provider;el('api-url').value=c.base_url;el('model-name').value=c.model;el('api-key').value='';el('api-key').placeholder=c.has_key?'已保存密钥；留空保持':'请输入 API Key';el('visual-review').checked=c.review;el('model-badge').textContent=c.provider==='codex'?(c.codex_available?'● Codex CLI 已找到':'○ Codex CLI 待安装'):'● '+(c.model||'API 待配置');providerFields();}
-async function saveConfig(){const data={provider:el('provider').value,base_url:el('api-url').value,model:el('model-name').value,review:el('visual-review').checked};if(el('api-key').value)data.api_key=el('api-key').value;const c=await api('/api/agent/config',data);configForm(c);return c;}
-el('provider').onchange=providerFields;el('model-open').onclick=safely(async()=>{configForm(await api('/api/agent/config'));el('model-result').textContent='';showDialog('model-dialog');});
-el('model-form').onsubmit=safely(async e=>{e.preventDefault();await saveConfig();el('model-dialog').close();toast('模型设置已保存。');});
-el('model-test').onclick=safely(async()=>{el('model-test').disabled=true;el('model-result').textContent='正在实际调用所选模型…';try{await saveConfig();const r=await api('/api/agent/config/test',{});el('model-result').textContent=r.message+' · '+r.usage.seconds+' 秒';}catch(e){el('model-result').textContent=e.message;}finally{el('model-test').disabled=false;}});
+const sharedModelSettings=window.VividModelSettings.bind({api,toast,onChange:c=>{state.config=c;}});
+function configForm(c){sharedModelSettings.paint(c);}
+
 window.addEventListener('beforeunload',e=>{if(state.pending||state.conflict||state.saving){e.preventDefault();e.returnValue='';}});
 async function init(){
   if(innerWidth<=1050){document.body.classList.add('agent-hidden');el('toggle-agent').setAttribute('aria-pressed','false');}

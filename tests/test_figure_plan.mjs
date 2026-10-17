@@ -35,3 +35,45 @@ test('consistent comparisons do not require arbitrary chart type variety',()=>{
   for(const f of p.figures) if(f.class==='DATA') f.chartType='paired forest';
   assert.deepEqual(figurePlanErrors(p),[]);
 });
+
+test('complete compositions retain their registered identity in full plans',()=>{
+  for (const reference of ['template.shap_dependence', 'template.shap_contribution', 'template.sem_violin_pearson', 'recipe:template.shap_dependence']) {
+    const p=plan(); p.figures[0].recipe=reference;
+    assert.deepEqual(figurePlanErrors(p),[],reference);
+  }
+  const p=plan(); p.figures[0].recipe='template.missing';
+  assert.ok(figurePlanErrors(p).some(e=>e.includes('registered complete template')));
+});
+
+test('roadmaps use their purpose and selected deterministic format',()=>{
+  for (const renderer of ['ARCHITECTURE','DRAWIO','TIKZ','HTML','MERMAID']) {
+    const p=plan(); const roadmap=p.figures.find(f=>f.purpose==='roadmap');
+    roadmap.id=renderer==='TIKZ'?'tikz_method_overview':'fig_method_overview';
+    roadmap.class=renderer; roadmap.outputs=[`figures/${roadmap.id}.pdf`];
+    assert.deepEqual(figurePlanErrors(p),[],renderer);
+  }
+  const p=plan(); const roadmap=p.figures.find(f=>f.purpose==='roadmap');
+  roadmap.class='ILLUSTRATION';
+  assert.ok(figurePlanErrors(p).some(e=>e.includes('deterministic overall roadmap')));
+});
+
+test('architecture plans support asset references and selected-version output directories',()=>{
+  const p=plan(); const roadmap=p.figures.find(f=>f.purpose==='roadmap');
+  roadmap.class='ARCHITECTURE'; roadmap.recipe='asset:VA-001';
+  roadmap.outputs=['pptx','svg','pdf'].map(ext=>`figures/${roadmap.id}/final/fig.${ext}`);
+  assert.deepEqual(figurePlanErrors(p),[]);
+  roadmap.outputs=[`figures/${roadmap.id}/../elsewhere.svg`];
+  assert.ok(figurePlanErrors(p).some(e=>e.includes('supported artifact')));
+  roadmap.class='DATA'; roadmap.outputs=[`figures/${roadmap.id}.png`];
+  assert.ok(figurePlanErrors(p).some(e=>e.includes('registered complete template')));
+});
+
+test('plan basename rules match the manifest for TikZ and other classes',()=>{
+  const p=plan(); const roadmap=p.figures.find(f=>f.purpose==='roadmap');
+  roadmap.class='TIKZ';
+  assert.ok(figurePlanErrors(p).some(e=>e.includes('TikZ basename')));
+  roadmap.id='tikz_overview'; roadmap.outputs=['figures/tikz_overview.pdf'];
+  assert.deepEqual(figurePlanErrors(p),[]);
+  roadmap.class='ARCHITECTURE';
+  assert.ok(figurePlanErrors(p).some(e=>e.includes('non-TikZ basename')));
+});

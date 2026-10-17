@@ -14,7 +14,7 @@
     "editor_backend/_utils/NotoSansSC-Regular.ttf": "ae82f4e2a55e1316a55bcc1d05e9555ce08d8bda07e893b486896b626fd852ff",
     "editor_backend/_utils/palettes.json": "3334a19a2c88bd2f8fe6312ac3285fbb0775388a9ac4c0ce8db113bd758bb179",
     "editor_backend/_utils/palette_maps.py": "ae96e91a898a75b6feafd2c5ca54693298d38775ee1cf90717c0a894ac119d8a",
-    "editor_backend/_utils/plot_utils.py": "0478f951ab2fa822d49fde73941d75931d0113dc69306ee43b159c12c1354032",
+    "editor_backend/_utils/plot_utils.py": "0e649a7bbeb39ad879824e11c623b390bf0ae102368f428cadfddd019a93bdba",
     "editor_backend/_utils/vivid_config.py": "fcf9a3e8f4dbc5ec1d254574273f18b94fcb0940c3d9aab33bc36123189425e1",
     "editor_backend/_utils/figure_language.py": "b9b8ae355550c12ef4138d7b24508cb150bae43752ca651a87bbd98e77095ab5",
     "assets/english-labels.json": "6858c13c749bfebd0bd1b1f212ddd9373bee7e460c2aef1f9a59f6e488cf3fc8"
@@ -31,7 +31,7 @@
       "bundle": [
         {
           "path": "assets/downloads/basic.grouped_bar.zip",
-          "sha256": "04da624c12bdb73e855b7fade44c71fbe1d41ed31b55aca1a7f0464a47b69829"
+          "sha256": "71671112598547870f15379f81b73ee121f1edf7726746b96fef7b667391241c"
         }
       ],
       "preview": [
@@ -70,7 +70,7 @@
       "bundle": [
         {
           "path": "assets/downloads/basic.stacked_bar.zip",
-          "sha256": "0f8b7ec141db3bad0117ad1433ea98cb189c60d5cc6a58265c5e120324233813"
+          "sha256": "d8e8e9f8955a48b9f61f7a40d3d7276fb398110777b7fe6a71f10a62ae14a0e7"
         }
       ],
       "preview": [
@@ -109,7 +109,7 @@
       "bundle": [
         {
           "path": "assets/downloads/basic.line.zip",
-          "sha256": "7f15ddb9f1dc62e4f635bcd443f6b98fce7d9e1a809347788bfea82d13fb1a87"
+          "sha256": "3781317709fd5c2084030481658ace2878161b294b70acc1fec2c58c420ecac5"
         }
       ],
       "preview": [
@@ -148,7 +148,7 @@
       "bundle": [
         {
           "path": "assets/downloads/basic.scatter_regression.zip",
-          "sha256": "59ad6030d46a8e68d3d11621198d42c0879bd3da4e9f197ed69f7f51d1682503"
+          "sha256": "94f093d81b00318fbb1c74b5db1783d840cfef22b3f03d19b692cd6a85a14980"
         }
       ],
       "preview": [
@@ -187,7 +187,7 @@
       "bundle": [
         {
           "path": "assets/downloads/basic.heatmap.zip",
-          "sha256": "908db9a8de6fc12b802b4b6e6b9c013008833733b1c414e80926b9e95218beb6"
+          "sha256": "4223cfe4fc869ffdbfc28f7acd3eb7d6ae524f990c9bf9a866d36a1d1f0bd4a8"
         }
       ],
       "preview": [
@@ -226,7 +226,7 @@
       "bundle": [
         {
           "path": "assets/downloads/basic.donut.zip",
-          "sha256": "f3f81cd82c3575c638a5a70ebbce4e38a81aecba1d460e9936c1c1fc382a6416"
+          "sha256": "901c5f99fc7cb187d7eb8eb5e672b93934864c71ed3934de52a2e6297c41c728"
         }
       ],
       "preview": [
@@ -265,7 +265,7 @@
       "bundle": [
         {
           "path": "assets/downloads/basic.raincloud.zip",
-          "sha256": "aa7d6bbab25f871af55492238468acff3399eb718d95b4a3eab39301f85dd6d9"
+          "sha256": "306b696a57ce1269ec0d5ee541f43840598a16fdf9d4be25670375911ec3846d"
         }
       ],
       "preview": [
@@ -304,7 +304,7 @@
       "bundle": [
         {
           "path": "assets/downloads/basic.area.zip",
-          "sha256": "cdc7b293b700c83523f6cd5827259b5523166387794f19a4749f35e2b39b0be6"
+          "sha256": "b4f1ef5affe03832072eeeceeff91e2a40148a6860e792e6c7915aeb1828242b"
         }
       ],
       "preview": [
@@ -343,7 +343,7 @@
       "bundle": [
         {
           "path": "assets/downloads/basic.pareto.zip",
-          "sha256": "b229b99ef32805174a9b2bc300c89bc0b9e82c79069aafc7d647ce2b27807201"
+          "sha256": "accffcddf5888dfe0746f34d7e959b3def09baab88d546380756ca6212ca0a4b"
         }
       ],
       "preview": [
@@ -382,7 +382,7 @@
       "bundle": [
         {
           "path": "assets/downloads/basic.dual_axis.zip",
-          "sha256": "758792e7fb95f3e4270e3161e8f715e59890ad49c35cf7d7a7af49cf55e9519c"
+          "sha256": "10b49634f61df8a1491185894cbf0942a7c89c889835aa802e62e1b4ba85c242"
         }
       ],
       "preview": [
@@ -421,7 +421,7 @@
       "bundle": [
         {
           "path": "assets/downloads/basic.raincloud_violin.zip",
-          "sha256": "ca399bb1e5cfb6108617d19d2f04ab1ca9b201a1d59f14c4cbe08b73bad54ce7"
+          "sha256": "88b1810badda3f0756722decc50eed2bcbee89f97b4cacc08e0d03be5e706d84"
         }
       ],
       "preview": [
@@ -460,7 +460,7 @@
       "bundle": [
         {
           "path": "assets/downloads/basic.multipanel.zip",
-          "sha256": "d8db24399d25f184f4004d719c16ca89f56b1951870d6228e7269c687630a9a8"
+          "sha256": "190403f56f86450f8b6b6eac6ec1514fe953feb7e5dc80a8335b372d5fd05349"
         }
       ],
       "preview": [
@@ -499,7 +499,7 @@
       "bundle": [
         {
           "path": "assets/downloads/advanced.lollipop.zip",
-          "sha256": "ffb897840d73d00831f7160636e48e96daae50afeeebc85365265dc2d36f9dbe"
+          "sha256": "df6834c36f67b4e3125f4884986ad4cb53becd8444d2960cb9936a7e9646f5c3"
         }
       ],
       "preview": [
@@ -538,7 +538,7 @@
       "bundle": [
         {
           "path": "assets/downloads/advanced.dumbbell.zip",
-          "sha256": "78266866779759d05c802aaba2aa75c5eb7396e0042f0d01a923fcc840a5b592"
+          "sha256": "410aaea152946ecb6f2ff30006b9a2eb53100b612363c429f4aa4bf5c3b27dc6"
         }
       ],
       "preview": [
@@ -577,7 +577,7 @@
       "bundle": [
         {
           "path": "assets/downloads/advanced.slope.zip",
-          "sha256": "681fede11c16f990b152812d436257397ee0dd387439afce38c48e06f5d8a0ba"
+          "sha256": "f3febdf725176d474538593ca83cdc63c91a4510e99b2f154d302d9bfa4df2dc"
         }
       ],
       "preview": [
@@ -616,7 +616,7 @@
       "bundle": [
         {
           "path": "assets/downloads/advanced.bump.zip",
-          "sha256": "da10eed62552ceebe7e641e87a2d78044b628710786d21df7db43eb360b89276"
+          "sha256": "d416e2c15de916dc34e54d65989e9b95cff37dff1bc64da16e09ca75c21ac41b"
         }
       ],
       "preview": [
@@ -655,7 +655,7 @@
       "bundle": [
         {
           "path": "assets/downloads/advanced.sankey.zip",
-          "sha256": "30526f8474329d5a8261e8eb68fd0989f94bbcfb08273293ae1ae42b09504079"
+          "sha256": "bad16d9a805c145f327cea31c5a39a9255a516f9faebda4df06fe5ee1db54ca7"
         }
       ],
       "preview": [
@@ -726,7 +726,7 @@
       "bundle": [
         {
           "path": "assets/downloads/advanced.waterfall.zip",
-          "sha256": "30a8984b6985939eac18cf9eb453092515b5224594f1eb1310fba8ab6b9076e9"
+          "sha256": "f694833dea94e2f2433a16a581ba4468fd218d2b8cddc66639ae09fef177abfc"
         }
       ],
       "preview": [
@@ -765,7 +765,7 @@
       "bundle": [
         {
           "path": "assets/downloads/advanced.shap_summary.zip",
-          "sha256": "4da1a2d6fa086674da0b2a86db534b2b3841ae2a46aa7560be5ee1fdd1fbbd93"
+          "sha256": "75e8ec2262909887129b6ce569758c31a5d6ecb8013f26efe7b7f34db2f45e63"
         }
       ],
       "preview": [
@@ -804,7 +804,7 @@
       "bundle": [
         {
           "path": "assets/downloads/advanced.bland_altman.zip",
-          "sha256": "455f9e81c7e395aa89877d958e694ff220d9521ede5c530d01ffefc0e6c7054c"
+          "sha256": "82e1099b5f72b65f2487dfabfad67f9f68ecb72f9f97f1af3ee5e14500ee8d4d"
         }
       ],
       "preview": [
@@ -843,7 +843,7 @@
       "bundle": [
         {
           "path": "assets/downloads/advanced.kaplan_meier.zip",
-          "sha256": "e91b64386382856a9e46a47c09c3b9e6f1aa48445329e84d18a0289024522578"
+          "sha256": "6e4a8379797f3843f45057ca31e76da442400191b7d6337e700e06cc77848975"
         }
       ],
       "preview": [
@@ -882,7 +882,7 @@
       "bundle": [
         {
           "path": "assets/downloads/advanced.volcano.zip",
-          "sha256": "2c94aa16014e5d22e0767ee3bf3a2b100d479c0dbd118e9d4dc9e0ba9880a2d9"
+          "sha256": "e111bc11ae9b607fcedfd13e945d4f587c03481488a396de51bad1b950939792"
         }
       ],
       "preview": [
@@ -921,7 +921,7 @@
       "bundle": [
         {
           "path": "assets/downloads/advanced.calibration.zip",
-          "sha256": "22ad57127a63140f4719c8efabaa1bd3ea36731e46cc14189bb51e9acbb1626b"
+          "sha256": "b9ffcc4c770182423327ac420d99165397dabd891b3d709917005b646f05e455"
         }
       ],
       "preview": [
@@ -960,7 +960,7 @@
       "bundle": [
         {
           "path": "assets/downloads/advanced.funnel.zip",
-          "sha256": "c96c142e10b8419818c02fb2a3b491ceea8d9156e98cf15db1de975d4c391030"
+          "sha256": "aa9eb97db3d1e7638737c8560f9fa154030a9a4a3a14eeffcbc7b4d4ea4aab8c"
         }
       ],
       "preview": [
@@ -999,7 +999,7 @@
       "bundle": [
         {
           "path": "assets/downloads/advanced.dot_ci.zip",
-          "sha256": "523a4cb9bb3b4e4f23262a712bbbe8e8c28331dbbea7d8a4e978b2bd6df0e9aa"
+          "sha256": "55de62e8d18358b6edba9b13b1ec1769c4e48a0f48da9032282eac19945e16c8"
         }
       ],
       "preview": [
@@ -1038,7 +1038,7 @@
       "bundle": [
         {
           "path": "assets/downloads/advanced.cluster_heatmap.zip",
-          "sha256": "5fc11e5b692ef54f192cbd633559f42fadea1bc3b075727b1c64bc3bd0a3bf1d"
+          "sha256": "f8a4c221cce8ead3e300dbd7acef53642e9fe53f31fe6650a7c1e6e5e25f260f"
         }
       ],
       "preview": [
@@ -1077,7 +1077,7 @@
       "bundle": [
         {
           "path": "assets/downloads/advanced.network.zip",
-          "sha256": "8839946a2c0b32a86b9ad82a0e54c1cab8c201a04b7fb8f5c45b9a5d46f510a6"
+          "sha256": "76df61fdab599202d0b536d4ae146673ffac10621367d2e2f9047a310cf9040e"
         }
       ],
       "preview": [
@@ -1116,7 +1116,7 @@
       "bundle": [
         {
           "path": "assets/downloads/advanced.method_heatmap.zip",
-          "sha256": "c57f3a8e3781ebb128c3f887d609ab87b3f47adb7a8714f4e6fe3d2c21c8a0a6"
+          "sha256": "6371c632e055323b942f318c969be5b5e8dbc9da666f3c9fe92e40a03f8cd69d"
         }
       ],
       "preview": [
@@ -1155,7 +1155,7 @@
       "bundle": [
         {
           "path": "assets/downloads/advanced.parallel_coordinates.zip",
-          "sha256": "348a24e3655ab1af8c2f66d7bd9f6605bcdbc62ad47afaf9b729b6598ba76a70"
+          "sha256": "f76c4e59c56e3f14d6ee390f2393dc6358528ffc3e451068df7d76dfcb796e95"
         }
       ],
       "preview": [
@@ -1194,7 +1194,7 @@
       "bundle": [
         {
           "path": "assets/downloads/advanced.pca_biplot.zip",
-          "sha256": "a893da4f630bef2d6f318559042ee13c0c9eaa6d89ca7ef56a3b025652f365b4"
+          "sha256": "4c22e4229b1de91080cc38d2b0a9ecaf0b6eaa3f7190a65fdab9514a6123bcc3"
         }
       ],
       "preview": [
@@ -1233,7 +1233,7 @@
       "bundle": [
         {
           "path": "assets/downloads/advanced.taylor.zip",
-          "sha256": "c3469cdd182c9aa99250fcf1e1e3103833fffa25aab8c3439d57d091bb655eca"
+          "sha256": "80a97fe9c60025177ebbd480549a68479e29cd371d6454b30f9f05b05a793921"
         }
       ],
       "preview": [
@@ -1272,7 +1272,7 @@
       "bundle": [
         {
           "path": "assets/downloads/advanced.diverging_bar.zip",
-          "sha256": "8edd8ae1586c846dceed50b8d13fc2f9fe84d21f6f0dc28470049c64602b7a61"
+          "sha256": "7e56849fec2bdea20f07cb25efa9b7f821dfecbddd9db933052d035832cb7585"
         }
       ],
       "preview": [
@@ -1311,7 +1311,7 @@
       "bundle": [
         {
           "path": "assets/downloads/advanced.back_to_back_bar.zip",
-          "sha256": "e6187f6d92176b9b0ecf444180bf6573178a2c1be69e74f8caad49fde96fd3f9"
+          "sha256": "a99e41d9f2e36c86e076dd50faa50008cf1cf65aa89eda8728004bf1b4d69ccc"
         }
       ],
       "preview": [
@@ -1350,7 +1350,7 @@
       "bundle": [
         {
           "path": "assets/downloads/advanced.paired_dot.zip",
-          "sha256": "6d26584dc3984b97203f1093742ee6de193909e1846a874d0288957e346c912a"
+          "sha256": "b8b7e0d403663a643dc753bfb0d1952b2de240b7d58671d12b9a908e36db497b"
         }
       ],
       "preview": [
@@ -1389,7 +1389,7 @@
       "bundle": [
         {
           "path": "assets/downloads/advanced.ridgeline.zip",
-          "sha256": "582d309cd5e14b4e70da4780cffd4cff7a24e4626abd30d0dcb9472c70f4dfa5"
+          "sha256": "21287be72a9b7f5c144b59e5a4018d7ebf8dd52e493940270bfdafadfd71c42f"
         }
       ],
       "preview": [
@@ -1428,7 +1428,7 @@
       "bundle": [
         {
           "path": "assets/downloads/advanced.grouped_violin.zip",
-          "sha256": "c73446b39df2d881de0d8f030d6dbf3ac2925b660b1c1c1ba4bb48a20ced27b9"
+          "sha256": "eb61f57b43b7d0f8f23c990d80e165daa0c57c2dab2bf343746e0172bd9342ae"
         }
       ],
       "preview": [
@@ -1467,7 +1467,7 @@
       "bundle": [
         {
           "path": "assets/downloads/advanced.performance_profile.zip",
-          "sha256": "afc13eff5bc68b85af78d3ca787603b607e3f6792e5034dc9dc89eb061115838"
+          "sha256": "29898bff77d31dc4e71fd242c022c6f602ff4a077ec9b1275526cdda9566dcd8"
         }
       ],
       "preview": [
@@ -1506,7 +1506,7 @@
       "bundle": [
         {
           "path": "assets/downloads/advanced.ice_pdp.zip",
-          "sha256": "0e9d1a9f55c69b354a9f5154c87524a60280ad749ca89e23d658850a16a81d13"
+          "sha256": "9e60082402ee0e860170f7b41ee2db602500567a3949835bc52da243b1cd07c4"
         }
       ],
       "preview": [
@@ -1545,7 +1545,7 @@
       "bundle": [
         {
           "path": "assets/downloads/advanced.fan.zip",
-          "sha256": "0d81cd7af82b766b0dd94a52e06719a6d32759d6d22001c12e237678dab572f0"
+          "sha256": "1139b280572b493314f20e9d5af004cb2b3eba39e5f5f21cd7731867af144c8c"
         }
       ],
       "preview": [
@@ -1584,7 +1584,7 @@
       "bundle": [
         {
           "path": "assets/downloads/advanced.calendar_heatmap.zip",
-          "sha256": "59cfadc1c0fa00ebeb5795fe1b207c08c537971dd0bdae5610602e9fd77f2732"
+          "sha256": "1858cc7cfd6c6f8c8e1e76f72a50fb89b15839623e3b2449cbb9ca799a877037"
         }
       ],
       "preview": [
@@ -1623,7 +1623,7 @@
       "bundle": [
         {
           "path": "assets/downloads/advanced.hovmoller.zip",
-          "sha256": "aa6aee94f15ecbe35ce187928ae2111f6a002f7ea5a0dd9781c570338002ab81"
+          "sha256": "3a711d628e4062aa7396e96f9c745f975d9d3a37118711c69d2655203c49ed7a"
         }
       ],
       "preview": [
@@ -1662,7 +1662,7 @@
       "bundle": [
         {
           "path": "assets/downloads/advanced.pair_plot.zip",
-          "sha256": "2fa82d4baf5d0584f62d816841c9a83ef566d98b26103a7ef3b2dab63a892a3e"
+          "sha256": "9c6f1b4fa8686f7792c417abc8d0924738555e44f226e9d3f24d3d334eeab66b"
         }
       ],
       "preview": [
@@ -1701,7 +1701,7 @@
       "bundle": [
         {
           "path": "assets/downloads/advanced.triptych.zip",
-          "sha256": "c70ae87563ae0f986e7122fbb55944dcd7d6b37a80c22e618cdfd958582ebdfb"
+          "sha256": "ababfcd4e0b3907e8b3aa892d32bdb96c981e1f95277240b9fd5198aea5ad5d8"
         }
       ],
       "preview": [
@@ -1740,7 +1740,7 @@
       "bundle": [
         {
           "path": "assets/downloads/advanced.posterior_trace_density.zip",
-          "sha256": "d0da7f4801d35275b989828d35631cd3fd515e2ae87ed59b2e4ef1fe60e4a504"
+          "sha256": "c6a317f4c6a3166f31d8c884918da39e54dcd1d7a03299ae0b00eb520682938e"
         }
       ],
       "preview": [
@@ -1779,7 +1779,7 @@
       "bundle": [
         {
           "path": "assets/downloads/advanced.streamgraph.zip",
-          "sha256": "7f24aa402adc574afab792e0931131689b6fd7a7c146023664f2aed7cf02ebc1"
+          "sha256": "449d869f015a3efe0687f361e62aa772e680b4584e6f5ac9882f6a8be93c5ade"
         }
       ],
       "preview": [
@@ -1818,7 +1818,7 @@
       "bundle": [
         {
           "path": "assets/downloads/advanced.bivariate_choropleth.zip",
-          "sha256": "bdc4893816a27858b4c50ad29fa8445d3bfdf67d79ca9e83a31fbd96047c7738"
+          "sha256": "4db5c979b3c5084aefbb1d72d53f11d50592ae9416c01c54e4e77f982e4bd621"
         }
       ],
       "preview": [
@@ -1857,7 +1857,7 @@
       "bundle": [
         {
           "path": "assets/downloads/empirical.forest.zip",
-          "sha256": "848d130aa5181b3b5cb340972e804ef3e9f11c2b50cb9b3eb4af27b71f8788c0"
+          "sha256": "30afa17642fb9b932ffa8daa4f1608484e695e787003f49c3ce5d7023b4facde"
         }
       ],
       "preview": [
@@ -1896,7 +1896,7 @@
       "bundle": [
         {
           "path": "assets/downloads/empirical.parallel_trends.zip",
-          "sha256": "77ea1d22b2beae9edf415a3165747a277756c0ed1a740f1dcdfe66696be52d45"
+          "sha256": "95463534aad89373445918fbbec8984c8b8f0687b27063ad2e7f260474487594"
         }
       ],
       "preview": [
@@ -1935,7 +1935,7 @@
       "bundle": [
         {
           "path": "assets/downloads/empirical.event_study.zip",
-          "sha256": "93f549e3a06290bc6843079ffeb242497df997a7fa3780e1fd3ac2ceb189af31"
+          "sha256": "ab25c42f44143477eb6c2f4511ec981e84486b4e7f25feb448b2dc8497371b04"
         }
       ],
       "preview": [
@@ -1974,7 +1974,7 @@
       "bundle": [
         {
           "path": "assets/downloads/empirical.placebo.zip",
-          "sha256": "73eb2d6be3cee0d1bf51d98fc8bc41ff760a47ada6a1c7210e344e8d2fcc9bc7"
+          "sha256": "85305700c6adf66f69220505137c31c1c16bf1972b8bd5d0679f0078582d8da6"
         }
       ],
       "preview": [
@@ -2013,7 +2013,7 @@
       "bundle": [
         {
           "path": "assets/downloads/empirical.correlation_heatmap.zip",
-          "sha256": "6384ea30a503011fe2af30152ade2162f2d75143730c479f99317f1b9a6d60c5"
+          "sha256": "039804a401fa2e06603ddd755fd6f1ae3c8332582fe9713a489578f2a7b1ec31"
         }
       ],
       "preview": [
@@ -2052,7 +2052,7 @@
       "bundle": [
         {
           "path": "assets/downloads/empirical.raincloud.zip",
-          "sha256": "f59487c87f203db56364972444e2f218f929bd1d17867348ba6c1f4e8f4f8598"
+          "sha256": "5c14f5630994c2d097c8dc62bacb7de11ae182420ddfd1a9a3d8d475bfd66610"
         }
       ],
       "preview": [
@@ -2091,7 +2091,7 @@
       "bundle": [
         {
           "path": "assets/downloads/empirical.time_series.zip",
-          "sha256": "a37f7da30302ca9cbe8ce802ecd011306a6a31d2f2252035a02a4fd26b0bfb17"
+          "sha256": "7c5dd0c8c796f124f2f10b28332d5dab07de99e4eb583c959b99c1491d6483ff"
         }
       ],
       "preview": [
@@ -2130,7 +2130,7 @@
       "bundle": [
         {
           "path": "assets/downloads/empirical.residual_diagnostics.zip",
-          "sha256": "7e12c6141adc87293632fad696a4c2c915e93e1969f048e015e793c4f61990c3"
+          "sha256": "15e62bb0a9c1b4e3b5d2f7309e2f8f19bd15665882c871defc8e633cd9196976"
         }
       ],
       "preview": [
@@ -2169,7 +2169,7 @@
       "bundle": [
         {
           "path": "assets/downloads/empirical.marginal_effects.zip",
-          "sha256": "7e59b12a5acf5fc50b6b5556466706d9a0c93a210cea7dcac5b76d31e42717e5"
+          "sha256": "b0bd097987108063df326bc475008746e90f2262dc73ab00253787f266948aa4"
         }
       ],
       "preview": [
@@ -2208,7 +2208,7 @@
       "bundle": [
         {
           "path": "assets/downloads/empirical.subgroup_forest.zip",
-          "sha256": "b3c06072ed2f5321c981d506fe3539f1f90ce3fbd6c199260d03b91d718b3428"
+          "sha256": "8a23fa0913227e3dc654bf10ed3e39f0024356583ef51e0a5a19d63bd81c6162"
         }
       ],
       "preview": [
@@ -2247,7 +2247,7 @@
       "bundle": [
         {
           "path": "assets/downloads/empirical.quantile_regression.zip",
-          "sha256": "f903126477e16d4c9992cdbfb7b8526724bbf4dd775997da73103fcb776ab97a"
+          "sha256": "905836530a97f134f2d0900562a77d5b2e468fff6b82985ee4c9f8ef943378e6"
         }
       ],
       "preview": [
@@ -2286,7 +2286,7 @@
       "bundle": [
         {
           "path": "assets/downloads/empirical.psm_balance.zip",
-          "sha256": "3691eb754da812b0ec1a625b123b43156bed832a099d70e5dc5c4702f3f58f54"
+          "sha256": "c13c0d30e0ef0d0a804846380aea2b6d53b3c0e6413249c215dcb875a6feb908"
         }
       ],
       "preview": [
@@ -2325,7 +2325,7 @@
       "bundle": [
         {
           "path": "assets/downloads/empirical.prediction_ci.zip",
-          "sha256": "050481a7b39c84ee87e1d38050dbc0fef66156838c6d5d4655c68ad217451efb"
+          "sha256": "254d3ab3f836b2fff45fade6008bd77dee6f8163b8c0db377d169b9d7433e21e"
         }
       ],
       "preview": [
@@ -2364,7 +2364,7 @@
       "bundle": [
         {
           "path": "assets/downloads/empirical.prediction_accuracy_heatmap.zip",
-          "sha256": "a3cc9f3af92f3c36327dcca5ae62a817a061763db2f97107410dda8ec128a49f"
+          "sha256": "0fffdd18a6b3db7cae7074ec91baab1ec8b7e4b961cdfb73c1d5c4864fbd38e7"
         }
       ],
       "preview": [
@@ -2403,7 +2403,7 @@
       "bundle": [
         {
           "path": "assets/downloads/empirical.prediction_error_raincloud.zip",
-          "sha256": "ddd1520e5a0aa3baca81e84f3507715be700c6e71e6038923ebc7a8fd0a1a08e"
+          "sha256": "41189fac8bcaad8ce87517101e6a19e79e9ea997500ad8db5b2cb38501082678"
         }
       ],
       "preview": [
@@ -2442,7 +2442,7 @@
       "bundle": [
         {
           "path": "assets/downloads/empirical.multistep_decay.zip",
-          "sha256": "b0a16787be0d09ae45ac04adce1a0177f7b4fe92f89064ad7058d1410a5f9ed3"
+          "sha256": "785e84023c6d2faa9fa1a1230ded04c437d70a13f546bc156e6564c900740919"
         }
       ],
       "preview": [
@@ -2481,7 +2481,7 @@
       "bundle": [
         {
           "path": "assets/downloads/empirical.moran_scatter.zip",
-          "sha256": "4a7f5a09210dd7ba49c4a83fb6a16b74f4a920e1283eccdcbf183c72a79100e2"
+          "sha256": "75a966a30e19ba6485d53982f1519cbe08d487ce79de1153a1ae28eb6904f086"
         }
       ],
       "preview": [
@@ -2520,7 +2520,7 @@
       "bundle": [
         {
           "path": "assets/downloads/empirical.lisa_map.zip",
-          "sha256": "f0c69b8e9f4ebc1f31330d1e831b14589c2d3021dbcd577d9979a4acce67b72a"
+          "sha256": "ece5e96bec0d055d491d5658753748242c7607addc1167e783baadee223c7177"
         }
       ],
       "preview": [
@@ -2559,7 +2559,7 @@
       "bundle": [
         {
           "path": "assets/downloads/empirical.coefficient_stability.zip",
-          "sha256": "9eaaecc45989a29f86c0708910c1929da8302d8f2a3a731c3aae7c0cdb5d1867"
+          "sha256": "43db3a62f90f49b045415a5bdfb7b5544cbf20d38d124a50fca1c99f481b05a2"
         }
       ],
       "preview": [
@@ -2598,7 +2598,7 @@
       "bundle": [
         {
           "path": "assets/downloads/empirical.variance_decomposition.zip",
-          "sha256": "30ceb3e0e25093d294c8b1a6427d649981b9714ca6107a828d1714519c5cf8ab"
+          "sha256": "1509324a1b8e6a1c76ed37587aace9a3a06b86a8f44b7dd214d98fc4c57be6b9"
         }
       ],
       "preview": [
@@ -2637,7 +2637,7 @@
       "bundle": [
         {
           "path": "assets/downloads/empirical.impulse_response.zip",
-          "sha256": "f152a6b6e647e6f21011f6dcbd3a3e952de769cedb47909f0d630b9ba49f8844"
+          "sha256": "1ce8d7955a27fa32fa71b9b8a3c0ad2fd91122fd9864112bf510045c3da5fbc9"
         }
       ],
       "preview": [
@@ -2676,7 +2676,7 @@
       "bundle": [
         {
           "path": "assets/downloads/academic.ablation.zip",
-          "sha256": "d22e7830caaf52ffa67cccd2cd191fae3a1ccf468133d36d22b9bebd73accca6"
+          "sha256": "ebd31a3a6420b3811ef00de1eb83ba75d2b075b0bb6f89a5f291d7847b7bcee4"
         }
       ],
       "preview": [
@@ -2715,7 +2715,7 @@
       "bundle": [
         {
           "path": "assets/downloads/academic.training_curves.zip",
-          "sha256": "a6af1517c7efae9017bc1a91e7a65e6956a744a4ad8cb1c610e907a7cb03eac3"
+          "sha256": "60a788c6ede3391ee2dff125aca53e6b8e3e27d4b52ab20195b21e9ab0b0d5f3"
         }
       ],
       "preview": [
@@ -2754,7 +2754,7 @@
       "bundle": [
         {
           "path": "assets/downloads/academic.tsne_umap.zip",
-          "sha256": "15340fc054802f40709c1f4cbafe6d077de63d1cf0a26dc9b354489c57c23100"
+          "sha256": "4daf8250a27b37e88ac5f5ca28a091e2d2a71062729e3d4c5705283c5e6d7403"
         }
       ],
       "preview": [
@@ -2793,7 +2793,7 @@
       "bundle": [
         {
           "path": "assets/downloads/academic.attention_heatmap.zip",
-          "sha256": "89dd53ff416abe284c2991b4321dd0d9ed077e4294b9210b7901bc55a4fdc115"
+          "sha256": "95062f69f03787f047327f461ea7683bb3ad68d6592082dac16a5a2208f4351c"
         }
       ],
       "preview": [
@@ -2832,7 +2832,7 @@
       "bundle": [
         {
           "path": "assets/downloads/academic.radar.zip",
-          "sha256": "bd6e05481147098afe7694ef15f4625e5a7c920e060ad0371992ec8cda04aca3"
+          "sha256": "17baa7a88a11a090e4803dc56bc86cdaa81e0ec6354bab74d0582d0a3f93ccdd"
         }
       ],
       "preview": [
@@ -2871,7 +2871,7 @@
       "bundle": [
         {
           "path": "assets/downloads/academic.hyperparameter_sensitivity.zip",
-          "sha256": "c71db73c27c9a0f3cd9944740f96f4e9c91d0d58a6c516da21e281a18c27721d"
+          "sha256": "ee3c19e811fc90ee5bf4dd73422ba518f95a141cee519f5856ed70071d59f046"
         }
       ],
       "preview": [
@@ -2910,7 +2910,7 @@
       "bundle": [
         {
           "path": "assets/downloads/academic.confusion_matrix.zip",
-          "sha256": "5f0a76f75be511abdda392310d5df1b0ea59649777f604716c4112b636e02d89"
+          "sha256": "82fb884daab5d926fd9b6a4e7c0b4d0dcfb2c2ecb576dbd37162f4cc5c390609"
         }
       ],
       "preview": [
@@ -2949,7 +2949,7 @@
       "bundle": [
         {
           "path": "assets/downloads/academic.feature_importance.zip",
-          "sha256": "5c06411c189398d1ad4bfc8b21b0d571c9f69d5d06cb07b4aec684c2da0aa6bc"
+          "sha256": "5e4d0ba306feee1b1f3537b601867f1abc5e8143e1c1e467b2eb17e486d5eacb"
         }
       ],
       "preview": [
@@ -2988,7 +2988,7 @@
       "bundle": [
         {
           "path": "assets/downloads/academic.learning_rate.zip",
-          "sha256": "97b2bbb4d43ac1ff535fa55200a222399cf6941f8308748d48800d725ed89f84"
+          "sha256": "6f052380b5c7f7a6680ed8b3d8aa9f1919c5ea171faee0ac416af19ae760edd2"
         }
       ],
       "preview": [
@@ -3027,7 +3027,7 @@
       "bundle": [
         {
           "path": "assets/downloads/academic.latent_interpolation.zip",
-          "sha256": "0aab73664ed4f293fa00c39212d207c1ea953c85f10837d1150fdc1f39c4d324"
+          "sha256": "4729a1d2806dcf4a8a8e11f0abfe145c7764859bb35796d5cdcfed8142563e5b"
         }
       ],
       "preview": [
@@ -3066,7 +3066,7 @@
       "bundle": [
         {
           "path": "assets/downloads/academic.benchmark_table.zip",
-          "sha256": "a6651c6d3cf7d1294295c7d6d7d19a5b23241dc453fb3400285e1ccd036fe6fc"
+          "sha256": "c7726f2cd9081e6f74e9b7810114353996f8155c8c4051897ba13e58d87fbb99"
         }
       ],
       "preview": [
@@ -3105,7 +3105,7 @@
       "bundle": [
         {
           "path": "assets/downloads/academic.error_analysis.zip",
-          "sha256": "9e86347356eaa2d01004daa5e1bea67934fa0f6eff96815f31346bef8fd9ef71"
+          "sha256": "3c4e21950f81a79493d671f3b8c4ed879e5900a17a2aa505f99c989c6c0a10e4"
         }
       ],
       "preview": [
@@ -3144,7 +3144,7 @@
       "bundle": [
         {
           "path": "assets/downloads/competition.convergence.zip",
-          "sha256": "d2251b72c999feea2d9d9e344e903ffedec26505090916eb97ab71bd53de8d3b"
+          "sha256": "509ed6dd6ab0abc04702610afe1bd88789774dd0f0411b193de5deef7322f739"
         }
       ],
       "preview": [
@@ -3183,7 +3183,7 @@
       "bundle": [
         {
           "path": "assets/downloads/competition.tornado.zip",
-          "sha256": "db9c643874b2babf42f709e98a1b8ec01ea957f7add5166fdc9b0439c24036f2"
+          "sha256": "2d77e1187c304c97a9fbd53484a6e4f5bde132a0501a805a5f7ad620c0078afb"
         }
       ],
       "preview": [
@@ -3222,7 +3222,7 @@
       "bundle": [
         {
           "path": "assets/downloads/competition.pareto_front.zip",
-          "sha256": "87b2bc33b41b6518b3f04f0ebe660b807f6704f560eccf3dee0e7109b25d9d0a"
+          "sha256": "47770c48515932a84f2173da297652a2c8f8cbb461a0cf7df21c5e60593768cb"
         }
       ],
       "preview": [
@@ -3261,7 +3261,7 @@
       "bundle": [
         {
           "path": "assets/downloads/competition.prediction_actual.zip",
-          "sha256": "b4ff0f8afc18e72a2487bccf0ccd345bf19656575be1affb741d7d9759d49bf9"
+          "sha256": "e5408ffa119434f227dba803e1f83694d5a28ef22874d23d5f992ddb0c8a1702"
         }
       ],
       "preview": [
@@ -3300,7 +3300,7 @@
       "bundle": [
         {
           "path": "assets/downloads/competition.radar.zip",
-          "sha256": "3b7fbc62a5d3b23643b8e23553a64af3010a9008b1947e00169f3099db282358"
+          "sha256": "43061388fc831553e38c96ea9b4a4228ec1338b198feb8df16087ab7ed6f0ff6"
         }
       ],
       "preview": [
@@ -3339,7 +3339,7 @@
       "bundle": [
         {
           "path": "assets/downloads/competition.surface_3d.zip",
-          "sha256": "64ffa2d0608a82b8e0ca2f6f0d96173b024019b7c51350e550060c299fa128ba"
+          "sha256": "0e701eb60f2c4d71293495c3848dc52e9c2640be3566b3404239a1fcadfb4220"
         }
       ],
       "preview": [
@@ -3378,7 +3378,7 @@
       "bundle": [
         {
           "path": "assets/downloads/competition.china_choropleth.zip",
-          "sha256": "e31bce3b4c25b17cd6d4cfb8e1ebc3362f323943abf6f85fde80fd7f68b72921"
+          "sha256": "b98c3da58b30aaf40cd4309c2bbb454f850147936b3df4caf35e29368ce43804"
         }
       ],
       "preview": [
@@ -3417,7 +3417,7 @@
       "bundle": [
         {
           "path": "assets/downloads/competition.residual_diagnostics.zip",
-          "sha256": "070cb39148c779f8b1cb63ffa5963e4734e72340c77617379ff6bc6f87d0602e"
+          "sha256": "2d571c693cf2d81376c4fb1cd681a3f99ccf648247b66db3a456b2b078818ca7"
         }
       ],
       "preview": [
@@ -3456,7 +3456,7 @@
       "bundle": [
         {
           "path": "assets/downloads/competition.feature_importance.zip",
-          "sha256": "8cd16d8c0ce7913dda4181a78825af9fd2e3fc0dc827cb9f7f858e6822081ea4"
+          "sha256": "611bd2e6c8750b7a4489822b020c576bad25b554831c8eeabb670bbbca7747d2"
         }
       ],
       "preview": [
@@ -3495,7 +3495,7 @@
       "bundle": [
         {
           "path": "assets/downloads/competition.confusion_matrix.zip",
-          "sha256": "d5379a93396dd6eb5244d1de1291a32802f76869c4d1a810b8b45662e7a3500d"
+          "sha256": "52e59b520e523bfb9a7b0efcf20c9d698a274a57eaf7dd48cc4fe20eadaf238c"
         }
       ],
       "preview": [
@@ -3534,7 +3534,7 @@
       "bundle": [
         {
           "path": "assets/downloads/competition.roc.zip",
-          "sha256": "38d93cd009a8e686a5fe750dd26e3b1d097fadeca580d64f7536d2b11d347b44"
+          "sha256": "16755e5758e568f9420bacb9fd5e2752719bc91ea986d814915fabee02122e1c"
         }
       ],
       "preview": [
@@ -3573,7 +3573,7 @@
       "bundle": [
         {
           "path": "assets/downloads/competition.correlation_matrix.zip",
-          "sha256": "f0f573930f04eb087942d961d2d0c106bde849198c326380d893c19640f5ff60"
+          "sha256": "256e2f06eccc5b1d147fce96b9bf193a57af310990074fcc8bd54f446436e0b2"
         }
       ],
       "preview": [
@@ -3612,7 +3612,7 @@
       "bundle": [
         {
           "path": "assets/downloads/competition.gravity_migration.zip",
-          "sha256": "ce2949823d296c099191f842bd291fe49234bef8df4e68ef5bc67cc0444ab3b6"
+          "sha256": "d80481a9dbc412b940e790e9f54c6fc8d84015e0d2c9804f612a31ddd9d49502"
         }
       ],
       "preview": [
@@ -3651,7 +3651,7 @@
       "bundle": [
         {
           "path": "assets/downloads/competition.contour.zip",
-          "sha256": "316995e96c1ad6d00c9ca5359917e801e9c164372f9525531213e052b916c27c"
+          "sha256": "1d9b1bbf91bede76305e8ac5a05b7229a64065810f2313c5ae2c6e82b1850e10"
         }
       ],
       "preview": [
@@ -3690,7 +3690,7 @@
       "bundle": [
         {
           "path": "assets/downloads/competition.gantt.zip",
-          "sha256": "69b9973a4fd42f64752a14a7aff95cf4cdfa9caf1fec8edacb67fe78ef8b8342"
+          "sha256": "3615d1e67a46ad8aa22dfaa561f01ac6e56ea2591b289ee3a3d8af3faefc55de"
         }
       ],
       "preview": [
@@ -3729,7 +3729,7 @@
       "bundle": [
         {
           "path": "assets/downloads/competition.network_path.zip",
-          "sha256": "6c4cb6429d5ab89a1a1e2e16e4ae1594aee89f1faae3748bed5b58a90dd2745b"
+          "sha256": "e16501d59baf78eed63318b18188ed6e9fbe34e4b6d3968740403cc8e9fadc07"
         }
       ],
       "preview": [
@@ -3768,7 +3768,7 @@
       "bundle": [
         {
           "path": "assets/downloads/competition.multistep_decay.zip",
-          "sha256": "9caac672b890ea429dd8b81c71316e2a5da9af979cf584c07bfca276978051e0"
+          "sha256": "1fe2b6001910d88cebc56d04e210e67ecc74a8f79fb2067f9e56b3b03009a785"
         }
       ],
       "preview": [
@@ -3807,7 +3807,7 @@
       "bundle": [
         {
           "path": "assets/downloads/competition.spatiotemporal_heatmap.zip",
-          "sha256": "dadbc1078a98bfa1e4c8dbbaa6c0917f752c8bb924257402a3402a36522e7de1"
+          "sha256": "44286fb06cb7c156630f7f2022d28031847952f5a875a97b182d529251b53bcb"
         }
       ],
       "preview": [
@@ -3846,7 +3846,7 @@
       "bundle": [
         {
           "path": "assets/downloads/competition.pareto_surface_3d.zip",
-          "sha256": "4dee2085afe352c5e0b0f6d55d78331ab1cd469f11f09377b2ae6cabc4021c38"
+          "sha256": "febdde8a5232121584db48eaa461e7c2209b25e4e44f8610a641bc3320a76be4"
         }
       ],
       "preview": [
@@ -3885,7 +3885,7 @@
       "bundle": [
         {
           "path": "assets/downloads/competition.waterfall.zip",
-          "sha256": "ab2bd92ebcafe6b1f0a1aa0068652e93f3c687ee0b1293a86014b5f71d11c3d3"
+          "sha256": "72be4678f19783cbbeafe1ef8ab789a4ed71b2e4078f09d2b1e86639ef4f823f"
         }
       ],
       "preview": [
@@ -3924,7 +3924,7 @@
       "bundle": [
         {
           "path": "assets/downloads/competition.bubble_joint.zip",
-          "sha256": "e4b042b9d3f6ea93e6ab69adfa8d183ed90f2115bf94846309815fb35df1e3ac"
+          "sha256": "df09bf78cae436254d42461a8a877f4e264adea0b5b6b41af2b0ae63b67a8d1b"
         }
       ],
       "preview": [
@@ -3963,7 +3963,7 @@
       "bundle": [
         {
           "path": "assets/downloads/competition.bubble_kde.zip",
-          "sha256": "9b0f025e86453ddbfdeec5eb48e09826b678d6af52593571e3b691494c67e23b"
+          "sha256": "51d61a774078efece7228257c3d32f06f8ee00bb9302930465b9798191cefc22"
         }
       ],
       "preview": [
@@ -4002,7 +4002,7 @@
       "bundle": [
         {
           "path": "assets/downloads/competition.kmeans.zip",
-          "sha256": "72f7445d4ebe19ba1165187976c320c4f78b9300ef88274a1c5a8616e386d440"
+          "sha256": "0778281c7524d2f96584662eb69f8805dad3f8d6f632e70d31f62272d3929606"
         }
       ],
       "preview": [
@@ -4041,7 +4041,7 @@
       "bundle": [
         {
           "path": "assets/downloads/competition.hexbin_joint.zip",
-          "sha256": "15682cd9b6aeba87cc67205967678033412d5db55c6172e89b836f134e966661"
+          "sha256": "3cfaffdd2f9179a88fe09d29cfd9c2898295258793d17788994d580dc90ca1f4"
         }
       ],
       "preview": [
@@ -4080,7 +4080,7 @@
       "bundle": [
         {
           "path": "assets/downloads/competition.kde_joint.zip",
-          "sha256": "176b5f1884d88a7ee95ed6b4f3334aba70384f741abad584804b716e417a4057"
+          "sha256": "39d0194d385f5f5aca51bde3b13c2c164731a6fac3fa0d895bb5a916b9d32415"
         }
       ],
       "preview": [
@@ -4119,7 +4119,7 @@
       "bundle": [
         {
           "path": "assets/downloads/competition.scatter_regression_marginals.zip",
-          "sha256": "7ebae8bf4c4c6b21f36a3aa4d1ffa7c523ed78d072e4ae8c789aac8d40a2bbf9"
+          "sha256": "3d3695f20d0bd7ec856c239149561802db4e4f4abfff1af5520aabe111ae8fab"
         }
       ],
       "preview": [
@@ -4158,7 +4158,7 @@
       "bundle": [
         {
           "path": "assets/downloads/competition.cluster_3d.zip",
-          "sha256": "fbc570cf232b2ab9897c1940fec9a662c34f7e84a373ebed017b6250ca8fb416"
+          "sha256": "047b6ff1c53241833feb7d41f08622d37c9e12f236fbb2a080ac4df0ae73a758"
         }
       ],
       "preview": [
@@ -4197,7 +4197,7 @@
       "bundle": [
         {
           "path": "assets/downloads/competition.feasible_region.zip",
-          "sha256": "ca223be5b23c8a82eef6171dbca6cd22185ae385dfb7c8d43ec0c625c56ea751"
+          "sha256": "f88e97718d4ca62b99885c12d79eb4a87443229f58aa8da67fc94512fc2ef6b4"
         }
       ],
       "preview": [
@@ -4236,7 +4236,7 @@
       "bundle": [
         {
           "path": "assets/downloads/competition.state_grid.zip",
-          "sha256": "c124dfe0a2365a961dcba98530c843402e5183fefa521da6fbbf8051a109e09c"
+          "sha256": "0daa007d5e7a269915bc193c8b4c2b6e38af119f9504317d89edcdc753b1d301"
         }
       ],
       "preview": [
@@ -4275,7 +4275,7 @@
       "bundle": [
         {
           "path": "assets/downloads/template.sem_violin_pearson.zip",
-          "sha256": "08344a53e71e7b9fe504946d257523006346417173a01155cf036fcd45a4b0e4"
+          "sha256": "3144021a5045bcbcb7ebba50a18de6f245be29cb8b405a55d79a69283086b8c9"
         }
       ],
       "preview": [
@@ -4314,7 +4314,7 @@
       "bundle": [
         {
           "path": "assets/downloads/screenshot.fan_violin_heatmap.zip",
-          "sha256": "96c7cdd109381a951b567753eb204d3d954d894a4acc15c208916e700038d1e7"
+          "sha256": "a0ed30e0856b0d1a34e6b982b991125ad6f290cde6ff63022f38acee2a8a1e3b"
         }
       ],
       "preview": [
@@ -4353,7 +4353,7 @@
       "bundle": [
         {
           "path": "assets/downloads/screenshot.layered_area_3d.zip",
-          "sha256": "03995228403267fa426ad3e53a95f51e46d3f5ad1f038a5e1d450d62a9d23502"
+          "sha256": "4a7a2d128bc4c694ea2fde554c5f93cc6672f772d40eea25ced3a7da0be3d563"
         }
       ],
       "preview": [
@@ -4392,7 +4392,7 @@
       "bundle": [
         {
           "path": "assets/downloads/screenshot.heatmap_slabs_3d.zip",
-          "sha256": "2cb3a02a89b378b3884e6eeeafd1c1e518ff5458a8a002f9dbd299e9fa0f0785"
+          "sha256": "322746deaa5c83832642adb4106d328c165f18362d2a95e57d4a0b8dbe652278"
         }
       ],
       "preview": [
@@ -4431,7 +4431,7 @@
       "bundle": [
         {
           "path": "assets/downloads/screenshot.sunburst.zip",
-          "sha256": "2c9101eb53283f91ca9b27f468416e81c69f6d0347ea540bcff3f6dc0f6c3433"
+          "sha256": "2473bef77628670ac6f34c5291b18f31843d45ab04689d4db6a0ebdc1be043ac"
         }
       ],
       "preview": [
@@ -4470,7 +4470,7 @@
       "bundle": [
         {
           "path": "assets/downloads/screenshot.peak_stacked_area.zip",
-          "sha256": "b1f3f926481099da412edb1edf30621b9d450fab162cb8d56ded0e904b14b108"
+          "sha256": "2a2ee052a63d810169ce351d5c655050527eb7d7df64320dce4a9922409c1c0a"
         }
       ],
       "preview": [
@@ -4509,7 +4509,7 @@
       "bundle": [
         {
           "path": "assets/downloads/screenshot.triangle_heatmap.zip",
-          "sha256": "18cca7c9c9c6384a755446f80445ac8422b482762e83a0f01d710698047af57e"
+          "sha256": "3a595fb5e3cedce89223f4f6c822119dc7877da2698d5eeff3d155b0b851b36d"
         }
       ],
       "preview": [
@@ -4548,7 +4548,7 @@
       "bundle": [
         {
           "path": "assets/downloads/screenshot.cone_vortex.zip",
-          "sha256": "078bccce55206198417280355da6102d248fffbcc42b0f889ed9701dcdb38cb2"
+          "sha256": "3ba382071c1eac90899186c6344bc6b8f5cc99cdf06fb7be0924814305d929a1"
         }
       ],
       "preview": [
@@ -4587,7 +4587,7 @@
       "bundle": [
         {
           "path": "assets/downloads/screenshot.isosurface.zip",
-          "sha256": "318412aae2b6d97a9dc88c71dd9756297e6a08913ab0da0bc35ee539c138ec97"
+          "sha256": "ab9c94d6deadc2de93059d1e94f3170ea054251a493b05bf77631b33b15f875d"
         }
       ],
       "preview": [
@@ -4626,7 +4626,7 @@
       "bundle": [
         {
           "path": "assets/downloads/screenshot.spiral_bubbles_3d.zip",
-          "sha256": "881bfe629c6ff783f4372db08925bd7f24daf6bd32f2d010fd25b0e3088a34b1"
+          "sha256": "3dfc6a77bf7e28fe81f61062c962ba8e0305ede0ad5f44b5124d7624b898b3f3"
         }
       ],
       "preview": [
@@ -4665,7 +4665,7 @@
       "bundle": [
         {
           "path": "assets/downloads/screenshot.volume.zip",
-          "sha256": "6b42f08b15ce913d47a3480bafba98cd5f79779c7ff9b250ea26b9fdf091b893"
+          "sha256": "25d677f6eafd6ded51c245aa9fb39fc3b317ac4100df43fc7b6df4e0c2457d9c"
         }
       ],
       "preview": [
@@ -4704,7 +4704,7 @@
       "bundle": [
         {
           "path": "assets/downloads/screenshot.gridded_scatter_3d.zip",
-          "sha256": "1082def4483b1b97d67bb3ea5db53db1e4b3354cf6f8a3b10ff22de317493f6a"
+          "sha256": "35cf63e18d554197577ea040fb238365657e257bb4883b6156cfec5e91b3c70a"
         }
       ],
       "preview": [
@@ -4743,7 +4743,7 @@
       "bundle": [
         {
           "path": "assets/downloads/screenshot.contour_lines_3d.zip",
-          "sha256": "625b2b720577b25d7db348ff34fb86693da49ba99de226512effb8f45d1e0193"
+          "sha256": "16acdf3e74a7861dd19f0ae49cdd7e610647d593a0a18c81fbd9bb3ef1b97206"
         }
       ],
       "preview": [
@@ -4782,7 +4782,7 @@
       "bundle": [
         {
           "path": "assets/downloads/screenshot.block_surface_3d.zip",
-          "sha256": "5df040c2922d5e848d8e6228bd7626e22f28ef9b5a3fba3d516187dc7f8b616e"
+          "sha256": "bcb52bc7806f3dd31f1c9795d4d736240da384d2a574f9c2401414cf93b4af4c"
         }
       ],
       "preview": [
@@ -4821,7 +4821,7 @@
       "bundle": [
         {
           "path": "assets/downloads/screenshot.mesh_surface_3d.zip",
-          "sha256": "96af79f05daaf0460be745be8199f64353477e03eb85bc13012bab84d8f43828"
+          "sha256": "523cbdc393f65c3097bcdab54164b932ac1c4aae372b03bf08fef4e201676d4f"
         }
       ],
       "preview": [
@@ -4860,7 +4860,7 @@
       "bundle": [
         {
           "path": "assets/downloads/screenshot.depreciation_area.zip",
-          "sha256": "7d5bf53736a42db882bb0594fae8068301b713cc7470c6be1bf28a02d5746975"
+          "sha256": "dc9cd640e9dbb80d9e216e13ac67417913c66fd9423cf4b0e67603173d3de5a9"
         }
       ],
       "preview": [
@@ -4899,7 +4899,7 @@
       "bundle": [
         {
           "path": "assets/downloads/screenshot.concentric_bars.zip",
-          "sha256": "9703914404177ddac8213c371bd0f4c37934d416d146960ee955f6df612a1c3c"
+          "sha256": "ede7222516da8c44101ce8cf3dfd36050cdd63ac9ea7ba78205adf5e064de0d1"
         }
       ],
       "preview": [
@@ -4938,7 +4938,7 @@
       "bundle": [
         {
           "path": "assets/downloads/screenshot.rose.zip",
-          "sha256": "2215f0f138c1cc8ff72cbf65858a40370fdcbb76f7e321f99bf6c36a29dc545c"
+          "sha256": "a0a803aa6d03327ea2c5cc62ddd9252bfef3af8e6066daa829b5c879e41d1de4"
         }
       ],
       "preview": [
@@ -4977,7 +4977,7 @@
       "bundle": [
         {
           "path": "assets/downloads/screenshot.nested_donut.zip",
-          "sha256": "d22941500af7954e6f73fb83e8874046f3cf93bd5e26681574a7dac286459868"
+          "sha256": "15eba0473669c6d8b0202378720923f9c346fe6e3982a619458879852c6bb71e"
         }
       ],
       "preview": [
@@ -5016,7 +5016,7 @@
       "bundle": [
         {
           "path": "assets/downloads/screenshot.ranked_arcs.zip",
-          "sha256": "de6d6fe0afc481de70f3d9f1340e0c9480e86e47608e1785f816306bc1bada7b"
+          "sha256": "cb91a20422bee7c3c1776401c2bf266940733e1246594192fd1f149dc791125b"
         }
       ],
       "preview": [
@@ -5055,7 +5055,7 @@
       "bundle": [
         {
           "path": "assets/downloads/screenshot.horizon.zip",
-          "sha256": "5f7914641424979f0afdcbdd77e661b1b3b0d951934f5f98e34b591ad51f8e18"
+          "sha256": "c9a3729083750d7ce98ca48d9593a26c149926f804f6506e7c668e8a445fb533"
         }
       ],
       "preview": [
@@ -5094,7 +5094,7 @@
       "bundle": [
         {
           "path": "assets/downloads/screenshot.radial_bars.zip",
-          "sha256": "1438bf21e86a49cd114ef830bb1fd760f30e64f58cc0473d1d5d4fb4ace488b1"
+          "sha256": "3e53d963e551ebbaba035123a63c5a1daa4fd58ab4d833cdf631a970b9be5416"
         }
       ],
       "preview": [
@@ -5133,7 +5133,7 @@
       "bundle": [
         {
           "path": "assets/downloads/screenshot.chord.zip",
-          "sha256": "93bfaab72559a83a52529f2504a611d130f8b49a4891a0ffc6b97dd6fd0443f7"
+          "sha256": "ec4d70b6cc0094f27a86fd6fdf7b7991e32c5d62f772e96c59eeb0cb89478ae8"
         }
       ],
       "preview": [
@@ -5172,7 +5172,7 @@
       "bundle": [
         {
           "path": "assets/downloads/screenshot.marginal_heatmap.zip",
-          "sha256": "684cc0e360796f6f423fed462bcae33c69b8bc0cf2d7ee35523921947386b913"
+          "sha256": "d60a577850bee23ecec9bd65867d58352cf789aa4fa9cd890406ddb3cb063d76"
         }
       ],
       "preview": [
@@ -5211,7 +5211,7 @@
       "bundle": [
         {
           "path": "assets/downloads/screenshot.interval_steps.zip",
-          "sha256": "fbee6259a883bd202995f0a558549c97c05e4c901d6ccce22528a45e459007b9"
+          "sha256": "14c780a82d659910e1fcaf69c0c4c10fa05a058f450017130b53c4906728c80d"
         }
       ],
       "preview": [
@@ -5250,7 +5250,7 @@
       "bundle": [
         {
           "path": "assets/downloads/screenshot.streamgraph.zip",
-          "sha256": "1895481157d71d5684940051f469f2eb433572c8ca93715fb95966446ffa6129"
+          "sha256": "4ac233dfa5cf28144b8e504ace28c19d369fc91b3767fb88a949b21e09bf2a4f"
         }
       ],
       "preview": [
@@ -5289,7 +5289,7 @@
       "bundle": [
         {
           "path": "assets/downloads/screenshot.correlation_network.zip",
-          "sha256": "24eff0f813d3fdb50a33755df77e899d1ee1b85382455bce4a62e413280d8324"
+          "sha256": "fe1509009df68b8615975d640e503b74bf85bfa0349e13458460181a9de0c147"
         }
       ],
       "preview": [
@@ -5328,7 +5328,7 @@
       "bundle": [
         {
           "path": "assets/downloads/screenshot.radial_heatmap.zip",
-          "sha256": "e0f836655db910f8d7dc65240f3b13e7bac7d26be9846dd774c71849a9814680"
+          "sha256": "e398b66b019cd4bde2e3c6195fa044f73dcff230f2ae0cdd3fcd4eecac823ec7"
         }
       ],
       "preview": [
@@ -5367,7 +5367,7 @@
       "bundle": [
         {
           "path": "assets/downloads/screenshot.hexbin.zip",
-          "sha256": "f23eca548aa19295d56942f6a59ed3eda60cc20bc7b653c540cfefeef864bca8"
+          "sha256": "10d23ddf7b8f302cfaf399477bbe5ca309a3d430d8f54092a5f9b3a12b1e26ce"
         }
       ],
       "preview": [
@@ -5406,7 +5406,7 @@
       "bundle": [
         {
           "path": "assets/downloads/screenshot.classified_scatter.zip",
-          "sha256": "8a486a20fa0208e1a8ac40aa85854232c538f297c78c68742a190fdc9a74a648"
+          "sha256": "0d1cad5dd348f5782d271e827fd3b7b009ff9a7d82a86b526730bf0686c7b756"
         }
       ],
       "preview": [
@@ -5445,7 +5445,7 @@
       "bundle": [
         {
           "path": "assets/downloads/screenshot.polar_scatter.zip",
-          "sha256": "5ab598c119fddd573d4f5373340f14e0508456091fb8e69a065680a7a390dc04"
+          "sha256": "2fce7a9b58d831d52bfa974815c33d9921ff0d65f05f87aea94aa5ae8d73c37b"
         }
       ],
       "preview": [
@@ -5484,7 +5484,7 @@
       "bundle": [
         {
           "path": "assets/downloads/screenshot.polar_step_area.zip",
-          "sha256": "9ee6bb4cc171d063248e8bac5cf347d54b22eb2be138b0357ea61cbb026d2dd0"
+          "sha256": "c195cf53ca6fcdfbbd756583ae175bd562f6fe90cce9106c3737a01f9c27fa61"
         }
       ],
       "preview": [
@@ -5523,7 +5523,7 @@
       "bundle": [
         {
           "path": "assets/downloads/screenshot.polar_area.zip",
-          "sha256": "ed8f5130464a2e7abbc152f7f0b0fa8b909abeb090f393fedf580a80decab778"
+          "sha256": "8070d34dfb220433fe86954ffb24919bce9c65aa07eb3373bbf7561165aa1153"
         }
       ],
       "preview": [
@@ -5562,7 +5562,7 @@
       "bundle": [
         {
           "path": "assets/downloads/advanced.grouped_bar_3d.zip",
-          "sha256": "3eed3cf1393c674b5e399d77414ca49d199fe1a8f26966f3ecbec6d74a345115"
+          "sha256": "e71a45694b1764aa179af7a7459b22056d2401d73597dc802353c399f7bf3581"
         }
       ],
       "preview": [
@@ -5601,7 +5601,7 @@
       "bundle": [
         {
           "path": "assets/downloads/advanced.multi_y_gradient_hist.zip",
-          "sha256": "3f04dfc8be0691e8886c86fde2d0b6ba4aa5623b5386d945f2fab85ef35ae80f"
+          "sha256": "1ce9b3e70a844c10f8e1ac4d25c96e83acb606e6ea8157be75f23f2b5a6a9873"
         }
       ],
       "preview": [
@@ -5640,7 +5640,7 @@
       "bundle": [
         {
           "path": "assets/downloads/advanced.relief_correlation_heatmap.zip",
-          "sha256": "8c5033d05091632e02d7858a872466333a0f558090cef451e107f544356dfe21"
+          "sha256": "24a6330bb41493c12266696ead0aca41a831991721b5c2302675793199fd08e1"
         }
       ],
       "preview": [
@@ -5679,7 +5679,7 @@
       "bundle": [
         {
           "path": "assets/downloads/template.shap_dependence.zip",
-          "sha256": "f298cee4d52a9b6a5b349280c37c0071ddbda837dd075ee655c87c60fbdfea5f"
+          "sha256": "fb9b358ecb6b14f96ee50aec3fc7cef324f14f2586e8eaff5cb1ebd6c37fc680"
         }
       ],
       "preview": [
@@ -5718,7 +5718,7 @@
       "bundle": [
         {
           "path": "assets/downloads/template.shap_contribution.zip",
-          "sha256": "6d8c656816cc5eeed635bcd2a1e1e0d08baa353004b6000bcc19acf9ca9031dd"
+          "sha256": "18dabbba637810136064877dfcac484ad7a35978cebec7cb016f53f599b3b10e"
         }
       ],
       "preview": [
@@ -5757,7 +5757,7 @@
       "bundle": [
         {
           "path": "assets/downloads/advanced.radar_ridgeline.zip",
-          "sha256": "d1b70d054a2198328a5ed64ceec72e3aceca1e780f447e6b6302d628b721f1b0"
+          "sha256": "d17363742f2f0823a617a34dd1a034269fb5d9fe34bf63177384a7fe125a355e"
         }
       ],
       "preview": [
@@ -5796,7 +5796,7 @@
       "bundle": [
         {
           "path": "assets/downloads/advanced.grouped_radial_bar.zip",
-          "sha256": "85e83160da4bb5fee55de9051c2f6e53c6dc5b714413dee57e742c3f0384a59d"
+          "sha256": "c714dbf4c070d1546e0a8e8294ce7f1b70cb8f245f40bce045852e71212fa25c"
         }
       ],
       "preview": [

@@ -1,0 +1,79 @@
+{
+  "name": "用户内核分界与虚拟设备耦合图",
+  "family": "deployment",
+  "tags": [
+    "用户内核分界",
+    "虚拟设备",
+    "控制数据面",
+    "约束标记",
+    "上下层网络"
+  ],
+  "when_to_use": "需要说明虚拟 I/O 层次及同宿主系统耦合的架构；部署现状伴随少量具体限制或改进动机的分析",
+  "avoid": "不带问题定位的中性系统总览；多个宿主的真实网络拓扑或性能定量比较",
+  "preserve": [
+    "两侧用户任务横排，横虚线贯穿域；内核设备框在左、模块与网络栈在右下。",
+    "黑色细线连接控制数据面和内核模块，蓝箭头从虚拟设备指向上层；红字是诊断注记而不是额外执行边。",
+    "浅蓝设备组件、浅绿 net/blk 接口、浅黄 TCP/IP、橙色 NIC；红色只用于限制说明及编号。",
+    "无衬线正文与斜体空间标签混用；红色限制说明体量小，图内编号②在上下网络路径均出现，不能误改成唯一序列。"
+  ],
+  "adapt": "先核对新部署的用户态和内核态边界，不能只改模块名称。；逐条重写红色问题标记，只保留有依据的限制。；将 overlay 与 underlay 及相应箭头作为一组修改。；若分离宿主或服务虚拟机，应扩为独立部署域并重接跨域路径。",
+  "visual_note": "上游记录曾把设备问题编号混淆；实际图中 overlay 为②、no nvme 为③，underlay 也标②，应按图核对而非套顺序。",
+  "id": "architecture.source.nsdi26-028_fig2",
+  "display_code": "VA-150",
+  "parts": [
+    {
+      "id": "application-side",
+      "name": "应用侧任务与设备接口",
+      "role": "region",
+      "box": [
+        0.02,
+        0.06,
+        0.43,
+        0.47
+      ],
+      "meaning": "任务、容器和 VM 经虚拟 net/blk 接口访问。",
+      "reuse": "改任务形态后同步检查上行接口及限制标记。"
+    },
+    {
+      "id": "iaas-side",
+      "name": "IaaS 控制数据面",
+      "role": "region",
+      "box": [
+        0.59,
+        0.06,
+        0.38,
+        0.345
+      ],
+      "meaning": "控制面和数据面同宿主部署。",
+      "reuse": "按实际部署边界修改容器，取消耦合时需重画边界。"
+    },
+    {
+      "id": "virtual-device",
+      "name": "虚拟设备与总线",
+      "role": "region",
+      "box": [
+        0.06,
+        0.52,
+        0.32,
+        0.31
+      ],
+      "meaning": "virtio 设备嵌在 vDPA 框架与总线内。",
+      "reuse": "替换设备类型时保留总线与设备层次。"
+    },
+    {
+      "id": "module-network",
+      "name": "内核模块和物理网口",
+      "role": "region",
+      "box": [
+        0.61,
+        0.48,
+        0.355,
+        0.43
+      ],
+      "meaning": "vDUSE 模块与 TCP/IP、NIC 组成下方后端。",
+      "reuse": "模块和物理路径要随实现一起修改。"
+    }
+  ],
+  "implementation": "editable vector geometry",
+  "validation_status": "baseline-and-components-checked"
+}

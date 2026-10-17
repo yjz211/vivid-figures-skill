@@ -1,0 +1,269 @@
+[
+  {
+    "key": "e0014",
+    "text": "Memory Shard",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      28.545475138655203,
+      20.464615658092967,
+      50.409282358284585,
+      7.895428687189451
+    ],
+    "components": [
+      "sharded-layers"
+    ]
+  },
+  {
+    "key": "e0021",
+    "text": "In-DRAM Graph Index",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      81.34867679764692,
+      43.4256767226931,
+      7.177668083380468,
+      62.362342068386155
+    ],
+    "components": [
+      "sharded-layers"
+    ]
+  },
+  {
+    "key": "e0065",
+    "text": "Query",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      53.66393023866703,
+      51.1723259733849,
+      17.232672732035546,
+      7.1776680833804605
+    ],
+    "components": [
+      "sharded-layers",
+      "hierarchical-path"
+    ]
+  },
+  {
+    "key": "e0066",
+    "text": "Vector",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      53.42467325710344,
+      58.76321569238281,
+      18.44412426645271,
+      7.17766463641987
+    ],
+    "components": [
+      "sharded-layers",
+      "hierarchical-path"
+    ]
+  },
+  {
+    "key": "e0073",
+    "text": "DRAM",
+    "font_family": "VividSource-Arimo-BoldItalic",
+    "bounds": [
+      33.48726361745321,
+      38.82947706576171,
+      21.825751166152024,
+      7.8954355811106325
+    ],
+    "components": [
+      "sharded-layers"
+    ]
+  },
+  {
+    "key": "e0074",
+    "text": "(a)",
+    "font_family": "VividSource-texgyretermes-regular",
+    "bounds": [
+      3.000001977043219,
+      122.54466532136928,
+      10.152810527326437,
+      12.080597604879586
+    ],
+    "components": []
+  },
+  {
+    "key": "e0075",
+    "text": "In-DRAMgraphindexeson",
+    "font_family": "VividSource-texgyretermes-italic",
+    "bounds": [
+      15.503710584644985,
+      122.54466532136928,
+      103.07030014667635,
+      11.843757506361726
+    ],
+    "components": []
+  },
+  {
+    "key": "e0076",
+    "text": "distributednodesforachieving",
+    "font_family": "VividSource-texgyretermes-italic",
+    "bounds": [
+      3.054386061823614,
+      133.5036718600603,
+      115.51379945440931,
+      11.843757506361726
+    ],
+    "components": []
+  },
+  {
+    "key": "e0077",
+    "text": "lowlatency.",
+    "font_family": "VividSource-texgyretermes-italic",
+    "bounds": [
+      3.296001434326172,
+      144.36749267578125,
+      42.842876434326165,
+      11.9627685546875
+    ],
+    "components": []
+  },
+  {
+    "key": "e0085",
+    "text": "DRAM-SSD Node",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      151.65190172206323,
+      6.841131270035945,
+      59.00919395708752,
+      7.8954355811106325
+    ],
+    "components": [
+      "hybrid-node"
+    ]
+  },
+  {
+    "key": "e0089",
+    "text": "DRAM",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      211.16316272399442,
+      86.36944738302691,
+      7.177668083380468,
+      18.576506511420234
+    ],
+    "components": [
+      "hybrid-node"
+    ]
+  },
+  {
+    "key": "e0090",
+    "text": "-",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      211.16316272399442,
+      84.41550631865275,
+      7.177665929030098,
+      2.0972243222098825
+    ],
+    "components": [
+      "hybrid-node"
+    ]
+  },
+  {
+    "key": "e0091",
+    "text": "SSD Graph Index",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      211.16316272399442,
+      34.99824241444914,
+      7.177668083380468,
+      49.45406408634038
+    ],
+    "components": [
+      "hybrid-node"
+    ]
+  },
+  {
+    "key": "e0104",
+    "text": "Query Vector",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      164.80027429709614,
+      25.3437332229105,
+      37.29214958708553,
+      7.177668083380468
+    ],
+    "components": [
+      "hybrid-node"
+    ]
+  },
+  {
+    "key": "e0148",
+    "text": "DRAM",
+    "font_family": "VividSource-Arimo-BoldItalic",
+    "bounds": [
+      137.75941308254457,
+      35.40175740904307,
+      21.82574771919144,
+      7.895428687189451
+    ],
+    "components": [
+      "hybrid-node"
+    ]
+  },
+  {
+    "key": "e0149",
+    "text": "SSD",
+    "font_family": "VividSource-Arimo-BoldItalic",
+    "bounds": [
+      140.1132528489829,
+      66.77178396704198,
+      15.027707193511105,
+      7.895432134150042
+    ],
+    "components": [
+      "hybrid-node",
+      "hybrid-search"
+    ]
+  },
+  {
+    "key": "e0152",
+    "text": "(b)",
+    "font_family": "VividSource-texgyretermes-regular",
+    "bounds": [
+      120.7470147416334,
+      122.59494111662934,
+      10.246663364133383,
+      11.841361764578323
+    ],
+    "components": []
+  },
+  {
+    "key": "e0153",
+    "text": "DRAM-SSDgraphindexeson",
+    "font_family": "VividSource-texgyretermes-italic",
+    "bounds": [
+      132.3028809138341,
+      122.35325424896291,
+      103.9966929556922,
+      12.082986977431574
+    ],
+    "components": []
+  },
+  {
+    "key": "e0154",
+    "text": "asinglenodeforsavingmemory",
+    "font_family": "VividSource-texgyretermes-italic",
+    "bounds": [
+      120.80606009050277,
+      133.31716342792777,
+      115.61425276371844,
+      12.076951642811764
+    ],
+    "components": []
+  },
+  {
+    "key": "e0155",
+    "text": "footprint.",
+    "font_family": "VividSource-texgyretermes-italic",
+    "bounds": [
+      119.36820220947263,
+      144.36749267578125,
+      35.30918884277344,
+      11.9627685546875
+    ],
+    "components": []
+  }
+]

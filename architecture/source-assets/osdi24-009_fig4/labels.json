@@ -1,0 +1,324 @@
+[
+  {
+    "key": "e0005",
+    "text": "Clients",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      116.61485411413013,
+      28.6985105127992,
+      46.19408700291386,
+      16.948007100227183
+    ],
+    "components": [
+      "clients",
+      "submission-domain"
+    ]
+  },
+  {
+    "key": "e0006",
+    "text": "(untrusted)",
+    "font_family": "VividSource-Arimo-Italic",
+    "bounds": [
+      115.35598330385982,
+      47.27225264949265,
+      48.698415361996,
+      11.150004093492498
+    ],
+    "components": [
+      "clients",
+      "submission-domain"
+    ]
+  },
+  {
+    "key": "e0009",
+    "text": "Clients",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      195.74387647397813,
+      28.6985105127992,
+      46.19406504994913,
+      16.948007100227183
+    ],
+    "components": [
+      "clients",
+      "submission-domain"
+    ]
+  },
+  {
+    "key": "e0010",
+    "text": "(untrusted)",
+    "font_family": "VividSource-Arimo-Italic",
+    "bounds": [
+      194.48500566370782,
+      47.27225264949265,
+      48.69841536199601,
+      11.150004093492498
+    ],
+    "components": [
+      "clients",
+      "submission-domain"
+    ]
+  },
+  {
+    "key": "e0013",
+    "text": "Clients",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      274.8728988338261,
+      28.6985105127992,
+      46.19406504994913,
+      16.948007100227183
+    ],
+    "components": [
+      "clients",
+      "submission-domain"
+    ]
+  },
+  {
+    "key": "e0014",
+    "text": "(untrusted)",
+    "font_family": "VividSource-Arimo-Italic",
+    "bounds": [
+      273.6140280235558,
+      47.27225264949265,
+      48.69841536199601,
+      11.150004093492498
+    ],
+    "components": [
+      "clients",
+      "submission-domain"
+    ]
+  },
+  {
+    "key": "e0017",
+    "text": "Broker",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      159.89977813512084,
+      93.44044064224998,
+      44.810040387674235,
+      16.948001611986
+    ],
+    "components": [
+      "brokers",
+      "submission-domain",
+      "broadcast-domain"
+    ]
+  },
+  {
+    "key": "e0018",
+    "text": "(untrusted)",
+    "font_family": "VividSource-Arimo-Italic",
+    "bounds": [
+      157.797902502205,
+      112.01418003482284,
+      48.698426338478384,
+      11.150009581733684
+    ],
+    "components": [
+      "submission-domain",
+      "broadcast-domain"
+    ]
+  },
+  {
+    "key": "e0021",
+    "text": "Server",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      131.84493195832871,
+      158.18237351582135,
+      44.81005136415661,
+      16.948007100227187
+    ],
+    "components": [
+      "servers",
+      "broadcast-domain"
+    ]
+  },
+  {
+    "key": "e0022",
+    "text": "(3f + 1)",
+    "font_family": "VividSource-Arimo-Italic",
+    "bounds": [
+      137.9931780528277,
+      176.75610742015303,
+      32.19210191241473,
+      11.150009581733684
+    ],
+    "components": [
+      "servers",
+      "broadcast-domain"
+    ]
+  },
+  {
+    "key": "e0025",
+    "text": "Server",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      235.4320267513394,
+      158.18237351582135,
+      44.810040387674206,
+      16.948007100227187
+    ],
+    "components": [
+      "servers",
+      "broadcast-domain"
+    ]
+  },
+  {
+    "key": "e0026",
+    "text": "(3f + 1)",
+    "font_family": "VividSource-Arimo-Italic",
+    "bounds": [
+      241.58028382232075,
+      176.75610742015303,
+      32.192068982967584,
+      11.150009581733684
+    ],
+    "components": [
+      "servers",
+      "broadcast-domain"
+    ]
+  },
+  {
+    "key": "e0029",
+    "text": "Server",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      339.7384653165936,
+      158.18237351582135,
+      44.81008429360372,
+      16.948007100227187
+    ],
+    "components": [
+      "servers",
+      "broadcast-domain"
+    ]
+  },
+  {
+    "key": "e0030",
+    "text": "(3f + 1)",
+    "font_family": "VividSource-Arimo-Italic",
+    "bounds": [
+      345.8867004346102,
+      176.75610742015303,
+      32.192134841861844,
+      11.150009581733684
+    ],
+    "components": [
+      "servers",
+      "broadcast-domain"
+    ]
+  },
+  {
+    "key": "e0031",
+    "text": "Distillation",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      56.828819615411696,
+      34.738397238625126,
+      16.94800710022718,
+      68.8301292212327
+    ],
+    "components": [
+      "submission-domain"
+    ]
+  },
+  {
+    "key": "e0032",
+    "text": "Submission",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      56.828811509179985,
+      109.24189198148271,
+      16.948007100227187,
+      78.0752690756617
+    ],
+    "components": []
+  },
+  {
+    "key": "e0033",
+    "text": "Chop Chop",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      -0.7195745877743462,
+      70.51856997465984,
+      16.948007100227187,
+      76.41356136234205
+    ],
+    "components": []
+  },
+  {
+    "key": "e0034",
+    "text": "Atomic Broadcast",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      17.983659855581195,
+      49.27125584131227,
+      16.948007100227187,
+      119.08056430820577
+    ],
+    "components": []
+  },
+  {
+    "key": "e0037",
+    "text": "Broker",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      310.96427536755795,
+      93.44044064224998,
+      44.810040387674235,
+      16.948001611986
+    ],
+    "components": [
+      "brokers",
+      "submission-domain",
+      "broadcast-domain"
+    ]
+  },
+  {
+    "key": "e0038",
+    "text": "(untrusted)",
+    "font_family": "VividSource-Arimo-Italic",
+    "bounds": [
+      308.8624107111245,
+      112.01418003482284,
+      48.69839340903127,
+      11.150009581733684
+    ],
+    "components": [
+      "submission-domain",
+      "broadcast-domain"
+    ]
+  },
+  {
+    "key": "e0041",
+    "text": "Clients",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      353.2825444919835,
+      28.6985105127992,
+      46.19410895587862,
+      16.948007100227183
+    ],
+    "components": [
+      "clients",
+      "submission-domain"
+    ]
+  },
+  {
+    "key": "e0042",
+    "text": "(untrusted)",
+    "font_family": "VividSource-Arimo-Italic",
+    "bounds": [
+      352.02369563467795,
+      47.27225264949265,
+      48.69839340903127,
+      11.150004093492498
+    ],
+    "components": [
+      "clients",
+      "submission-domain"
+    ]
+  }
+]

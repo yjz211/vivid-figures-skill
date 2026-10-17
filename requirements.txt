@@ -27,3 +27,6 @@ CairoSVG
 
 # HTML rendering / geometry checks with an existing Chrome executable
 playwright
+
+# Native architecture assets and editable PowerPoint export.
+-r requirements-architecture.txt

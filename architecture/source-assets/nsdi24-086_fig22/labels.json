@@ -1,0 +1,112 @@
+[
+  {
+    "key": "e0003",
+    "text": "NN-defined STF Mod",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      32.633098602294915,
+      97.05310058593753,
+      90.37272644042969,
+      43.37071990966794
+    ],
+    "components": [
+      "stf-branch"
+    ]
+  },
+  {
+    "key": "e0005",
+    "text": "NN-defined LTF Mod",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      163.30340576171872,
+      97.05310058593753,
+      90.3726806640625,
+      43.37071990966794
+    ],
+    "components": [
+      "ltf-branch"
+    ]
+  },
+  {
+    "key": "e0007",
+    "text": "NN-defined SIG Mod",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      293.9736022949218,
+      97.05297851562503,
+      90.37274169921875,
+      43.37071990966794
+    ],
+    "components": [
+      "sig-branch"
+    ]
+  },
+  {
+    "key": "e0009",
+    "text": "NN-defined DATA Mod",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      424.64379882812494,
+      97.05297851562503,
+      90.37280273437494,
+      43.37071990966794
+    ],
+    "components": [
+      "data-branch"
+    ]
+  },
+  {
+    "key": "e0011",
+    "text": "Concatenate",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      225.40490722656247,
+      179.92440032958984,
+      93.49264526367185,
+      21.770713806152344
+    ],
+    "components": [
+      "concatenate-output"
+    ]
+  },
+  {
+    "key": "e0013",
+    "text": "NN-defined Wi-Fi Mod",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      11.182999610900877,
+      190.35799407958984,
+      168.44416809082028,
+      21.770713806152344
+    ],
+    "components": []
+  },
+  {
+    "key": "e0014",
+    "text": "Input Wi-Fi symbols:[STF,LTF,SIG,DATA]",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      127.51700592041014,
+      10.807998657226591,
+      287.88037109374994,
+      21.770721435546875
+    ],
+    "components": [
+      "system-input"
+    ]
+  },
+  {
+    "key": "e0015",
+    "text": "Output Waveform",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      204.46697998046872,
+      229.11199569702148,
+      135.33422851562497,
+      21.770715713500977
+    ],
+    "components": [
+      "concatenate-output"
+    ]
+  }
+]

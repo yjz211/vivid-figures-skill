@@ -1,0 +1,5040 @@
+{
+  "svg": "C:\\Users\\hhhh\\Desktop\\MCM-ICM-AI-Lab\\workstreams\\architecture-native-guides\\package\\architecture\\source-assets\\asplos26-066_fig6\\fig.svg",
+  "print_size_pt": [
+    468.0,
+    207.87735849056602
+  ],
+  "text_count": 349,
+  "parts": 0,
+  "errors": [
+    {
+      "type": "text-outside-canvas",
+      "text": ".",
+      "box": [
+        2054.470595755226,
+        -11.59597501282814,
+        2070.7782873742312,
+        41.40402274893973
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "Torch-MLIR +",
+        "User Schedules "
+      ],
+      "overlap": [
+        172.5,
+        8.0
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "User Schedules ",
+        "and Formats"
+      ],
+      "overlap": [
+        163.5,
+        8.0
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "b) Multiple Einsum Expressions w/ ",
+        "Optional User Schedules"
+      ],
+      "overlap": [
+        362.2,
+        3.9
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "Cross-expression ",
+        "Kernel Fusion "
+      ],
+      "overlap": [
+        177.1,
+        8.0
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "Kernel Fusion ",
+        "(Section 5)"
+      ],
+      "overlap": [
+        137.3,
+        8.0
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "Lowering w/ ",
+        "Fusion Tables"
+      ],
+      "overlap": [
+        159.5,
+        8.0
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "Fusion Tables",
+        "(Section 6)"
+      ],
+      "overlap": [
+        137.3,
+        8.0
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "Dataﬂow ",
+        "Simulator"
+      ],
+      "overlap": [
+        130.7,
+        4.9
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "Evaluation",
+        "(Section 8)"
+      ],
+      "overlap": [
+        134.5,
+        8.0
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "8",
+        "ijk"
+      ],
+      "overlap": [
+        6.2,
+        28.9
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "T",
+        "nbor2"
+      ],
+      "overlap": [
+        12.7,
+        31.9
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "T",
+        "ij"
+      ],
+      "overlap": [
+        16.8,
+        24.2
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "nbor2",
+        "ij"
+      ],
+      "overlap": [
+        24.3,
+        12.9
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "ˆ",
+        "A"
+      ],
+      "overlap": [
+        22.6,
+        35.1
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "ˆ",
+        "ik"
+      ],
+      "overlap": [
+        8.3,
+        20.8
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "A",
+        "ik"
+      ],
+      "overlap": [
+        8.0,
+        28.9
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "T",
+        "(1)"
+      ],
+      "overlap": [
+        12.7,
+        26.2
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "T",
+        "kj"
+      ],
+      "overlap": [
+        16.8,
+        23.2
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "(1)",
+        "kj"
+      ],
+      "overlap": [
+        29.4,
+        6.1
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "X",
+        "(1)"
+      ],
+      "overlap": [
+        8.9,
+        25.6
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "X",
+        "iu"
+      ],
+      "overlap": [
+        11.6,
+        24.3
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "(1)",
+        "iu"
+      ],
+      "overlap": [
+        34.6,
+        7.1
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "iu",
+        "2"
+      ],
+      "overlap": [
+        6.0,
+        26.5
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "=ReLU(",
+        "T"
+      ],
+      "overlap": [
+        6.6,
+        42.8
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "T",
+        "self"
+      ],
+      "overlap": [
+        11.2,
+        31.4
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "T",
+        "iu"
+      ],
+      "overlap": [
+        16.4,
+        24.6
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "self",
+        "iu"
+      ],
+      "overlap": [
+        32.1,
+        13.1
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "self",
+        "2"
+      ],
+      "overlap": [
+        21.3,
+        4.6
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "iu",
+        "2"
+      ],
+      "overlap": [
+        6.0,
+        26.5
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "T",
+        "nbor"
+      ],
+      "overlap": [
+        11.2,
+        31.4
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "T",
+        "iu"
+      ],
+      "overlap": [
+        16.4,
+        24.6
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "nbor",
+        "iu"
+      ],
+      "overlap": [
+        32.1,
+        13.1
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "nbor",
+        "2"
+      ],
+      "overlap": [
+        21.3,
+        4.6
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "nbor",
+        ")"
+      ],
+      "overlap": [
+        6.3,
+        31.4
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "iu",
+        "2"
+      ],
+      "overlap": [
+        6.0,
+        26.5
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "8",
+        "iu"
+      ],
+      "overlap": [
+        8.3,
+        26.9
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "iu",
+        "1"
+      ],
+      "overlap": [
+        9.2,
+        18.3
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "1",
+        "u"
+      ],
+      "overlap": [
+        3.4,
+        18.3
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "u",
+        "2"
+      ],
+      "overlap": [
+        9.1,
+        18.3
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "T",
+        "nbor"
+      ],
+      "overlap": [
+        11.5,
+        25.9
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "T",
+        "iu"
+      ],
+      "overlap": [
+        14.9,
+        22.2
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "nbor",
+        "iu"
+      ],
+      "overlap": [
+        26.1,
+        7.8
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "iu",
+        "2"
+      ],
+      "overlap": [
+        9.1,
+        18.3
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "T",
+        "(0)"
+      ],
+      "overlap": [
+        11.5,
+        20.8
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "T",
+        "iu"
+      ],
+      "overlap": [
+        14.9,
+        22.0
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "iu",
+        "1"
+      ],
+      "overlap": [
+        9.2,
+        18.3
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "⌦",
+        "(2)"
+      ],
+      "overlap": [
+        15.1,
+        20.8
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "⌦",
+        "u"
+      ],
+      "overlap": [
+        15.1,
+        26.9
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "(2)",
+        "u"
+      ],
+      "overlap": [
+        21.8,
+        7.4
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "(2)",
+        "u"
+      ],
+      "overlap": [
+        9.5,
+        7.4
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "u",
+        "1"
+      ],
+      "overlap": [
+        9.2,
+        18.3
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "1",
+        "u"
+      ],
+      "overlap": [
+        3.4,
+        18.3
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "u",
+        "2"
+      ],
+      "overlap": [
+        9.2,
+        18.3
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "T",
+        "(0)"
+      ],
+      "overlap": [
+        14.1,
+        25.7
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "T",
+        "iu"
+      ],
+      "overlap": [
+        19.1,
+        20.2
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "(0)",
+        "iu"
+      ],
+      "overlap": [
+        32.8,
+        5.3
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "iu",
+        "1"
+      ],
+      "overlap": [
+        8.0,
+        21.8
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "ˆ",
+        "A"
+      ],
+      "overlap": [
+        26.0,
+        33.6
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "ˆ",
+        "iu"
+      ],
+      "overlap": [
+        9.2,
+        18.2
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "A",
+        "iu"
+      ],
+      "overlap": [
+        8.7,
+        25.3
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "iu",
+        "0"
+      ],
+      "overlap": [
+        8.0,
+        21.8
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "X",
+        "u"
+      ],
+      "overlap": [
+        10.5,
+        26.1
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "u",
+        "0"
+      ],
+      "overlap": [
+        8.0,
+        21.8
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "0",
+        "u"
+      ],
+      "overlap": [
+        5.8,
+        21.8
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "u",
+        "1"
+      ],
+      "overlap": [
+        8.0,
+        21.8
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        ".",
+        "."
+      ],
+      "overlap": [
+        16.3,
+        38.7
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        ".",
+        "."
+      ],
+      "overlap": [
+        16.3,
+        24.3
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        ".",
+        "nbor2=torch.nn.Linear(...)(T1)"
+      ],
+      "overlap": [
+        16.3,
+        30.8
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        ".",
+        "."
+      ],
+      "overlap": [
+        16.3,
+        38.7
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        ".",
+        "nbor2=torch.nn.Linear(...)(T1)"
+      ],
+      "overlap": [
+        16.3,
+        16.5
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "Columns (o",
+        "ﬀ"
+      ],
+      "overlap": [
+        9.0,
+        40.8
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "Columns (o",
+        "encode fused tensors"
+      ],
+      "overlap": [
+        146.5,
+        8.0
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "ﬀ",
+        "-white) "
+      ],
+      "overlap": [
+        8.9,
+        40.8
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "ﬀ",
+        "encode fused tensors"
+      ],
+      "overlap": [
+        24.5,
+        8.0
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "-white) ",
+        "encode fused tensors"
+      ],
+      "overlap": [
+        93.6,
+        8.0
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "Rows (light pink) encode ",
+        "fused iteration order"
+      ],
+      "overlap": [
+        254.4,
+        8.0
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "Rows (light pink) encode ",
+        "val"
+      ],
+      "overlap": [
+        4.6,
+        10.3
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "Cells (cool gray) encode IR nodes ",
+        "and named pointers to streams"
+      ],
+      "overlap": [
+        387.6,
+        8.0
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "A=torch.tensor(...,CSR)",
+        "X=torch.tensor(...)"
+      ],
+      "overlap": [
+        315.9,
+        7.3
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "X=torch.tensor(...)",
+        "T0=torch.matmul(A,X)"
+      ],
+      "overlap": [
+        315.9,
+        7.3
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "T0=torch.matmul(A,X)",
+        "T"
+      ],
+      "overlap": [
+        28.1,
+        7.3
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "T0=torch.matmul(A,X)",
+        "nbor=torch.nn.Linear(...)(T0)"
+      ],
+      "overlap": [
+        320.1,
+        7.3
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "T",
+        "T"
+      ],
+      "overlap": [
+        28.1,
+        7.3
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "nbor=torch.nn.Linear(...)(T0)",
+        "self=torch.nn.Linear(...)(X)"
+      ],
+      "overlap": [
+        449.1,
+        7.3
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "T",
+        "X"
+      ],
+      "overlap": [
+        28.1,
+        7.3
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "self=torch.nn.Linear(...)(X)",
+        "1=torch.relu(T"
+      ],
+      "overlap": [
+        250.0,
+        7.3
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "self=torch.nn.Linear(...)(X)",
+        "self+T"
+      ],
+      "overlap": [
+        102.1,
+        7.3
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "self=torch.nn.Linear(...)(X)",
+        "nbor)"
+      ],
+      "overlap": [
+        79.3,
+        7.3
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "X",
+        "T1=torch.matmul(A,X"
+      ],
+      "overlap": [
+        28.1,
+        7.3
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "1=torch.relu(T",
+        "T1=torch.matmul(A,X"
+      ],
+      "overlap": [
+        250.0,
+        7.3
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "self+T",
+        "T1=torch.matmul(A,X"
+      ],
+      "overlap": [
+        66.0,
+        7.3
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "self+T",
+        "1)"
+      ],
+      "overlap": [
+        34.9,
+        7.3
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "T1=torch.matmul(A,X",
+        "T"
+      ],
+      "overlap": [
+        28.1,
+        7.3
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "T1=torch.matmul(A,X",
+        "nbor2=torch.nn.Linear(...)(T1)"
+      ],
+      "overlap": [
+        313.3,
+        7.3
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "1)",
+        "nbor2=torch.nn.Linear(...)(T1)"
+      ],
+      "overlap": [
+        34.9,
+        7.3
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        ".",
+        "."
+      ],
+      "overlap": [
+        16.3,
+        38.7
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        ".",
+        "."
+      ],
+      "overlap": [
+        16.3,
+        24.3
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        ".",
+        "."
+      ],
+      "overlap": [
+        16.3,
+        38.7
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "Optional schedule in red",
+        "Fuse"
+      ],
+      "overlap": [
+        60.9,
+        6.9
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "Green indicates sparse tensor",
+        "X"
+      ],
+      "overlap": [
+        4.6,
+        8.5
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        ".",
+        "."
+      ],
+      "overlap": [
+        16.3,
+        38.7
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        ".",
+        "."
+      ],
+      "overlap": [
+        16.3,
+        24.3
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        ".",
+        "ˆ"
+      ],
+      "overlap": [
+        8.1,
+        11.9
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        ".",
+        "A"
+      ],
+      "overlap": [
+        16.3,
+        20.5
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        ".",
+        "."
+      ],
+      "overlap": [
+        16.3,
+        38.7
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        ".",
+        "A"
+      ],
+      "overlap": [
+        16.3,
+        6.1
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "T",
+        "(0)"
+      ],
+      "overlap": [
+        16.0,
+        30.3
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "T",
+        "ij"
+      ],
+      "overlap": [
+        20.9,
+        26.5
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "(0)",
+        "ij"
+      ],
+      "overlap": [
+        25.9,
+        8.8
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "ˆ",
+        "A"
+      ],
+      "overlap": [
+        19.8,
+        39.3
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "ˆ",
+        "ik"
+      ],
+      "overlap": [
+        7.8,
+        22.2
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "A",
+        "ik"
+      ],
+      "overlap": [
+        6.7,
+        30.8
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "ik",
+        "X"
+      ],
+      "overlap": [
+        4.0,
+        30.8
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "X",
+        "kj"
+      ],
+      "overlap": [
+        12.3,
+        30.8
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "8",
+        "ikj"
+      ],
+      "overlap": [
+        9.5,
+        30.8
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "T",
+        "nbor"
+      ],
+      "overlap": [
+        16.0,
+        33.9
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "T",
+        "ij"
+      ],
+      "overlap": [
+        20.9,
+        27.5
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "nbor",
+        "ij"
+      ],
+      "overlap": [
+        25.9,
+        13.5
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "T",
+        "(0)"
+      ],
+      "overlap": [
+        16.0,
+        30.3
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "T",
+        "ik"
+      ],
+      "overlap": [
+        20.9,
+        25.7
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "(0)",
+        "ik"
+      ],
+      "overlap": [
+        30.1,
+        8.0
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "⌦",
+        "(2)"
+      ],
+      "overlap": [
+        24.4,
+        30.3
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "⌦",
+        "kj"
+      ],
+      "overlap": [
+        24.4,
+        25.7
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "(2)",
+        "kj"
+      ],
+      "overlap": [
+        36.5,
+        8.0
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "T",
+        "self"
+      ],
+      "overlap": [
+        16.0,
+        31.6
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "T",
+        "ij"
+      ],
+      "overlap": [
+        20.9,
+        26.5
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "self",
+        "ij"
+      ],
+      "overlap": [
+        25.9,
+        10.1
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "X",
+        "ik"
+      ],
+      "overlap": [
+        12.3,
+        30.8
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "⌦",
+        "(1)"
+      ],
+      "overlap": [
+        24.4,
+        30.2
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "⌦",
+        "kj"
+      ],
+      "overlap": [
+        24.4,
+        25.7
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "(1)",
+        "kj"
+      ],
+      "overlap": [
+        36.5,
+        8.0
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "X",
+        "(1)"
+      ],
+      "overlap": [
+        9.5,
+        30.3
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "X",
+        "ij"
+      ],
+      "overlap": [
+        12.3,
+        26.5
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "(1)",
+        "ij"
+      ],
+      "overlap": [
+        28.0,
+        8.8
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "=ReLU(",
+        "T"
+      ],
+      "overlap": [
+        7.0,
+        47.9
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "T",
+        "self"
+      ],
+      "overlap": [
+        16.0,
+        31.6
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "T",
+        "ij"
+      ],
+      "overlap": [
+        20.9,
+        26.5
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "self",
+        "ij"
+      ],
+      "overlap": [
+        25.9,
+        10.1
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "T",
+        "nbor"
+      ],
+      "overlap": [
+        16.0,
+        33.9
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "T",
+        "ij"
+      ],
+      "overlap": [
+        20.9,
+        27.5
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "nbor",
+        "ij"
+      ],
+      "overlap": [
+        25.9,
+        13.5
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "nbor",
+        ")"
+      ],
+      "overlap": [
+        9.3,
+        33.9
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "8",
+        "ikj"
+      ],
+      "overlap": [
+        9.5,
+        30.8
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "T",
+        "(1)"
+      ],
+      "overlap": [
+        16.0,
+        30.3
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "T",
+        "ij"
+      ],
+      "overlap": [
+        20.9,
+        26.5
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "(1)",
+        "ij"
+      ],
+      "overlap": [
+        25.9,
+        8.8
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "X",
+        "(1)"
+      ],
+      "overlap": [
+        9.5,
+        30.3
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "X",
+        "ik"
+      ],
+      "overlap": [
+        12.3,
+        25.7
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "(1)",
+        "ik"
+      ],
+      "overlap": [
+        32.2,
+        8.0
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "⌦",
+        "(4)"
+      ],
+      "overlap": [
+        24.4,
+        30.3
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "⌦",
+        "kj"
+      ],
+      "overlap": [
+        24.4,
+        25.7
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "(4)",
+        "kj"
+      ],
+      "overlap": [
+        36.5,
+        8.0
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "8",
+        "ijk"
+      ],
+      "overlap": [
+        9.5,
+        30.8
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "8",
+        "{"
+      ],
+      "overlap": [
+        5.3,
+        47.5
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "T",
+        "nbor"
+      ],
+      "overlap": [
+        16.0,
+        33.9
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "T",
+        "ij"
+      ],
+      "overlap": [
+        20.9,
+        27.5
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "nbor",
+        "2"
+      ],
+      "overlap": [
+        11.1,
+        35.9
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "nbor",
+        "ij"
+      ],
+      "overlap": [
+        25.9,
+        13.5
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "ˆ",
+        "A"
+      ],
+      "overlap": [
+        19.8,
+        39.3
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "ˆ",
+        "ik"
+      ],
+      "overlap": [
+        7.8,
+        22.2
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "A",
+        "ik"
+      ],
+      "overlap": [
+        6.7,
+        30.8
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "T",
+        "(1)"
+      ],
+      "overlap": [
+        16.0,
+        30.3
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "T",
+        "kj"
+      ],
+      "overlap": [
+        20.9,
+        25.7
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "(1)",
+        "kj"
+      ],
+      "overlap": [
+        31.5,
+        8.0
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "T",
+        "self"
+      ],
+      "overlap": [
+        12.4,
+        33.7
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "T",
+        "iu"
+      ],
+      "overlap": [
+        17.1,
+        26.4
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "self",
+        "iu"
+      ],
+      "overlap": [
+        30.4,
+        15.3
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "iu",
+        "2"
+      ],
+      "overlap": [
+        7.0,
+        24.0
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "X",
+        "iu"
+      ],
+      "overlap": [
+        9.0,
+        31.9
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "iu",
+        "3"
+      ],
+      "overlap": [
+        7.0,
+        24.0
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "⌦",
+        "(1)"
+      ],
+      "overlap": [
+        20.5,
+        28.0
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "⌦",
+        "u"
+      ],
+      "overlap": [
+        20.5,
+        31.7
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "⌦",
+        "3"
+      ],
+      "overlap": [
+        3.0,
+        18.9
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "(1)",
+        "u"
+      ],
+      "overlap": [
+        24.5,
+        14.8
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "(1)",
+        "u"
+      ],
+      "overlap": [
+        9.3,
+        14.8
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "u",
+        "3"
+      ],
+      "overlap": [
+        7.0,
+        24.0
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "3",
+        "u"
+      ],
+      "overlap": [
+        4.9,
+        24.0
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "u",
+        "2"
+      ],
+      "overlap": [
+        6.9,
+        24.0
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "8",
+        "iu"
+      ],
+      "overlap": [
+        9.7,
+        24.7
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "iu",
+        "2"
+      ],
+      "overlap": [
+        6.5,
+        17.0
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "2",
+        "j"
+      ],
+      "overlap": [
+        8.1,
+        17.0
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "T",
+        "(1)"
+      ],
+      "overlap": [
+        9.4,
+        19.6
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "T",
+        "ij"
+      ],
+      "overlap": [
+        13.0,
+        20.5
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "X",
+        "(1)"
+      ],
+      "overlap": [
+        4.8,
+        19.6
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "X",
+        "iu"
+      ],
+      "overlap": [
+        6.7,
+        20.5
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "iu",
+        "2"
+      ],
+      "overlap": [
+        6.5,
+        17.0
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "⌦",
+        "(4)"
+      ],
+      "overlap": [
+        17.4,
+        19.6
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "⌦",
+        "u"
+      ],
+      "overlap": [
+        17.4,
+        20.5
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "⌦",
+        "2"
+      ],
+      "overlap": [
+        3.8,
+        12.7
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "u",
+        "2"
+      ],
+      "overlap": [
+        6.5,
+        17.0
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "2",
+        "j"
+      ],
+      "overlap": [
+        8.1,
+        17.0
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "ˆ",
+        "A"
+      ],
+      "overlap": [
+        21.3,
+        33.8
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "T",
+        "(0)"
+      ],
+      "overlap": [
+        12.8,
+        24.5
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "⌦",
+        "(2)"
+      ],
+      "overlap": [
+        20.9,
+        24.5
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "T",
+        "nbor"
+      ],
+      "overlap": [
+        12.8,
+        24.5
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "T",
+        "nbor"
+      ],
+      "overlap": [
+        12.8,
+        24.5
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "nbor",
+        "2"
+      ],
+      "overlap": [
+        9.6,
+        24.5
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "i",
+        "..."
+      ],
+      "overlap": [
+        16.3,
+        7.8
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "LS",
+        "..."
+      ],
+      "overlap": [
+        38.6,
+        7.8
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "Rep",
+        "..."
+      ],
+      "overlap": [
+        40.7,
+        7.8
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "h",
+        "ˆ"
+      ],
+      "overlap": [
+        6.5,
+        33.8
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "h",
+        "A"
+      ],
+      "overlap": [
+        13.8,
+        40.8
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "h",
+        "..."
+      ],
+      "overlap": [
+        17.2,
+        7.8
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "ˆ",
+        "A"
+      ],
+      "overlap": [
+        21.3,
+        33.8
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "ˆ",
+        "i"
+      ],
+      "overlap": [
+        11.1,
+        17.5
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "A",
+        "i"
+      ],
+      "overlap": [
+        8.0,
+        24.4
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "A",
+        "..."
+      ],
+      "overlap": [
+        28.5,
+        7.8
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "i",
+        "i"
+      ],
+      "overlap": [
+        7.2,
+        24.4
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "i",
+        "..."
+      ],
+      "overlap": [
+        16.3,
+        7.9
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "i",
+        "..."
+      ],
+      "overlap": [
+        7.5,
+        7.8
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "Rep",
+        "..."
+      ],
+      "overlap": [
+        40.7,
+        7.8
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "h",
+        "T"
+      ],
+      "overlap": [
+        9.7,
+        40.8
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "h",
+        "..."
+      ],
+      "overlap": [
+        19.5,
+        7.8
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "T",
+        "i"
+      ],
+      "overlap": [
+        16.3,
+        24.4
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "T",
+        "i"
+      ],
+      "overlap": [
+        7.4,
+        40.8
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "T",
+        "..."
+      ],
+      "overlap": [
+        28.5,
+        7.8
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "i",
+        "i"
+      ],
+      "overlap": [
+        7.2,
+        24.4
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "i",
+        "..."
+      ],
+      "overlap": [
+        16.3,
+        7.9
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "i",
+        "..."
+      ],
+      "overlap": [
+        9.8,
+        7.8
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "...",
+        "..."
+      ],
+      "overlap": [
+        40.7,
+        7.8
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "...",
+        "..."
+      ],
+      "overlap": [
+        40.7,
+        7.8
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "...",
+        "(0)"
+      ],
+      "overlap": [
+        27.2,
+        4.3
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "u",
+        "0"
+      ],
+      "overlap": [
+        8.8,
+        24.4
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "u",
+        "u"
+      ],
+      "overlap": [
+        24.5,
+        7.6
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "0",
+        "u"
+      ],
+      "overlap": [
+        8.8,
+        7.6
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "Intersect",
+        "Rep"
+      ],
+      "overlap": [
+        56.9,
+        7.6
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "Intersect",
+        "LS"
+      ],
+      "overlap": [
+        41.6,
+        7.6
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "h",
+        "T"
+      ],
+      "overlap": [
+        9.7,
+        40.8
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "h",
+        "Intersect"
+      ],
+      "overlap": [
+        24.5,
+        7.6
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "T",
+        "(0)"
+      ],
+      "overlap": [
+        12.8,
+        22.4
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "T",
+        "i"
+      ],
+      "overlap": [
+        16.3,
+        20.9
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "T",
+        "Intersect"
+      ],
+      "overlap": [
+        28.5,
+        7.6
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "(0)",
+        "i"
+      ],
+      "overlap": [
+        6.4,
+        22.4
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "i",
+        "Intersect"
+      ],
+      "overlap": [
+        16.3,
+        11.2
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "i",
+        "Intersect"
+      ],
+      "overlap": [
+        20.4,
+        7.6
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "LS",
+        "Intersect"
+      ],
+      "overlap": [
+        41.6,
+        7.6
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "h",
+        "T"
+      ],
+      "overlap": [
+        9.7,
+        40.8
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "h",
+        "h"
+      ],
+      "overlap": [
+        24.5,
+        7.6
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "h",
+        "T"
+      ],
+      "overlap": [
+        9.7,
+        7.6
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "T",
+        "nbor"
+      ],
+      "overlap": [
+        12.8,
+        24.5
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "T",
+        "i"
+      ],
+      "overlap": [
+        16.3,
+        21.4
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "T",
+        "h"
+      ],
+      "overlap": [
+        9.7,
+        7.6
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "T",
+        "T"
+      ],
+      "overlap": [
+        28.5,
+        7.6
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "T",
+        "nbor"
+      ],
+      "overlap": [
+        12.8,
+        5.3
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "nbor",
+        "i"
+      ],
+      "overlap": [
+        12.5,
+        7.4
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "nbor",
+        "i"
+      ],
+      "overlap": [
+        8.2,
+        24.5
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "i",
+        "T"
+      ],
+      "overlap": [
+        16.3,
+        10.7
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "i",
+        "nbor"
+      ],
+      "overlap": [
+        12.5,
+        8.4
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "i",
+        "nbor"
+      ],
+      "overlap": [
+        8.2,
+        5.3
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "i",
+        "i"
+      ],
+      "overlap": [
+        20.4,
+        7.6
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "...",
+        "..."
+      ],
+      "overlap": [
+        40.7,
+        7.6
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "...",
+        "..."
+      ],
+      "overlap": [
+        40.7,
+        7.6
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "u",
+        "1"
+      ],
+      "overlap": [
+        8.8,
+        24.4
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "Rep",
+        "ˆ"
+      ],
+      "overlap": [
+        24.5,
+        9.2
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "Intersect",
+        "(0)"
+      ],
+      "overlap": [
+        35.8,
+        4.3
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "h",
+        "T"
+      ],
+      "overlap": [
+        9.7,
+        40.8
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "T",
+        "nbor"
+      ],
+      "overlap": [
+        12.8,
+        24.5
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "T",
+        "l"
+      ],
+      "overlap": [
+        16.3,
+        20.8
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "nbor",
+        "l"
+      ],
+      "overlap": [
+        12.5,
+        6.7
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "nbor",
+        "i"
+      ],
+      "overlap": [
+        8.2,
+        24.5
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "l",
+        "Reduce"
+      ],
+      "overlap": [
+        16.3,
+        5.9
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "u",
+        "2"
+      ],
+      "overlap": [
+        8.8,
+        24.4
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "u",
+        "..."
+      ],
+      "overlap": [
+        24.5,
+        7.8
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "2",
+        "..."
+      ],
+      "overlap": [
+        20.4,
+        7.9
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "h",
+        "ˆ"
+      ],
+      "overlap": [
+        6.5,
+        33.8
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "h",
+        "A"
+      ],
+      "overlap": [
+        13.8,
+        40.8
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "h",
+        "..."
+      ],
+      "overlap": [
+        9.3,
+        7.8
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "ˆ",
+        "A"
+      ],
+      "overlap": [
+        21.3,
+        33.8
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "ˆ",
+        "u"
+      ],
+      "overlap": [
+        11.1,
+        17.5
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "A",
+        "u"
+      ],
+      "overlap": [
+        8.0,
+        24.4
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "A",
+        "..."
+      ],
+      "overlap": [
+        24.0,
+        7.8
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "u",
+        "1"
+      ],
+      "overlap": [
+        11.5,
+        17.6
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "u",
+        "..."
+      ],
+      "overlap": [
+        24.5,
+        7.9
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "1",
+        "i"
+      ],
+      "overlap": [
+        4.2,
+        17.6
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "1",
+        "..."
+      ],
+      "overlap": [
+        11.7,
+        10.6
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "h",
+        "X"
+      ],
+      "overlap": [
+        13.8,
+        40.8
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "h",
+        "..."
+      ],
+      "overlap": [
+        8.2,
+        7.8
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "X",
+        "u"
+      ],
+      "overlap": [
+        9.9,
+        24.4
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "X",
+        "..."
+      ],
+      "overlap": [
+        27.0,
+        7.8
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "u",
+        "1"
+      ],
+      "overlap": [
+        11.5,
+        17.6
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "u",
+        "..."
+      ],
+      "overlap": [
+        23.6,
+        7.9
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "1",
+        "i"
+      ],
+      "overlap": [
+        4.2,
+        17.6
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "1",
+        "..."
+      ],
+      "overlap": [
+        10.6,
+        10.6
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "h",
+        "T"
+      ],
+      "overlap": [
+        9.7,
+        40.8
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "h",
+        "..."
+      ],
+      "overlap": [
+        7.4,
+        7.8
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "T",
+        "(0)"
+      ],
+      "overlap": [
+        12.8,
+        22.4
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "T",
+        "m"
+      ],
+      "overlap": [
+        16.6,
+        24.5
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "T",
+        "..."
+      ],
+      "overlap": [
+        26.3,
+        7.8
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "(0)",
+        "m"
+      ],
+      "overlap": [
+        20.6,
+        7.0
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "(0)",
+        "i"
+      ],
+      "overlap": [
+        6.4,
+        22.4
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "m",
+        "..."
+      ],
+      "overlap": [
+        24.5,
+        7.0
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "LS",
+        "..."
+      ],
+      "overlap": [
+        38.6,
+        7.8
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "Reduce",
+        "..."
+      ],
+      "overlap": [
+        40.7,
+        7.8
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "...",
+        "..."
+      ],
+      "overlap": [
+        40.7,
+        7.8
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "...",
+        "..."
+      ],
+      "overlap": [
+        40.7,
+        7.8
+      ]
+    }
+  ],
+  "warnings": [
+    {
+      "type": "small-print-text",
+      "text": "Torch-MLIR +",
+      "pt": 4.97
+    },
+    {
+      "type": "small-print-text",
+      "text": "User Schedules ",
+      "pt": 4.97
+    },
+    {
+      "type": "small-print-text",
+      "text": "and Formats",
+      "pt": 4.97
+    },
+    {
+      "type": "small-print-text",
+      "text": "a) PyTorch Model",
+      "pt": 5.52
+    },
+    {
+      "type": "small-print-text",
+      "text": "b) Multiple Einsum Expressions w/ ",
+      "pt": 5.52
+    },
+    {
+      "type": "small-print-text",
+      "text": "Optional User Schedules",
+      "pt": 5.52
+    },
+    {
+      "type": "small-print-text",
+      "text": "Cross-expression ",
+      "pt": 4.97
+    },
+    {
+      "type": "small-print-text",
+      "text": "Kernel Fusion ",
+      "pt": 4.97
+    },
+    {
+      "type": "small-print-text",
+      "text": "(Section 5)",
+      "pt": 4.97
+    },
+    {
+      "type": "small-print-text",
+      "text": "c) Fused Einsum Expressions + Partial Order Graph (POG)",
+      "pt": 5.52
+    },
+    {
+      "type": "small-print-text",
+      "text": "Lowering w/ ",
+      "pt": 4.97
+    },
+    {
+      "type": "small-print-text",
+      "text": "Fusion Tables",
+      "pt": 4.97
+    },
+    {
+      "type": "small-print-text",
+      "text": "(Section 6)",
+      "pt": 4.97
+    },
+    {
+      "type": "small-print-text",
+      "text": "Codegen",
+      "pt": 4.97
+    },
+    {
+      "type": "small-print-text",
+      "text": "e) SAMML Fused Dataﬂow Graph",
+      "pt": 5.52
+    },
+    {
+      "type": "small-print-text",
+      "text": "d) Fusion Table",
+      "pt": 5.52
+    },
+    {
+      "type": "small-print-text",
+      "text": "Dataﬂow ",
+      "pt": 5.52
+    },
+    {
+      "type": "small-print-text",
+      "text": "Simulator",
+      "pt": 5.52
+    },
+    {
+      "type": "small-print-text",
+      "text": "FPGA",
+      "pt": 5.52
+    },
+    {
+      "type": "small-print-text",
+      "text": "Heuristic",
+      "pt": 5.52
+    },
+    {
+      "type": "small-print-text",
+      "text": "Evaluation",
+      "pt": 4.97
+    },
+    {
+      "type": "small-print-text",
+      "text": "(Section 8)",
+      "pt": 4.97
+    },
+    {
+      "type": "small-print-text",
+      "text": "<latexit sha1_base64=\"td9tmNoedf/3xHV3U2aQ+cOkH84=\">AAAG1nicbVRbb9s2FFaTze28S5vtcS/cnKAp4HiW26QJNgFN7KR9WLBuTZoAlhdQFGWxpkiBpJK4BPc27HX/btiPGbAjRbkoCZ/Iw+/cz3einDNt+v1/HywsfvJp6+Gjz9qff/HlV4+fLH39XstCEXpIJJfqOMKacibooWGG0+NcUZxFnB5Fs2H5f3RKlWZSHJh5TicZngqWMIINiE6WFvIwolMmrGGzjzkjplDUjduoPkLGFMUQBhaEBn5vk2QIixhVt+4VTJ5iXkJ/6Gkz5zSwscJnXUQ5Z7mmXYQ5m4qAUGGo6iKTMjLrohITRByT2Xcb/S5iQlCFNM2Dtee56aKMCZYVGUopm6YmKB26a49KFiJuuCRMEU4vzHZRwjgP9gtD46FUmN8079+0rtlHGrzIMtCQwgRhIqUR0tBS7tqTyl+oKdRVTE1qwySS52DE2X5vkBuHVlBME1xwg5hGEHf7QiOfJhk2KShmmChpQy7PqPpNnjm7tuHaK6iuuiYyh3qf65QlJvDXe+tQVjSvnySbXCW8gg5kDmmfXUnCMv3xZeknaFX4z5BtZICWwzKMakwgcHuEVbYD9aSuxEFd+IllH2bOoYPfbWjoubEiksoNXCl3KEDhle5QSv5a4fkOL0B9OUyxsdslbuaWK/1V/xk8Z+gDvH9s12G2QyrixnCdPOn0e/3qoLsXv750vPq8PVla3A9jSYoMxodwrPXY7+dmYrEyDDru2mEBHYExwlM6hqvAGdUTWwUODQJJDM1VVYNRJb2pYXGm9TyLAFl17PZfKbzvb1yYZHNimchhyAS5cJQUHBmJSqIBaxQlhs/hAiPAIFZEUqwwAQ40LcWnwJI66vOLsNuNMIDtvJFmVVB3bxpNGI4KjtV5UxpJOYMf3ZReer4v/4awlBgYhlq/DIWzSGE1tzrFOdW9KZUZNYqRLsqlZuWmYWJ6F44VzLPuARa7csJ/Wlsrl4NG0ENYYBo9fWco5iZ9Wi0daVKgcKWEDJTsjj2COQEv99IVyNoOBT0jMsvAmG0Qw40HE3s96h2/HHBYeznH82q9oM5g2ZVdAbbDpq2Q9p1MzGtFqShp4eybg/2fnR2ORutDoHgD+UuSHKXM0EvQ3s7eYHd0C9QkWG1td3d7dNvaDRbX5rZHg+HeLdT18ruEjba2Xm5ulQT0b9Pt7uX9oOdv9DZ+HXRe7dRUfOR9633vrXq+99J75b3x3nqHHln4Z+G/xdbiw9Zx64/Wn62/LqALD2qdb7zGaf39P7C/V6A=</latexit>",
+      "pt": 0.0
+    },
+    {
+      "type": "small-print-text",
+      "text": "8",
+      "pt": 1.47
+    },
+    {
+      "type": "small-print-text",
+      "text": "ijk",
+      "pt": 1.1
+    },
+    {
+      "type": "small-print-text",
+      "text": "T",
+      "pt": 1.47
+    },
+    {
+      "type": "small-print-text",
+      "text": "nbor2",
+      "pt": 1.1
+    },
+    {
+      "type": "small-print-text",
+      "text": "ij",
+      "pt": 1.1
+    },
+    {
+      "type": "small-print-text",
+      "text": "=",
+      "pt": 1.47
+    },
+    {
+      "type": "small-print-text",
+      "text": "ˆ",
+      "pt": 1.47
+    },
+    {
+      "type": "small-print-text",
+      "text": "A",
+      "pt": 1.47
+    },
+    {
+      "type": "small-print-text",
+      "text": "ik",
+      "pt": 1.1
+    },
+    {
+      "type": "small-print-text",
+      "text": "T",
+      "pt": 1.47
+    },
+    {
+      "type": "small-print-text",
+      "text": "(1)",
+      "pt": 1.1
+    },
+    {
+      "type": "small-print-text",
+      "text": "kj",
+      "pt": 1.1
+    },
+    {
+      "type": "small-print-text",
+      "text": "<latexit sha1_base64=\"dG55zv33KjGZitCc5tN0G0yF0R0=\">AAAGaHicbVTNbttGEGaURk3VP7s5FEUv29hFbFRWJaV1bLQCEkt2cojRNLFjA6IiLJdDaaHlLrG7tKws+Ay9to/WV+hTdEhJlmmbp+HMN9/Mzl+QCG5ss/nvvcr9Tx5UP334We3zL7786uu19W/eG5VqBqdMCaXPA2pAcAmnllsB54kGGgcCzoJJN7efXYA2XMkTO0tgENOR5BFn1KJquF6p+AGMuHSWTz4mnNlUQ9avkcUnVQgkxDSoZNBpNfZYTKgMSSHVr2Dqgooc+nPD2JmAjgs1ndYJCMETA3VCBR/JDgNpQdeJHXM2qZMc0wkEZZMfdpt1wqUETQwknZ2nia2TmEsepzEZAx+NbScPmK0iapXKsBSScc0EzGnrJOJCdI5TC2FXaSqu07eusxv+ETq/xDF6KGk7fqSUlcpCrs9qgyKebwDrKkd27PwoUJdIkjlkyciPJISIpsISbghmzWtzh2QUxdSO0S+mTCvnCzUF/VZNM7ezm+UYP8+9v6zbgGzJ9jZxpfBk8/yD22ptZ0PHSTpsZ6RD/JxWx+4tvD7Ntk4+ON/CpXXY/yhb4X4iVxYZKL2ybG9mv9V8kGGp3cO1jWajWXzkttBaCBve4nszXL9/7IeKpTE2lAlqTL/VTOzAUW059iCr+SnWCBtLR9BHUdIYzMAV04pFQ02I5dZFyUmhve7haGzMLA4QWRTxpi1X3mXrpzbaGzguE2y7ZPNAUSqIVSQffZxjDcyKGQrYFY65EjammjKcyjJTeIFzu8j6cp52rZQG7p8oPbMoaHbnM8owGqSC6suyNlBqghZT1i4j3/X+kjLXWKXEwj9PRfBAUz1zZkwTMI0RqBis5qxOEmV4vvtcjm7DqdZqahqIpRnB8f59ZydfV0Owh3hSDHnyzgIVdvykOAPKjnGpCidisWS3+BgVDKPctUA4MWiRMGUqjpHMFbNdPBkhWb89cP7yz220Mrfp4yFKBJ0VC0822ptZ3hXcQLx9BdK9U5F9qQHkS01nmXt1cvw6c91e79cubl0J+UcUnY25hSXo6OCofdi7AepiTXOmA5FeAbuHhy96N9nOqI4P8E6t6F702t2jG6jVOVrCevv7z/b28wVs3Vy328L7dqO129j9s73x/GCxig+9773H3pbX8p55z71X3hvv1GMVXvmr8nflnwf/Vdeq31a/m0Mr9xY+j7zSV338PySKMjA=</latexit>",
+      "pt": 0.0
+    },
+    {
+      "type": "small-print-text",
+      "text": "X",
+      "pt": 1.47
+    },
+    {
+      "type": "small-print-text",
+      "text": "(1)",
+      "pt": 1.1
+    },
+    {
+      "type": "small-print-text",
+      "text": "iu",
+      "pt": 1.1
+    },
+    {
+      "type": "small-print-text",
+      "text": "2",
+      "pt": 0.92
+    },
+    {
+      "type": "small-print-text",
+      "text": "=ReLU(",
+      "pt": 1.47
+    },
+    {
+      "type": "small-print-text",
+      "text": "T",
+      "pt": 1.47
+    },
+    {
+      "type": "small-print-text",
+      "text": "self",
+      "pt": 1.1
+    },
+    {
+      "type": "small-print-text",
+      "text": "iu",
+      "pt": 1.1
+    },
+    {
+      "type": "small-print-text",
+      "text": "2",
+      "pt": 0.92
+    },
+    {
+      "type": "small-print-text",
+      "text": "+",
+      "pt": 1.47
+    },
+    {
+      "type": "small-print-text",
+      "text": "T",
+      "pt": 1.47
+    },
+    {
+      "type": "small-print-text",
+      "text": "nbor",
+      "pt": 1.1
+    },
+    {
+      "type": "small-print-text",
+      "text": "iu",
+      "pt": 1.1
+    },
+    {
+      "type": "small-print-text",
+      "text": "2",
+      "pt": 0.92
+    },
+    {
+      "type": "small-print-text",
+      "text": ")",
+      "pt": 1.47
+    },
+    {
+      "type": "small-print-text",
+      "text": "<latexit sha1_base64=\"DOTp90yM0uUp1FQQHnbEZxywjE0=\">AAAGp3icbVTbbhs3EN0orZqqtzh97Atbu4gNyKqkpI6NVkBsyU4eajhtfAO0qsDlzkqEuOSC5NpWiP2ffk1f2/5Nhys59trefSFmDs8MZ+ZMlAlubLv936Pa408+rX/25PPGF19+9fU3T1eenRqVawYnTAmlzyNqQHAJJ5ZbAeeZBppGAs6iWd/7zy5AG67ksZ1nMErpRPKEM2rRNF6p7YYRTLh0ls8+ZJzZXEMxbJDlJ1UMJMY0qGTQ67S2WUqojEl5an6EqQsqPPSnlrFzAT0Xa3rZJCAEzww0CRV8InsMpAXdJHbK2axJPKYXCcpm32+1m4RLCZoYyHqbLzLbJCmXPM1TMgU+mdqeD1jcRNQql3ElJOOaCVjQNknChegd5hbivtJU3Kbv3GY3/AP0XqYp3lDS9sJEKSuVBW8vGqMyXmgA6yondurCJFJXSFK4dqub2YL8SGJIaC4s4YZg3o3FjWySpNRO8WJKmVYuFOoS9B/qsnCbW4XHLHD+BcPr6o3Iuny5QVwlCbIWeqay0xjbnVGd7mFJoPA4fJoYO56PO/m4WxTk+E8XWriyTkZKFwW6iHeQnvestzeWlk5Bwo+MfaXEG03neyJH0rXwKIUJRXTXoxFbMqzh/4tPuxGCjCvTMn662m61y4/cP3SWh9Vg+b0brzw+DGPF8hTngQlqzLDTzuzIUW05trBohDmWGOeCTmCIR0lTMCNXJowVR0uM3dJlx0hpvX3D0dSYeRohsmzBXZ83PuQb5jbZHjkuM5wayRaBklwQq4hXDspAA7NijgfsKcdcCZtSTRkOdZUpvsCxX2Z9tUi7UUkD5SsqzywLWjz4jCqMRrmg+qpqjZSaocdUrdeRH3p/xegtFodged+nInikqZ47M6UZmNYEVApWc9YkmTLcrw4uJ/fhVGt1aVqIpQVBbfy6uenVbgj2EDeSIc/fW6DCTp+XW0TZKWqyvEQsluweH6OCYZSH9IcqRo+ES6bSFMlcRSbFsDtyNyO+2vGDjXssE3Re7guy2l0rfFdQvrg6S6R7rxL7RgNIL4fCvT0+/K1w/cHg5z5qtoI8SpKzKbdwDTrYO+juD+6AqsJasu3v7w7ust3S9JJud9DtH9xB3Wyza9hgZ+fV9o4XYOeu3O4fTrutzlZr6/fu6uvBUopPgu+CH4L1oBO8Cl4Hb4N3wUnAan/V/q79U/u3vlE/qp/WzxfQ2qPlnW+Dylen/wPnS0lI</latexit>",
+      "pt": 0.0
+    },
+    {
+      "type": "small-print-text",
+      "text": "8",
+      "pt": 1.47
+    },
+    {
+      "type": "small-print-text",
+      "text": "iu",
+      "pt": 1.1
+    },
+    {
+      "type": "small-print-text",
+      "text": "1",
+      "pt": 0.92
+    },
+    {
+      "type": "small-print-text",
+      "text": "u",
+      "pt": 1.1
+    },
+    {
+      "type": "small-print-text",
+      "text": "2",
+      "pt": 0.92
+    },
+    {
+      "type": "small-print-text",
+      "text": "T",
+      "pt": 1.47
+    },
+    {
+      "type": "small-print-text",
+      "text": "nbor",
+      "pt": 1.1
+    },
+    {
+      "type": "small-print-text",
+      "text": "iu",
+      "pt": 1.1
+    },
+    {
+      "type": "small-print-text",
+      "text": "2",
+      "pt": 0.92
+    },
+    {
+      "type": "small-print-text",
+      "text": "=",
+      "pt": 1.47
+    },
+    {
+      "type": "small-print-text",
+      "text": "T",
+      "pt": 1.47
+    },
+    {
+      "type": "small-print-text",
+      "text": "(0)",
+      "pt": 1.1
+    },
+    {
+      "type": "small-print-text",
+      "text": "iu",
+      "pt": 1.1
+    },
+    {
+      "type": "small-print-text",
+      "text": "1",
+      "pt": 0.92
+    },
+    {
+      "type": "small-print-text",
+      "text": "⌦",
+      "pt": 1.47
+    },
+    {
+      "type": "small-print-text",
+      "text": "(2)",
+      "pt": 1.1
+    },
+    {
+      "type": "small-print-text",
+      "text": "u",
+      "pt": 1.1
+    },
+    {
+      "type": "small-print-text",
+      "text": "1",
+      "pt": 0.92
+    },
+    {
+      "type": "small-print-text",
+      "text": "u",
+      "pt": 1.1
+    },
+    {
+      "type": "small-print-text",
+      "text": "2",
+      "pt": 0.92
+    },
+    {
+      "type": "small-print-text",
+      "text": "<latexit sha1_base64=\"kVU6YCzI7G8J4xRRhmeyKOFWaLs=\">AAAGj3icbVTdbiM1FJ7NQljC3xYuuTEkq22lNCQB0lYQ1DZpd5GoWHbbbaVMiDweT8aKxx7ZnqZZy+/A03ALr8HbcGYy3Xba+uro+Dv/5ztBypk23e5/j2qPP/iw/tGTjxuffPrZ51883fjyrZaZIvSMSC7VRYA15UzQM8MMpxepojgJOD0PFqP8//ySKs2kODWrlE4TPBcsYgQbUM02alt+QOdMWMMW71JGTKaomzRQ+YQMKQohDSwIHfY6uyRBWISokNrvYfIS8xz6XUebFadDGyq8bCPKOUs1bSPM2VwMCRWGqjYyMSOLNsoxw4Bjsvhm0G0jJgRVSNN0uP19atooYYIlWYJiyuaxGeYB3U1EJTMRVkISpgina7dtFDHOhyeZoeFIKsxvu+/d9q7ZOzr8IUnAQgoz9CMpjZCG5nrXmBbxfE2hr2JuYutHgbwCJ852O/3UOPQMhTTCGTeIaQR5N9YW6TxKsInBMMFESetzuaTqtVw6uz1wjWd+/ltMD/zZc6ySQyiTOgiQp8tnlmWzXjbrOocaDT8vdHLd5CnaFIMtZCu5otbpn3azu+XAEoGpQ0Pkvw8wkpK/UHh1yDOI0fJjbOxBCe26lkMXMwtSYdhyP0EFEJSKsLIVs6fNbqdbPHRf6JVC0yvfq9nG4xM/lCRLYO6EY60nvW5qphYrw2BUruFn0EqYP57TCYgCJ1RPbZE1dBY0IUxFFZNBhfa2hcWJ1qskAGTR6rt/ufKhv0lmot2pZSKF7RBkHSjKODIS5QyBdVeUGL4CAWbHIFdEYqwwgeWtegovYb3LrK/WaTcqaQBNeaXMoqHuwTKqMBxkHKurqjaQcgE/uqq9jvxQ/RVlrjGwCaV9ngpngcJqZXWMU6o7cyoTahQjbZRKzfITwcT8PhwrJZe6A1jsEHDg5+3tnNUawQzh8mj0/I2hmJv4eXEtpImBe4URMtCye/4I5gSiPMgzYBkQgC6JTBJwZivUcZP+1N7sebOXbzfcq5TjVXEXULPfcvlUgKZwIgukfSMj80JRKnJOOPvy9OQ3Z0fj8Y8j4GYF+XsUncfM0GvQ8eFx/2h8B1RlV+nt6OhgfNfbLZ6X7g7G/dHxHdTN1bqGjff2dnb3cgL27tLtvvC23+kNOoM/+s39w5KKT7yvvW+9Ta/n7Xj73kvvlXfmkdpftb9r/9T+rW/Ud+q/1PfX0Nqj0uYrr/Lqv/4PAA9AOA==</latexit>",
+      "pt": 0.0
+    },
+    {
+      "type": "small-print-text",
+      "text": "T",
+      "pt": 1.47
+    },
+    {
+      "type": "small-print-text",
+      "text": "(0)",
+      "pt": 1.1
+    },
+    {
+      "type": "small-print-text",
+      "text": "iu",
+      "pt": 1.1
+    },
+    {
+      "type": "small-print-text",
+      "text": "1",
+      "pt": 0.92
+    },
+    {
+      "type": "small-print-text",
+      "text": "=",
+      "pt": 1.47
+    },
+    {
+      "type": "small-print-text",
+      "text": "ˆ",
+      "pt": 1.47
+    },
+    {
+      "type": "small-print-text",
+      "text": "A",
+      "pt": 1.47
+    },
+    {
+      "type": "small-print-text",
+      "text": "iu",
+      "pt": 1.1
+    },
+    {
+      "type": "small-print-text",
+      "text": "0",
+      "pt": 0.92
+    },
+    {
+      "type": "small-print-text",
+      "text": "X",
+      "pt": 1.47
+    },
+    {
+      "type": "small-print-text",
+      "text": "u",
+      "pt": 1.1
+    },
+    {
+      "type": "small-print-text",
+      "text": "0",
+      "pt": 0.92
+    },
+    {
+      "type": "small-print-text",
+      "text": "u",
+      "pt": 1.1
+    },
+    {
+      "type": "small-print-text",
+      "text": "1",
+      "pt": 0.92
+    },
+    {
+      "type": "small-print-text",
+      "text": "<latexit sha1_base64=\"MjbFuHCwcc8Yt9jcLtkzyz37wz0=\">AAACmXicbVHLbtswEKTVRxL15bTHXIjIBXoyJB/SHNP2EvSUonUSwBQMilrZRPgQSMqNQOjer+m1/ZX+TWlbAeqkCxAY7uwuhztFLbh1afpnED16/OTp3v5B/Oz5i5evhoevL61uDIMp00Kb64JaEFzB1HEn4Lo2QGUh4Kq4+bTmr1ZgLNfqm2tryCVdKF5xRl1IzYfHMe6DMFAODFcLPCKrUjs7woTgGM+HSTpON4EfgqwHCerjYn44mJNSs0aGgUxQa2dZWrvcU+M4E9DFpLFQU3ZDFzALUFEJNvebz3T4bciUuNImHOXwJvtvh6fS2lYWoVJSt7T3uXXyf9yscdVp7rmqGweKbR+qGoGdxuvN4JIbYE60AVBmeNCK2ZIaysJWdieVK17bXvXtVna8IyPYI8I3LQQ/1MItPakKfRv4zodNBEbBd6alpKr0ZK10MySUdLNJ7sndzSdZ50ek5LYWtLWuFYCTyajrgiXZfQMegsvJODsZn3yZJGcfe3P20RE6Ru9Qht6jM3SOLtAUMfQD/US/0O/oKPoQnUeft6XRoO95g3Yi+voXpTvMgQ==</latexit>",
+      "pt": 0.0
+    },
+    {
+      "type": "small-print-text",
+      "text": ".",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": ".",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": ".",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "For simplicity, we only show future fusion steps on the light gray shaded region",
+      "pt": 4.6
+    },
+    {
+      "type": "small-print-text",
+      "text": "u2",
+      "pt": 5.52
+    },
+    {
+      "type": "small-print-text",
+      "text": "i",
+      "pt": 5.52
+    },
+    {
+      "type": "small-print-text",
+      "text": "j",
+      "pt": 5.52
+    },
+    {
+      "type": "small-print-text",
+      "text": "u0",
+      "pt": 5.52
+    },
+    {
+      "type": "small-print-text",
+      "text": "u3",
+      "pt": 5.52
+    },
+    {
+      "type": "small-print-text",
+      "text": "u1",
+      "pt": 5.52
+    },
+    {
+      "type": "small-print-text",
+      "text": "Columns (o",
+      "pt": 4.97
+    },
+    {
+      "type": "small-print-text",
+      "text": "ﬀ",
+      "pt": 4.97
+    },
+    {
+      "type": "small-print-text",
+      "text": "-white) ",
+      "pt": 4.97
+    },
+    {
+      "type": "small-print-text",
+      "text": "encode fused tensors",
+      "pt": 4.97
+    },
+    {
+      "type": "small-print-text",
+      "text": "Rows (light pink) encode ",
+      "pt": 4.97
+    },
+    {
+      "type": "small-print-text",
+      "text": "fused iteration order",
+      "pt": 4.97
+    },
+    {
+      "type": "small-print-text",
+      "text": "Cells (cool gray) encode IR nodes ",
+      "pt": 4.97
+    },
+    {
+      "type": "small-print-text",
+      "text": "and named pointers to streams",
+      "pt": 4.97
+    },
+    {
+      "type": "small-print-text",
+      "text": "Fused region",
+      "pt": 5.15
+    },
+    {
+      "type": "small-print-text",
+      "text": "<latexit sha1_base64=\"Vah6abxVCKTddH9UYyHkoA8XwVM=\">AAAHXnictVVbb9MwFD4ttB2FsRVekHiJ6Io2MVVNJwovSIO98ADSgF0qNVXlOG5rzXGi2BktIT+UN34Kx2kRvYqVi4/iHJ9jf99nHytxQ8GVbjS+5fK3bheKpa075bv3tu/v7FYeXKggjig7p4EIorZLFBNcsnPNtWDtMGLEdwW7dK9OTP7ymkWKB/JMj0PW9clA8j6nRGMoqOQV1MCBEAhE4EIAI+iAhi72R1CH50DBz0YmlkALY40sluKoDNYac6CPWAGuklnPQAGHL/heXuMgM4EBGgMPfY7eENdYK+carBH2xhJ4jbFX+GhkiVDXEPWZGRL5TGTfegqHmD+BT/ARDlC1g/Z73PYNcNej1ZbwBO5KYsScsr0CW6LV4d3MrL9haP53hqN/wLCIf4Y3axnVRySNfYz8+1hvU832RqgO9FCRm2HeSDWOjR2gZzRtyqUwJvD+b8q1ya7aGdOqmxRl7HGmfVbNs4WT2GRXq3hW12Wi6k+rc8N7O1ef9Wy/xjVIe7vVRr2RNWvZsadOFabttFfJ9RwvoLHPpKaCKNWxG6HuJiTSnAqWlp1YsZDQKzJgHXQl8ZnqJtkXObVqGPGsfhDhI7WVRWdXJMRXauy7ONMneqgWcya4KteJdf9lN+EyjDWTdELUj4WlA8t83i2PR4xqMUaH0IijVosOSUSoxp/AHJJ3zUM1VT2ayC7PycB/jMBtKoY/FTnQw8Tpu8EI82mCJ4EZyT7TwPeJ9BLHKM1AcEraaXYT5+coqdppsud4XIWCjJUeC2ZVm3upKYm9WIBl56JZt1v11odm9fjNtDhb8BieYPFteAHH8BZO4Rxo4X1BFb4W0uL3UrG0XdqZTM3npmsewlwrPfoBYPWBBQ==</latexit>",
+      "pt": 0.0
+    },
+    {
+      "type": "small-print-text",
+      "text": "A=torch.tensor(...,CSR)",
+      "pt": 1.47
+    },
+    {
+      "type": "small-print-text",
+      "text": "X=torch.tensor(...)",
+      "pt": 1.47
+    },
+    {
+      "type": "small-print-text",
+      "text": "T0=torch.matmul(A,X)",
+      "pt": 1.47
+    },
+    {
+      "type": "small-print-text",
+      "text": "T",
+      "pt": 1.47
+    },
+    {
+      "type": "small-print-text",
+      "text": "nbor=torch.nn.Linear(...)(T0)",
+      "pt": 1.47
+    },
+    {
+      "type": "small-print-text",
+      "text": "T",
+      "pt": 1.47
+    },
+    {
+      "type": "small-print-text",
+      "text": "self=torch.nn.Linear(...)(X)",
+      "pt": 1.47
+    },
+    {
+      "type": "small-print-text",
+      "text": "X",
+      "pt": 1.47
+    },
+    {
+      "type": "small-print-text",
+      "text": "1=torch.relu(T",
+      "pt": 1.47
+    },
+    {
+      "type": "small-print-text",
+      "text": "self+T",
+      "pt": 1.47
+    },
+    {
+      "type": "small-print-text",
+      "text": "nbor)",
+      "pt": 1.47
+    },
+    {
+      "type": "small-print-text",
+      "text": "T1=torch.matmul(A,X",
+      "pt": 1.47
+    },
+    {
+      "type": "small-print-text",
+      "text": "1)",
+      "pt": 1.47
+    },
+    {
+      "type": "small-print-text",
+      "text": "T",
+      "pt": 1.47
+    },
+    {
+      "type": "small-print-text",
+      "text": "nbor2=torch.nn.Linear(...)(T1)",
+      "pt": 1.47
+    },
+    {
+      "type": "small-print-text",
+      "text": "<latexit sha1_base64=\"MjbFuHCwcc8Yt9jcLtkzyz37wz0=\">AAACmXicbVHLbtswEKTVRxL15bTHXIjIBXoyJB/SHNP2EvSUonUSwBQMilrZRPgQSMqNQOjer+m1/ZX+TWlbAeqkCxAY7uwuhztFLbh1afpnED16/OTp3v5B/Oz5i5evhoevL61uDIMp00Kb64JaEFzB1HEn4Lo2QGUh4Kq4+bTmr1ZgLNfqm2tryCVdKF5xRl1IzYfHMe6DMFAODFcLPCKrUjs7woTgGM+HSTpON4EfgqwHCerjYn44mJNSs0aGgUxQa2dZWrvcU+M4E9DFpLFQU3ZDFzALUFEJNvebz3T4bciUuNImHOXwJvtvh6fS2lYWoVJSt7T3uXXyf9yscdVp7rmqGweKbR+qGoGdxuvN4JIbYE60AVBmeNCK2ZIaysJWdieVK17bXvXtVna8IyPYI8I3LQQ/1MItPakKfRv4zodNBEbBd6alpKr0ZK10MySUdLNJ7sndzSdZ50ek5LYWtLWuFYCTyajrgiXZfQMegsvJODsZn3yZJGcfe3P20RE6Ru9Qht6jM3SOLtAUMfQD/US/0O/oKPoQnUeft6XRoO95g3Yi+voXpTvMgQ==</latexit>",
+      "pt": 0.0
+    },
+    {
+      "type": "small-print-text",
+      "text": ".",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": ".",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": ".",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "Optional schedule in red",
+      "pt": 4.97
+    },
+    {
+      "type": "small-print-text",
+      "text": "Green indicates sparse tensor",
+      "pt": 4.97
+    },
+    {
+      "type": "small-print-text",
+      "text": "<latexit sha1_base64=\"MjbFuHCwcc8Yt9jcLtkzyz37wz0=\">AAACmXicbVHLbtswEKTVRxL15bTHXIjIBXoyJB/SHNP2EvSUonUSwBQMilrZRPgQSMqNQOjer+m1/ZX+TWlbAeqkCxAY7uwuhztFLbh1afpnED16/OTp3v5B/Oz5i5evhoevL61uDIMp00Kb64JaEFzB1HEn4Lo2QGUh4Kq4+bTmr1ZgLNfqm2tryCVdKF5xRl1IzYfHMe6DMFAODFcLPCKrUjs7woTgGM+HSTpON4EfgqwHCerjYn44mJNSs0aGgUxQa2dZWrvcU+M4E9DFpLFQU3ZDFzALUFEJNvebz3T4bciUuNImHOXwJvtvh6fS2lYWoVJSt7T3uXXyf9yscdVp7rmqGweKbR+qGoGdxuvN4JIbYE60AVBmeNCK2ZIaysJWdieVK17bXvXtVna8IyPYI8I3LQQ/1MItPakKfRv4zodNBEbBd6alpKr0ZK10MySUdLNJ7sndzSdZ50ek5LYWtLWuFYCTyajrgiXZfQMegsvJODsZn3yZJGcfe3P20RE6Ru9Qht6jM3SOLtAUMfQD/US/0O/oKPoQnUeft6XRoO95g3Yi+voXpTvMgQ==</latexit>",
+      "pt": 0.0
+    },
+    {
+      "type": "small-print-text",
+      "text": ".",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": ".",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": ".",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "<latexit sha1_base64=\"PQi9zDjrQzcP25Y90SBImL/4DQc=\">AAAFnHiclVRbb9MwFM4KhVEu2+ARCVl0Q5uQpiYauzwgbW12kdi0Ae1aqekqx3Far85FsTNWWf55/Ah+A6/wjpNlNOkQ6ixVcs/5zvedm2OHlDBeq/2YKz14WH70eP5J5emz5y8WFpdenrMgjhBuoYAGUceGDFPi4xYnnOJOGGHo2RS37VEj8bevcMRI4Df5OMQ9Dw584hIEuTL1l0oXK5YH+TBlsoNr0YaRV8dkgKWw3CCClPYFGV1KCSrNC7FaW5Pq/6UE7z4CUIxsBAE9jOC4TuMkeAi52EvAIxXb6QvFASyrMqsaUGq+HUQTuYn8SP5f+tTDA6jQRoJO2ZSwCldtcid8nXsw6Xmmzq0hI7I4vubiCz5uydWiyvtiFWv3akBacF5HTISTns6U+EY+8RmkLxPmLGkjV+LMkxbNfLsq/cVqbb2WHnD3omeXqpadM7WRK5YToNjDPkcUMtbVayHvCRhxgiiWFStmOIRoBAe4q64+9DDriTQ3CVaUxQGqGvXzOUit+QgBPcbGnq2QSUVs2pcY/+Xrxtzd7gnihzHHProRcmMKeACSZwUcEmHE6VhdIIqIyhWgIYwg4urxFZicKxKyLOvrm7QrhTTU26aqTIbVY/YHfKimo5qu/FLoIVceH39DgedB3xGFuciu0RPW3ylVdSmWLYewkMIx42OKQdVYlomag131vUiR4mvg8sMIYz+ZqBRHzZNjKRqm+aGxKYvIU9dtDwnHt6CD+oGxb06BiruRse3v75nTbLn1y+j2TKNxMIU6Uf12Gsl23sLMnZ2t7R2pFkufXqO7l3NjXd9c3/y8Ud2tZys2r73W3mqrmq5tabvakXamtTRU+l76WfpV+l1+UzbLn8onN9DSXBbzSiuc8vkf0Xrzew==</latexit>",
+      "pt": 0.0
+    },
+    {
+      "type": "small-print-text",
+      "text": "T",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "(0)",
+      "pt": 1.28
+    },
+    {
+      "type": "small-print-text",
+      "text": "ij",
+      "pt": 1.28
+    },
+    {
+      "type": "small-print-text",
+      "text": "=",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "ˆ",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "A",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "ik",
+      "pt": 1.28
+    },
+    {
+      "type": "small-print-text",
+      "text": "X",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "kj",
+      "pt": 1.28
+    },
+    {
+      "type": "small-print-text",
+      "text": "8",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "ikj",
+      "pt": 1.28
+    },
+    {
+      "type": "small-print-text",
+      "text": "T",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "nbor",
+      "pt": 1.28
+    },
+    {
+      "type": "small-print-text",
+      "text": "ij",
+      "pt": 1.28
+    },
+    {
+      "type": "small-print-text",
+      "text": "=",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "T",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "(0)",
+      "pt": 1.28
+    },
+    {
+      "type": "small-print-text",
+      "text": "ik",
+      "pt": 1.28
+    },
+    {
+      "type": "small-print-text",
+      "text": "⌦",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "(2)",
+      "pt": 1.28
+    },
+    {
+      "type": "small-print-text",
+      "text": "kj",
+      "pt": 1.28
+    },
+    {
+      "type": "small-print-text",
+      "text": "T",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "self",
+      "pt": 1.28
+    },
+    {
+      "type": "small-print-text",
+      "text": "ij",
+      "pt": 1.28
+    },
+    {
+      "type": "small-print-text",
+      "text": "=",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "X",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "ik",
+      "pt": 1.28
+    },
+    {
+      "type": "small-print-text",
+      "text": "⌦",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "(1)",
+      "pt": 1.28
+    },
+    {
+      "type": "small-print-text",
+      "text": "kj",
+      "pt": 1.28
+    },
+    {
+      "type": "small-print-text",
+      "text": "X",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "(1)",
+      "pt": 1.28
+    },
+    {
+      "type": "small-print-text",
+      "text": "ij",
+      "pt": 1.28
+    },
+    {
+      "type": "small-print-text",
+      "text": "=ReLU(",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "T",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "self",
+      "pt": 1.28
+    },
+    {
+      "type": "small-print-text",
+      "text": "ij",
+      "pt": 1.28
+    },
+    {
+      "type": "small-print-text",
+      "text": "+",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "T",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "nbor",
+      "pt": 1.28
+    },
+    {
+      "type": "small-print-text",
+      "text": "ij",
+      "pt": 1.28
+    },
+    {
+      "type": "small-print-text",
+      "text": ")",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "8",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "ikj",
+      "pt": 1.28
+    },
+    {
+      "type": "small-print-text",
+      "text": "T",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "(1)",
+      "pt": 1.28
+    },
+    {
+      "type": "small-print-text",
+      "text": "ij",
+      "pt": 1.28
+    },
+    {
+      "type": "small-print-text",
+      "text": "=",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "X",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "(1)",
+      "pt": 1.28
+    },
+    {
+      "type": "small-print-text",
+      "text": "ik",
+      "pt": 1.28
+    },
+    {
+      "type": "small-print-text",
+      "text": "⌦",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "(4)",
+      "pt": 1.28
+    },
+    {
+      "type": "small-print-text",
+      "text": "kj",
+      "pt": 1.28
+    },
+    {
+      "type": "small-print-text",
+      "text": "8",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "ijk",
+      "pt": 1.28
+    },
+    {
+      "type": "small-print-text",
+      "text": "T",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "nbor",
+      "pt": 1.28
+    },
+    {
+      "type": "small-print-text",
+      "text": "2",
+      "pt": 1.28
+    },
+    {
+      "type": "small-print-text",
+      "text": "ij",
+      "pt": 1.28
+    },
+    {
+      "type": "small-print-text",
+      "text": "=",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "ˆ",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "A",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "ik",
+      "pt": 1.28
+    },
+    {
+      "type": "small-print-text",
+      "text": "T",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "(1)",
+      "pt": 1.28
+    },
+    {
+      "type": "small-print-text",
+      "text": "kj",
+      "pt": 1.28
+    },
+    {
+      "type": "small-print-text",
+      "text": "<latexit sha1_base64=\"uXnXZsF7+3i8VdcPmivupUT/rYM=\">AAADaHicbVLdbtMwFPZafkb56+ACIW6itUhcoKmJRLfebU3a7YKJIdZ1UlNVjnPSWnPiyHZGIysvwdNwC2/BK/AUuG02rR1HsnR0vs+fj893gpRRqVqtP1uV6oOHjx5vP6k9ffb8xcv6zqsLyTNBYEA44+IywBIYTWCgqGJwmQrAccBgGFy5C3x4DUJSnpyrPIVxjKcJjSjBypQm9Y9NP8ZqthQK+FwPsYi7QKdQaF/BXCml+5mEorB83ZzUG6291jKs+4ldJg1Uxtlkp9L0Q06yGBJFGJZyZLdSNdZYKEoYFDXfaKeYXOEpjEya4BjkWC+7Kaz3phJaERfmJMpaVu/e0DiWMo8Dw1z8QW5ii+L/sFGmooOxpkmaKUjI6qEoY5bi1mJGVkgFEMVyk2AiqOnVIjMsMFFmkmtK4TVNZdn1fNV2ba0NYxQz35RgnEmmaqb9yIzZ4IW2U2WQBL4THsc4CfWaE8XIGWv/1peGXWgzSypThnOpcgZWw2kWRiCEyHi/JOpvPFLHAiA5Fjgv9Mn56edCu573yW1vML9E0XBGFdyQ+t2+0/M2SC7nbKHUZdkt0e31jrxNtTtbU8odeY7b32CdmnGHLheY3dC8Tmf/oFOYvbI3t+h+cuHs2e299lencdgtN2wbvUO76AOy0T46RCfoDA0QQT/QT/QL/a78rdarb6pvV9TKVnnnNVqL6u4/1F0d9w==</latexit>",
+      "pt": 0.0
+    },
+    {
+      "type": "small-print-text",
+      "text": "Fuse",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "{",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "<latexit sha1_base64=\"k9Tf2jr/R2FqZQh4vDjB24MQk20=\">AAACeXicbVFNb9QwEPWGr7J8tXDkEsgiVRxWySK1PVZw4Vgktq20iVaOM9m16i/Zk9LIyl/gCn+N38IFZzdIbMtIlp7fmxk/z5RGcIdp+msU3bv/4OGjvcfjJ0+fPX+xf/Dy3OnGMpgzLbS9LKkDwRXMkaOAS2OBylLARXn1qdcvrsE6rtVXbA0Ukq4Urzmj2FOTvJss95N0mm4ivguyASRkiLPlwWiZV5o1EhQyQZ1bZKnBwlOLnAnoxnnjwFB2RVewCFBRCa7wG7Nd/C4wVVxrG47CeMP+W+GpdK6VZciUFNfuttaT/9MWDdYnhefKNAiKbR+qGxGjjvufxxW3wFC0AVBmefAaszW1lGGYz06n6pobN7i+2doe79gI4xfhmw7CvNUK1z6vS30T9M5nBoOi4BvTUlJV+bx3umkSUrrFrPD535tPss5P8oo7I2jrsBUQJ7NJ14WVZLcXcBecz6bZ0fToyyw5/TgsZ4+8Jm/JIcnIMTkln8kZmRNG1uQ7+UF+jn5Hb6LD6P02NRoNNa/ITkQf/gCHZ8QK</latexit>",
+      "pt": 0.0
+    },
+    {
+      "type": "small-print-text",
+      "text": "}",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "<latexit sha1_base64=\"uXnXZsF7+3i8VdcPmivupUT/rYM=\">AAADaHicbVLdbtMwFPZafkb56+ACIW6itUhcoKmJRLfebU3a7YKJIdZ1UlNVjnPSWnPiyHZGIysvwdNwC2/BK/AUuG02rR1HsnR0vs+fj893gpRRqVqtP1uV6oOHjx5vP6k9ffb8xcv6zqsLyTNBYEA44+IywBIYTWCgqGJwmQrAccBgGFy5C3x4DUJSnpyrPIVxjKcJjSjBypQm9Y9NP8ZqthQK+FwPsYi7QKdQaF/BXCml+5mEorB83ZzUG6291jKs+4ldJg1Uxtlkp9L0Q06yGBJFGJZyZLdSNdZYKEoYFDXfaKeYXOEpjEya4BjkWC+7Kaz3phJaERfmJMpaVu/e0DiWMo8Dw1z8QW5ii+L/sFGmooOxpkmaKUjI6qEoY5bi1mJGVkgFEMVyk2AiqOnVIjMsMFFmkmtK4TVNZdn1fNV2ba0NYxQz35RgnEmmaqb9yIzZ4IW2U2WQBL4THsc4CfWaE8XIGWv/1peGXWgzSypThnOpcgZWw2kWRiCEyHi/JOpvPFLHAiA5Fjgv9Mn56edCu573yW1vML9E0XBGFdyQ+t2+0/M2SC7nbKHUZdkt0e31jrxNtTtbU8odeY7b32CdmnGHLheY3dC8Tmf/oFOYvbI3t+h+cuHs2e299lencdgtN2wbvUO76AOy0T46RCfoDA0QQT/QT/QL/a78rdarb6pvV9TKVnnnNVqL6u4/1F0d9w==</latexit>",
+      "pt": 0.0
+    },
+    {
+      "type": "small-print-text",
+      "text": "Fuse",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "{",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "<latexit sha1_base64=\"k9Tf2jr/R2FqZQh4vDjB24MQk20=\">AAACeXicbVFNb9QwEPWGr7J8tXDkEsgiVRxWySK1PVZw4Vgktq20iVaOM9m16i/Zk9LIyl/gCn+N38IFZzdIbMtIlp7fmxk/z5RGcIdp+msU3bv/4OGjvcfjJ0+fPX+xf/Dy3OnGMpgzLbS9LKkDwRXMkaOAS2OBylLARXn1qdcvrsE6rtVXbA0Ukq4Urzmj2FOTvJss95N0mm4ivguyASRkiLPlwWiZV5o1EhQyQZ1bZKnBwlOLnAnoxnnjwFB2RVewCFBRCa7wG7Nd/C4wVVxrG47CeMP+W+GpdK6VZciUFNfuttaT/9MWDdYnhefKNAiKbR+qGxGjjvufxxW3wFC0AVBmefAaszW1lGGYz06n6pobN7i+2doe79gI4xfhmw7CvNUK1z6vS30T9M5nBoOi4BvTUlJV+bx3umkSUrrFrPD535tPss5P8oo7I2jrsBUQJ7NJ14WVZLcXcBecz6bZ0fToyyw5/TgsZ4+8Jm/JIcnIMTkln8kZmRNG1uQ7+UF+jn5Hb6LD6P02NRoNNa/ITkQf/gCHZ8QK</latexit>",
+      "pt": 0.0
+    },
+    {
+      "type": "small-print-text",
+      "text": "}",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "<latexit sha1_base64=\"6YNxD8qHKxcmBLOpx+h16QoRrNU=\">AAAGcnicbVRfb9s2EFfdNeu8bm22t+2FnTM0BRTPdtc0wWagjZ20DwvarUkTwHINijrZhClSIKk4LqEPstftU+177APsJNtL5IR8ORx/94d397swFdzYVuufO7W7n93b+Pz+F/UvH3z19cNHm998MCrTDE6ZEkqfh9SA4BJOLbcCzlMNNAkFnIXTXvF+dgHacCVP7DyFYULHksecUYuq0WbtQRDCmEtn+fRTypnNNOSDOlkeqSIgEaZBJYNuu7nHEkJlRErJ/x+mLqgooD81jZ0L6LpI05lPQAieGvAJFXwsuwykBe0TO+Fs6pMC0w0FZdPHuy2fcClBEwNpd+dZan2ScMmTLCET4OOJ7RYB86uIWmUyqoRkXDMBC7c+ibkQ3ePMQtRTmorr7tvXvRv+Cbo/JwlaKGm7QayUlcpCoc/rwzJeYADrKsd24oI4VJfoJHetZie1OfmRRBDTTFjCDcG86wuLdBwn1E7QMKFMKxcINQP9h5rlbmc3LzALXPGDwap6Q7Itnz8lrpIE2Tr56AILl9Zhl+M8HzlOslEnJ11yvpCf5SQoJwFzcz2lxGtN5wcig9xtBW8TGNOPbrv9FC0RW9pu4f2lXg9ARpXGjx41Ws1WechNob0UGt7yvBtt3j0OIsWyBFvLBDVm0G6lduiothy7kdeDDKuFLaZjGKAoaQJm6MpssXioibDwuiw+KbXXLRxNjJknISLLaq6/Fcrb3gaZjfeGjssUB0CyRaA4E8QqUpAAJ1oDs2KOAraHY66ETaimDOez6im6wAleZn25SLteSQOZKCrfLAua3/qNKoyGmaD6sqoNlZrii6lqV5Fv+39FWWgsTsDSvkhF8FBTPXdmQlMwzTGoBKzmzCepMrzYAlyOb8Kp1mpmmoilOcEx/3VnpyCuIdhDXC6GPHlvgQo7eVIuBGUnSK/SiFgs2Q1/jAqGUW6lEhKpHkiYMZUk6MwFxTdWE50POkN3Nd+NdjHVuJJSQecl9Umjs5UXXUEm4hYske69iu1rDSALLuTuzcnxb7nr9fvPe0i/CvJtHJ9NuIUV6OjgqHPYXwNVWbX0dnj4qr/u7Yzq5AA31pW7V/1O72gNdbWYVrD+/v6Lvf2CgO11ut0UPnSa7d3m7u+dxsu9JRXve997P3jbXtt74b303njvvFOP1Uztz9pftb/v/bvx3cbjjSVva3eWNt96lbPh/wc7KzRa</latexit>",
+      "pt": 0.0
+    },
+    {
+      "type": "small-print-text",
+      "text": "T",
+      "pt": 1.47
+    },
+    {
+      "type": "small-print-text",
+      "text": "self",
+      "pt": 1.1
+    },
+    {
+      "type": "small-print-text",
+      "text": "iu",
+      "pt": 1.1
+    },
+    {
+      "type": "small-print-text",
+      "text": "2",
+      "pt": 0.92
+    },
+    {
+      "type": "small-print-text",
+      "text": "=",
+      "pt": 1.47
+    },
+    {
+      "type": "small-print-text",
+      "text": "X",
+      "pt": 1.47
+    },
+    {
+      "type": "small-print-text",
+      "text": "iu",
+      "pt": 1.1
+    },
+    {
+      "type": "small-print-text",
+      "text": "3",
+      "pt": 0.92
+    },
+    {
+      "type": "small-print-text",
+      "text": "⌦",
+      "pt": 1.47
+    },
+    {
+      "type": "small-print-text",
+      "text": "(1)",
+      "pt": 1.1
+    },
+    {
+      "type": "small-print-text",
+      "text": "u",
+      "pt": 1.1
+    },
+    {
+      "type": "small-print-text",
+      "text": "3",
+      "pt": 0.92
+    },
+    {
+      "type": "small-print-text",
+      "text": "u",
+      "pt": 1.1
+    },
+    {
+      "type": "small-print-text",
+      "text": "2",
+      "pt": 0.92
+    },
+    {
+      "type": "small-print-text",
+      "text": "<latexit sha1_base64=\"A7UicfOjeSHzVvQAkDyrcNd7uBk=\">AAAGmnicbVRtb9s2EFbdzeu8t6b7uH3glgxNAcez3TRNsBloYyftsAXt1qQJYHkGRZ0s1hQpkFQcV9Av2a/Z1+0X7N/sKDtN5IT+Qp+ee+54d88FqeDGttv/3and/ejj+if3Pm189vkXX351f+3BW6MyzeCEKaH0WUANCC7hxHIr4CzVQJNAwGkw7bvvp+egDVfy2M5TGCV0InnEGbVoGq/Vtv0AJlzmlk/fp5zZTEMxbJDlkSoEEmIaVDLodVq7LCFUhqS8NT/A1DkVDvpjy9i5gF4eajprEhCCpwaahAo+kT0G0oJuEhtzNm0Sh+kFgrLpdzvtJuFSgiYG0t7W49Q2ScIlT7KExMAnse25gMVVRK0yGVZCMq6ZgAVtk0RciN5RZiHsK03FdfrOdXbD30NvO0nQQ0nb8yOlrFQWnL1ojMp4vgGsq5zYOPejQF0gSZG3W93UFuQHEkJEM2EJNwTzbiw80kmUUBujY0KZVrkv1Az0H2pW5Fs7hcMscO4Fw8vqjcimfPyI5JUkyIbvmMpOY+z8lOpkH0sChcPh08Q459m4+64oyPGf+WbnUYEG8q4gPXJ29R8RBfE/sPSVEi80ne+LDIk2/FcJTCiitx0asei/gb+fXJKNhg8yrAzI+P56u9UuD7l56Swv697yvB6v3T3yQ8WyBEeACWrMsNNO7Sin2nLsWtHwM6wqjgKdwBCvkiZgRnmZLxYZLSE2SJdNIqX1ukdOE2PmSYDIsuqr35zxtm/DzEa7o5zLFAdFskWgKBPEKuLEgpOvgVkxxwu2kWOuhMVUU4ZzXGUKz3HSl1lfLNJuVNJAxYrKM8uCFrc+owqjQSaovqhaA6Wm+MVUrZeRb3t/xegsFmdg6e9SETzQVM9zE9MUTGsCKgGrOWuSVBnutgWXk5twqrWamRZiaUFQDj9vbTmBG4I9xCVkyMM3Fqiw8cNycSgbowxLJ2KxZDf4GBUMo9wqORRcw5cwYypJkCyvKKMYdkf51YSvd9xc4+pKBZ2XK4KsdzcK1xVULG7LEpm/UZF9oQGkU0ORvzw++q3I+4PBkz7KtIJ8FUWnMbdwCTrcP+weDFZAVV0t2Q4Ong9W2a7JeEn3fNDtH66grhbYJWywt/d0d88JsLMqt5uXt91WZ6e183t3/Vl/KcV73jfe996m1/Gees+8l95r78Rjtb9qf9f+qf1b/7a+X/+l/usCWruz9Pnaq5z68f9v0kLR</latexit>",
+      "pt": 0.0
+    },
+    {
+      "type": "small-print-text",
+      "text": "8",
+      "pt": 1.47
+    },
+    {
+      "type": "small-print-text",
+      "text": "iu",
+      "pt": 1.1
+    },
+    {
+      "type": "small-print-text",
+      "text": "2",
+      "pt": 0.92
+    },
+    {
+      "type": "small-print-text",
+      "text": "j",
+      "pt": 1.1
+    },
+    {
+      "type": "small-print-text",
+      "text": "T",
+      "pt": 1.47
+    },
+    {
+      "type": "small-print-text",
+      "text": "(1)",
+      "pt": 1.1
+    },
+    {
+      "type": "small-print-text",
+      "text": "ij",
+      "pt": 1.1
+    },
+    {
+      "type": "small-print-text",
+      "text": "=",
+      "pt": 1.47
+    },
+    {
+      "type": "small-print-text",
+      "text": "X",
+      "pt": 1.47
+    },
+    {
+      "type": "small-print-text",
+      "text": "(1)",
+      "pt": 1.1
+    },
+    {
+      "type": "small-print-text",
+      "text": "iu",
+      "pt": 1.1
+    },
+    {
+      "type": "small-print-text",
+      "text": "2",
+      "pt": 0.92
+    },
+    {
+      "type": "small-print-text",
+      "text": "⌦",
+      "pt": 1.47
+    },
+    {
+      "type": "small-print-text",
+      "text": "(4)",
+      "pt": 1.1
+    },
+    {
+      "type": "small-print-text",
+      "text": "u",
+      "pt": 1.1
+    },
+    {
+      "type": "small-print-text",
+      "text": "2",
+      "pt": 0.92
+    },
+    {
+      "type": "small-print-text",
+      "text": "j",
+      "pt": 1.1
+    },
+    {
+      "type": "small-print-text",
+      "text": "<latexit sha1_base64=\"xQOJQ4BPFH4XK3oDnkMva6X42pE=\">AAAKZnictVZbb9s2FFa7emu9rWs3DHvYCzE7awekhmWgaQPsIYmdtANSJMulCRB5AUUd21woUSCpJC7H/c897H0/Y0eycpHjbe6C0rBEfeei75xDHipMBdem3f7jzt2P7tU+/uT+g/qnn33+8ItHj798q2WmGOwzKaQ6DKkGwRPYN9wIOEwV0DgUcBCedHP5wSkozWWyZ8Yp9GM6TPiAM2oQOn58788ghCFPrKFhJqg6d9b3W89Z7OyKdey3yg8RVyc4AiNTlQkoHn4n35NmMKLGrrpmPj8srnu/2KftHyZIsBXDkCLQKQEUJqFUxUMQSaOvgR1Eg2DynphHl+/h+SXXN3BuisjthlSgzSsFkDi7ueuq0h05pmJNZODsDqSuICJoMhRASrrHnASqQJpzm+4dW+4qZiX/yf2CeQV833vppJkdt6eIbWcqFcjqp8RgVYEZN4f8ivukJv8Y9ox8XrctSjZX+Mjc/8+Uzl3IWwddEhdzEe80Z60UixFVzC81Dv9FdpHweP6EX5Nu5TZFvqKMgfuga62y1U6pmN5qmzyGkidK3XsIZ0Tx/y1nUg+lMTIu2AeQRFe9rH78qNFutYtBbk78ctLwyrGNDTFF3yyLITFMUK2P/HZq+pYqwxmusXqQaUgpO6FDOMJpQmPQfVvwdWQBkYgMpMJ/YkiB3s7C0ljrcRyiZkzNSFe9mcHLvuVJmhlI2MTZIBPESJL3ehJxhZtBjHFCmeIYAWEjqijLt0nFU3TKU10wWySYPQGL5yxS9KxvzydEbx9FTv8DRLEwO4wr4hUeeG6KSizW8JN3bmbGq2qXS+o6Gkp5ghJdRWek7DIBFTBHjJSitM+pCB4qqsZWj2gKujUEGYNRnC2SVGqen9k8Gd5Up0rJM91CXeoIWSA/PntGzIhrgoXCamryZNcAFWb0hNAkItKMQJHCiBhM2Q1/jAqGb0FQQDI0IxsMQnmOzJ3F7YCSBM6YjGN0ZoM8jCJkVHFHnb4NLp5sw3e2GURcp4KOtRljS2x0mm7KwQ4MQLkjHy0V5Rpyy5YP+C0SaKx4ajR/B81A8eHIFKSbLlhE11jbCAb45TNpF7tyMGmlrxQdO/t6782ms91e73l3yVU1twaDgxE3cKG0sbbRWe9NKXWxMrmnyZlVeltfX+1NezugKl4DPrxyt9rrdDemtN7g8o66UmGXK9V6y8svXi477FH+dEe6OXnbaflLraWfO42VtbJb3fe+9b7znnq+98Jb8V57296+x2q92q81XTMP/qo/rH9d/2aievdOafOVVxl18jdvW5vw</latexit>",
+      "pt": 0.0
+    },
+    {
+      "type": "small-print-text",
+      "text": "ˆ",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "A",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "X",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "T",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "(0)",
+      "pt": 1.28
+    },
+    {
+      "type": "small-print-text",
+      "text": "⌦",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "(2)",
+      "pt": 1.28
+    },
+    {
+      "type": "small-print-text",
+      "text": "T",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "nbor",
+      "pt": 1.28
+    },
+    {
+      "type": "small-print-text",
+      "text": "...",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "T",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "nbor",
+      "pt": 1.28
+    },
+    {
+      "type": "small-print-text",
+      "text": "2",
+      "pt": 1.28
+    },
+    {
+      "type": "small-print-text",
+      "text": "i",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "LS",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "Rep",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "h",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "ˆ",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "A",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "i",
+      "pt": 1.28
+    },
+    {
+      "type": "small-print-text",
+      "text": "i",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "Rep",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "h",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "T",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "i",
+      "pt": 1.28
+    },
+    {
+      "type": "small-print-text",
+      "text": "i",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "...",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "...",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "...",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "...",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "...",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "...",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "...",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "...",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "...",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "...",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "u",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "0",
+      "pt": 1.28
+    },
+    {
+      "type": "small-print-text",
+      "text": "Intersect",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "Intersect",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "h",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "T",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "(0)",
+      "pt": 1.28
+    },
+    {
+      "type": "small-print-text",
+      "text": "i",
+      "pt": 1.28
+    },
+    {
+      "type": "small-print-text",
+      "text": "i",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "LS",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "h",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "T",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "nbor",
+      "pt": 1.28
+    },
+    {
+      "type": "small-print-text",
+      "text": "i",
+      "pt": 1.28
+    },
+    {
+      "type": "small-print-text",
+      "text": "i",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "...",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "...",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "u",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "1",
+      "pt": 1.28
+    },
+    {
+      "type": "small-print-text",
+      "text": "Rep",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "LS",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "Intersect",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "Intersect",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "h",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "T",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "nbor",
+      "pt": 1.28
+    },
+    {
+      "type": "small-print-text",
+      "text": "l",
+      "pt": 1.28
+    },
+    {
+      "type": "small-print-text",
+      "text": "i",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "...",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "...",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "u",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "2",
+      "pt": 1.28
+    },
+    {
+      "type": "small-print-text",
+      "text": "h",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "ˆ",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "A",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "u",
+      "pt": 1.28
+    },
+    {
+      "type": "small-print-text",
+      "text": "1",
+      "pt": 0.92
+    },
+    {
+      "type": "small-print-text",
+      "text": "i",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "h",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "X",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "u",
+      "pt": 1.28
+    },
+    {
+      "type": "small-print-text",
+      "text": "1",
+      "pt": 0.92
+    },
+    {
+      "type": "small-print-text",
+      "text": "i",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "h",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "T",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "(0)",
+      "pt": 1.28
+    },
+    {
+      "type": "small-print-text",
+      "text": "m",
+      "pt": 1.28
+    },
+    {
+      "type": "small-print-text",
+      "text": "i",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "LS",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "Reduce",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "...",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "...",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "...",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "...",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "...",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "...",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "...",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "...",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "...",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "...",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "val",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "val",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "val",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "Reduce",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "val",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "Reduce",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "...",
+      "pt": 1.83
+    },
+    {
+      "type": "small-print-text",
+      "text": "...",
+      "pt": 1.83
+    }
+  ],
+  "pdf": {
+    "page_count": 1,
+    "fonts": [
+      {
+        "name": "",
+        "type": "Type3"
+      },
+      {
+        "name": "",
+        "type": "Type3"
+      },
+      {
+        "name": "",
+        "type": "Type3"
+      },
+      {
+        "name": "",
+        "type": "Type3"
+      },
+      {
+        "name": "EAAAAA+CambriaMath",
+        "type": "Type0"
+      }
+    ],
+    "images": 0
+  },
+  "scope": "Measured text bounds, intersections, print font size, and PDF structure. Connections and visual fidelity require actual image inspection."
+}

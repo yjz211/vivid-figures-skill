@@ -1,0 +1,296 @@
+[
+  {
+    "key": "e0010",
+    "text": "Controller",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      212.6770935058594,
+      23.22366652729397,
+      60.711128524357235,
+      15.45615238213577
+    ],
+    "components": [
+      "controller"
+    ]
+  },
+  {
+    "key": "e0013",
+    "text": "Prefill Instance",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      39.49652099609375,
+      102.64187941791897,
+      91.64537931141058,
+      15.45615238213577
+    ],
+    "components": [
+      "first-pool"
+    ]
+  },
+  {
+    "key": "e0015",
+    "text": "Requests",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      125.03759765625,
+      8.823672630809597,
+      58.977326140789955,
+      15.45615238213577
+    ],
+    "components": [
+      "controller"
+    ]
+  },
+  {
+    "key": "e0018",
+    "text": "Parallel Runtime",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      33.832660675048835,
+      228.96914992573153,
+      102.52304934907897,
+      15.45615238213577
+    ],
+    "components": [
+      "first-pool"
+    ]
+  },
+  {
+    "key": "e0021",
+    "text": "GPU",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      36.01129150390625,
+      173.98727736713778,
+      30.338385639976877,
+      15.45615238213577
+    ],
+    "components": [
+      "first-pool"
+    ]
+  },
+  {
+    "key": "e0024",
+    "text": "GPU",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      36.00735092163086,
+      203.00546584370028,
+      30.338385639976877,
+      15.45615238213577
+    ],
+    "components": [
+      "first-pool"
+    ]
+  },
+  {
+    "key": "e0028",
+    "text": "LLM Model",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      50.8011703491211,
+      131.22366652729397,
+      68.99621155274599,
+      15.45615238213577
+    ],
+    "components": [
+      "first-pool"
+    ]
+  },
+  {
+    "key": "e0033",
+    "text": "GPU",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      103.2593002319336,
+      173.98727736713778,
+      30.338385639976877,
+      15.45615238213577
+    ],
+    "components": [
+      "first-pool"
+    ]
+  },
+  {
+    "key": "e0036",
+    "text": "GPU",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      103.2593002319336,
+      203.00546584370028,
+      30.338385639976877,
+      15.45615238213577
+    ],
+    "components": [
+      "first-pool"
+    ]
+  },
+  {
+    "key": "e0041",
+    "text": "Parallel Runtime",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      307.039306640625,
+      231.15097365620028,
+      102.52304934907897,
+      15.45615238213577
+    ],
+    "components": [
+      "second-pool"
+    ]
+  },
+  {
+    "key": "e0044",
+    "text": "Decodin",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      300.70318603515625,
+      104.60547194721585,
+      51.27092630808556,
+      15.45615238213577
+    ],
+    "components": [
+      "second-pool"
+    ]
+  },
+  {
+    "key": "e0045",
+    "text": "g",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      351.95318603515625,
+      104.60547194721585,
+      7.765815892866158,
+      15.456162369706817
+    ],
+    "components": [
+      "second-pool"
+    ]
+  },
+  {
+    "key": "e0046",
+    "text": "Instance",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      363.5781860351563,
+      104.60547194721585,
+      52.749676089812056,
+      15.45615238213577
+    ],
+    "components": [
+      "second-pool"
+    ]
+  },
+  {
+    "key": "e0051",
+    "text": "GPU",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      309.2179870605469,
+      175.95096144916903,
+      30.338385639976877,
+      15.45615238213577
+    ],
+    "components": [
+      "second-pool"
+    ]
+  },
+  {
+    "key": "e0054",
+    "text": "GPU",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      309.21398925781256,
+      205.18728957416897,
+      30.338385639976877,
+      15.45615238213577
+    ],
+    "components": [
+      "second-pool"
+    ]
+  },
+  {
+    "key": "e0057",
+    "text": "LLM Model",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      324.0079040527344,
+      133.4054597401846,
+      68.99621155274599,
+      15.45615238213577
+    ],
+    "components": [
+      "second-pool"
+    ]
+  },
+  {
+    "key": "e0060",
+    "text": "GPU",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      376.46600341796875,
+      175.95096144916903,
+      30.338385639976877,
+      15.45615238213577
+    ],
+    "components": [
+      "second-pool"
+    ]
+  },
+  {
+    "key": "e0063",
+    "text": "GPU",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      376.46600341796875,
+      205.18728957416897,
+      30.338385639976877,
+      15.45615238213577
+    ],
+    "components": [
+      "second-pool"
+    ]
+  },
+  {
+    "key": "e0066",
+    "text": "KV Cache ",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      198.472900390625,
+      148.36674236385085,
+      71.81960467055342,
+      16.905175823234458
+    ],
+    "components": [
+      "state-transfer"
+    ]
+  },
+  {
+    "key": "e0067",
+    "text": "Transfer",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      204.34790039062503,
+      166.25764202205397,
+      56.17785658483169,
+      16.905175823234458
+    ],
+    "components": [
+      "state-transfer"
+    ]
+  },
+  {
+    "key": "e0068",
+    "text": "Parallel Runtime",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      307.039306640625,
+      231.15097365620028,
+      102.52304934907897,
+      15.45615238213577
+    ],
+    "components": [
+      "second-pool"
+    ]
+  }
+]

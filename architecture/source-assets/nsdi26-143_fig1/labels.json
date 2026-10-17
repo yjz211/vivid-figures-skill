@@ -1,0 +1,785 @@
+[
+  {
+    "key": "e0004",
+    "text": "P0",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      47.09289932250977,
+      46.501781035083695,
+      27.22779658750732,
+      26.63112577636639
+    ],
+    "components": [
+      "full-mesh"
+    ]
+  },
+  {
+    "key": "e0005",
+    "text": "...",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      111.64479827880861,
+      28.5925780171965,
+      30.510295042037328,
+      39.5432174277521
+    ],
+    "components": [
+      "full-mesh"
+    ]
+  },
+  {
+    "key": "e0008",
+    "text": "P7",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      180.9394073486328,
+      46.501781035083695,
+      27.227796587507328,
+      26.63112577636639
+    ],
+    "components": [
+      "full-mesh"
+    ]
+  },
+  {
+    "key": "e0019",
+    "text": "S0",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      48.4513282775879,
+      120.11577251636481,
+      24.75540000821365,
+      25.01713429508527
+    ],
+    "components": [
+      "full-mesh"
+    ]
+  },
+  {
+    "key": "e0022",
+    "text": "S1",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      95.68344879150392,
+      119.46123150073993,
+      24.755400008213655,
+      25.01713429508527
+    ],
+    "components": [
+      "full-mesh"
+    ]
+  },
+  {
+    "key": "e0025",
+    "text": "S2",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      138.3690948486328,
+      119.46123150073993,
+      24.755400008213655,
+      25.01713429508527
+    ],
+    "components": [
+      "full-mesh"
+    ]
+  },
+  {
+    "key": "e0028",
+    "text": "S3",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      182.1147003173828,
+      120.11577251636481,
+      24.755400008213655,
+      25.01713429508527
+    ],
+    "components": [
+      "full-mesh"
+    ]
+  },
+  {
+    "key": "e0029",
+    "text": "...",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      142.25770568847656,
+      358.9381824022712,
+      20.422392184952514,
+      26.63112577636639
+    ],
+    "components": [
+      "central-switch"
+    ]
+  },
+  {
+    "key": "e0035",
+    "text": "S0",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      58.604560852050795,
+      367.3157236882399,
+      24.755400008213655,
+      25.01713429508527
+    ],
+    "components": [
+      "central-switch"
+    ]
+  },
+  {
+    "key": "e0038",
+    "text": "S1",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      104.06459808349611,
+      367.7521250554274,
+      24.75540000821364,
+      25.01713429508527
+    ],
+    "components": [
+      "central-switch"
+    ]
+  },
+  {
+    "key": "e0041",
+    "text": "S19",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      171.11999511718753,
+      368.4066660710524,
+      36.505191408133214,
+      25.01713429508527
+    ],
+    "components": [
+      "central-switch"
+    ]
+  },
+  {
+    "key": "e0045",
+    "text": "...",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      142.25770568847656,
+      261.6291003710212,
+      20.422392184952514,
+      26.63112577636639
+    ],
+    "components": [
+      "central-switch"
+    ]
+  },
+  {
+    "key": "e0048",
+    "text": "P0",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      55.912670135498054,
+      268.61085085930256,
+      27.22779658750732,
+      26.63112577636639
+    ],
+    "components": [
+      "central-switch"
+    ]
+  },
+  {
+    "key": "e0051",
+    "text": "CXL Switch",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      68.86282348632814,
+      315.73817019524006,
+      117.04779414722542,
+      26.63112577636639
+    ],
+    "components": [
+      "central-switch"
+    ]
+  },
+  {
+    "key": "e0054",
+    "text": "P1",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      102.55069732666017,
+      268.17444949211506,
+      27.227796587507314,
+      26.63112577636639
+    ],
+    "components": [
+      "central-switch"
+    ]
+  },
+  {
+    "key": "e0057",
+    "text": "P9",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      173.2819061279297,
+      268.17444949211506,
+      27.227796587507328,
+      26.63112577636639
+    ],
+    "components": [
+      "central-switch"
+    ]
+  },
+  {
+    "key": "e0060",
+    "text": "...",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      343.6376037597657,
+      205.1199450975838,
+      20.422392184952514,
+      26.63112577636639
+    ],
+    "components": [
+      "island-network"
+    ]
+  },
+  {
+    "key": "e0061",
+    "text": "...",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      343.3788146972656,
+      261.6291003710212,
+      20.422392184952514,
+      26.63112577636639
+    ],
+    "components": [
+      "island-network",
+      "island-cell"
+    ]
+  },
+  {
+    "key": "e0062",
+    "text": "Island 0",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      312.7070922851563,
+      309.6291003710213,
+      81.86859928002741,
+      26.63112577636639
+    ],
+    "components": [
+      "island-network"
+    ]
+  },
+  {
+    "key": "e0068",
+    "text": "...",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      511.31201171875006,
+      205.1199450975838,
+      20.422392184952457,
+      26.63112577636639
+    ],
+    "components": [
+      "island-network"
+    ]
+  },
+  {
+    "key": "e0069",
+    "text": "...",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      511.0531921386719,
+      261.6291003710212,
+      20.422392184952514,
+      26.63112577636639
+    ],
+    "components": [
+      "island-network"
+    ]
+  },
+  {
+    "key": "e0070",
+    "text": "Island 1",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      480.381591796875,
+      309.6291003710213,
+      81.86859928002741,
+      26.63112577636639
+    ],
+    "components": [
+      "island-network"
+    ]
+  },
+  {
+    "key": "e0075",
+    "text": "S0",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      667.4949951171875,
+      213.93394878589606,
+      24.755400008213655,
+      25.01713429508527
+    ],
+    "components": [
+      "island-network"
+    ]
+  },
+  {
+    "key": "e0076",
+    "text": "...",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      714.5214233398438,
+      206.2108874803963,
+      20.422392184952514,
+      26.63112577636639
+    ],
+    "components": [
+      "island-network"
+    ]
+  },
+  {
+    "key": "e0077",
+    "text": "...",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      714.2625732421875,
+      262.7199206835213,
+      20.422392184952514,
+      26.63112577636639
+    ],
+    "components": [
+      "island-network"
+    ]
+  },
+  {
+    "key": "e0078",
+    "text": "Island 5",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      689.8090209960938,
+      309.6291003710213,
+      81.86859928002741,
+      26.63112577636639
+    ],
+    "components": [
+      "island-network"
+    ]
+  },
+  {
+    "key": "e0079",
+    "text": "...",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      608.6174926757812,
+      224.30162342735287,
+      30.51029504203734,
+      39.5432174277521
+    ],
+    "components": [
+      "island-network"
+    ]
+  },
+  {
+    "key": "e0082",
+    "text": "P0",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      417.9082946777344,
+      84.90174441398995,
+      27.227796587507328,
+      26.63112577636639
+    ],
+    "components": [
+      "island-network"
+    ]
+  },
+  {
+    "key": "e0085",
+    "text": "P71",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      618.0946044921875,
+      84.90174441398995,
+      40.09419843054093,
+      26.63112577636639
+    ],
+    "components": [
+      "island-network"
+    ]
+  },
+  {
+    "key": "e0088",
+    "text": "P1",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      489.65341186523443,
+      85.33814578117756,
+      27.22779658750727,
+      26.63112577636639
+    ],
+    "components": [
+      "island-network"
+    ]
+  },
+  {
+    "key": "e0089",
+    "text": "...",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      555.8463745117188,
+      68.30162342735287,
+      30.51029504203734,
+      39.5432174277521
+    ],
+    "components": [
+      "island-network"
+    ]
+  },
+  {
+    "key": "e0103",
+    "text": "External MPDs interconnect islands to ",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      349.1601867675782,
+      7.752125055427371,
+      366.87009146510894,
+      25.01713429508527
+    ],
+    "components": [
+      "island-network"
+    ]
+  },
+  {
+    "key": "e0104",
+    "text": "ensure expansion for pooling",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      393.1852111816407,
+      34.152149469489814,
+      274.3899243320229,
+      25.01713429508527
+    ],
+    "components": [
+      "island-network"
+    ]
+  },
+  {
+    "key": "e0107",
+    "text": "Each island ensures pairwise MPD ",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      326.2936096191407,
+      356.18846538745856,
+      331.8212011081777,
+      25.01713429508527
+    ],
+    "components": [
+      "island-network"
+    ]
+  },
+  {
+    "key": "e0108",
+    "text": "overlap ",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      656.5086059570312,
+      356.18846538745856,
+      76.69965173522996,
+      25.01713429508527
+    ],
+    "components": [
+      "island-network"
+    ]
+  },
+  {
+    "key": "e0109",
+    "text": "for low",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      378.83859252929693,
+      382.5884287663648,
+      64.14409639509904,
+      25.01713429508527
+    ],
+    "components": [
+      "island-network"
+    ]
+  },
+  {
+    "key": "e0110",
+    "text": "-",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      442.7185974121094,
+      382.5884287663648,
+      7.338692423232942,
+      25.017124307514223
+    ],
+    "components": [
+      "island-network"
+    ]
+  },
+  {
+    "key": "e0111",
+    "text": "latency communication",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      450.21859741210943,
+      382.5884287663648,
+      224.3784007703179,
+      25.01713429508527
+    ],
+    "components": [
+      "island-network"
+    ]
+  },
+  {
+    "key": "e0136",
+    "text": "(a) Fully",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      16.41735076904297,
+      164.66953560316324,
+      93.75672519733598,
+      29.052166265333653
+    ],
+    "components": [
+      "full-mesh"
+    ]
+  },
+  {
+    "key": "e0137",
+    "text": "-",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      108.48729705810547,
+      164.66953560316324,
+      8.650074650832835,
+      29.05214296100121
+    ],
+    "components": [
+      "full-mesh"
+    ]
+  },
+  {
+    "key": "e0138",
+    "text": "connected ",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      117.36229705810547,
+      164.66953560316324,
+      134.01084461549,
+      29.052166265333653
+    ],
+    "components": []
+  },
+  {
+    "key": "e0139",
+    "text": "MPD",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      102.51730346679689,
+      195.8695478101945,
+      55.86784903789702,
+      29.052166265333653
+    ],
+    "components": []
+  },
+  {
+    "key": "e0140",
+    "text": "(b) CXL Switch",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      42.35396957397461,
+      411.43320747816335,
+      169.67383742423044,
+      29.052166265333653
+    ],
+    "components": []
+  },
+  {
+    "key": "e0141",
+    "text": "(c) Octopus: sparse MPD topology",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      341.8873901367188,
+      411.43320747816335,
+      399.8706242175212,
+      29.052166265333653
+    ],
+    "components": [
+      "island-network"
+    ]
+  },
+  {
+    "key": "e0144",
+    "text": "S15",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      380.72799682617193,
+      212.84306743823993,
+      36.505191408133214,
+      25.01713429508527
+    ],
+    "components": [
+      "island-network",
+      "island-cell"
+    ]
+  },
+  {
+    "key": "e0147",
+    "text": "S0",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      296.61120605468756,
+      212.84306743823993,
+      24.755400008213655,
+      25.01713429508527
+    ],
+    "components": [
+      "island-network",
+      "island-cell"
+    ]
+  },
+  {
+    "key": "e0150",
+    "text": "P19",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      378.5137023925782,
+      267.30176882805256,
+      40.09419843054093,
+      26.63112577636639
+    ],
+    "components": [
+      "island-network",
+      "island-cell"
+    ]
+  },
+  {
+    "key": "e0153",
+    "text": "P0",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      295.1617126464844,
+      267.9563708788338,
+      27.227796587507328,
+      26.63112577636639
+    ],
+    "components": [
+      "island-network",
+      "island-cell"
+    ]
+  },
+  {
+    "key": "e0156",
+    "text": "S15",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      548.4024047851562,
+      212.84306743823993,
+      36.505191408133214,
+      25.01713429508527
+    ],
+    "components": [
+      "island-network"
+    ]
+  },
+  {
+    "key": "e0159",
+    "text": "S0",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      464.28561401367193,
+      212.84306743823993,
+      24.755400008213655,
+      25.01713429508527
+    ],
+    "components": [
+      "island-network"
+    ]
+  },
+  {
+    "key": "e0162",
+    "text": "P19",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      546.1881103515625,
+      267.30176882805256,
+      40.09419843054093,
+      26.63112577636639
+    ],
+    "components": [
+      "island-network"
+    ]
+  },
+  {
+    "key": "e0165",
+    "text": "P0",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      462.8360900878906,
+      267.9563708788338,
+      27.227796587507328,
+      26.63112577636639
+    ],
+    "components": [
+      "island-network"
+    ]
+  },
+  {
+    "key": "e0168",
+    "text": "S15",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      751.61181640625,
+      213.93394878589606,
+      36.505191408133214,
+      25.01713429508527
+    ],
+    "components": [
+      "island-network"
+    ]
+  },
+  {
+    "key": "e0171",
+    "text": "P19",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      749.3973999023438,
+      268.17444949211506,
+      40.09419843054093,
+      26.63112577636639
+    ],
+    "components": [
+      "island-network"
+    ]
+  },
+  {
+    "key": "e0174",
+    "text": "P0",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      666.0454711914062,
+      268.8290515428963,
+      27.227796587507328,
+      26.63112577636639
+    ],
+    "components": [
+      "island-network"
+    ]
+  },
+  {
+    "key": "e0175",
+    "text": "CXL Link",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      320.3281691881493,
+      114.89437884756848,
+      80.99640131113847,
+      69.62869615214504
+    ],
+    "components": [
+      "island-network"
+    ]
+  }
+]

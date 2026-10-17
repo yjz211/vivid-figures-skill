@@ -1,0 +1,112 @@
+{
+  "svg": "C:\\Users\\hhhh\\Desktop\\MCM-ICM-AI-Lab\\workstreams\\architecture-native-guides\\package\\architecture\\source-assets\\nsdi23-004_fig1\\fig.svg",
+  "print_size_pt": [
+    468.0,
+    315.9
+  ],
+  "text_count": 63,
+  "parts": 0,
+  "errors": [
+    {
+      "type": "text-overlap",
+      "texts": [
+        "RPC",
+        "Library"
+      ],
+      "overlap": [
+        23.1,
+        3.1
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "RPC",
+        "Library"
+      ],
+      "overlap": [
+        23.1,
+        3.1
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "mRPC",
+        "Library"
+      ],
+      "overlap": [
+        32.5,
+        3.1
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "Frontend",
+        "Engine"
+      ],
+      "overlap": [
+        34.6,
+        3.1
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "NIC",
+        "…"
+      ],
+      "overlap": [
+        12.0,
+        3.9
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "Transport",
+        "Engine"
+      ],
+      "overlap": [
+        34.6,
+        3.1
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "Rate Limit",
+        "…"
+      ],
+      "overlap": [
+        12.0,
+        3.9
+      ]
+    }
+  ],
+  "warnings": [],
+  "pdf": {
+    "page_count": 1,
+    "fonts": [
+      {
+        "name": "",
+        "type": "Type3"
+      },
+      {
+        "name": "",
+        "type": "Type3"
+      },
+      {
+        "name": "",
+        "type": "Type3"
+      },
+      {
+        "name": "",
+        "type": "Type3"
+      }
+    ],
+    "images": 0
+  },
+  "scope": "Measured text bounds, intersections, print font size, and PDF structure. Connections and visual fidelity require actual image inspection."
+}

@@ -1,0 +1,688 @@
+[
+  {
+    "key": "e0005",
+    "text": "CPU 1",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      63.28154770680248,
+      89.58478946987087,
+      17.59666316988386,
+      6.502385902916103
+    ],
+    "components": [
+      "physical-server"
+    ]
+  },
+  {
+    "key": "e0008",
+    "text": "CPU 2",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      120.42568495960948,
+      89.58478946987087,
+      17.550411940883336,
+      6.502385902916103
+    ],
+    "components": [
+      "physical-server"
+    ]
+  },
+  {
+    "key": "e0011",
+    "text": "PCIe switch 1",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      50.57429378251435,
+      102.90779433889382,
+      36.324093388033354,
+      6.502380310264471
+    ],
+    "components": [
+      "physical-server"
+    ]
+  },
+  {
+    "key": "e0014",
+    "text": "PCIe switch 8",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      114.33777046917565,
+      102.90779433889382,
+      36.20265455048592,
+      6.502380310264471
+    ],
+    "components": [
+      "physical-server"
+    ]
+  },
+  {
+    "key": "e0017",
+    "text": "GPU 1",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      59.70063997835222,
+      116.37007860417178,
+      17.82794168549298,
+      6.502380310264471
+    ],
+    "components": [
+      "physical-server"
+    ]
+  },
+  {
+    "key": "e0020",
+    "text": "NIC 1",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      60.91016274690627,
+      129.6454340812861,
+      15.364865202082449,
+      6.502380310264471
+    ],
+    "components": [
+      "physical-server"
+    ]
+  },
+  {
+    "key": "e0023",
+    "text": "GPU 8",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      123.46413903562005,
+      116.37007860417178,
+      17.856833323826308,
+      6.502380310264471
+    ],
+    "components": [
+      "physical-server"
+    ]
+  },
+  {
+    "key": "e0026",
+    "text": "NIC 8",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      124.6919721456188,
+      129.5904527230873,
+      15.3879908165827,
+      6.502380310264471
+    ],
+    "components": [
+      "physical-server"
+    ]
+  },
+  {
+    "key": "e0033",
+    "text": "…",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      97.18831809443053,
+      100.82126549724579,
+      6.603982012471533,
+      7.093508208024446
+    ],
+    "components": [
+      "physical-server"
+    ]
+  },
+  {
+    "key": "e0034",
+    "text": "Server",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      37.41623019176199,
+      79.5421432305693,
+      17.744228079532377,
+      6.502385902916103
+    ],
+    "components": [
+      "physical-server"
+    ]
+  },
+  {
+    "key": "e0037",
+    "text": "Multipath Datacenter Network",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      115.30173108985126,
+      146.6959468560012,
+      77.67008593883564,
+      6.502380310264471
+    ],
+    "components": [
+      "network-band"
+    ]
+  },
+  {
+    "key": "e0040",
+    "text": "Server",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      216.6994916624844,
+      133.45723443238285,
+      17.784676932464208,
+      6.502380310264442
+    ],
+    "components": [
+      "software-stack"
+    ]
+  },
+  {
+    "key": "e0043",
+    "text": "ML Applications",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      204.90854896696325,
+      78.62585437240885,
+      40.84183737674175,
+      6.502385902916103
+    ],
+    "components": [
+      "software-stack"
+    ]
+  },
+  {
+    "key": "e0045",
+    "text": "Collective Library (e.g., NCCL)",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      185.36935654966416,
+      91.85721805178217,
+      79.33197592733356,
+      6.502385902916103
+    ],
+    "components": [
+      "software-stack"
+    ]
+  },
+  {
+    "key": "e0047",
+    "text": "uTran Layer (CC, LB, loss recovery)",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      178.25887044944645,
+      105.08859291645875,
+      93.6246571070005,
+      6.502380310264471
+    ],
+    "components": [
+      "software-stack"
+    ]
+  },
+  {
+    "key": "e0052",
+    "text": "RC",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      179.94486476648032,
+      118.76711705710612,
+      8.852037818568533,
+      6.502380310264471
+    ],
+    "components": [
+      "software-stack"
+    ]
+  },
+  {
+    "key": "e0054",
+    "text": "UC",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      201.89209638247482,
+      118.76711705710612,
+      8.861310434975167,
+      6.502380310264471
+    ],
+    "components": [
+      "software-stack"
+    ]
+  },
+  {
+    "key": "e0056",
+    "text": "UD",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      223.84663200150132,
+      118.78910736332499,
+      8.852049003871798,
+      6.502380310264471
+    ],
+    "components": [
+      "software-stack"
+    ]
+  },
+  {
+    "key": "e0058",
+    "text": "AF_XDP",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      246.3536097487831,
+      118.48490067042847,
+      23.722350429443367,
+      6.502380310264471
+    ],
+    "components": [
+      "software-stack"
+    ]
+  },
+  {
+    "key": "e0061",
+    "text": "Control header",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      82.51651106059852,
+      67.14277596395186,
+      39.15446726740629,
+      6.502385902916089
+    ],
+    "components": []
+  },
+  {
+    "key": "e0062",
+    "text": "Data payload",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      145.61294100175198,
+      67.14277596395186,
+      34.8439533922874,
+      6.502385902916089
+    ],
+    "components": []
+  },
+  {
+    "key": "e0068",
+    "text": "Network traffic",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      204.89754262855055,
+      67.0804626394629,
+      37.253524977530105,
+      6.502385902916089
+    ],
+    "components": []
+  },
+  {
+    "key": "e0070",
+    "text": "(a)",
+    "font_family": "VividSource-texgyretermes-bold",
+    "bounds": [
+      101.82981491088866,
+      158.4381103515625,
+      11.60689544677733,
+      13.0047607421875
+    ],
+    "components": []
+  },
+  {
+    "key": "e0071",
+    "text": "UCCL-Tranarchitecture.",
+    "font_family": "VividSource-texgyretermes-regular",
+    "bounds": [
+      114.52582168579099,
+      159.02923583984375,
+      91.03256225585938,
+      11.822509765625
+    ],
+    "components": []
+  },
+  {
+    "key": "e0075",
+    "text": "SHM",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      357.24580498784775,
+      142.97445111603608,
+      13.060508172001391,
+      6.502380310264471
+    ],
+    "components": [
+      "api-shm"
+    ]
+  },
+  {
+    "key": "e0081",
+    "text": "uTran engines (TX, RX, Pacer)",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      419.35262640793906,
+      71.23916405124055,
+      80.17614195004171,
+      6.502385902916089
+    ],
+    "components": [
+      "engine-pool"
+    ]
+  },
+  {
+    "key": "e0082",
+    "text": "App",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      311.79263059732824,
+      71.23916405124055,
+      11.295814061195415,
+      6.502385902916089
+    ],
+    "components": [
+      "plugin-stack"
+    ]
+  },
+  {
+    "key": "e0085",
+    "text": "…",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      523.4552953132223,
+      108.3969484254744,
+      5.7819478599767535,
+      6.502382407508833
+    ],
+    "components": [
+      "engine-pool"
+    ]
+  },
+  {
+    "key": "e0086",
+    "text": "connect()",
+    "font_family": "VividSource-Inconsolata-Regular",
+    "bounds": [
+      349.4755761451542,
+      76.55839094539805,
+      28.505644702964673,
+      5.911253810667404
+    ],
+    "components": [
+      "api-shm"
+    ]
+  },
+  {
+    "key": "e0087",
+    "text": "accept()",
+    "font_family": "VividSource-Inconsolata-Regular",
+    "bounds": [
+      351.0809300182995,
+      83.7128576580535,
+      25.48173711385016,
+      5.911253810667404
+    ],
+    "components": [
+      "api-shm"
+    ]
+  },
+  {
+    "key": "e0088",
+    "text": "regmr",
+    "font_family": "VividSource-Inconsolata-Regular",
+    "bounds": [
+      352.6826262972772,
+      90.59610313714073,
+      15.866520460863285,
+      5.911253810667404
+    ],
+    "components": [
+      "api-shm"
+    ]
+  },
+  {
+    "key": "e0089",
+    "text": "()",
+    "font_family": "VividSource-Inconsolata-Regular",
+    "bounds": [
+      368.72521461683385,
+      90.59610313714073,
+      6.254172838163868,
+      5.911253810667404
+    ],
+    "components": [
+      "api-shm"
+    ]
+  },
+  {
+    "key": "e0090",
+    "text": "deregmr",
+    "font_family": "VividSource-Inconsolata-Regular",
+    "bounds": [
+      349.4755761451542,
+      97.75058103509944,
+      22.18608258191398,
+      5.911253810667404
+    ],
+    "components": [
+      "api-shm"
+    ]
+  },
+  {
+    "key": "e0091",
+    "text": "()",
+    "font_family": "VividSource-Inconsolata-Regular",
+    "bounds": [
+      371.9322647689568,
+      97.75058103509944,
+      6.263423083963971,
+      5.911253810667404
+    ],
+    "components": [
+      "api-shm"
+    ]
+  },
+  {
+    "key": "e0092",
+    "text": "send()",
+    "font_family": "VividSource-Inconsolata-Regular",
+    "bounds": [
+      354.2879801704225,
+      104.90870534192253,
+      18.890439235281065,
+      5.911253810667404
+    ],
+    "components": [
+      "api-shm"
+    ]
+  },
+  {
+    "key": "e0093",
+    "text": "recv",
+    "font_family": "VividSource-Inconsolata-Regular",
+    "bounds": [
+      354.2879801704225,
+      111.79195082100976,
+      12.570865928927105,
+      5.911253810667404
+    ],
+    "components": [
+      "api-shm"
+    ]
+  },
+  {
+    "key": "e0094",
+    "text": "()",
+    "font_family": "VividSource-Inconsolata-Regular",
+    "bounds": [
+      367.1235239305078,
+      111.79195082100976,
+      6.254172838163868,
+      5.911253810667404
+    ],
+    "components": [
+      "api-shm"
+    ]
+  },
+  {
+    "key": "e0095",
+    "text": "flush()",
+    "font_family": "VividSource-Inconsolata-Regular",
+    "bounds": [
+      352.6826262972772,
+      118.94642871896848,
+      22.186093767217244,
+      5.911253810667404
+    ],
+    "components": [
+      "api-shm"
+    ]
+  },
+  {
+    "key": "e0096",
+    "text": "poll()",
+    "font_family": "VividSource-Inconsolata-Regular",
+    "bounds": [
+      354.2879801704225,
+      125.82600541858481,
+      18.890439235281065,
+      5.911253810667418
+    ],
+    "components": [
+      "api-shm"
+    ]
+  },
+  {
+    "key": "e0100",
+    "text": "Conn A: paths, ",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      406.14691062895224,
+      105.50877449147991,
+      40.0448621485084,
+      6.502380310264471
+    ],
+    "components": [
+      "engine-pool"
+    ]
+  },
+  {
+    "key": "e0101",
+    "text": "CC & LB states",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      405.3442197107505,
+      112.39201997056715,
+      40.017301561263594,
+      6.502380310264471
+    ],
+    "components": [
+      "engine-pool"
+    ]
+  },
+  {
+    "key": "e0105",
+    "text": "Conn B",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      415.70573657552893,
+      126.77793065294735,
+      19.789374095425956,
+      6.502380310264485
+    ],
+    "components": [
+      "engine-pool"
+    ]
+  },
+  {
+    "key": "e0108",
+    "text": "uTran Plugin",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      301.2855258252534,
+      138.0924073926403,
+      33.18953518637045,
+      6.502380310264471
+    ],
+    "components": [
+      "plugin-stack"
+    ]
+  },
+  {
+    "key": "e0110",
+    "text": "Collective Library",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      295.33140993247474,
+      108.36762615296537,
+      45.52576141605732,
+      6.502380310264471
+    ],
+    "components": [
+      "plugin-stack"
+    ]
+  },
+  {
+    "key": "e0116",
+    "text": "QP",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      399.8830625034642,
+      138.97937957094334,
+      8.810786420127442,
+      6.502380310264471
+    ],
+    "components": [
+      "engine-pool"
+    ]
+  },
+  {
+    "key": "e0119",
+    "text": "QP",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      416.6330317721021,
+      138.9353989585056,
+      8.810786420127442,
+      6.502380310264471
+    ],
+    "components": [
+      "engine-pool"
+    ]
+  },
+  {
+    "key": "e0122",
+    "text": "QP",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      442.5716605610668,
+      139.0930054741602,
+      8.810752864217648,
+      6.502380310264471
+    ],
+    "components": [
+      "engine-pool"
+    ]
+  },
+  {
+    "key": "e0123",
+    "text": "…",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      430.8979957702785,
+      138.78879318861206,
+      5.7819478599767535,
+      6.502382407508833
+    ],
+    "components": [
+      "engine-pool"
+    ]
+  },
+  {
+    "key": "e0139",
+    "text": "(b)",
+    "font_family": "VividSource-texgyretermes-bold",
+    "bounds": [
+      353.06879043579096,
+      158.619140625,
+      12.109039306640625,
+      13.0047607421875
+    ],
+    "components": []
+  },
+  {
+    "key": "e0140",
+    "text": "UCCL-Tranthreadingmodel.",
+    "font_family": "VividSource-texgyretermes-regular",
+    "bounds": [
+      366.2678260803222,
+      159.21026611328125,
+      107.23486328125,
+      11.822509765625
+    ],
+    "components": []
+  }
+]

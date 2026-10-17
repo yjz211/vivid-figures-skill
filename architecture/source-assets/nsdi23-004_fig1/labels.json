@@ -1,0 +1,864 @@
+[
+  {
+    "key": "e0015",
+    "text": "Kernel",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      89.2149963378906,
+      175.8660278320312,
+      31.572998046875,
+      15.839996337890625
+    ],
+    "components": [
+      "legacy-service"
+    ]
+  },
+  {
+    "key": "e0018",
+    "text": "RPC",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      58.697502136230455,
+      127.21200561523436,
+      22.823005676269517,
+      15.83999633789064
+    ],
+    "components": [
+      "legacy-service"
+    ]
+  },
+  {
+    "key": "e0019",
+    "text": "Library",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      53.09300231933592,
+      139.52000427246094,
+      34.55398559570311,
+      15.839981079101562
+    ],
+    "components": [
+      "legacy-service"
+    ]
+  },
+  {
+    "key": "e0024",
+    "text": "RPC",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      128.6974945068359,
+      127.21200561523436,
+      22.823013305664062,
+      15.83999633789064
+    ],
+    "components": [
+      "legacy-service"
+    ]
+  },
+  {
+    "key": "e0025",
+    "text": "Library",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      123.09300231933591,
+      139.52000427246094,
+      34.55397033691406,
+      15.839981079101562
+    ],
+    "components": [
+      "legacy-service"
+    ]
+  },
+  {
+    "key": "e0028",
+    "text": "Policies",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      120.95899963378903,
+      88.36598205566405,
+      38.342010498046875,
+      15.839996337890625
+    ],
+    "components": [
+      "legacy-service"
+    ]
+  },
+  {
+    "key": "e0045",
+    "text": "mRPC",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      214.00601196289057,
+      127.21200561523436,
+      32.20599365234375,
+      15.83999633789064
+    ],
+    "components": [
+      "managed-service"
+    ]
+  },
+  {
+    "key": "e0046",
+    "text": "Library",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      213.09298706054682,
+      139.52000427246094,
+      34.55401611328125,
+      15.839981079101562
+    ],
+    "components": [
+      "managed-service"
+    ]
+  },
+  {
+    "key": "e0050",
+    "text": "(a) Now: Library+Sidecar",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      7.903999328613267,
+      298.9570007324218,
+      164.5059814453125,
+      20.160003662109375
+    ],
+    "components": []
+  },
+  {
+    "key": "e0051",
+    "text": "(b) Our Vision: RPC as a Managed Service",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      201.0289916992187,
+      298.9570007324218,
+      278.06604003906244,
+      20.160003662109375
+    ],
+    "components": []
+  },
+  {
+    "key": "e0055",
+    "text": "M",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      45.55500030517577,
+      257.3150329589843,
+      8.332500457763672,
+      13.920000076293945
+    ],
+    "components": [
+      "legacy-path"
+    ]
+  },
+  {
+    "key": "e0058",
+    "text": "NIC",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      413.1335144042968,
+      165.86599731445307,
+      18.95098876953125,
+      15.839996337890625
+    ],
+    "components": [
+      "plugin-inset"
+    ]
+  },
+  {
+    "key": "e0066",
+    "text": "Frontend",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      302.89001464843744,
+      37.21200561523436,
+      43.936981201171875,
+      15.839996337890625
+    ],
+    "components": [
+      "managed-service"
+    ]
+  },
+  {
+    "key": "e0067",
+    "text": "Engine",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      308.1919860839843,
+      49.52000427246092,
+      33.948974609375,
+      15.839996337890625
+    ],
+    "components": [
+      "managed-service"
+    ]
+  },
+  {
+    "key": "e0073",
+    "text": "Kernel",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      406.71499633789057,
+      150.86599731445312,
+      31.573028564453125,
+      15.839996337890568
+    ],
+    "components": [
+      "plugin-inset"
+    ]
+  },
+  {
+    "key": "e0076",
+    "text": "NIC",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      413.1335144042968,
+      105.86599731445311,
+      18.95098876953125,
+      15.839996337890625
+    ],
+    "components": [
+      "plugin-inset"
+    ]
+  },
+  {
+    "key": "e0097",
+    "text": "Transport",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      301.29348754882807,
+      127.21200561523436,
+      46.828033447265625,
+      15.83999633789064
+    ],
+    "components": [
+      "managed-service"
+    ]
+  },
+  {
+    "key": "e0098",
+    "text": "Engine",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      308.1919860839843,
+      139.52000427246094,
+      33.948974609375,
+      15.839981079101562
+    ],
+    "components": [
+      "managed-service"
+    ]
+  },
+  {
+    "key": "e0101",
+    "text": "TCP",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      411.32803344726557,
+      135.86599731445312,
+      22.070953369140625,
+      15.839996337890625
+    ],
+    "components": [
+      "plugin-inset"
+    ]
+  },
+  {
+    "key": "e0104",
+    "text": "RDMA",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      406.50601196289057,
+      90.86599731445311,
+      32.5400390625,
+      15.839996337890625
+    ],
+    "components": [
+      "plugin-inset"
+    ]
+  },
+  {
+    "key": "e0107",
+    "text": "Rate Limit",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      397.64001464843744,
+      20.865997314453125,
+      49.614990234375,
+      15.83999633789061
+    ],
+    "components": [
+      "plugin-inset"
+    ]
+  },
+  {
+    "key": "e0110",
+    "text": "ACL",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      411.42703247070307,
+      50.86598205566405,
+      21.78997802734375,
+      15.839996337890625
+    ],
+    "components": [
+      "plugin-inset"
+    ]
+  },
+  {
+    "key": "e0111",
+    "text": "…",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      416.49999999999994,
+      32.886009216308594,
+      12,
+      17.280000686645494
+    ],
+    "components": [
+      "plugin-inset"
+    ]
+  },
+  {
+    "key": "e0127",
+    "text": "M",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      43.49949645996092,
+      7.789497375488281,
+      7.680000305175781,
+      12.960000991821289
+    ],
+    "components": []
+  },
+  {
+    "key": "e0130",
+    "text": "U",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      110.7510070800781,
+      7.789497375488281,
+      6.502500057220459,
+      12.960000991821289
+    ],
+    "components": []
+  },
+  {
+    "key": "e0131",
+    "text": "nmarshals",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      122.99999999999997,
+      5.865997314453125,
+      50.79399108886719,
+      15.839996337890625
+    ],
+    "components": []
+  },
+  {
+    "key": "e0132",
+    "text": "arshals",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      56.499999999999986,
+      5.865997314453125,
+      35.29501342773436,
+      15.839996337890625
+    ],
+    "components": []
+  },
+  {
+    "key": "e0140",
+    "text": "Kernel",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      269.21499633789057,
+      175.8660278320312,
+      31.573028564453125,
+      15.839996337890625
+    ],
+    "components": [
+      "managed-service"
+    ]
+  },
+  {
+    "key": "e0143",
+    "text": "NIC",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      315.6335144042968,
+      190.8660278320312,
+      18.95098876953125,
+      15.839996337890625
+    ],
+    "components": [
+      "managed-service"
+    ]
+  },
+  {
+    "key": "e0144",
+    "text": "…",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      416.49999999999994,
+      117.88600158691405,
+      12,
+      17.280000686645522
+    ],
+    "components": [
+      "plugin-inset"
+    ]
+  },
+  {
+    "key": "e0149",
+    "text": "Flexible RPC Processing Logic",
+    "font_family": "VividSource-texgyreheros-bolditalic",
+    "bounds": [
+      461.8605041503906,
+      23.44439697265625,
+      15.839996337890625,
+      156.50711059570307
+    ],
+    "components": []
+  },
+  {
+    "key": "e0152",
+    "text": "Client",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      52.66449737548827,
+      229.91149902343744,
+      34.67700958251952,
+      18.239990234375
+    ],
+    "components": [
+      "legacy-path"
+    ]
+  },
+  {
+    "key": "e0155",
+    "text": "Server",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      120.6105041503906,
+      229.91149902343744,
+      39.962982177734375,
+      18.239990234375
+    ],
+    "components": [
+      "legacy-path"
+    ]
+  },
+  {
+    "key": "e0158",
+    "text": "U",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      66.39000701904295,
+      257.3150329589843,
+      7.222500324249253,
+      13.920000076293945
+    ],
+    "components": [
+      "legacy-path"
+    ]
+  },
+  {
+    "key": "e0161",
+    "text": "M",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      85.55499267578122,
+      257.3150329589843,
+      8.332500457763672,
+      13.920000076293945
+    ],
+    "components": [
+      "legacy-path"
+    ]
+  },
+  {
+    "key": "e0164",
+    "text": "U",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      116.38999938964841,
+      257.3150329589843,
+      7.222500324249268,
+      13.920000076293945
+    ],
+    "components": [
+      "legacy-path"
+    ]
+  },
+  {
+    "key": "e0167",
+    "text": "M",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      135.55499267578122,
+      257.3150329589843,
+      8.332500457763672,
+      13.920000076293945
+    ],
+    "components": [
+      "legacy-path"
+    ]
+  },
+  {
+    "key": "e0170",
+    "text": "U",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      156.3899993896484,
+      257.3150329589843,
+      7.222500324249268,
+      13.920000076293945
+    ],
+    "components": [
+      "legacy-path"
+    ]
+  },
+  {
+    "key": "e0173",
+    "text": "M",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      290.5549926757812,
+      257.3150329589843,
+      8.332500457763672,
+      13.920000076293945
+    ],
+    "components": [
+      "new-path"
+    ]
+  },
+  {
+    "key": "e0176",
+    "text": "U",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      361.39001464843744,
+      257.3150329589843,
+      7.222500324249268,
+      13.920000076293945
+    ],
+    "components": [
+      "new-path"
+    ]
+  },
+  {
+    "key": "e0179",
+    "text": "U",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      291.39001464843744,
+      277.3150024414062,
+      7.222500324249268,
+      13.920000076293945
+    ],
+    "components": [
+      "new-path"
+    ]
+  },
+  {
+    "key": "e0182",
+    "text": "M",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      360.5549926757812,
+      277.3150024414062,
+      8.332500457763672,
+      13.920000076293945
+    ],
+    "components": [
+      "new-path"
+    ]
+  },
+  {
+    "key": "e0185",
+    "text": "Client",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      277.6644897460937,
+      229.91149902343744,
+      34.676971435546875,
+      18.239990234375
+    ],
+    "components": [
+      "new-path"
+    ]
+  },
+  {
+    "key": "e0188",
+    "text": "Server",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      345.61050415039057,
+      229.91149902343744,
+      39.9630126953125,
+      18.239990234375
+    ],
+    "components": [
+      "new-path"
+    ]
+  },
+  {
+    "key": "e0191",
+    "text": "U",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      46.38999938964842,
+      277.3150024414062,
+      7.222500324249268,
+      13.920000076293945
+    ],
+    "components": [
+      "legacy-path"
+    ]
+  },
+  {
+    "key": "e0194",
+    "text": "M",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      65.55500030517577,
+      277.3150024414062,
+      8.332500457763658,
+      13.920000076293945
+    ],
+    "components": [
+      "legacy-path"
+    ]
+  },
+  {
+    "key": "e0197",
+    "text": "U",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      86.38999938964841,
+      277.3150024414062,
+      7.222500324249268,
+      13.920000076293945
+    ],
+    "components": [
+      "legacy-path"
+    ]
+  },
+  {
+    "key": "e0200",
+    "text": "M",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      115.55499267578122,
+      277.3150024414062,
+      8.332500457763672,
+      13.920000076293945
+    ],
+    "components": [
+      "legacy-path"
+    ]
+  },
+  {
+    "key": "e0203",
+    "text": "U",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      136.3899993896484,
+      277.3150024414062,
+      7.222500324249268,
+      13.920000076293945
+    ],
+    "components": [
+      "legacy-path"
+    ]
+  },
+  {
+    "key": "e0206",
+    "text": "M",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      155.55499267578122,
+      277.3150024414062,
+      8.332500457763672,
+      13.920000076293945
+    ],
+    "components": [
+      "legacy-path"
+    ]
+  },
+  {
+    "key": "e0207",
+    "text": "Call",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      13.26699829101561,
+      255.86599731445307,
+      18.736000061035156,
+      15.839996337890625
+    ],
+    "components": [
+      "legacy-path"
+    ]
+  },
+  {
+    "key": "e0208",
+    "text": "Reply",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      4.093002319335923,
+      275.86599731445307,
+      28.647010803222656,
+      15.839996337890625
+    ],
+    "components": []
+  },
+  {
+    "key": "e0209",
+    "text": "Call",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      238.26699829101557,
+      255.86599731445307,
+      18.735992431640625,
+      15.839996337890625
+    ],
+    "components": []
+  },
+  {
+    "key": "e0210",
+    "text": "Reply",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      229.09298706054682,
+      275.86599731445307,
+      28.647003173828125,
+      15.839996337890625
+    ],
+    "components": []
+  },
+  {
+    "key": "e0231",
+    "text": "App",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      57.124504089355455,
+      102.41149902343749,
+      25.48799896240233,
+      18.240005493164062
+    ],
+    "components": [
+      "legacy-service"
+    ]
+  },
+  {
+    "key": "e0234",
+    "text": "mRPC",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      305.26599121093744,
+      7.4114990234375,
+      39.43499755859375,
+      18.240005493164062
+    ],
+    "components": [
+      "managed-service"
+    ]
+  },
+  {
+    "key": "e0237",
+    "text": "App",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      217.12448120117182,
+      102.41149902343749,
+      25.488006591796875,
+      18.240005493164062
+    ],
+    "components": [
+      "managed-service"
+    ]
+  },
+  {
+    "key": "e0240",
+    "text": "Sidecar",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      116.41149902343747,
+      57.411499023437486,
+      47.8800048828125,
+      18.240005493164062
+    ],
+    "components": [
+      "legacy-service"
+    ]
+  },
+  {
+    "key": "e0243",
+    "text": "NIC",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      130.63349914550778,
+      190.8660278320312,
+      18.951004028320312,
+      15.839996337890625
+    ],
+    "components": [
+      "legacy-service"
+    ]
+  },
+  {
+    "key": "e0248",
+    "text": "M",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      40.49949645996092,
+      150.28952026367188,
+      7.680000305175781,
+      12.960000991821232
+    ],
+    "components": [
+      "legacy-service"
+    ]
+  },
+  {
+    "key": "e0251",
+    "text": "U",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      111.2510070800781,
+      150.28952026367188,
+      6.502500057220459,
+      12.960000991821232
+    ],
+    "components": [
+      "legacy-service"
+    ]
+  },
+  {
+    "key": "e0254",
+    "text": "M",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      161.4994964599609,
+      150.28952026367188,
+      7.680000305175781,
+      12.960000991821232
+    ],
+    "components": [
+      "legacy-service"
+    ]
+  },
+  {
+    "key": "e0257",
+    "text": "M",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      290.49951171874994,
+      150.28952026367188,
+      7.680000305175781,
+      12.960000991821232
+    ],
+    "components": [
+      "managed-service"
+    ]
+  }
+]

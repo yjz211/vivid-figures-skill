@@ -1,0 +1,86 @@
+{
+  "name": "局部重复单元与共享专用阵列对照",
+  "family": "comparison",
+  "tags": [
+    "模块解耦",
+    "双架构",
+    "阵列",
+    "共享资源"
+  ],
+  "when_to_use": "比较分散配置与集中共享的硬件或资源架构；需要解释专用单元从局部内部移到共享层的方案",
+  "avoid": "两方案没有共同结构基础的任意拼图；需要通过面积大小精确表达成本而无比例数据",
+  "preserve": [
+    "左右等高对照，后方错位外框暗示多个同类集群；两侧底部缓存保持对齐。",
+    "嵌套矩形表示层级，右侧规则小方格表示执行阵列，底部黄色小块表示待用数据。",
+    "橙色双向箭头表示数据交换，黑色底部连接表示集群与更低层缓存的关系。",
+    "左侧绿色强调局部专用核，右侧粉色强调共享阵列；黄色跨两图表示共享数据，不能用作性能高低。",
+    "内部采用紧凑无衬线字，面板说明采用衬线；子单元保持相近字级，勿只放大右侧方案。"
+  ],
+  "adapt": "固定两边相同的资源名称和外框尺度，先明确唯一要比较的组织差异。 把橙色数据路径从头走一遍，确认集中后没有凭空消失的搬运步骤。 阵列方格与外层叠框分别表示内部并行和集群复制，不应混用。 若新领域没有缓存层，可改为公共物料区，但两侧必须同样处理。",
+  "visual_note": "左右等高对照，后方错位外框暗示多个同类集群；两侧底部缓存保持对齐。",
+  "parts": [
+    {
+      "id": "baseline-cluster",
+      "name": "局部重复集群",
+      "role": "component",
+      "box": [
+        0.005,
+        0.005,
+        0.45,
+        0.73
+      ],
+      "meaning": "专用功能分散在多个通用核心内。",
+      "reuse": "替换共同核心结构，保留重复关系以支持比较。"
+    },
+    {
+      "id": "local-core",
+      "name": "单个局部执行核心",
+      "role": "component",
+      "box": [
+        0.025,
+        0.085,
+        0.21,
+        0.46
+      ],
+      "meaning": "展示运算、寄存器与局部资源的包含关系。",
+      "reuse": "先确定局部专用功能究竟通过哪个接口取数。"
+    },
+    {
+      "id": "disaggregated-cluster",
+      "name": "共享资源集群",
+      "role": "component",
+      "box": [
+        0.48,
+        0.005,
+        0.46,
+        0.73
+      ],
+      "meaning": "通用核心与集中专用区域并列。",
+      "reuse": "改变集中位置时同步重画共享存储和访问关系。"
+    },
+    {
+      "id": "specialized-array",
+      "name": "专用阵列与共享数据",
+      "role": "component",
+      "box": [
+        0.635,
+        0.085,
+        0.28,
+        0.62
+      ],
+      "meaning": "二维执行阵列连接下方共享存储，展示集中后的内部组织。",
+      "reuse": "方格数量可为示意，但若用来表达容量必须按真实规模绘制。"
+    }
+  ],
+  "selection_evidence": {
+    "candidate_index": 8,
+    "semantics_read": true,
+    "preview_reviewed": true,
+    "source_render_reviewed": true,
+    "render": "source-renders/8.png"
+  },
+  "implementation": "source-derived editable SVG",
+  "validation_status": "source-fidelity-checked",
+  "id": "architecture.source.asplos25-110_fig1",
+  "display_code": "VA-039"
+}

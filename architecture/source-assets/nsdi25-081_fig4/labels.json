@@ -1,0 +1,1184 @@
+[
+  {
+    "key": "e0007",
+    "text": "2023/9/20",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      -386.93485079805214,
+      416.726790719601,
+      55.9566666781011,
+      15.848960677603827
+    ],
+    "components": []
+  },
+  {
+    "key": "e0010",
+    "text": "RX / TX",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      23.003168067065417,
+      12.796072356897639,
+      25.32932212902233,
+      10.728529793341295
+    ],
+    "components": [
+      "packet-loop"
+    ]
+  },
+  {
+    "key": "e0011",
+    "text": "MAC",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      26.937329180378583,
+      23.30909106961917,
+      16.95780720905168,
+      10.728529793341295
+    ],
+    "components": [
+      "packet-loop"
+    ]
+  },
+  {
+    "key": "e0013",
+    "text": "𝑪",
+    "font_family": "VividSource-STIXTwoMath-Regular",
+    "bounds": [
+      154.92956673369918,
+      77.22864943007153,
+      7.314904687616263,
+      9.997036093747738
+    ],
+    "components": [
+      "execution-cores"
+    ]
+  },
+  {
+    "key": "e0014",
+    "text": "𝟏",
+    "font_family": "VividSource-STIXTwoMath-Regular",
+    "bounds": [
+      161.2242778758373,
+      81.27750299251056,
+      3.6269736133590413,
+      7.314904687616263
+    ],
+    "components": [
+      "execution-cores"
+    ]
+  },
+  {
+    "key": "e0015",
+    "text": "…",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      155.24646340470645,
+      101.1808951075509,
+      9.330313278934227,
+      15.848959635399979
+    ],
+    "components": [
+      "execution-cores"
+    ]
+  },
+  {
+    "key": "e0018",
+    "text": "Dispatcher",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      76.59552444485598,
+      18.063520684852847,
+      37.62092424153525,
+      10.728529793341295
+    ],
+    "components": [
+      "packet-loop"
+    ]
+  },
+  {
+    "key": "e0021",
+    "text": "Cores",
+    "font_family": "VividSource-Carlito-BoldItalic",
+    "bounds": [
+      148.74417860645917,
+      49.476245041310904,
+      23.00185581916594,
+      12.191517192528408
+    ],
+    "components": [
+      "execution-cores"
+    ]
+  },
+  {
+    "key": "e0024",
+    "text": "Foreground",
+    "font_family": "VividSource-Carlito-BoldItalic",
+    "bounds": [
+      142.1871989502397,
+      63.571676899642625,
+      36.39162395808671,
+      9.265542394154181
+    ],
+    "components": [
+      "execution-cores"
+    ]
+  },
+  {
+    "key": "e0026",
+    "text": "𝑪",
+    "font_family": "VividSource-STIXTwoMath-Regular",
+    "bounds": [
+      154.92956673369918,
+      94.7466787270605,
+      7.314904687616263,
+      9.997036093747738
+    ],
+    "components": [
+      "execution-cores"
+    ]
+  },
+  {
+    "key": "e0027",
+    "text": "𝟐",
+    "font_family": "VividSource-STIXTwoMath-Regular",
+    "bounds": [
+      161.2242778758373,
+      98.79556564002269,
+      3.6574523438081314,
+      7.314904687616263
+    ],
+    "components": [
+      "execution-cores"
+    ]
+  },
+  {
+    "key": "e0029",
+    "text": "𝑪",
+    "font_family": "VividSource-STIXTwoMath-Regular",
+    "bounds": [
+      154.9623836484825,
+      126.08903347966407,
+      7.314904687616263,
+      9.997036093747738
+    ],
+    "components": [
+      "execution-cores"
+    ]
+  },
+  {
+    "key": "e0030",
+    "text": "𝒃",
+    "font_family": "VividSource-STIXTwoMath-Regular",
+    "bounds": [
+      161.2570280895743,
+      130.13792039262626,
+      4.244168556330578,
+      7.314904687616263
+    ],
+    "components": [
+      "execution-cores"
+    ]
+  },
+  {
+    "key": "e0035",
+    "text": "Memory",
+    "font_family": "VividSource-Carlito-BoldItalic",
+    "bounds": [
+      200.88305248416145,
+      49.476245041310904,
+      35.518507261920604,
+      12.191517192528408
+    ],
+    "components": [
+      "shared-memory"
+    ]
+  },
+  {
+    "key": "e0040",
+    "text": "on",
+    "font_family": "VividSource-Carlito-BoldItalic",
+    "bounds": [
+      207.44003214038094,
+      63.54979895645374,
+      7.946095646620961,
+      9.265542394154181
+    ],
+    "components": [
+      "shared-memory"
+    ]
+  },
+  {
+    "key": "e0041",
+    "text": "-",
+    "font_family": "VividSource-Carlito-BoldItalic",
+    "bounds": [
+      215.30842106805358,
+      63.54979895645374,
+      2.331625745415977,
+      9.265545520765727
+    ],
+    "components": [
+      "shared-memory"
+    ]
+  },
+  {
+    "key": "e0042",
+    "text": "chip",
+    "font_family": "VividSource-Carlito-BoldItalic",
+    "bounds": [
+      217.66897109687852,
+      63.54979895645374,
+      13.059397856559372,
+      9.265542394154181
+    ],
+    "components": [
+      "shared-memory"
+    ]
+  },
+  {
+    "key": "e0043",
+    "text": "Background",
+    "font_family": "VividSource-Carlito-BoldItalic",
+    "bounds": [
+      141.58608912091586,
+      149.15118704469205,
+      37.444700077190646,
+      9.265542394154181
+    ],
+    "components": [
+      "execution-cores"
+    ]
+  },
+  {
+    "key": "e0046",
+    "text": "Counter",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      206.8389890121034,
+      94.12719275947893,
+      24.69379455980379,
+      9.265542394154181
+    ],
+    "components": [
+      "shared-memory"
+    ]
+  },
+  {
+    "key": "e0049",
+    "text": "Table",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      208.30347718483245,
+      76.71841977634176,
+      16.910649569312227,
+      9.265542394154181
+    ],
+    "components": [
+      "shared-memory"
+    ]
+  },
+  {
+    "key": "e0050",
+    "text": "1",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      226.95802560985612,
+      76.71841977634176,
+      3.8708037175026675,
+      9.265545520765727
+    ],
+    "components": [
+      "shared-memory"
+    ]
+  },
+  {
+    "key": "e0055",
+    "text": "Reorder",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      158.4703917769366,
+      18.063520684852847,
+      28.186728251792374,
+      10.728529793341295
+    ],
+    "components": [
+      "packet-loop"
+    ]
+  },
+  {
+    "key": "e0058",
+    "text": "Traffic",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      210.71852196849068,
+      12.796072356897639,
+      22.528745297706337,
+      10.728529793341295
+    ],
+    "components": [
+      "packet-loop"
+    ]
+  },
+  {
+    "key": "e0059",
+    "text": "Manager",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      206.2380125848722,
+      23.30909106961917,
+      31.74409515451407,
+      10.728529793341295
+    ],
+    "components": [
+      "packet-loop"
+    ]
+  },
+  {
+    "key": "e0063",
+    "text": "P4 Code",
+    "font_family": "VividSource-Carlito-BoldItalic",
+    "bounds": [
+      48.313080191612244,
+      49.94622061359405,
+      32.971594509712304,
+      12.191517192528408
+    ],
+    "components": [
+      "code-programs"
+    ]
+  },
+  {
+    "key": "e0068",
+    "text": "… ",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      7.97675635489577,
+      58.90527169996494,
+      7.229826460847107,
+      9.265542394154181
+    ],
+    "components": [
+      "code-programs"
+    ]
+  },
+  {
+    "key": "e0069",
+    "text": "control ",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      7.97675635489577,
+      66.24909024895169,
+      24.525140964215097,
+      9.265542394154181
+    ],
+    "components": [
+      "code-programs"
+    ]
+  },
+  {
+    "key": "e0070",
+    "text": "ingress1",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      32.3687286801578,
+      66.24909024895169,
+      25.34279574037646,
+      9.265542394154181
+    ],
+    "components": [
+      "code-programs"
+    ]
+  },
+  {
+    "key": "e0071",
+    "text": "{",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      59.94084014074906,
+      66.24909024895169,
+      2.617364169064899,
+      9.265545520765727
+    ],
+    "components": [
+      "code-programs"
+    ]
+  },
+  {
+    "key": "e0072",
+    "text": "if ",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      15.058306389801146,
+      75.16658658347296,
+      5.926254562335089,
+      9.265542394154181
+    ],
+    "components": [
+      "code-programs"
+    ]
+  },
+  {
+    "key": "e0073",
+    "text": "(",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      21.35295083089295,
+      75.16658658347296,
+      2.3697242887528205,
+      9.265545520765727
+    ],
+    "components": [
+      "code-programs"
+    ]
+  },
+  {
+    "key": "e0074",
+    "text": "!",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      25.287178645252425,
+      75.16658658347296,
+      2.4802098820439937,
+      9.265545520765727
+    ],
+    "components": [
+      "code-programs"
+    ]
+  },
+  {
+    "key": "e0075",
+    "text": "table1.",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      29.48360827264696,
+      75.16658658347296,
+      22.205878883054538,
+      9.265542394154181
+    ],
+    "components": [
+      "code-programs"
+    ]
+  },
+  {
+    "key": "e0076",
+    "text": "apply().hit ",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      51.810149348471896,
+      75.16658658347296,
+      33.393778782316076,
+      9.265542394154181
+    ],
+    "components": [
+      "code-programs"
+    ]
+  },
+  {
+    "key": "e0077",
+    "text": ")",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      85.11958465773205,
+      75.16658658347296,
+      2.3697242887528773,
+      9.265545520765727
+    ],
+    "components": [
+      "code-programs"
+    ]
+  },
+  {
+    "key": "e0078",
+    "text": "counter.count",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      22.13982307418337,
+      84.34635143207561,
+      43.308922666459694,
+      9.265542394154181
+    ],
+    "components": [
+      "code-programs"
+    ]
+  },
+  {
+    "key": "e0079",
+    "text": "();",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      65.44867903959675,
+      84.34635143207561,
+      6.766787797379948,
+      9.265542394154181
+    ],
+    "components": [
+      "code-programs"
+    ]
+  },
+  {
+    "key": "e0080",
+    "text": "} …",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      7.97675635489577,
+      91.97431643833261,
+      9.863317171162635,
+      9.265542394154181
+    ],
+    "components": [
+      "code-programs"
+    ]
+  },
+  {
+    "key": "e0081",
+    "text": "Pipeline",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      7.97675635489577,
+      99.31813498731935,
+      25.567144709631975,
+      9.265542394154181
+    ],
+    "components": [
+      "code-programs"
+    ]
+  },
+  {
+    "key": "e0082",
+    "text": "(",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      33.680104601087805,
+      99.31813498731935,
+      2.3697242887528205,
+      9.265545520765727
+    ],
+    "components": [
+      "code-programs"
+    ]
+  },
+  {
+    "key": "e0083",
+    "text": "parser",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      36.040587928866444,
+      99.31813498731935,
+      19.461164178021136,
+      9.265542394154181
+    ],
+    "components": [
+      "code-programs"
+    ]
+  },
+  {
+    "key": "e0084",
+    "text": ", ingress1",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      55.482075298226846,
+      99.31813498731935,
+      29.526118612171558,
+      9.265542394154181
+    ],
+    "components": [
+      "code-programs"
+    ]
+  },
+  {
+    "key": "e0085",
+    "text": ", ",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      85.11958465773205,
+      99.31813498731935,
+      3.5580339131847722,
+      9.265542394154181
+    ],
+    "components": [
+      "code-programs"
+    ]
+  },
+  {
+    "key": "e0086",
+    "text": "deparser1",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      89.05377912156837,
+      99.31813498731935,
+      30.864942013657128,
+      9.265542394154181
+    ],
+    "components": [
+      "code-programs"
+    ]
+  },
+  {
+    "key": "e0087",
+    "text": ")",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      120.00269775252673,
+      99.31813498731935,
+      2.3697242887528773,
+      9.265545520765727
+    ],
+    "components": [
+      "code-programs"
+    ]
+  },
+  {
+    "key": "e0088",
+    "text": "foreground",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      57.842558626005484,
+      106.66192018578295,
+      36.04501197094942,
+      9.265542394154181
+    ],
+    "components": [
+      "code-programs"
+    ]
+  },
+  {
+    "key": "e0089",
+    "text": "_pipe",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      93.793255317476,
+      106.66192018578295,
+      17.394899165505194,
+      9.265542394154181
+    ],
+    "components": [
+      "code-programs"
+    ]
+  },
+  {
+    "key": "e0090",
+    "text": ";",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      111.08523476852861,
+      106.66192018578295,
+      2.0382676391548102,
+      9.265545520765727
+    ],
+    "components": [
+      "code-programs"
+    ]
+  },
+  {
+    "key": "e0091",
+    "text": "control ",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      7.97675635489577,
+      118.70492749870755,
+      24.525140964215097,
+      9.265542394154181
+    ],
+    "components": [
+      "code-programs"
+    ]
+  },
+  {
+    "key": "e0092",
+    "text": "ingress2",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      32.3687286801578,
+      118.70492749870755,
+      25.34279574037646,
+      9.265542394154181
+    ],
+    "components": [
+      "code-programs"
+    ]
+  },
+  {
+    "key": "e0093",
+    "text": "{",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      59.94084014074906,
+      118.70492749870755,
+      2.617364169064899,
+      9.265545520765727
+    ],
+    "components": [
+      "code-programs"
+    ]
+  },
+  {
+    "key": "e0094",
+    "text": "sleep.ms(100",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      13.222326739662094,
+      127.62242383322882,
+      40.83651498297695,
+      9.265542394154181
+    ],
+    "components": [
+      "code-programs"
+    ]
+  },
+  {
+    "key": "e0095",
+    "text": "); counter.clear",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      54.17066602677369,
+      127.62242383322882,
+      47.22337362058897,
+      9.265542394154181
+    ],
+    "components": [
+      "code-programs"
+    ]
+  },
+  {
+    "key": "e0096",
+    "text": "();  ",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      101.38089954124007,
+      127.62242383322882,
+      11.13073710257595,
+      9.265542394154181
+    ],
+    "components": [
+      "code-programs"
+    ]
+  },
+  {
+    "key": "e0097",
+    "text": "} …",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      7.97675635489577,
+      135.2285442468201,
+      9.863317171162635,
+      9.265542394154181
+    ],
+    "components": [
+      "code-programs"
+    ]
+  },
+  {
+    "key": "e0098",
+    "text": "Pipeline",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      7.97675635489577,
+      142.57236279580684,
+      25.567144709631975,
+      9.265542394154181
+    ],
+    "components": [
+      "code-programs"
+    ]
+  },
+  {
+    "key": "e0099",
+    "text": "( ",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      35.5160509007037,
+      142.57236279580684,
+      4.082604291870666,
+      9.265542394154181
+    ],
+    "components": [
+      "code-programs"
+    ]
+  },
+  {
+    "key": "e0100",
+    "text": "ingress2, deparser2 ",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      39.450245364540024,
+      142.57236279580684,
+      61.992752850812394,
+      9.265542394154181
+    ],
+    "components": [
+      "code-programs"
+    ]
+  },
+  {
+    "key": "e0101",
+    "text": ")",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      102.1678384855768,
+      142.57236279580684,
+      2.3697242887528773,
+      9.265545520765727
+    ],
+    "components": [
+      "code-programs"
+    ]
+  },
+  {
+    "key": "e0102",
+    "text": "background",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      57.842558626005484,
+      149.91611464374728,
+      37.63202996574546,
+      9.265542394154181
+    ],
+    "components": [
+      "code-programs"
+    ]
+  },
+  {
+    "key": "e0103",
+    "text": "_pipe",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      95.36699980405683,
+      149.91611464374728,
+      17.40650514756271,
+      9.265542394154181
+    ],
+    "components": [
+      "code-programs"
+    ]
+  },
+  {
+    "key": "e0104",
+    "text": ";",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      112.65891255406314,
+      149.91611464374728,
+      2.0458873217670543,
+      9.265545520765727
+    ],
+    "components": [
+      "code-programs"
+    ]
+  },
+  {
+    "key": "e0105",
+    "text": "𝑪",
+    "font_family": "VividSource-STIXTwoMath-Regular",
+    "bounds": [
+      102.47372948394332,
+      77.26343402572093,
+      5.60809369805952,
+      7.558734531208984
+    ],
+    "components": [
+      "code-programs"
+    ]
+  },
+  {
+    "key": "e0106",
+    "text": "𝟏",
+    "font_family": "VividSource-STIXTwoMath-Regular",
+    "bounds": [
+      107.22751305428392,
+      80.5439248852199,
+      2.720230210019281,
+      5.364263333364875
+    ],
+    "components": [
+      "code-programs"
+    ]
+  },
+  {
+    "key": "e0107",
+    "text": "𝑪",
+    "font_family": "VividSource-STIXTwoMath-Regular",
+    "bounds": [
+      88.08121116535767,
+      87.19725420283066,
+      5.60809369805952,
+      7.558734531208984
+    ],
+    "components": [
+      "code-programs"
+    ]
+  },
+  {
+    "key": "e0108",
+    "text": "𝟐",
+    "font_family": "VividSource-STIXTwoMath-Regular",
+    "bounds": [
+      92.80227787248441,
+      90.47774506232963,
+      2.6821316666823805,
+      5.364263333364875
+    ],
+    "components": [
+      "code-programs"
+    ]
+  },
+  {
+    "key": "e0109",
+    "text": "𝑪",
+    "font_family": "VividSource-STIXTwoMath-Regular",
+    "bounds": [
+      113.01956511144817,
+      138.26517608101858,
+      5.60809369805952,
+      7.558734531208984
+    ],
+    "components": [
+      "code-programs"
+    ]
+  },
+  {
+    "key": "e0110",
+    "text": "𝒃",
+    "font_family": "VividSource-STIXTwoMath-Regular",
+    "bounds": [
+      117.74059846805176,
+      141.54566694051755,
+      3.1850315007452537,
+      5.364263333364875
+    ],
+    "components": [
+      "code-programs"
+    ]
+  },
+  {
+    "key": "e0113",
+    "text": "Other ",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      210.4562534544093,
+      117.1531276563619,
+      19.55081038425851,
+      9.265542394154181
+    ],
+    "components": [
+      "shared-memory"
+    ]
+  },
+  {
+    "key": "e0114",
+    "text": "Tables & ",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      205.73528679885203,
+      126.33289250496455,
+      28.708530537056504,
+      9.265542394154181
+    ],
+    "components": [
+      "shared-memory"
+    ]
+  },
+  {
+    "key": "e0115",
+    "text": "Counters",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      205.47295158372435,
+      135.5126573535672,
+      27.61916904876125,
+      9.265542394154181
+    ],
+    "components": [
+      "shared-memory"
+    ]
+  },
+  {
+    "key": "e0116",
+    "text": "off",
+    "font_family": "VividSource-Carlito-BoldItalic",
+    "bounds": [
+      207.34171479812358,
+      149.15118704469205,
+      9.21628367145604,
+      9.265542394154181
+    ],
+    "components": [
+      "shared-memory"
+    ]
+  },
+  {
+    "key": "e0117",
+    "text": "-",
+    "font_family": "VividSource-Carlito-BoldItalic",
+    "bounds": [
+      215.99690926804033,
+      149.15118704469205,
+      2.331625745415977,
+      9.265545520765727
+    ],
+    "components": [
+      "shared-memory"
+    ]
+  },
+  {
+    "key": "e0118",
+    "text": "chip",
+    "font_family": "VividSource-Carlito-BoldItalic",
+    "bounds": [
+      218.35739259581896,
+      149.15118704469205,
+      13.082209614396561,
+      9.265542394154181
+    ],
+    "components": [
+      "shared-memory"
+    ]
+  },
+  {
+    "key": "e0122",
+    "text": "…",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      155.24646340470645,
+      134.096927645689,
+      9.330313278934227,
+      15.848959635399979
+    ],
+    "components": [
+      "execution-cores"
+    ]
+  },
+  {
+    "key": "e0127",
+    "text": "Select ",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      98.3646782272117,
+      32.62272491816111,
+      20.068076998373726,
+      9.265542394154181
+    ],
+    "components": [
+      "packet-loop"
+    ]
+  },
+  {
+    "key": "e0128",
+    "text": "an Idle ",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      119.08475795324193,
+      32.62272491816111,
+      22.51707261460251,
+      9.265542394154181
+    ],
+    "components": [
+      "packet-loop"
+    ]
+  },
+  {
+    "key": "e0129",
+    "text": "foreground core",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      89.44721524321358,
+      39.179704574380594,
+      50.44279967219336,
+      9.265542394154181
+    ],
+    "components": [
+      "packet-loop"
+    ]
+  },
+  {
+    "key": "e0130",
+    "text": "Packets from",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      179.43086207385932,
+      32.62272491816111,
+      40.40309158407035,
+      9.265542394154181
+    ],
+    "components": [
+      "packet-loop"
+    ]
+  },
+  {
+    "key": "e0131",
+    "text": "cores",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      179.43086207385932,
+      39.179704574380594,
+      16.354629647292313,
+      9.265542394154181
+    ],
+    "components": [
+      "packet-loop"
+    ]
+  },
+  {
+    "key": "e0133",
+    "text": "R",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      187.61608097149292,
+      70.6531602335017,
+      4.1451125520954974,
+      9.265545520765727
+    ],
+    "components": []
+  },
+  {
+    "key": "e0135",
+    "text": "R&W",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      182.5017115448136,
+      87.43907884621876,
+      16.27725643357553,
+      9.265542394154181
+    ],
+    "components": []
+  },
+  {
+    "key": "e0137",
+    "text": "W",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      185.9844399767171,
+      131.79704221848078,
+      7.071074322921618,
+      9.265545520765727
+    ],
+    "components": []
+  },
+  {
+    "key": "e0139",
+    "text": "Rx Pkts.",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      4.731016740523046,
+      33.31121311814786,
+      23.992833264157525,
+      9.265542394154181
+    ],
+    "components": [
+      "packet-loop"
+    ]
+  },
+  {
+    "key": "e0141",
+    "text": "Tx Pkts.",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      4.731016740523046,
+      3.0398103650586563,
+      23.453121747959813,
+      9.265542394154181
+    ],
+    "components": [
+      "packet-loop"
+    ]
+  }
+]

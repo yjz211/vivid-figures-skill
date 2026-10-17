@@ -1,0 +1,424 @@
+[
+  {
+    "key": "e0004",
+    "text": "Internal Service Interface",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      63.88107650682922,
+      117.73832412288263,
+      85.20159574482294,
+      10.0282154375127
+    ],
+    "components": [
+      "agent-interface"
+    ]
+  },
+  {
+    "key": "e0007",
+    "text": "Klonet Worker",
+    "font_family": "VividSource-Carlito-BoldItalic",
+    "bounds": [
+      14.726599061088557,
+      116.21878827926272,
+      45.28088670675424,
+      9.073145694800814
+    ],
+    "components": [
+      "agent-interface"
+    ]
+  },
+  {
+    "key": "e0010",
+    "text": "Internal Service Interface",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      58.00587686007019,
+      113.9684049548109,
+      85.20158536884627,
+      10.0282154375127
+    ],
+    "components": [
+      "agent-interface"
+    ]
+  },
+  {
+    "key": "e0013",
+    "text": "Klonet Worker",
+    "font_family": "VividSource-Carlito-BoldItalic",
+    "bounds": [
+      8.851399414329528,
+      112.4325476998865,
+      45.28088670675424,
+      9.073145694800814
+    ],
+    "components": [
+      "agent-interface"
+    ]
+  },
+  {
+    "key": "e0018",
+    "text": "External Service Interface",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      72.63268365454677,
+      5.147999452276963,
+      86.70300994518583,
+      10.0282154375127
+    ],
+    "components": [
+      "external-interface"
+    ]
+  },
+  {
+    "key": "e0024",
+    "text": "User Register/Login",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      42.35908561882978,
+      35.188195080753744,
+      54.20612026010666,
+      8.356842739268359
+    ],
+    "components": [
+      "local-executor"
+    ]
+  },
+  {
+    "key": "e0025",
+    "text": "Local Task ",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      41.753880839514736,
+      25.96740701989802,
+      30.155202953905246,
+      8.356842739268345
+    ],
+    "components": [
+      "local-executor"
+    ]
+  },
+  {
+    "key": "e0026",
+    "text": "Executor",
+    "font_family": "VividSource-Carlito-BoldItalic",
+    "bounds": [
+      71.92548821253784,
+      25.96740701989802,
+      24.71930140747007,
+      8.356842739268345
+    ],
+    "components": [
+      "local-executor"
+    ]
+  },
+  {
+    "key": "e0029",
+    "text": "Internal Service Interface",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      54.157084705328984,
+      110.28008246728493,
+      85.2015749928696,
+      10.0282154375127
+    ],
+    "components": [
+      "agent-interface"
+    ]
+  },
+  {
+    "key": "e0030",
+    "text": "Control Flow",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      187.24667655932896,
+      102.4755633422246,
+      35.164371707765866,
+      8.356842739268359
+    ],
+    "components": []
+  },
+  {
+    "key": "e0031",
+    "text": "Data Flow",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      187.24667655932896,
+      112.28388589412359,
+      27.592357467963666,
+      8.356845333262527
+    ],
+    "components": []
+  },
+  {
+    "key": "e0034",
+    "text": "Klonet Controller",
+    "font_family": "VividSource-Carlito-BoldItalic",
+    "bounds": [
+      4.885641468563101,
+      3.5590950166188122,
+      52.94572443386095,
+      9.073148288794982
+    ],
+    "components": []
+  },
+  {
+    "key": "e0037",
+    "text": "Klonet Agent",
+    "font_family": "VividSource-Carlito-BoldItalic",
+    "bounds": [
+      7.284678816795342,
+      108.76054662366502,
+      40.71650494487675,
+      9.073148288794982
+    ],
+    "components": []
+  },
+  {
+    "key": "e0039",
+    "text": "Scene Uploading",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      46.27588192467691,
+      47.706997702666726,
+      46.077351864057604,
+      8.356842739268359
+    ],
+    "components": [
+      "local-executor"
+    ]
+  },
+  {
+    "key": "e0045",
+    "text": "Get Scene List",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      151.60108780548578,
+      35.25620960783634,
+      38.83213419751701,
+      8.356842739268359
+    ],
+    "components": [
+      "local-executor"
+    ]
+  },
+  {
+    "key": "e0048",
+    "text": "Cluster Task ",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      8.916679871559147,
+      62.85061114320432,
+      35.512464973146045,
+      8.356842739268359
+    ],
+    "components": []
+  },
+  {
+    "key": "e0049",
+    "text": "Dispatcher",
+    "font_family": "VividSource-Carlito-BoldItalic",
+    "bounds": [
+      44.52828211381437,
+      62.85061114320432,
+      30.4897244417989,
+      8.356842739268359
+    ],
+    "components": []
+  },
+  {
+    "key": "e0051",
+    "text": "Scene Loading",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      85.8654779831886,
+      72.26860501668124,
+      39.46491313483692,
+      8.356842739268359
+    ],
+    "components": [
+      "cluster-dispatch"
+    ]
+  },
+  {
+    "key": "e0053",
+    "text": "Network Embedding",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      13.094598006324752,
+      72.26860501668124,
+      56.573005050627664,
+      8.356842739268359
+    ],
+    "components": [
+      "cluster-dispatch"
+    ]
+  },
+  {
+    "key": "e0056",
+    "text": "Data",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      215.77270591211342,
+      46.66201234011258,
+      16.014967209468495,
+      10.0282154375127
+    ],
+    "components": [
+      "data-interface"
+    ]
+  },
+  {
+    "key": "e0057",
+    "text": "Inter",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      214.35150838739898,
+      56.47440746285518,
+      16.358329029486384,
+      10.0282154375127
+    ],
+    "components": [
+      "data-interface"
+    ]
+  },
+  {
+    "key": "e0058",
+    "text": "-",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      230.73947120625957,
+      56.47440746285518,
+      2.4995920730295325,
+      10.028214140515615
+    ],
+    "components": [
+      "data-interface"
+    ]
+  },
+  {
+    "key": "e0059",
+    "text": "face",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      216.71789513103974,
+      66.26640341546134,
+      14.119836574300251,
+      10.0282154375127
+    ],
+    "components": [
+      "data-interface"
+    ]
+  },
+  {
+    "key": "e0061",
+    "text": "Get User List",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      106.02068815612799,
+      35.25620960783634,
+      35.24250281210334,
+      8.356842739268359
+    ],
+    "components": [
+      "local-executor"
+    ]
+  },
+  {
+    "key": "e0063",
+    "text": "Get Node List",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      105.27269437384618,
+      47.706997702666726,
+      37.36523049556399,
+      8.356842739268359
+    ],
+    "components": [
+      "local-executor"
+    ]
+  },
+  {
+    "key": "e0065",
+    "text": "...",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      168.39707553098194,
+      47.55739687101503,
+      5.139636284529843,
+      8.356842739268359
+    ],
+    "components": [
+      "local-executor"
+    ]
+  },
+  {
+    "key": "e0067",
+    "text": "Node/Link Configuration",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      10.711879475402831,
+      84.86900950712833,
+      67.94134013114262,
+      8.356847927256695
+    ],
+    "components": [
+      "cluster-dispatch"
+    ]
+  },
+  {
+    "key": "e0069",
+    "text": "Cluster Monitor",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      144.0803101384881,
+      72.26860501668124,
+      43.72206222746718,
+      8.356842739268359
+    ],
+    "components": [
+      "cluster-dispatch"
+    ]
+  },
+  {
+    "key": "e0071",
+    "text": "Terminal Relay",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      85.49147590405936,
+      84.86900950712833,
+      40.9300736727091,
+      8.356847927256695
+    ],
+    "components": [
+      "cluster-dispatch"
+    ]
+  },
+  {
+    "key": "e0073",
+    "text": "Traffic Generator",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      133.0166759889125,
+      84.86900950712833,
+      47.5352129023413,
+      8.356847927256695
+    ],
+    "components": [
+      "cluster-dispatch"
+    ]
+  },
+  {
+    "key": "e0075",
+    "text": "...",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      187.58667656290524,
+      84.86900950712833,
+      5.139657036483186,
+      8.356847927256695
+    ],
+    "components": [
+      "cluster-dispatch"
+    ]
+  }
+]

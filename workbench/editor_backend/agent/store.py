@@ -62,6 +62,7 @@ def init():
         CREATE TABLE IF NOT EXISTS events(seq INTEGER PRIMARY KEY AUTOINCREMENT,run TEXT REFERENCES runs(id),body TEXT,created REAL);
         CREATE TABLE IF NOT EXISTS effects(id TEXT PRIMARY KEY,body TEXT);
         ''')
+        if 'domain' not in {r[1] for r in db.execute('PRAGMA table_info(sessions)')}:db.execute("ALTER TABLE sessions ADD COLUMN domain TEXT NOT NULL DEFAULT 'data'")
 
 def require(db, table, key):
     # Table names are exclusively internal literals.
@@ -69,14 +70,15 @@ def require(db, table, key):
     if row is None: raise ValueError('记录不存在。')
     return dict(row)
 
-def create_session(name='新的绘图项目'):
+def create_session(name='新的绘图项目',domain='data'):
+    if domain not in ['data','architecture']:raise ValueError('工作区类型无效。')
     key=ident();now=time.time()
-    with connection() as db: db.execute('INSERT INTO sessions VALUES(?,?,?,?)',(key,str(name)[:100],now,now))
+    with connection() as db: db.execute('INSERT INTO sessions(id,name,created,updated,domain) VALUES(?,?,?,?,?)',(key,str(name)[:100],now,now,domain))
     return session(key)
 
-def sessions():
+def sessions(domain=None):
     with connection() as db:
-        return [dict(r) for r in db.execute('SELECT s.*, (SELECT count(*) FROM charts c WHERE c.session=s.id) chart_count FROM sessions s ORDER BY updated DESC')]
+        return [dict(r) for r in db.execute('SELECT s.*, (SELECT count(*) FROM charts c WHERE c.session=s.id) chart_count FROM sessions s WHERE (? IS NULL OR s.domain=?) ORDER BY updated DESC',(domain,domain))]
 
 def session(key):
     with connection() as db:

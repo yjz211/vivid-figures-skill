@@ -1,0 +1,339 @@
+[
+  {
+    "key": "e0006",
+    "text": "Pod N",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      261.62070881202817,
+      27.403788543320843,
+      50.85467430122662,
+      19.683188767863612
+    ],
+    "components": [
+      "runtime-pods"
+    ]
+  },
+  {
+    "key": "e0013",
+    "text": "Warm Standby Pods",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      515.0446792636212,
+      57.73153627006104,
+      143.21527105475252,
+      15.465361065231264
+    ],
+    "components": [
+      "standby-pool"
+    ]
+  },
+  {
+    "key": "e0018",
+    "text": "Robust Agent",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      166.40854829922318,
+      248.2440144704742,
+      93.64432370346913,
+      15.465361065231264
+    ],
+    "components": [
+      "runtime-pods",
+      "local-agent"
+    ]
+  },
+  {
+    "key": "e0019",
+    "text": "Pod 0",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      199.10878777131438,
+      90.9079622989666,
+      47.95491910149576,
+      19.683210301125655
+    ],
+    "components": [
+      "runtime-pods"
+    ]
+  },
+  {
+    "key": "e0022",
+    "text": "Monitor",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      22.068853367120028,
+      197.4407185324817,
+      52.309052352859,
+      15.465361065231264
+    ],
+    "components": [
+      "runtime-pods",
+      "diagnostic-suite"
+    ]
+  },
+  {
+    "key": "e0025",
+    "text": "Diagnoser",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      84.04054792970419,
+      197.4407185324817,
+      70.203128510635,
+      15.465361065231264
+    ],
+    "components": [
+      "runtime-pods",
+      "diagnostic-suite"
+    ]
+  },
+  {
+    "key": "e0031",
+    "text": "On-demand Tracer",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      272.8441895209253,
+      197.4407185324817,
+      130.78846859637997,
+      15.465361065231264
+    ],
+    "components": [
+      "runtime-pods",
+      "diagnostic-suite"
+    ]
+  },
+  {
+    "key": "e0034",
+    "text": "CKPT Manager",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      162.84746355563402,
+      197.4407185324817,
+      101.71524871625297,
+      15.465361065231264
+    ],
+    "components": [
+      "runtime-pods",
+      "diagnostic-suite"
+    ]
+  },
+  {
+    "key": "e0039",
+    "text": "GPU",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      93.94102501869202,
+      145.92648041488428,
+      26.673337825457565,
+      14.059411319933133
+    ],
+    "components": [
+      "runtime-pods"
+    ]
+  },
+  {
+    "key": "e0042",
+    "text": "GPU",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      136.27714085578918,
+      145.92648041488428,
+      26.673337825457565,
+      14.059411319933133
+    ],
+    "components": [
+      "runtime-pods"
+    ]
+  },
+  {
+    "key": "e0045",
+    "text": "GPU",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      178.61325669288635,
+      145.92648041488428,
+      26.673337825457565,
+      14.059411319933133
+    ],
+    "components": [
+      "runtime-pods"
+    ]
+  },
+  {
+    "key": "e0048",
+    "text": "GPU",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      220.94937252998352,
+      145.92648041488428,
+      26.673337825457565,
+      14.059411319933133
+    ],
+    "components": [
+      "runtime-pods"
+    ]
+  },
+  {
+    "key": "e0051",
+    "text": "GPU",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      263.2854453005566,
+      145.92648041488428,
+      26.67338089198165,
+      14.059411319933133
+    ],
+    "components": [
+      "runtime-pods"
+    ]
+  },
+  {
+    "key": "e0054",
+    "text": "GPU",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      305.62156113765377,
+      145.92648041488428,
+      26.67338089198165,
+      14.059411319933133
+    ],
+    "components": [
+      "runtime-pods"
+    ]
+  },
+  {
+    "key": "e0057",
+    "text": "GPU",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      347.95767697475094,
+      145.92648041488428,
+      26.67338089198165,
+      14.059411319933133
+    ],
+    "components": [
+      "runtime-pods"
+    ]
+  },
+  {
+    "key": "e0060",
+    "text": "GPU",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      51.60490918159485,
+      145.92648041488428,
+      26.673337825457565,
+      14.059411319933133
+    ],
+    "components": [
+      "runtime-pods"
+    ]
+  },
+  {
+    "key": "e0061",
+    "text": "Training Processes",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      149.82690292969346,
+      117.70770037261536,
+      129.9746835572587,
+      15.465361065231264
+    ],
+    "components": [
+      "runtime-pods"
+    ]
+  },
+  {
+    "key": "e0062",
+    "text": "Pod 1",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      220.27684568986297,
+      69.73990438041801,
+      47.93295517421211,
+      19.683210301125655
+    ],
+    "components": [
+      "runtime-pods"
+    ]
+  },
+  {
+    "key": "e0065",
+    "text": "Robust Controller",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      532.5608251392841,
+      251.77206719008973,
+      122.20462128173676,
+      15.465361065231264
+    ],
+    "components": [
+      "control-pair"
+    ]
+  },
+  {
+    "key": "e0073",
+    "text": "Runtime Analyzer",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      531.6567726656795,
+      175.56705868331483,
+      124.00213186402107,
+      15.465361065231264
+    ],
+    "components": [
+      "control-pair"
+    ]
+  },
+  {
+    "key": "e0083",
+    "text": "Data Plane",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      11.517899498343468,
+      6.235730624772259,
+      95.04303827272088,
+      19.683188767863612
+    ],
+    "components": [
+      "runtime-pods"
+    ]
+  },
+  {
+    "key": "e0087",
+    "text": "Control Plane",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      538.6576668210328,
+      136.7720877891552,
+      117.49874219490448,
+      19.683210301125655
+    ],
+    "components": [
+      "control-pair"
+    ]
+  },
+  {
+    "key": "e0093",
+    "text": "data flow",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      276.4493743851781,
+      294.11343714312534,
+      71.00093586932053,
+      17.57428568317846
+    ],
+    "components": []
+  },
+  {
+    "key": "e0097",
+    "text": "control flow",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      416.0262562856078,
+      294.8190390737436,
+      90.31187913625035,
+      17.57428568317846
+    ],
+    "components": []
+  }
+]

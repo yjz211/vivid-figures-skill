@@ -11,24 +11,56 @@ from pathlib import Path
 BEGIN = "<!-- BEGIN FIGURE_MANIFEST -->"
 END = "<!-- END FIGURE_MANIFEST -->"
 ENTRY_RE = re.compile(r"^\s*-\s+([A-Za-z][A-Za-z0-9_]*)\s*(?:\|(.*))?$")
+HEADING_RE = re.compile(r"^\s*\*\*(.+?)\*\*")
 CATEGORIES = (
     ("DATA", ("data figure", "数据图", "matplotlib", "paper-figure")),
+    ("ARCHITECTURE", ("svg架构", "svg 架构", "architecture-assets")),
     ("DRAWIO", ("drawio", "draw.io")),
     ("TIKZ", ("tikz",)),
     ("ILLUSTRATION", ("illustration", "ai 场景", "ai插图", "paper-illustration")),
     ("OPTIONAL", ("optional", "可选格式", "html / mermaid", "html/mermaid")),
 )
 REQUIRED_FIELDS = {"claim", "source", "section", "language", "format", "layout"}
+DETERMINISTIC_CLASSES = {"ARCHITECTURE", "DRAWIO", "TIKZ", "OPTIONAL"}
 
 
 def heading_category(line: str) -> str | None:
-    if not line.lstrip().startswith("**"):
+    match = HEADING_RE.match(line)
+    if not match:
         return None
-    low = line.lower()
+    low = match.group(1).strip().lower()
+    if re.match(r"^(?:总数|totals?)(?:\s|[:：]|$)", low):
+        return None
+    # Class identifiers take precedence over workflow aliases in descriptions.
+    for category, _ in CATEGORIES:
+        if re.search(rf"(?<![a-z0-9_]){category.lower()}(?![a-z0-9_])", low):
+            return category
     for category, terms in CATEGORIES:
         if any(term in low for term in terms):
             return category
     return None
+
+
+def has_explicit_optional_format(fields: dict[str, str]) -> bool:
+    # The renderer is separate from the requested exports, which may be PDF-only.
+    if fields.get("renderer", "").strip().upper() in {"HTML", "MERMAID"}:
+        return True
+    return bool(re.search(r"(?<![a-z0-9_])(?:html|mmd|mermaid)(?![a-z0-9_])",
+                          fields.get("format", "").lower()))
+
+
+def is_legacy_roadmap(item: dict) -> bool:
+    return (item["category"] == "DRAWIO" and item["name"] == "fig_roadmap"
+            and not item["fields"].get("purpose", "").strip())
+
+
+def is_roadmap(item: dict) -> bool:
+    category, fields = item["category"], item["fields"]
+    if category not in DETERMINISTIC_CLASSES:
+        return False
+    if category == "OPTIONAL" and not has_explicit_optional_format(fields):
+        return False
+    return fields.get("purpose", "").strip().lower() == "roadmap" or is_legacy_roadmap(item)
 
 
 def parse_fields(raw: str | None) -> dict[str, str]:
@@ -50,9 +82,9 @@ def parse_manifest(path: Path):
     entries = []
     category = None
     for number, line in enumerate(block.splitlines(), 1):
-        detected = heading_category(line)
-        if detected:
-            category = detected
+        if HEADING_RE.match(line):
+            # Unknown headings must not inherit the preceding renderer section.
+            category = heading_category(line)
             continue
         match = ENTRY_RE.match(line)
         if not match or match.group(1).lower() == "none":
@@ -86,26 +118,27 @@ def validate(entries: list[dict], profile: str, full_paper: bool):
             errors.append(f"{name}: TikZ basename must start with tikz_")
         elif category != "TIKZ" and not (name.startswith("fig_") or name.startswith("TABLE_")):
             errors.append(f"{name}: basename must start with fig_ or TABLE_")
-        if category == "OPTIONAL" and not any(
-            token in fields.get("format", "").lower() for token in ("html", "mmd", "mermaid")
-        ):
-            warnings.append(f"{name}: optional entry should identify HTML or Mermaid format")
+        if category == "OPTIONAL" and not has_explicit_optional_format(fields):
+            warnings.append(f"{name}: optional entry should identify HTML or Mermaid via renderer or format")
+        if is_legacy_roadmap(item):
+            warnings.append(f"{name}: legacy DRAWIO roadmap name accepted; add purpose=roadmap")
     if full_paper and profile == "modeling":
-        drawio_names = {item["name"] for item in entries if item["category"] == "DRAWIO"}
-        if "fig_roadmap" not in drawio_names:
-            errors.append("full modeling paper requires DRAWIO entry fig_roadmap")
+        if not any(is_roadmap(item) for item in entries):
+            errors.append("full modeling paper requires a purpose=roadmap entry in ARCHITECTURE, "
+                          "DRAWIO, TIKZ, or OPTIONAL with explicit HTML/Mermaid renderer or format")
     if not entries:
         errors.append("manifest contains no figure entries")
     return errors, warnings
 
 
 def execution_plan(entries: list[dict]):
-    grouped = {key: [] for key in ("DATA", "DRAWIO", "TIKZ", "ILLUSTRATION", "OPTIONAL")}
+    grouped = {key: [] for key, _ in CATEGORIES}
     for item in entries:
         if item["category"] in grouped:
             grouped[item["category"]].append(item["name"])
     return [
         {"workflow": "paper-figure", "classes": ["DATA"], "items": grouped["DATA"]},
+        {"workflow": "architecture-assets", "classes": ["ARCHITECTURE"], "items": grouped["ARCHITECTURE"]},
         {
             "workflow": "paper-technical-diagram",
             "classes": ["DRAWIO", "TIKZ"],

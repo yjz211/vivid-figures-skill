@@ -1,0 +1,1246 @@
+[
+  {
+    "key": "e0011",
+    "text": "torch.compile",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      655.4414367675779,
+      -132.46069335937477,
+      104.0328369140625,
+      21.5560302734375
+    ],
+    "components": []
+  },
+  {
+    "key": "e0012",
+    "text": "torch.fx.symbolic_trace",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      619.7214660644529,
+      -110.68066406249977,
+      174.96630859375,
+      21.5560302734375
+    ],
+    "components": []
+  },
+  {
+    "key": "e0014",
+    "text": "Torch",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      411.0714416503905,
+      -85.18066406249977,
+      41.09796142578125,
+      21.5560302734375
+    ],
+    "components": []
+  },
+  {
+    "key": "e0015",
+    "text": "Partitioners",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      456.06503295898426,
+      -85.18066406249977,
+      87.54583740234375,
+      21.5560302734375
+    ],
+    "components": []
+  },
+  {
+    "key": "e0018",
+    "text": "Initial",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      116.71499633789051,
+      618.5301818847656,
+      37.59429931640625,
+      18.861572265625
+    ],
+    "components": []
+  },
+  {
+    "key": "e0019",
+    "text": "Configuration",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      158.2450256347655,
+      618.5301818847656,
+      90.131591796875,
+      18.861572265625
+    ],
+    "components": []
+  },
+  {
+    "key": "e0022",
+    "text": "Optimized",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      102.18496704101551,
+      799.6302032470703,
+      68.396484375,
+      18.861572265625
+    ],
+    "components": []
+  },
+  {
+    "key": "e0023",
+    "text": "Configuration",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      174.2149963378905,
+      799.6302032470703,
+      90.131591796875,
+      18.861572265625
+    ],
+    "components": []
+  },
+  {
+    "key": "e0042",
+    "text": "GPU",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      187.615020751953,
+      749.8801879882812,
+      29.02581787109375,
+      18.861572265625
+    ],
+    "components": []
+  },
+  {
+    "key": "e0059",
+    "text": "GPU",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      178.26498413085926,
+      43.860168457031364,
+      29.02581787109375,
+      18.861572265625
+    ],
+    "components": [
+      "profiling"
+    ]
+  },
+  {
+    "key": "e0060",
+    "text": "Cluster",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      192.2149963378905,
+      673.18017578125,
+      46.5401611328125,
+      18.861572265625
+    ],
+    "components": []
+  },
+  {
+    "key": "e0061",
+    "text": "-",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      238.4950256347655,
+      673.18017578125,
+      4.831173896789551,
+      18.861576080322266
+    ],
+    "components": []
+  },
+  {
+    "key": "e0062",
+    "text": "level",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      243.365020751953,
+      673.18017578125,
+      30.8372802734375,
+      18.861572265625
+    ],
+    "components": []
+  },
+  {
+    "key": "e0063",
+    "text": "Profiling",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      205.51498413085926,
+      686.6802062988281,
+      55.43939208984375,
+      18.861572265625
+    ],
+    "components": []
+  },
+  {
+    "key": "e0064",
+    "text": "Experiments",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      191.9950256347655,
+      700.2101745605469,
+      82.68682861328125,
+      18.861572265625
+    ],
+    "components": []
+  },
+  {
+    "key": "e0066",
+    "text": "Experienced",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      78.81503295898432,
+      664.8601989746094,
+      81.10668945312494,
+      18.861572265625
+    ],
+    "components": []
+  },
+  {
+    "key": "e0067",
+    "text": "Engineers",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      87.2949829101562,
+      678.3601684570312,
+      63.96029663085932,
+      18.861572265625
+    ],
+    "components": []
+  },
+  {
+    "key": "e0068",
+    "text": "Multiple",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      107.61502075195301,
+      750.0101928710938,
+      56.79815673828125,
+      18.861572265625
+    ],
+    "components": []
+  },
+  {
+    "key": "e0069",
+    "text": "iterations",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      104.13497924804676,
+      763.5101928710938,
+      63.3681640625,
+      18.861572265625
+    ],
+    "components": []
+  },
+  {
+    "key": "e0074",
+    "text": "Profiling",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      65.61499023437494,
+      2.6593017578127274,
+      62.64926147460932,
+      21.5560302734375
+    ],
+    "components": [
+      "profiling"
+    ]
+  },
+  {
+    "key": "e0075",
+    "text": "Engine",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      132.16500854492176,
+      2.6593017578127274,
+      50.61480712890625,
+      21.5560302734375
+    ],
+    "components": [
+      "profiling"
+    ]
+  },
+  {
+    "key": "e0076",
+    "text": "Prediction",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      64.16500854492182,
+      259.36932373046886,
+      76.33435058593744,
+      21.55609130859375
+    ],
+    "components": [
+      "prediction"
+    ]
+  },
+  {
+    "key": "e0077",
+    "text": "Engine",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      144.4950256347655,
+      259.36932373046886,
+      50.61480712890625,
+      21.55609130859375
+    ],
+    "components": [
+      "prediction"
+    ]
+  },
+  {
+    "key": "e0088",
+    "text": "Profiling",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      92.61499023437494,
+      122.58935546875011,
+      62.68801879882807,
+      21.55609130859375
+    ],
+    "components": [
+      "database"
+    ]
+  },
+  {
+    "key": "e0089",
+    "text": "Database",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      88.98498535156244,
+      144.35931396484386,
+      70.10879516601557,
+      21.55609130859375
+    ],
+    "components": []
+  },
+  {
+    "key": "e0092",
+    "text": "Operator",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      24.214996337890568,
+      27.359313964843864,
+      68.14743041992188,
+      21.55609130859375
+    ],
+    "components": [
+      "profiling"
+    ]
+  },
+  {
+    "key": "e0093",
+    "text": "Type+Shape",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      12.261352539062443,
+      44.639282226562614,
+      91.03244018554682,
+      21.55609130859375
+    ],
+    "components": [
+      "profiling"
+    ]
+  },
+  {
+    "key": "e0095",
+    "text": "Profile",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      117.61502075195301,
+      25.959228515625227,
+      49.10284423828125,
+      21.556091308593636
+    ],
+    "components": [
+      "profiling"
+    ]
+  },
+  {
+    "key": "e0097",
+    "text": "Store",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      186.89498901367176,
+      70.03930664062511,
+      40.16339111328125,
+      21.55609130859375
+    ],
+    "components": [
+      "profiling"
+    ]
+  },
+  {
+    "key": "e0098",
+    "text": "Results",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      186.89498901367176,
+      87.31933593750011,
+      53.867919921875,
+      21.55609130859375
+    ],
+    "components": []
+  },
+  {
+    "key": "e0100",
+    "text": "Lookup",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      30.015014648437443,
+      78.38922119140636,
+      54.62628173828125,
+      21.55609130859375
+    ],
+    "components": []
+  },
+  {
+    "key": "e0104",
+    "text": "Results",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      97.84500122070307,
+      79.71929931640636,
+      53.86791992187494,
+      21.55609130859375
+    ],
+    "components": []
+  },
+  {
+    "key": "e0109",
+    "text": "Random",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      132.04501342773426,
+      197.00921630859386,
+      62.58538818359375,
+      21.55609130859375
+    ],
+    "components": [
+      "prediction"
+    ]
+  },
+  {
+    "key": "e0110",
+    "text": "Forest",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      140.29501342773426,
+      214.2592773437501,
+      46.46337890625,
+      21.55609130859375
+    ],
+    "components": [
+      "prediction"
+    ]
+  },
+  {
+    "key": "e0111",
+    "text": "Predictor",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      129.095001220703,
+      231.5393066406251,
+      68.92626953125,
+      21.55609130859375
+    ],
+    "components": [
+      "prediction"
+    ]
+  },
+  {
+    "key": "e0113",
+    "text": "Train",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      191.57138061523426,
+      172.83929443359386,
+      37.347900390625,
+      21.55609130859375
+    ],
+    "components": [
+      "prediction"
+    ]
+  },
+  {
+    "key": "e0116",
+    "text": "Operator",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      26.014984130859318,
+      183.93939208984386,
+      68.18832397460938,
+      21.55609130859375
+    ],
+    "components": [
+      "prediction"
+    ]
+  },
+  {
+    "key": "e0117",
+    "text": "Type+Shape",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      14.061370849609318,
+      201.1893310546876,
+      91.03662109374994,
+      21.55609130859375
+    ],
+    "components": [
+      "prediction"
+    ]
+  },
+  {
+    "key": "e0120",
+    "text": "Results",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      32.06500244140619,
+      234.25921630859386,
+      53.97589111328125,
+      21.55609130859375
+    ],
+    "components": [
+      "prediction"
+    ]
+  },
+  {
+    "key": "e0123",
+    "text": "Analytical",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      316.8214416503905,
+      3.4693603515627274,
+      73.9908447265625,
+      21.5560302734375
+    ],
+    "components": [
+      "analytic-compute"
+    ]
+  },
+  {
+    "key": "e0124",
+    "text": "Engine",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      395.2350158691405,
+      3.4693603515627274,
+      50.61480712890625,
+      21.5560302734375
+    ],
+    "components": [
+      "analytic-compute"
+    ]
+  },
+  {
+    "key": "e0125",
+    "text": "Computation Analysis: Roofline",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      264.115020751953,
+      22.589355468750227,
+      234.1666259765625,
+      21.556091308593636
+    ],
+    "components": [
+      "analytic-compute"
+    ]
+  },
+  {
+    "key": "e0126",
+    "text": "Perf",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      269.9950256347655,
+      63.810180664062614,
+      27.1240234375,
+      18.861572265625
+    ],
+    "components": [
+      "analytic-compute"
+    ]
+  },
+  {
+    "key": "e0127",
+    "text": "=",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      300.7350158691405,
+      63.810180664062614,
+      7.851973056793213,
+      18.861576080322266
+    ],
+    "components": [
+      "analytic-compute"
+    ]
+  },
+  {
+    "key": "e0128",
+    "text": "min",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      312.36508178710926,
+      63.810180664062614,
+      25.6981201171875,
+      18.861572265625
+    ],
+    "components": [
+      "analytic-compute"
+    ]
+  },
+  {
+    "key": "e0130",
+    "text": "Peak",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      349.345001220703,
+      48.960205078125114,
+      32.07080078125,
+      18.861572265625
+    ],
+    "components": [
+      "analytic-compute"
+    ]
+  },
+  {
+    "key": "e0131",
+    "text": "Performance",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      384.7149963378905,
+      48.960205078125114,
+      85.27435302734375,
+      18.861572265625
+    ],
+    "components": [
+      "analytic-compute"
+    ]
+  },
+  {
+    "key": "e0132",
+    "text": "Peak",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      349.345001220703,
+      70.46020507812511,
+      32.07080078125,
+      18.861572265625
+    ],
+    "components": [
+      "analytic-compute"
+    ]
+  },
+  {
+    "key": "e0133",
+    "text": "Bandwidth",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      384.7149963378905,
+      70.46020507812511,
+      72.1290283203125,
+      18.861572265625
+    ],
+    "components": [
+      "analytic-compute"
+    ]
+  },
+  {
+    "key": "e0134",
+    "text": "x",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      460.31137084960926,
+      70.46020507812511,
+      8.083532333374023,
+      18.861576080322266
+    ],
+    "components": [
+      "analytic-compute"
+    ]
+  },
+  {
+    "key": "e0135",
+    "text": "Arithmetic Intensity",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      348.671417236328,
+      85.46020507812511,
+      133.14324951171875,
+      18.861572265625
+    ],
+    "components": [
+      "analytic-compute"
+    ]
+  },
+  {
+    "key": "e0144",
+    "text": "Communication",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      289.345001220703,
+      113.65930175781261,
+      117.552490234375,
+      21.55609130859375
+    ],
+    "components": [
+      "analytic-communication"
+    ]
+  },
+  {
+    "key": "e0145",
+    "text": "Analysis",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      410.79135131835926,
+      113.65930175781261,
+      61.99627685546875,
+      21.55609130859375
+    ],
+    "components": [
+      "analytic-communication"
+    ]
+  },
+  {
+    "key": "e0146",
+    "text": "Cluster",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      314.53500366210926,
+      138.4375000000001,
+      40.61962890625,
+      17.51434326171875
+    ],
+    "components": [
+      "analytic-communication"
+    ]
+  },
+  {
+    "key": "e0147",
+    "text": "Simulator",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      358.2149963378905,
+      138.4375000000001,
+      57.107421875,
+      17.51434326171875
+    ],
+    "components": [
+      "analytic-communication"
+    ]
+  },
+  {
+    "key": "e0162",
+    "text": "Comm",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      260.8951721191405,
+      218.8519287109376,
+      18.861572265625,
+      42.80816650390625
+    ],
+    "components": [
+      "analytic-communication"
+    ]
+  },
+  {
+    "key": "e0163",
+    "text": "Type",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      260.8951721191405,
+      182.80914306640636,
+      18.861572265625,
+      32.7445068359375
+    ],
+    "components": [
+      "analytic-communication"
+    ]
+  },
+  {
+    "key": "e0164",
+    "text": "+",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      260.8951721191405,
+      171.51650428771984,
+      18.861576080322266,
+      8.083532333374023
+    ],
+    "components": [
+      "analytic-communication"
+    ]
+  },
+  {
+    "key": "e0165",
+    "text": "Size",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      260.8951721191405,
+      142.6658935546876,
+      18.861572265625,
+      25.31414794921875
+    ],
+    "components": [
+      "analytic-communication"
+    ]
+  },
+  {
+    "key": "e0166",
+    "text": "Cluster",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      276.245147705078,
+      194.0046386718751,
+      18.861572265625,
+      46.525390625
+    ],
+    "components": [
+      "analytic-communication"
+    ]
+  },
+  {
+    "key": "e0167",
+    "text": "Info",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      276.245147705078,
+      164.17877197265636,
+      18.861572265625,
+      26.45123291015625
+    ],
+    "components": [
+      "analytic-communication"
+    ]
+  },
+  {
+    "key": "e0171",
+    "text": "Link",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      449.89498901367176,
+      217.78021240234386,
+      27.55059814453125,
+      18.861572265625
+    ],
+    "components": [
+      "analytic-communication"
+    ]
+  },
+  {
+    "key": "e0172",
+    "text": "Utilization",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      429.2350158691405,
+      233.53021240234386,
+      67.65606689453125,
+      18.861572265625
+    ],
+    "components": [
+      "analytic-communication"
+    ]
+  },
+  {
+    "key": "e0175",
+    "text": "Comm",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      440.9649963378905,
+      151.6601562500001,
+      42.80810546875,
+      18.861572265625
+    ],
+    "components": [
+      "analytic-communication"
+    ]
+  },
+  {
+    "key": "e0176",
+    "text": "Latency",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      437.1349182128905,
+      167.4101562500001,
+      51.52789306640625,
+      18.861572265625
+    ],
+    "components": [
+      "analytic-communication"
+    ]
+  },
+  {
+    "key": "e0177",
+    "text": "+",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      457.314971923828,
+      190.20928955078136,
+      9.430788040161133,
+      21.556087493896484
+    ],
+    "components": [
+      "analytic-communication"
+    ]
+  },
+  {
+    "key": "e0181",
+    "text": "NVLink",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      306.74240112304676,
+      195.0460205078126,
+      17.51434326171875,
+      41.88397216796875
+    ],
+    "components": [
+      "analytic-communication"
+    ]
+  },
+  {
+    "key": "e0182",
+    "text": "IB",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      385.845001220703,
+      156.4375000000001,
+      11.83416748046875,
+      17.51434326171875
+    ],
+    "components": [
+      "analytic-communication"
+    ]
+  },
+  {
+    "key": "e0183",
+    "text": "GPU",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      323.01498413085926,
+      236.96026611328136,
+      29.02581787109375,
+      18.861572265625
+    ],
+    "components": [
+      "analytic-communication"
+    ]
+  },
+  {
+    "key": "e0184",
+    "text": "GPU",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      385.4649963378905,
+      236.96026611328136,
+      29.057373046875,
+      18.861572265625
+    ],
+    "components": [
+      "analytic-communication"
+    ]
+  },
+  {
+    "key": "e0189",
+    "text": "GPU",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      323.01498413085926,
+      180.4602050781251,
+      29.02581787109375,
+      18.861572265625
+    ],
+    "components": [
+      "analytic-communication"
+    ]
+  },
+  {
+    "key": "e0190",
+    "text": "GPU",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      385.4649963378905,
+      180.4602050781251,
+      29.057373046875,
+      18.861572265625
+    ],
+    "components": [
+      "analytic-communication"
+    ]
+  },
+  {
+    "key": "e0191",
+    "text": "...",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      362.4449768066405,
+      176.53021240234386,
+      12.44744873046875,
+      18.861572265625
+    ],
+    "components": [
+      "analytic-communication"
+    ]
+  },
+  {
+    "key": "e0192",
+    "text": "...",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      362.84506225585926,
+      234.6102294921876,
+      12.44744873046875,
+      18.861572265625
+    ],
+    "components": [
+      "analytic-communication"
+    ]
+  },
+  {
+    "key": "e0193",
+    "text": "...",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      331.223175048828,
+      204.5000000000001,
+      18.861572265625,
+      12.45526123046875
+    ],
+    "components": [
+      "analytic-communication"
+    ]
+  },
+  {
+    "key": "e0194",
+    "text": "...",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      392.72323608398426,
+      204.5000000000001,
+      18.861572265625,
+      12.44744873046875
+    ],
+    "components": [
+      "analytic-communication"
+    ]
+  },
+  {
+    "key": "e0199",
+    "text": "Fused",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      543.064971923828,
+      9.289306640625227,
+      43.41571044921875,
+      21.556091308593636
+    ],
+    "components": [
+      "fallback"
+    ]
+  },
+  {
+    "key": "e0200",
+    "text": "Engine",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      590.814971923828,
+      9.289306640625227,
+      50.617797851562386,
+      21.556091308593636
+    ],
+    "components": [
+      "fallback"
+    ]
+  },
+  {
+    "key": "e0203",
+    "text": "Profiling",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      549.564971923828,
+      81.38018798828136,
+      55.4317626953125,
+      18.861572265625
+    ],
+    "components": [
+      "fallback"
+    ]
+  },
+  {
+    "key": "e0204",
+    "text": "Engine",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      522.9649963378905,
+      97.13018798828136,
+      44.7811279296875,
+      18.861572265625
+    ],
+    "components": [
+      "fallback"
+    ]
+  },
+  {
+    "key": "e0205",
+    "text": "Support?",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      571.115020751953,
+      97.13018798828136,
+      60.476806640624886,
+      18.861572265625
+    ],
+    "components": [
+      "fallback"
+    ]
+  },
+  {
+    "key": "e0206",
+    "text": "Results",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      568.115020751953,
+      246.6801757812501,
+      47.485595703124886,
+      18.861572265625
+    ],
+    "components": [
+      "fallback"
+    ]
+  },
+  {
+    "key": "e0209",
+    "text": "Operator",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      561.6849670410155,
+      40.880249023437614,
+      60.943847656249886,
+      18.861572265625
+    ],
+    "components": [
+      "fallback"
+    ]
+  },
+  {
+    "key": "e0212",
+    "text": "Prediction",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      543.4150085449218,
+      135.98016357421886,
+      67.640380859375,
+      18.861572265625
+    ],
+    "components": [
+      "fallback"
+    ]
+  },
+  {
+    "key": "e0213",
+    "text": "Engine",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      522.9349670410155,
+      151.73016357421886,
+      44.7811279296875,
+      18.861572265625
+    ],
+    "components": [
+      "fallback"
+    ]
+  },
+  {
+    "key": "e0214",
+    "text": "Support?",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      571.064971923828,
+      151.73016357421886,
+      60.602783203124886,
+      18.861572265625
+    ],
+    "components": [
+      "fallback"
+    ]
+  },
+  {
+    "key": "e0217",
+    "text": "Analytical",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      543.9213562011718,
+      190.5902099609376,
+      66.22393798828125,
+      18.861572265625
+    ],
+    "components": [
+      "fallback"
+    ]
+  },
+  {
+    "key": "e0218",
+    "text": "Engine",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      555.1650085449218,
+      206.3402099609376,
+      44.7811279296875,
+      18.861572265625
+    ],
+    "components": [
+      "fallback"
+    ]
+  },
+  {
+    "key": "e0225",
+    "text": "Y",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      641.5414123535154,
+      81.13024902343761,
+      9.430788040161133,
+      18.861576080322266
+    ],
+    "components": [
+      "fallback"
+    ]
+  },
+  {
+    "key": "e0226",
+    "text": "N",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      581.095001220703,
+      115.68017578125011,
+      10.388602256774902,
+      18.861576080322266
+    ],
+    "components": [
+      "fallback"
+    ]
+  },
+  {
+    "key": "e0227",
+    "text": "Y",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      635.5112609863279,
+      136.76019287109386,
+      9.430788040161133,
+      18.861576080322266
+    ],
+    "components": [
+      "fallback"
+    ]
+  },
+  {
+    "key": "e0228",
+    "text": "N",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      581.064971923828,
+      171.0601806640626,
+      10.378077507019043,
+      18.861576080322266
+    ],
+    "components": [
+      "fallback"
+    ]
+  }
+]

@@ -1,0 +1,177 @@
+{
+  "asset_id": "architecture.feedback-agents",
+  "title": "多主体反馈与共享资源调度",
+  "summary": "三列自治主体分别接收任务，在内部完成观测与策略选择，再经同一准入环节操作共享资源。成对的向下动作和向上反馈让局部决策与全局执行形成闭环，适合强调分散决策、集中约束的系统。",
+  "suitable_for": [
+    "三个代表性主体共享受限资源的控制系统",
+    "需要同时说明观测、决策、准入和资源管理的方案"
+  ],
+  "not_suitable_for": [
+    "只有单向任务流水线的流程",
+    "要求任意主体数自动排版的图"
+  ],
+  "reading_order": [
+    "先看三列任务入口与黄色主体边界。",
+    "沿内部箭头从观测块读到深色策略块。",
+    "对照动作下行和反馈上行，定位共享准入横条。",
+    "最后看底部管理者、逻辑资源池及两组叠片。"
+  ],
+  "design": {
+    "layout": "上部等宽三列，下部通栏基础设施；窄准入条对齐各列回路。",
+    "shapes": "矩形嵌套表示所属，叠片表示成组资源；省略号说明重复模式。",
+    "connectors": "外侧回路有意倾斜，内部观测线竖直；不要把反馈线接成单向链。",
+    "color": "浅黄分主体、浅绿包决策区、紫色区分观测与策略；粉色只标共享准入。",
+    "typography": "Arial 无衬线；策略白字需保持深底对比，资源标签比主体名更小。"
+  },
+  "parts": [
+    {
+      "id": "workload-0",
+      "name": "第1列任务入口",
+      "meaning": "本列请求来源。",
+      "adaptation": "换任务名，与本列主体对应。"
+    },
+    {
+      "id": "agent-0",
+      "name": "第1列主体边界",
+      "meaning": "本地观测及决策的范围。",
+      "adaptation": "保留嵌套；增列需改代码。"
+    },
+    {
+      "id": "rl-agent-0",
+      "name": "第1列决策区域",
+      "meaning": "主体内部工作范围。",
+      "adaptation": "固定 RL Agent 标题须改代码。"
+    },
+    {
+      "id": "monitor-0",
+      "name": "第1列状态观测",
+      "meaning": "从输入提取状态。",
+      "adaptation": "填实际观测器名。"
+    },
+    {
+      "id": "policy-0",
+      "name": "第1列策略选择",
+      "meaning": "由状态产生动作。",
+      "adaptation": "改算法名并检查深底白字。"
+    },
+    {
+      "id": "workload-1",
+      "name": "第2列任务入口",
+      "meaning": "本列请求来源。",
+      "adaptation": "换任务名，与本列主体对应。"
+    },
+    {
+      "id": "agent-1",
+      "name": "第2列主体边界",
+      "meaning": "本地观测及决策的范围。",
+      "adaptation": "保留嵌套；增列需改代码。"
+    },
+    {
+      "id": "rl-agent-1",
+      "name": "第2列决策区域",
+      "meaning": "主体内部工作范围。",
+      "adaptation": "固定 RL Agent 标题须改代码。"
+    },
+    {
+      "id": "monitor-1",
+      "name": "第2列状态观测",
+      "meaning": "从输入提取状态。",
+      "adaptation": "填实际观测器名。"
+    },
+    {
+      "id": "policy-1",
+      "name": "第2列策略选择",
+      "meaning": "由状态产生动作。",
+      "adaptation": "改算法名并检查深底白字。"
+    },
+    {
+      "id": "workload-2",
+      "name": "第3列任务入口",
+      "meaning": "本列请求来源。",
+      "adaptation": "换任务名，与本列主体对应。"
+    },
+    {
+      "id": "agent-2",
+      "name": "第3列主体边界",
+      "meaning": "本地观测及决策的范围。",
+      "adaptation": "保留嵌套；增列需改代码。"
+    },
+    {
+      "id": "rl-agent-2",
+      "name": "第3列决策区域",
+      "meaning": "主体内部工作范围。",
+      "adaptation": "固定 RL Agent 标题须改代码。"
+    },
+    {
+      "id": "monitor-2",
+      "name": "第3列状态观测",
+      "meaning": "从输入提取状态。",
+      "adaptation": "填实际观测器名。"
+    },
+    {
+      "id": "policy-2",
+      "name": "第3列策略选择",
+      "meaning": "由状态产生动作。",
+      "adaptation": "改算法名并检查深底白字。"
+    },
+    {
+      "id": "shared-system",
+      "name": "共享执行系统",
+      "meaning": "准入与资源管理的运行边界。",
+      "adaptation": "改共享设施名，保留主体在边界外。"
+    },
+    {
+      "id": "admission",
+      "name": "动作准入闸门",
+      "meaning": "集中筛选或排序动作。",
+      "adaptation": "无统一准入时需拆横条及回路。"
+    },
+    {
+      "id": "manager",
+      "name": "资源管理者",
+      "meaning": "管理资源记录的蓝色块。",
+      "adaptation": "虚线为管理关系，需写明。"
+    },
+    {
+      "id": "resource-pool",
+      "name": "逻辑资源池",
+      "meaning": "虚线包围的资源集合。",
+      "adaptation": "若改实体设备，边界用实线。"
+    },
+    {
+      "id": "resource-0",
+      "name": "第一资源组",
+      "meaning": "相似对象的叠片记录。",
+      "adaptation": "改类别，叠片数不代表容量。"
+    },
+    {
+      "id": "resource-1",
+      "name": "第二资源组",
+      "meaning": "与上组并列的另一资源。",
+      "adaptation": "保持标签区分；增组需扩池。"
+    }
+  ],
+  "adaptation": [
+    "先确定三个主体与两个资源组是否能真实代表新系统。",
+    "同步改动作、反馈、资源分配三类标签，使方向与含义一致。",
+    "若使用规则控制，改代码中的固定 RL Agent 标题。",
+    "主体增减须同时改坐标、箭头路径和省略号位置。"
+  ],
+  "example": {
+    "scenario": "假设绘制三园区充电调度。",
+    "mapping": "三列对应园区，观测为排队与负荷，策略为充电配额；共享准入执行电网容量限制。",
+    "structural_changes": "两组资源改成快充和慢充端口记录；反馈改成服务率，避免继续写奖励。"
+  },
+  "checks": [
+    "三列上下行箭头是否各自接到同一主体，且不穿过标签。",
+    "准入与资源池的双向关系是否确实存在。",
+    "资源叠片的有意重叠是否仍保留完整前层标签。"
+  ],
+  "editing": {
+    "entry": "make_figure.py 的 build(c) 生成原生 SVG；example.json 提供 agents、resources 及共享模块标签。",
+    "configurable": "agents 可改 name/input/monitor/policy；admission、manager、pool_name、system_name 和三类连线标签可配置。",
+    "code_required": "代码严格要求 3 个 agents、2 个 resources；布局、颜色、RL Agent 固定标题和新连接须修改 build()，不支持自动增列。",
+    "fonts": "当前只支持 reference-system 配置的系统 Arial；运行时检查可用性，PDF 导出需确认嵌入，不能宣称已支持便携字体。"
+  },
+  "display_code": "VA-004"
+}

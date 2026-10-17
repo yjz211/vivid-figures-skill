@@ -1,0 +1,112 @@
+{
+  "name": "局部诊断驱动的结构迭代修复",
+  "family": "artifact-pipeline",
+  "tags": [
+    "图编辑",
+    "局部高亮",
+    "候选筛选",
+    "迭代改进"
+  ],
+  "when_to_use": "针对图、电路或路径结构逐步诊断并修复的算法；需要显示候选修改为何被接受或拒绝的优化过程",
+  "avoid": "没有明确节点和边含义的普通迭代优化；只想展示收敛曲线或实验性能",
+  "preserve": [
+    "窄整图列在左，两个中间列上下分格，右侧高面板展示应用结果；大外框和底部回线包住循环。",
+    "圆点、空心圈和线构成结构符号；黄色不规则底块圈出局部区域，候选中用彩色标记标注变化。",
+    "粗黑箭头说明阶段顺序；小型结构中的细线表示内部连接，蓝色小箭头用于修改标注，不能混读。",
+    "白灰保持结构中性，黄色定位局部问题，绿红标记接受与拒绝，蓝色突出候选动作；均需配文字或符号解释。",
+    "阶段标题多为衬线小字，结构标注更小；密度很高，适合通栏或拆成分图。"
+  ],
+  "adapt": "先重新定义节点与边的图例，避免形式相似却语义不同。 各面板用同一组局部对象贯穿，不要拼接无关小图。 实际只检验两种候选时删减多余实例，并调整箭头。 图中可省略求解细节，但正文必须说明何时停止循环。",
+  "visual_note": "窄整图列在左，两个中间列上下分格，右侧高面板展示应用结果；大外框和底部回线包住循环。",
+  "parts": [
+    {
+      "id": "global-structure",
+      "name": "整体结构",
+      "role": "component",
+      "box": [
+        0.005,
+        0.01,
+        0.17,
+        0.98
+      ],
+      "meaning": "作为本轮诊断对象的完整节点连边集合。",
+      "reuse": "按真实对象重画，电路特有符号不可直接套到一般网络。"
+    },
+    {
+      "id": "local-diagnosis",
+      "name": "局部诊断区域",
+      "role": "component",
+      "box": [
+        0.185,
+        0.02,
+        0.25,
+        0.46
+      ],
+      "meaning": "从整体中找出存在歧义或冲突的子结构。",
+      "reuse": "高亮必须对应整体中的真实位置和问题。"
+    },
+    {
+      "id": "local-solver",
+      "name": "局部求解",
+      "role": "component",
+      "box": [
+        0.185,
+        0.49,
+        0.25,
+        0.45
+      ],
+      "meaning": "把问题子结构转成较小的求解结果。",
+      "reuse": "画实际约束或局部最优解，不保留未采用的求解器名称。"
+    },
+    {
+      "id": "candidate-enumeration",
+      "name": "候选修改集合",
+      "role": "component",
+      "box": [
+        0.45,
+        0.41,
+        0.26,
+        0.54
+      ],
+      "meaning": "针对局部结果生成若干结构改动。",
+      "reuse": "候选之间明确只改变哪些边或节点。"
+    },
+    {
+      "id": "candidate-check",
+      "name": "候选检验",
+      "role": "component",
+      "box": [
+        0.45,
+        0.02,
+        0.26,
+        0.38
+      ],
+      "meaning": "对修改应用判据并筛出可行项。",
+      "reuse": "绿红结果应来自真实检验；演示例须标示意。"
+    },
+    {
+      "id": "applied-change",
+      "name": "修改应用与回写",
+      "role": "component",
+      "box": [
+        0.72,
+        0.01,
+        0.27,
+        0.97
+      ],
+      "meaning": "将选中改动组合成更新后的整体。",
+      "reuse": "保留前后对应关系，终止条件需要文字说明。"
+    }
+  ],
+  "selection_evidence": {
+    "candidate_index": 26,
+    "semantics_read": true,
+    "preview_reviewed": true,
+    "source_render_reviewed": true,
+    "render": "source-renders/26.png"
+  },
+  "implementation": "source-derived editable SVG",
+  "validation_status": "source-fidelity-checked",
+  "id": "architecture.source.asplos26-113_fig8",
+  "display_code": "VA-047"
+}

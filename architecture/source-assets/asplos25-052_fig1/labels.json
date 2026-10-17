@@ -1,0 +1,432 @@
+[
+  {
+    "key": "e0015",
+    "text": "vSSD-1",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      131.00641316818655,
+      64.52523435340845,
+      16.475799281688523,
+      5.167124628933379
+    ],
+    "components": [
+      "isolation-partitions"
+    ]
+  },
+  {
+    "key": "e0018",
+    "text": "vSSD-2",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      131.00641316818655,
+      72.37554754005396,
+      16.475799281688523,
+      5.167124628933379
+    ],
+    "components": [
+      "isolation-partitions"
+    ]
+  },
+  {
+    "key": "e0025",
+    "text": "vSSD",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      32.39299280744308,
+      16.685196283491678,
+      14.295737027787254,
+      6.151324583697715
+    ],
+    "components": [
+      "virtualized-stack"
+    ]
+  },
+  {
+    "key": "e0026",
+    "text": "vSSD",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      80.6724248946266,
+      16.685196283491678,
+      14.295749006414553,
+      6.151324583697715
+    ],
+    "components": [
+      "virtualized-stack"
+    ]
+  },
+  {
+    "key": "e0029",
+    "text": "SSD Virtualization",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      39.551001229345275,
+      30.81576001945359,
+      44.18216657682933,
+      6.151324583697715
+    ],
+    "components": [
+      "virtualized-stack"
+    ]
+  },
+  {
+    "key": "e0038",
+    "text": "Flash Chip",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      25.352979853749275,
+      79.88020545736072,
+      26.262745058265864,
+      6.151336562325014
+    ],
+    "components": [
+      "virtualized-stack",
+      "channel-unit"
+    ]
+  },
+  {
+    "key": "e0046",
+    "text": "Flash Chip",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      25.352979853749275,
+      87.73054260126082,
+      26.262745058265864,
+      6.151336562325014
+    ],
+    "components": [
+      "virtualized-stack",
+      "channel-unit"
+    ]
+  },
+  {
+    "key": "e0049",
+    "text": "Flash Controller",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      21.863264330684615,
+      60.20756210075342,
+      33.393675793158764,
+      5.167124628933379
+    ],
+    "components": [
+      "virtualized-stack",
+      "channel-unit"
+    ]
+  },
+  {
+    "key": "e0052",
+    "text": "Channel 0",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      25.96015251427889,
+      50.834070624026936,
+      25.048303908188245,
+      6.151336562325014
+    ],
+    "components": [
+      "virtualized-stack",
+      "channel-unit"
+    ]
+  },
+  {
+    "key": "e0055",
+    "text": "Flash Chip",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      75.9874999076128,
+      79.88020545736072,
+      26.262745058265864,
+      6.151336562325014
+    ],
+    "components": [
+      "virtualized-stack"
+    ]
+  },
+  {
+    "key": "e0063",
+    "text": "Flash Chip",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      75.9874999076128,
+      87.73054260126082,
+      26.262745058265864,
+      6.151336562325014
+    ],
+    "components": [
+      "virtualized-stack"
+    ]
+  },
+  {
+    "key": "e0066",
+    "text": "Flash Controller",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      72.89030603319407,
+      60.20756210075342,
+      33.393669803845114,
+      5.167124628933379
+    ],
+    "components": [
+      "virtualized-stack"
+    ]
+  },
+  {
+    "key": "e0069",
+    "text": "Channel N",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      76.53334199637175,
+      50.834070624026936,
+      25.963315311673796,
+      6.151336562325014
+    ],
+    "components": [
+      "virtualized-stack"
+    ]
+  },
+  {
+    "key": "e0070",
+    "text": "...",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      58.600270832001115,
+      61.60776780298329,
+      10.804266635823296,
+      14.517137996153906
+    ],
+    "components": [
+      "virtualized-stack"
+    ]
+  },
+  {
+    "key": "e0081",
+    "text": "...",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      57.42273583263159,
+      9.403185111790663,
+      10.804254657195997,
+      14.517137996153906
+    ],
+    "components": []
+  },
+  {
+    "key": "e0082",
+    "text": "(a) SSD virtualization with SDF",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      16.190186441897822,
+      103.47802936454536,
+      86.29604946039763,
+      6.889483533741441
+    ],
+    "components": []
+  },
+  {
+    "key": "e0083",
+    "text": "...",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      203.04604544490576,
+      61.60776780298329,
+      10.804242678568698,
+      14.517137996153906
+    ],
+    "components": [
+      "isolation-partitions"
+    ]
+  },
+  {
+    "key": "e0086",
+    "text": "CH",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      215.64332092934637,
+      87.6836582540127,
+      6.803237417188939,
+      5.167124628933379
+    ],
+    "components": [
+      "isolation-partitions"
+    ]
+  },
+  {
+    "key": "e0087",
+    "text": "CH",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      155.58844900876284,
+      87.6836582540127,
+      6.803213459934341,
+      5.167124628933379
+    ],
+    "components": [
+      "isolation-partitions"
+    ]
+  },
+  {
+    "key": "e0088",
+    "text": "CH",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      166.18637181073427,
+      87.6836582540127,
+      6.803213459934341,
+      5.167124628933379
+    ],
+    "components": [
+      "isolation-partitions"
+    ]
+  },
+  {
+    "key": "e0089",
+    "text": "CH",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      130.07493115216494,
+      88.07617391334497,
+      6.803213459934341,
+      5.167124628933379
+    ],
+    "components": [
+      "isolation-partitions"
+    ]
+  },
+  {
+    "key": "e0090",
+    "text": "CH",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      140.67284197550907,
+      87.6836582540127,
+      6.80322543856164,
+      5.167124628933379
+    ],
+    "components": [
+      "isolation-partitions"
+    ]
+  },
+  {
+    "key": "e0091",
+    "text": "CH",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      181.494482524693,
+      87.6836582540127,
+      6.803213459934341,
+      5.167124628933379
+    ],
+    "components": [
+      "isolation-partitions"
+    ]
+  },
+  {
+    "key": "e0092",
+    "text": "CH",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      192.09240532666445,
+      87.6836582540127,
+      6.803213459934341,
+      5.167124628933379
+    ],
+    "components": [
+      "isolation-partitions"
+    ]
+  },
+  {
+    "key": "e0097",
+    "text": "vSSD-3",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      156.12741536545218,
+      51.96473325477564,
+      16.475811260315822,
+      5.167124628933379
+    ],
+    "components": [
+      "isolation-partitions"
+    ]
+  },
+  {
+    "key": "e0102",
+    "text": "vSSD-4",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      181.64093322205008,
+      51.96473325477564,
+      16.560404326301068,
+      5.167124628933379
+    ],
+    "components": [
+      "isolation-partitions"
+    ]
+  },
+  {
+    "key": "e0103",
+    "text": "(b) Storage isolation approaches",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      125.6836502347578,
+      103.08551370521309,
+      90.81444158138765,
+      6.889483533741441
+    ],
+    "components": []
+  },
+  {
+    "key": "e0105",
+    "text": "Software-isolated",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      118.13385684978857,
+      24.92802512946946,
+      42.45166819477163,
+      6.151324583697715
+    ],
+    "components": []
+  },
+  {
+    "key": "e0106",
+    "text": "vSSD",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      132.09196428852738,
+      31.600791338118142,
+      14.295749006414553,
+      6.151324583697715
+    ],
+    "components": [
+      "isolation-partitions"
+    ]
+  },
+  {
+    "key": "e0110",
+    "text": "Hardware-isolated",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      168.09375259280205,
+      26.105584086093586,
+      44.58375604634057,
+      6.151324583697715
+    ],
+    "components": [
+      "isolation-partitions"
+    ]
+  },
+  {
+    "key": "e0111",
+    "text": "vSSD",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      183.11900000172318,
+      32.77835029474227,
+      14.295725049159955,
+      6.151324583697715
+    ],
+    "components": [
+      "isolation-partitions"
+    ]
+  }
+]

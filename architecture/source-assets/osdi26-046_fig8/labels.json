@@ -1,0 +1,400 @@
+[
+  {
+    "key": "e0006",
+    "text": "EnvManager",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      215.62899780273435,
+      46.8397518410911,
+      102.9523551029861,
+      20.22519092380935
+    ],
+    "components": [
+      "environment"
+    ]
+  },
+  {
+    "key": "e0007",
+    "text": "i",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      317.6289978027344,
+      56.89170331562309,
+      3.3379473682419416,
+      13.272784456791442
+    ],
+    "components": [
+      "environment"
+    ]
+  },
+  {
+    "key": "e0010",
+    "text": "EnvManager",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      211.03309631347656,
+      51.857925058864566,
+      102.95235510298608,
+      20.22519092380935
+    ],
+    "components": [
+      "environment"
+    ]
+  },
+  {
+    "key": "e0011",
+    "text": "i",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      313.0331115722656,
+      61.90989179218556,
+      3.3379473682419416,
+      13.272784456791442
+    ],
+    "components": [
+      "environment"
+    ]
+  },
+  {
+    "key": "e0014",
+    "text": "EnvManager",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      209.76600646972656,
+      56.89861442164147,
+      93.99918347208586,
+      22.121311312041144
+    ],
+    "components": [
+      "environment"
+    ]
+  },
+  {
+    "key": "e0015",
+    "text": "i",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      303.1910095214844,
+      66.95059447172389,
+      3.1601869141427983,
+      14.536859721827113
+    ],
+    "components": [
+      "environment"
+    ]
+  },
+  {
+    "key": "e0018",
+    "text": "LLM",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      440.5921020507812,
+      39.66224052027425,
+      31.082033546653292,
+      22.121311312041144
+    ],
+    "components": [
+      "decision-proxy"
+    ]
+  },
+  {
+    "key": "e0019",
+    "text": "Proxy",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      435.1971130371093,
+      61.262246623789906,
+      42.1330312214709,
+      22.121311312041144
+    ],
+    "components": [
+      "decision-proxy"
+    ]
+  },
+  {
+    "key": "e0022",
+    "text": "Inference",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      536.0692138671875,
+      32.003371836208316,
+      77.01118405134457,
+      20.22519092380935
+    ],
+    "components": [
+      "inference-workers"
+    ]
+  },
+  {
+    "key": "e0023",
+    "text": "Worker",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      541.8721740533563,
+      53.60337793972391,
+      62.08198257605727,
+      20.22519092380935
+    ],
+    "components": [
+      "inference-workers"
+    ]
+  },
+  {
+    "key": "e0024",
+    "text": "i",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      603.0042114257811,
+      63.65534467304494,
+      3.3379473682419984,
+      13.272784456791442
+    ],
+    "components": [
+      "inference-workers"
+    ]
+  },
+  {
+    "key": "e0027",
+    "text": "Inference",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      530.7070922851562,
+      39.421569468044225,
+      77.01118405134457,
+      20.22519092380935
+    ],
+    "components": [
+      "inference-workers"
+    ]
+  },
+  {
+    "key": "e0028",
+    "text": "Worker",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      536.5100524713251,
+      61.02157557155988,
+      62.08198257605727,
+      20.22519092380935
+    ],
+    "components": [
+      "inference-workers"
+    ]
+  },
+  {
+    "key": "e0029",
+    "text": "i",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      597.6420898437499,
+      71.07352704609181,
+      3.3379473682419984,
+      13.272784456791442
+    ],
+    "components": [
+      "inference-workers"
+    ]
+  },
+  {
+    "key": "e0032",
+    "text": "Inference",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      528.5875244140625,
+      45.989526286875815,
+      70.15993003930089,
+      22.121311312041144
+    ],
+    "components": [
+      "inference-workers"
+    ]
+  },
+  {
+    "key": "e0033",
+    "text": "Worker",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      533.8755920221063,
+      67.58951713160238,
+      56.39750990568973,
+      22.121311312041144
+    ],
+    "components": [
+      "inference-workers"
+    ]
+  },
+  {
+    "key": "e0034",
+    "text": "i",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      589.6876220703125,
+      77.64151244047389,
+      3.1601869141427414,
+      14.536859721827113
+    ],
+    "components": [
+      "inference-workers"
+    ]
+  },
+  {
+    "key": "e0036",
+    "text": "Historical",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      342.1567077636718,
+      40.75315238550863,
+      68.13341192347252,
+      22.121311312041144
+    ],
+    "components": []
+  },
+  {
+    "key": "e0037",
+    "text": "Obs., Action",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      331.9367065429687,
+      62.35315848902425,
+      88.5608245274716,
+      22.121311312041144
+    ],
+    "components": []
+  },
+  {
+    "key": "e0039",
+    "text": "Trajectory",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      127.66549682617188,
+      23.298623576914906,
+      73.54144194400578,
+      22.121311312041144
+    ],
+    "components": []
+  },
+  {
+    "key": "e0042",
+    "text": "Reward",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      26.57625007629394,
+      36.82587577418053,
+      56.70160481056428,
+      22.121311312041144
+    ],
+    "components": [
+      "reward-workers"
+    ]
+  },
+  {
+    "key": "e0043",
+    "text": "Workers",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      23.204212932750938,
+      58.425881877696156,
+      63.192067806086925,
+      22.121311312041144
+    ],
+    "components": [
+      "reward-workers"
+    ]
+  },
+  {
+    "key": "e0045",
+    "text": "Action",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      390.7906616021844,
+      8.462243572032065,
+      47.77373502631781,
+      22.121311312041144
+    ],
+    "components": [
+      "action-feedback"
+    ]
+  },
+  {
+    "key": "e0047",
+    "text": "Reset",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      265.16119384765625,
+      93.33497001246175,
+      40.673314420970655,
+      22.121311312041144
+    ],
+    "components": []
+  },
+  {
+    "key": "e0050",
+    "text": "Reward",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      21.66411972045898,
+      41.84406425074303,
+      56.70160481056428,
+      22.121311312041144
+    ],
+    "components": [
+      "reward-workers"
+    ]
+  },
+  {
+    "key": "e0051",
+    "text": "Workers",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      18.292082576915977,
+      63.44407035425863,
+      63.192067806086925,
+      22.121311312041144
+    ],
+    "components": [
+      "reward-workers"
+    ]
+  },
+  {
+    "key": "e0054",
+    "text": "Reward",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      15.443300247192383,
+      48.1713347585555,
+      56.70160481056428,
+      22.121311312041144
+    ],
+    "components": [
+      "reward-workers"
+    ]
+  },
+  {
+    "key": "e0055",
+    "text": "Worker",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      14.021262912914516,
+      69.77134086207113,
+      56.39750990568974,
+      22.121311312041144
+    ],
+    "components": [
+      "reward-workers"
+    ]
+  },
+  {
+    "key": "e0056",
+    "text": "i",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      69.83329772949219,
+      79.82332091215355,
+      3.1601869141427983,
+      14.536859721827113
+    ],
+    "components": [
+      "reward-workers"
+    ]
+  }
+]

@@ -1,0 +1,99 @@
+{
+  "name": "通信处理前后对照与插件展开",
+  "family": "comparison",
+  "tags": [
+    "服务迁移",
+    "插件",
+    "端到端路径",
+    "双方案"
+  ],
+  "when_to_use": "通信栈重构前后对照；强调减少重复中间处理的设计",
+  "avoid": "两个方案接口不一致的公平性比较；需要给出性能数值的实验结果图",
+  "preserve": [
+    "竖虚线分成两方案，底部按相同高度放调用与返回链；右侧附插件放大栏。",
+    "叠层矩形表示协议栈，小圆 M/U 表示两类转换操作，中心连接形状表示内部服务转接。",
+    "上部实线是模块交互；下部水平双向路线分别表示调用与回复；细虚线引出插件细节。",
+    "应用绿色、旁路政策青色、统一服务与插件蓝色，黄色徽标用于转换动作。",
+    "方案标题加粗并置底，插件名较短；代码或协议名不宜扩写成长句。"
+  ],
+  "adapt": "先固定两方案的同一请求和同一返回口径。 图中少掉的转换步骤必须能由实现解释。 插件层若不是可替换选项，应改成普通组成模块。",
+  "visual_note": "竖虚线分成两方案，底部按相同高度放调用与返回链；右侧附插件放大栏。",
+  "parts": [
+    {
+      "id": "legacy-service",
+      "name": "分散处理结构",
+      "role": "component",
+      "box": [
+        0.03,
+        0.15,
+        0.33,
+        0.5
+      ],
+      "meaning": "应用与旁路服务各有通信库。",
+      "reuse": "保留两次边界穿越仅当新对照确实如此。"
+    },
+    {
+      "id": "managed-service",
+      "name": "统一服务结构",
+      "role": "component",
+      "box": [
+        0.41,
+        0.01,
+        0.38,
+        0.64
+      ],
+      "meaning": "应用把公共处理交给独立服务。",
+      "reuse": "重定义前端、传输和内部转接职责。"
+    },
+    {
+      "id": "plugin-inset",
+      "name": "插件展开",
+      "role": "component",
+      "box": [
+        0.79,
+        0.02,
+        0.19,
+        0.54
+      ],
+      "meaning": "策略插件与传输实现分层。",
+      "reuse": "替换为实际可插拔模块，不混同必选依赖。"
+    },
+    {
+      "id": "legacy-path",
+      "name": "原调用链",
+      "role": "component",
+      "box": [
+        0.025,
+        0.67,
+        0.35,
+        0.25
+      ],
+      "meaning": "展示多次编码和解码。",
+      "reuse": "按真实协议逐一核对徽标，不为突出改进夸大次数。"
+    },
+    {
+      "id": "new-path",
+      "name": "改造后调用链",
+      "role": "component",
+      "box": [
+        0.53,
+        0.67,
+        0.32,
+        0.25
+      ],
+      "meaning": "展示经过集中处理的转换序列。",
+      "reuse": "接口与左图保持一致，才能比较路径差异。"
+    }
+  ],
+  "selection_evidence": {
+    "candidate_index": 31,
+    "semantics_read": true,
+    "preview_reviewed": true,
+    "source_render_reviewed": true,
+    "render": "source-renders/31.png"
+  },
+  "implementation": "source-derived editable SVG",
+  "validation_status": "source-fidelity-checked",
+  "id": "architecture.source.nsdi23-004_fig1",
+  "display_code": "VA-050"
+}

@@ -1,0 +1,489 @@
+{
+  "svg": "C:\\Users\\hhhh\\Desktop\\MCM-ICM-AI-Lab\\workstreams\\architecture-native-guides\\package\\architecture\\source-assets\\mlsys26-charon_fig5\\fig.svg",
+  "print_size_pt": [
+    468.0,
+    198.68436421397982
+  ],
+  "text_count": 92,
+  "parts": 0,
+  "errors": [
+    {
+      "type": "text-outside-canvas",
+      "text": "torch.compile",
+      "box": [
+        655.0279305413894,
+        -132.88944391879068,
+        759.7492155658588,
+        -111.29925488262097
+      ]
+    },
+    {
+      "type": "text-outside-canvas",
+      "text": "torch.fx.symbolic_trace",
+      "box": [
+        619.3088022762362,
+        -111.10980622577985,
+        794.9620081167229,
+        -89.51961718961013
+      ]
+    },
+    {
+      "type": "text-outside-canvas",
+      "text": "Torch",
+      "box": [
+        410.6636987705591,
+        -85.61052969819383,
+        452.2201527409109,
+        -64.02034066202413
+      ]
+    },
+    {
+      "type": "text-outside-canvas",
+      "text": "Partitioners",
+      "box": [
+        456.0621641776017,
+        -85.61052969819383,
+        543.7528450106076,
+        -64.02034066202413
+      ]
+    },
+    {
+      "type": "text-outside-canvas",
+      "text": "Initial",
+      "box": [
+        116.72019199422867,
+        618.2219304258851,
+        154.75835736161557,
+        637.6531432820397
+      ]
+    },
+    {
+      "type": "text-outside-canvas",
+      "text": "Configuration",
+      "box": [
+        158.2492418257526,
+        618.2219304258851,
+        248.56309077163615,
+        637.6531432820397
+      ]
+    },
+    {
+      "type": "text-outside-canvas",
+      "text": "Optimized",
+      "box": [
+        102.19050538096087,
+        799.3176653746708,
+        170.7697595168069,
+        818.7488629723962
+      ]
+    },
+    {
+      "type": "text-outside-canvas",
+      "text": "Configuration",
+      "box": [
+        174.2188358849593,
+        799.3176653746708,
+        264.53268483084287,
+        818.7488629723962
+      ]
+    },
+    {
+      "type": "text-outside-canvas",
+      "text": "GPU",
+      "box": [
+        187.618544266025,
+        749.5688387039952,
+        217.1556283936865,
+        769.0000515601498
+      ]
+    },
+    {
+      "type": "text-outside-canvas",
+      "text": "Cluster",
+      "box": [
+        192.2184113637967,
+        672.8706354290947,
+        239.17207690774868,
+        692.3018482852492
+      ]
+    },
+    {
+      "type": "text-outside-canvas",
+      "text": "-",
+      "box": [
+        238.49734916890264,
+        672.8706354290947,
+        243.89490501081156,
+        692.3018368414273
+      ]
+    },
+    {
+      "type": "text-outside-canvas",
+      "text": "level",
+      "box": [
+        243.36722942964633,
+        672.8706354290947,
+        274.64853511504106,
+        692.3018482852492
+      ]
+    },
+    {
+      "type": "text-outside-canvas",
+      "text": "Profiling",
+      "box": [
+        205.5180244493664,
+        686.3703170382229,
+        262.1088528369225,
+        705.8015298943774
+      ]
+    },
+    {
+      "type": "text-outside-canvas",
+      "text": "Experiments",
+      "box": [
+        191.99844584857271,
+        699.8999967191413,
+        274.876862249462,
+        719.3312095752958
+      ]
+    },
+    {
+      "type": "text-outside-canvas",
+      "text": "Experienced",
+      "box": [
+        78.8210919504927,
+        664.5507938113055,
+        160.11022088365877,
+        683.9820066674599
+      ]
+    },
+    {
+      "type": "text-outside-canvas",
+      "text": "Engineers",
+      "box": [
+        87.30087242306674,
+        678.050505937292,
+        151.45313746388007,
+        697.4817187934465
+      ]
+    },
+    {
+      "type": "text-outside-canvas",
+      "text": "Multiple",
+      "box": [
+        107.6204310267476,
+        749.6988405207065,
+        164.96996954741928,
+        769.1300533768609
+      ]
+    },
+    {
+      "type": "text-outside-canvas",
+      "text": "iterations",
+      "box": [
+        104.14047159791164,
+        763.1984916129762,
+        167.6901812699546,
+        782.6297044691306
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "Cluster",
+        "Profiling"
+      ],
+      "overlap": [
+        33.7,
+        5.9
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "-",
+        "Profiling"
+      ],
+      "overlap": [
+        5.4,
+        5.9
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "level",
+        "Profiling"
+      ],
+      "overlap": [
+        18.7,
+        5.9
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "Profiling",
+        "Experiments"
+      ],
+      "overlap": [
+        56.6,
+        5.9
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "Experienced",
+        "Engineers"
+      ],
+      "overlap": [
+        64.2,
+        5.9
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "Multiple",
+        "iterations"
+      ],
+      "overlap": [
+        57.3,
+        5.9
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "Operator",
+        "Type+Shape"
+      ],
+      "overlap": [
+        69.0,
+        4.3
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "Store",
+        "Results"
+      ],
+      "overlap": [
+        40.4,
+        4.3
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "Random",
+        "Forest"
+      ],
+      "overlap": [
+        46.2,
+        4.3
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "Forest",
+        "Predictor"
+      ],
+      "overlap": [
+        46.2,
+        4.3
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "Operator",
+        "Type+Shape"
+      ],
+      "overlap": [
+        69.0,
+        4.3
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "Peak",
+        "Arithmetic Intensity"
+      ],
+      "overlap": [
+        32.6,
+        4.4
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "Bandwidth",
+        "Arithmetic Intensity"
+      ],
+      "overlap": [
+        72.3,
+        4.4
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "x",
+        "Arithmetic Intensity"
+      ],
+      "overlap": [
+        9.7,
+        4.4
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "Comm",
+        "Cluster"
+      ],
+      "overlap": [
+        4.1,
+        21.8
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "Type",
+        "Cluster"
+      ],
+      "overlap": [
+        4.1,
+        22.4
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "Type",
+        "Info"
+      ],
+      "overlap": [
+        4.1,
+        8.4
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "+",
+        "Info"
+      ],
+      "overlap": [
+        4.1,
+        8.6
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "Size",
+        "Info"
+      ],
+      "overlap": [
+        4.1,
+        4.0
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "Link",
+        "Utilization"
+      ],
+      "overlap": [
+        28.1,
+        3.7
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "Comm",
+        "Latency"
+      ],
+      "overlap": [
+        42.9,
+        3.7
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "Profiling",
+        "Engine"
+      ],
+      "overlap": [
+        18.7,
+        3.7
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "Profiling",
+        "Support?"
+      ],
+      "overlap": [
+        35.0,
+        3.7
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "Prediction",
+        "Engine"
+      ],
+      "overlap": [
+        24.9,
+        3.7
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "Prediction",
+        "Support?"
+      ],
+      "overlap": [
+        40.2,
+        3.7
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "Analytical",
+        "Engine"
+      ],
+      "overlap": [
+        45.3,
+        3.7
+      ]
+    }
+  ],
+  "warnings": [],
+  "pdf": {
+    "page_count": 1,
+    "fonts": [
+      {
+        "name": "AAAAAA+Carlito-Bold",
+        "type": "Type0"
+      }
+    ],
+    "images": 0
+  },
+  "scope": "Measured text bounds, intersections, print font size, and PDF structure. Connections and visual fidelity require actual image inspection."
+}

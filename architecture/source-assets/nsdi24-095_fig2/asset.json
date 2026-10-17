@@ -1,0 +1,86 @@
+{
+  "name": "滑动窗口与有状态序列判别",
+  "family": "pipeline",
+  "tags": [
+    "滑动窗口",
+    "双特征",
+    "记忆",
+    "结果聚合"
+  ],
+  "when_to_use": "事件流分窗后用有状态模型分类；需要同时解释多特征、记忆和跨窗口聚合的算法",
+  "avoid": "无状态回归流水线；仅靠改模型名称就能替换全部网络结构的场景",
+  "preserve": [
+    "左窄输入、中宽模型、右窄结果；中央自上而下而右侧向上收束。",
+    "流中折角片表示样本，长条表示层，记忆单独外置；右侧小方块代表多次局部结果。",
+    "主链为实线下行，记忆用弧形虚线形成双向状态联系，输出线从模型底部绕到右侧。",
+    "蓝色为特征输入，绿色为处理层，粉色为变换步骤，黄色为记忆，紫色为结果；颜色不是精度数值。",
+    "层名和缩写需简短；斜体 STE 是专用变换名，改为其他模型时不能当装饰留下。"
+  ],
+  "adapt": "明确窗口之间是否共享隐藏状态。 分别确认各粉色变换条是否真实存在，不继承二值化设定。 将输出维度与右侧结果符号对应。 聚合策略改变时同时改结果到最终结论的箭头说明。",
+  "visual_note": "左窄输入、中宽模型、右窄结果；中央自上而下而右侧向上收束。",
+  "parts": [
+    {
+      "id": "stream-window",
+      "name": "流与窗口",
+      "role": "component",
+      "box": [
+        0.0,
+        0.0,
+        0.22,
+        0.86
+      ],
+      "meaning": "从连续事件中选择一段固定范围。",
+      "reuse": "换成传感样本或交易序列，并说明窗口长度及步幅。"
+    },
+    {
+      "id": "dual-embedding",
+      "name": "双路特征编码",
+      "role": "component",
+      "box": [
+        0.25,
+        0.12,
+        0.49,
+        0.33
+      ],
+      "meaning": "两种序列分别编码后合流。",
+      "reuse": "用真实特征与编码器，单特征情形需删除一支并居中。"
+    },
+    {
+      "id": "stateful-model",
+      "name": "状态推断与记忆",
+      "role": "component",
+      "box": [
+        0.25,
+        0.46,
+        0.49,
+        0.52
+      ],
+      "meaning": "共享层、循环单元、记忆和输出层组成核心。",
+      "reuse": "没有循环状态就删除回路与记忆框；量化步骤也须据实保留。"
+    },
+    {
+      "id": "result-aggregation",
+      "name": "窗口结果聚合",
+      "role": "component",
+      "box": [
+        0.76,
+        0.0,
+        0.24,
+        0.95
+      ],
+      "meaning": "多个中间结论合成最终输出。",
+      "reuse": "填实际聚合规则，如概率平均或阈值累积，而非默认投票。"
+    }
+  ],
+  "selection_evidence": {
+    "candidate_index": 39,
+    "semantics_read": true,
+    "preview_reviewed": true,
+    "source_render_reviewed": true,
+    "render": "source-renders/39.png"
+  },
+  "implementation": "source-derived editable SVG",
+  "validation_status": "source-fidelity-checked",
+  "id": "architecture.source.nsdi24-095_fig2",
+  "display_code": "VA-052"
+}

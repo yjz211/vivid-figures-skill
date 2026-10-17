@@ -1,0 +1,364 @@
+[
+  {
+    "key": "e0008",
+    "text": "control path",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      53.17778226898736,
+      141.90318437470705,
+      39.61948037061666,
+      8.620294258987997
+    ],
+    "components": []
+  },
+  {
+    "key": "e0009",
+    "text": "via shmem",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      54.42067348288765,
+      151.65058084382326,
+      36.898798221183824,
+      8.620294258987997
+    ],
+    "components": [
+      "path-legend"
+    ]
+  },
+  {
+    "key": "e0010",
+    "text": "data path",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      124.32023637714155,
+      148.4014486874512,
+      31.62878313884721,
+      8.620294258987997
+    ],
+    "components": [
+      "path-legend"
+    ]
+  },
+  {
+    "key": "e0013",
+    "text": "relay buf",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      182.43236011377303,
+      148.4014486874512,
+      29.18942207857617,
+      8.620294258987997
+    ],
+    "components": []
+  },
+  {
+    "key": "e0014",
+    "text": "fer",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      211.37681817280827,
+      148.4014486874512,
+      9.02901382528944,
+      8.620294258987997
+    ],
+    "components": []
+  },
+  {
+    "key": "e0018",
+    "text": "CPU",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      24.257127761840824,
+      7.409980406271643,
+      11.432741858718142,
+      6.157348615543015
+    ],
+    "components": [
+      "control-queue"
+    ]
+  },
+  {
+    "key": "e0019",
+    "text": "NICs",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      197.35799485334428,
+      3.1756723681255608,
+      14.445770998398075,
+      7.3888188550872655
+    ],
+    "components": []
+  },
+  {
+    "key": "e0023",
+    "text": "GPU0 Mem",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      158.87614371710515,
+      13.90824575188708,
+      28.58820009160263,
+      6.157349648414311
+    ],
+    "components": [
+      "shared-relay-rows"
+    ]
+  },
+  {
+    "key": "e0031",
+    "text": "GPU1 Mem",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      158.87614371710515,
+      39.901301969992346,
+      28.58820009160263,
+      6.157350681285607
+    ],
+    "components": [
+      "shared-relay-rows"
+    ]
+  },
+  {
+    "key": "e0033",
+    "text": "GPU2 Mem",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      158.87614371710515,
+      68.06044732521696,
+      28.58820009160263,
+      6.157350681285607
+    ],
+    "components": [
+      "independent-relays"
+    ]
+  },
+  {
+    "key": "e0035",
+    "text": "GPU3 Mem",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      157.7931079279515,
+      95.13654862831754,
+      28.588175302691525,
+      6.157350681285607
+    ],
+    "components": [
+      "independent-relays"
+    ]
+  },
+  {
+    "key": "e0036",
+    "text": "GPU W",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      66.00509559004422,
+      3.1756723681255608,
+      22.044303524999123,
+      7.3888188550872655
+    ],
+    "components": []
+  },
+  {
+    "key": "e0037",
+    "text": "orkers",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      87.91135793206922,
+      3.1756723681255608,
+      18.057490557504934,
+      7.3888188550872655
+    ],
+    "components": []
+  },
+  {
+    "key": "e0040",
+    "text": "W1",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      79.51684107542678,
+      45.51225960418378,
+      11.619322828250006,
+      8.620290127502813
+    ],
+    "components": [
+      "shared-relay-rows"
+    ]
+  },
+  {
+    "key": "e0044",
+    "text": "W2",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      79.51684107542678,
+      72.58836503876955,
+      11.619322828250006,
+      8.620285996017628
+    ],
+    "components": [
+      "independent-relays"
+    ]
+  },
+  {
+    "key": "e0048",
+    "text": "W3",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      79.51684107542678,
+      99.66446634187014,
+      11.619322828250006,
+      8.620285996017628
+    ],
+    "components": [
+      "independent-relays"
+    ]
+  },
+  {
+    "key": "e0051",
+    "text": "W0",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      79.51684107542678,
+      18.436158301083196,
+      11.619322828250006,
+      8.62028806176022
+    ],
+    "components": [
+      "shared-relay-rows"
+    ]
+  },
+  {
+    "key": "e0065",
+    "text": "Buf",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      138.0275457137177,
+      2.0926280577837133,
+      9.919043152578524,
+      7.388819371522914
+    ],
+    "components": []
+  },
+  {
+    "key": "e0066",
+    "text": "fers",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      147.66708563061547,
+      2.0926280577837133,
+      10.835323936727946,
+      7.388819371522914
+    ],
+    "components": []
+  },
+  {
+    "key": "e0089",
+    "text": "Net Op. Queues",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      35.21373242596019,
+      48.30985855668406,
+      4.925878892434412,
+      32.550777767006366
+    ],
+    "components": [
+      "control-queue"
+    ]
+  },
+  {
+    "key": "e0096",
+    "text": "Scheduler",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      27.94624656438828,
+      127.62787019203824,
+      26.291633488010117,
+      6.157350681285607
+    ],
+    "components": [
+      "scheduler-bar"
+    ]
+  },
+  {
+    "key": "e0099",
+    "text": "QPs",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      200.77641874662368,
+      126.44696778184152,
+      8.722077527985675,
+      4.925878892434412
+    ],
+    "components": [
+      "scheduler-bar"
+    ]
+  },
+  {
+    "key": "e0102",
+    "text": "monitor NIC (4.3)",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      129.17702857432596,
+      127.53000357099518,
+      34.933417667183676,
+      4.925878892434412
+    ],
+    "components": [
+      "scheduler-bar"
+    ]
+  },
+  {
+    "key": "e0105",
+    "text": "route data to relays(4.1, 4.2)",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      58.406860530376434,
+      127.53000357099518,
+      57.33770989073673,
+      4.925878892434412
+    ],
+    "components": [
+      "scheduler-bar"
+    ]
+  },
+  {
+    "key": "e0106",
+    "text": "post to",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      178.3878344297409,
+      119.94869520612701,
+      14.499695143022109,
+      4.925878892434412
+    ],
+    "components": [
+      "scheduler-bar"
+    ]
+  },
+  {
+    "key": "e0107",
+    "text": "idle NIC",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      177.55866187921492,
+      125.36391546674713,
+      16.19666136757587,
+      4.925878892434412
+    ],
+    "components": [
+      "scheduler-bar"
+    ]
+  },
+  {
+    "key": "e0108",
+    "text": "via NVLink",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      104.74839124022401,
+      33.403037657248206,
+      26.378962756090914,
+      6.157350681285607
+    ],
+    "components": [
+      "shared-relay-rows"
+    ]
+  }
+]

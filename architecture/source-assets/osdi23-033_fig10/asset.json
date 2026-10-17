@@ -1,0 +1,87 @@
+{
+  "name": "在线运维与离线诊断闭环",
+  "family": "offline-online",
+  "tags": [
+    "在线离线",
+    "诊断",
+    "策略",
+    "库存",
+    "编号闭环"
+  ],
+  "when_to_use": "诊断后调整资源容量的运维；需要区分新增与改造模块的方案",
+  "avoid": "纯实时紧耦合控制；没有状态清单或调度反馈的线性检测流程",
+  "preserve": [
+    "在线区浅蓝底并占左半，离线区白底；右侧独立竖线隔出图例。",
+    "简单矩形承担模块，策略旁小齿轮暗示与外部执行或管理接口交互。",
+    "实线箭头上编号串联闭环；清单到监测及调度的分支分别表达不同作用。",
+    "浅蓝只标运行区域；土黄与暗红边框表示改造模块和新增模块，不能再赋予健康程度含义。",
+    "模块名分成短行；编号靠近箭头而非模块标题；图例斜体提示分类。"
+  ],
+  "adapt": "定义从诊断到清单更新的具体字段。 离线不等于人工，若由人员审批需额外标注。 重新编号完整路径，并解释清单回馈监测的用途。",
+  "visual_note": "在线区浅蓝底并占左半，离线区白底；右侧独立竖线隔出图例。",
+  "parts": [
+    {
+      "id": "online-control",
+      "name": "在线运行区",
+      "role": "component",
+      "box": [
+        0.015,
+        0.02,
+        0.445,
+        0.86
+      ],
+      "meaning": "运行期监测、状态维护和调度。",
+      "reuse": "明确哪些部分持续运行，避免把离线诊断塞进同一时序。"
+    },
+    {
+      "id": "offline-diagnosis",
+      "name": "诊断与策略",
+      "role": "component",
+      "box": [
+        0.5,
+        0.04,
+        0.21,
+        0.81
+      ],
+      "meaning": "分析异常并生成处置。",
+      "reuse": "改为本场景真实诊断和策略输入输出。"
+    },
+    {
+      "id": "inventory-scheduler",
+      "name": "清单与调度接口",
+      "role": "component",
+      "box": [
+        0.02,
+        0.32,
+        0.43,
+        0.49
+      ],
+      "meaning": "将资源状态转为放置约束。",
+      "reuse": "清单需注明容量、可用性或风险，不能混为同一指标。"
+    },
+    {
+      "id": "change-legend",
+      "name": "改造范围图例",
+      "role": "legend",
+      "box": [
+        0.75,
+        0.09,
+        0.25,
+        0.74
+      ],
+      "meaning": "说明哪些模块新增、哪些沿用改造。",
+      "reuse": "按实际贡献重新着色，现有颜色不是自动创新声明。"
+    }
+  ],
+  "selection_evidence": {
+    "candidate_index": 52,
+    "semantics_read": true,
+    "preview_reviewed": true,
+    "source_render_reviewed": true,
+    "render": "source-renders/52.png"
+  },
+  "implementation": "source-derived editable SVG",
+  "validation_status": "source-fidelity-checked",
+  "id": "architecture.source.osdi23-033_fig10",
+  "display_code": "VA-058"
+}

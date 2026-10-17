@@ -1,0 +1,86 @@
+{
+  "name": "双端事件通知与共享状态交互",
+  "family": "deployment",
+  "tags": [
+    "双端",
+    "共享内存",
+    "编号消息",
+    "嵌套模块"
+  ],
+  "when_to_use": "事件通知涉及共享状态和接收处理；需要把短代码片段放入端点内部解释",
+  "avoid": "多对多网络拓扑；没有确认或状态恢复的单向数据搬运",
+  "preserve": [
+    "接收端比发送端更宽，中间狭长状态栏独立；底部大弧线绕开内部代码。",
+    "外矩形为端点，浅色嵌套框为处理区，虚线框为代码片段，窄格表示共享标志。",
+    "黑色有向弧线联系远距离状态，圆形编号给出阅读次序；箭头跨过框时不表示归属。",
+    "浅绿色承载处理代码，浅黄色承载底层控制寄存器，粉色窄栏突出共享状态，黑白号码保持高对比。",
+    "代码用等宽字体，模块用无衬线；保留缩进与换行，不能将长代码强塞进现有框。"
+  ],
+  "adapt": "先列出端点动作及共享字段的读写顺序。 保留两类通道的视觉区别：状态访问和通知传递。 步骤数变化时重排圆形号码与路径，必要时放大接收区。",
+  "visual_note": "接收端比发送端更宽，中间狭长状态栏独立；底部大弧线绕开内部代码。",
+  "parts": [
+    {
+      "id": "sender",
+      "name": "发送端",
+      "role": "component",
+      "box": [
+        0.02,
+        0.05,
+        0.32,
+        0.7
+      ],
+      "meaning": "程序发起操作并关联本地通知寄存器。",
+      "reuse": "把调用与发送状态作为一组修改。"
+    },
+    {
+      "id": "shared-state",
+      "name": "共享状态",
+      "role": "component",
+      "box": [
+        0.345,
+        0.05,
+        0.075,
+        0.7
+      ],
+      "meaning": "端点间可见的待处理位和通知标志。",
+      "reuse": "按协议改字段，并解释谁写谁读。"
+    },
+    {
+      "id": "receiver",
+      "name": "接收端",
+      "role": "component",
+      "box": [
+        0.43,
+        0.05,
+        0.52,
+        0.7
+      ],
+      "meaning": "接收机制、处理代码和完成标志并列。",
+      "reuse": "替换内部状态机时重编步骤。"
+    },
+    {
+      "id": "system-bus",
+      "name": "底部通道",
+      "role": "component",
+      "box": [
+        0.1,
+        0.72,
+        0.63,
+        0.12
+      ],
+      "meaning": "跨端点传递通知的外绕路径。",
+      "reuse": "与共享状态访问区分，不误作同一数据通道。"
+    }
+  ],
+  "selection_evidence": {
+    "candidate_index": 2,
+    "semantics_read": true,
+    "preview_reviewed": true,
+    "source_render_reviewed": true,
+    "render": "source-renders/2.png"
+  },
+  "implementation": "source-derived editable SVG",
+  "validation_status": "source-fidelity-checked",
+  "id": "architecture.source.asplos25-080_fig1",
+  "display_code": "VA-037"
+}

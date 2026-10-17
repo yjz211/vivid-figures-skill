@@ -1,0 +1,216 @@
+[
+  {
+    "key": "e0024",
+    "text": "GPU 1",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      43.30014896392823,
+      53.99488353729249,
+      46.800009727478034,
+      17.920000076293952
+    ],
+    "components": [
+      "resource-grid"
+    ]
+  },
+  {
+    "key": "e0027",
+    "text": "GPU 2",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      145.44778537750247,
+      53.99488353729249,
+      46.80000972747803,
+      17.920000076293952
+    ],
+    "components": [
+      "resource-grid"
+    ]
+  },
+  {
+    "key": "e0030",
+    "text": "GPU 3",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      250.5406293869019,
+      55.25488162040711,
+      40.95000171661377,
+      15.679999351501472
+    ],
+    "components": [
+      "resource-grid"
+    ]
+  },
+  {
+    "key": "e0033",
+    "text": "GPU 4",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      352.68827342987066,
+      53.12102389335633,
+      41.51000118255615,
+      15.679999351501472
+    ],
+    "components": [
+      "resource-grid"
+    ]
+  },
+  {
+    "key": "e0036",
+    "text": "GPU 5",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      43.297196388244636,
+      111.62677288055421,
+      46.800009727478034,
+      17.92000007629396
+    ],
+    "components": [
+      "resource-grid"
+    ]
+  },
+  {
+    "key": "e0039",
+    "text": "GPU 6",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      145.44680881500247,
+      111.62677288055421,
+      46.80000972747803,
+      17.92000007629396
+    ],
+    "components": [
+      "resource-grid"
+    ]
+  },
+  {
+    "key": "e0042",
+    "text": "GPU 7",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      246.9979867935181,
+      111.62677288055421,
+      46.800009727478056,
+      17.92000007629396
+    ],
+    "components": [
+      "resource-grid"
+    ]
+  },
+  {
+    "key": "e0049",
+    "text": "GPU 8",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      349.7439279556275,
+      111.62681102752687,
+      46.80000972747803,
+      17.92000007629396
+    ],
+    "components": [
+      "resource-grid"
+    ]
+  },
+  {
+    "key": "e0059",
+    "text": "NVLink Domain",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      27.75028991699219,
+      143.5801935195923,
+      139.06876373291018,
+      20.160000801086426
+    ],
+    "components": [
+      "resource-grid"
+    ]
+  },
+  {
+    "key": "e0062",
+    "text": "AQUA-PROF",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      28.04131126403809,
+      249.0830311775208,
+      125.89201354980472,
+      24.639999389648438
+    ],
+    "components": [
+      "profiler"
+    ]
+  },
+  {
+    "key": "e0065",
+    "text": "AQUA-PLACER",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      298.5246918201447,
+      249.10271501541143,
+      149.0880203247071,
+      24.639999389648438
+    ],
+    "components": []
+  },
+  {
+    "key": "e0068",
+    "text": "AQUA-LIB",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      516.9678874015808,
+      41.260923862457275,
+      24.639999389648438,
+      100.83575820922852
+    ],
+    "components": [
+      "access-library"
+    ]
+  },
+  {
+    "key": "e0094",
+    "text": "1",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      580.6308264732362,
+      67.02381898462774,
+      13.352499961853027,
+      26.880000114440918
+    ],
+    "components": []
+  },
+  {
+    "key": "e0097",
+    "text": "2",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      580.6308264732362,
+      164.6458740383387,
+      13.352499961853027,
+      26.880000114440918
+    ],
+    "components": []
+  },
+  {
+    "key": "e0100",
+    "text": "3",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      580.6308264732362,
+      18.212795272469524,
+      13.352499961853027,
+      26.88000011444092
+    ],
+    "components": []
+  },
+  {
+    "key": "e0103",
+    "text": "4",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      580.6308264732362,
+      115.8358230739832,
+      13.352499961853027,
+      26.880000114440932
+    ],
+    "components": []
+  }
+]

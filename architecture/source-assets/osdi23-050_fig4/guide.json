@@ -1,0 +1,82 @@
+{
+  "asset_id": "architecture.source.osdi23-050_fig4",
+  "title": "分离调度与统一任务映射对照",
+  "summary": "左图把循环控制放在CPU、算子内核放在加速器；右图把算子拆成小任务，统一调度到程序条带，再映射到多级硬件。它把抽象策略与实际部署对应起来，适合说明为何调度粒度改变了执行结构。",
+  "suitable_for": [
+    "集中调度与分离调度的架构比较",
+    "从逻辑算子到任务再到硬件单元的映射"
+  ],
+  "not_suitable_for": [
+    "只有一个无层次流水线的简单过程",
+    "要量化加速比或资源利用率的图"
+  ],
+  "reading_order": [
+    "先读左上MatMul、Add、Relu及循环回边。",
+    "看左下CPU的Loop与加速器内核分离。",
+    "读右上算子分解为小方块任务。",
+    "沿schedule到程序条带，再沿map到L0/L1/L2硬件层。"
+  ],
+  "design": {
+    "layout": "两个不等宽面板，左侧对照较窄，右侧分三层展示统一表示与部署。",
+    "shapes": "左侧圆形算子与矩形内核，右侧椭圆算子内嵌任务方块、多列条带及嵌套硬件格。",
+    "connectors": "黑粗箭头连接schedule与map，棕色细回边表示loop；回边方向必须单独核对。",
+    "color": "蓝、灰、淡黄在算子、任务、内核三层保持对应；红色仅突出左图CPU循环控制。",
+    "typography": "衬线文本，uProgram/uTask等记号带斜体前缀，多级单元标签大小接近。"
+  },
+  "parts": [
+    {
+      "id": "baseline-operators",
+      "name": "基准算子与循环",
+      "meaning": "循环包围的三算子链",
+      "adaptation": "更改算子种类时同步改下层内核"
+    },
+    {
+      "id": "split-execution",
+      "name": "分离执行部署",
+      "meaning": "CPU循环控制与加速器内核分离",
+      "adaptation": "改设备角色时保持控制回路可见"
+    },
+    {
+      "id": "task-operators",
+      "name": "任务化算子链",
+      "meaning": "椭圆算子内部拆分小任务",
+      "adaptation": "改变任务数量时重布椭圆内部对象"
+    },
+    {
+      "id": "unified-program",
+      "name": "统一任务程序",
+      "meaning": "多列任务和局部循环共同组成程序",
+      "adaptation": "按实际调度重排每列任务"
+    },
+    {
+      "id": "hardware-map",
+      "name": "多级硬件映射",
+      "meaning": "L0嵌于L1，L1共同组成L2",
+      "adaptation": "层级数改变时重建容器嵌套"
+    }
+  ],
+  "adaptation": [
+    "保留从逻辑操作到执行实体的颜色对应，先定义每个小方块代表什么。",
+    "确认对照方案的循环控制位置，不能让CPU红块只剩装饰作用。",
+    "任务序列、循环回边与硬件单元映射一起改，不承诺任务数改变后自动重排。",
+    "源viewBox顶部约三成是留白；成稿裁边时同步更新画布和导出坐标。"
+  ],
+  "example": {
+    "scenario": "假设比较机器人任务的集中控制与分布式任务调度。",
+    "mapping": "三种算子为感知、规划、执行，小方块为子任务，L0/L1/L2为核心、设备、集群。",
+    "structural_changes": "重建循环和部署映射；若层级含义不是包含关系，应改成网络连接而非嵌套格。"
+  },
+  "checks": [
+    "同类任务在逻辑层、程序层和硬件层保持颜色一致。",
+    "schedule与map不能被误写为同一操作。",
+    "循环箭头端点回到正确阶段。",
+    "裁剪上方留白后没有丢失回边或标题。"
+  ],
+  "editing": {
+    "entry": "make_figure.py 运行本图构建与 customize 入口；example.json 提供实例配置，labels.json 定位文字键，asset.json 定义部件及 element_keys。运行 python make_figure.py --config example.json --out . --parts。",
+    "configurable": "labels、components 可改文字、配色、显隐和位移；配置不自动重排、延长连线或重新计算容器。",
+    "code_required": "结构变化在 customize(root, context) 中编辑；新增对象赋予唯一 data-asset-key 并补入所属部件的 element_keys。跨区域连线保留在整图时，移动部件后须显式重接；重叠部件不可重复平移同一元素。",
+    "fonts": "主要为衬线体，符号前缀倾斜；Loop、L0等短标签字体替换后仍需检查数字与字母区别。 最终字体文件以构建映射为准；局部 font_size 是源坐标中的字号，不等于论文纸面 pt，换字后须检查实际宽度。本批构建已确认并嵌入完整字体：Tinos-Italic.ttf, Tinos-Regular.ttf。映射可能改变原字形和字宽，需按实际论文尺寸复核。"
+  },
+  "display_code": "VA-161"
+}

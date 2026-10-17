@@ -1,0 +1,73 @@
+{
+  "name": "虚拟资源栈与共享独占对照",
+  "family": "comparison",
+  "tags": [
+    "资源隔离",
+    "双面板",
+    "共享通道",
+    "分区"
+  ],
+  "when_to_use": "虚拟资源与实体资源关系的背景说明；共享隔离和独占隔离的结构对照",
+  "avoid": "需要证明性能优劣的实验图；多于两种且边界复杂的策略大全",
+  "preserve": [
+    "左右双面板，左为纵向层级，右为横向资源分区；底部面板说明对齐。",
+    "长条表示统一抽象层，圆角大框包实体设备，窄条表示通道，内层小块表示资源。",
+    "左侧双向箭头表示访问映射，右侧箭头连接实例与对应通道；并列本身不表示顺序。",
+    "淡紫用于抽象层与控制，淡蓝标实体层，黄色强调独占范围；共享区保持中性。",
+    "面板标题与对象标签分层；实例编号不能被长策略名挤掉。"
+  ],
+  "adapt": "先确认比较维度是资源归属，而非性能或公平程度。 在两个面板使用相同的实例、通道和设备词汇。 共享策略需要画出多个实例共同占用，独占策略需要互不重叠的范围。 如果新增混合策略，应扩展第三面板，不压缩现有两个。",
+  "visual_note": "左右双面板，左为纵向层级，右为横向资源分区；底部面板说明对齐。",
+  "parts": [
+    {
+      "id": "virtualized-stack",
+      "name": "虚拟化映射栈",
+      "role": "component",
+      "box": [
+        0.05,
+        0.12,
+        0.41,
+        0.69
+      ],
+      "meaning": "从上层实例经过映射层到多个底层通道。",
+      "reuse": "替换抽象对象与物理设备，保留一对多映射的真实含义。"
+    },
+    {
+      "id": "channel-unit",
+      "name": "通道内控制单元",
+      "role": "component",
+      "box": [
+        0.08,
+        0.38,
+        0.16,
+        0.38
+      ],
+      "meaning": "一个控制者管理若干底层资源的层次单元。",
+      "reuse": "复用为车间控制器加设备，移动时别再次移动包含它的整栈。"
+    },
+    {
+      "id": "isolation-partitions",
+      "name": "共享与独占分区",
+      "role": "component",
+      "box": [
+        0.49,
+        0.2,
+        0.44,
+        0.59
+      ],
+      "meaning": "用资源条是否跨实例边界展示两种隔离。",
+      "reuse": "按真实归属重画边界；颜色不能替代共享关系的可见结构。"
+    }
+  ],
+  "selection_evidence": {
+    "candidate_index": 1,
+    "semantics_read": true,
+    "preview_reviewed": true,
+    "source_render_reviewed": true,
+    "render": "source-renders/1.png"
+  },
+  "implementation": "source-derived editable SVG",
+  "validation_status": "source-fidelity-checked",
+  "id": "architecture.source.asplos25-052_fig1",
+  "display_code": "VA-036"
+}

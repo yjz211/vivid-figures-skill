@@ -1,0 +1,955 @@
+{
+  "viewBox": [
+    0,
+    0,
+    544.260009765625,
+    258
+  ],
+  "elements": [
+    {
+      "key": "e0001",
+      "id": "",
+      "tag": "path",
+      "bounds": [
+        0,
+        5.684341886080802e-14,
+        544.2600097656249,
+        257.99999999999994
+      ],
+      "parent_matrix": [
+        0.9999999999999999,
+        0,
+        0,
+        0.9999999999999999,
+        0,
+        0
+      ],
+      "visible": true,
+      "text": null,
+      "font_family": "\"Times New Roman\"",
+      "font_size": 15.999999999999998,
+      "font_weight": "400",
+      "font_style": "normal",
+      "fill": "rgb(255, 255, 255)",
+      "stroke": "none"
+    },
+    {
+      "key": "e0002",
+      "id": "",
+      "tag": "path",
+      "bounds": [
+        13.499999999999998,
+        90.05999755859378,
+        124.61999511718747,
+        57.18000030517575
+      ],
+      "parent_matrix": [
+        0.9999999999999999,
+        0,
+        0,
+        0.9999999999999999,
+        0,
+        0
+      ],
+      "visible": true,
+      "text": null,
+      "font_family": "\"Times New Roman\"",
+      "font_size": 15.999999999999998,
+      "font_weight": "400",
+      "font_style": "normal",
+      "fill": "none",
+      "stroke": "rgb(255, 192, 0)"
+    },
+    {
+      "key": "e0003",
+      "id": "",
+      "tag": "text",
+      "bounds": [
+        32.633098602294915,
+        97.05310058593753,
+        90.37272644042969,
+        43.37071990966794
+      ],
+      "parent_matrix": [
+        0.9999999999999999,
+        0,
+        0,
+        0.9999999999999999,
+        0,
+        0
+      ],
+      "visible": true,
+      "text": "NN-defined STF Mod",
+      "font_family": "VividSource-Carlito-Bold",
+      "font_size": 17.999999999999996,
+      "font_weight": "400",
+      "font_style": "normal",
+      "fill": "rgb(0, 0, 0)",
+      "stroke": "none"
+    },
+    {
+      "key": "e0004",
+      "id": "",
+      "tag": "path",
+      "bounds": [
+        144.17999267578122,
+        90.05999755859378,
+        124.61999511718747,
+        57.18000030517575
+      ],
+      "parent_matrix": [
+        0.9999999999999999,
+        0,
+        0,
+        0.9999999999999999,
+        0,
+        0
+      ],
+      "visible": true,
+      "text": null,
+      "font_family": "\"Times New Roman\"",
+      "font_size": 15.999999999999998,
+      "font_weight": "400",
+      "font_style": "normal",
+      "fill": "none",
+      "stroke": "rgb(84, 130, 53)"
+    },
+    {
+      "key": "e0005",
+      "id": "",
+      "tag": "text",
+      "bounds": [
+        163.30340576171872,
+        97.05310058593753,
+        90.3726806640625,
+        43.37071990966794
+      ],
+      "parent_matrix": [
+        0.9999999999999999,
+        0,
+        0,
+        0.9999999999999999,
+        0,
+        0
+      ],
+      "visible": true,
+      "text": "NN-defined LTF Mod",
+      "font_family": "VividSource-Carlito-Bold",
+      "font_size": 17.999999999999996,
+      "font_weight": "400",
+      "font_style": "normal",
+      "fill": "rgb(0, 0, 0)",
+      "stroke": "none"
+    },
+    {
+      "key": "e0006",
+      "id": "",
+      "tag": "path",
+      "bounds": [
+        274.85998535156244,
+        90.05999755859378,
+        124.6199951171875,
+        57.18000030517575
+      ],
+      "parent_matrix": [
+        0.9999999999999999,
+        0,
+        0,
+        0.9999999999999999,
+        0,
+        0
+      ],
+      "visible": true,
+      "text": null,
+      "font_family": "\"Times New Roman\"",
+      "font_size": 15.999999999999998,
+      "font_weight": "400",
+      "font_style": "normal",
+      "fill": "none",
+      "stroke": "rgb(224, 44, 40)"
+    },
+    {
+      "key": "e0007",
+      "id": "",
+      "tag": "text",
+      "bounds": [
+        293.9736022949218,
+        97.05297851562503,
+        90.37274169921875,
+        43.37071990966794
+      ],
+      "parent_matrix": [
+        0.9999999999999999,
+        0,
+        0,
+        0.9999999999999999,
+        0,
+        0
+      ],
+      "visible": true,
+      "text": "NN-defined SIG Mod",
+      "font_family": "VividSource-Carlito-Bold",
+      "font_size": 17.999999999999996,
+      "font_weight": "400",
+      "font_style": "normal",
+      "fill": "rgb(0, 0, 0)",
+      "stroke": "none"
+    },
+    {
+      "key": "e0008",
+      "id": "",
+      "tag": "path",
+      "bounds": [
+        405.48001098632807,
+        90.05999755859378,
+        124.68002319335932,
+        57.18000030517575
+      ],
+      "parent_matrix": [
+        0.9999999999999999,
+        0,
+        0,
+        0.9999999999999999,
+        0,
+        0
+      ],
+      "visible": true,
+      "text": null,
+      "font_family": "\"Times New Roman\"",
+      "font_size": 15.999999999999998,
+      "font_weight": "400",
+      "font_style": "normal",
+      "fill": "none",
+      "stroke": "rgb(68, 114, 196)"
+    },
+    {
+      "key": "e0009",
+      "id": "",
+      "tag": "text",
+      "bounds": [
+        424.64379882812494,
+        97.05297851562503,
+        90.37280273437494,
+        43.37071990966794
+      ],
+      "parent_matrix": [
+        0.9999999999999999,
+        0,
+        0,
+        0.9999999999999999,
+        0,
+        0
+      ],
+      "visible": true,
+      "text": "NN-defined DATA Mod",
+      "font_family": "VividSource-Carlito-Bold",
+      "font_size": 17.999999999999996,
+      "font_weight": "400",
+      "font_style": "normal",
+      "fill": "rgb(0, 0, 0)",
+      "stroke": "none"
+    },
+    {
+      "key": "e0010",
+      "id": "",
+      "tag": "path",
+      "bounds": [
+        209.82000732421872,
+        176.45999908447266,
+        124.61999511718747,
+        28.55999755859375
+      ],
+      "parent_matrix": [
+        0.9999999999999999,
+        0,
+        0,
+        0.9999999999999999,
+        0,
+        0
+      ],
+      "visible": true,
+      "text": null,
+      "font_family": "\"Times New Roman\"",
+      "font_size": 15.999999999999998,
+      "font_weight": "400",
+      "font_style": "normal",
+      "fill": "none",
+      "stroke": "rgb(0, 0, 0)"
+    },
+    {
+      "key": "e0011",
+      "id": "",
+      "tag": "text",
+      "bounds": [
+        225.40490722656247,
+        179.92440032958984,
+        93.49264526367185,
+        21.770713806152344
+      ],
+      "parent_matrix": [
+        0.9999999999999999,
+        0,
+        0,
+        0.9999999999999999,
+        0,
+        0
+      ],
+      "visible": true,
+      "text": "Concatenate",
+      "font_family": "VividSource-Carlito-Bold",
+      "font_size": 17.999999999999996,
+      "font_weight": "400",
+      "font_style": "normal",
+      "fill": "rgb(0, 0, 0)",
+      "stroke": "none"
+    },
+    {
+      "key": "e0012",
+      "id": "",
+      "tag": "path",
+      "bounds": [
+        3.960000038146972,
+        52.97999572753909,
+        534.9600219726561,
+        162.6000061035156
+      ],
+      "parent_matrix": [
+        0.9999999999999999,
+        0,
+        0,
+        0.9999999999999999,
+        0,
+        0
+      ],
+      "visible": true,
+      "text": null,
+      "font_family": "\"Times New Roman\"",
+      "font_size": 15.999999999999998,
+      "font_weight": "400",
+      "font_style": "normal",
+      "fill": "none",
+      "stroke": "rgb(0, 0, 0)"
+    },
+    {
+      "key": "e0013",
+      "id": "",
+      "tag": "text",
+      "bounds": [
+        11.182999610900877,
+        190.35799407958984,
+        168.44416809082028,
+        21.770713806152344
+      ],
+      "parent_matrix": [
+        0.9999999999999999,
+        0,
+        0,
+        0.9999999999999999,
+        0,
+        0
+      ],
+      "visible": true,
+      "text": "NN-defined Wi-Fi Mod",
+      "font_family": "VividSource-Carlito-Bold",
+      "font_size": 17.999999999999996,
+      "font_weight": "400",
+      "font_style": "normal",
+      "fill": "rgb(0, 0, 0)",
+      "stroke": "none"
+    },
+    {
+      "key": "e0014",
+      "id": "",
+      "tag": "text",
+      "bounds": [
+        127.51700592041014,
+        10.807998657226591,
+        287.88037109374994,
+        21.770721435546875
+      ],
+      "parent_matrix": [
+        0.9999999999999999,
+        0,
+        0,
+        0.9999999999999999,
+        0,
+        0
+      ],
+      "visible": true,
+      "text": "Input Wi-Fi symbols:[STF,LTF,SIG,DATA]",
+      "font_family": "VividSource-Carlito-Bold",
+      "font_size": 17.999999999999996,
+      "font_weight": "400",
+      "font_style": "normal",
+      "fill": "rgb(0, 0, 0)",
+      "stroke": "none"
+    },
+    {
+      "key": "e0015",
+      "id": "",
+      "tag": "text",
+      "bounds": [
+        204.46697998046872,
+        229.11199569702148,
+        135.33422851562497,
+        21.770715713500977
+      ],
+      "parent_matrix": [
+        0.9999999999999999,
+        0,
+        0,
+        0.9999999999999999,
+        0,
+        0
+      ],
+      "visible": true,
+      "text": "Output Waveform",
+      "font_family": "VividSource-Carlito-Bold",
+      "font_size": 17.999999999999996,
+      "font_weight": "400",
+      "font_style": "normal",
+      "fill": "rgb(0, 0, 0)",
+      "stroke": "none"
+    },
+    {
+      "key": "e0016",
+      "id": "",
+      "tag": "path",
+      "bounds": [
+        272.1000061035156,
+        205.02000427246094,
+        0,
+        14.876999855041504
+      ],
+      "parent_matrix": [
+        0.9999999999999999,
+        0,
+        0,
+        0.9999999999999999,
+        0,
+        0
+      ],
+      "visible": true,
+      "text": null,
+      "font_family": "\"Times New Roman\"",
+      "font_size": 15.999999999999998,
+      "font_weight": "400",
+      "font_style": "normal",
+      "fill": "none",
+      "stroke": "rgb(0, 0, 0)"
+    },
+    {
+      "key": "e0017",
+      "id": "",
+      "tag": "path",
+      "bounds": [
+        268.7254028320312,
+        218.77230834960935,
+        6.75,
+        6.75
+      ],
+      "parent_matrix": [
+        0.9999999999999999,
+        0,
+        0,
+        0.9999999999999999,
+        0,
+        0
+      ],
+      "visible": true,
+      "text": null,
+      "font_family": "\"Times New Roman\"",
+      "font_size": 15.999999999999998,
+      "font_weight": "400",
+      "font_style": "normal",
+      "fill": "rgb(0, 0, 0)",
+      "stroke": "none"
+    },
+    {
+      "key": "e0018",
+      "id": "",
+      "tag": "path",
+      "bounds": [
+        75.84020996093753,
+        52.979995727539055,
+        195.6419982910156,
+        31.48800086975097
+      ],
+      "parent_matrix": [
+        0.9999999999999999,
+        0,
+        0,
+        0.9999999999999999,
+        0,
+        0
+      ],
+      "visible": true,
+      "text": null,
+      "font_family": "\"Times New Roman\"",
+      "font_size": 15.999999999999998,
+      "font_weight": "400",
+      "font_style": "normal",
+      "fill": "none",
+      "stroke": "rgb(68, 114, 196)"
+    },
+    {
+      "key": "e0019",
+      "id": "",
+      "tag": "path",
+      "bounds": [
+        72.46530151367188,
+        83.343505859375,
+        6.75,
+        6.75
+      ],
+      "parent_matrix": [
+        0.9999999999999999,
+        0,
+        0,
+        0.9999999999999999,
+        0,
+        0
+      ],
+      "visible": true,
+      "text": null,
+      "font_family": "\"Times New Roman\"",
+      "font_size": 15.999999999999998,
+      "font_weight": "400",
+      "font_style": "normal",
+      "fill": "rgb(68, 114, 196)",
+      "stroke": "none"
+    },
+    {
+      "key": "e0020",
+      "id": "",
+      "tag": "path",
+      "bounds": [
+        206.46000671386713,
+        52.979995727539055,
+        64.97200012207031,
+        31.48800086975097
+      ],
+      "parent_matrix": [
+        0.9999999999999999,
+        0,
+        0,
+        0.9999999999999999,
+        0,
+        0
+      ],
+      "visible": true,
+      "text": null,
+      "font_family": "\"Times New Roman\"",
+      "font_size": 15.999999999999998,
+      "font_weight": "400",
+      "font_style": "normal",
+      "fill": "none",
+      "stroke": "rgb(68, 114, 196)"
+    },
+    {
+      "key": "e0021",
+      "id": "",
+      "tag": "path",
+      "bounds": [
+        203.08529663085935,
+        83.343505859375,
+        6.75,
+        6.75
+      ],
+      "parent_matrix": [
+        0.9999999999999999,
+        0,
+        0,
+        0.9999999999999999,
+        0,
+        0
+      ],
+      "visible": true,
+      "text": null,
+      "font_family": "\"Times New Roman\"",
+      "font_size": 15.999999999999998,
+      "font_weight": "400",
+      "font_style": "normal",
+      "fill": "rgb(68, 114, 196)",
+      "stroke": "none"
+    },
+    {
+      "key": "e0022",
+      "id": "",
+      "tag": "path",
+      "bounds": [
+        271.44000244140625,
+        52.979995727539055,
+        65.697998046875,
+        31.48800086975097
+      ],
+      "parent_matrix": [
+        0.9999999999999999,
+        0,
+        0,
+        0.9999999999999999,
+        0,
+        0
+      ],
+      "visible": true,
+      "text": null,
+      "font_family": "\"Times New Roman\"",
+      "font_size": 15.999999999999998,
+      "font_weight": "400",
+      "font_style": "normal",
+      "fill": "none",
+      "stroke": "rgb(68, 114, 196)"
+    },
+    {
+      "key": "e0023",
+      "id": "",
+      "tag": "path",
+      "bounds": [
+        333.7629089355469,
+        83.34339904785155,
+        6.75,
+        6.75
+      ],
+      "parent_matrix": [
+        0.9999999999999999,
+        0,
+        0,
+        0.9999999999999999,
+        0,
+        0
+      ],
+      "visible": true,
+      "text": null,
+      "font_family": "\"Times New Roman\"",
+      "font_size": 15.999999999999998,
+      "font_weight": "400",
+      "font_style": "normal",
+      "fill": "rgb(68, 114, 196)",
+      "stroke": "none"
+    },
+    {
+      "key": "e0024",
+      "id": "",
+      "tag": "path",
+      "bounds": [
+        271.44000244140625,
+        52.979995727539055,
+        196.3679962158203,
+        31.48800086975097
+      ],
+      "parent_matrix": [
+        0.9999999999999999,
+        0,
+        0,
+        0.9999999999999999,
+        0,
+        0
+      ],
+      "visible": true,
+      "text": null,
+      "font_family": "\"Times New Roman\"",
+      "font_size": 15.999999999999998,
+      "font_weight": "400",
+      "font_style": "normal",
+      "fill": "none",
+      "stroke": "rgb(68, 114, 196)"
+    },
+    {
+      "key": "e0025",
+      "id": "",
+      "tag": "path",
+      "bounds": [
+        464.4331970214843,
+        83.34339904785155,
+        6.75,
+        6.75
+      ],
+      "parent_matrix": [
+        0.9999999999999999,
+        0,
+        0,
+        0.9999999999999999,
+        0,
+        0
+      ],
+      "visible": true,
+      "text": null,
+      "font_family": "\"Times New Roman\"",
+      "font_size": 15.999999999999998,
+      "font_weight": "400",
+      "font_style": "normal",
+      "fill": "rgb(68, 114, 196)",
+      "stroke": "none"
+    },
+    {
+      "key": "e0026",
+      "id": "",
+      "tag": "path",
+      "bounds": [
+        271.44000244140625,
+        36.300003051757805,
+        0,
+        11.048999786376953
+      ],
+      "parent_matrix": [
+        0.9999999999999999,
+        0,
+        0,
+        0.9999999999999999,
+        0,
+        0
+      ],
+      "visible": true,
+      "text": null,
+      "font_family": "\"Times New Roman\"",
+      "font_size": 15.999999999999998,
+      "font_weight": "400",
+      "font_style": "normal",
+      "fill": "none",
+      "stroke": "rgb(0, 0, 0)"
+    },
+    {
+      "key": "e0027",
+      "id": "",
+      "tag": "path",
+      "bounds": [
+        268.0653991699218,
+        46.22399902343749,
+        6.75,
+        6.75
+      ],
+      "parent_matrix": [
+        0.9999999999999999,
+        0,
+        0,
+        0.9999999999999999,
+        0,
+        0
+      ],
+      "visible": true,
+      "text": null,
+      "font_family": "\"Times New Roman\"",
+      "font_size": 15.999999999999998,
+      "font_weight": "400",
+      "font_style": "normal",
+      "fill": "rgb(0, 0, 0)",
+      "stroke": "none"
+    },
+    {
+      "key": "e0028",
+      "id": "",
+      "tag": "path",
+      "bounds": [
+        75.83999633789062,
+        147.239990234375,
+        196.31199645996094,
+        23.579999923706055
+      ],
+      "parent_matrix": [
+        0.9999999999999999,
+        0,
+        0,
+        0.9999999999999999,
+        0,
+        0
+      ],
+      "visible": true,
+      "text": null,
+      "font_family": "\"Times New Roman\"",
+      "font_size": 15.999999999999998,
+      "font_weight": "400",
+      "font_style": "normal",
+      "fill": "none",
+      "stroke": "rgb(255, 192, 0)"
+    },
+    {
+      "key": "e0029",
+      "id": "",
+      "tag": "path",
+      "bounds": [
+        268.7764892578125,
+        169.69549560546875,
+        6.75,
+        6.75
+      ],
+      "parent_matrix": [
+        0.9999999999999999,
+        0,
+        0,
+        0.9999999999999999,
+        0,
+        0
+      ],
+      "visible": true,
+      "text": null,
+      "font_family": "\"Times New Roman\"",
+      "font_size": 15.999999999999998,
+      "font_weight": "400",
+      "font_style": "normal",
+      "fill": "rgb(255, 192, 0)",
+      "stroke": "none"
+    },
+    {
+      "key": "e0030",
+      "id": "",
+      "tag": "path",
+      "bounds": [
+        206.45989990234375,
+        147.239990234375,
+        65.64199829101562,
+        23.579999923706055
+      ],
+      "parent_matrix": [
+        0.9999999999999999,
+        0,
+        0,
+        0.9999999999999999,
+        0,
+        0
+      ],
+      "visible": true,
+      "text": null,
+      "font_family": "\"Times New Roman\"",
+      "font_size": 15.999999999999998,
+      "font_weight": "400",
+      "font_style": "normal",
+      "fill": "none",
+      "stroke": "rgb(84, 130, 53)"
+    },
+    {
+      "key": "e0031",
+      "id": "",
+      "tag": "path",
+      "bounds": [
+        268.7261962890625,
+        169.69549560546875,
+        6.75,
+        6.75
+      ],
+      "parent_matrix": [
+        0.9999999999999999,
+        0,
+        0,
+        0.9999999999999999,
+        0,
+        0
+      ],
+      "visible": true,
+      "text": null,
+      "font_family": "\"Times New Roman\"",
+      "font_size": 15.999999999999998,
+      "font_weight": "400",
+      "font_style": "normal",
+      "fill": "rgb(84, 130, 53)",
+      "stroke": "none"
+    },
+    {
+      "key": "e0032",
+      "id": "",
+      "tag": "path",
+      "bounds": [
+        272.09979248046875,
+        147.239990234375,
+        195.69900512695307,
+        23.579999923706055
+      ],
+      "parent_matrix": [
+        0.9999999999999999,
+        0,
+        0,
+        0.9999999999999999,
+        0,
+        0
+      ],
+      "visible": true,
+      "text": null,
+      "font_family": "\"Times New Roman\"",
+      "font_size": 15.999999999999998,
+      "font_weight": "400",
+      "font_style": "normal",
+      "fill": "none",
+      "stroke": "rgb(68, 114, 196)"
+    },
+    {
+      "key": "e0033",
+      "id": "",
+      "tag": "path",
+      "bounds": [
+        268.7251892089844,
+        169.69560241699216,
+        6.75,
+        6.75
+      ],
+      "parent_matrix": [
+        0.9999999999999999,
+        0,
+        0,
+        0.9999999999999999,
+        0,
+        0
+      ],
+      "visible": true,
+      "text": null,
+      "font_family": "\"Times New Roman\"",
+      "font_size": 15.999999999999998,
+      "font_weight": "400",
+      "font_style": "normal",
+      "fill": "rgb(68, 114, 196)",
+      "stroke": "none"
+    },
+    {
+      "key": "e0034",
+      "id": "",
+      "tag": "path",
+      "bounds": [
+        272.0996017456054,
+        147.239990234375,
+        65.02899932861328,
+        23.579999923706055
+      ],
+      "parent_matrix": [
+        0.9999999999999999,
+        0,
+        0,
+        0.9999999999999999,
+        0,
+        0
+      ],
+      "visible": true,
+      "text": null,
+      "font_family": "\"Times New Roman\"",
+      "font_size": 15.999999999999998,
+      "font_weight": "400",
+      "font_style": "normal",
+      "fill": "none",
+      "stroke": "rgb(224, 44, 40)"
+    },
+    {
+      "key": "e0035",
+      "id": "",
+      "tag": "path",
+      "bounds": [
+        268.7253112792969,
+        169.69560241699216,
+        6.75,
+        6.75
+      ],
+      "parent_matrix": [
+        0.9999999999999999,
+        0,
+        0,
+        0.9999999999999999,
+        0,
+        0
+      ],
+      "visible": true,
+      "text": null,
+      "font_family": "\"Times New Roman\"",
+      "font_size": 15.999999999999998,
+      "font_weight": "400",
+      "font_style": "normal",
+      "fill": "rgb(224, 44, 40)",
+      "stroke": "none"
+    }
+  ]
+}

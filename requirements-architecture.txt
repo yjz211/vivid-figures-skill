@@ -1,0 +1,11 @@
+# Architecture SVG generation/rendering and native editable PPTX export.
+playwright
+PyMuPDF
+python-pptx>=1.0.2
+lxml
+shapely>=2.0
+fonttools
+# VA-001 reference-system profile locates the installed font faces with Matplotlib.
+matplotlib
+# Only the optional Office verification needs Windows + installed PowerPoint.
+pywin32; sys_platform == "win32"

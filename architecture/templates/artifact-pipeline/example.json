@@ -1,0 +1,220 @@
+{
+  "title": "Planner with intermediate artifact rail",
+  "input_title": "Training framework",
+  "planner_title": "Execution planner",
+  "artifact_title": "Produced artifacts",
+  "inputs": [
+    {
+      "title": "Computation graph",
+      "row": 0,
+      "height": 116,
+      "target": 0,
+      "object": {
+        "kind": "graph"
+      }
+    },
+    {
+      "title": "GPU cluster",
+      "row": 2,
+      "height": 142,
+      "target": 2,
+      "fill": "#eaf2f3",
+      "object": {
+        "kind": "graph",
+        "directed": false,
+        "nodes": [
+          {
+            "id": "g1",
+            "x": 0.15,
+            "y": 0.2,
+            "color": "blue"
+          },
+          {
+            "id": "g2",
+            "x": 0.85,
+            "y": 0.2,
+            "color": "blue"
+          },
+          {
+            "id": "g3",
+            "x": 0.15,
+            "y": 0.8,
+            "color": "green"
+          },
+          {
+            "id": "g4",
+            "x": 0.85,
+            "y": 0.8,
+            "color": "green"
+          }
+        ],
+        "edges": [
+          [
+            "g1",
+            "g2"
+          ],
+          [
+            "g1",
+            "g3"
+          ],
+          [
+            "g2",
+            "g4"
+          ],
+          [
+            "g3",
+            "g4"
+          ]
+        ]
+      }
+    }
+  ],
+  "stages": [
+    {
+      "name": "Graph\ncontraction",
+      "artifact_title": "MetaGraph with operators",
+      "artifact": {
+        "kind": "graph"
+      }
+    },
+    {
+      "name": "Scalability\nestimation",
+      "artifact_title": "Schematic scaling curves",
+      "artifact": {
+        "kind": "curves",
+        "schematic": true,
+        "colors": [
+          "#82a9c4",
+          "#d79694",
+          "#cca958"
+        ],
+        "series": [
+          [
+            [
+              0,
+              0.9
+            ],
+            [
+              0.15,
+              0.5
+            ],
+            [
+              0.4,
+              0.28
+            ],
+            [
+              0.7,
+              0.2
+            ],
+            [
+              1,
+              0.17
+            ]
+          ],
+          [
+            [
+              0,
+              0.85
+            ],
+            [
+              0.15,
+              0.65
+            ],
+            [
+              0.4,
+              0.45
+            ],
+            [
+              0.7,
+              0.34
+            ],
+            [
+              1,
+              0.27
+            ]
+          ],
+          [
+            [
+              0,
+              0.6
+            ],
+            [
+              0.15,
+              0.38
+            ],
+            [
+              0.4,
+              0.19
+            ],
+            [
+              0.7,
+              0.12
+            ],
+            [
+              1,
+              0.1
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "name": "Resource\nallocation",
+      "artifact_title": "Allocation plan",
+      "artifact": {
+        "kind": "slots",
+        "rows": [
+          [
+            0,
+            0,
+            1,
+            1
+          ],
+          [
+            2,
+            2,
+            2,
+            null
+          ]
+        ]
+      }
+    },
+    {
+      "name": "Wavefront\nscheduling",
+      "artifact_title": "Wavefront schedule",
+      "artifact": {
+        "kind": "timeline"
+      }
+    },
+    {
+      "name": "Device\nplacement",
+      "artifact_title": "Execution plan",
+      "artifact": {
+        "kind": "matrix",
+        "cells": [
+          [
+            1,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            1
+          ]
+        ]
+      }
+    }
+  ],
+  "runtime": "Runtime engine",
+  "runtime_note": "Training environment",
+  "caption": "VA-002: editable architecture example; replace labels, objects and quantities for the current task."
+}

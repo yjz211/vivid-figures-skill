@@ -1,0 +1,100 @@
+{
+  "name": "代码到符号表与数据流的多表示转换",
+  "family": "artifact-pipeline",
+  "tags": [
+    "源码",
+    "公式",
+    "中间表示",
+    "表格",
+    "数据流图"
+  ],
+  "when_to_use": "存在多层中间表示的编译器或计算转换；需要证明同一依赖关系在表格与图中持续保留",
+  "avoid": "面向非技术读者的简短总览；不能给出真实公式映射的普通业务流程",
+  "preserve": [
+    "上三下二折返排布，长箭头跨整行连接上下层；各面板保留字母序号避免误读。",
+    "代码块、数学式、虚线融合圈、二维表与彩色算子块分别表达不同信息层级。",
+    "粗灰箭头只表示表示法转换，细黑边表示计算依赖；虚线圈表示融合范围而非边界传输。",
+    "红色标调度注记，绿色标稀疏信息；算子图的多色表示算子种类，需另设对应说明。",
+    "代码用等宽，公式用数学字体，面板标题用无衬线；公式上下标与表格小字是主要缩放风险。"
+  ],
+  "adapt": "先选一个足够小的贯穿例子，保证五种表示逐项可对应。 把颜色语义写成独立图例，避免依赖正文才能理解红绿标记。 删除旧章节标注，并在每个转换箭头旁写真实变换名称。",
+  "visual_note": "上三下二折返排布，长箭头跨整行连接上下层；各面板保留字母序号避免误读。",
+  "parts": [
+    {
+      "id": "source-code",
+      "name": "源程序",
+      "role": "component",
+      "box": [
+        0.0,
+        0.09,
+        0.18,
+        0.43
+      ],
+      "meaning": "提供最初的运算语义与数据变量。",
+      "reuse": "换成能实际对应后续表达式的短程序。"
+    },
+    {
+      "id": "symbolic-ir",
+      "name": "符号中间表示",
+      "role": "component",
+      "box": [
+        0.22,
+        0.01,
+        0.27,
+        0.56
+      ],
+      "meaning": "数学式连同调度或格式注记描述运算。",
+      "reuse": "逐条对应源程序；不沿用陌生符号。"
+    },
+    {
+      "id": "fusion-graph",
+      "name": "融合及依赖约束",
+      "role": "component",
+      "box": [
+        0.56,
+        0.01,
+        0.43,
+        0.51
+      ],
+      "meaning": "圈出合并区域，邻接小图说明合法次序。",
+      "reuse": "调整融合范围时同步更新偏序边。"
+    },
+    {
+      "id": "fusion-table",
+      "name": "迭代编码表",
+      "role": "component",
+      "box": [
+        0.1,
+        0.58,
+        0.37,
+        0.4
+      ],
+      "meaning": "行、列与单元格分别携带迭代和对象信息。",
+      "reuse": "重新定义行列含义，再填入自有例子。"
+    },
+    {
+      "id": "dataflow-result",
+      "name": "生成数据流",
+      "role": "component",
+      "box": [
+        0.54,
+        0.59,
+        0.45,
+        0.35
+      ],
+      "meaning": "不同类型算子和分支落实到执行结构。",
+      "reuse": "按生成规则重连，输出目标也随工具链改变。"
+    }
+  ],
+  "selection_evidence": {
+    "candidate_index": 19,
+    "semantics_read": true,
+    "preview_reviewed": true,
+    "source_render_reviewed": true,
+    "render": "source-renders/19.png"
+  },
+  "implementation": "source-derived editable SVG",
+  "validation_status": "source-fidelity-checked",
+  "id": "architecture.source.asplos26-066_fig6",
+  "display_code": "VA-043"
+}

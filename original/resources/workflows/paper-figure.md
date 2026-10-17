@@ -1,6 +1,6 @@
 # 数据图工作流
 
-按 [数据图执行](../references/paper-figure.md) 初始化、运行与核对。该文档是短执行入口，相关知识按需要加载。
+先进入 [数据图子 Skill](../../../channels/vivid-figure-skill/SKILL.md)，按其引用的 [数据图执行](../references/paper-figure.md) 初始化、运行与核对。只加载本次数据图所需知识，不加载架构图候选与交付规则。
 
 - 选图：包根目录 `figure-selection.md`；指定模板时直接定位卡片及预览。
 - 适配：包根目录 `template-fidelity.md`，工具生成完整源码后局部修改。

@@ -1,0 +1,436 @@
+[
+  {
+    "key": "e0008",
+    "text": "Input ",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      40.91551208496094,
+      11.8582763671875,
+      47.16228485107422,
+      22.517913818359375
+    ],
+    "components": [
+      "input-predictor"
+    ]
+  },
+  {
+    "key": "e0009",
+    "text": "Model",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      35.91551971435547,
+      35.888275146484375,
+      52.213287353515625,
+      22.517913818359375
+    ],
+    "components": [
+      "input-predictor"
+    ]
+  },
+  {
+    "key": "e0011",
+    "text": "Offline Stage",
+    "font_family": "VividSource-Tinos-Bold",
+    "bounds": [
+      190.99552154541016,
+      364.0582809448242,
+      112.3199462890625,
+      22.517898559570312
+    ],
+    "components": [
+      "offline-planner"
+    ]
+  },
+  {
+    "key": "e0015",
+    "text": "Profiler",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      217.0455093383789,
+      29.77825927734375,
+      61.12261962890625,
+      22.517913818359375
+    ],
+    "components": [
+      "offline-planner"
+    ]
+  },
+  {
+    "key": "e0016",
+    "text": "XGBoost",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      0.34552001953125,
+      229.1082763671875,
+      76.65282440185547,
+      22.517898559570312
+    ],
+    "components": [
+      "input-predictor"
+    ]
+  },
+  {
+    "key": "e0019",
+    "text": "LC",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      181.76551055908203,
+      158.05828857421875,
+      25.552825927734375,
+      22.517913818359375
+    ],
+    "components": [
+      "offline-planner"
+    ]
+  },
+  {
+    "key": "e0020",
+    "text": "-",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      207.4255142211914,
+      158.05828857421875,
+      6.988313674926758,
+      22.517900466918945
+    ],
+    "components": [
+      "offline-planner"
+    ]
+  },
+  {
+    "key": "e0021",
+    "text": "OPG Solver",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      214.0455093383789,
+      158.05828857421875,
+      97.800048828125,
+      22.517913818359375
+    ],
+    "components": [
+      "offline-planner"
+    ]
+  },
+  {
+    "key": "e0024",
+    "text": "Weights Slicer",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      188.48902130126953,
+      93.1082763671875,
+      117.2294921875,
+      22.517913818359375
+    ],
+    "components": [
+      "offline-planner"
+    ]
+  },
+  {
+    "key": "e0030",
+    "text": "Layer Capacity",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      194.09552764892578,
+      185.02828979492188,
+      123.35647583007812,
+      22.517898559570312
+    ],
+    "components": [
+      "offline-planner"
+    ]
+  },
+  {
+    "key": "e0032",
+    "text": "Kernel Info",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      28.245521545410156,
+      72.43829345703125,
+      92.71498107910156,
+      22.517913818359375
+    ],
+    "components": [
+      "input-predictor"
+    ]
+  },
+  {
+    "key": "e0035",
+    "text": "Memory",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      253.02552032470703,
+      220.33474731445312,
+      66.28781127929688,
+      20.964935302734375
+    ],
+    "components": [
+      "offline-planner"
+    ]
+  },
+  {
+    "key": "e0038",
+    "text": "Tuning",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      218.96552276611328,
+      291.3282775878906,
+      57.363250732421875,
+      22.517898559570312
+    ],
+    "components": [
+      "offline-planner"
+    ]
+  },
+  {
+    "key": "e0041",
+    "text": "Latency",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      253.51551055908203,
+      255.9082794189453,
+      65.59292602539062,
+      22.517898559570312
+    ],
+    "components": [
+      "offline-planner"
+    ]
+  },
+  {
+    "key": "e0046",
+    "text": "Online Execution",
+    "font_family": "VividSource-Tinos-Bold",
+    "bounds": [
+      543.7154922485352,
+      9.528289794921875,
+      148.8682861328125,
+      22.517913818359375
+    ],
+    "components": [
+      "online-runtime"
+    ]
+  },
+  {
+    "key": "e0053",
+    "text": "Overlap",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      377.6955337524414,
+      314.3382873535156,
+      64.88531494140625,
+      22.517898559570312
+    ],
+    "components": [
+      "handoff-artifacts"
+    ]
+  },
+  {
+    "key": "e0054",
+    "text": "Plan",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      392.14551544189453,
+      338.3582763671875,
+      35.64874267578125,
+      22.517898559570312
+    ],
+    "components": [
+      "handoff-artifacts"
+    ]
+  },
+  {
+    "key": "e0057",
+    "text": "Weights ",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      377.2990188598633,
+      163.57830810546875,
+      71.07247924804688,
+      22.517898559570312
+    ],
+    "components": [
+      "handoff-artifacts"
+    ]
+  },
+  {
+    "key": "e0058",
+    "text": "Reorg.",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      383.7654800415039,
+      187.60829162597656,
+      53.81256103515625,
+      22.517898559570312
+    ],
+    "components": [
+      "handoff-artifacts"
+    ]
+  },
+  {
+    "key": "e0067",
+    "text": "Preload & ",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      611.2455215454102,
+      51.77825927734375,
+      86.84033203125,
+      22.517913818359375
+    ],
+    "components": [
+      "online-runtime"
+    ]
+  },
+  {
+    "key": "e0068",
+    "text": "Transform",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      610.2154922485352,
+      75.82830810546875,
+      84.55169677734375,
+      22.517913818359375
+    ],
+    "components": [
+      "online-runtime"
+    ]
+  },
+  {
+    "key": "e0072",
+    "text": "Pipeline ",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      490.21549224853516,
+      51.77825927734375,
+      70.2960205078125,
+      22.517913818359375
+    ],
+    "components": [
+      "online-runtime"
+    ]
+  },
+  {
+    "key": "e0073",
+    "text": "Loading",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      489.59549713134766,
+      75.82830810546875,
+      67.11541748046875,
+      22.517913818359375
+    ],
+    "components": [
+      "online-runtime"
+    ]
+  },
+  {
+    "key": "e0074",
+    "text": "Texture Data",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      623.4455337524414,
+      176.27825927734375,
+      103.87518310546875,
+      22.517898559570312
+    ],
+    "components": [
+      "online-runtime"
+    ]
+  },
+  {
+    "key": "e0111",
+    "text": "Overlap Execution",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      605.7455215454102,
+      281.4582824707031,
+      150.5673828125,
+      22.517898559570312
+    ],
+    "components": [
+      "online-runtime"
+    ]
+  },
+  {
+    "key": "e0112",
+    "text": "UM Data",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      542.5255508422852,
+      223.8782958984375,
+      75.3736572265625,
+      22.517898559570312
+    ],
+    "components": [
+      "online-runtime"
+    ]
+  },
+  {
+    "key": "e0116",
+    "text": "Dynamic ",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      642.1455459594727,
+      332.0082702636719,
+      78.56951904296875,
+      22.517898559570312
+    ],
+    "components": [
+      "online-runtime"
+    ]
+  },
+  {
+    "key": "e0117",
+    "text": "Offloading",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      635.1255264282227,
+      356.0582809448242,
+      87.5731201171875,
+      22.517898559570312
+    ],
+    "components": [
+      "online-runtime"
+    ]
+  },
+  {
+    "key": "e0120",
+    "text": "Adaptive Fusion",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      180.3690414428711,
+      326.7832794189453,
+      134.00880432128906,
+      22.517898559570312
+    ],
+    "components": [
+      "offline-planner"
+    ]
+  },
+  {
+    "key": "e0123",
+    "text": "Kernel",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      504.24552154541016,
+      330.2832794189453,
+      54.40289306640625,
+      22.517898559570312
+    ],
+    "components": [
+      "online-runtime"
+    ]
+  },
+  {
+    "key": "e0124",
+    "text": "Rewriting",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      491.49552154541016,
+      354.3082809448242,
+      79.88873291015625,
+      22.517898559570312
+    ],
+    "components": [
+      "online-runtime"
+    ]
+  }
+]

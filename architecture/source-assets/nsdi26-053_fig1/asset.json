@@ -1,0 +1,86 @@
+{
+  "name": "固定网络与可重构连接的三联对照",
+  "family": "comparison",
+  "tags": [
+    "拓扑对照",
+    "动态重构",
+    "时序配置",
+    "网络"
+  ],
+  "when_to_use": "固定连接与可重构连接的架构比较；内部切换状态会影响端到端路径的通信或调度系统",
+  "avoid": "只有一张静态网络而无状态变化；需要精确显示空间位置或地理距离的网络地图",
+  "preserve": [
+    "共享图例横跨顶端，下方三个面板依次由整体比较收缩到内部配置。",
+    "青色方块与圆点表达不同角色；金色横条表示交换内部，红弧表示一时刻的内部配对。",
+    "黑色实线画固定线缆，灰色虚箭头画传播方向，红色弧线画内部连接；右侧单独竖箭头表示时间。",
+    "青色统一常规网络对象，金色强调可配置设备，红色只用于内部配对；同色不同形状仍须图例。",
+    "以无衬线正文和斜体面板名区分符号说明与场景标题，编号端点采用短数字。"
+  ],
+  "adapt": "先区分物理连接集合和当前激活连接，不能用同一种线混画。 端点编号在中图与右侧配对中建立可追踪关系。 如比较的是设备数量，应统一节点统计口径，不能用示意数量论证节省。 保留时间箭头及快照含义；需要定量切换开销时另加时间轴。",
+  "visual_note": "共享图例横跨顶端，下方三个面板依次由整体比较收缩到内部配置。",
+  "parts": [
+    {
+      "id": "topology-legend",
+      "name": "拓扑符号图例",
+      "role": "legend",
+      "box": [
+        0.02,
+        0.01,
+        0.96,
+        0.31
+      ],
+      "meaning": "定义节点类型、线缆、传播与内部配对。",
+      "reuse": "只保留新图实际出现的符号，随新连接类型增补。"
+    },
+    {
+      "id": "static-topology",
+      "name": "固定多层网络",
+      "role": "component",
+      "box": [
+        0.005,
+        0.35,
+        0.33,
+        0.38
+      ],
+      "meaning": "层级连接及传播树提供静态基准。",
+      "reuse": "按真实拓扑重画连线，不从层次结构推断未声明的容量。"
+    },
+    {
+      "id": "dynamic-topology",
+      "name": "可重构端点网络",
+      "role": "component",
+      "box": [
+        0.35,
+        0.35,
+        0.37,
+        0.38
+      ],
+      "meaning": "少数交换单元连接多个通信端点。",
+      "reuse": "明确哪些连接物理存在、哪些同时激活。"
+    },
+    {
+      "id": "time-configurations",
+      "name": "内部配置时间序列",
+      "role": "component",
+      "box": [
+        0.76,
+        0.34,
+        0.2,
+        0.49
+      ],
+      "meaning": "不同横条表示不同时间的连接配对。",
+      "reuse": "配对要符合端口占用规则，时间次序与主图一致。"
+    }
+  ],
+  "selection_evidence": {
+    "candidate_index": 45,
+    "semantics_read": true,
+    "preview_reviewed": true,
+    "source_render_reviewed": true,
+    "render": "source-renders/45.png"
+  },
+  "implementation": "source-derived editable SVG",
+  "validation_status": "source-fidelity-checked",
+  "id": "architecture.source.nsdi26-053_fig1",
+  "display_code": "VA-055"
+}

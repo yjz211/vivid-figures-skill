@@ -1,0 +1,195 @@
+[
+  {
+    "key": "e0006",
+    "text": "HardwareInventory",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      55.57855926362027,
+      64.36930667970046,
+      37.55633073031277,
+      17.39579472255174
+    ],
+    "components": [
+      "online-control",
+      "inventory-scheduler"
+    ]
+  },
+  {
+    "key": "e0009",
+    "text": "Server HealthMonitor",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      23.289345008818604,
+      6.253452176317751,
+      49.97332858300071,
+      17.39579844508626
+    ],
+    "components": [
+      "online-control"
+    ]
+  },
+  {
+    "key": "e0012",
+    "text": "VMScheduler",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      7.955490081174504,
+      64.78277603496281,
+      35.82777926660129,
+      17.39579472255174
+    ],
+    "components": [
+      "online-control",
+      "inventory-scheduler"
+    ]
+  },
+  {
+    "key": "e0015",
+    "text": "HyraxInventory",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      36.6855872110391,
+      34.34491407419955,
+      35.19698090043676,
+      17.395794722551734
+    ],
+    "components": [
+      "online-control",
+      "inventory-scheduler"
+    ]
+  },
+  {
+    "key": "e0020",
+    "text": "Diagnostics",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      118.32701585625547,
+      8.793149497812465,
+      41.77434949584496,
+      8.247326434991464
+    ],
+    "components": [
+      "offline-diagnosis"
+    ]
+  },
+  {
+    "key": "e0023",
+    "text": "HyraxPolicy",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      128.41748918854864,
+      33.63622539553944,
+      20.86459757600099,
+      17.395794722551734
+    ],
+    "components": [
+      "offline-diagnosis"
+    ]
+  },
+  {
+    "key": "e0039",
+    "text": "(1)(2)",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      75.64463595769486,
+      4.414568511685957,
+      67.73054790555763,
+      24.932397183129073
+    ],
+    "components": []
+  },
+  {
+    "key": "e0043",
+    "text": "(4)",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      77.5229896559431,
+      32.983101128534145,
+      10.407856626279681,
+      8.247325504357839
+    ],
+    "components": [
+      "online-control"
+    ]
+  },
+  {
+    "key": "e0047",
+    "text": "(3)(5)(6)",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      26.91907489124606,
+      24.110836527361247,
+      106.19464846116901,
+      41.08866608057724
+    ],
+    "components": []
+  },
+  {
+    "key": "e0048",
+    "text": "Online",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      41.418134699240916,
+      86.54820090936484,
+      21.46503495054276,
+      6.872774045532424
+    ],
+    "components": [
+      "online-control"
+    ]
+  },
+  {
+    "key": "e0049",
+    "text": "Offline",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      120.2874216606033,
+      86.8907783170471,
+      22.270114938310158,
+      6.872774045532424
+    ],
+    "components": []
+  },
+  {
+    "key": "e0054",
+    "text": "Legend:ModifiedexistingsystemNewcontrolplanesystem",
+    "font_family": "VividSource-Arimo-Italic",
+    "bounds": [
+      173.87069299373982,
+      14.680243862244426,
+      33.012999672246224,
+      71.69565023008546
+    ],
+    "components": [
+      "change-legend"
+    ]
+  },
+  {
+    "key": "e0056",
+    "text": "H",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      121.56472004357785,
+      39.19912515842953,
+      2.444845513073801,
+      3.665478544806433
+    ],
+    "components": [
+      "offline-diagnosis"
+    ]
+  },
+  {
+    "key": "e0059",
+    "text": "H",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      134.75483620256276,
+      70.71104256192486,
+      3.2860443227474434,
+      5.0400330281911465
+    ],
+    "components": [
+      "offline-diagnosis"
+    ]
+  }
+]

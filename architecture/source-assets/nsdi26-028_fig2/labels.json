@@ -1,0 +1,560 @@
+[
+  {
+    "key": "e0002",
+    "text": "IaaS",
+    "font_family": "VividSource-Arimo-BoldItalic",
+    "bounds": [
+      176.3564910888672,
+      11.423327667346712,
+      14.294128414558145,
+      7.6287335442293625
+    ],
+    "components": [
+      "iaas-side"
+    ]
+  },
+  {
+    "key": "e0003",
+    "text": "tasks",
+    "font_family": "VividSource-Arimo-Italic",
+    "bounds": [
+      192.50613403320312,
+      11.423327667346712,
+      16.130043756427312,
+      7.6287335442293625
+    ],
+    "components": [
+      "iaas-side"
+    ]
+  },
+  {
+    "key": "e0005",
+    "text": "Control plane",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      171.88121032714844,
+      26.136325103870178,
+      41.245064505935716,
+      7.6287335442293625
+    ],
+    "components": [
+      "iaas-side"
+    ]
+  },
+  {
+    "key": "e0007",
+    "text": "Data",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      156.71632385253906,
+      41.399356109729524,
+      14.73084372316464,
+      7.6287335442293625
+    ],
+    "components": [
+      "iaas-side"
+    ]
+  },
+  {
+    "key": "e0008",
+    "text": "plane",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      173.2598419189453,
+      41.399356109729524,
+      16.985105023186406,
+      7.6287335442293625
+    ],
+    "components": [
+      "iaas-side"
+    ]
+  },
+  {
+    "key": "e0009",
+    "text": "(dpdk/spdk)",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      192.166748046875,
+      41.399356109729524,
+      36.16598421577464,
+      7.6287335442293625
+    ],
+    "components": [
+      "iaas-side"
+    ]
+  },
+  {
+    "key": "e0014",
+    "text": "NIC",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      209.375,
+      108.9141876526983,
+      11.898423116041386,
+      7.6287335442293625
+    ],
+    "components": [
+      "module-network"
+    ]
+  },
+  {
+    "key": "e0019",
+    "text": "TCP/IP",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      204.83663940429688,
+      67.80023501597952,
+      22.311593502664664,
+      7.6287335442293625
+    ],
+    "components": [
+      "module-network"
+    ]
+  },
+  {
+    "key": "e0020",
+    "text": "kernel",
+    "font_family": "VividSource-Arimo-BoldItalic",
+    "bounds": [
+      103.53543090820314,
+      61.200030548206115,
+      20.72636786514522,
+      7.6287335442293625
+    ],
+    "components": []
+  },
+  {
+    "key": "e0021",
+    "text": "space",
+    "font_family": "VividSource-Arimo-BoldItalic",
+    "bounds": [
+      125.82975006103517,
+      61.200030548206115,
+      19.771079813482388,
+      7.6287335442293625
+    ],
+    "components": []
+  },
+  {
+    "key": "e0024",
+    "text": "vDUSE",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      159.71704659471044,
+      77.83810733043265,
+      23.030698496355626,
+      7.6287335442293625
+    ],
+    "components": [
+      "module-network"
+    ]
+  },
+  {
+    "key": "e0025",
+    "text": "Module",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      160.00094604492185,
+      86.22589419566702,
+      22.7362370742253,
+      7.6287335442293625
+    ],
+    "components": [
+      "module-network"
+    ]
+  },
+  {
+    "key": "e0031",
+    "text": "virtio",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      32.81107888230808,
+      75.91307376109671,
+      17.043838687064863,
+      7.6287335442293625
+    ],
+    "components": [
+      "virtual-device"
+    ]
+  },
+  {
+    "key": "e0032",
+    "text": "devices",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      51.80651473999023,
+      75.91307376109671,
+      23.5415468803376,
+      7.6287335442293625
+    ],
+    "components": [
+      "virtual-device"
+    ]
+  },
+  {
+    "key": "e0033",
+    "text": "virtio",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      29.58381257066258,
+      90.62604068004202,
+      14.866110752186614,
+      7.6287335442293625
+    ],
+    "components": [
+      "virtual-device"
+    ]
+  },
+  {
+    "key": "e0034",
+    "text": "-",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      44.482749938964844,
+      90.62604068004202,
+      2.291696063980737,
+      7.6287335442293625
+    ],
+    "components": [
+      "virtual-device"
+    ]
+  },
+  {
+    "key": "e0035",
+    "text": "vDPA",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      46.521245813460425,
+      90.62604068004202,
+      18.078214608060534,
+      7.6287335442293625
+    ],
+    "components": [
+      "virtual-device"
+    ]
+  },
+  {
+    "key": "e0036",
+    "text": "Bus",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      66.46202087402345,
+      90.62604068004202,
+      11.949901358575516,
+      7.6287335442293625
+    ],
+    "components": [
+      "virtual-device"
+    ]
+  },
+  {
+    "key": "e0037",
+    "text": "vDPA",
+    "font_family": "VividSource-Arimo-Italic",
+    "bounds": [
+      26.878261566162113,
+      103.13901065074515,
+      17.74368681057126,
+      7.6287335442293625
+    ],
+    "components": [
+      "virtual-device"
+    ]
+  },
+  {
+    "key": "e0038",
+    "text": "Framework",
+    "font_family": "VividSource-Arimo-Italic",
+    "bounds": [
+      46.57294845581055,
+      103.13901065074515,
+      35.13997573848087,
+      7.6287335442293625
+    ],
+    "components": [
+      "virtual-device"
+    ]
+  },
+  {
+    "key": "e0041",
+    "text": "net",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      22.45613288879395,
+      60.650027496448274,
+      9.689596321948098,
+      7.6287335442293625
+    ],
+    "components": [
+      "application-side"
+    ]
+  },
+  {
+    "key": "e0042",
+    "text": "dev",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      33.95783233642578,
+      60.650027496448274,
+      11.412213370823565,
+      7.6287335442293625
+    ],
+    "components": [
+      "application-side"
+    ]
+  },
+  {
+    "key": "e0045",
+    "text": "blk",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      63.47690963745117,
+      60.78755496226859,
+      9.129634316558395,
+      7.6287335442293625
+    ],
+    "components": [
+      "application-side"
+    ]
+  },
+  {
+    "key": "e0046",
+    "text": "dev",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      74.26962280273438,
+      60.78755496226859,
+      11.412213370823565,
+      7.6287335442293625
+    ],
+    "components": [
+      "application-side"
+    ]
+  },
+  {
+    "key": "e0048",
+    "text": "Paas, SaaS, or FaaS",
+    "font_family": "VividSource-Arimo-BoldItalic",
+    "bounds": [
+      22.177717208862305,
+      11.148318512073274,
+      66.26403170161439,
+      7.6287335442293625
+    ],
+    "components": [
+      "application-side"
+    ]
+  },
+  {
+    "key": "e0050",
+    "text": "tasks",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      11.66895294189453,
+      27.344953226297577,
+      15.440779777794093,
+      7.382645094653526
+    ],
+    "components": [
+      "application-side"
+    ]
+  },
+  {
+    "key": "e0052",
+    "text": "containers",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      41.174015045166016,
+      27.06994407102411,
+      30.65232349011808,
+      7.382645094653526
+    ],
+    "components": [
+      "application-side"
+    ]
+  },
+  {
+    "key": "e0054",
+    "text": "VMs",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      85.1094721318198,
+      27.06994407102411,
+      13.474471421877752,
+      7.382645094653526
+    ],
+    "components": [
+      "application-side"
+    ]
+  },
+  {
+    "key": "e0059",
+    "text": "underlay",
+    "font_family": "VividSource-Arimo-BoldItalic",
+    "bounds": [
+      184.19334411621094,
+      97.08880923472952,
+      29.24098038252623,
+      7.6287335442293625
+    ],
+    "components": [
+      "module-network"
+    ]
+  },
+  {
+    "key": "e0060",
+    "text": "overlay",
+    "font_family": "VividSource-Arimo-BoldItalic",
+    "bounds": [
+      36.31553268432617,
+      47.5870697327764,
+      24.59469919393314,
+      7.6287335442293625
+    ],
+    "components": [
+      "application-side"
+    ]
+  },
+  {
+    "key": "e0061",
+    "text": "no",
+    "font_family": "VividSource-Arimo-BoldItalic",
+    "bounds": [
+      83.6491470336914,
+      39.61178897105768,
+      8.453275042661517,
+      7.6287335442293625
+    ],
+    "components": [
+      "application-side"
+    ]
+  },
+  {
+    "key": "e0062",
+    "text": "nvme",
+    "font_family": "VividSource-Arimo-BoldItalic",
+    "bounds": [
+      78.84364318847656,
+      47.99957583629205,
+      18.19939986717145,
+      7.6287335442293625
+    ],
+    "components": [
+      "application-side"
+    ]
+  },
+  {
+    "key": "e0063",
+    "text": "coupling",
+    "font_family": "VividSource-Arimo-BoldItalic",
+    "bounds": [
+      110.8900833129883,
+      10.32329104625299,
+      28.843159629492433,
+      7.6287335442293625
+    ],
+    "components": []
+  },
+  {
+    "key": "e0064",
+    "text": "in",
+    "font_family": "VividSource-Arimo-BoldItalic",
+    "bounds": [
+      109.19476318359376,
+      18.711077911487365,
+      6.089569761100506,
+      7.6287335442293625
+    ],
+    "components": []
+  },
+  {
+    "key": "e0065",
+    "text": "one",
+    "font_family": "VividSource-Arimo-BoldItalic",
+    "bounds": [
+      117.2302017211914,
+      18.711077911487365,
+      12.446201133071781,
+      7.6287335442293625
+    ],
+    "components": []
+  },
+  {
+    "key": "e0066",
+    "text": "OS",
+    "font_family": "VividSource-Arimo-BoldItalic",
+    "bounds": [
+      131.48915100097656,
+      18.711077911487365,
+      10.032858740332813,
+      7.6287335442293625
+    ],
+    "components": []
+  },
+  {
+    "key": "e0069",
+    "text": "①",
+    "font_family": "VividSource-DejaVuSans-Bold",
+    "bounds": [
+      120.29570770263672,
+      26.440254964841188,
+      5.8215230662733575,
+      8.12090939430334
+    ],
+    "components": []
+  },
+  {
+    "key": "e0070",
+    "text": "③",
+    "font_family": "VividSource-DejaVuSans-Bold",
+    "bounds": [
+      94.55867767333984,
+      39.91571883202869,
+      5.8215230662733575,
+      8.12090939430334
+    ],
+    "components": [
+      "application-side"
+    ]
+  },
+  {
+    "key": "e0071",
+    "text": "②",
+    "font_family": "VividSource-DejaVuSans-Bold",
+    "bounds": [
+      43.706939697265625,
+      40.190727987302125,
+      5.8215230662733575,
+      8.12090939430334
+    ],
+    "components": [
+      "application-side"
+    ]
+  },
+  {
+    "key": "e0072",
+    "text": "②",
+    "font_family": "VividSource-DejaVuSans-Bold",
+    "bounds": [
+      206.15118408203125,
+      89.69243697167713,
+      5.8215230662733575,
+      8.12090939430334
+    ],
+    "components": [
+      "module-network"
+    ]
+  },
+  {
+    "key": "e0073",
+    "text": "userspace",
+    "font_family": "VividSource-Arimo-BoldItalic",
+    "bounds": [
+      107.9240951538086,
+      48.5495941468389,
+      34.43870506561893,
+      7.6287335442293625
+    ],
+    "components": []
+  }
+]

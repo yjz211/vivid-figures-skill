@@ -1,0 +1,366 @@
+[
+  {
+    "key": "e0036",
+    "text": "Baseline ",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      21.920771856184043,
+      31.32893223272734,
+      30.402550476146185,
+      10.091262765166903
+    ],
+    "components": [
+      "agent-workflows"
+    ]
+  },
+  {
+    "key": "e0037",
+    "text": "agent",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      21.920771856184043,
+      41.41109270559721,
+      19.480721166554073,
+      10.091262765166888
+    ],
+    "components": [
+      "agent-workflows"
+    ]
+  },
+  {
+    "key": "e0064",
+    "text": "Expert",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      91.1818558794457,
+      31.32893223272734,
+      22.192016806528045,
+      10.091262765166903
+    ],
+    "components": [
+      "agent-workflows"
+    ]
+  },
+  {
+    "key": "e0065",
+    "text": " ",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      91.1818558794457,
+      41.41109270559721,
+      1.892111568154263,
+      10.091261963908764
+    ],
+    "components": [
+      "agent-workflows"
+    ]
+  },
+  {
+    "key": "e0066",
+    "text": "agent",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      93.08066456332106,
+      41.41109270559721,
+      19.480732384167823,
+      10.091262765166888
+    ],
+    "components": [
+      "agent-workflows"
+    ]
+  },
+  {
+    "key": "e0067",
+    "text": "A) Workflows with multiple LLM ",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      68.81883135890347,
+      55.87058400449861,
+      111.61096203252781,
+      10.091262765166903
+    ],
+    "components": [
+      "agent-workflows"
+    ]
+  },
+  {
+    "key": "e0068",
+    "text": "agents",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      112.55603813315064,
+      65.95275088743348,
+      22.619452760718545,
+      10.091262765166903
+    ],
+    "components": [
+      "agent-workflows"
+    ]
+  },
+  {
+    "key": "e0071",
+    "text": "Model B",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      70.47645493716753,
+      94.94904527917608,
+      28.538846513231874,
+      10.091262765166903
+    ],
+    "components": [
+      "model-caches"
+    ]
+  },
+  {
+    "key": "e0074",
+    "text": "Model A",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      24.098519325992125,
+      94.94904527917608,
+      28.896499294822657,
+      10.091262765166903
+    ],
+    "components": [
+      "model-caches"
+    ]
+  },
+  {
+    "key": "e0111",
+    "text": "B) Multiple models working on ",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      12.705677639095596,
+      143.3030885480366,
+      106.62007901509149,
+      10.091262765166903
+    ],
+    "components": [
+      "model-caches"
+    ]
+  },
+  {
+    "key": "e0112",
+    "text": "same content, storing their own ",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      10.406945400629809,
+      153.38524902090649,
+      111.15565511572639,
+      10.091261963908778
+    ],
+    "components": [
+      "model-caches"
+    ]
+  },
+  {
+    "key": "e0113",
+    "text": "KV cache",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      49.74753546641204,
+      163.46740949377636,
+      30.76758765261456,
+      10.091261963908778
+    ],
+    "components": [
+      "model-caches"
+    ]
+  },
+  {
+    "key": "e0124",
+    "text": "KV cache",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      23.170960485567317,
+      129.85348696439314,
+      30.75907829132984,
+      10.091262765166903
+    ],
+    "components": [
+      "model-caches"
+    ]
+  },
+  {
+    "key": "e0125",
+    "text": "KV cache",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      69.38759001610286,
+      130.49874333727757,
+      30.784189720959148,
+      10.091262765166903
+    ],
+    "components": [
+      "model-caches"
+    ]
+  },
+  {
+    "key": "e0166",
+    "text": "User",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      52.510045923203045,
+      6.871290772818639,
+      15.8464402675313,
+      10.091262765166903
+    ],
+    "components": [
+      "agent-workflows"
+    ]
+  },
+  {
+    "key": "e0202",
+    "text": "C) Personalized agents accessing ",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      126.87271318389865,
+      144.55327557490364,
+      112.81905416255357,
+      10.091262765166903
+    ],
+    "components": [
+      "personal-agents"
+    ]
+  },
+  {
+    "key": "e0203",
+    "text": "the same content",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      152.3637725026401,
+      154.65560050974068,
+      60.15848564562839,
+      10.091261963908778
+    ],
+    "components": [
+      "personal-agents"
+    ]
+  },
+  {
+    "key": "e0206",
+    "text": "Coding",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      135.74499952867333,
+      31.412942544589924,
+      23.578219002585683,
+      10.091262765166903
+    ],
+    "components": [
+      "agent-workflows"
+    ]
+  },
+  {
+    "key": "e0207",
+    "text": "agent",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      135.74499952867333,
+      41.4951030174598,
+      19.480751614362816,
+      10.091262765166888
+    ],
+    "components": [
+      "agent-workflows"
+    ]
+  },
+  {
+    "key": "e0210",
+    "text": "Validation ",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      186.1533404280635,
+      31.412942544589924,
+      36.79092701913396,
+      10.091262765166903
+    ],
+    "components": [
+      "agent-workflows"
+    ]
+  },
+  {
+    "key": "e0211",
+    "text": "agent",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      186.39947410385318,
+      41.4951030174598,
+      19.480725974102825,
+      10.091262765166888
+    ],
+    "components": [
+      "agent-workflows"
+    ]
+  },
+  {
+    "key": "e0258",
+    "text": "User",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      159.3624609491762,
+      8.097946451078343,
+      15.848924167717996,
+      10.091262765166903
+    ],
+    "components": [
+      "agent-workflows"
+    ]
+  },
+  {
+    "key": "e0261",
+    "text": "Debugging",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      185.7525318838743,
+      2.8972555961954924,
+      36.38740060738564,
+      10.091262765166903
+    ],
+    "components": [
+      "agent-workflows"
+    ]
+  },
+  {
+    "key": "e0262",
+    "text": "agent",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      185.7525318838743,
+      13.004594804377149,
+      19.480725974102825,
+      10.091262765166903
+    ],
+    "components": [
+      "agent-workflows"
+    ]
+  },
+  {
+    "key": "e0281",
+    "text": "Q",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      45.371877667344954,
+      21.532429896424247,
+      5.9070800176523335,
+      10.091261963908778
+    ],
+    "components": [
+      "agent-workflows"
+    ]
+  },
+  {
+    "key": "e0282",
+    "text": "Q+A",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      69.28676610375076,
+      29.740992471055534,
+      14.797032501561262,
+      10.091262765166903
+    ],
+    "components": [
+      "agent-workflows"
+    ]
+  }
+]

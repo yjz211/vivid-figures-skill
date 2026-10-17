@@ -1,0 +1,99 @@
+{
+  "name": "后台准备与停机重启的迁移对照",
+  "family": "comparison",
+  "tags": [
+    "迁移",
+    "阶段泳道",
+    "热切换",
+    "停机对照"
+  ],
+  "when_to_use": "在线迁移与停止重启比较；需要说明准备可与正常运行重叠的过程",
+  "avoid": "没有共同时间参照的方案对比；用示意长度证明实测加速比",
+  "preserve": [
+    "上、下两行对照共享从左到右的时间方向，中间用时间轴隔开。",
+    "小方块串联为节点计算链，虚线组框表示节点角色；红叉表示退出，圆弧虚线表示状态传输。",
+    "常规计算用黑箭头，迁移用红箭头，底部长条标出停止时段而非网络链路。",
+    "浅黄背景标准备，浅粉标切换或重启，绿线强调较短停机；颜色不能兼作吞吐量。",
+    "阶段名用斜体，时间注释靠轴；保留节点等角色名反复出现但字号保持一致。"
+  ],
+  "adapt": "先确定切换点前后哪些节点仍可完成业务。 时间条使用实测值才可解释为耗时差；否则只表示阶段顺序。 删改节点时同时处理所有状态传输线和计算链。",
+  "visual_note": "上、下两行对照共享从左到右的时间方向，中间用时间轴隔开。",
+  "parts": [
+    {
+      "id": "before-migration",
+      "name": "迁移前角色",
+      "role": "component",
+      "box": [
+        0.01,
+        0.02,
+        0.23,
+        0.37
+      ],
+      "meaning": "区分继续工作、退出和加入的节点。",
+      "reuse": "填入实际角色，不把加入节点提前画成运行。"
+    },
+    {
+      "id": "background-prepare",
+      "name": "后台准备",
+      "role": "component",
+      "box": [
+        0.25,
+        0.02,
+        0.24,
+        0.43
+      ],
+      "meaning": "正常工作持续时准备新节点上下文。",
+      "reuse": "标明可并行准备的状态，不能假设所有数据都提前就绪。"
+    },
+    {
+      "id": "hot-switch",
+      "name": "切换动作",
+      "role": "component",
+      "box": [
+        0.49,
+        0.02,
+        0.25,
+        0.43
+      ],
+      "meaning": "传输必要状态并改变连接。",
+      "reuse": "更新红线起终点和退出叉号。"
+    },
+    {
+      "id": "baseline-stop-restart",
+      "name": "停机基线",
+      "role": "component",
+      "box": [
+        0.01,
+        0.55,
+        0.98,
+        0.42
+      ],
+      "meaning": "停止后重排，再从检查点恢复。",
+      "reuse": "使用本次真实基线，不能人为添加额外阶段。"
+    },
+    {
+      "id": "shared-timeline",
+      "name": "共同时间参照",
+      "role": "component",
+      "box": [
+        0.01,
+        0.46,
+        0.98,
+        0.1
+      ],
+      "meaning": "对照运行和不可用区间。",
+      "reuse": "如非按比例，必须明确示意。"
+    }
+  ],
+  "selection_evidence": {
+    "candidate_index": 73,
+    "semantics_read": true,
+    "preview_reviewed": true,
+    "source_render_reviewed": true,
+    "render": "source-renders/73.png"
+  },
+  "implementation": "source-derived editable SVG",
+  "validation_status": "source-fidelity-checked",
+  "id": "architecture.source.osdi26-108_fig3",
+  "display_code": "VA-066"
+}

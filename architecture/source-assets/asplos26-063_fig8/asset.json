@@ -1,0 +1,78 @@
+{
+  "name": "事务流水线与跨层记录缓存",
+  "family": "hierarchical-control",
+  "tags": [
+    "流水事务",
+    "记录缓存",
+    "计算存储分离",
+    "记录结构",
+    "准入"
+  ],
+  "when_to_use": "计算与存储分离下的流水执行和本地缓存；事务协调路径与记录格式需要同时说明",
+  "avoid": "纯粹分层部署且没有时序；要表达真实事务耗时或锁等待统计",
+  "preserve": [
+    "上半左协调器右流水，下半缓存与远端记录横向对齐；CNs/MNs只用左侧标签和粗线区分。",
+    "Pipeline Execution与Cache Management实际均为红色粗斜体；蓝色标逻辑与缓存动作，浅粉字段、浅蓝小状态块辅助区分。",
+    "协调器到缓存用蓝色曲线，逻辑到流水用蓝色直箭头，Admission向上从远端层进入缓存；2PL粗箭头连接缓存和事务区域。"
+  ],
+  "adapt": "先区分协调逻辑、缓存动作和远端数据所在层，再替换各自标签；使用真实字段模型重写缓存与远端记录，不能将Version List随意改为无关内容；保持准入箭头向上和CNs/MNs边界语义；跨区曲线与共享虚线边框留在整图；改变事务数或缓存字段数时通过代码重排阶梯条、字段框及2PL连接",
+  "visual_note": "原标注称流水标题为青色，但实际source与print均为红色；指南按真实配色。公共虚线框跨越两层，不应随单个记录部件一起平移。",
+  "id": "architecture.source.asplos26-063_fig8",
+  "display_code": "VA-124",
+  "parts": [
+    {
+      "id": "coordinators",
+      "name": "协调器叠卡",
+      "role": "component",
+      "box": [
+        0.02,
+        0.03,
+        0.27,
+        0.265
+      ],
+      "meaning": "持有事务更新及提交时间的协调器实例",
+      "reuse": "更新样例值仅代表假设事务，不作性能结论"
+    },
+    {
+      "id": "pipeline",
+      "name": "三事务流水区",
+      "role": "component",
+      "box": [
+        0.556,
+        0.025,
+        0.422,
+        0.36
+      ],
+      "meaning": "三条交易以错位RDMA阶段示意重叠执行",
+      "reuse": "增减事务需重排阶梯块和连接"
+    },
+    {
+      "id": "record-cache",
+      "name": "本地记录缓存",
+      "role": "component",
+      "box": [
+        0.326,
+        0.475,
+        0.592,
+        0.17
+      ],
+      "meaning": "Key、Ref、EN Array、Version List构成缓存字段",
+      "reuse": "改变数据模型需同步字段布局和外部引用"
+    },
+    {
+      "id": "remote-records",
+      "name": "远端记录条",
+      "role": "component",
+      "box": [
+        0.29,
+        0.735,
+        0.684,
+        0.169
+      ],
+      "meaning": "Header和多个Cell构成内存侧记录",
+      "reuse": "字段数变化需更新省略号与准入目标"
+    }
+  ],
+  "implementation": "editable vector geometry",
+  "validation_status": "baseline-and-components-checked"
+}

@@ -1,0 +1,193 @@
+{
+  "asset_id": "architecture.framed-platform",
+  "title": "双侧输入输出包围的多机制平台",
+  "summary": "窄输入列和输出列夹住主平台，平台内三块分别用关系图、并列评估器和搜索树解释不同机制。外框强调系统完整性，内部异构画法承担信息密度，不能把全部模块统一成只有标题的空框。",
+  "suitable_for": [
+    "输入条件经多种互补机制产生多类输出的平台",
+    "需要将整体系统和少量内部细节放在一张宽图"
+  ],
+  "not_suitable_for": [
+    "三个模块实际只是同质串行步骤",
+    "没有搜索过程却想保留树形装饰"
+  ],
+  "reading_order": [
+    "先看左边对象和条件两组输入。",
+    "中央依次读关系变换、多方法评估和候选探索。",
+    "右边核对指标、时序和候选三类输出。"
+  ],
+  "design": {
+    "layout": "两侧窄列围绕三块等宽模块，主平台用独立边界包围，标题置于模块下方。",
+    "shapes": "文档、节点图、时间条、引擎列与树形对象各自编码不同产物。",
+    "connectors": "两侧短箭头仅连平台；模块相邻不等于已声明直接数据流，若需要应显式补边。",
+    "color": "灰条为标题和融合结构；蓝、桃、绿区分评估器，粉色突出变换或约束。",
+    "typography": "短粗标题加内部较小标签；竖排融合标签空间有限，长词宜改横向布局。"
+  },
+  "parts": [
+    {
+      "id": "input-0",
+      "name": "对象输入框",
+      "meaning": "描述待处理对象。",
+      "adaptation": "改标题并同步内容对象。"
+    },
+    {
+      "id": "input-object-0",
+      "name": "对象文档",
+      "meaning": "列出对象结构与参数。",
+      "adaptation": "替换文档条目或 glyph 类型。"
+    },
+    {
+      "id": "input-1",
+      "name": "条件输入框",
+      "meaning": "描述设备与约束。",
+      "adaptation": "与对象输入分开。"
+    },
+    {
+      "id": "input-object-1",
+      "name": "条件文档",
+      "meaning": "列出配置条件。",
+      "adaptation": "逐项改为真实约束。"
+    },
+    {
+      "id": "platform",
+      "name": "平台边界",
+      "meaning": "包含三个不同内部机制。",
+      "adaptation": "变更模块数须改布局。"
+    },
+    {
+      "id": "module-0",
+      "name": "变换模块",
+      "meaning": "对象转成中间结构与执行表示。",
+      "adaptation": "改 section_labels 与内部对象。"
+    },
+    {
+      "id": "module-0-graph",
+      "name": "图变换区域",
+      "meaning": "承载节点关系。",
+      "adaptation": "改背景及图对象。"
+    },
+    {
+      "id": "module-0-graph-object",
+      "name": "节点关系图",
+      "meaning": "具体拓扑及类别。",
+      "adaptation": "用 nodes 和 edges 改关系。"
+    },
+    {
+      "id": "module-0-artifact",
+      "name": "中间产物",
+      "meaning": "显示变换后的时间或序列结构。",
+      "adaptation": "按真实输出换 glyph。"
+    },
+    {
+      "id": "module-1",
+      "name": "多方法评估模块",
+      "meaning": "并列方法进入融合。",
+      "adaptation": "改 engines 与结果处理。"
+    },
+    {
+      "id": "engine-0",
+      "name": "第一评估器",
+      "meaning": "第一类估计依据。",
+      "adaptation": "换方法名与角色色。"
+    },
+    {
+      "id": "engine-1",
+      "name": "第二评估器",
+      "meaning": "第二类估计依据。",
+      "adaptation": "不要只换同义标签。"
+    },
+    {
+      "id": "engine-2",
+      "name": "第三评估器",
+      "meaning": "第三类估计依据。",
+      "adaptation": "缺此方法时调整引擎区几何。"
+    },
+    {
+      "id": "fusion",
+      "name": "融合接口",
+      "meaning": "接收多个估计。",
+      "adaptation": "说明融合含义。"
+    },
+    {
+      "id": "postprocess",
+      "name": "后处理",
+      "meaning": "处理融合后的额外关系。",
+      "adaptation": "换为实际后处理。"
+    },
+    {
+      "id": "module-2",
+      "name": "候选探索模块",
+      "meaning": "用树表达分支候选。",
+      "adaptation": "不做搜索时替换该机制。"
+    },
+    {
+      "id": "module-2-search",
+      "name": "搜索树",
+      "meaning": "分支与候选关系。",
+      "adaptation": "配置节点边并解释裁剪。"
+    },
+    {
+      "id": "search-rule",
+      "name": "规则框",
+      "meaning": "约束候选保留条件。",
+      "adaptation": "替换真实筛选规则。"
+    },
+    {
+      "id": "output-0",
+      "name": "指标输出框",
+      "meaning": "汇总数值类产物。",
+      "adaptation": "改标题与内文。"
+    },
+    {
+      "id": "output-object-0",
+      "name": "指标文档",
+      "meaning": "列出输出指标。",
+      "adaptation": "写指标名和单位。"
+    },
+    {
+      "id": "output-1",
+      "name": "时序输出框",
+      "meaning": "展示安排类产物。",
+      "adaptation": "无时序输出时改类型。"
+    },
+    {
+      "id": "output-object-1",
+      "name": "时间条对象",
+      "meaning": "任务先后与持续时间。",
+      "adaptation": "示意条不能当计算结果。"
+    },
+    {
+      "id": "output-2",
+      "name": "方案输出框",
+      "meaning": "展示候选选择。",
+      "adaptation": "明确方案是什么。"
+    },
+    {
+      "id": "output-object-2",
+      "name": "方案槽位",
+      "meaning": "并列显示候选项。",
+      "adaptation": "换真实类别及数量。"
+    }
+  ],
+  "adaptation": [
+    "先确定三种机制是否真实存在，再选 transform、engines、search 布局。",
+    "内部图与产物必须随任务改造，不能只替换外层标题。",
+    "输出类型改变时更换 object.kind 和内容；两侧项目过多须扩展画布。"
+  ],
+  "example": {
+    "scenario": "假设展示交通应急方案评估平台。",
+    "mapping": "输入为路网与封路条件，第一模块生成可行路网，第二模块融合仿真与解析评估，第三模块探索调度方案。",
+    "structural_changes": "重新配置路网 nodes/edges 和方案树；时序条改成车辆任务安排，删去不存在的评估器。"
+  },
+  "checks": [
+    "三模块名称是否对应实际内部对象而非抽象口号。",
+    "融合侧栏是否被长文字挤出引擎区域。",
+    "输入输出数量变化后是否超出固定高度及外框。"
+  ],
+  "editing": {
+    "entry": "make_figure.py 的 build(c) 构图，example.json 提供 inputs、modules、outputs 和 platform_name。",
+    "configurable": "可配图对象、标题、engines、fusion、postprocess、rule 及 palette；模块 layout 支持 transform、engines、search。",
+    "code_required": "代码明确要求 modules 数量等于 3；改模块数、双侧数量间距或加入模块间边须编辑 build，现有布局不会自动扩展。",
+    "fonts": "diagram.py 声明 Arial, sans-serif；保留标题与内部标签的字号层次，按最终宽度检查并列模块和竖排融合文字，跨设备导出需核实实际字体。"
+  },
+  "display_code": "VA-003"
+}

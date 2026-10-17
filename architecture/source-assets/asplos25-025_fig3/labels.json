@@ -1,0 +1,944 @@
+[
+  {
+    "key": "e0005",
+    "text": "GraphPipe",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      12.898498535156248,
+      134.67074624652741,
+      78.29430486894853,
+      22.025801656476688
+    ],
+    "components": []
+  },
+  {
+    "key": "e0006",
+    "text": "Pipeline Stage ",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      18.24349975585938,
+      163.74859300401295,
+      94.64782114377886,
+      19.578457809227984
+    ],
+    "components": [
+      "partitioner"
+    ]
+  },
+  {
+    "key": "e0007",
+    "text": "Partitioner",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      112.91339111328125,
+      163.74859300401295,
+      69.93753940016177,
+      19.578457809227984
+    ],
+    "components": [
+      "partitioner",
+      "partition-graphs"
+    ]
+  },
+  {
+    "key": "e0008",
+    "text": "(Sec 5)",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      186.19338989257812,
+      163.74859300401295,
+      43.59558278702025,
+      19.578457809227984
+    ],
+    "components": [
+      "partitioner",
+      "partition-graphs"
+    ]
+  },
+  {
+    "key": "e0009",
+    "text": "Static Micro",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      17.62799072265625,
+      352.3886076524502,
+      77.2179669355537,
+      19.578457809227984
+    ],
+    "components": []
+  },
+  {
+    "key": "e0010",
+    "text": "-",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      94.89797973632812,
+      352.3886076524502,
+      4.902268718968571,
+      19.578483443994628
+    ],
+    "components": []
+  },
+  {
+    "key": "e0011",
+    "text": "batch",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      99.77297973632812,
+      352.3886076524502,
+      36.19058493417833,
+      19.578457809227984
+    ],
+    "components": []
+  },
+  {
+    "key": "e0012",
+    "text": "Scheduler (Sec 6)",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      17.62799072265625,
+      371.5885588243252,
+      111.72676469352882,
+      19.578457809227984
+    ],
+    "components": []
+  },
+  {
+    "key": "e0014",
+    "text": "Model",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      31.14068603515625,
+      205.78640069899825,
+      36.97934473114583,
+      17.13117255573161
+    ],
+    "components": [
+      "partitioner"
+    ]
+  },
+  {
+    "key": "e0015",
+    "text": "Partitioning",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      16.350677490234375,
+      222.82643976149848,
+      66.8060622249468,
+      17.13117255573161
+    ],
+    "components": [
+      "partitioner"
+    ]
+  },
+  {
+    "key": "e0016",
+    "text": "Device",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      31.115692138671875,
+      287.3864983552485,
+      38.01218778976545,
+      17.13117255573161
+    ],
+    "components": [
+      "partitioner"
+    ]
+  },
+  {
+    "key": "e0017",
+    "text": "Assignment",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      16.4062288089807,
+      304.426415347436,
+      67.14649192597426,
+      17.13117255573161
+    ],
+    "components": [
+      "partitioner"
+    ]
+  },
+  {
+    "key": "e0018",
+    "text": "Micro",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      243.77618408203122,
+      287.3864983552485,
+      33.15342172755484,
+      17.13117255573161
+    ],
+    "components": [
+      "partitioner"
+    ]
+  },
+  {
+    "key": "e0019",
+    "text": "-",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      276.92620849609375,
+      287.3864983552485,
+      4.405158866451529,
+      17.13117438678637
+    ],
+    "components": [
+      "partitioner"
+    ]
+  },
+  {
+    "key": "e0020",
+    "text": "batch",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      281.17620849609375,
+      287.3864983552485,
+      31.80402958409104,
+      17.13117255573161
+    ],
+    "components": [
+      "partitioner"
+    ]
+  },
+  {
+    "key": "e0021",
+    "text": "Adjustment",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      244.6667268558557,
+      304.426415347436,
+      67.09049094718648,
+      17.13117255573161
+    ],
+    "components": [
+      "partitioner"
+    ]
+  },
+  {
+    "key": "e0022",
+    "text": "Model Partition, Device Assignment, ",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      260.60186767578125,
+      356.5443011674215,
+      180.03541242740175,
+      14.683887302235235
+    ],
+    "components": []
+  },
+  {
+    "key": "e0023",
+    "text": "Micro",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      307.93688964843744,
+      371.6642962846088,
+      28.41660940554175,
+      14.683887302235235
+    ],
+    "components": [
+      "schedule-grid"
+    ]
+  },
+  {
+    "key": "e0024",
+    "text": "-",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      336.36676025390625,
+      371.6642962846088,
+      3.9156968719044016,
+      14.683863498523351
+    ],
+    "components": [
+      "schedule-grid"
+    ]
+  },
+  {
+    "key": "e0025",
+    "text": "batch Sizes",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      339.99188232421875,
+      371.6642962846088,
+      53.47063689035713,
+      14.683887302235235
+    ],
+    "components": [
+      "schedule-grid"
+    ]
+  },
+  {
+    "key": "e0026",
+    "text": "Parallel",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      319.99755859374994,
+      191.424306050234,
+      35.62603046838558,
+      14.683887302235235
+    ],
+    "components": [
+      "partitioner",
+      "partition-graphs"
+    ]
+  },
+  {
+    "key": "e0027",
+    "text": "Decomposition",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      358.36761474609375,
+      191.424306050234,
+      73.97987110375834,
+      14.683887302235235
+    ],
+    "components": [
+      "partitioner",
+      "partition-graphs"
+    ]
+  },
+  {
+    "key": "e0207",
+    "text": "Pipeline Schedule",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      375.31060791015625,
+      503.4243060502338,
+      85.80658055808453,
+      14.683887302235235
+    ],
+    "components": []
+  },
+  {
+    "key": "e0208",
+    "text": "Memory Usage",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      33.27899169921875,
+      503.4243060502338,
+      74.3273686761604,
+      14.683887302235235
+    ],
+    "components": []
+  },
+  {
+    "key": "e0209",
+    "text": "Stages",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      208.77197265625,
+      506.5443011674213,
+      31.528624299709918,
+      14.683887302235235
+    ],
+    "components": []
+  },
+  {
+    "key": "e0238",
+    "text": "Forward",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      303.58355712890625,
+      401.664296284609,
+      40.42067299289192,
+      14.683887302235235
+    ],
+    "components": [
+      "schedule-grid"
+    ]
+  },
+  {
+    "key": "e0239",
+    "text": "Passes",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      307.763671875,
+      416.7842914017965,
+      32.14662725395465,
+      14.683887302235235
+    ],
+    "components": [
+      "schedule-grid"
+    ]
+  },
+  {
+    "key": "e0240",
+    "text": "Backward",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      355.9569702148437,
+      401.664296284609,
+      47.39628118023393,
+      14.683887302235235
+    ],
+    "components": [
+      "schedule-grid"
+    ]
+  },
+  {
+    "key": "e0241",
+    "text": "Passes",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      363.62200927734375,
+      416.5443011674215,
+      32.14662725395465,
+      14.683887302235235
+    ],
+    "components": [
+      "schedule-grid"
+    ]
+  },
+  {
+    "key": "e0252",
+    "text": "...",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      343.91339111328125,
+      429.7571522631333,
+      18.064741318414235,
+      29.36771601071814
+    ],
+    "components": [
+      "schedule-grid"
+    ]
+  },
+  {
+    "key": "e0258",
+    "text": "DNN Computation Graph",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      38.70977783203126,
+      33.02428163617151,
+      121.96546627225325,
+      14.683887302235235
+    ],
+    "components": [
+      "input-spec"
+    ]
+  },
+  {
+    "key": "e0288",
+    "text": "Device Cluster",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      402.38848876953125,
+      33.50426210492151,
+      69.58676057762932,
+      14.683887302235235
+    ],
+    "components": [
+      "input-spec"
+    ]
+  },
+  {
+    "key": "e0310",
+    "text": "Mini",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      256.0968017578125,
+      33.02428163617151,
+      22.008424946801824,
+      14.683887302235235
+    ],
+    "components": [
+      "input-spec"
+    ]
+  },
+  {
+    "key": "e0311",
+    "text": "-",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      278.0968017578125,
+      33.02428163617151,
+      3.9156968719044016,
+      14.683863498523351
+    ],
+    "components": [
+      "input-spec"
+    ]
+  },
+  {
+    "key": "e0312",
+    "text": "batch Size",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      281.7216796875,
+      33.02428163617151,
+      48.55138010308656,
+      14.683887302235235
+    ],
+    "components": [
+      "input-spec"
+    ]
+  },
+  {
+    "key": "e0345",
+    "text": "Input",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      9.04437255859375,
+      -2.3692928159725852,
+      39.99780920655758,
+      22.025801656476688
+    ],
+    "components": []
+  },
+  {
+    "key": "e0349",
+    "text": "Distributed Runtime",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      179.57919311523435,
+      566.9486662462004,
+      131.18700228321543,
+      19.578457809227984
+    ],
+    "components": [
+      "runtime"
+    ]
+  },
+  {
+    "key": "e0350",
+    "text": "Optimized GPP Training Strategy      (Stage Partition, Micro",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      79.83020019531249,
+      543.7442523392965,
+      282.36422997014597,
+      14.683887302235235
+    ],
+    "components": []
+  },
+  {
+    "key": "e0351",
+    "text": "-",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      362.2052001953125,
+      543.7442523392965,
+      3.9156968719044016,
+      14.683863498523351
+    ],
+    "components": []
+  },
+  {
+    "key": "e0352",
+    "text": "batch Schedule)",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      365.8302001953125,
+      543.7442523392965,
+      77.61077945116267,
+      14.683887302235235
+    ],
+    "components": []
+  },
+  {
+    "key": "e0401",
+    "text": "Optimized",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      171.98507690429688,
+      351.5042621049215,
+      50.09268509597314,
+      14.683887302235235
+    ],
+    "components": []
+  },
+  {
+    "key": "e0402",
+    "text": "Micro",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      167.42507934570312,
+      366.3842669877338,
+      28.41660940554175,
+      14.683887302235235
+    ],
+    "components": []
+  },
+  {
+    "key": "e0403",
+    "text": "-",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      195.8551025390625,
+      366.3842669877338,
+      3.9156968719044016,
+      14.683863498523351
+    ],
+    "components": []
+  },
+  {
+    "key": "e0404",
+    "text": "batch",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      199.48010253906247,
+      366.3842669877338,
+      27.167875835413724,
+      14.683887302235235
+    ],
+    "components": []
+  },
+  {
+    "key": "e0405",
+    "text": "Schedule",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      174.9501953125,
+      380.5443011674215,
+      44.086173626827076,
+      14.683887302235235
+    ],
+    "components": []
+  },
+  {
+    "key": "e0406",
+    "text": "S",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      120.24337768554688,
+      266.7842914017965,
+      5.514096441034326,
+      14.683863498523351
+    ],
+    "components": [
+      "partitioner"
+    ]
+  },
+  {
+    "key": "e0407",
+    "text": "1",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      125.74337768554686,
+      272.1304243504419,
+      4.061005715569095,
+      9.789241721997314
+    ],
+    "components": [
+      "partitioner"
+    ]
+  },
+  {
+    "key": "e0410",
+    "text": "S",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      225.35577392578125,
+      424.4642230424215,
+      5.514096441034326,
+      14.683863498523351
+    ],
+    "components": [
+      "schedule-grid"
+    ]
+  },
+  {
+    "key": "e0411",
+    "text": "2",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      230.85589599609375,
+      429.8104780613794,
+      4.061005715569081,
+      9.789241721997314
+    ],
+    "components": [
+      "schedule-grid"
+    ]
+  },
+  {
+    "key": "e0412",
+    "text": "S",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      98.35150146484374,
+      327.0242816361715,
+      5.514096441034326,
+      14.683863498523351
+    ],
+    "components": []
+  },
+  {
+    "key": "e0413",
+    "text": "2",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      103.85150146484375,
+      332.3705366551294,
+      4.061005715569081,
+      9.789241721997314
+    ],
+    "components": []
+  },
+  {
+    "key": "e0414",
+    "text": "S",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      129.00009155273438,
+      327.0242816361715,
+      5.514096441034326,
+      14.683863498523351
+    ],
+    "components": []
+  },
+  {
+    "key": "e0415",
+    "text": "3",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      134.50009155273438,
+      332.3705366551294,
+      4.061005715569081,
+      9.789241721997314
+    ],
+    "components": []
+  },
+  {
+    "key": "e0416",
+    "text": "S",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      178.62179565429688,
+      308.5443011674215,
+      5.514096441034326,
+      14.683863498523351
+    ],
+    "components": [
+      "partitioner"
+    ]
+  },
+  {
+    "key": "e0417",
+    "text": "4",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      184.12167358398438,
+      313.8904341160667,
+      4.405158866451529,
+      9.789241721997314
+    ],
+    "components": [
+      "partitioner"
+    ]
+  },
+  {
+    "key": "e0418",
+    "text": "S",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      215.1081848144531,
+      308.5443011674215,
+      5.514096441034326,
+      14.683863498523351
+    ],
+    "components": [
+      "partitioner"
+    ]
+  },
+  {
+    "key": "e0419",
+    "text": "5",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      220.60818481445312,
+      313.8904341160667,
+      4.061005715569081,
+      9.789241721997314
+    ],
+    "components": [
+      "partitioner"
+    ]
+  },
+  {
+    "key": "e0420",
+    "text": "S",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      225.17477416992188,
+      405.0242816361715,
+      5.514096441034326,
+      14.683863498523351
+    ],
+    "components": [
+      "schedule-grid"
+    ]
+  },
+  {
+    "key": "e0421",
+    "text": "1",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      230.67477416992188,
+      410.3704145848169,
+      4.061005715569081,
+      9.789241721997314
+    ],
+    "components": [
+      "schedule-grid"
+    ]
+  },
+  {
+    "key": "e0428",
+    "text": "S",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      225.35577392578125,
+      441.7442523392965,
+      5.514096441034326,
+      14.683863498523351
+    ],
+    "components": [
+      "schedule-grid"
+    ]
+  },
+  {
+    "key": "e0429",
+    "text": "3",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      230.85589599609375,
+      447.0905073582542,
+      4.061005715569081,
+      9.789241721997314
+    ],
+    "components": [
+      "schedule-grid"
+    ]
+  },
+  {
+    "key": "e0430",
+    "text": "S",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      225.35577392578125,
+      459.5042621049215,
+      5.514096441034326,
+      14.683863498523351
+    ],
+    "components": [
+      "schedule-grid"
+    ]
+  },
+  {
+    "key": "e0431",
+    "text": "4",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      230.85589599609375,
+      465.0905073582544,
+      4.405158866451529,
+      9.789241721997314
+    ],
+    "components": [
+      "schedule-grid"
+    ]
+  },
+  {
+    "key": "e0432",
+    "text": "S",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      225.35577392578125,
+      479.1841937455463,
+      5.514096441034326,
+      14.683863498523351
+    ],
+    "components": [
+      "schedule-grid"
+    ]
+  },
+  {
+    "key": "e0433",
+    "text": "5",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      230.85589599609375,
+      484.5305708348167,
+      4.061005715569081,
+      9.789241721997314
+    ],
+    "components": [
+      "schedule-grid"
+    ]
+  },
+  {
+    "key": "e0435",
+    "text": "Device Memory Limit",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      66.89630126953125,
+      480.144276753359,
+      104.43476489205204,
+      14.683887302235235
+    ],
+    "components": [
+      "memory-envelope"
+    ]
+  },
+  {
+    "key": "e0436",
+    "text": "OOM",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      24.76177978515625,
+      424.2242328080465,
+      26.26421369013042,
+      14.683887302235235
+    ],
+    "components": [
+      "memory-envelope"
+    ]
+  },
+  {
+    "key": "e0437",
+    "text": "...",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      133.61679077148438,
+      445.8372303881333,
+      18.064741318414235,
+      29.36771601071814
+    ],
+    "components": [
+      "memory-envelope"
+    ]
+  },
+  {
+    "key": "e0442",
+    "text": "Series",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      127.31179809570312,
+      191.664296284609,
+      29.27262201279882,
+      14.683887302235235
+    ],
+    "components": [
+      "partitioner",
+      "partition-graphs"
+    ]
+  },
+  {
+    "key": "e0443",
+    "text": "Decomposition",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      159.18679809570312,
+      191.664296284609,
+      73.97987110375834,
+      14.683887302235235
+    ],
+    "components": [
+      "partitioner",
+      "partition-graphs"
+    ]
+  }
+]

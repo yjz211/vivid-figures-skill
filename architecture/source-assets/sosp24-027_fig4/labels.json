@@ -1,0 +1,254 @@
+[
+  {
+    "key": "e0004",
+    "text": "Client",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      192.7202820777893,
+      65.04796314239502,
+      24.306123733520508,
+      10.948468208312988
+    ],
+    "components": [
+      "client-stack"
+    ]
+  },
+  {
+    "key": "e0007",
+    "text": "Client",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      191.05884408950806,
+      63.386586189270005,
+      24.306123733520508,
+      10.948468208312988
+    ],
+    "components": [
+      "client-stack"
+    ]
+  },
+  {
+    "key": "e0010",
+    "text": "SWARM-Replicated Value",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      3.029525756835937,
+      64.33221817016602,
+      107.24036407470702,
+      10.948465347290025
+    ],
+    "components": [
+      "replica-group"
+    ]
+  },
+  {
+    "key": "e0015",
+    "text": "Memory Node",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      85.68501576781273,
+      3.121417790651321,
+      58.60037040710449,
+      10.948466777801512
+    ],
+    "components": [
+      "replica-group"
+    ]
+  },
+  {
+    "key": "e0018",
+    "text": "Memory Node",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      5.311602681875229,
+      3.121417790651321,
+      58.600370407104485,
+      10.948466777801512
+    ],
+    "components": [
+      "replica-group"
+    ]
+  },
+  {
+    "key": "e0021",
+    "text": "Index",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      190.74518251419067,
+      1.496762543916702,
+      22.641933917999268,
+      10.948466777801512
+    ],
+    "components": [
+      "directory"
+    ]
+  },
+  {
+    "key": "e0024",
+    "text": "Timestamp Locks",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      8.001953124999998,
+      47.957646761089556,
+      71.6036968231201,
+      10.948466777801514
+    ],
+    "components": [
+      "replica-group",
+      "timestamp-layer"
+    ]
+  },
+  {
+    "key": "e0027",
+    "text": "Max Register",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      8.001953124999998,
+      17.07574978843331,
+      54.022150039672844,
+      10.94846677780151
+    ],
+    "components": [
+      "replica-group",
+      "node-registers"
+    ]
+  },
+  {
+    "key": "e0030",
+    "text": " InO",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      8.482452392578123,
+      31.049545139074326,
+      18.05211925506591,
+      10.948466777801514
+    ],
+    "components": [
+      "replica-group",
+      "node-registers"
+    ]
+  },
+  {
+    "key": "e0042",
+    "text": "…",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      67.22233271598816,
+      6.057031363248825,
+      15.002078533172607,
+      16.660710811614987
+    ],
+    "components": [
+      "replica-group"
+    ]
+  },
+  {
+    "key": "e0044",
+    "text": "get/set",
+    "font_family": "VividSource-Tinos-Italic",
+    "bounds": [
+      205.06648635864258,
+      28.729392170906063,
+      24.010133743286133,
+      9.996425628662106
+    ],
+    "components": []
+  },
+  {
+    "key": "e0047",
+    "text": "Key",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      170.53577336668968,
+      14.951353490352629,
+      16.476224899291992,
+      10.948466777801512
+    ],
+    "components": [
+      "directory"
+    ]
+  },
+  {
+    "key": "e0049",
+    "text": "Locations",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      194.22989559173584,
+      14.951353490352629,
+      39.44369029998779,
+      10.948466777801512
+    ],
+    "components": [
+      "directory"
+    ]
+  },
+  {
+    "key": "e0052",
+    "text": " InO",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      88.6185302734375,
+      31.049545139074326,
+      18.052119255065918,
+      10.948466777801514
+    ],
+    "components": [
+      "replica-group",
+      "node-registers"
+    ]
+  },
+  {
+    "key": "e0069",
+    "text": "Client",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      189.39749765396118,
+      61.72519397735594,
+      24.306123733520508,
+      10.948468208312988
+    ],
+    "components": [
+      "client-stack"
+    ]
+  },
+  {
+    "key": "e0072",
+    "text": "SWARM-KV ",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      174.2711534500122,
+      40.29606853425502,
+      56.87282180786133,
+      10.948466777801514
+    ],
+    "components": [
+      "client-stack"
+    ]
+  },
+  {
+    "key": "e0073",
+    "text": "Library",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      186.4561243057251,
+      50.04606938362121,
+      30.226223945617676,
+      10.94846606254577
+    ],
+    "components": [
+      "client-stack"
+    ]
+  },
+  {
+    "key": "e0079",
+    "text": "R/W",
+    "font_family": "VividSource-Tinos-Italic",
+    "bounds": [
+      151.13524681329727,
+      53.024613916873925,
+      16.56936550140381,
+      9.996426343917847
+    ],
+    "components": []
+  }
+]

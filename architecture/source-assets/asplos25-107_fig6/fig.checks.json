@@ -1,0 +1,196 @@
+{
+  "svg": "C:\\Users\\hhhh\\Desktop\\MCM-ICM-AI-Lab\\workstreams\\architecture-native-guides\\package\\architecture\\source-assets\\asplos25-107_fig6\\fig.svg",
+  "print_size_pt": [
+    468.0,
+    279.9933211010811
+  ],
+  "text_count": 93,
+  "parts": 0,
+  "errors": [
+    {
+      "type": "text-overlap",
+      "texts": [
+        "for i = 0..31:",
+        "for i = 0..31:"
+      ],
+      "overlap": [
+        49.8,
+        10.9
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "latch_write",
+        "latch_write"
+      ],
+      "overlap": [
+        45.1,
+        10.9
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "(B",
+        "(B"
+      ],
+      "overlap": [
+        10.1,
+        10.9
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        ")",
+        ")"
+      ],
+      "overlap": [
+        3.5,
+        10.9
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "transfer_S_to_D",
+        "transfer_S_to_D"
+      ],
+      "overlap": [
+        62.7,
+        10.9
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "( )",
+        "( )"
+      ],
+      "overlap": [
+        9.3,
+        10.9
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "XOR(D1, D2)",
+        "XOR(D1, D2)"
+      ],
+      "overlap": [
+        50.3,
+        10.9
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "transfer_S_to_D",
+        "transfer_S_to_D"
+      ],
+      "overlap": [
+        62.7,
+        10.9
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "( )",
+        "( )"
+      ],
+      "overlap": [
+        9.3,
+        10.9
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "flash_read",
+        "flash_read"
+      ],
+      "overlap": [
+        41.9,
+        10.9
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "(addr)",
+        "(addr)"
+      ],
+      "overlap": [
+        25.8,
+        10.9
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "transfer_D_to_S",
+        "transfer_D_to_S"
+      ],
+      "overlap": [
+        62.9,
+        10.9
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "( )",
+        "( )"
+      ],
+      "overlap": [
+        9.3,
+        10.9
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "latch_read",
+        "latch_read"
+      ],
+      "overlap": [
+        41.6,
+        10.9
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "(sum)",
+        "(sum)"
+      ],
+      "overlap": [
+        23.9,
+        10.9
+      ]
+    }
+  ],
+  "warnings": [],
+  "pdf": {
+    "page_count": 1,
+    "fonts": [
+      {
+        "name": "AAAAAA+DejaVuSans",
+        "type": "Type0"
+      },
+      {
+        "name": "BAAAAA+Arimo-Bold",
+        "type": "Type0"
+      },
+      {
+        "name": "CAAAAA+Arimo",
+        "type": "Type0"
+      }
+    ],
+    "images": 0
+  },
+  "scope": "Measured text bounds, intersections, print font size, and PDF structure. Connections and visual fidelity require actual image inspection."
+}

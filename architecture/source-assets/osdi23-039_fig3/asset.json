@@ -1,0 +1,99 @@
+{
+  "name": "逐级因果筛选与关系精炼",
+  "family": "pipeline",
+  "tags": [
+    "因果分析",
+    "过滤精化",
+    "工具支撑",
+    "排名结果"
+  ],
+  "when_to_use": "异常定位、因果候选排查和程序诊断；有逐级筛选及局部迭代的分析管线",
+  "avoid": "能够直接确认唯一根因的简单判断；没有正常对照或动态证据的纯静态工具清单",
+  "preserve": [
+    "输入和输出在系统虚线边界之外，内部三块沿水平排列；工具上下挂接节省主轴宽度。",
+    "候选列表用窄文档框，分析器用白方框，精炼子流程放入独立浅灰容器。",
+    "主轴箭头表示候选逐级缩减；工具的上下箭头表示证据交互；右侧回边是局部迭代。",
+    "以黑白灰表达层级，灰色条目突出精炼步骤，不通过颜色暗示因果强度或置信度。",
+    "分析标题使用衬线，指令和列表用等宽；长名称应断成合理短行，避免过宽打断主轴。"
+  ],
+  "adapt": "先区分症状对象、候选对象和候选关系，统一三者名称。 辅助工具应附着到实际使用它的分析器。 若精炼只有一次执行，应去掉回边，避免夸大迭代能力。",
+  "visual_note": "输入和输出在系统虚线边界之外，内部三块沿水平排列；工具上下挂接节省主轴宽度。",
+  "parts": [
+    {
+      "id": "symptom-input",
+      "name": "症状与运行对照",
+      "role": "component",
+      "box": [
+        0.01,
+        0.12,
+        0.16,
+        0.71
+      ],
+      "meaning": "提供正常、异常样本及需要解释的位置。",
+      "reuse": "换成真实对照条件，不能把症状直接命名为根因。"
+    },
+    {
+      "id": "static-analysis",
+      "name": "静态候选分析",
+      "role": "component",
+      "box": [
+        0.215,
+        0.07,
+        0.16,
+        0.77
+      ],
+      "meaning": "利用结构约束先排除无关对象。",
+      "reuse": "改支撑工具和关系定义；保留证据从侧向进入。"
+    },
+    {
+      "id": "dynamic-analysis",
+      "name": "动态证据分析",
+      "role": "component",
+      "box": [
+        0.4,
+        0.25,
+        0.16,
+        0.59
+      ],
+      "meaning": "根据运行事实继续筛选候选。",
+      "reuse": "替换记录器和采样方式，并说明筛选输入。"
+    },
+    {
+      "id": "iterative-refinement",
+      "name": "关系精炼循环",
+      "role": "component",
+      "box": [
+        0.6,
+        0.07,
+        0.18,
+        0.77
+      ],
+      "meaning": "计算、过滤、修正反复缩小关系集合。",
+      "reuse": "按真实终止条件重写回边和操作名。"
+    },
+    {
+      "id": "ranked-output",
+      "name": "排序候选输出",
+      "role": "component",
+      "box": [
+        0.83,
+        0.13,
+        0.16,
+        0.61
+      ],
+      "meaning": "给出需要进一步判断的有序关系。",
+      "reuse": "更换排序依据，避免把排名写成已经证实的因果。"
+    }
+  ],
+  "selection_evidence": {
+    "candidate_index": 53,
+    "semantics_read": true,
+    "preview_reviewed": true,
+    "source_render_reviewed": true,
+    "render": "source-renders/53.png"
+  },
+  "implementation": "source-derived editable SVG",
+  "validation_status": "source-fidelity-checked",
+  "id": "architecture.source.osdi23-039_fig3",
+  "display_code": "VA-059"
+}

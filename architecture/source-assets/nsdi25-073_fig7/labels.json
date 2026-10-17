@@ -1,0 +1,282 @@
+[
+  {
+    "key": "e0007",
+    "text": "Computational Graph",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      77.2658166475594,
+      24.562311199655582,
+      57.87706093679935,
+      6.739330515267284
+    ],
+    "components": [
+      "framework-layer"
+    ]
+  },
+  {
+    "key": "e0008",
+    "text": "Cluster Orchestration",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      4.877223256975412,
+      64.1438671687465,
+      62.60227382543144,
+      6.739321223471052
+    ],
+    "components": [
+      "orchestration-layer"
+    ]
+  },
+  {
+    "key": "e0010",
+    "text": "Embedding Tables",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      148.19388833921403,
+      24.562311199655582,
+      49.989046050046454,
+      6.739330515267284
+    ],
+    "components": [
+      "framework-layer"
+    ]
+  },
+  {
+    "key": "e0012",
+    "text": "Configs",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      210.0638710577041,
+      24.562311199655582,
+      20.644800913922154,
+      6.739330515267284
+    ],
+    "components": [
+      "framework-layer"
+    ]
+  },
+  {
+    "key": "e0014",
+    "text": "Graph Optimizer(s)",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      74.23535305727273,
+      9.338632253160526,
+      51.76963296198301,
+      6.739330515267284
+    ],
+    "components": [
+      "framework-layer"
+    ]
+  },
+  {
+    "key": "e0017",
+    "text": "Topology-Aware Resource Manager",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      101.74263795372099,
+      45.87547101654489,
+      103.35153447289485,
+      6.739321223471052
+    ],
+    "components": [
+      "orchestration-layer"
+    ]
+  },
+  {
+    "key": "e0019",
+    "text": "Intra-Node Allocation",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      167.76107318513095,
+      64.1438671687465,
+      56.52680033785691,
+      6.739321223471052
+    ],
+    "components": [
+      "orchestration-layer"
+    ]
+  },
+  {
+    "key": "e0022",
+    "text": "Incast Flow Control",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      74.91566121019423,
+      103.7254510132261,
+      56.50369164062795,
+      6.739321223471052
+    ],
+    "components": [
+      "networking-layer"
+    ]
+  },
+  {
+    "key": "e0025",
+    "text": "SLO-Aware Comm. Scheduling",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      140.59632106497884,
+      103.7254510132261,
+      89.55898727384738,
+      6.739321223471052
+    ],
+    "components": [
+      "networking-layer"
+    ]
+  },
+  {
+    "key": "e0027",
+    "text": "TCP/IP",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      102.48479230236262,
+      118.94912995972116,
+      19.6263410666279,
+      6.739321223471052
+    ],
+    "components": [
+      "networking-layer"
+    ]
+  },
+  {
+    "key": "e0029",
+    "text": "RDMA",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      185.5394757548347,
+      118.94912995972116,
+      17.9574740666867,
+      6.739321223471052
+    ],
+    "components": [
+      "networking-layer"
+    ]
+  },
+  {
+    "key": "e0030",
+    "text": "RPC & Networking",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      9.28257535211742,
+      111.33727190288117,
+      53.79690312618459,
+      6.739321223471052
+    ],
+    "components": [
+      "networking-layer"
+    ]
+  },
+  {
+    "key": "e0032",
+    "text": "CN Instance",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      77.27533144690096,
+      79.36754611524155,
+      33.507000046394296,
+      6.739321223471052
+    ],
+    "components": [
+      "orchestration-layer"
+    ]
+  },
+  {
+    "key": "e0034",
+    "text": "HN Instance",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      116.85689670778811,
+      79.36754611524155,
+      33.506988431649006,
+      6.739321223471052
+    ],
+    "components": [
+      "orchestration-layer"
+    ]
+  },
+  {
+    "key": "e0036",
+    "text": "CPU",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      165.2396467137196,
+      79.36754611524155,
+      12.858401110762316,
+      6.739321223471052
+    ],
+    "components": [
+      "orchestration-layer"
+    ]
+  },
+  {
+    "key": "e0038",
+    "text": "GPU",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      189.4310286855325,
+      79.36754611524155,
+      13.199405386578292,
+      6.739321223471052
+    ],
+    "components": [
+      "orchestration-layer"
+    ]
+  },
+  {
+    "key": "e0040",
+    "text": "RNIC",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      212.9420978585258,
+      79.36754611524155,
+      14.886191615552889,
+      6.739321223471052
+    ],
+    "components": [
+      "orchestration-layer"
+    ]
+  },
+  {
+    "key": "e0043",
+    "text": "Resource-Aware Graph Partitioner",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      132.46592502761632,
+      9.338632253160526,
+      99.75760706730398,
+      6.739330515267284
+    ],
+    "components": [
+      "framework-layer"
+    ]
+  },
+  {
+    "key": "e0045",
+    "text": "Inter-Node Scheduling",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      83.52179750500335,
+      64.1438671687465,
+      60.58687393091623,
+      6.739321223471052
+    ],
+    "components": [
+      "orchestration-layer"
+    ]
+  },
+  {
+    "key": "e0046",
+    "text": "RTP Framework",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      13.055197936943841,
+      16.950471726408054,
+      46.473731886476344,
+      6.739330515267284
+    ],
+    "components": [
+      "framework-layer"
+    ]
+  }
+]

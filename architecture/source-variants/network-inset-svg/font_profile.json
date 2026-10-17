@@ -1,0 +1,34 @@
+{
+  "default_profile": "reference-system",
+  "print_width_pt": 468,
+  "roles": {
+    "serif": {
+      "meaning": "System components, process labels, region names and internal stages",
+      "source_aliases": ["Times New Roman", "Times", "serif"],
+      "reference_family": "Times New Roman",
+      "portable_faces": {
+        "regular": "tinos/Tinos-Regular.ttf",
+        "italic": "tinos/Tinos-Italic.ttf",
+        "bold-regular": "tinos/Tinos-Bold.ttf",
+        "bold-italic": "tinos/Tinos-BoldItalic.ttf"
+      },
+      "reference_sizes_pt": {"region_and_primary_label": 11.44, "secondary_label": 9.64, "dense_label": 9.03}
+    },
+    "mono": {
+      "meaning": "Event names, request objects, machine identifiers and compact legend labels",
+      "source_aliases": ["Consolas", "monospace"],
+      "reference_family": "Consolas",
+      "portable_faces": {
+        "regular": "inconsolata/Inconsolata-Regular.ttf",
+        "bold-regular": "inconsolata/Inconsolata-Bold.ttf"
+      },
+      "reference_sizes_pt": {"event_and_legend": 7.83}
+    }
+  },
+  "notes": [
+    "Sizes describe this reference at 468 pt width; they are not universal paper minima.",
+    "Portable mode uses Tinos and Inconsolata, includes licences and full font files, and embeds the used faces in SVG.",
+    "The original figure's embedded font subset is not a complete reusable font resource.",
+    "No system fonts are installed or copied into the portable bundle. Existing Vivid data-font policy is unchanged."
+  ]
+}

@@ -1,0 +1,553 @@
+[
+  {
+    "key": "e0003",
+    "text": "Input description",
+    "font_family": "Arial, sans-serif",
+    "font_size": 19,
+    "font_weight": "700",
+    "font_style": "normal",
+    "bounds": [
+      27.956478118896484,
+      13.859872817993164,
+      154.08706665039062,
+      22.000160217285156
+    ],
+    "components": []
+  },
+  {
+    "key": "e0004",
+    "text": "Outputs",
+    "font_family": "Arial, sans-serif",
+    "font_size": 19,
+    "font_weight": "700",
+    "font_style": "normal",
+    "bounds": [
+      962.5880737304688,
+      13.859872817993164,
+      72.82396697998047,
+      22.000160217285156
+    ],
+    "components": []
+  },
+  {
+    "key": "e0006",
+    "text": "Native model",
+    "font_family": "Arial, sans-serif",
+    "font_size": 19,
+    "font_weight": "700",
+    "font_style": "normal",
+    "bounds": [
+      44.87457275390625,
+      52.85987091064453,
+      118.25086212158203,
+      22.000160217285156
+    ],
+    "components": [
+      "input-0"
+    ]
+  },
+  {
+    "key": "e0009",
+    "text": "Framework",
+    "font_family": "Arial, sans-serif",
+    "font_size": 18,
+    "font_weight": "400",
+    "font_style": "normal",
+    "bounds": [
+      47,
+      97.91988372802734,
+      90.89140319824219,
+      19.80014419555664
+    ],
+    "components": [
+      "input-0",
+      "input-object-0"
+    ]
+  },
+  {
+    "key": "e0011",
+    "text": "Model graph",
+    "font_family": "Arial, sans-serif",
+    "font_size": 18,
+    "font_weight": "400",
+    "font_style": "normal",
+    "bounds": [
+      47,
+      126.91988372802734,
+      100.04916381835938,
+      19.80014419555664
+    ],
+    "components": [
+      "input-0",
+      "input-object-0"
+    ]
+  },
+  {
+    "key": "e0013",
+    "text": "Parameters",
+    "font_family": "Arial, sans-serif",
+    "font_size": 18,
+    "font_weight": "400",
+    "font_style": "normal",
+    "bounds": [
+      47,
+      155.91989135742188,
+      93.01942443847656,
+      19.80014419555664
+    ],
+    "components": [
+      "input-0",
+      "input-object-0"
+    ]
+  },
+  {
+    "key": "e0015",
+    "text": "System config",
+    "font_family": "Arial, sans-serif",
+    "font_size": 19,
+    "font_weight": "700",
+    "font_style": "normal",
+    "bounds": [
+      39.07374954223633,
+      209.85987854003906,
+      129.85250854492188,
+      22.000160217285156
+    ],
+    "components": [
+      "input-1"
+    ]
+  },
+  {
+    "key": "e0018",
+    "text": "Devices",
+    "font_family": "Arial, sans-serif",
+    "font_size": 18,
+    "font_weight": "400",
+    "font_style": "normal",
+    "bounds": [
+      47,
+      254.91990661621094,
+      64.0067138671875,
+      19.80014419555664
+    ],
+    "components": [
+      "input-1",
+      "input-object-1"
+    ]
+  },
+  {
+    "key": "e0020",
+    "text": "Interconnect",
+    "font_family": "Arial, sans-serif",
+    "font_size": 18,
+    "font_weight": "400",
+    "font_style": "normal",
+    "bounds": [
+      47,
+      283.9198913574219,
+      99.540283203125,
+      19.80014419555664
+    ],
+    "components": [
+      "input-1",
+      "input-object-1"
+    ]
+  },
+  {
+    "key": "e0022",
+    "text": "Parallelism",
+    "font_family": "Arial, sans-serif",
+    "font_size": 18,
+    "font_weight": "400",
+    "font_style": "normal",
+    "bounds": [
+      47,
+      312.919921875,
+      88.01782989501953,
+      19.80014419555664
+    ],
+    "components": [
+      "input-1",
+      "input-object-1"
+    ]
+  },
+  {
+    "key": "e0026",
+    "text": "Model config",
+    "font_family": "Arial, sans-serif",
+    "font_size": 18,
+    "font_weight": "700",
+    "font_style": "normal",
+    "bounds": [
+      276.009765625,
+      48.6198844909668,
+      110.98049926757812,
+      19.80014419555664
+    ],
+    "components": [
+      "platform",
+      "module-0"
+    ]
+  },
+  {
+    "key": "e0027",
+    "text": "Graph transformation",
+    "font_family": "Arial, sans-serif",
+    "font_size": 18,
+    "font_weight": "700",
+    "font_style": "normal",
+    "bounds": [
+      239.0048065185547,
+      80.61988067626953,
+      184.9904022216797,
+      19.80014419555664
+    ],
+    "components": [
+      "platform",
+      "module-0"
+    ]
+  },
+  {
+    "key": "e0040",
+    "text": "Graph execution",
+    "font_family": "Arial, sans-serif",
+    "font_size": 18,
+    "font_weight": "700",
+    "font_style": "normal",
+    "bounds": [
+      260.4979248046875,
+      200.61988830566406,
+      142.00791931152344,
+      19.80014419555664
+    ],
+    "components": [
+      "platform",
+      "module-0"
+    ]
+  },
+  {
+    "key": "e0049",
+    "text": "Graph frontend",
+    "font_family": "Arial, sans-serif",
+    "font_size": 18,
+    "font_weight": "700",
+    "font_style": "normal",
+    "bounds": [
+      266.0151672363281,
+      339.619873046875,
+      130.97125244140625,
+      19.80014419555664
+    ],
+    "components": [
+      "platform",
+      "module-0"
+    ]
+  },
+  {
+    "key": "e0052",
+    "text": "Op. simulator",
+    "font_family": "Arial, sans-serif",
+    "font_size": 18,
+    "font_weight": "700",
+    "font_style": "normal",
+    "bounds": [
+      488.5003662109375,
+      48.6198844909668,
+      116.687255859375,
+      19.80014419555664
+    ],
+    "components": [
+      "platform",
+      "module-1"
+    ]
+  },
+  {
+    "key": "e0054",
+    "text": "Profiling",
+    "font_family": "Arial, sans-serif",
+    "font_size": 18,
+    "font_weight": "400",
+    "font_style": "normal",
+    "bounds": [
+      486.98968505859375,
+      102.11988830566406,
+      65.02078247070312,
+      19.80014419555664
+    ],
+    "components": [
+      "platform",
+      "module-1",
+      "engine-0"
+    ]
+  },
+  {
+    "key": "e0057",
+    "text": "Prediction",
+    "font_family": "Arial, sans-serif",
+    "font_size": 18,
+    "font_weight": "400",
+    "font_style": "normal",
+    "bounds": [
+      479.4872741699219,
+      161.11988830566406,
+      80.02558135986328,
+      19.80014419555664
+    ],
+    "components": [
+      "platform",
+      "module-1",
+      "engine-1"
+    ]
+  },
+  {
+    "key": "e0060",
+    "text": "Analysis",
+    "font_family": "Arial, sans-serif",
+    "font_size": 18,
+    "font_weight": "400",
+    "font_style": "normal",
+    "bounds": [
+      484.8927917480469,
+      220.11988830566406,
+      68.11455535888672,
+      19.80014419555664
+    ],
+    "components": [
+      "platform",
+      "module-1",
+      "engine-2"
+    ]
+  },
+  {
+    "key": "e0063",
+    "text": "Fused engine",
+    "font_family": "Arial, sans-serif",
+    "font_size": 18,
+    "font_weight": "400",
+    "font_style": "normal",
+    "bounds": [
+      606.6198883056641,
+      116.9636459350586,
+      19.80014419555664,
+      109.07266998291016
+    ],
+    "components": [
+      "platform",
+      "module-1"
+    ]
+  },
+  {
+    "key": "e0065",
+    "text": "Op overlap",
+    "font_family": "Arial, sans-serif",
+    "font_size": 18,
+    "font_weight": "400",
+    "font_style": "normal",
+    "bounds": [
+      502.4825134277344,
+      288.119873046875,
+      88.03501892089844,
+      19.80014419555664
+    ],
+    "components": [
+      "platform",
+      "module-1",
+      "postprocess"
+    ]
+  },
+  {
+    "key": "e0066",
+    "text": "Engine backend",
+    "font_family": "Arial, sans-serif",
+    "font_size": 18,
+    "font_weight": "700",
+    "font_style": "normal",
+    "bounds": [
+      477.49169921875,
+      339.619873046875,
+      138.01663208007812,
+      19.80014419555664
+    ],
+    "components": [
+      "platform",
+      "module-1"
+    ]
+  },
+  {
+    "key": "e0069",
+    "text": "Design parameters",
+    "font_family": "Arial, sans-serif",
+    "font_size": 18,
+    "font_weight": "700",
+    "font_style": "normal",
+    "bounds": [
+      680.4775390625,
+      48.6198844909668,
+      162.04493713378906,
+      19.80014419555664
+    ],
+    "components": [
+      "platform",
+      "module-2"
+    ]
+  },
+  {
+    "key": "e0086",
+    "text": "Rule-based\n          pruning",
+    "font_family": "Arial, sans-serif",
+    "font_size": 18,
+    "font_weight": "400",
+    "font_style": "normal",
+    "bounds": [
+      712.9793701171875,
+      265.9998779296875,
+      97.04132080078125,
+      41.0401611328125
+    ],
+    "components": [
+      "platform",
+      "module-2",
+      "search-rule"
+    ]
+  },
+  {
+    "key": "e0087",
+    "text": "Design explorer",
+    "font_family": "Arial, sans-serif",
+    "font_size": 18,
+    "font_weight": "700",
+    "font_style": "normal",
+    "bounds": [
+      693.4885864257812,
+      339.619873046875,
+      136.71319580078125,
+      19.80014419555664
+    ],
+    "components": [
+      "platform",
+      "module-2"
+    ]
+  },
+  {
+    "key": "e0088",
+    "text": "Simulation platform",
+    "font_family": "Arial, sans-serif",
+    "font_size": 20,
+    "font_weight": "700",
+    "font_style": "normal",
+    "bounds": [
+      456.1126403808594,
+      378.1998596191406,
+      187.77481079101562,
+      22.000160217285156
+    ],
+    "components": [
+      "platform"
+    ]
+  },
+  {
+    "key": "e0090",
+    "text": "Summary",
+    "font_family": "Arial, sans-serif",
+    "font_size": 18,
+    "font_weight": "700",
+    "font_style": "normal",
+    "bounds": [
+      955.9817504882812,
+      50.6198844909668,
+      82.03653717041016,
+      19.800148010253906
+    ],
+    "components": [
+      "output-0"
+    ]
+  },
+  {
+    "key": "e0093",
+    "text": "Latency",
+    "font_family": "Arial, sans-serif",
+    "font_size": 18,
+    "font_weight": "400",
+    "font_style": "normal",
+    "bounds": [
+      941.0000610351562,
+      79.85321807861328,
+      63.93232727050781,
+      19.80014419555664
+    ],
+    "components": [
+      "output-0",
+      "output-object-0"
+    ]
+  },
+  {
+    "key": "e0095",
+    "text": "Memory",
+    "font_family": "Arial, sans-serif",
+    "font_size": 18,
+    "font_weight": "400",
+    "font_style": "normal",
+    "bounds": [
+      941.0000610351562,
+      100.1865463256836,
+      65.89191436767578,
+      19.80014419555664
+    ],
+    "components": [
+      "output-0",
+      "output-object-0"
+    ]
+  },
+  {
+    "key": "e0097",
+    "text": "Power",
+    "font_family": "Arial, sans-serif",
+    "font_size": 18,
+    "font_weight": "400",
+    "font_style": "normal",
+    "bounds": [
+      941.0000610351562,
+      120.51988983154297,
+      51.616722106933594,
+      19.80014419555664
+    ],
+    "components": [
+      "output-0",
+      "output-object-0"
+    ]
+  },
+  {
+    "key": "e0100",
+    "text": "Timeline traces",
+    "font_family": "Arial, sans-serif",
+    "font_size": 18,
+    "font_weight": "700",
+    "font_style": "normal",
+    "bounds": [
+      931.6441040039062,
+      162.619873046875,
+      130.71188354492188,
+      19.80014419555664
+    ],
+    "components": [
+      "output-1"
+    ]
+  },
+  {
+    "key": "e0113",
+    "text": "Design options",
+    "font_family": "Arial, sans-serif",
+    "font_size": 18,
+    "font_weight": "700",
+    "font_style": "normal",
+    "bounds": [
+      932.0136108398438,
+      274.619873046875,
+      129.9728240966797,
+      19.80014419555664
+    ],
+    "components": [
+      "output-2"
+    ]
+  }
+]

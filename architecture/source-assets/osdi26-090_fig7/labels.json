@@ -1,0 +1,474 @@
+[
+  {
+    "key": "e0046",
+    "text": "HPT Update",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      8.29829607065767,
+      55.10118911494554,
+      29.45296465998217,
+      6.153114566316617
+    ],
+    "components": [
+      "partition"
+    ]
+  },
+  {
+    "key": "e0047",
+    "text": "Operations",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      9.886633142828941,
+      61.622367551295596,
+      26.288699399015968,
+      6.153114566316617
+    ],
+    "components": [
+      "partition"
+    ]
+  },
+  {
+    "key": "e0076",
+    "text": "...",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      64.25571080949156,
+      22.46650481181404,
+      3.839987493276567,
+      5.168616001576083
+    ],
+    "components": [
+      "partition"
+    ]
+  },
+  {
+    "key": "e0105",
+    "text": "...",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      64.25571080949156,
+      37.81044030146858,
+      3.839987493276567,
+      5.168616001576083
+    ],
+    "components": [
+      "partition"
+    ]
+  },
+  {
+    "key": "e0106",
+    "text": "...",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      64.25571080949156,
+      53.154375791123115,
+      3.839987493276567,
+      5.168616001576083
+    ],
+    "components": [
+      "partition"
+    ]
+  },
+  {
+    "key": "e0107",
+    "text": "...",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      64.25571080949156,
+      68.49831128077766,
+      3.839987493276567,
+      5.168616001576083
+    ],
+    "components": [
+      "partition"
+    ]
+  },
+  {
+    "key": "e0108",
+    "text": "operation's HVA",
+    "font_family": "VividSource-Tinos-Italic",
+    "bounds": [
+      45.54929570667446,
+      79.1304123017835,
+      35.67062297959636,
+      5.906991388443203
+    ],
+    "components": [
+      "partition"
+    ]
+  },
+  {
+    "key": "e0109",
+    "text": "within the same pmd",
+    "font_family": "VividSource-Tinos-Italic",
+    "bounds": [
+      41.14990170300007,
+      85.65158488488667,
+      44.573926563156405,
+      5.906991388443203
+    ],
+    "components": [
+      "partition"
+    ]
+  },
+  {
+    "key": "e0126",
+    "text": "HPT Update w/o Lock Contention",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      107.24270507972686,
+      85.02185746652502,
+      84.73832129904982,
+      6.1531087130697415
+    ],
+    "components": [
+      "page-hierarchy"
+    ]
+  },
+  {
+    "key": "e0139",
+    "text": "pgd",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      111.24651324655859,
+      24.000901287402932,
+      7.679951573565631,
+      5.168616001576083
+    ],
+    "components": [
+      "page-hierarchy"
+    ]
+  },
+  {
+    "key": "e0140",
+    "text": "pud",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      128.50844067241997,
+      31.672863178983327,
+      7.679974986553134,
+      5.1686130749526455
+    ],
+    "components": [
+      "page-hierarchy"
+    ]
+  },
+  {
+    "key": "e0141",
+    "text": "pmd",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      147.05302520561963,
+      16.32893061595223,
+      8.955046285940625,
+      5.168616001576076
+    ],
+    "components": [
+      "page-hierarchy"
+    ]
+  },
+  {
+    "key": "e0166",
+    "text": "t1",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      87.91294259764253,
+      29.40010009639763,
+      4.481070210576945,
+      6.153111639693179
+    ],
+    "components": [
+      "partition"
+    ]
+  },
+  {
+    "key": "e0167",
+    "text": "t2",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      87.91294259764253,
+      44.74403265942873,
+      4.481070210576945,
+      6.15311456631661
+    ],
+    "components": [
+      "partition"
+    ]
+  },
+  {
+    "key": "e0168",
+    "text": "t3",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      87.91294259764253,
+      60.08796814908327,
+      4.481070210576945,
+      6.153114566316617
+    ],
+    "components": [
+      "partition"
+    ]
+  },
+  {
+    "key": "e0169",
+    "text": "t4",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      87.91294259764253,
+      75.43190363873781,
+      4.481070210576945,
+      6.153114566316617
+    ],
+    "components": [
+      "partition"
+    ]
+  },
+  {
+    "key": "e0175",
+    "text": "updated by t1",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      160.59284953027964,
+      25.918887370362874,
+      27.897136520958156,
+      5.168616001576083
+    ],
+    "components": [
+      "page-hierarchy"
+    ]
+  },
+  {
+    "key": "e0176",
+    "text": "updated by t2",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      164.42883340269327,
+      41.26282578664085,
+      27.8971365209581,
+      5.168616001576083
+    ],
+    "components": [
+      "page-hierarchy"
+    ]
+  },
+  {
+    "key": "e0177",
+    "text": "updated by t3",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      164.42883340269327,
+      56.60675542304851,
+      27.8971365209581,
+      5.168616001576083
+    ],
+    "components": [
+      "page-hierarchy"
+    ]
+  },
+  {
+    "key": "e0178",
+    "text": "updated by t4",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      160.59284953027964,
+      71.95069676594993,
+      28.043256975961413,
+      5.168616001576083
+    ],
+    "components": [
+      "page-hierarchy"
+    ]
+  },
+  {
+    "key": "e0192",
+    "text": "Done",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      205.4858482871204,
+      25.918887370362874,
+      11.003471975524008,
+      5.168616001576083
+    ],
+    "components": [
+      "completion"
+    ]
+  },
+  {
+    "key": "e0193",
+    "text": "User",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      82.26086011063306,
+      4.466203462397287,
+      12.064396384719657,
+      6.153113103004898
+    ],
+    "components": []
+  },
+  {
+    "key": "e0194",
+    "text": "Kernel",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      104.80925281066446,
+      4.466203462397287,
+      16.711780752020786,
+      6.153113103004898
+    ],
+    "components": []
+  },
+  {
+    "key": "e0195",
+    "text": "Lock Space Partitioning",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      19.284793630242348,
+      12.138169743912838,
+      61.17839388695937,
+      6.153114566316612
+    ],
+    "components": [
+      "partition"
+    ]
+  },
+  {
+    "key": "e0196",
+    "text": "TLB",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      229.07714910246426,
+      45.511235287158335,
+      9.851435925462283,
+      6.15311456631661
+    ],
+    "components": [
+      "completion"
+    ]
+  },
+  {
+    "key": "e0197",
+    "text": "flush",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      228.32793350238347,
+      52.03240201701463,
+      11.344411899535771,
+      6.153114566316617
+    ],
+    "components": [
+      "completion"
+    ]
+  },
+  {
+    "key": "e0198",
+    "text": "Redundancy",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      204.4609213462099,
+      9.06938264598193,
+      32.44133985233566,
+      6.153114566316617
+    ],
+    "components": [
+      "completion"
+    ]
+  },
+  {
+    "key": "e0199",
+    "text": "Refinement",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      205.9533354085833,
+      15.590558155708548,
+      29.422375591810123,
+      6.153114566316612
+    ],
+    "components": [
+      "completion"
+    ]
+  },
+  {
+    "key": "e0200",
+    "text": "Done",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      205.4858482871204,
+      41.26282578664085,
+      11.003471975524008,
+      5.168616001576083
+    ],
+    "components": [
+      "completion"
+    ]
+  },
+  {
+    "key": "e0201",
+    "text": "Done",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      205.4858482871204,
+      56.60675542304851,
+      11.003471975524008,
+      5.168616001576083
+    ],
+    "components": [
+      "completion"
+    ]
+  },
+  {
+    "key": "e0214",
+    "text": "refined TLB flush",
+    "font_family": "VividSource-Tinos-Italic",
+    "bounds": [
+      201.87762595713133,
+      79.1304123017835,
+      37.4217973798477,
+      5.906991388443203
+    ],
+    "components": [
+      "completion"
+    ]
+  },
+  {
+    "key": "e0215",
+    "text": "and EPT callback",
+    "font_family": "VividSource-Tinos-Italic",
+    "bounds": [
+      201.38614052347833,
+      85.65158488488667,
+      38.70913708468652,
+      5.906991388443203
+    ],
+    "components": [
+      "completion"
+    ]
+  },
+  {
+    "key": "e0218",
+    "text": "Done",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      205.4858482871204,
+      71.95069676594993,
+      11.003471975524008,
+      5.168616001576083
+    ],
+    "components": [
+      "completion"
+    ]
+  },
+  {
+    "key": "e0222",
+    "text": "Page Flagging",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      154.27546359039843,
+      4.466203462397287,
+      36.705664331107926,
+      6.153113103004898
+    ],
+    "components": [
+      "page-hierarchy"
+    ]
+  }
+]

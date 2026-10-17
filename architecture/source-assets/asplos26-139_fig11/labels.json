@@ -1,0 +1,960 @@
+[
+  {
+    "key": "e0004",
+    "text": "SG 0",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      26.744797229766846,
+      -119.0702133178711,
+      13.861324310302734,
+      7.7081146240234375
+    ],
+    "components": []
+  },
+  {
+    "key": "e0007",
+    "text": "SG 1",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      64.94479417800903,
+      -119.0702133178711,
+      13.861320495605469,
+      7.7081146240234375
+    ],
+    "components": []
+  },
+  {
+    "key": "e0010",
+    "text": "SG 2",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      103.14479875564575,
+      -119.0702133178711,
+      13.861328125,
+      7.7081146240234375
+    ],
+    "components": []
+  },
+  {
+    "key": "e0013",
+    "text": "SG 3",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      141.3447880744934,
+      -119.0702133178711,
+      13.861328125,
+      7.7081146240234375
+    ],
+    "components": []
+  },
+  {
+    "key": "e0016",
+    "text": "SG 0",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      26.744797229766846,
+      -99.67021179199219,
+      13.861324310302734,
+      7.7081146240234375
+    ],
+    "components": []
+  },
+  {
+    "key": "e0019",
+    "text": "SG 1",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      64.94479417800903,
+      -99.67021179199219,
+      13.861320495605469,
+      7.7081146240234375
+    ],
+    "components": []
+  },
+  {
+    "key": "e0022",
+    "text": "SG 2",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      103.14479875564575,
+      -99.67021179199219,
+      13.861328125,
+      7.7081146240234375
+    ],
+    "components": []
+  },
+  {
+    "key": "e0025",
+    "text": "SG 3",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      141.3447880744934,
+      -99.67021179199219,
+      13.861328125,
+      7.7081146240234375
+    ],
+    "components": []
+  },
+  {
+    "key": "e0028",
+    "text": "SG 4",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      179.54480028152466,
+      -119.0702133178711,
+      13.861328125,
+      7.7081146240234375
+    ],
+    "components": []
+  },
+  {
+    "key": "e0031",
+    "text": "SG 4",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      179.54480028152466,
+      -99.67021179199219,
+      13.861328125,
+      7.7081146240234375
+    ],
+    "components": []
+  },
+  {
+    "key": "e0034",
+    "text": "Data SG Pool",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      207.4487919807434,
+      -112.7662124633789,
+      38.6962890625,
+      7.708106994628906
+    ],
+    "components": []
+  },
+  {
+    "key": "e0036",
+    "text": "Decay Hotness ",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      38.99879503250122,
+      -135.46621704101562,
+      45.13090515136719,
+      7.7081146240234375
+    ],
+    "components": []
+  },
+  {
+    "key": "e0037",
+    "text": "T",
+    "font_family": "VividSource-Arimo-Italic",
+    "bounds": [
+      125.39879655838013,
+      -159.6662139892578,
+      4.972983360290527,
+      7.7081122398376465
+    ],
+    "components": []
+  },
+  {
+    "key": "e0044",
+    "text": "Index Pool",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      59.49879503250122,
+      88.33917236328125,
+      34.841041564941406,
+      8.95135498046875
+    ],
+    "components": [
+      "index-pool"
+    ]
+  },
+  {
+    "key": "e0045",
+    "text": "Index ",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      25.948797702789307,
+      17.989212036132812,
+      20.187833786010742,
+      8.951370239257812
+    ],
+    "components": [
+      "index-cache"
+    ]
+  },
+  {
+    "key": "e0046",
+    "text": "Cache",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      24.74879503250122,
+      27.58917236328125,
+      21.029563903808594,
+      8.95135498046875
+    ],
+    "components": [
+      "index-cache"
+    ]
+  },
+  {
+    "key": "e0086",
+    "text": "1",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      161.24879503250122,
+      12.839187622070312,
+      4.479563236236572,
+      8.951355934143066
+    ],
+    "components": [
+      "counter-before"
+    ]
+  },
+  {
+    "key": "e0087",
+    "text": "0",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      161.24879503250122,
+      22.439178466796875,
+      4.479563236236572,
+      8.951355934143066
+    ],
+    "components": [
+      "counter-before"
+    ]
+  },
+  {
+    "key": "e0088",
+    "text": "1",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      161.24879503250122,
+      32.0391845703125,
+      4.479563236236572,
+      8.951355934143066
+    ],
+    "components": [
+      "counter-before"
+    ]
+  },
+  {
+    "key": "e0091",
+    "text": "0",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      186.6487889289856,
+      12.839187622070312,
+      4.479563236236572,
+      8.951355934143066
+    ],
+    "components": [
+      "counter-before"
+    ]
+  },
+  {
+    "key": "e0092",
+    "text": "0",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      186.6487889289856,
+      22.439178466796875,
+      4.479563236236572,
+      8.951355934143066
+    ],
+    "components": [
+      "counter-before"
+    ]
+  },
+  {
+    "key": "e0093",
+    "text": "1",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      186.6487889289856,
+      32.0391845703125,
+      4.479563236236572,
+      8.951355934143066
+    ],
+    "components": [
+      "counter-before"
+    ]
+  },
+  {
+    "key": "e0096",
+    "text": "0",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      224.6987919807434,
+      12.839187622070312,
+      4.479563236236572,
+      8.951355934143066
+    ],
+    "components": [
+      "counter-before"
+    ]
+  },
+  {
+    "key": "e0097",
+    "text": "0",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      224.6987919807434,
+      22.439178466796875,
+      4.479563236236572,
+      8.951355934143066
+    ],
+    "components": [
+      "counter-before"
+    ]
+  },
+  {
+    "key": "e0098",
+    "text": "1",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      224.6987919807434,
+      32.0391845703125,
+      4.479563236236572,
+      8.951355934143066
+    ],
+    "components": [
+      "counter-before"
+    ]
+  },
+  {
+    "key": "e0103",
+    "text": "0",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      199.49879503250122,
+      12.839187622070312,
+      4.479563236236572,
+      8.951355934143066
+    ],
+    "components": [
+      "counter-before"
+    ]
+  },
+  {
+    "key": "e0104",
+    "text": "1",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      199.49879503250122,
+      22.439178466796875,
+      4.479563236236572,
+      8.951355934143066
+    ],
+    "components": [
+      "counter-before"
+    ]
+  },
+  {
+    "key": "e0105",
+    "text": "0",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      199.49879503250122,
+      32.0391845703125,
+      4.479563236236572,
+      8.951355934143066
+    ],
+    "components": [
+      "counter-before"
+    ]
+  },
+  {
+    "key": "e0108",
+    "text": "1",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      161.24879503250122,
+      59.889190673828125,
+      4.479563236236572,
+      8.951355934143066
+    ],
+    "components": [
+      "counter-after"
+    ]
+  },
+  {
+    "key": "e0109",
+    "text": "0",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      161.24879503250122,
+      69.48919677734375,
+      4.479563236236572,
+      8.951355934143066
+    ],
+    "components": [
+      "counter-after"
+    ]
+  },
+  {
+    "key": "e0110",
+    "text": "1",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      161.24879503250122,
+      79.08917236328125,
+      4.479563236236572,
+      8.951355934143066
+    ],
+    "components": [
+      "counter-after"
+    ]
+  },
+  {
+    "key": "e0113",
+    "text": "1",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      174.04879808425903,
+      59.889190673828125,
+      4.479563236236572,
+      8.951355934143066
+    ],
+    "components": [
+      "counter-after"
+    ]
+  },
+  {
+    "key": "e0114",
+    "text": "1",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      174.04879808425903,
+      69.48919677734375,
+      4.479563236236572,
+      8.951355934143066
+    ],
+    "components": [
+      "counter-after"
+    ]
+  },
+  {
+    "key": "e0115",
+    "text": "0",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      174.04879808425903,
+      79.08917236328125,
+      4.479563236236572,
+      8.951355934143066
+    ],
+    "components": [
+      "counter-after"
+    ]
+  },
+  {
+    "key": "e0118",
+    "text": "0",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      186.6487889289856,
+      59.889190673828125,
+      4.479563236236572,
+      8.951355934143066
+    ],
+    "components": [
+      "counter-after"
+    ]
+  },
+  {
+    "key": "e0119",
+    "text": "0",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      186.6487889289856,
+      69.48919677734375,
+      4.479563236236572,
+      8.951355934143066
+    ],
+    "components": [
+      "counter-after"
+    ]
+  },
+  {
+    "key": "e0120",
+    "text": "0",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      186.6487889289856,
+      79.08917236328125,
+      4.479563236236572,
+      8.951355934143066
+    ],
+    "components": [
+      "counter-after"
+    ]
+  },
+  {
+    "key": "e0123",
+    "text": "1",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      212.0988163948059,
+      59.889190673828125,
+      4.479563236236572,
+      8.951355934143066
+    ],
+    "components": [
+      "counter-after"
+    ]
+  },
+  {
+    "key": "e0124",
+    "text": "0",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      212.0988163948059,
+      69.48919677734375,
+      4.479563236236572,
+      8.951355934143066
+    ],
+    "components": [
+      "counter-after"
+    ]
+  },
+  {
+    "key": "e0125",
+    "text": "1",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      212.0988163948059,
+      79.08917236328125,
+      4.479563236236572,
+      8.951355934143066
+    ],
+    "components": [
+      "counter-after"
+    ]
+  },
+  {
+    "key": "e0128",
+    "text": "0",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      224.6987919807434,
+      59.889190673828125,
+      4.479563236236572,
+      8.951355934143066
+    ],
+    "components": [
+      "counter-after"
+    ]
+  },
+  {
+    "key": "e0129",
+    "text": "0",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      224.6987919807434,
+      69.48919677734375,
+      4.479563236236572,
+      8.951355934143066
+    ],
+    "components": [
+      "counter-after"
+    ]
+  },
+  {
+    "key": "e0130",
+    "text": "0",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      224.6987919807434,
+      79.08917236328125,
+      4.479563236236572,
+      8.951355934143066
+    ],
+    "components": [
+      "counter-after"
+    ]
+  },
+  {
+    "key": "e0133",
+    "text": "0",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      199.49879503250122,
+      59.889190673828125,
+      4.479563236236572,
+      8.951355934143066
+    ],
+    "components": [
+      "counter-after"
+    ]
+  },
+  {
+    "key": "e0134",
+    "text": "0",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      199.49879503250122,
+      69.48919677734375,
+      4.479563236236572,
+      8.951355934143066
+    ],
+    "components": [
+      "counter-after"
+    ]
+  },
+  {
+    "key": "e0135",
+    "text": "0",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      199.49879503250122,
+      79.08917236328125,
+      4.479563236236572,
+      8.951355934143066
+    ],
+    "components": [
+      "counter-after"
+    ]
+  },
+  {
+    "key": "e0136",
+    "text": "Retain ",
+    "font_family": "VividSource-Arimo-Italic",
+    "bounds": [
+      125.59879350662231,
+      14.58917236328125,
+      21.23784637451172,
+      8.95135498046875
+    ],
+    "components": []
+  },
+  {
+    "key": "e0137",
+    "text": "Hotness",
+    "font_family": "VividSource-Arimo-Italic",
+    "bounds": [
+      122.89880418777466,
+      24.189208984375,
+      25.57501220703125,
+      8.95135498046875
+    ],
+    "components": []
+  },
+  {
+    "key": "e0141",
+    "text": "Cooling Down!",
+    "font_family": "VividSource-Arimo-Italic",
+    "bounds": [
+      136.74879503250122,
+      45.489227294921875,
+      43.687835693359375,
+      8.95135498046875
+    ],
+    "components": []
+  },
+  {
+    "key": "e0142",
+    "text": "Index Group 1",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      87.74879503250122,
+      70.48919677734375,
+      48.279571533203125,
+      8.95135498046875
+    ],
+    "components": [
+      "index-pool"
+    ]
+  },
+  {
+    "key": "e0143",
+    "text": "Index Group 0",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      14.848796367645264,
+      70.48919677734375,
+      48.27957534790039,
+      8.95135498046875
+    ],
+    "components": [
+      "index-pool"
+    ]
+  },
+  {
+    "key": "e0144",
+    "text": "PBFG",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      92.11298418045044,
+      17.3121337890625,
+      8.95135498046875,
+      18.61285400390625
+    ],
+    "components": [
+      "index-cache"
+    ]
+  },
+  {
+    "key": "e0145",
+    "text": "(a) Decay a SG Hot",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      75.34880113601685,
+      197.58917236328125,
+      63.08781433105469,
+      8.95135498046875
+    ],
+    "components": []
+  },
+  {
+    "key": "e0146",
+    "text": "ness ",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      138.84880113601685,
+      197.58917236328125,
+      16.287857055664062,
+      8.95135498046875
+    ],
+    "components": []
+  },
+  {
+    "key": "e0147",
+    "text": "An SG’s Access ",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      158.75013780593872,
+      91.03921508789062,
+      53.03651428222656,
+      8.95135498046875
+    ],
+    "components": [
+      "counter-after"
+    ]
+  },
+  {
+    "key": "e0148",
+    "text": "Counters",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      211.74879503250122,
+      91.03921508789062,
+      31.724990844726562,
+      8.95135498046875
+    ],
+    "components": [
+      "counter-after"
+    ]
+  },
+  {
+    "key": "e0164",
+    "text": "1",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      212.0988163948059,
+      12.839187622070312,
+      4.479563236236572,
+      8.951355934143066
+    ],
+    "components": [
+      "counter-before"
+    ]
+  },
+  {
+    "key": "e0165",
+    "text": "0",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      212.0988163948059,
+      22.439178466796875,
+      4.479563236236572,
+      8.951355934143066
+    ],
+    "components": [
+      "counter-before"
+    ]
+  },
+  {
+    "key": "e0166",
+    "text": "1",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      212.0988163948059,
+      32.0391845703125,
+      4.479563236236572,
+      8.951355934143066
+    ],
+    "components": [
+      "counter-before"
+    ]
+  },
+  {
+    "key": "e0169",
+    "text": "1",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      174.04879808425903,
+      12.839187622070312,
+      4.479563236236572,
+      8.951355934143066
+    ],
+    "components": [
+      "counter-before"
+    ]
+  },
+  {
+    "key": "e0170",
+    "text": "1",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      174.04879808425903,
+      22.439178466796875,
+      4.479563236236572,
+      8.951355934143066
+    ],
+    "components": [
+      "counter-before"
+    ]
+  },
+  {
+    "key": "e0171",
+    "text": "0",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      174.04879808425903,
+      32.0391845703125,
+      4.479563236236572,
+      8.951355934143066
+    ],
+    "components": [
+      "counter-before"
+    ]
+  },
+  {
+    "key": "e0174",
+    "text": "0",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      237.49881029129028,
+      12.839187622070312,
+      4.479563236236572,
+      8.951355934143066
+    ],
+    "components": [
+      "counter-before"
+    ]
+  },
+  {
+    "key": "e0175",
+    "text": "1",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      237.49881029129028,
+      22.439178466796875,
+      4.479563236236572,
+      8.951355934143066
+    ],
+    "components": [
+      "counter-before"
+    ]
+  },
+  {
+    "key": "e0176",
+    "text": "1",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      237.49881029129028,
+      32.0391845703125,
+      4.479563236236572,
+      8.951355934143066
+    ],
+    "components": [
+      "counter-before"
+    ]
+  },
+  {
+    "key": "e0179",
+    "text": "0",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      237.49881029129028,
+      59.939208984375,
+      4.479563236236572,
+      8.951355934143066
+    ],
+    "components": [
+      "counter-after"
+    ]
+  },
+  {
+    "key": "e0180",
+    "text": "0",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      237.49881029129028,
+      69.5391845703125,
+      4.479563236236572,
+      8.951355934143066
+    ],
+    "components": [
+      "counter-after"
+    ]
+  },
+  {
+    "key": "e0181",
+    "text": "0",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      237.49881029129028,
+      79.13922119140625,
+      4.479563236236572,
+      8.951355934143066
+    ],
+    "components": [
+      "counter-after"
+    ]
+  },
+  {
+    "key": "e0187",
+    "text": "0",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      57.198795795440674,
+      21.2891845703125,
+      4.479563236236572,
+      8.951355934143066
+    ],
+    "components": [
+      "index-cache"
+    ]
+  },
+  {
+    "key": "e0188",
+    "text": "1",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      69.89879655838013,
+      21.089202880859375,
+      4.479563236236572,
+      8.951355934143066
+    ],
+    "components": [
+      "index-cache"
+    ]
+  },
+  {
+    "key": "e0189",
+    "text": "4",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      82.04879808425903,
+      21.089202880859375,
+      4.479563236236572,
+      8.951355934143066
+    ],
+    "components": [
+      "index-cache"
+    ]
+  }
+]

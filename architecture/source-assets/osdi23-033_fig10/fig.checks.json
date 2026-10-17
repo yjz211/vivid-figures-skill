@@ -1,0 +1,86 @@
+{
+  "svg": "C:\\Users\\hhhh\\Desktop\\MCM-ICM-AI-Lab\\workstreams\\architecture-native-guides\\package\\architecture\\source-assets\\osdi23-033_fig10\\fig.svg",
+  "print_size_pt": [
+    468.0,
+    218.75317277402078
+  ],
+  "text_count": 14,
+  "parts": 0,
+  "errors": [
+    {
+      "type": "text-overlap",
+      "texts": [
+        "HyraxInventory",
+        "(3)(5)(6)"
+      ],
+      "overlap": [
+        35.3,
+        17.2
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "Diagnostics",
+        "(1)(2)"
+      ],
+      "overlap": [
+        25.0,
+        8.1
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "HyraxPolicy",
+        "(3)(5)(6)"
+      ],
+      "overlap": [
+        4.7,
+        17.2
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "(1)(2)",
+        "(3)(5)(6)"
+      ],
+      "overlap": [
+        57.5,
+        5.1
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "(4)",
+        "(3)(5)(6)"
+      ],
+      "overlap": [
+        10.4,
+        8.1
+      ]
+    }
+  ],
+  "warnings": [],
+  "pdf": {
+    "page_count": 1,
+    "fonts": [
+      {
+        "name": "AAAAAA+Arimo",
+        "type": "Type0"
+      },
+      {
+        "name": "BAAAAA+Arimo-Bold",
+        "type": "Type0"
+      },
+      {
+        "name": "CAAAAA+Arimo-Italic",
+        "type": "Type0"
+      }
+    ],
+    "images": 0
+  },
+  "scope": "Measured text bounds, intersections, print font size, and PDF structure. Connections and visual fidelity require actual image inspection."
+}

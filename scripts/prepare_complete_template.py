@@ -5,19 +5,16 @@ import json
 import sys
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT/'original/resources/assets/shared-scripts'))
-from template_sources import digest, materialize
+from template_sources import COMPLETE_TEMPLATES, complete_source, materialize, workspace_for
 
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--id', required=True, choices=['template.sem_violin_pearson', 'template.shap_dependence', 'template.shap_contribution'])
+    parser.add_argument('--id', required=True, choices=list(COMPLETE_TEMPLATES))
     parser.add_argument('--script', required=True, type=Path)
     parser.add_argument('--workspace', type=Path)
     args = parser.parse_args()
-    relative = ('templates/sem-violin-pearson/plot_sem_violin_pearson.py' if args.id == 'template.sem_violin_pearson'
-                else 'templates/shap-composites/plot_shap_composites.py')
-    code = (ROOT/relative).read_text(encoding='utf-8')
-    source = dict(id=args.id, variant=args.id.split('.')[-1], file=relative, codeSha256=digest(code))
+    code, source = complete_source(args.id, workspace_for(args.script, args.workspace))
     print(json.dumps(materialize(args.script, code, source, args.workspace), ensure_ascii=False))
 
 

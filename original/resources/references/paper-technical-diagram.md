@@ -4,6 +4,8 @@ Generate deterministic technical, engineering, physical, geometric, architecture
 
 This is a **lightweight sub-step** split from paper-figure. It ONLY handles non-data diagrams (DrawIO + TikZ). Data figures (matplotlib/seaborn) were already generated in the previous paper-figure step.
 
+Execute only the DRAWIO/TIKZ entries selected in the current figure plan or explicitly requested by the user. SVG architecture assets use the separate architecture workflow; an ARCHITECTURE, HTML or MERMAID roadmap already satisfies the planned roadmap role. Do not add another Draw.io roadmap, change its renderer, or infer extra figures from a document filename. If this route has no requested entries, skip it.
+
 ## ⚡ 快速模式检测（开头先跑）
 
 ```bash
@@ -146,9 +148,9 @@ if [ -f LITERATURE_REVIEW.md ] && [ -z "$PLAN_DOC" ]; then
     exit 0
 fi
 
-# 如果没有任何规划文档，退化为"画 1 张 fig_roadmap 兜底"
+# 没有规划文档时只处理用户明确请求的图，不自行增加兜底路线图。
 if [ -z "$PLAN_DOC" ]; then
-    echo "⚠ 无规划文档，将只生成 fig_roadmap.png 兜底"
+    echo "无规划文档：按用户明确请求确定本步骤图件；无请求则跳过。"
     PLAN_DOC=""
 fi
 
@@ -171,7 +173,7 @@ echo "DrawIO language: $DRAWIO_LANG"
 - **数模竞赛 / 科研流程**（有 PROBLEM_ANALYSIS.md）：**严格按 DrawIO 清单生成，一张不多一张不少**。
   ⛔ **清单里没有 `fig_flow_q1/q2/…` 就一张都不要画，也不要"补齐每个问题"**——子问题流程图默认关闭
   （用户可在前端开启，开启时清单里自然会有），清单没列即用户不要，自作主张补齐属于违规超产。
-- **开题报告**（有 PROPOSAL.md）：**只生成 fig_roadmap**，其他 fig_flow_q1/q2 不要画
+- **开题报告**（有 PROPOSAL.md）：只生成当前计划中分配给 DRAWIO/TIKZ 的图，不根据文档类型自行补图。
 - **课程论文/报告**（有 PAPER_PLAN.md，无 PROBLEM_ANALYSIS.md）：按 PAPER_PLAN.md 中 `## 架构图（drawio）规划` 段落列出的 fig_arch/fig_er/fig_flow_* 生成
 - **论文写作**（有 PAPER_PLAN.md，无 PROBLEM_ANALYSIS.md）：按 PAPER_PLAN.md 列出的图生成
 
@@ -188,9 +190,9 @@ Total: N DrawIO + M TikZ
 
 **⛔ DrawIO 图中所有文字必须与论文语言一致。**
 
-**⛔ 数模竞赛论文必须至少生成 1 张 DrawIO 技术路线图。其他 DrawIO 图按规划清单生成。**
+**完整论文的总路线图由主计划按用途和所选格式安排；本步骤仅执行其中的 DRAWIO/TIKZ 条目，不要求总路线图必须使用 DrawIO。**
 
-**⛔ 开题报告 / 文献综述 不画 fig_flow_q1/q2 这些数模专用图。开题只画 fig_roadmap，文献综述不画。**
+**开题报告 / 文献综述也按用户需求和当前计划执行，不因套用示例文件名而添加数模专用图。**
 
 **⛔ 如果规划清单里有 N 条 DrawIO 图，本步骤结束时必须有 N 个 .drawio 文件和 N 个对应的 .pdf。缺一不可。**
 

@@ -1,0 +1,339 @@
+[
+  {
+    "key": "e0004",
+    "text": "Machine 1",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      38.431400299072266,
+      88.59247070553829,
+      23.62225522812423,
+      6.80016927561519
+    ],
+    "components": [
+      "pool-a"
+    ]
+  },
+  {
+    "key": "e0012",
+    "text": "split",
+    "font_family": "VividSource-Carlito-Italic",
+    "bounds": [
+      102.16295942579968,
+      105.43475854810089,
+      11.808704277411849,
+      8.036566155729815
+    ],
+    "components": [
+      "pool-a"
+    ]
+  },
+  {
+    "key": "e0013",
+    "text": "migrate",
+    "font_family": "VividSource-Carlito-Italic",
+    "bounds": [
+      119.95878601074219,
+      89.77530420239782,
+      21.065369003438263,
+      8.036566155729815
+    ],
+    "components": [
+      "migration"
+    ]
+  },
+  {
+    "key": "e0014",
+    "text": "CPU",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      34.29001998901367,
+      120.87210596021032,
+      11.113472717420336,
+      8.036566155729815
+    ],
+    "components": [
+      "pool-a"
+    ]
+  },
+  {
+    "key": "e0015",
+    "text": "RAM",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      32.4433708190918,
+      130.64536035474157,
+      12.955222976082723,
+      8.036566155729815
+    ],
+    "components": []
+  },
+  {
+    "key": "e0023",
+    "text": "!",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      110.98818969726562,
+      121.64951074536657,
+      2.114161895221116,
+      8.03655682978183
+    ],
+    "components": [
+      "pool-a"
+    ]
+  },
+  {
+    "key": "e0024",
+    "text": "CPU",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      149.7305908203125,
+      119.98361719067901,
+      11.113472717420336,
+      8.036566155729815
+    ],
+    "components": [
+      "pool-b"
+    ]
+  },
+  {
+    "key": "e0025",
+    "text": "RAM",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      147.85935974121094,
+      129.75690210278844,
+      12.955222976082723,
+      8.036566155729815
+    ],
+    "components": [
+      "pool-b"
+    ]
+  },
+  {
+    "key": "e0053",
+    "text": "Machine 2",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      153.27151489257812,
+      88.14822632077266,
+      23.62225522812423,
+      6.80016927561519
+    ],
+    "components": [
+      "pool-b",
+      "migration"
+    ]
+  },
+  {
+    "key": "e0058",
+    "text": "merge",
+    "font_family": "VividSource-Carlito-Italic",
+    "bounds": [
+      164.4519195556641,
+      105.54581201489776,
+      17.178269230746537,
+      8.036566155729815
+    ],
+    "components": [
+      "pool-b"
+    ]
+  },
+  {
+    "key": "e0071",
+    "text": "new ",
+    "font_family": "VividSource-Carlito-Italic",
+    "bounds": [
+      117.61894226074219,
+      73.11630762036657,
+      12.749020752117985,
+      8.036566155729815
+    ],
+    "components": [
+      "migration"
+    ]
+  },
+  {
+    "key": "e0072",
+    "text": "proclets",
+    "font_family": "VividSource-Carlito-Italic",
+    "bounds": [
+      130.42373657226562,
+      73.11630762036657,
+      21.474624808363387,
+      8.036566155729815
+    ],
+    "components": [
+      "migration"
+    ]
+  },
+  {
+    "key": "e0073",
+    "text": "memory ",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      39.79063796997072,
+      58.67850244458526,
+      24.195233690711575,
+      8.036566155729815
+    ],
+    "components": [
+      "resource-legend"
+    ]
+  },
+  {
+    "key": "e0074",
+    "text": "proclet",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      64.0376663208008,
+      58.67850244458526,
+      18.964353074054543,
+      8.036566155729815
+    ],
+    "components": [
+      "resource-legend"
+    ]
+  },
+  {
+    "key": "e0077",
+    "text": "compute ",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      116.30455017089844,
+      58.67850244458526,
+      25.459190164344818,
+      8.036566155729815
+    ],
+    "components": [
+      "resource-legend"
+    ]
+  },
+  {
+    "key": "e0078",
+    "text": "proclet",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      141.81845092773438,
+      58.67850244458526,
+      18.964353074054543,
+      8.036566155729815
+    ],
+    "components": [
+      "resource-legend"
+    ]
+  },
+  {
+    "key": "e0081",
+    "text": "hybrid ",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      195.8767700195313,
+      58.67850244458526,
+      18.654823503532043,
+      8.036566155729815
+    ],
+    "components": [
+      "resource-legend"
+    ]
+  },
+  {
+    "key": "e0082",
+    "text": "proclet",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      214.58131408691412,
+      58.67850244458526,
+      18.964353074054543,
+      8.036566155729815
+    ],
+    "components": [
+      "resource-legend"
+    ]
+  },
+  {
+    "key": "e0089",
+    "text": "!",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      235.54867553710943,
+      132.08914697583526,
+      2.114161895221116,
+      8.03655682978183
+    ],
+    "components": [
+      "pool-b"
+    ]
+  },
+  {
+    "key": "e0090",
+    "text": "placed ",
+    "font_family": "VividSource-Carlito-Italic",
+    "bounds": [
+      189.02714538574224,
+      71.24302432469995,
+      14.932920726184875,
+      6.181957270542625
+    ],
+    "components": []
+  },
+  {
+    "key": "e0091",
+    "text": "where",
+    "font_family": "VividSource-Carlito-Italic",
+    "bounds": [
+      203.95503234863284,
+      71.24302432469995,
+      13.013255110292903,
+      6.181957270542625
+    ],
+    "components": []
+  },
+  {
+    "key": "e0093",
+    "text": "CPU available",
+    "font_family": "VividSource-Carlito-Italic",
+    "bounds": [
+      189.02714538574224,
+      77.6844916098562,
+      28.88566786833053,
+      6.181957270542625
+    ],
+    "components": []
+  },
+  {
+    "key": "e0094",
+    "text": "placed ",
+    "font_family": "VividSource-Carlito-Italic",
+    "bounds": [
+      52.158134460449226,
+      71.24302432469995,
+      14.932920726184882,
+      6.181957270542625
+    ],
+    "components": []
+  },
+  {
+    "key": "e0095",
+    "text": "where",
+    "font_family": "VividSource-Carlito-Italic",
+    "bounds": [
+      67.08603668212892,
+      71.24302432469995,
+      13.013255110292903,
+      6.181957270542625
+    ],
+    "components": []
+  },
+  {
+    "key": "e0097",
+    "text": "RAM available",
+    "font_family": "VividSource-Carlito-Italic",
+    "bounds": [
+      49.6852035522461,
+      77.6844916098562,
+      30.413759563639367,
+      6.181957270542625
+    ],
+    "components": []
+  }
+]

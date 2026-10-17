@@ -1,0 +1,240 @@
+[
+  {
+    "key": "e0053",
+    "text": "FC1 Weights",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      53.80229949951172,
+      65.43923473358154,
+      15.157684326171875,
+      3.5090441703796387
+    ],
+    "components": [
+      "fc1-product"
+    ]
+  },
+  {
+    "key": "e0059",
+    "text": "Self-Attention Block",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      7.221479892730713,
+      59.91895771026611,
+      26.2500057220459,
+      4.235053062438965
+    ],
+    "components": [
+      "layer-stack"
+    ]
+  },
+  {
+    "key": "e0062",
+    "text": "FC1 Layer",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      12.991000175476074,
+      40.454158782958984,
+      14.094012260437012,
+      4.235054016113281
+    ],
+    "components": [
+      "layer-stack"
+    ]
+  },
+  {
+    "key": "e0069",
+    "text": "ReLU",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      16.158599853515625,
+      28.361957550048828,
+      7.669185638427734,
+      4.235054016113281
+    ],
+    "components": [
+      "layer-stack"
+    ]
+  },
+  {
+    "key": "e0072",
+    "text": "FC2 Layer",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      12.991000175476074,
+      16.398658752441406,
+      14.094012260437012,
+      4.235054016113281
+    ],
+    "components": [
+      "layer-stack"
+    ]
+  },
+  {
+    "key": "e0080",
+    "text": "…",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      16.00309944152832,
+      1.5538787841796875,
+      8.001226425170898,
+      11.495144844055176
+    ],
+    "components": [
+      "layer-stack"
+    ]
+  },
+  {
+    "key": "e0101",
+    "text": "×=",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      73.658203125,
+      48.558414459228516,
+      17.000640869140625,
+      8.591108322143555
+    ],
+    "components": [
+      "fc1-product"
+    ]
+  },
+  {
+    "key": "e0102",
+    "text": "ReLU",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      100.4332046508789,
+      49.25339698791504,
+      7.834190368652344,
+      4.356054306030273
+    ],
+    "components": [
+      "fc1-product"
+    ]
+  },
+  {
+    "key": "e0166",
+    "text": "FC2 Weights",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      57.90230178833008,
+      28.047466278076172,
+      15.15768051147461,
+      3.509044647216797
+    ],
+    "components": [
+      "fc2-product"
+    ]
+  },
+  {
+    "key": "e0167",
+    "text": "=",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      101.90390014648438,
+      14.147865295410156,
+      3.505263090133667,
+      8.591108322143555
+    ],
+    "components": [
+      "fc2-product"
+    ]
+  },
+  {
+    "key": "e0195",
+    "text": "×",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      84.50389862060547,
+      14.147811889648438,
+      3.505263090133667,
+      8.591108322143555
+    ],
+    "components": [
+      "fc2-product"
+    ]
+  },
+  {
+    "key": "e0197",
+    "text": "…",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      16.20509910583496,
+      45.642982482910156,
+      8.001226425170898,
+      11.495144844055176
+    ],
+    "components": [
+      "layer-stack"
+    ]
+  },
+  {
+    "key": "e0198",
+    "text": "MLP Block",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      4.286398887634277,
+      47.34636688232422,
+      14.35726261138916,
+      4.235054016113281
+    ],
+    "components": [
+      "layer-stack"
+    ]
+  },
+  {
+    "key": "e0209",
+    "text": "FC1 Input",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      76.4281005859375,
+      61.43923568725586,
+      11.5419921875,
+      3.509044647216797
+    ],
+    "components": [
+      "fc1-product"
+    ]
+  },
+  {
+    "key": "e0210",
+    "text": "FC1 Output",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      105.78669738769531,
+      66.23923540115356,
+      13.624488830566406,
+      3.5090441703796387
+    ],
+    "components": [
+      "fc1-product"
+    ]
+  },
+  {
+    "key": "e0211",
+    "text": "FC2 input",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      90.62809753417969,
+      32.43923568725586,
+      11.5419921875,
+      3.509044647216797
+    ],
+    "components": [
+      "fc2-product"
+    ]
+  },
+  {
+    "key": "e0212",
+    "text": "FC2 Output",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      105.78669738769531,
+      28.039234161376953,
+      13.624488830566406,
+      3.509044647216797
+    ],
+    "components": [
+      "fc2-product"
+    ]
+  }
+]

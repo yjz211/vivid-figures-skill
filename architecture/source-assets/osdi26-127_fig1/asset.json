@@ -1,0 +1,99 @@
+{
+  "name": "候选编码到搜索再离散化的闭环",
+  "family": "artifact-pipeline",
+  "tags": [
+    "候选层",
+    "代理表征",
+    "搜索空间",
+    "离散化"
+  ],
+  "when_to_use": "有候选编码、可微或连续搜索和离散输出的设计方法；层级对象需要转成图再映射回去的方案探索",
+  "avoid": "只做一次枚举且没有中间表示；把彩色小方块当装饰的通用项目流程",
+  "preserve": [
+    "四区折回，左侧始终表示原始层级，右侧表示图形式；中央留转换箭头而不硬塞总框。",
+    "紫色层框含多个彩色小方块，条状特征保留类别颜色，蓝色顶点框用连边组成搜索图。",
+    "主箭头描述表示法转换，图内弯边描述可选依赖；省略号表示重复层，不表示未知步骤。",
+    "紫与蓝区分两种表示，内部黄橙绿等小块对应候选类别；相同类别跨四区保持颜色一致。",
+    "阶段标题较密，应移除章节号并用短语；顶点索引与层索引要保持可追踪对应。"
+  ],
+  "adapt": "先建立候选类别图例，再让同一颜色贯穿编码、搜索和输出。 定义图顶点与原层级之间的映射，不能只凭位置相近表示对应。 没有松弛过程时改中间阶段名称，并替换相关搜索箭头文字。",
+  "visual_note": "四区折回，左侧始终表示原始层级，右侧表示图形式；中央留转换箭头而不硬塞总框。",
+  "parts": [
+    {
+      "id": "candidate-layers",
+      "name": "分层备选集合",
+      "role": "component",
+      "box": [
+        0.155,
+        0.14,
+        0.2,
+        0.4
+      ],
+      "meaning": "每个层级保留多种可选对象。",
+      "reuse": "改为新任务决策项与选项，不直接沿用网络层含义。"
+    },
+    {
+      "id": "proxy-features",
+      "name": "代理特征编码",
+      "role": "component",
+      "box": [
+        0.36,
+        0.14,
+        0.3,
+        0.4
+      ],
+      "meaning": "把候选转成可比较的条状特征。",
+      "reuse": "解释每列特征含义，颜色不能替代量纲。"
+    },
+    {
+      "id": "search-space",
+      "name": "图搜索空间",
+      "role": "component",
+      "box": [
+        0.7,
+        0.085,
+        0.24,
+        0.45
+      ],
+      "meaning": "顶点保留选项，连边定义合法组合。",
+      "reuse": "按新任务可行约束重建边。"
+    },
+    {
+      "id": "relaxed-candidate",
+      "name": "搜索后候选图",
+      "role": "component",
+      "box": [
+        0.47,
+        0.56,
+        0.19,
+        0.38
+      ],
+      "meaning": "保留较少选项的连续或中间解。",
+      "reuse": "标明是权重还是已选择对象，避免与最终离散解混淆。"
+    },
+    {
+      "id": "discrete-solution",
+      "name": "离散方案",
+      "role": "component",
+      "box": [
+        0.15,
+        0.56,
+        0.21,
+        0.38
+      ],
+      "meaning": "将图中的选择还原成原始层级。",
+      "reuse": "每层显示允许的最终选项数。"
+    }
+  ],
+  "selection_evidence": {
+    "candidate_index": 74,
+    "semantics_read": true,
+    "preview_reviewed": true,
+    "source_render_reviewed": true,
+    "render": "source-renders/74.png"
+  },
+  "implementation": "source-derived editable SVG",
+  "validation_status": "source-fidelity-checked",
+  "id": "architecture.source.osdi26-127_fig1",
+  "display_code": "VA-067"
+}

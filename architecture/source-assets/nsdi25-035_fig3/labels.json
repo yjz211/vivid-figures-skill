@@ -1,0 +1,212 @@
+[
+  {
+    "key": "e0004",
+    "text": "Applications",
+    "font_family": "VividSource-Tinos-Bold",
+    "bounds": [
+      70.59419250488281,
+      12.526245117187614,
+      43.896026611328125,
+      9.1175537109375
+    ],
+    "components": [
+      "application"
+    ]
+  },
+  {
+    "key": "e0009",
+    "text": "BeehiveProgrammingInterfaces",
+    "font_family": "VividSource-Tinos-Bold",
+    "bounds": [
+      38.21519470214844,
+      32.073242187500114,
+      114.79696655273438,
+      9.1175537109375
+    ],
+    "components": [
+      "interfaces"
+    ]
+  },
+  {
+    "key": "e0012",
+    "text": "BeehiveRuntime",
+    "font_family": "VividSource-Tinos-Bold",
+    "bounds": [
+      27.66919708251953,
+      98.90917968750011,
+      59.519554138183594,
+      9.1175537109375
+    ],
+    "components": [
+      "runtime-pair"
+    ]
+  },
+  {
+    "key": "e0013",
+    "text": "BeehiveRustCompiler",
+    "font_family": "VividSource-Tinos-Bold",
+    "bounds": [
+      55.50318908691406,
+      62.579101562500114,
+      80.550048828125,
+      9.1175537109375
+    ],
+    "components": [
+      "compiler"
+    ]
+  },
+  {
+    "key": "e0014",
+    "text": "Programdependencyanalysis",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      52.419281005859375,
+      73.39331054687511,
+      86.622802734375,
+      8.0010986328125
+    ],
+    "components": [
+      "compiler"
+    ]
+  },
+  {
+    "key": "e0015",
+    "text": "Pararoutinegeneration",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      60.855987548828125,
+      82.87066650390636,
+      66.04458618164062,
+      8.0010986328125
+    ],
+    "components": [
+      "compiler"
+    ]
+  },
+  {
+    "key": "e0016",
+    "text": "RemPtr,RemRef,DerefScope,Ownership...",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      32.41307830810547,
+      45.355895996093864,
+      130.12969970703125,
+      8.0010986328125
+    ],
+    "components": [
+      "interfaces"
+    ]
+  },
+  {
+    "key": "e0017",
+    "text": "Pararoutinescheduling",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      13.097999572753906,
+      129.96136474609386,
+      66.84439849853516,
+      8.0010986328125
+    ],
+    "components": [
+      "runtime-pair"
+    ]
+  },
+  {
+    "key": "e0018",
+    "text": "Pararoutineframemanagement",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      13.097908020019531,
+      120.38519287109386,
+      91.15850067138672,
+      8.0010986328125
+    ],
+    "components": [
+      "runtime-pair"
+    ]
+  },
+  {
+    "key": "e0019",
+    "text": "Evacuator",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      13.097923278808594,
+      138.5504150390626,
+      29.39117431640625,
+      8.0010986328125
+    ],
+    "components": [
+      "runtime-pair"
+    ]
+  },
+  {
+    "key": "e0024",
+    "text": "OS&Drivers",
+    "font_family": "VividSource-Tinos-Bold",
+    "bounds": [
+      68.29019165039062,
+      154.98321533203136,
+      47.98626708984375,
+      9.1175537109375
+    ],
+    "components": [
+      "system-base"
+    ]
+  },
+  {
+    "key": "e0025",
+    "text": "RDMAcommunicationlibs,InfiniBanddrivers....",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      24.950332641601562,
+      167.37677001953136,
+      146.7038116455078,
+      8.0010986328125
+    ],
+    "components": [
+      "system-base"
+    ]
+  },
+  {
+    "key": "e0026",
+    "text": "BeehiveRuntime",
+    "font_family": "VividSource-Tinos-Bold",
+    "bounds": [
+      128.85043334960938,
+      109.96185302734386,
+      46.239990234375,
+      6.8846435546875
+    ],
+    "components": [
+      "runtime-pair"
+    ]
+  },
+  {
+    "key": "e0027",
+    "text": "Remoteserver",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      124.39334106445312,
+      129.52410888671886,
+      53.462615966796875,
+      9.1175537109375
+    ],
+    "components": [
+      "runtime-pair"
+    ]
+  },
+  {
+    "key": "e0030",
+    "text": "Runtimebarriers",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      13.097702026367188,
+      111.10552978515636,
+      49.0087890625,
+      8.0010986328125
+    ],
+    "components": [
+      "runtime-pair"
+    ]
+  }
+]

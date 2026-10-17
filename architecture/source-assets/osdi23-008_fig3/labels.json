@@ -1,0 +1,414 @@
+[
+  {
+    "key": "e0005",
+    "text": "Cilantro Scheduler",
+    "font_family": "VividSource-Roboto-Bold",
+    "bounds": [
+      82.996603532687,
+      7.90718410725202,
+      81.5195068520006,
+      11.885199538771074
+    ],
+    "components": []
+  },
+  {
+    "key": "e0010",
+    "text": "Performance Learners",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      47.29868450477124,
+      45.06816845471251,
+      69.31517111087848,
+      7.428249945391649
+    ],
+    "components": [
+      "learning"
+    ]
+  },
+  {
+    "key": "e0013",
+    "text": "Load Forecasters",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      136.5008370492205,
+      44.88916266763993,
+      57.146546054122155,
+      7.675858230172757
+    ],
+    "components": [
+      "learning"
+    ]
+  },
+  {
+    "key": "e0016",
+    "text": "Data ",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      57.99885152714863,
+      107.7790970927263,
+      18.371257266264138,
+      8.171073397776581
+    ],
+    "components": [
+      "logger"
+    ]
+  },
+  {
+    "key": "e0017",
+    "text": "Loggers",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      51.32395934955979,
+      116.84446713626151,
+      29.612062515319614,
+      8.171075267054448
+    ],
+    "components": [
+      "logger"
+    ]
+  },
+  {
+    "key": "e0019",
+    "text": "Learning Modules",
+    "font_family": "VividSource-Roboto-Bold",
+    "bounds": [
+      156.570277139641,
+      22.59819361171108,
+      50.341182019992175,
+      7.4282494780721855
+    ],
+    "components": []
+  },
+  {
+    "key": "e0022",
+    "text": "Resource Allocator",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      119.1959019034591,
+      152.94285034958406,
+      65.75659692756288,
+      7.923466047634406
+    ],
+    "components": [
+      "allocator"
+    ]
+  },
+  {
+    "key": "e0039",
+    "text": "Res-Perf",
+    "font_family": "VividSource-Roboto-Bold",
+    "bounds": [
+      123.23113178548856,
+      80.90430616974552,
+      22.39345161536083,
+      6.6854246237288635
+    ],
+    "components": []
+  },
+  {
+    "key": "e0040",
+    "text": "Conﬁdence ",
+    "font_family": "VividSource-Roboto-Bold",
+    "bounds": [
+      120.11818176261168,
+      87.56857734415541,
+      29.76930430019,
+      6.6854246237288635
+    ],
+    "components": []
+  },
+  {
+    "key": "e0041",
+    "text": "Bounds",
+    "font_family": "VividSource-Roboto-Bold",
+    "bounds": [
+      124.87367138748719,
+      94.23284735026664,
+      18.993323031861777,
+      6.68542368908993
+    ],
+    "components": []
+  },
+  {
+    "key": "e0043",
+    "text": "Load",
+    "font_family": "VividSource-Roboto-Bold",
+    "bounds": [
+      183.70095612312468,
+      80.87248396515567,
+      12.337851716669206,
+      6.6854246237288635
+    ],
+    "components": []
+  },
+  {
+    "key": "e0044",
+    "text": "Conﬁdence ",
+    "font_family": "VividSource-Roboto-Bold",
+    "bounds": [
+      175.63058282696576,
+      87.53675513956556,
+      29.769304300190015,
+      6.6854246237288635
+    ],
+    "components": []
+  },
+  {
+    "key": "e0045",
+    "text": "Bounds",
+    "font_family": "VividSource-Roboto-Bold",
+    "bounds": [
+      180.386072685501,
+      94.20102514567678,
+      18.993321162583925,
+      6.68542368908993
+    ],
+    "components": []
+  },
+  {
+    "key": "e0047",
+    "text": "Res-Perf ",
+    "font_family": "VividSource-Roboto-Bold",
+    "bounds": [
+      42.681327819413006,
+      62.21024107575137,
+      23.538212335161454,
+      6.6854246237288635
+    ],
+    "components": [
+      "learning"
+    ]
+  },
+  {
+    "key": "e0048",
+    "text": "Data",
+    "font_family": "VividSource-Roboto-Bold",
+    "bounds": [
+      48.04531972968527,
+      68.87451225016126,
+      11.671426118016477,
+      6.6854246237288635
+    ],
+    "components": [
+      "learning"
+    ]
+  },
+  {
+    "key": "e0053",
+    "text": "Physical",
+    "font_family": "VividSource-Roboto-Bold",
+    "bounds": [
+      178.06327644280327,
+      210.94349656058748,
+      27.35638809005104,
+      8.666290901977732
+    ],
+    "components": [
+      "execution"
+    ]
+  },
+  {
+    "key": "e0054",
+    "text": "Resources",
+    "font_family": "VividSource-Roboto-Bold",
+    "bounds": [
+      171.30214886938916,
+      219.5678474097086,
+      34.12933884597214,
+      8.666290901977732
+    ],
+    "components": [
+      "execution"
+    ]
+  },
+  {
+    "key": "e0057",
+    "text": "Job 1",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      86.43884297795056,
+      213.44047759627412,
+      17.046356107725828,
+      7.428249478072189
+    ],
+    "components": [
+      "execution"
+    ]
+  },
+  {
+    "key": "e0060",
+    "text": "Job ",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      58.0888611283467,
+      240.76430302854948,
+      11.40680460073144,
+      6.190208054166646
+    ],
+    "components": [
+      "execution"
+    ]
+  },
+  {
+    "key": "e0061",
+    "text": "Server",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      54.380961084606774,
+      247.37957231039698,
+      17.350820348101017,
+      6.19020758684718
+    ],
+    "components": [
+      "execution"
+    ]
+  },
+  {
+    "key": "e0064",
+    "text": "Cilantro Client",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      69.78267465273392,
+      225.74618146650502,
+      49.14103085844498,
+      7.923466047634406
+    ],
+    "components": [
+      "execution"
+    ]
+  },
+  {
+    "key": "e0079",
+    "text": "Job ",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      92.82047810222365,
+      240.76430302854948,
+      11.406804600731448,
+      6.190208054166646
+    ],
+    "components": [
+      "execution"
+    ]
+  },
+  {
+    "key": "e0080",
+    "text": "Server",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      89.11257805848372,
+      247.37957231039698,
+      17.35082034810101,
+      6.19020758684718
+    ],
+    "components": [
+      "execution"
+    ]
+  },
+  {
+    "key": "e0088",
+    "text": "More Jobs",
+    "font_family": "VividSource-Arimo-Italic",
+    "bounds": [
+      164.8193455378423,
+      239.4569910536477,
+      25.919537749352912,
+      6.190208054166646
+    ],
+    "components": [
+      "execution"
+    ]
+  },
+  {
+    "key": "e0090",
+    "text": "Load Data",
+    "font_family": "VividSource-Roboto-Bold",
+    "bounds": [
+      119.72311099334354,
+      63.29381346344669,
+      25.29986279014679,
+      6.685424623728856
+    ],
+    "components": [
+      "learning"
+    ]
+  },
+  {
+    "key": "e0101",
+    "text": "Resource Manager (Kubernetes)",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      68.5117094262739,
+      187.53329437961875,
+      110.55860392344765,
+      7.9234669822733395
+    ],
+    "components": [
+      "manager"
+    ]
+  },
+  {
+    "key": "e0105",
+    "text": "Resource Allocations",
+    "font_family": "VividSource-Roboto-Bold",
+    "bounds": [
+      156.4499812645047,
+      172.82219631641624,
+      49.932868178453646,
+      6.190208054166646
+    ],
+    "components": []
+  },
+  {
+    "key": "e0116",
+    "text": "Perf",
+    "font_family": "VividSource-Roboto-Bold",
+    "bounds": [
+      45.859573748229955,
+      134.87215523054977,
+      11.602217039640202,
+      7.1806411932910805
+    ],
+    "components": []
+  },
+  {
+    "key": "e0117",
+    "text": "Data",
+    "font_family": "VividSource-Roboto-Bold",
+    "bounds": [
+      45.42458531153337,
+      141.92844481669508,
+      12.41624268792679,
+      7.1806411932910805
+    ],
+    "components": []
+  },
+  {
+    "key": "e0119",
+    "text": "Uncertainty-aware Policy",
+    "font_family": "VividSource-Roboto-Bold",
+    "bounds": [
+      109.89594858447015,
+      105.38328768833081,
+      85.07148622300244,
+      9.161507471539949
+    ],
+    "components": [
+      "objective-policy"
+    ]
+  },
+  {
+    "key": "e0126",
+    "text": "User-defined Objective",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      111.450989054268,
+      123.0118422843721,
+      81.77175468444693,
+      8.171073397776567
+    ],
+    "components": [
+      "objective-policy"
+    ]
+  }
+]

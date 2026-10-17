@@ -11,7 +11,10 @@ from ag_ui import core as events
 from schema import SPECS, sample, prepare, Invalid, validate_language_settings
 import library, object_editor
 from server import job_folder, FRONTEND_FILES
+from architecture_assets import architecture_file
+from architecture_editor import router as architecture_router
 from agent import store, tools, jobs, provider, runtime
+from agent import architecture as architecture_agent
 
 WEB = Path(__file__).resolve().parent.parent
 TOKEN = secrets.token_urlsafe(32)
@@ -25,6 +28,9 @@ async def lifespan(app):
 
 app = FastAPI(lifespan=lifespan, docs_url=None, redoc_url=None, openapi_url=None)
 
+app.include_router(architecture_router)
+app.include_router(architecture_agent.router)
+
 def failure(message, code=400): return JSONResponse({'error':{'message':str(message)}}, status_code=code)
 
 @app.middleware('http')
@@ -36,7 +42,7 @@ async def local_only(request, call_next):
     if request.method not in ['GET','HEAD']:
         if 'application/json' not in request.headers.get('content-type',''): return failure('请求需要 JSON。',415)
         if int(request.headers.get('content-length','0')) > 20*1024*1024: return failure('请求最大 20 MB。',413)
-        if request.url.path.startswith('/api/agent/') and request.headers.get('x-vivid-token') != TOKEN: return failure('页面已过期，请刷新后重试。',403)
+        if request.url.path.startswith(('/api/agent/','/api/architecture/')) and request.headers.get('x-vivid-token') != TOKEN: return failure('页面已过期，请刷新后重试。',403)
     response = await call_next(request)
     response.headers['X-Content-Type-Options']='nosniff'
     response.headers['Referrer-Policy']='same-origin'
@@ -97,7 +103,7 @@ def import_file(data):
     return {'table':table,'sheets':sheets,'sheet':sheet}
 
 @app.get('/api/health')
-def health():return {'app':'vivid-workbench','root':str(WEB),'version':3,'agent':True}
+def health():return {'app':'vivid-workbench','root':str(WEB),'version':3,'agent':True,'architecture_editor':True,'architecture_agent':True,'architecture_skill_sources':True}
 @app.get('/api/bootstrap')
 def bootstrap():return {'token':TOKEN,'model':provider.config(public=True)}
 @app.get('/api/templates')
@@ -130,9 +136,9 @@ def catalog():return tools.catalog()
 @app.get('/api/agent/templates/{tid}')
 def template_contract(tid:str):return tools.template_info(tid)
 @app.get('/api/agent/sessions')
-def sessions():return {'items':store.sessions()}
+def sessions(domain:str='data'):return {'items':store.sessions(domain)}
 @app.post('/api/agent/sessions')
-def new_session(data:dict):return store.create_session(data.get('name','新的绘图项目'))
+def new_session(data:dict):return store.create_session(data.get('name','新的绘图项目'),data.get('domain','data'))
 @app.get('/api/agent/sessions/{sid}')
 def session(sid:str):return store.session(sid)
 @app.post('/api/agent/sessions/{sid}/datasets')
@@ -166,7 +172,7 @@ def branch(cid:str,data:dict):
     old=store.chart(cid,data.get('revision'));p=old['project'];p['name']+=' · 副本'
     return store.create_chart(old['session'],p,'从版本 '+str(old['revision'])+' 创建分支','user',None)
 @app.post('/api/agent/sessions/{sid}/runs')
-def run_start(sid:str,data:dict):return runtime.start(sid,data['prompt'],data.get('chart_id'),data.get('selected_object'),data.get('target'),data.get('dataset_ids'))
+def run_start(sid:str,data:dict):return runtime.start(sid,data['prompt'],data.get('chart_id'),data.get('selected_object'),data.get('target'),data.get('dataset_ids'),data.get('domain','data'),data.get('architecture_id'),data.get('preferred_asset'))
 @app.get('/api/agent/runs/{rid}')
 def run_get(rid:str):return store.run(rid)
 @app.post('/api/agent/runs/{rid}/stop')
@@ -176,6 +182,7 @@ def resume(rid:str,data:dict):return runtime.resume(rid,data.get('response'))
 @app.post('/api/agent/runs/{rid}/candidate')
 def candidate(rid:str,data:dict):
     r=store.run(rid);result=r['body'].get('result',{})
+    if result.get('domain')=='architecture':return architecture_agent.keep_candidate(rid)
     if not result.get('conflict'):raise ValueError('没有待保留的候选图。')
     c=store.create_chart(r['session'],result['project'],'保留 Agent 候选图','user',result.get('job'),operation=rid+':candidate')
     return c
@@ -215,10 +222,13 @@ def test_config(data:dict):
 def static(path:str):
     path=path or 'index.html';parts=Path(path).parts
     if path in FRONTEND_FILES:path='frontend/'+path
-    if path.startswith('workspace/jobs/'):
+    if path.startswith('architecture-assets/'):
+        try:target=architecture_file(path[len('architecture-assets/'):])
+        except (FileNotFoundError, OSError, ValueError):return failure('架构资源不存在。',404)
+    elif path.startswith('workspace/jobs/'):
         chunks=path.split('/');job=chunks[2];jobs.folder(job);base=job_folder(job).resolve();target=(base/('/'.join(chunks[3:]))).resolve()
         if not target.is_relative_to(base) or target.suffix.lower() not in ['.png','.jpg','.svg','.pdf','.json','.csv','.py','.zip','.html','.js']:return failure('文件不可访问。',404)
-    elif path in ['index.html','editor.html','agent.html'] or path.startswith(('assets/','frontend/')):
+    elif path in ['index.html','architecture.html','architecture-editor.html','architecture-agent.html','editor.html','agent.html'] or path.startswith(('assets/','frontend/')):
         base=(WEB/path.split('/')[0]).resolve() if '/' in path else WEB.resolve();target=(WEB/path).resolve()
         if not target.is_relative_to(base):return failure('文件不可访问。',404)
     else:return failure('文件不可访问。',404)

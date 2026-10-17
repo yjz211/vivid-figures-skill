@@ -1,0 +1,86 @@
+{
+  "name": "递归运算中的图矩阵对应与回传",
+  "family": "artifact-pipeline",
+  "tags": [
+    "递归",
+    "矩阵",
+    "二部图",
+    "局部展开"
+  ],
+  "when_to_use": "有明确子问题调用与回传的递归编码或算法；需要解释图结构到稀疏线性运算的对应",
+  "avoid": "仅有串行处理步骤的流水线；不包含矩阵或递归关系的一般平台介绍",
+  "preserve": [
+    "下大上小的嵌套展开，不按简单上下时间轴阅读；图与矩阵紧邻以便对照。",
+    "圆节点和带权边表示图，方格矩阵表示数值关系，横向向量条表示有序输出。",
+    "实线箭头传递操作数与结果，点状引线解释下一层展开；双向提示线表示表示法对应。",
+    "浅橙矩阵与浅黄向量区分操作数类型；灰底框表示阶段范围，颜色不表示数值大小。",
+    "运算符 X 需要脚注式定义；矩阵数字必须可读，并与图边权一致。"
+  ],
+  "adapt": "先写清输入维数、矩阵形状和返回维数，再调整图中的块大小。 没有具体数值证据时将矩阵改成符号示例，不能保留无关边权。 保留一层详细展开和一层缩略递归，深层用带说明的省略符号。",
+  "visual_note": "下大上小的嵌套展开，不按简单上下时间轴阅读；图与矩阵紧邻以便对照。",
+  "parts": [
+    {
+      "id": "bipartite-map",
+      "name": "二部关系图",
+      "role": "component",
+      "box": [
+        0.03,
+        0.045,
+        0.28,
+        0.41
+      ],
+      "meaning": "两类对象的稀疏带权联系。",
+      "reuse": "改节点与边时同步改矩阵非零项。"
+    },
+    {
+      "id": "recursive-stage",
+      "name": "递归层展开",
+      "role": "component",
+      "box": [
+        0.32,
+        0.1,
+        0.64,
+        0.32
+      ],
+      "meaning": "次级阶段继续调用更小阶段。",
+      "reuse": "用子问题编号而非时间编号，按真实终止条件截断。"
+    },
+    {
+      "id": "base-stage",
+      "name": "主运算阶段",
+      "role": "component",
+      "box": [
+        0.02,
+        0.46,
+        0.96,
+        0.38
+      ],
+      "meaning": "一次乘法、子调用、回传和输出构成完整局部算法。",
+      "reuse": "替换算子时重新检查所有输入的维数。"
+    },
+    {
+      "id": "vector-output",
+      "name": "分段输出条",
+      "role": "component",
+      "box": [
+        0.43,
+        0.73,
+        0.54,
+        0.07
+      ],
+      "meaning": "把不同来源结果放到同一有序向量。",
+      "reuse": "解释每段来自输入、递归还是后处理，并改段长。"
+    }
+  ],
+  "selection_evidence": {
+    "candidate_index": 0,
+    "semantics_read": true,
+    "preview_reviewed": true,
+    "source_render_reviewed": true,
+    "render": "source-renders/0.png"
+  },
+  "implementation": "source-derived editable SVG",
+  "validation_status": "source-fidelity-checked",
+  "id": "architecture.source.asplos25-036_fig3",
+  "display_code": "VA-035"
+}

@@ -35,6 +35,6 @@ python "<SKILL>/original/resources/assets/shared-scripts/get_recipe.py" --id adv
 
 完整组合模板 `template.sem_violin_pearson` 使用 [专用说明](templates/sem-violin-pearson/TEMPLATE.md)。选定后按 [源码底稿与保真要点](template-fidelity.md)，复制所选完整源码，在原结构内适配数据，动笔前读取所选卡片的保留重点与允许适配范围；随后继续原工作流的绘制、看图和修复。
 
-`template.shap_dependence` 与 `template.shap_contribution` 使用 [SHAP完整组合说明](templates/shap-composites/TEMPLATE.md) 和共享脚本的对应模式，不通过配方提取器调用。两套分别用于“重要性与特征响应”和“变量及类别贡献”，均需要对应的特征值与SHAP值。
+`template.shap_dependence` 与 `template.shap_contribution` 使用 [SHAP完整组合说明](templates/shap-composites/TEMPLATE.md) 和共享脚本的对应模式。可通过源码准备工具单独或随计划批量复制，执行仍使用模板原 CLI，不当作无参数普通配方运行。两套分别用于“重要性与特征响应”和“变量及类别贡献”，均需要对应的特征值与SHAP值。
 
 目录中的 `sources/` 是解释预览的历史证据，实际绘制加载当前配方。更新配方或图库时核对来源与预览是否一致，不在每次绘图前新增全库验证。当前卡片覆盖每个配方的主要示例；聚类热力图的另一个完整变体保存在原章节中，尚无独立预览，可用 --variant two_way 提取并接入真实输入。

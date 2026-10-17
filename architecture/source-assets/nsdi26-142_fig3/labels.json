@@ -1,0 +1,650 @@
+[
+  {
+    "key": "e0008",
+    "text": "Hypervisor",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      63.41484515159391,
+      29.288677471661003,
+      25.77593932691525,
+      5.224253433967533
+    ],
+    "components": [
+      "mediated-path"
+    ]
+  },
+  {
+    "key": "e0011",
+    "text": "NVMe",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      17.034227549331263,
+      66.42323566445725,
+      13.750353422950866,
+      5.224253433967533
+    ],
+    "components": [
+      "mediated-path"
+    ]
+  },
+  {
+    "key": "e0012",
+    "text": "SSD",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      18.812338393647224,
+      72.17308462628739,
+      10.300876875466201,
+      5.224253433967533
+    ],
+    "components": [
+      "mediated-path"
+    ]
+  },
+  {
+    "key": "e0015",
+    "text": "NVMe",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      38.11697783079762,
+      66.66281270453351,
+      13.750382668195016,
+      5.224253433967533
+    ],
+    "components": [
+      "mediated-path"
+    ]
+  },
+  {
+    "key": "e0016",
+    "text": "SSD",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      39.895117920357734,
+      72.41266166636365,
+      10.300847630222052,
+      5.224253433967533
+    ],
+    "components": [
+      "mediated-path"
+    ]
+  },
+  {
+    "key": "e0024",
+    "text": "VM",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      27.90927630319311,
+      10.13105387685232,
+      9.201665128846798,
+      6.6490817289522965
+    ],
+    "components": [
+      "mediated-path"
+    ]
+  },
+  {
+    "key": "e0025",
+    "text": "Host Software",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      58.02436174987815,
+      19.714135479902552,
+      40.68545724699288,
+      6.6490817289522965
+    ],
+    "components": [
+      "mediated-path"
+    ]
+  },
+  {
+    "key": "e0031",
+    "text": "Local Disks",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      61.76400960981846,
+      67.1503894150012,
+      32.03102912667964,
+      6.6490817289522965
+    ],
+    "components": [
+      "mediated-path"
+    ]
+  },
+  {
+    "key": "e0034",
+    "text": "FPGA SmartNIC",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      31.289061433868483,
+      44.15099356768064,
+      45.88610976893142,
+      6.6490817289522965
+    ],
+    "components": [
+      "mediated-path"
+    ]
+  },
+  {
+    "key": "e0045",
+    "text": "(a)Commoncase(noLM),",
+    "font_family": "VividSource-texgyretermes-regular",
+    "bounds": [
+      3.000000850127435,
+      91.99598328435957,
+      107.37273003998871,
+      11.755161541976122
+    ],
+    "components": []
+  },
+  {
+    "key": "e0046",
+    "text": "userpathoption1",
+    "font_family": "VividSource-texgyretermes-regular",
+    "bounds": [
+      2.8210678100585938,
+      102.8594970703125,
+      64.97817993164062,
+      11.873291015625
+    ],
+    "components": []
+  },
+  {
+    "key": "e0054",
+    "text": "Hypervisor",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      171.70263270614674,
+      29.017252849386068,
+      25.836946821978927,
+      5.224229023078806
+    ],
+    "components": [
+      "bypass-path"
+    ]
+  },
+  {
+    "key": "e0057",
+    "text": "NVMe",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      125.20353464642545,
+      66.24655492787156,
+      13.77814905960986,
+      5.224229023078806
+    ],
+    "components": [
+      "bypass-path"
+    ]
+  },
+  {
+    "key": "e0058",
+    "text": "SSD",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      126.98618771974003,
+      72.01109202389512,
+      10.317456501230481,
+      5.224229023078806
+    ],
+    "components": [
+      "bypass-path"
+    ]
+  },
+  {
+    "key": "e0061",
+    "text": "NVMe",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      146.3401706651785,
+      66.48662669373175,
+      13.77814905960986,
+      5.224229023078806
+    ],
+    "components": [
+      "bypass-path"
+    ]
+  },
+  {
+    "key": "e0062",
+    "text": "SSD",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      148.12282373849308,
+      72.25128106956276,
+      10.317485821182345,
+      5.224229023078806
+    ],
+    "components": [
+      "bypass-path"
+    ]
+  },
+  {
+    "key": "e0070",
+    "text": "VM",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      136.10753678468978,
+      9.81303621806751,
+      9.219160424367146,
+      6.649061403848464
+    ],
+    "components": [
+      "bypass-path"
+    ]
+  },
+  {
+    "key": "e0071",
+    "text": "Host Software",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      166.29837917862466,
+      19.420480764965987,
+      40.78088648764242,
+      6.649061403848464
+    ],
+    "components": [
+      "bypass-path"
+    ]
+  },
+  {
+    "key": "e0077",
+    "text": "Local Disks",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      170.0475800633431,
+      66.97791180716035,
+      32.11294115831333,
+      6.649061403848464
+    ],
+    "components": [
+      "bypass-path"
+    ]
+  },
+  {
+    "key": "e0080",
+    "text": "FPGA",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      177.579758417327,
+      40.557234063526494,
+      15.53250837937594,
+      6.649061403848464
+    ],
+    "components": [
+      "bypass-path"
+    ]
+  },
+  {
+    "key": "e0081",
+    "text": "SmartNIC",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      170.92577126156544,
+      47.522716387888295,
+      28.762169099471066,
+      6.649061403848464
+    ],
+    "components": [
+      "bypass-path"
+    ]
+  },
+  {
+    "key": "e0082",
+    "text": "(b)Commoncase(noLM),",
+    "font_family": "VividSource-texgyretermes-regular",
+    "bounds": [
+      111.33398384343491,
+      91.99598328435957,
+      107.3727531559216,
+      11.755161541976122
+    ],
+    "components": []
+  },
+  {
+    "key": "e0083",
+    "text": "userpathoption2",
+    "font_family": "VividSource-texgyretermes-regular",
+    "bounds": [
+      111.15506744384766,
+      102.8594970703125,
+      65.245361328125,
+      11.873291015625
+    ],
+    "components": []
+  },
+  {
+    "key": "e0092",
+    "text": "Hypervisor",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      288.5695259398781,
+      35.96354286505084,
+      29.908005494035024,
+      6.174061633064412
+    ],
+    "components": [
+      "migration-source"
+    ]
+  },
+  {
+    "key": "e0095",
+    "text": "NVMe",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      235.0847340268083,
+      77.95695564395282,
+      15.89495763702871,
+      6.174061633064412
+    ],
+    "components": [
+      "migration-source"
+    ]
+  },
+  {
+    "key": "e0096",
+    "text": "SSD",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      237.13520022202283,
+      84.58778560181963,
+      11.77163199736242,
+      6.174061633064412
+    ],
+    "components": [
+      "migration-source"
+    ]
+  },
+  {
+    "key": "e0099",
+    "text": "NVMe",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      259.3967879456468,
+      78.2334987821232,
+      15.89495763702871,
+      6.174061633064412
+    ],
+    "components": [
+      "migration-source"
+    ]
+  },
+  {
+    "key": "e0100",
+    "text": "SSD",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      261.44725414086133,
+      84.86392404271464,
+      11.77163199736242,
+      6.174061633064412
+    ],
+    "components": [
+      "migration-source"
+    ]
+  },
+  {
+    "key": "e0108",
+    "text": "VM",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      247.6982712560348,
+      13.18812450079713,
+      10.538721747943782,
+      7.598865840554936
+    ],
+    "components": [
+      "migration-source"
+    ]
+  },
+  {
+    "key": "e0109",
+    "text": "Source",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      293.2100546974689,
+      18.713591300533153,
+      22.84239576332766,
+      7.598865840554936
+    ],
+    "components": [
+      "migration-source"
+    ]
+  },
+  {
+    "key": "e0110",
+    "text": " ",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      316.2048189849738,
+      18.713591300533153,
+      1.8477808367490525,
+      7.598905888722811
+    ],
+    "components": [
+      "migration-source"
+    ]
+  },
+  {
+    "key": "e0111",
+    "text": "Host",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      297.16421687602997,
+      26.725518160150386,
+      14.83350413327571,
+      7.598865840554936
+    ],
+    "components": [
+      "migration-source"
+    ]
+  },
+  {
+    "key": "e0112",
+    "text": " ",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      312.2354806585863,
+      26.725518160150386,
+      1.8477808367490525,
+      7.598905888722811
+    ],
+    "components": [
+      "migration-source"
+    ]
+  },
+  {
+    "key": "e0118",
+    "text": "Local Disks",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      286.6658299565315,
+      78.9411794176558,
+      36.941374341804476,
+      7.598865840554936
+    ],
+    "components": [
+      "migration-source"
+    ]
+  },
+  {
+    "key": "e0121",
+    "text": "FPGA SmartNIC (Source Host)",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      231.2946428686373,
+      52.41893877892289,
+      100.73242314289018,
+      7.598865840554936
+    ],
+    "components": [
+      "migration-source"
+    ]
+  },
+  {
+    "key": "e0136",
+    "text": "NVMe",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      366.31457052053884,
+      77.95695564395282,
+      15.89495763702871,
+      6.174061633064412
+    ],
+    "components": [
+      "migration-destination"
+    ]
+  },
+  {
+    "key": "e0137",
+    "text": "SSD",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      368.3650367157534,
+      84.58778560181963,
+      11.77163199736242,
+      6.174061633064412
+    ],
+    "components": [
+      "migration-destination"
+    ]
+  },
+  {
+    "key": "e0140",
+    "text": "NVMe",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      390.62662443937734,
+      78.2334987821232,
+      15.89495763702871,
+      6.174061633064412
+    ],
+    "components": [
+      "migration-destination"
+    ]
+  },
+  {
+    "key": "e0141",
+    "text": "SSD",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      392.6770906345919,
+      84.86392404271464,
+      11.77163199736242,
+      6.174061633064412
+    ],
+    "components": [
+      "migration-destination"
+    ]
+  },
+  {
+    "key": "e0142",
+    "text": "Remote Disks",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      411.54137963056564,
+      78.9411794176558,
+      45.407978590301354,
+      7.598865840554936
+    ],
+    "components": [
+      "migration-destination"
+    ]
+  },
+  {
+    "key": "e0145",
+    "text": "FPGA SmartNIC (Dest. Host)",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      363.17627804912627,
+      52.41893877892289,
+      95.28212886205438,
+      7.598865840554936
+    ],
+    "components": [
+      "migration-destination"
+    ]
+  },
+  {
+    "key": "e0161",
+    "text": "User read/write access",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      375.86758460476995,
+      14.569356301639345,
+      75.92910045652388,
+      7.598865840554936
+    ],
+    "components": [
+      "traffic-legend"
+    ]
+  },
+  {
+    "key": "e0165",
+    "text": "Consistency write traffic",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      375.9107523141429,
+      22.85769140033517,
+      80.13538903764129,
+      7.598865840554936
+    ],
+    "components": [
+      "traffic-legend"
+    ]
+  },
+  {
+    "key": "e0166",
+    "text": " ",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      456.17611662672425,
+      22.85769140033517,
+      1.8477808367490525,
+      7.598905888722811
+    ],
+    "components": [
+      "traffic-legend"
+    ]
+  },
+  {
+    "key": "e0169",
+    "text": "Data copy traffic",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      376.0532057550736,
+      31.145891599939205,
+      54.9858815569678,
+      7.598865840554936
+    ],
+    "components": [
+      "traffic-legend"
+    ]
+  },
+  {
+    "key": "e0170",
+    "text": " ",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      431.16906258698145,
+      31.145891599939205,
+      1.8477808367490525,
+      7.598905888722811
+    ],
+    "components": [
+      "traffic-legend"
+    ]
+  },
+  {
+    "key": "e0173",
+    "text": "(c)ProtocolduringLM",
+    "font_family": "VividSource-texgyretermes-regular",
+    "bounds": [
+      303.85298919677734,
+      102.8594970703125,
+      84.50323486328125,
+      11.873291015625
+    ],
+    "components": []
+  }
+]

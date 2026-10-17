@@ -1,0 +1,214 @@
+{
+  "svg": "C:\\Users\\hhhh\\Desktop\\MCM-ICM-AI-Lab\\workstreams\\architecture-native-guides\\package\\architecture\\source-assets\\asplos25-077_figtex1\\fig.svg",
+  "print_size_pt": [
+    468.0,
+    142.76287711979404
+  ],
+  "text_count": 14,
+  "parts": 0,
+  "errors": [
+    {
+      "type": "text-overlap",
+      "texts": [
+        "dataplaneUnitcontrol plane",
+        "Interface"
+      ],
+      "overlap": [
+        28.2,
+        7.7
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "dataplaneUnitcontrol plane",
+        "regmmiomeminstr"
+      ],
+      "overlap": [
+        62.2,
+        6.6
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "dataplaneUnitcontrol plane",
+        "load/store"
+      ],
+      "overlap": [
+        32.1,
+        7.7
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "dataplaneUnitcontrol plane",
+        "(inaddr,mode)(outaddr,mode)"
+      ],
+      "overlap": [
+        50.0,
+        25.7
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "dataplaneUnitcontrol plane",
+        "addmap()/setperms()/delmap()state update"
+      ],
+      "overlap": [
+        109.7,
+        31.0
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "dataplaneUnitcontrol plane",
+        "state queryexception"
+      ],
+      "overlap": [
+        129.1,
+        10.9
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "dataplaneUnitcontrol plane",
+        "regmem"
+      ],
+      "overlap": [
+        28.2,
+        6.6
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "dataplaneUnitcontrol plane",
+        "State"
+      ],
+      "overlap": [
+        16.0,
+        7.7
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "dataplaneUnitcontrol plane",
+        "map()"
+      ],
+      "overlap": [
+        18.5,
+        7.7
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "dataplaneUnitcontrol plane",
+        "Input"
+      ],
+      "overlap": [
+        16.7,
+        7.7
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "dataplaneUnitcontrol plane",
+        "Output"
+      ],
+      "overlap": [
+        21.8,
+        6.7
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "Interface",
+        "addmap()/setperms()/delmap()state update"
+      ],
+      "overlap": [
+        28.2,
+        7.7
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "regmmiomeminstr",
+        "addmap()/setperms()/delmap()state update"
+      ],
+      "overlap": [
+        62.2,
+        6.6
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "(inaddr,mode)(outaddr,mode)",
+        "state queryexception"
+      ],
+      "overlap": [
+        50.0,
+        10.9
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "(inaddr,mode)(outaddr,mode)",
+        "map()"
+      ],
+      "overlap": [
+        5.9,
+        7.7
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "addmap()/setperms()/delmap()state update",
+        "interface operations"
+      ],
+      "overlap": [
+        54.0,
+        6.6
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "state queryexception",
+        "map()"
+      ],
+      "overlap": [
+        18.5,
+        6.8
+      ]
+    }
+  ],
+  "warnings": [],
+  "pdf": {
+    "page_count": 1,
+    "fonts": [
+      {
+        "name": "AAAAAA+Arimo-Italic",
+        "type": "Type0"
+      },
+      {
+        "name": "BAAAAA+Inconsolata-Regular",
+        "type": "Type0"
+      }
+    ],
+    "images": 0
+  },
+  "scope": "Measured text bounds, intersections, print font size, and PDF structure. Connections and visual fidelity require actual image inspection."
+}

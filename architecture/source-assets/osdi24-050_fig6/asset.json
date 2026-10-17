@@ -1,0 +1,86 @@
+{
+  "name": "双阶段实例池与中间状态交接",
+  "family": "deployment",
+  "tags": [
+    "阶段解耦",
+    "实例池",
+    "控制器",
+    "状态传递"
+  ],
+  "when_to_use": "前后阶段使用独立工作池并传递状态；需要同时表达池级复制和实例内并行",
+  "avoid": "两个模块只是同一实例内的顺序步骤；中间产物是无状态消息且不需强调迁移成本",
+  "preserve": [
+    "左右对称实例池占主体，控制器位于左上；中间留出足够空白承载状态箭头和标签。",
+    "多层矩形叠片表示实例集合，内部浅色大框表示并行运行环境，小矩形表示计算资源。",
+    "细箭头表示请求分配，粗空心箭头表示阶段间状态交接；预览没有画出控制器直接到右池的连接。",
+    "粉色突出控制器，黄色突出模型，蓝色标出运行环境，绿色表示内部计算单元，灰色为实例边界。",
+    "常规无衬线字重，状态标签在两池之间分行；池名与模型名须保持层级而不争夺字号。"
+  ],
+  "adapt": "先明确两池拆分的是阶段还是模型副本。 定义跨池传递的状态和接收方匹配规则。 改变内部计算单元数量时重排实例框，避免只改数量标签。",
+  "visual_note": "左右对称实例池占主体，控制器位于左上；中间留出足够空白承载状态箭头和标签。",
+  "parts": [
+    {
+      "id": "controller",
+      "name": "请求分配器",
+      "role": "component",
+      "box": [
+        0.24,
+        0.04,
+        0.37,
+        0.15
+      ],
+      "meaning": "请求先进入统一入口。",
+      "reuse": "如要调度两池，显式补画第二组连接。"
+    },
+    {
+      "id": "first-pool",
+      "name": "第一工作池",
+      "role": "component",
+      "box": [
+        0.0,
+        0.26,
+        0.41,
+        0.73
+      ],
+      "meaning": "多个实例承载前半阶段计算。",
+      "reuse": "调整叠片数量不自动改变实际调度逻辑。"
+    },
+    {
+      "id": "second-pool",
+      "name": "第二工作池",
+      "role": "component",
+      "box": [
+        0.56,
+        0.2,
+        0.44,
+        0.8
+      ],
+      "meaning": "后半阶段由独立实例处理。",
+      "reuse": "按新运行条件调整内部资源数量。"
+    },
+    {
+      "id": "state-transfer",
+      "name": "状态交接",
+      "role": "component",
+      "box": [
+        0.36,
+        0.55,
+        0.2,
+        0.25
+      ],
+      "meaning": "第一阶段产物进入第二阶段。",
+      "reuse": "写明状态类型、方向及必要的关联键。"
+    }
+  ],
+  "selection_evidence": {
+    "candidate_index": 58,
+    "semantics_read": true,
+    "preview_reviewed": true,
+    "source_render_reviewed": true,
+    "render": "source-renders/58.png"
+  },
+  "implementation": "source-derived editable SVG",
+  "validation_status": "source-fidelity-checked",
+  "id": "architecture.source.osdi24-050_fig6",
+  "display_code": "VA-061"
+}

@@ -1,0 +1,75 @@
+{
+  "svg": "C:\\Users\\hhhh\\Desktop\\MCM-ICM-AI-Lab\\workstreams\\architecture-native-guides\\package\\architecture\\source-assets\\sosp23-013_fig3\\fig.svg",
+  "print_size_pt": [
+    468.0,
+    364.1911490967437
+  ],
+  "text_count": 40,
+  "parts": 0,
+  "errors": [
+    {
+      "type": "text-overlap",
+      "texts": [
+        "New Node Addition",
+        "& Failure Detection"
+      ],
+      "overlap": [
+        118.2,
+        3.7
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "Pipelines",
+        "Instantiation"
+      ],
+      "overlap": [
+        56.5,
+        3.7
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "Dynamic",
+        "Reconﬁguration"
+      ],
+      "overlap": [
+        54.9,
+        3.7
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "Pipeline ",
+        "Templates"
+      ],
+      "overlap": [
+        53.4,
+        3.7
+      ]
+    }
+  ],
+  "warnings": [],
+  "pdf": {
+    "page_count": 1,
+    "fonts": [
+      {
+        "name": "",
+        "type": "Type3"
+      },
+      {
+        "name": "",
+        "type": "Type3"
+      },
+      {
+        "name": "",
+        "type": "Type3"
+      }
+    ],
+    "images": 0
+  },
+  "scope": "Measured text bounds, intersections, print font size, and PDF structure. Connections and visual fidelity require actual image inspection."
+}

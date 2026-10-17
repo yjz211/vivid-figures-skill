@@ -1,0 +1,540 @@
+[
+  {
+    "key": "e0011",
+    "text": "Control Unit",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      196.08318017236888,
+      74.8278982522825,
+      44.6050994325451,
+      8.700148576212086
+    ],
+    "components": [
+      "datapath"
+    ]
+  },
+  {
+    "key": "e0014",
+    "text": "Control Status",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      191.81204291805625,
+      102.35520827992517,
+      52.92436534303852,
+      8.700148576212086
+    ],
+    "components": [
+      "datapath"
+    ]
+  },
+  {
+    "key": "e0015",
+    "text": "Registers",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      200.76444616085428,
+      111.95776510460931,
+      35.00981016795777,
+      8.700148576212086
+    ],
+    "components": [
+      "datapath"
+    ]
+  },
+  {
+    "key": "e0018",
+    "text": "Arithmetic Logic",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      187.9710201881826,
+      134.36375056532418,
+      60.6140690919201,
+      8.700148576212086
+    ],
+    "components": [
+      "datapath"
+    ]
+  },
+  {
+    "key": "e0019",
+    "text": "Unit",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      210.80710063688457,
+      143.96628785355645,
+      15.159837315160985,
+      8.700148576212086
+    ],
+    "components": [
+      "datapath"
+    ]
+  },
+  {
+    "key": "e0022",
+    "text": "Memory Interface",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      186.4706206843257,
+      170.85342742622018,
+      63.610062132473104,
+      8.700129039760213
+    ],
+    "components": [
+      "datapath"
+    ]
+  },
+  {
+    "key": "e0031",
+    "text": "Buffer Register #2",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      82.76300697773695,
+      170.85342742622018,
+      66.1681846771935,
+      8.700129039760213
+    ],
+    "components": [
+      "datapath"
+    ]
+  },
+  {
+    "key": "e0037",
+    "text": "Buffer Register #1",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      82.76300697773695,
+      74.8278982522825,
+      66.1681846771935,
+      8.700148576212086
+    ],
+    "components": [
+      "datapath"
+    ]
+  },
+  {
+    "key": "e0046",
+    "text": "Immediate Decoder",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      80.41239085658708,
+      118.99964010937768,
+      71.01057755250258,
+      8.700148576212086
+    ],
+    "components": [
+      "datapath"
+    ]
+  },
+  {
+    "key": "e0052",
+    "text": "Data Bus/",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      98.12710766545752,
+      215.02522789267098,
+      35.730011698035014,
+      8.700129039760213
+    ],
+    "components": [
+      "bottom-bus"
+    ]
+  },
+  {
+    "key": "e0053",
+    "text": "Extension Support",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      81.70273442990401,
+      224.62778471735513,
+      68.51928920964019,
+      8.700129039760213
+    ],
+    "components": [
+      "bottom-bus"
+    ]
+  },
+  {
+    "key": "e0056",
+    "text": "Decoder",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      186.90075474521655,
+      229.10893882930398,
+      30.879589341006067,
+      8.700129039760213
+    ],
+    "components": [
+      "control-plane"
+    ]
+  },
+  {
+    "key": "e0059",
+    "text": "State Machine",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      258.37978710895914,
+      229.10893882930398,
+      51.6567035903463,
+      8.700129039760213
+    ],
+    "components": [
+      "control-plane"
+    ]
+  },
+  {
+    "key": "e0065",
+    "text": "Instruction Bus",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      190.10160702011126,
+      19.133068669114465,
+      56.3428341553481,
+      8.700148576212086
+    ],
+    "components": [
+      "top-buses"
+    ]
+  },
+  {
+    "key": "e0066",
+    "text": "Address",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      202.90499658323824,
+      28.735605957346735,
+      30.73859476783764,
+      8.700148576212086
+    ],
+    "components": [
+      "top-buses"
+    ]
+  },
+  {
+    "key": "e0069",
+    "text": "Register File Interface",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      292.09889231947454,
+      87.32416223388282,
+      8.700148576212086,
+      80.26463338044778
+    ],
+    "components": [
+      "right-register-interface"
+    ]
+  },
+  {
+    "key": "e0072",
+    "text": "Data Bus",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      60.78715557791292,
+      14.651875484261865,
+      33.296727080783974,
+      8.700148576212086
+    ],
+    "components": [
+      "top-buses"
+    ]
+  },
+  {
+    "key": "e0073",
+    "text": "Address/Extension",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      42.64232424460351,
+      23.614242317515192,
+      69.58286341783969,
+      8.700148576212086
+    ],
+    "components": [
+      "top-buses"
+    ]
+  },
+  {
+    "key": "e0074",
+    "text": "Support",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      62.717669606208794,
+      33.216799142199335,
+      29.67120118329695,
+      8.700148576212086
+    ],
+    "components": [
+      "top-buses"
+    ]
+  },
+  {
+    "key": "e0077",
+    "text": "Register File Interface",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      28.533754009022232,
+      87.30425977546383,
+      8.700148576212086,
+      80.26472617859417
+    ],
+    "components": [
+      "left-register-interface"
+    ]
+  },
+  {
+    "key": "e0078",
+    "text": "Data plane",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      141.1585556678474,
+      53.186725809497176,
+      51.80111704259252,
+      11.48419065039343
+    ],
+    "components": [
+      "datapath"
+    ]
+  },
+  {
+    "key": "e0079",
+    "text": "Control Plane",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      210.58704204298556,
+      208.74816590583217,
+      66.59159819863999,
+      11.48419065039343
+    ],
+    "components": [
+      "control-plane"
+    ]
+  },
+  {
+    "key": "e0117",
+    "text": "32",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      86.68405101448298,
+      189.822228153731,
+      7.120978098402702,
+      7.308117770895478
+    ],
+    "components": [
+      "datapath"
+    ]
+  },
+  {
+    "key": "e0118",
+    "text": "32",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      125.09427831321955,
+      199.42478497841515,
+      7.120978098402702,
+      7.308117770895478
+    ],
+    "components": []
+  },
+  {
+    "key": "e0119",
+    "text": "32",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      87.32422146946192,
+      53.46592124321617,
+      7.120978098402702,
+      7.308117770895478
+    ],
+    "components": [
+      "datapath"
+    ]
+  },
+  {
+    "key": "e0120",
+    "text": "32",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      240.32496020942926,
+      56.66677351811089,
+      7.120978098402702,
+      7.308117770895478
+    ],
+    "components": [
+      "datapath"
+    ]
+  },
+  {
+    "key": "e0121",
+    "text": "32",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      189.4314090386033,
+      42.58304304502602,
+      7.120997634854575,
+      7.308117770895478
+    ],
+    "components": []
+  },
+  {
+    "key": "e0129",
+    "text": "N",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      59.75689102015712,
+      70.11037260912056,
+      4.6219530153414965,
+      7.308123265522568
+    ],
+    "components": []
+  },
+  {
+    "key": "e0130",
+    "text": "N",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      59.11672056517818,
+      166.13592131951012,
+      4.621953015341489,
+      7.308123265522568
+    ],
+    "components": []
+  },
+  {
+    "key": "e0141",
+    "text": "N",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      105.20898355543613,
+      101.47872490308876,
+      4.621953015341489,
+      7.308123265522568
+    ],
+    "components": [
+      "datapath"
+    ]
+  },
+  {
+    "key": "e0142",
+    "text": "N",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      105.84915401041508,
+      139.2487817468464,
+      4.621953015341489,
+      7.308123265522568
+    ],
+    "components": [
+      "datapath"
+    ]
+  },
+  {
+    "key": "e0143",
+    "text": "N",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      156.42261995375156,
+      106.60006900646843,
+      4.621953015341489,
+      7.308123265522568
+    ],
+    "components": [
+      "datapath"
+    ]
+  },
+  {
+    "key": "e0144",
+    "text": "N",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      156.42261995375156,
+      75.2317362489521,
+      4.621953015341489,
+      7.308123265522568
+    ],
+    "components": [
+      "datapath"
+    ]
+  },
+  {
+    "key": "e0145",
+    "text": "N",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      157.70296086370945,
+      159.7342167697207,
+      4.621953015341489,
+      7.308123265522568
+    ],
+    "components": [
+      "datapath"
+    ]
+  },
+  {
+    "key": "e0146",
+    "text": "N",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      158.3431313186884,
+      184.06073313182426,
+      4.621953015341489,
+      7.308123265522568
+    ],
+    "components": [
+      "datapath"
+    ]
+  },
+  {
+    "key": "e0147",
+    "text": "N",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      263.97125639021397,
+      68.83003169916267,
+      4.621953015341489,
+      7.308123265522568
+    ],
+    "components": [
+      "datapath"
+    ]
+  },
+  {
+    "key": "e0148",
+    "text": "N",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      263.97125639021397,
+      101.47872490308876,
+      4.621953015341489,
+      7.308123265522568
+    ],
+    "components": [
+      "datapath"
+    ]
+  },
+  {
+    "key": "e0149",
+    "text": "N",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      263.97125639021397,
+      133.4872476520359,
+      4.621953015341489,
+      7.308123265522568
+    ],
+    "components": [
+      "datapath"
+    ]
+  },
+  {
+    "key": "e0150",
+    "text": "N",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      263.97125639021397,
+      164.85558040955223,
+      4.621953015341489,
+      7.308123265522568
+    ],
+    "components": [
+      "datapath"
+    ]
+  }
+]

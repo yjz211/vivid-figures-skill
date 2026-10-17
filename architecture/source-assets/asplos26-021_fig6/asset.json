@@ -1,0 +1,65 @@
+{
+  "name": "重复数字控制器与局部计算阵列",
+  "family": "hierarchical-control",
+  "tags": [
+    "重复节点",
+    "本地控制",
+    "稀疏阵列",
+    "省略号",
+    "纵向扩展"
+  ],
+  "when_to_use": "同构局部控制单元的重复部署；以首尾实例和省略号表示可扩展阵列",
+  "avoid": "需要比较三种异构架构；表达完整存储系统或外部CPU数据流",
+  "preserve": [
+    "两个宽蓝框纵向排列，控制条占各框顶部，下方两簇细网格均衡分布。",
+    "淡蓝背景区分完整单元，紫色条标控制层，黑色细线绘计算连接。",
+    "网格内部有密集斜向和竖向箭头，未画上下两单元之间的通信。"
+  ],
+  "adapt": "先把本图定位为重复单元片段，勿补造图上没有的三方案对比；替换控制条名称时解释下方网格代表的计算对象；需要跨单元通信时新增明确端口和连接，不从省略号推断连通；节点数变化需代码复制或删除完整单元，并重算画布和省略号位置",
+  "visual_note": "原标注与实际图明显不一致：实际只有两个Digital PUM Ctrl重复面板。说明已按真实source与preview纠正，限定为局部片段。",
+  "id": "architecture.source.asplos26-021_fig6",
+  "display_code": "VA-120",
+  "parts": [
+    {
+      "id": "upper-unit",
+      "name": "上方控制计算单元",
+      "role": "component",
+      "box": [
+        0.0,
+        0.0,
+        1,
+        0.465
+      ],
+      "meaning": "一个本地控制器及其局部计算网格",
+      "reuse": "复制完整单元保留控制与计算关系"
+    },
+    {
+      "id": "repeat-marker",
+      "name": "重复省略号",
+      "role": "legend",
+      "box": [
+        0.37,
+        0.46,
+        0.26,
+        0.1
+      ],
+      "meaning": "存在未逐个画出的同构单元",
+      "reuse": "若要表示固定两个节点应去掉省略号"
+    },
+    {
+      "id": "lower-unit",
+      "name": "下方控制计算单元",
+      "role": "component",
+      "box": [
+        0.0,
+        0.54,
+        1,
+        0.46
+      ],
+      "meaning": "另一个重复的本地控制计算单元",
+      "reuse": "独立改名后需说明是否仍与上方同构"
+    }
+  ],
+  "implementation": "editable vector geometry",
+  "validation_status": "baseline-and-components-checked"
+}

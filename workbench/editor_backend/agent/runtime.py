@@ -15,6 +15,8 @@ class State(TypedDict, total=False):
     project:dict; job:str; round:int; errors:int; decision:dict; observations:list
     inspected:list; selected_object:str; dirty:bool; review:dict; result:dict
     usage:list; interrupted:bool; dataset_ids:list; target:str
+    domain:str; architecture_id:str; preferred_asset:str; seen_assets:list
+    full_skill:bool; source_work:dict; source_images:list; review_round:int; review_pending:bool; round_limit:int
 
 CANCEL={};PROCESSES={};THREADS={};LOCK=threading.Lock();GRAPH=None;CHECKPOINT_CONNECTION=None
 
@@ -60,6 +62,9 @@ SYSTEM='''你是 Vivid 本地绘图工作台的绘图助手。你唯一的执行
 '''
 
 def plan(s):
+    if s.get('domain')=='architecture':
+        from . import architecture
+        return architecture.plan(s)
     rid=s['run_id'];check(rid);n=s.get('round',0)+1
     if n>provider.config()['max_rounds']:raise ValueError('本次达到操作轮数上限。当前项目已保留，可以补充要求后继续。')
     activity(rid,'progress',{'stage':'plan','message':'正在理解数据和绘图要求','round':n})
@@ -82,6 +87,9 @@ def clarify(s):
     return {'prompt':s['prompt']+'\n用户补充：'+str(response),'decision':{},'observations':s.get('observations',[])+[{'clarification':str(response)}]}
 
 def execute(s):
+    if s.get('domain')=='architecture':
+        from . import architecture
+        return architecture.execute(s)
     rid=s['run_id'];check(rid)
     working=copy.deepcopy(s);outputs=[];inspected=set(s.get('inspected',[]))
     if s.get('project'):inspected.add(s['project']['template'])
@@ -157,7 +165,13 @@ def after_execute(s):
     if s['decision'].get('status')=='complete':return 'review' if s.get('dirty') else 'finalize'
     return 'plan'
 
+def after_review(s):
+    return 'plan' if s.get('domain')=='architecture' and s.get('review_pending') else 'finalize'
+
 def review(s):
+    if s.get('domain')=='architecture':
+        from . import architecture
+        return architecture.review(s)
     rid=s['run_id'];check(rid)
     # Always render the exact current settings; avoid re-render if the last job matches.
     job=s.get('job')
@@ -191,6 +205,9 @@ def review(s):
     return {'project':s['project'],'job':job,'review':result,'usage':usage}
 
 def finalize(s):
+    if s.get('domain')=='architecture':
+        from . import architecture
+        return architecture.finalize(s)
     rid=s['run_id'];check(rid);result={}
     prior=store.run(rid)
     if prior['body'].get('finalized'):
@@ -222,14 +239,14 @@ def init():
     graph=StateGraph(State)
     for name,fn in [('plan',plan),('execute',execute),('clarify',clarify),('review',review),('finalize',finalize)]:graph.add_node(name,fn)
     graph.add_edge(START,'plan');graph.add_conditional_edges('plan',route);graph.add_conditional_edges('execute',after_execute)
-    graph.add_edge('clarify','plan');graph.add_edge('review','finalize');graph.add_edge('finalize',END)
+    graph.add_edge('clarify','plan');graph.add_conditional_edges('review',after_review);graph.add_edge('finalize',END)
     GRAPH=graph.compile(checkpointer=saver)
 
 def _work(rid,state=None,response=None):
     r=store.run(rid);store.update_run(rid,'running');emit(rid,RunStartedEvent(type=EventType.RUN_STARTED,thread_id=r['session'],run_id=rid))
     try:
         inputs=Command(resume=response) if response is not None else state
-        result=GRAPH.invoke(inputs,{'configurable':{'thread_id':rid},'recursion_limit':55})
+        result=GRAPH.invoke(inputs,{'configurable':{'thread_id':rid},'recursion_limit':100})
         if result.get('__interrupt__'):
             q=result['__interrupt__'][0].value;store.update_run(rid,'waiting',question=q['question'])
         emit(rid,RunFinishedEvent(type=EventType.RUN_FINISHED,thread_id=r['session'],run_id=rid))
@@ -241,9 +258,14 @@ def _work(rid,state=None,response=None):
     finally:
         with LOCK:THREADS.pop(rid,None);PROCESSES.pop(rid,None)
 
-def start(session_id,prompt,chart_id=None,selected_object=None,target=None,dataset_ids=None):
+def start(session_id,prompt,chart_id=None,selected_object=None,target=None,dataset_ids=None,domain='data',architecture_id=None,preferred_asset=None):
+    if domain=='architecture':
+        from . import architecture
+        return architecture.start(session_id,prompt,architecture_id,selected_object,target,preferred_asset)
+    if domain!='data':raise ValueError('任务类型无效。')
     if not isinstance(prompt,str) or not 1<=len(prompt.strip())<=8000:raise ValueError('请输入 1–8000 字的绘图要求。')
     session=store.session(session_id)
+    if session.get('domain','data')!='data':raise ValueError('请选择数据图工作区。')
     if any(r['status'] in ['running','queued','waiting'] for r in session['runs']):raise ValueError('当前项目有进行中的任务，请先继续或停止它。')
     c=store.chart(chart_id) if chart_id else None
     if c and c['session']!=session_id:raise ValueError('图表不属于当前项目。')
@@ -276,6 +298,9 @@ def resume(rid,response=None):
     if r['status'] not in ['waiting','interrupted','error']:raise ValueError('此任务无需恢复。')
     if r['status']=='waiting' and not response:raise ValueError('请输入补充信息。')
     snapshot=GRAPH.get_state({'configurable':{'thread_id':rid}})
+    if snapshot.values.get('full_skill') and r['status']=='error':
+        current=snapshot.values
+        GRAPH.update_state({'configurable':{'thread_id':rid}},{'errors':0,'round_limit':max(current.get('round_limit',24),current.get('round',0)+8)})
     initial={**r['body']['initial'],'run_id':rid} if not snapshot.values else None
     store.reserve_resume(rid)
     if response:store.message(r['session'],'user',{'text':response,'run_id':rid,'clarification':True})

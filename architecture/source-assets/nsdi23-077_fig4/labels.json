@@ -1,0 +1,582 @@
+[
+  {
+    "key": "e0008",
+    "text": "Software",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      125.60901641845705,
+      29.766510836794595,
+      27.18199289816404,
+      8.942211904606665
+    ],
+    "components": [
+      "userspace"
+    ]
+  },
+  {
+    "key": "e0009",
+    "text": "Retransmission",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      116.25880432128906,
+      38.70025717468522,
+      45.932317138522194,
+      8.942211904606665
+    ],
+    "components": [
+      "userspace"
+    ]
+  },
+  {
+    "key": "e0012",
+    "text": "PCIe",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      102.38152313232422,
+      110.67794882507584,
+      13.345733381775972,
+      8.942211904606665
+    ],
+    "components": []
+  },
+  {
+    "key": "e0013",
+    "text": "Driver",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      156.89425659179688,
+      62.7229160632414,
+      20.830082368641342,
+      10.27401751531579
+    ],
+    "components": []
+  },
+  {
+    "key": "e0016",
+    "text": "CPU",
+    "font_family": "VividSource-Carlito-Italic",
+    "bounds": [
+      167.02769470214844,
+      109.42207377808515,
+      14.07299648978551,
+      10.27401751531579
+    ],
+    "components": []
+  },
+  {
+    "key": "e0017",
+    "text": "RNIC",
+    "font_family": "VividSource-Carlito-Italic",
+    "bounds": [
+      165.1963653564453,
+      212.0588535632414,
+      16.790732297171417,
+      10.27401751531579
+    ],
+    "components": []
+  },
+  {
+    "key": "e0028",
+    "text": "DMA ",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      148.10086059570312,
+      125.56379741089765,
+      19.068815053166873,
+      10.27401751531579
+    ],
+    "components": [
+      "dma-engine"
+    ]
+  },
+  {
+    "key": "e0029",
+    "text": "Engine",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      148.10086059570312,
+      135.6142734851164,
+      22.97654045177842,
+      10.27401751531579
+    ],
+    "components": [
+      "dma-engine"
+    ]
+  },
+  {
+    "key": "e0030",
+    "text": "Transport",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      100.20619201660158,
+      151.14683574097577,
+      32.5881250836792,
+      10.27401751531579
+    ],
+    "components": [
+      "transport"
+    ]
+  },
+  {
+    "key": "e0031",
+    "text": "Basic NIC",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      102.09130859375001,
+      190.02897685425697,
+      31.190641905830503,
+      10.27401751531579
+    ],
+    "components": [
+      "basic-nic"
+    ]
+  },
+  {
+    "key": "e0034",
+    "text": "100GE",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      64.92715454101562,
+      201.6398628875758,
+      19.675981684333237,
+      8.942211904606665
+    ],
+    "components": [
+      "basic-nic"
+    ]
+  },
+  {
+    "key": "e0035",
+    "text": "MAC",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      86.33094787597656,
+      201.6398628875758,
+      14.585713085015414,
+      8.942211904606665
+    ],
+    "components": [
+      "basic-nic"
+    ]
+  },
+  {
+    "key": "e0036",
+    "text": "QP",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      103.03684234619139,
+      92.7088936492946,
+      8.830632227238311,
+      8.942211904606665
+    ],
+    "components": [
+      "driver-queues"
+    ]
+  },
+  {
+    "key": "e0039",
+    "text": "Data",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      28.118606567382816,
+      130.57586752624772,
+      14.031600630861252,
+      8.942211904606665
+    ],
+    "components": [
+      "dma-engine"
+    ]
+  },
+  {
+    "key": "e0040",
+    "text": "Mover",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      43.83644104003906,
+      130.57586752624772,
+      19.9534050415441,
+      8.942211904606665
+    ],
+    "components": [
+      "dma-engine"
+    ]
+  },
+  {
+    "key": "e0043",
+    "text": "QP",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      88.40418243408203,
+      131.08343588562272,
+      8.830632227238311,
+      8.942211904606665
+    ],
+    "components": [
+      "dma-engine"
+    ]
+  },
+  {
+    "key": "e0044",
+    "text": "Scheduler",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      98.93159484863283,
+      131.08343588562272,
+      30.06195685065724,
+      8.942211904606665
+    ],
+    "components": [
+      "dma-engine"
+    ]
+  },
+  {
+    "key": "e0051",
+    "text": "SQ",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      49.50009536743164,
+      71.84619789196583,
+      7.532240105920209,
+      7.990908019724884
+    ],
+    "components": [
+      "driver-queues"
+    ]
+  },
+  {
+    "key": "e0052",
+    "text": "RQ",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      68.57044982910156,
+      71.84619789196583,
+      8.051372184057527,
+      7.990908019724884
+    ],
+    "components": [
+      "driver-queues"
+    ]
+  },
+  {
+    "key": "e0053",
+    "text": "CQ",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      90.53335571289062,
+      71.74466590954395,
+      7.998094166098781,
+      7.990908019724884
+    ],
+    "components": [
+      "driver-queues"
+    ]
+  },
+  {
+    "key": "e0068",
+    "text": "CtrlQ",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      155.25546264648438,
+      91.8967598602321,
+      16.093910008819876,
+      8.942211904606665
+    ],
+    "components": [
+      "driver-queues"
+    ]
+  },
+  {
+    "key": "e0073",
+    "text": "Tx",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      130.53134155273438,
+      78.44501380993458,
+      5.7666253190514,
+      7.990908019724884
+    ],
+    "components": [
+      "driver-queues"
+    ]
+  },
+  {
+    "key": "e0074",
+    "text": "Rx",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      142.9820556640625,
+      78.44501380993458,
+      6.4020594214466655,
+      7.990908019724884
+    ],
+    "components": [
+      "driver-queues"
+    ]
+  },
+  {
+    "key": "e0081",
+    "text": "QPC",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      157.59280395507812,
+      166.27333110230396,
+      14.439437286396242,
+      10.27401751531579
+    ],
+    "components": [
+      "context-tables"
+    ]
+  },
+  {
+    "key": "e0086",
+    "text": "Congestion ",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      30.495302200317383,
+      164.38201986999772,
+      35.50028495473998,
+      8.942211904606665
+    ],
+    "components": [
+      "transport"
+    ]
+  },
+  {
+    "key": "e0087",
+    "text": "Control",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      36.216163635253906,
+      173.31579672546647,
+      22.396299795233972,
+      8.942211904606665
+    ],
+    "components": [
+      "transport"
+    ]
+  },
+  {
+    "key": "e0090",
+    "text": "Hardware ",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      96.79903411865234,
+      164.68658529968522,
+      31.344213834956463,
+      8.942211904606665
+    ],
+    "components": [
+      "transport"
+    ]
+  },
+  {
+    "key": "e0091",
+    "text": "Retransmission",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      88.67489624023438,
+      173.62036215515397,
+      45.932317138522194,
+      8.942211904606665
+    ],
+    "components": [
+      "transport"
+    ]
+  },
+  {
+    "key": "e0098",
+    "text": "Application",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      21.418451617821944,
+      34.842499606325845,
+      34.25465423577044,
+      8.942211904606665
+    ],
+    "components": [
+      "userspace"
+    ]
+  },
+  {
+    "key": "e0101",
+    "text": "Buffer",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      75.58382415771484,
+      34.53796469421647,
+      18.63425380240824,
+      8.942211904606665
+    ],
+    "components": [
+      "userspace"
+    ]
+  },
+  {
+    "key": "e0103",
+    "text": "User space",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      142.18370056152344,
+      50.23591655152265,
+      37.06507723482173,
+      10.27401751531579
+    ],
+    "components": [
+      "userspace"
+    ]
+  },
+  {
+    "key": "e0106",
+    "text": "MTT",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      159.7225799560547,
+      184.85145610230384,
+      15.527324424550898,
+      10.27401751531579
+    ],
+    "components": [
+      "context-tables"
+    ]
+  },
+  {
+    "key": "e0114",
+    "text": "Retry",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      19.826372146606445,
+      71.74466590954395,
+      14.212979956744675,
+      7.990908019724884
+    ],
+    "components": [
+      "driver-queues"
+    ]
+  },
+  {
+    "key": "e0115",
+    "text": "Q",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      33.959861755371094,
+      71.74466590954395,
+      4.566230996492095,
+      7.990904147044148
+    ],
+    "components": [
+      "driver-queues"
+    ]
+  },
+  {
+    "key": "e0120",
+    "text": "Outbound",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      7.612177848815919,
+      5.706269137575845,
+      30.890279886083597,
+      8.942211904606665
+    ],
+    "components": [
+      "path-legend"
+    ]
+  },
+  {
+    "key": "e0121",
+    "text": "Path",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      40.18317794799805,
+      5.706269137575845,
+      13.5501164312318,
+      8.942211904606665
+    ],
+    "components": [
+      "path-legend"
+    ]
+  },
+  {
+    "key": "e0123",
+    "text": "Inbound",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      62.482231140136726,
+      5.50323569031022,
+      25.309088589646315,
+      8.942211904606665
+    ],
+    "components": [
+      "path-legend"
+    ]
+  },
+  {
+    "key": "e0124",
+    "text": "Fast",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      89.4696273803711,
+      5.50323569031022,
+      12.086896821496339,
+      8.942211904606665
+    ],
+    "components": [
+      "path-legend"
+    ]
+  },
+  {
+    "key": "e0125",
+    "text": "Path",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      103.26112365722658,
+      5.50323569031022,
+      13.5501164312318,
+      8.942211904606665
+    ],
+    "components": [
+      "path-legend"
+    ]
+  },
+  {
+    "key": "e0127",
+    "text": "Inbound",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      126.11280059814453,
+      5.706269137575845,
+      25.309088589646308,
+      8.942211904606665
+    ],
+    "components": [
+      "path-legend"
+    ]
+  },
+  {
+    "key": "e0128",
+    "text": "Slow",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      153.10020446777344,
+      5.706269137575845,
+      14.376050797180142,
+      8.942211904606665
+    ],
+    "components": [
+      "path-legend"
+    ]
+  },
+  {
+    "key": "e0129",
+    "text": "Path",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      169.18096923828125,
+      5.706269137575845,
+      13.5501164312318,
+      8.942211904606665
+    ],
+    "components": [
+      "path-legend"
+    ]
+  }
+]

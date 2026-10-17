@@ -1,0 +1,502 @@
+[
+  {
+    "key": "e0005",
+    "text": "Merge Sorting Unit+ (MSU+)",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      93.53649139404297,
+      95.3863525390625,
+      147.34500122070312,
+      15.698051452636719
+    ],
+    "components": []
+  },
+  {
+    "key": "e0008",
+    "text": "Sorting Engine",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      14.400999069213867,
+      1.9989017146872357,
+      77.0003890991211,
+      15.69804859161377
+    ],
+    "components": [
+      "engine"
+    ]
+  },
+  {
+    "key": "e0011",
+    "text": "Sorting Core 1",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      17.349000930786133,
+      19.746450424194336,
+      71.30240631103516,
+      15.698049545288086
+    ],
+    "components": [
+      "engine"
+    ]
+  },
+  {
+    "key": "e0014",
+    "text": "Sorting Core 2",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      17.349000930786133,
+      36.65553665161133,
+      71.30240631103516,
+      15.698047637939453
+    ],
+    "components": [
+      "engine"
+    ]
+  },
+  {
+    "key": "e0017",
+    "text": "Sorting Core 16",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      14.290999412536621,
+      62.57162857055664,
+      77.41839599609375,
+      15.698047637939453
+    ],
+    "components": [
+      "engine"
+    ]
+  },
+  {
+    "key": "e0020",
+    "text": "Sorting Core",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      190.0601806640625,
+      1.641961544752121,
+      66.22039794921875,
+      15.69804859161377
+    ],
+    "components": [
+      "core-detail"
+    ]
+  },
+  {
+    "key": "e0023",
+    "text": "Bitonic Sorting ",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      121.52409362792969,
+      17.157299995422363,
+      75.77915954589844,
+      15.69804859161377
+    ],
+    "components": [
+      "core-detail"
+    ]
+  },
+  {
+    "key": "e0024",
+    "text": "Unit (BSU)",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      132.22158813476562,
+      29.465301513671875,
+      52.140594482421875,
+      15.698047637939453
+    ],
+    "components": [
+      "core-detail"
+    ]
+  },
+  {
+    "key": "e0027",
+    "text": "Merge Sorting ",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      123.10259246826172,
+      49.41664505004883,
+      72.6221694946289,
+      15.698047637939453
+    ],
+    "components": [
+      "core-detail"
+    ]
+  },
+  {
+    "key": "e0028",
+    "text": "Unit+ (MSU+)",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      124.59859466552734,
+      61.72464370727539,
+      67.3865737915039,
+      15.698047637939453
+    ],
+    "components": [
+      "core-detail"
+    ]
+  },
+  {
+    "key": "e0047",
+    "text": "Input Bu",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      254.93240356445312,
+      25.57535743713379,
+      41.778411865234375,
+      15.698049545288086
+    ],
+    "components": [
+      "core-detail"
+    ]
+  },
+  {
+    "key": "e0048",
+    "text": "ﬀ",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      296.3763732910156,
+      25.57535743713379,
+      6.346019744873047,
+      15.69804859161377
+    ],
+    "components": [
+      "core-detail"
+    ]
+  },
+  {
+    "key": "e0049",
+    "text": "er",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      303.0574035644531,
+      25.57535743713379,
+      9.9150390625,
+      15.698049545288086
+    ],
+    "components": [
+      "core-detail"
+    ]
+  },
+  {
+    "key": "e0054",
+    "text": "Output Bu",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      250.4443817138672,
+      57.460147857666016,
+      50.75440979003906,
+      15.698047637939453
+    ],
+    "components": [
+      "core-detail"
+    ]
+  },
+  {
+    "key": "e0055",
+    "text": "ﬀ",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      300.8643798828125,
+      57.460147857666016,
+      6.346019744873047,
+      15.69804859161377
+    ],
+    "components": [
+      "core-detail"
+    ]
+  },
+  {
+    "key": "e0056",
+    "text": "er",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      307.5453796386719,
+      57.460147857666016,
+      9.9150390625,
+      15.698047637939453
+    ],
+    "components": [
+      "core-detail"
+    ]
+  },
+  {
+    "key": "e0059",
+    "text": "…",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      45.23076629638672,
+      42.656253814697266,
+      16.000736236572266,
+      23.046072006225586
+    ],
+    "components": [
+      "engine"
+    ]
+  },
+  {
+    "key": "e0065",
+    "text": "Local",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      46.1185417175293,
+      131.8981475830078,
+      26.686382293701172,
+      15.698043823242188
+    ],
+    "components": [
+      "merge-unit",
+      "input-filter"
+    ]
+  },
+  {
+    "key": "e0066",
+    "text": "Input bu",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      26.533037185668945,
+      144.20614624023438,
+      40.76640319824219,
+      15.698043823242188
+    ],
+    "components": [
+      "merge-unit",
+      "input-filter"
+    ]
+  },
+  {
+    "key": "e0067",
+    "text": "ﬀ",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      66.96503448486328,
+      144.20614624023438,
+      6.346019744873047,
+      15.69804859161377
+    ],
+    "components": [
+      "merge-unit",
+      "input-filter"
+    ]
+  },
+  {
+    "key": "e0068",
+    "text": "er 1",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      73.64604187011719,
+      144.20614624023438,
+      18.74439239501953,
+      15.698043823242188
+    ],
+    "components": [
+      "merge-unit",
+      "input-filter"
+    ]
+  },
+  {
+    "key": "e0071",
+    "text": "Local",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      46.1185417175293,
+      162.3596649169922,
+      26.686382293701172,
+      15.698043823242188
+    ],
+    "components": [
+      "merge-unit",
+      "input-filter"
+    ]
+  },
+  {
+    "key": "e0072",
+    "text": "Input bu",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      26.533037185668945,
+      174.6676483154297,
+      40.76640319824219,
+      15.698043823242188
+    ],
+    "components": [
+      "merge-unit",
+      "input-filter"
+    ]
+  },
+  {
+    "key": "e0073",
+    "text": "ﬀ",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      66.96503448486328,
+      174.6676483154297,
+      6.346019744873047,
+      15.69804859161377
+    ],
+    "components": [
+      "merge-unit",
+      "input-filter"
+    ]
+  },
+  {
+    "key": "e0074",
+    "text": "er 2",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      73.64604187011719,
+      174.6676483154297,
+      18.74439239501953,
+      15.698043823242188
+    ],
+    "components": [
+      "merge-unit",
+      "input-filter"
+    ]
+  },
+  {
+    "key": "e0077",
+    "text": "Local",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      276.2723693847656,
+      128.82125854492188,
+      26.686431884765625,
+      15.698043823242188
+    ],
+    "components": [
+      "merge-unit"
+    ]
+  },
+  {
+    "key": "e0078",
+    "text": "Output bu",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      256.78590393066406,
+      141.12925720214844,
+      49.74238586425781,
+      15.698043823242188
+    ],
+    "components": [
+      "merge-unit"
+    ]
+  },
+  {
+    "key": "e0079",
+    "text": "ﬀ",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      306.1938781738281,
+      141.12925720214844,
+      6.346019744873047,
+      15.69804859161377
+    ],
+    "components": [
+      "merge-unit"
+    ]
+  },
+  {
+    "key": "e0080",
+    "text": "er",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      312.8748779296875,
+      141.12925720214844,
+      9.9150390625,
+      15.698043823242188
+    ],
+    "components": [
+      "merge-unit"
+    ]
+  },
+  {
+    "key": "e0083",
+    "text": "Index Counter",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      24.62453842163086,
+      111.28295135498047,
+      70.01901245117188,
+      15.698051452636719
+    ],
+    "components": [
+      "merge-unit"
+    ]
+  },
+  {
+    "key": "e0086",
+    "text": ">",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      228.60130310058594,
+      171.22796630859375,
+      6.4243011474609375,
+      12.358037948608398
+    ],
+    "components": [
+      "merge-unit"
+    ]
+  },
+  {
+    "key": "e0109",
+    "text": "Invalid Bit",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      124.8604965209961,
+      131.74435424804688,
+      47.87220001220703,
+      15.698043823242188
+    ],
+    "components": [
+      "merge-unit",
+      "input-filter"
+    ]
+  },
+  {
+    "key": "e0110",
+    "text": "Filter",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      136.88348388671875,
+      144.05235290527344,
+      24.5780029296875,
+      15.698043823242188
+    ],
+    "components": [
+      "merge-unit",
+      "input-filter"
+    ]
+  },
+  {
+    "key": "e0113",
+    "text": "Invalid Bit",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      124.8604965209961,
+      162.99244689941406,
+      47.87220001220703,
+      15.698043823242188
+    ],
+    "components": [
+      "merge-unit",
+      "input-filter"
+    ]
+  },
+  {
+    "key": "e0114",
+    "text": "Filter",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      136.88348388671875,
+      175.30044555664062,
+      24.5780029296875,
+      15.698043823242188
+    ],
+    "components": [
+      "merge-unit",
+      "input-filter"
+    ]
+  }
+]

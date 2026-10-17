@@ -1,0 +1,724 @@
+[
+  {
+    "key": "e0004",
+    "text": "Controller",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      144.50079345703125,
+      6.010312125654309,
+      60.78612186616283,
+      15.260156287899008
+    ],
+    "components": []
+  },
+  {
+    "key": "e0007",
+    "text": "Request Router",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      134.37640380859375,
+      44.846676871748116,
+      98.01875468235266,
+      15.260156287899008
+    ],
+    "components": [
+      "request-router"
+    ]
+  },
+  {
+    "key": "e0010",
+    "text": "ServerlessLLM",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      75.13471221923827,
+      136.7012606119825,
+      99.41903877673938,
+      15.260156287899008
+    ],
+    "components": []
+  },
+  {
+    "key": "e0011",
+    "text": "Model Loading ",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      178.38470458984375,
+      136.7012606119825,
+      102.09640694745121,
+      15.260156287899008
+    ],
+    "components": []
+  },
+  {
+    "key": "e0012",
+    "text": "Scheduler",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      142.13470458984375,
+      153.50124840495113,
+      67.45138733015938,
+      15.260156287899008
+    ],
+    "components": []
+  },
+  {
+    "key": "e0015",
+    "text": "Server 3",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      438.9327087402344,
+      312.5557527994824,
+      52.782288838472596,
+      15.260156287899008
+    ],
+    "components": [
+      "resource-tier-nodes"
+    ]
+  },
+  {
+    "key": "e0017",
+    "text": "GPU",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      405.9397888183594,
+      339.17397789713874,
+      30.346761882895407,
+      15.260156287899008
+    ],
+    "components": [
+      "resource-tier-nodes"
+    ]
+  },
+  {
+    "key": "e0019",
+    "text": "DRAM",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      406.1766052246094,
+      376.04665856120124,
+      41.253509069073516,
+      15.260156287899008
+    ],
+    "components": [
+      "resource-tier-nodes"
+    ]
+  },
+  {
+    "key": "e0021",
+    "text": "SSD",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      406.426513671875,
+      412.04665856120124,
+      28.841478454085973,
+      15.260156287899008
+    ],
+    "components": [
+      "resource-tier-nodes"
+    ]
+  },
+  {
+    "key": "e0024",
+    "text": "Model A",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      461.92370605468744,
+      417.71938805338874,
+      50.891108968718925,
+      15.260156287899008
+    ],
+    "components": [
+      "resource-tier-nodes"
+    ]
+  },
+  {
+    "key": "e0029",
+    "text": "A",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      483.60700321062154,
+      339.61025719401374,
+      10.35509202234357,
+      15.260136312756913
+    ],
+    "components": [
+      "resource-tier-nodes"
+    ]
+  },
+  {
+    "key": "e0032",
+    "text": "Server 2",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      436.7298889160156,
+      157.86489586588863,
+      52.782288838472596,
+      15.260156287899008
+    ],
+    "components": [
+      "resource-tier-nodes"
+    ]
+  },
+  {
+    "key": "e0034",
+    "text": "GPU",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      403.0389099121094,
+      184.48305992838874,
+      30.346761882895407,
+      15.260156287899008
+    ],
+    "components": [
+      "resource-tier-nodes"
+    ]
+  },
+  {
+    "key": "e0036",
+    "text": "DRAM",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      403.27569580078125,
+      221.35574059245124,
+      41.253509069073516,
+      15.260156287899008
+    ],
+    "components": [
+      "resource-tier-nodes"
+    ]
+  },
+  {
+    "key": "e0038",
+    "text": "SSD",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      403.5256042480469,
+      257.35574059245124,
+      28.841478454085973,
+      15.260156287899008
+    ],
+    "components": [
+      "resource-tier-nodes"
+    ]
+  },
+  {
+    "key": "e0041",
+    "text": "Model B",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      458.6376953125,
+      263.02847008463874,
+      51.16519788097639,
+      15.260156287899008
+    ],
+    "components": [
+      "resource-tier-nodes"
+    ]
+  },
+  {
+    "key": "e0044",
+    "text": "B",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      508.90130615234375,
+      185.57394127604488,
+      9.316176559003452,
+      15.260136312756913
+    ],
+    "components": [
+      "resource-tier-nodes"
+    ]
+  },
+  {
+    "key": "e0047",
+    "text": "Model A",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      459.022705078125,
+      226.37392906901374,
+      50.89110896871898,
+      15.260156287899008
+    ],
+    "components": [
+      "resource-tier-nodes"
+    ]
+  },
+  {
+    "key": "e0054",
+    "text": "A",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      470.92350101335586,
+      185.79214195963874,
+      10.35509202234357,
+      15.260136312756913
+    ],
+    "components": [
+      "resource-tier-nodes"
+    ]
+  },
+  {
+    "key": "e0057",
+    "text": "Server 1",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      435.2780151367187,
+      6.883023307294991,
+      52.782288838472596,
+      15.260156287899008
+    ],
+    "components": [
+      "resource-tier-nodes"
+    ]
+  },
+  {
+    "key": "e0059",
+    "text": "GPU",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      402.81170654296875,
+      33.50121788737306,
+      30.346761882895407,
+      15.260156287899008
+    ],
+    "components": [
+      "resource-tier-nodes"
+    ]
+  },
+  {
+    "key": "e0061",
+    "text": "DRAM",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      403.0484924316406,
+      70.59212975260749,
+      41.253509069073516,
+      15.260156287899008
+    ],
+    "components": [
+      "resource-tier-nodes"
+    ]
+  },
+  {
+    "key": "e0063",
+    "text": "SSD",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      403.29840087890625,
+      106.59219078776363,
+      28.841478454085973,
+      15.260156287899008
+    ],
+    "components": [
+      "resource-tier-nodes"
+    ]
+  },
+  {
+    "key": "e0066",
+    "text": "Model B",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      460.2330932617187,
+      74.95577721354499,
+      51.16519788097639,
+      15.260156287899008
+    ],
+    "components": [
+      "resource-tier-nodes"
+    ]
+  },
+  {
+    "key": "e0069",
+    "text": "Model C",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      458.9262084960937,
+      36.773953483076184,
+      52.204115008911685,
+      15.260156287899008
+    ],
+    "components": [
+      "resource-tier-nodes"
+    ]
+  },
+  {
+    "key": "e0074",
+    "text": "B",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      526.5623779296875,
+      55.31942467448249,
+      9.316176559003452,
+      15.260136312756913
+    ],
+    "components": [
+      "resource-tier-nodes"
+    ]
+  },
+  {
+    "key": "e0077",
+    "text": "Reliable Key",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      95.1854476928711,
+      413.35574059245124,
+      79.13924913120354,
+      15.260156287899008
+    ],
+    "components": [
+      "status-store"
+    ]
+  },
+  {
+    "key": "e0078",
+    "text": "-",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      173.68539428710935,
+      413.35574059245124,
+      4.658088279501726,
+      15.260136312756913
+    ],
+    "components": [
+      "status-store"
+    ]
+  },
+  {
+    "key": "e0079",
+    "text": "Value Store",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      177.7653894410903,
+      413.35574059245124,
+      72.53010049973273,
+      15.260156287899008
+    ],
+    "components": [
+      "status-store"
+    ]
+  },
+  {
+    "key": "e0084",
+    "text": "Model Loading ",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      63.183250427246094,
+      181.64663414713874,
+      95.31008546397788,
+      15.260156287899008
+    ],
+    "components": [
+      "cost-estimators"
+    ]
+  },
+  {
+    "key": "e0085",
+    "text": "Time Estimator",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      62.25325012207031,
+      198.44668297526363,
+      93.65094350318122,
+      15.260156287899008
+    ],
+    "components": [
+      "cost-estimators"
+    ]
+  },
+  {
+    "key": "e0088",
+    "text": "Model Migration ",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      191.55780029296872,
+      181.64663414713874,
+      103.07385723396962,
+      15.260156287899008
+    ],
+    "components": [
+      "cost-estimators"
+    ]
+  },
+  {
+    "key": "e0089",
+    "text": "Time Estimator",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      194.5028076171875,
+      198.44668297526363,
+      93.65094350318122,
+      15.260156287899008
+    ],
+    "components": [
+      "cost-estimators"
+    ]
+  },
+  {
+    "key": "e0092",
+    "text": "Model Loading Task Queues",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      86.29525756835938,
+      236.62844567057613,
+      176.54776322255202,
+      15.260156287899008
+    ],
+    "components": [
+      "task-queues"
+    ]
+  },
+  {
+    "key": "e0097",
+    "text": "Inference ",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      9.170103073120115,
+      11.028500602216809,
+      61.97887755094324,
+      15.260156287899008
+    ],
+    "components": []
+  },
+  {
+    "key": "e0098",
+    "text": "Request",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      9.170103073120115,
+      27.61031822916999,
+      52.48710617616279,
+      15.260156287899008
+    ],
+    "components": []
+  },
+  {
+    "key": "e0099",
+    "text": "Inference ",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      328.2934875488281,
+      13.428494498701241,
+      61.97887755094325,
+      15.260156287899008
+    ],
+    "components": []
+  },
+  {
+    "key": "e0100",
+    "text": "Request",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      328.2934875488281,
+      30.01031212565431,
+      52.4871061761628,
+      15.260156287899008
+    ],
+    "components": []
+  },
+  {
+    "key": "e0101",
+    "text": "Loading ",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      39.42245864868164,
+      85.21029381510749,
+      53.509933327140516,
+      15.260156287899008
+    ],
+    "components": []
+  },
+  {
+    "key": "e0102",
+    "text": "Task",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      39.42245864868164,
+      101.79214195963874,
+      29.330959323554453,
+      15.260156287899008
+    ],
+    "components": []
+  },
+  {
+    "key": "e0104",
+    "text": "Loading ",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      329.3590087890625,
+      193.21023277995113,
+      53.509933327140516,
+      15.260156287899008
+    ],
+    "components": []
+  },
+  {
+    "key": "e0105",
+    "text": "Task",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      329.3590087890625,
+      209.79214195963863,
+      29.330959323554453,
+      15.260156287899008
+    ],
+    "components": []
+  },
+  {
+    "key": "e0106",
+    "text": "Server ",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      62.14923095703125,
+      350.08303551432624,
+      45.02562156068598,
+      15.260156287899008
+    ],
+    "components": []
+  },
+  {
+    "key": "e0107",
+    "text": "Status",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      62.14923095703125,
+      366.6648226237011,
+      39.71808315084263,
+      15.260156287899008
+    ],
+    "components": []
+  },
+  {
+    "key": "e0109",
+    "text": "GPU ",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      187.90409851074216,
+      349.4284944987011,
+      34.259659175993875,
+      15.260156287899008
+    ],
+    "components": []
+  },
+  {
+    "key": "e0110",
+    "text": "Status",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      187.90409851074216,
+      366.01028160807624,
+      39.71808315084263,
+      15.260156287899008
+    ],
+    "components": []
+  },
+  {
+    "key": "e0112",
+    "text": "DRAM & ",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      258.025390625,
+      347.90127281901374,
+      58.36368311724891,
+      15.260156287899008
+    ],
+    "components": []
+  },
+  {
+    "key": "e0113",
+    "text": "SSD Status",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      258.025390625,
+      364.4830599283886,
+      72.47119380569438,
+      15.260156287899008
+    ],
+    "components": []
+  },
+  {
+    "key": "e0115",
+    "text": "Loading ",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      330.7309875488281,
+      264.99215416667,
+      53.509933327140516,
+      15.260156287899008
+    ],
+    "components": []
+  },
+  {
+    "key": "e0116",
+    "text": "Results",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      330.7309875488281,
+      281.57400231120124,
+      46.708284251299574,
+      15.260156287899008
+    ],
+    "components": []
+  },
+  {
+    "key": "e0118",
+    "text": "Loading ",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      117.5792999267578,
+      85.64669518229499,
+      53.5099333271405,
+      15.260156287899008
+    ],
+    "components": []
+  },
+  {
+    "key": "e0119",
+    "text": "Results",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      117.5792999267578,
+      102.22848229166999,
+      46.70828425129956,
+      15.260156287899008
+    ],
+    "components": []
+  },
+  {
+    "key": "e0121",
+    "text": "Inference ",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      215.00680541992185,
+      84.11941246745124,
+      61.978877550943224,
+      15.260156287899008
+    ],
+    "components": []
+  },
+  {
+    "key": "e0122",
+    "text": "Status",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      215.00680541992185,
+      100.70126061198249,
+      39.71808315084263,
+      15.260156287899008
+    ],
+    "components": []
+  },
+  {
+    "key": "e0127",
+    "text": "Server Task Queue",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      121.92900085449219,
+      291.39211754557624,
+      119.24360825069016,
+      15.260156287899008
+    ],
+    "components": [
+      "task-queues"
+    ]
+  }
+]

@@ -1,0 +1,78 @@
+{
+  "name": "乱序流水旁路的顺序提交队列",
+  "family": "pipeline",
+  "tags": [
+    "乱序范围",
+    "提交门控",
+    "指令队列",
+    "冲刷",
+    "旁路单元"
+  ],
+  "when_to_use": "主流水与旁路单元之间需要顺序提交门控；说明投机执行后由队列保证外部副作用正确性的结构",
+  "avoid": "各阶段都严格顺序且没有提交确认机制；要展示队列长度或吞吐数据的定量结果",
+  "preserve": [
+    "横向流水占上半部，绿色队列位于左下，辅助单元位于右下；虚线跨越上方三个中间阶段。",
+    "D/I 向队列输入，C 的 isCommitted? 路径回到队列；flush 从左进入，args 从队列折向辅助单元。",
+    "白色流水与绿色旁路处理区区分主从关系，黑线与虚线表示信号和区域。"
+  ],
+  "adapt": "先定义哪些阶段允许乱序，以及外部副作用何时被允许。；确认 flush、args 和 isCommitted? 的新名字对应真实控制语义。；如果改变队列位置，需同时修改 D、I、C 三条跨层线与通往辅助单元的折线。",
+  "visual_note": "已看 print.png 并核对 source viewBox；外部控制连接属于整图，不把跨区域箭头强拆入队列部件。 复核后阶段部件仅导出阶段条，乱序范围与其标签保留整图；flush部件扩大上边界以包含文字。",
+  "id": "architecture.source.asplos26-100_fig6",
+  "display_code": "VA-129",
+  "parts": [
+    {
+      "id": "pipeline",
+      "name": "六级流水阶段条",
+      "role": "region",
+      "box": [
+        0.06,
+        0.115,
+        0.88,
+        0.22
+      ],
+      "meaning": "仅抽取六个阶段和外框；上方标题及跨层乱序范围虚线留在整图。",
+      "reuse": "改级名可复用阶段条，增减阶段须同步重画整图的乱序范围和下行控制线。"
+    },
+    {
+      "id": "instruction-queue",
+      "name": "指令顺序队列",
+      "role": "component",
+      "box": [
+        0.23,
+        0.65,
+        0.35,
+        0.19
+      ],
+      "meaning": "队列暂存待确认指令。",
+      "reuse": "改容量不能用框宽暗示，需明确标注条目数。"
+    },
+    {
+      "id": "side-unit",
+      "name": "旁路执行单元",
+      "role": "component",
+      "box": [
+        0.62,
+        0.43,
+        0.22,
+        0.12
+      ],
+      "meaning": "提交后接收参数的独立功能单元。",
+      "reuse": "替换为外设或加速器时仍需验证副作用时机。"
+    },
+    {
+      "id": "flush-input",
+      "name": "队列冲刷入口",
+      "role": "component",
+      "box": [
+        0.075,
+        0.655,
+        0.16,
+        0.16
+      ],
+      "meaning": "错误投机导致队列清空的输入。",
+      "reuse": "复用时保留取消语义，不能改为普通新数据。"
+    }
+  ],
+  "implementation": "editable vector geometry",
+  "validation_status": "baseline-and-components-checked"
+}

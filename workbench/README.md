@@ -1,14 +1,22 @@
-# Vivid 绘图工作台
+# Vivid Illustration Skill · 绘图工作台
+
+## 数据图与架构图
+
+顶部的“数据图 / 架构图”进入同一风格的两类图库。数据图保留原有表格、绘图编辑和导出；架构图提供 196 套资产的搜索、构图分类、收藏、逐图说明、矢量部件预览及 SVG/PDF/源码入口。架构图详情可进入[模块编辑工作台](../architecture/EDITOR.md)，在独立项目中拖动模块、多选、改单个图元和文字，支持撤销重做、版本保存与当前结果导出。
+
+架构资源优先读取仓库根目录的 `architecture/`，没有随仓库附带时读取已安装的 `~/.codex/skills/vivid-illustration-skill/architecture/`；也可用 `VIVID_ARCHITECTURE_ROOT` 指定包含 `gallery-data.json` 的目录。服务仅挂载该目录中的文件，不依赖 FigGenie 原图库。资源更新后运行 `python scripts/sync_architecture_gallery.py` 刷新演示索引；架构页地址为 `/architecture.html`。完整工作台中的架构资源挂载需要启动本地服务。
 
 本地选图、导入数据、调整图形并导出。148 个模板（145 个单图配方和 3 套组合）均可编辑，支持 7 套配色；图库统一使用粉彩少女预览，无需接入大模型。
 
 新增[环形分组对比柱状图](../catalog/cards/advanced.grouped_radial_bar.md)，按参考图复刻任务内多系列、组间留白和外围层级弧线，展示使用粉彩少女配色。柱长按每个任务的组内最小值与最大值独立缩放，仅在同一任务内可比；数值标签保留原值。
 
+架构图可通过 [Skill 的原生 PPTX 导出](../architecture/PPTX.md) 生成可改字、可移模块的PowerPoint。模块编辑器已提供当前版本的 SVG/PNG/PDF/PPTX 和字体包导出；[架构 Agent](../architecture/AGENT.md)已接入完整 Skill 选型、主体/补充资产源码改造、Python 执行、审图修复和同一模块编辑器。手动模块编辑使用完整 Agent 服务，无需连接模型。
+
 ## 开始使用
 
 **Agent 工作台**使用同一套模板和可拖动编辑器。可以手动选择数据和字段直接出图，也可以让助手选图、整理数据、修改和检查图片。详细操作、开源复用和启动方式见 [Agent 工作台](docs/AGENT-WORKBENCH.md)，本轮实测范围见 [质量报告](docs/AGENT-QUALITY-REPORT.md)。常规手动编辑器仍可独立启动。
 
-Agent 入口：在 `workbench` 目录安装 `requirements-agent.txt` 后执行 `python -X utf8 scripts/manage.py agent --open`，或双击 `启动Agent工作台.cmd`。启动后先打开选图图库 <http://127.0.0.1:8766/index.html>，选好模板后进入编辑；顶部的「Agent 工作台」可进入助手页面。手动绘图不需要模型；使用助手时优先连接本机已登录的 Codex CLI，也支持配置兼容 API。Agent 数据整理需要 Node.js。
+Agent 入口：在 `workbench` 目录安装 `requirements-agent.txt` 并执行 `python -m playwright install chromium` 后执行 `python -X utf8 scripts/manage.py agent --open`，或双击 `启动Agent工作台.cmd`。启动后先打开选图图库 <http://127.0.0.1:8766/index.html>，选好模板后进入编辑；顶部的「Agent 工作台」可进入助手页面。手动绘图不需要模型；使用助手时优先连接本机已登录的 Codex CLI，也支持配置兼容 API。Agent 数据整理需要 Node.js。
 
 安装 Python 3.11 或更新版本，在仓库根目录执行：
 
@@ -69,6 +77,6 @@ python -X utf8 scripts/manage.py serve --open
 | `workspace/` | 运行时创建的用户项目、样式和绘图任务，不进入 Git |
 | `verification/` | 运行测试后生成的验证产物，不进入 Git |
 
-工作台随本仓库维护，使用自带模板快照。Skill 入口仍是仓库根目录的 `SKILL.md`；使用工作台无需安装 Skill。
+工作台随本仓库维护，使用自带模板快照。文件式 Skill 总入口为 [Vivid Illustration Skill](../SKILL.md)，按任务分派到 [Vivid Figure Skill](../channels/vivid-figure-skill/SKILL.md) 数据图通道或 [Vivid Architecture Diagram Skill](../channels/vivid-architecture-diagram-skill/SKILL.md) 架构图通道。两个子入口仍随同一个完整包使用；使用工作台无需另行安装 Skill。
 
 维护方法见 [维护说明](docs/MAINTENANCE.md)，使用许可见仓库 [LICENSE](../LICENSE)。

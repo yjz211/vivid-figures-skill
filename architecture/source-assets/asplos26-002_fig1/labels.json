@@ -1,0 +1,520 @@
+[
+  {
+    "key": "e0012",
+    "text": "Latent noised",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      22.004090000409576,
+      77.89765311154905,
+      32.52232950693724,
+      7.634542443402097
+    ],
+    "components": [
+      "overview"
+    ]
+  },
+  {
+    "key": "e0013",
+    "text": "video input ",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      24.169866563561243,
+      84.4748696473557,
+      27.9490377917773,
+      7.63454834695267
+    ],
+    "components": [
+      "overview"
+    ]
+  },
+  {
+    "key": "e0014",
+    "text": "(FxHxWxC)",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      24.27712227036858,
+      91.05208027961179,
+      27.977374834526927,
+      7.634542443402097
+    ],
+    "components": [
+      "overview"
+    ]
+  },
+  {
+    "key": "e0017",
+    "text": "Token ",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      30.233238057508004,
+      62.42184949788633,
+      16.206025591118305,
+      7.634542443402097
+    ],
+    "components": [
+      "overview"
+    ]
+  },
+  {
+    "key": "e0018",
+    "text": "Embedding",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      24.76074113329554,
+      67.45149157587728,
+      27.398212909129143,
+      7.634542443402097
+    ],
+    "components": [
+      "overview"
+    ]
+  },
+  {
+    "key": "e0021",
+    "text": "DiT Block",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      43.162415253464076,
+      43.28764511198823,
+      29.8833479440691,
+      9.851024602423877
+    ],
+    "components": [
+      "overview"
+    ]
+  },
+  {
+    "key": "e0024",
+    "text": "Conditioning",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      63.64369771262312,
+      63.195639678569464,
+      30.106454927317827,
+      7.634542443402097
+    ],
+    "components": [
+      "overview"
+    ]
+  },
+  {
+    "key": "e0027",
+    "text": "Time stamp",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      64.02008448294504,
+      75.96317765984121,
+      28.527562133713218,
+      7.634542443402097
+    ],
+    "components": [
+      "overview"
+    ]
+  },
+  {
+    "key": "e0030",
+    "text": "Text Prompt",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      64.00192516138299,
+      88.73071564111295,
+      29.361615758643893,
+      7.63454834695267
+    ],
+    "components": [
+      "overview"
+    ]
+  },
+  {
+    "key": "e0031",
+    "text": "N x",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      3.4512849855763648,
+      42.3025432421009,
+      11.678309286380681,
+      11.082404891558326
+    ],
+    "components": [
+      "overview"
+    ]
+  },
+  {
+    "key": "e0037",
+    "text": "Post Process and Reshape",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      29.868941758759263,
+      29.500805992360704,
+      56.38374888208091,
+      6.649440573514767
+    ],
+    "components": [
+      "overview"
+    ]
+  },
+  {
+    "key": "e0043",
+    "text": "Input",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      30.007982181850764,
+      15.572579788288975,
+      10.51242889085188,
+      6.649440573514761
+    ],
+    "components": [
+      "overview"
+    ]
+  },
+  {
+    "key": "e0044",
+    "text": "noise / ",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      23.563784447551313,
+      20.215320872387792,
+      14.970436070425421,
+      6.6494405735147595
+    ],
+    "components": [
+      "overview"
+    ]
+  },
+  {
+    "key": "e0045",
+    "text": "ﬂ",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      38.28568103886022,
+      20.215320872387792,
+      2.57050166762491,
+      6.649441311458581
+    ],
+    "components": [
+      "overview"
+    ]
+  },
+  {
+    "key": "e0046",
+    "text": "ow",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      40.607051580909626,
+      20.215320872387792,
+      6.275497873130007,
+      6.6494405735147595
+    ],
+    "components": [
+      "overview"
+    ]
+  },
+  {
+    "key": "e0052",
+    "text": "Predicted",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      72.75988966459403,
+      15.185684697947407,
+      19.738615797095918,
+      6.649440573514768
+    ],
+    "components": [
+      "overview"
+    ]
+  },
+  {
+    "key": "e0053",
+    "text": "noise / ",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      70.95843301439339,
+      19.441530691704656,
+      14.970436070425421,
+      6.6494405735147595
+    ],
+    "components": [
+      "overview"
+    ]
+  },
+  {
+    "key": "e0054",
+    "text": "ﬂ",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      85.6803296057023,
+      19.441530691704656,
+      2.57050166762491,
+      6.649441311458581
+    ],
+    "components": [
+      "overview"
+    ]
+  },
+  {
+    "key": "e0055",
+    "text": "ow",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      88.0017001477517,
+      19.441530691704656,
+      6.275497873130007,
+      6.6494405735147595
+    ],
+    "components": [
+      "overview"
+    ]
+  },
+  {
+    "key": "e0058",
+    "text": "Training",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      49.34222837890951,
+      1.7849761588622641,
+      18.229408514453098,
+      7.14199150845843
+    ],
+    "components": [
+      "overview"
+    ]
+  },
+  {
+    "key": "e0059",
+    "text": "Loss",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      53.27004948863754,
+      7.97529760432735,
+      10.816815958387451,
+      7.141991508458432
+    ],
+    "components": [
+      "overview"
+    ]
+  },
+  {
+    "key": "e0071",
+    "text": "Spatial Attention",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      116.38233471480811,
+      66.29080040130201,
+      39.15085970432301,
+      7.634542443402097
+    ],
+    "components": [
+      "factorized"
+    ]
+  },
+  {
+    "key": "e0074",
+    "text": "Temporal Attention",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      113.28268729364021,
+      28.76197663816992,
+      45.112548443203195,
+      7.634542443402097
+    ],
+    "components": [
+      "factorized"
+    ]
+  },
+  {
+    "key": "e0077",
+    "text": "Cross Attention",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      117.59135825792322,
+      51.20189187798086,
+      36.733544658363826,
+      7.63454244340209
+    ],
+    "components": [
+      "factorized"
+    ]
+  },
+  {
+    "key": "e0080",
+    "text": "Cross Attention",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      117.59135825792322,
+      13.673068114848773,
+      36.733544658363826,
+      7.634542443402099
+    ],
+    "components": [
+      "factorized"
+    ]
+  },
+  {
+    "key": "e0086",
+    "text": "Embeddings",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      108.1607904308475,
+      87.5350695435959,
+      25.945774168794742,
+      6.649446477065339
+    ],
+    "components": [
+      "factorized"
+    ]
+  },
+  {
+    "key": "e0092",
+    "text": "Text Prompt",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      137.1915712153895,
+      87.67568621469034,
+      27.158835740501672,
+      7.141997412009005
+    ],
+    "components": [
+      "factorized"
+    ]
+  },
+  {
+    "key": "e0106",
+    "text": "Full Attention",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      194.19658614555368,
+      65.90390531096044,
+      31.317013393581874,
+      7.634542443402097
+    ],
+    "components": [
+      "full-attention"
+    ]
+  },
+  {
+    "key": "e0109",
+    "text": "Full Attention",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      194.19658614555368,
+      28.76197663816992,
+      31.317013393581874,
+      7.634542443402097
+    ],
+    "components": [
+      "full-attention"
+    ]
+  },
+  {
+    "key": "e0112",
+    "text": "Cross Attention",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      191.4883205131627,
+      50.814996787639295,
+      36.733544658363826,
+      7.63454244340209
+    ],
+    "components": [
+      "full-attention"
+    ]
+  },
+  {
+    "key": "e0115",
+    "text": "Cross Attention",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      191.4883205131627,
+      13.673068114848773,
+      36.733544658363826,
+      7.634542443402099
+    ],
+    "components": [
+      "full-attention"
+    ]
+  },
+  {
+    "key": "e0121",
+    "text": "Embeddings",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      182.05775268608699,
+      87.5350695435959,
+      25.945679711985576,
+      6.649446477065339
+    ],
+    "components": [
+      "full-attention"
+    ]
+  },
+  {
+    "key": "e0127",
+    "text": "Text Prompt",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      211.088533470629,
+      87.67568621469034,
+      27.158835740501672,
+      7.141997412009005
+    ],
+    "components": [
+      "full-attention"
+    ]
+  },
+  {
+    "key": "e0134",
+    "text": "(a) Latent DiT Overview",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      24.410117457673493,
+      99.7393674753648,
+      65.46015090319088,
+      8.865916828985974
+    ],
+    "components": [
+      "overview"
+    ]
+  },
+  {
+    "key": "e0135",
+    "text": "(b) Spatial-Temporal ",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      108.59000217169518,
+      97.80488021655582,
+      57.45307080444036,
+      8.865916828985974
+    ],
+    "components": [
+      "factorized"
+    ]
+  },
+  {
+    "key": "e0136",
+    "text": "Attention",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      124.85326858916773,
+      105.54279383048832,
+      24.68163507753161,
+      8.865916828985974
+    ],
+    "components": [
+      "factorized"
+    ]
+  },
+  {
+    "key": "e0137",
+    "text": "(c) Full Attention",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      189.23344756476575,
+      99.7393674753648,
+      44.72921909740762,
+      8.865916828985974
+    ],
+    "components": [
+      "full-attention"
+    ]
+  }
+]

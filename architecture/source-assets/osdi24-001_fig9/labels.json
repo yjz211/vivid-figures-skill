@@ -1,0 +1,517 @@
+[
+  {
+    "key": "e0002",
+    "text": "Native ",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      131.4071781441162,
+      43.37843876716579,
+      17.067881552371546,
+      5.660973378082417
+    ],
+    "components": [
+      "local-execution"
+    ]
+  },
+  {
+    "key": "e0003",
+    "text": "Driver ",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      131.81365946290316,
+      49.500921172988456,
+      16.263082653662423,
+      5.660973378082417
+    ],
+    "components": [
+      "local-execution"
+    ]
+  },
+  {
+    "key": "e0004",
+    "text": "Container",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      127.34246574314602,
+      55.61070442946584,
+      23.457313567370875,
+      5.660972408977614
+    ],
+    "components": [
+      "local-execution"
+    ]
+  },
+  {
+    "key": "e0007",
+    "text": "Core",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      46.59171107965085,
+      46.51902058034102,
+      12.935231028255657,
+      6.399359524606552
+    ],
+    "components": [
+      "local-execution"
+    ]
+  },
+  {
+    "key": "e0008",
+    "text": "Kernel",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      44.35611615798189,
+      53.23851224753162,
+      17.09579370892243,
+      6.399359524606552
+    ],
+    "components": [
+      "local-execution"
+    ]
+  },
+  {
+    "key": "e0011",
+    "text": "Linux Runtime",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      140.5629624613648,
+      13.973312305548461,
+      38.31498492929677,
+      6.399359524606552
+    ],
+    "components": [
+      "compatibility-container"
+    ]
+  },
+  {
+    "key": "e0014",
+    "text": "Linux Driver",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      146.20275702307117,
+      7.961435769160744,
+      26.452204040804645,
+      5.168712716716982
+    ],
+    "components": [
+      "compatibility-container"
+    ]
+  },
+  {
+    "key": "e0019",
+    "text": "DC",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      149.18525070785836,
+      21.743373664248793,
+      7.10429023510369,
+      5.168712716716982
+    ],
+    "components": [
+      "compatibility-container"
+    ]
+  },
+  {
+    "key": "e0020",
+    "text": "-",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      155.89713877876056,
+      21.743373664248793,
+      1.5613822895431895,
+      5.1687136858217855
+    ],
+    "components": [
+      "compatibility-container"
+    ]
+  },
+  {
+    "key": "e0021",
+    "text": "Base",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      157.929483349988,
+      21.743373664248793,
+      10.359962934744544,
+      5.168712716716982
+    ],
+    "components": [
+      "compatibility-container"
+    ]
+  },
+  {
+    "key": "e0023",
+    "text": "IO IRQ",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      185.9201606484712,
+      57.37631840920221,
+      17.442165333166486,
+      5.907100801450724
+    ],
+    "components": [
+      "local-execution"
+    ]
+  },
+  {
+    "key": "e0025",
+    "text": "Slow Path",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      133.22106323411572,
+      67.82069667151427,
+      27.848815860925242,
+      6.399360009158954
+    ],
+    "components": [
+      "local-execution",
+      "hardware-base"
+    ]
+  },
+  {
+    "key": "e0028",
+    "text": "init",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      159.51472172906506,
+      29.444070377532626,
+      7.830149732937571,
+      5.66097143987281
+    ],
+    "components": []
+  },
+  {
+    "key": "e0029",
+    "text": "/wake",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      167.4132670026156,
+      29.444070377532626,
+      15.785988482472021,
+      5.66097143987281
+    ],
+    "components": []
+  },
+  {
+    "key": "e0032",
+    "text": "Twin Driver",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      167.49174123318517,
+      48.26567305549179,
+      25.121026177017484,
+      5.168714654926589
+    ],
+    "components": [
+      "local-execution"
+    ]
+  },
+  {
+    "key": "e0033",
+    "text": "Fast Path",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      172.53707140273764,
+      67.98582534629986,
+      25.881160973542137,
+      6.399360009158954
+    ],
+    "components": [
+      "local-execution",
+      "hardware-base"
+    ]
+  },
+  {
+    "key": "e0034",
+    "text": "Hardware",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      33.95297378961186,
+      67.62537602112752,
+      30.035583406173828,
+      6.6454888861844665
+    ],
+    "components": [
+      "local-execution",
+      "hardware-base"
+    ]
+  },
+  {
+    "key": "e0037",
+    "text": "Apps",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      35.6375851443463,
+      12.456961772324576,
+      15.297019870124132,
+      6.6454888861844665
+    ],
+    "components": [
+      "application-registration"
+    ]
+  },
+  {
+    "key": "e0039",
+    "text": "ioctl(",
+    "font_family": "VividSource-Inconsolata-Bold",
+    "bounds": [
+      53.50173844226083,
+      30.13477462951414,
+      17.792442449768714,
+      5.414842078294896
+    ],
+    "components": []
+  },
+  {
+    "key": "e0040",
+    "text": "fd",
+    "font_family": "VividSource-Inconsolata-Bold",
+    "bounds": [
+      71.80567828374478,
+      30.13477462951414,
+      5.598285864762147,
+      5.414842078294896
+    ],
+    "components": []
+  },
+  {
+    "key": "e0041",
+    "text": ",…)",
+    "font_family": "VividSource-Inconsolata-Bold",
+    "bounds": [
+      77.91546154022217,
+      30.13477462951414,
+      8.646825980118592,
+      5.414842078294896
+    ],
+    "components": []
+  },
+  {
+    "key": "e0042",
+    "text": "/dev/a",
+    "font_family": "VividSource-Inconsolata-Bold",
+    "bounds": [
+      91.09023977023026,
+      42.02408185468812,
+      17.855934320075903,
+      5.414842078294896
+    ],
+    "components": [
+      "local-execution"
+    ]
+  },
+  {
+    "key": "e0044",
+    "text": "Virtual",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      90.70183807065769,
+      48.44976420396779,
+      17.62138769910962,
+      6.399359524606552
+    ],
+    "components": [
+      "local-execution"
+    ]
+  },
+  {
+    "key": "e0045",
+    "text": "File ",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      84.64765817138687,
+      55.16925393294878,
+      10.715449958770478,
+      6.399359524606552
+    ],
+    "components": [
+      "local-execution"
+    ]
+  },
+  {
+    "key": "e0046",
+    "text": "System",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      95.42932512317202,
+      55.16925393294878,
+      18.971722826652694,
+      6.399359524606552
+    ],
+    "components": [
+      "local-execution"
+    ]
+  },
+  {
+    "key": "e0047",
+    "text": "Linux ",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      196.56463724785135,
+      6.717205988345086,
+      14.210394634399563,
+      5.66097143987281
+    ],
+    "components": [
+      "compatibility-container"
+    ]
+  },
+  {
+    "key": "e0048",
+    "text": "Driver ",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      195.5484572093992,
+      12.839684517748537,
+      16.237637837941293,
+      5.66097143987281
+    ],
+    "components": [
+      "compatibility-container"
+    ]
+  },
+  {
+    "key": "e0049",
+    "text": "Container",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      191.06711502413964,
+      18.952006828811136,
+      23.554100002307678,
+      5.66097143987281
+    ],
+    "components": [
+      "compatibility-container"
+    ]
+  },
+  {
+    "key": "e0050",
+    "text": "Device",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      63.765155280059844,
+      8.994036319403676,
+      18.03399763667403,
+      6.399359524606552
+    ],
+    "components": [
+      "application-registration"
+    ]
+  },
+  {
+    "key": "e0051",
+    "text": "Manager",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      60.7166151647034,
+      15.716061226550664,
+      23.921088362141745,
+      6.399359524606552
+    ],
+    "components": [
+      "application-registration"
+    ]
+  },
+  {
+    "key": "e0053",
+    "text": "2",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      48.15408827641295,
+      30.80007670638588,
+      2.70742152369985,
+      5.1687136858217855
+    ],
+    "components": []
+  },
+  {
+    "key": "e0055",
+    "text": "3",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      126.75815756933298,
+      30.34279491379857,
+      2.70742152369985,
+      5.1687136858217855
+    ],
+    "components": []
+  },
+  {
+    "key": "e0056",
+    "text": "IPC",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      132.7637775651092,
+      30.117284226020274,
+      8.174313736439217,
+      5.66097143987281
+    ],
+    "components": []
+  },
+  {
+    "key": "e0059",
+    "text": "1",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      104.45300107360526,
+      29.80930271946272,
+      2.70742152369985,
+      5.1687136858217855
+    ],
+    "components": []
+  },
+  {
+    "key": "e0061",
+    "text": "4",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      153.3922431996616,
+      30.19037411030149,
+      2.70742152369985,
+      5.1687136858217855
+    ],
+    "components": []
+  },
+  {
+    "key": "e0063",
+    "text": "5",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      180.68682414703653,
+      57.6145301845354,
+      2.70742152369985,
+      5.1687136858217855
+    ],
+    "components": [
+      "local-execution"
+    ]
+  },
+  {
+    "key": "e0064",
+    "text": "Registration ",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      87.61998013215634,
+      13.128710334349307,
+      28.301601007224235,
+      5.168712716716982
+    ],
+    "components": [
+      "application-registration"
+    ]
+  },
+  {
+    "key": "e0065",
+    "text": "Procedure",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      89.65234408547985,
+      18.641482391249156,
+      22.907396984825027,
+      5.168712716716982
+    ],
+    "components": [
+      "application-registration"
+    ]
+  }
+]

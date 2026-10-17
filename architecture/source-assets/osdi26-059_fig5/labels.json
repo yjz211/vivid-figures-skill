@@ -1,0 +1,340 @@
+[
+  {
+    "key": "e0010",
+    "text": "GPU 0",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      56.98759226060111,
+      50.772446226029956,
+      18.980961267845025,
+      7.183637224477479
+    ],
+    "components": []
+  },
+  {
+    "key": "e0013",
+    "text": "Proxy",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      59.77014368308404,
+      15.759228997373272,
+      16.468582942921323,
+      7.183636577600167
+    ],
+    "components": [
+      "left-proxy"
+    ]
+  },
+  {
+    "key": "e0016",
+    "text": "Proxy",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      201.9358541323028,
+      16.483372716718094,
+      16.46858294292133,
+      7.18363787135479
+    ],
+    "components": [
+      "right-proxy"
+    ]
+  },
+  {
+    "key": "e0019",
+    "text": "FIFO",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      49.153138837669765,
+      34.846194558286356,
+      14.403485347060496,
+      7.1836365776001685
+    ],
+    "components": [
+      "left-proxy"
+    ]
+  },
+  {
+    "key": "e0025",
+    "text": "GPU",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      11.721762716770172,
+      60.35977293152616,
+      17.623719519394854,
+      9.046061690082745
+    ],
+    "components": []
+  },
+  {
+    "key": "e0027",
+    "text": "CPU",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      13.46469122171402,
+      13.986366521308867,
+      17.176041607663137,
+      9.046061690082752
+    ],
+    "components": []
+  },
+  {
+    "key": "e0042",
+    "text": "FIFO",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      73.25682612404671,
+      34.76118784441917,
+      14.403485347060496,
+      7.1836365776001685
+    ],
+    "components": [
+      "left-proxy"
+    ]
+  },
+  {
+    "key": "e0052",
+    "text": "GPUDirect RDMA",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      107.23299413919449,
+      74.27305156865128,
+      50.921462580820844,
+      7.183637224477479
+    ],
+    "components": [
+      "direct-channel"
+    ]
+  },
+  {
+    "key": "e0054",
+    "text": "Node 0",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      56.28010284914899,
+      76.70228893437395,
+      20.405385106288577,
+      7.183637224477479
+    ],
+    "components": []
+  },
+  {
+    "key": "e0057",
+    "text": "GPU N",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      56.462379634393535,
+      66.27231271162566,
+      20.0327320250667,
+      7.183637224477479
+    ],
+    "components": []
+  },
+  {
+    "key": "e0059",
+    "text": "Node 1",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      200.54880959664547,
+      76.70228893437395,
+      20.40539416257093,
+      7.183637224477479
+    ],
+    "components": []
+  },
+  {
+    "key": "e0061",
+    "text": "…",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      63.87607780975486,
+      56.78679592289934,
+      6.331411945713512,
+      7.183637224477479
+    ],
+    "components": []
+  },
+  {
+    "key": "e0063",
+    "text": "…",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      206.4828626303115,
+      57.129062005663,
+      6.331411945713512,
+      7.183637224477479
+    ],
+    "components": []
+  },
+  {
+    "key": "e0072",
+    "text": "FIFO",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      189.83185358986702,
+      34.75495462908714,
+      14.403485347060496,
+      7.1836365776001685
+    ],
+    "components": []
+  },
+  {
+    "key": "e0079",
+    "text": "FIFO",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      213.9355370615467,
+      34.669944100522684,
+      14.403485347060496,
+      7.1836365776001685
+    ],
+    "components": [
+      "right-proxy"
+    ]
+  },
+  {
+    "key": "e0086",
+    "text": "Communication ",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      90.6861390290112,
+      49.16039156117282,
+      32.66491851329829,
+      5.055152120928597
+    ],
+    "components": [
+      "direct-channel"
+    ]
+  },
+  {
+    "key": "e0087",
+    "text": "channel",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      98.47074597532196,
+      54.58679223096215,
+      15.838202297273938,
+      5.055152120928597
+    ],
+    "components": [
+      "direct-channel"
+    ]
+  },
+  {
+    "key": "e0093",
+    "text": "Manages",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      79.54197317361832,
+      24.07439930119523,
+      26.06591606480106,
+      7.183637224477479
+    ],
+    "components": []
+  },
+  {
+    "key": "e0096",
+    "text": "Control ",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      167.34324816666867,
+      14.189665142615398,
+      15.829516028744138,
+      5.055151797489939
+    ],
+    "components": [
+      "control-buffer"
+    ]
+  },
+  {
+    "key": "e0097",
+    "text": "buffer",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      168.89047519379983,
+      19.616065084667753,
+      11.562853012020923,
+      5.055152120928597
+    ],
+    "components": [
+      "control-buffer"
+    ]
+  },
+  {
+    "key": "e0111",
+    "text": "imm",
+    "font_family": "VividSource-Arimo-Italic",
+    "bounds": [
+      111.2297974228859,
+      10.251144715929115,
+      12.000208055626445,
+      7.183637224477479
+    ],
+    "components": []
+  },
+  {
+    "key": "e0113",
+    "text": "Write",
+    "font_family": "VividSource-Arimo-Italic",
+    "bounds": [
+      130.44029241800308,
+      45.23166210331925,
+      14.758319545878294,
+      7.183637224477479
+    ],
+    "components": [
+      "direct-channel"
+    ]
+  },
+  {
+    "key": "e0120",
+    "text": "Communication ",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      153.77872936104245,
+      48.830145589493135,
+      32.66491851329829,
+      5.055152120928597
+    ],
+    "components": [
+      "direct-channel"
+    ]
+  },
+  {
+    "key": "e0121",
+    "text": "channel",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      161.5633363073532,
+      54.256546259282466,
+      15.838202297273938,
+      5.055152120928597
+    ],
+    "components": [
+      "direct-channel"
+    ]
+  },
+  {
+    "key": "e0124",
+    "text": "GPU 0",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      201.256303350689,
+      50.76710564985809,
+      18.980961267845032,
+      7.183637224477479
+    ],
+    "components": []
+  },
+  {
+    "key": "e0127",
+    "text": "GPU N",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      200.73109072448142,
+      66.26697213545378,
+      20.032732025066707,
+      7.183637224477479
+    ],
+    "components": []
+  }
+]

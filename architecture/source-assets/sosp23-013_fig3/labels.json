@@ -1,0 +1,530 @@
+[
+  {
+    "key": "e0004",
+    "text": "Node Cluster",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      367.2417907714844,
+      266.7918395996094,
+      100.18463134765625,
+      22.64923095703125
+    ],
+    "components": [
+      "replica-cluster"
+    ]
+  },
+  {
+    "key": "e0011",
+    "text": "Job Submission",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      79.3842544555664,
+      5.909224510192871,
+      101.1155776977539,
+      19.75784683227539
+    ],
+    "components": []
+  },
+  {
+    "key": "e0013",
+    "text": "1",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      60.191558837890625,
+      6.864808082580566,
+      6.678814888000488,
+      17.348352432250977
+    ],
+    "components": []
+  },
+  {
+    "key": "e0014",
+    "text": "New Node Addition",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      133.72439575195312,
+      189.05184936523438,
+      122.10969543457031,
+      19.757843017578125
+    ],
+    "components": []
+  },
+  {
+    "key": "e0015",
+    "text": "& Failure Detection",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      133.72439575195312,
+      205.44384765625,
+      118.24571228027344,
+      19.757843017578125
+    ],
+    "components": []
+  },
+  {
+    "key": "e0017",
+    "text": "4",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      263.8042297363281,
+      198.2034454345703,
+      7.228480339050293,
+      17.348352432250977
+    ],
+    "components": []
+  },
+  {
+    "key": "e0019",
+    "text": "3",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      349.3254089355469,
+      198.2034454345703,
+      6.746581554412842,
+      17.348352432250977
+    ],
+    "components": []
+  },
+  {
+    "key": "e0020",
+    "text": "Pipelines",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      366.1654052734375,
+      187.63442993164062,
+      56.5206298828125,
+      19.757843017578125
+    ],
+    "components": []
+  },
+  {
+    "key": "e0021",
+    "text": "Instantiation",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      366.1654052734375,
+      204.02642822265625,
+      76.49771118164062,
+      19.757843017578125
+    ],
+    "components": []
+  },
+  {
+    "key": "e0024",
+    "text": "Pipeline Template ",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      38.603309631347656,
+      39.78238296508789,
+      121.77283477783203,
+      20.23974609375
+    ],
+    "components": [
+      "template-generator"
+    ]
+  },
+  {
+    "key": "e0025",
+    "text": "Generator",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      63.838314056396484,
+      57.18848419189453,
+      67.74679565429688,
+      20.23974609375
+    ],
+    "components": [
+      "template-generator"
+    ]
+  },
+  {
+    "key": "e0030",
+    "text": "Agent",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      33.09243202209473,
+      299.49737548828125,
+      31.635194778442383,
+      17.348358154296875
+    ],
+    "components": [
+      "replica-cluster"
+    ]
+  },
+  {
+    "key": "e0033",
+    "text": "Agent",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      101.12393188476562,
+      299.49737548828125,
+      31.63519287109375,
+      17.348358154296875
+    ],
+    "components": [
+      "replica-cluster"
+    ]
+  },
+  {
+    "key": "e0036",
+    "text": "GPUs",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      101.61181640625,
+      339.18243408203125,
+      31.549148559570312,
+      17.348358154296875
+    ],
+    "components": [
+      "replica-cluster"
+    ]
+  },
+  {
+    "key": "e0039",
+    "text": "Agent",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      180.4940185546875,
+      299.49737548828125,
+      31.63519287109375,
+      17.348358154296875
+    ],
+    "components": [
+      "replica-cluster"
+    ]
+  },
+  {
+    "key": "e0042",
+    "text": "GPUs",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      180.98191833496094,
+      339.18243408203125,
+      31.54913330078125,
+      17.348358154296875
+    ],
+    "components": [
+      "replica-cluster"
+    ]
+  },
+  {
+    "key": "e0045",
+    "text": "Agent",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      251.36021423339844,
+      299.49737548828125,
+      31.635177612304688,
+      17.348358154296875
+    ],
+    "components": [
+      "replica-cluster"
+    ]
+  },
+  {
+    "key": "e0048",
+    "text": "GPUs",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      251.8480224609375,
+      339.18243408203125,
+      31.54913330078125,
+      17.348358154296875
+    ],
+    "components": [
+      "replica-cluster"
+    ]
+  },
+  {
+    "key": "e0051",
+    "text": "Pipeline Execution",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      33.924081802368164,
+      318.6758728027344,
+      98.89881134033203,
+      17.348358154296875
+    ],
+    "components": [
+      "replica-cluster"
+    ]
+  },
+  {
+    "key": "e0054",
+    "text": "Agent",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      322.2262878417969,
+      299.4974365234375,
+      31.63519287109375,
+      17.348358154296875
+    ],
+    "components": [
+      "replica-cluster"
+    ]
+  },
+  {
+    "key": "e0057",
+    "text": "GPUs",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      322.7142333984375,
+      339.18243408203125,
+      31.54913330078125,
+      17.348358154296875
+    ],
+    "components": [
+      "replica-cluster"
+    ]
+  },
+  {
+    "key": "e0060",
+    "text": "Agent",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      393.0924377441406,
+      299.49737548828125,
+      31.63519287109375,
+      17.348358154296875
+    ],
+    "components": [
+      "replica-cluster"
+    ]
+  },
+  {
+    "key": "e0063",
+    "text": "GPUs",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      393.5802917480469,
+      339.18243408203125,
+      31.5491943359375,
+      17.348358154296875
+    ],
+    "components": [
+      "replica-cluster"
+    ]
+  },
+  {
+    "key": "e0066",
+    "text": "Pipeline Execution",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      253.60911560058594,
+      318.6758728027344,
+      98.89881896972656,
+      17.348358154296875
+    ],
+    "components": [
+      "replica-cluster"
+    ]
+  },
+  {
+    "key": "e0069",
+    "text": "GPUs",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      33.58032989501953,
+      339.18243408203125,
+      31.549152374267578,
+      17.348358154296875
+    ],
+    "components": [
+      "replica-cluster"
+    ]
+  },
+  {
+    "key": "e0070",
+    "text": "…",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      452.37799072265625,
+      316.2827453613281,
+      16.00054168701172,
+      22.64923858642578
+    ],
+    "components": [
+      "replica-cluster"
+    ]
+  },
+  {
+    "key": "e0076",
+    "text": "Distributed Execution ",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      293.35931396484375,
+      39.78238296508789,
+      148.00888061523438,
+      20.23974609375
+    ],
+    "components": [
+      "execution-engine"
+    ]
+  },
+  {
+    "key": "e0077",
+    "text": "Engine",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      342.4783020019531,
+      57.18848419189453,
+      46.03424072265625,
+      20.23974609375
+    ],
+    "components": [
+      "execution-engine"
+    ]
+  },
+  {
+    "key": "e0082",
+    "text": "5",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      349.3254089355469,
+      235.05384826660156,
+      6.746581554412842,
+      17.348352432250977
+    ],
+    "components": []
+  },
+  {
+    "key": "e0083",
+    "text": "Dynamic",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      369,
+      224.48484802246094,
+      54.43646240234375,
+      19.757843017578125
+    ],
+    "components": []
+  },
+  {
+    "key": "e0084",
+    "text": "Reconﬁguration",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      369,
+      240.87684631347656,
+      99.03775024414062,
+      19.757858276367188
+    ],
+    "components": []
+  },
+  {
+    "key": "e0087",
+    "text": "Node Change Monitor",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      296.0542907714844,
+      153.31085205078125,
+      138.883056640625,
+      19.757843017578125
+    ],
+    "components": [
+      "execution-engine"
+    ]
+  },
+  {
+    "key": "e0090",
+    "text": "Pipeline Instantiator",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      303.5793151855469,
+      82.44465637207031,
+      123.83306884765625,
+      19.757843017578125
+    ],
+    "components": [
+      "execution-engine"
+    ]
+  },
+  {
+    "key": "e0093",
+    "text": "Batch Distributor",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      312.3923034667969,
+      113.625732421875,
+      106.20700073242188,
+      19.757843017578125
+    ],
+    "components": [
+      "execution-engine"
+    ]
+  },
+  {
+    "key": "e0095",
+    "text": "2",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      218.93170166015625,
+      67.39237976074219,
+      6.746581554412842,
+      17.348352432250977
+    ],
+    "components": []
+  },
+  {
+    "key": "e0096",
+    "text": "Pipeline ",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      190.4173126220703,
+      94.09114074707031,
+      53.41084289550781,
+      19.757843017578125
+    ],
+    "components": []
+  },
+  {
+    "key": "e0097",
+    "text": "Templates",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      189.93540954589844,
+      110.48314666748047,
+      64.28248596191406,
+      19.757850646972656
+    ],
+    "components": []
+  },
+  {
+    "key": "e0101",
+    "text": "Oobleck",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      405.8711853027344,
+      5.445569038391113,
+      63.65203857421875,
+      22.64923858642578
+    ],
+    "components": []
+  },
+  {
+    "key": "e0131",
+    "text": "Agent",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      20.336532592773438,
+      208.7887420654297,
+      31.635189056396484,
+      17.348358154296875
+    ],
+    "components": [
+      "new-node"
+    ]
+  },
+  {
+    "key": "e0134",
+    "text": "GPUs",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      20.824420928955078,
+      228.63124084472656,
+      31.549148559570312,
+      17.348358154296875
+    ],
+    "components": []
+  }
+]

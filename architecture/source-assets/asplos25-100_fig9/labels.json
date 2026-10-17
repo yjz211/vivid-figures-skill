@@ -1,0 +1,642 @@
+[
+  {
+    "key": "e0004",
+    "text": "Host",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      45.70484161376954,
+      4.563825912628062,
+      18.978054953338876,
+      11.095210401821532
+    ],
+    "components": [
+      "device-and-block-map"
+    ]
+  },
+  {
+    "key": "e0006",
+    "text": "CXL Switch",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      30.017360687255863,
+      30.723814315948403,
+      50.322094284776554,
+      11.095210401821532
+    ],
+    "components": [
+      "device-and-block-map"
+    ]
+  },
+  {
+    "key": "e0009",
+    "text": "Decoder 0",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      23.106929779052734,
+      136.80383140579218,
+      41.69709394204983,
+      11.095210401821532
+    ],
+    "components": [
+      "device-and-block-map"
+    ]
+  },
+  {
+    "key": "e0011",
+    "text": "Decoder 1",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      23.366849899291996,
+      161.5238326264953,
+      41.627748236169296,
+      11.095210401821532
+    ],
+    "components": [
+      "device-and-block-map"
+    ]
+  },
+  {
+    "key": "e0013",
+    "text": "Decoder 2",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      22.84700965881348,
+      186.00384361282343,
+      41.627748236169296,
+      11.095210401821532
+    ],
+    "components": [
+      "device-and-block-map"
+    ]
+  },
+  {
+    "key": "e0014",
+    "text": "Single ",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      79.02002716064455,
+      154.56384117141718,
+      28.001375624393404,
+      11.095210401821532
+    ],
+    "components": [
+      "device-and-block-map"
+    ]
+  },
+  {
+    "key": "e0015",
+    "text": "Prompt",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      77.08003997802736,
+      166.56384117141718,
+      29.478049877407102,
+      11.095210401821532
+    ],
+    "components": [
+      "device-and-block-map"
+    ]
+  },
+  {
+    "key": "e0018",
+    "text": "(a) Decoder block mapping",
+    "font_family": "VividSource-Tinos-Bold",
+    "bounds": [
+      0.758976399898529,
+      204.24383384719837,
+      115.94709689247976,
+      11.095210401821532
+    ],
+    "components": []
+  },
+  {
+    "key": "e0021",
+    "text": "time",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      2.0455899238586426,
+      118.56384117141712,
+      17.688084198955043,
+      11.095210401821532
+    ],
+    "components": [
+      "device-and-block-map"
+    ]
+  },
+  {
+    "key": "e0023",
+    "text": "…",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      66.07472229003908,
+      73.4438155366515,
+      10.00055001896817,
+      11.095211317348912
+    ],
+    "components": [
+      "device-and-block-map"
+    ]
+  },
+  {
+    "key": "e0028",
+    "text": "CXL Device",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      11.437635727081215,
+      57.5419202781486,
+      11.095210401821532,
+      50.93808307878499
+    ],
+    "components": [
+      "device-and-block-map"
+    ]
+  },
+  {
+    "key": "e0029",
+    "text": "CXL Device",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      43.6579268647765,
+      57.5419202781486,
+      11.095210401821532,
+      50.93808307878499
+    ],
+    "components": [
+      "device-and-block-map"
+    ]
+  },
+  {
+    "key": "e0030",
+    "text": "CXL Device",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      89.5644210054015,
+      58.50191936262126,
+      11.095210401821532,
+      50.93808307878499
+    ],
+    "components": [
+      "device-and-block-map"
+    ]
+  },
+  {
+    "key": "e0033",
+    "text": "Host",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      265.0611877441406,
+      2.8838179780577775,
+      18.97805495333887,
+      11.095210401821532
+    ],
+    "components": [
+      "broadcast"
+    ]
+  },
+  {
+    "key": "e0037",
+    "text": "D",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      241.27250671386722,
+      62.64382774368275,
+      7.291139205739455,
+      11.095211317348912
+    ],
+    "components": [
+      "broadcast"
+    ]
+  },
+  {
+    "key": "e0038",
+    "text": "…",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      268.1142883300781,
+      63.603819198760874,
+      10.00055001896817,
+      11.095211317348912
+    ],
+    "components": [
+      "broadcast"
+    ]
+  },
+  {
+    "key": "e0041",
+    "text": "D",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      299.0519104003906,
+      63.12380821243275,
+      7.291139205739455,
+      11.095211317348912
+    ],
+    "components": [
+      "broadcast"
+    ]
+  },
+  {
+    "key": "e0045",
+    "text": "Add & Norm",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      125.59169769287112,
+      9.843824691924965,
+      53.55014861226664,
+      11.095210401821532
+    ],
+    "components": [
+      "layer-stack"
+    ]
+  },
+  {
+    "key": "e0048",
+    "text": "FC Layer",
+    "font_family": "VividSource-Tinos-Bold",
+    "bounds": [
+      133.06159973144534,
+      30.24381858840931,
+      41.438083921992074,
+      11.095210401821532
+    ],
+    "components": [
+      "layer-stack"
+    ]
+  },
+  {
+    "key": "e0051",
+    "text": "Layers mapped to a ",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      150.09869384765628,
+      175.68383628860468,
+      81.37637286251268,
+      11.095210401821532
+    ],
+    "components": [
+      "mapping-legend"
+    ]
+  },
+  {
+    "key": "e0052",
+    "text": "single",
+    "font_family": "VividSource-Tinos-Bold",
+    "bounds": [
+      231.47369384765628,
+      175.68383628860468,
+      24.3130838518573,
+      11.095210401821532
+    ],
+    "components": [
+      "mapping-legend"
+    ]
+  },
+  {
+    "key": "e0053",
+    "text": " ",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      255.84869384765628,
+      175.68383628860468,
+      2.5013757555236964,
+      11.095211317348912
+    ],
+    "components": [
+      "mapping-legend"
+    ]
+  },
+  {
+    "key": "e0054",
+    "text": "CXL device",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      258.34869384765625,
+      175.68383628860468,
+      48.6880793272685,
+      11.095210401821532
+    ],
+    "components": [
+      "mapping-legend"
+    ]
+  },
+  {
+    "key": "e0057",
+    "text": "Layers mapped to ",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      150.10049438476565,
+      190.80383140579218,
+      74.37637502576402,
+      11.095210401821532
+    ],
+    "components": [
+      "mapping-legend"
+    ]
+  },
+  {
+    "key": "e0058",
+    "text": "multiple",
+    "font_family": "VividSource-Tinos-Bold",
+    "bounds": [
+      224.47549438476565,
+      190.80383140579218,
+      35.41308246187694,
+      11.095210401821532
+    ],
+    "components": [
+      "mapping-legend"
+    ]
+  },
+  {
+    "key": "e0059",
+    "text": " ",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      259.9754943847656,
+      190.80383140579218,
+      2.501375755523668,
+      11.095211317348912
+    ],
+    "components": [
+      "mapping-legend"
+    ]
+  },
+  {
+    "key": "e0060",
+    "text": "CXL devices",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      262.4754943847656,
+      190.80383140579218,
+      52.64321986529103,
+      11.095210401821532
+    ],
+    "components": [
+      "mapping-legend"
+    ]
+  },
+  {
+    "key": "e0064",
+    "text": "D",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      209.2711944580078,
+      62.64382774368275,
+      7.291139205739455,
+      11.095211317348912
+    ],
+    "components": [
+      "broadcast"
+    ]
+  },
+  {
+    "key": "e0066",
+    "text": "Broadcast",
+    "font_family": "VividSource-Tinos-Bold",
+    "bounds": [
+      264.3680114746094,
+      18.00381309524525,
+      43.487063495598704,
+      11.095210401821532
+    ],
+    "components": [
+      "broadcast"
+    ]
+  },
+  {
+    "key": "e0067",
+    "text": "Host",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      263.8031921386719,
+      85.68383628860462,
+      18.97805495333887,
+      11.095210401821532
+    ],
+    "components": [
+      "gather"
+    ]
+  },
+  {
+    "key": "e0072",
+    "text": "D",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      240.55619812011722,
+      145.92382652297968,
+      7.291139205739455,
+      11.095211317348912
+    ],
+    "components": [
+      "gather"
+    ]
+  },
+  {
+    "key": "e0073",
+    "text": "…",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      267.39801025390625,
+      146.88384849563593,
+      10.00055001896817,
+      11.095211317348912
+    ],
+    "components": [
+      "gather"
+    ]
+  },
+  {
+    "key": "e0077",
+    "text": "D",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      298.3356018066406,
+      146.40380699172962,
+      7.291139205739455,
+      11.095211317348912
+    ],
+    "components": [
+      "gather"
+    ]
+  },
+  {
+    "key": "e0081",
+    "text": "D",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      208.55499267578128,
+      146.16381675735462,
+      7.291139205739455,
+      11.095211317348912
+    ],
+    "components": [
+      "gather"
+    ]
+  },
+  {
+    "key": "e0088",
+    "text": "Gather",
+    "font_family": "VividSource-Tinos-Bold",
+    "bounds": [
+      266.7218017578125,
+      101.76382286087025,
+      30.56308165880364,
+      11.095210401821532
+    ],
+    "components": [
+      "gather"
+    ]
+  },
+  {
+    "key": "e0089",
+    "text": "CXL Switch",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      204.03010559082034,
+      17.043821640167153,
+      50.32209428477654,
+      11.095210401821532
+    ],
+    "components": [
+      "broadcast"
+    ]
+  },
+  {
+    "key": "e0090",
+    "text": "CXL Switch",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      203.59100341796875,
+      100.56384117141712,
+      50.32209428477654,
+      11.095210401821532
+    ],
+    "components": [
+      "gather"
+    ]
+  },
+  {
+    "key": "e0093",
+    "text": "FC Layer",
+    "font_family": "VividSource-Tinos-Bold",
+    "bounds": [
+      132.33900451660156,
+      71.52380210891712,
+      41.438083921992074,
+      11.095210401821532
+    ],
+    "components": [
+      "layer-stack"
+    ]
+  },
+  {
+    "key": "e0096",
+    "text": "FC Layer",
+    "font_family": "VividSource-Tinos-Bold",
+    "bounds": [
+      132.33900451660156,
+      111.843839950714,
+      41.438083921992074,
+      11.095210401821532
+    ],
+    "components": [
+      "layer-stack"
+    ]
+  },
+  {
+    "key": "e0099",
+    "text": "FC Layer",
+    "font_family": "VividSource-Tinos-Bold",
+    "bounds": [
+      132.33900451660156,
+      152.88384849563587,
+      41.438083921992074,
+      11.095210401821532
+    ],
+    "components": [
+      "layer-stack"
+    ]
+  },
+  {
+    "key": "e0102",
+    "text": "Add & Norm",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      125.17189788818361,
+      91.44384605422962,
+      53.55014861226665,
+      11.095210401821532
+    ],
+    "components": [
+      "layer-stack"
+    ]
+  },
+  {
+    "key": "e0105",
+    "text": "SiLU",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      141.04690551757812,
+      132.24383384719837,
+      21.67113733574297,
+      11.095210401821532
+    ],
+    "components": [
+      "layer-stack"
+    ]
+  },
+  {
+    "key": "e0108",
+    "text": "Attention score",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      121.52919769287111,
+      50.88381797805775,
+      61.43807983390799,
+      11.095210401821532
+    ],
+    "components": [
+      "layer-stack"
+    ]
+  },
+  {
+    "key": "e0119",
+    "text": "(b) Layer Mapping in Each Decoder Block",
+    "font_family": "VividSource-Tinos-Bold",
+    "bounds": [
+      126.54149627685548,
+      204.72381431594843,
+      182.14811270666547,
+      11.095210401821532
+    ],
+    "components": []
+  },
+  {
+    "key": "e0120",
+    "text": "16KB",
+    "font_family": "VividSource-Tinos-Bold",
+    "bounds": [
+      262.8699951171875,
+      44.16381675735468,
+      24.42198583372374,
+      11.095210401821532
+    ],
+    "components": [
+      "broadcast"
+    ]
+  },
+  {
+    "key": "e0121",
+    "text": "16KB",
+    "font_family": "VividSource-Tinos-Bold",
+    "bounds": [
+      261.4585876464844,
+      128.16381675735462,
+      24.42198583372374,
+      11.095210401821532
+    ],
+    "components": [
+      "gather"
+    ]
+  }
+]

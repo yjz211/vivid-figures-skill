@@ -1,0 +1,36 @@
+{
+  "title": "FleetIO system architecture",
+  "agents": [
+    {
+      "name": "vSSD-1",
+      "input": "Workload",
+      "monitor": "Monitor",
+      "policy": "RL Model"
+    },
+    {
+      "name": "vSSD-2",
+      "input": "Workload",
+      "monitor": "Monitor",
+      "policy": "RL Model"
+    },
+    {
+      "name": "vSSD-3",
+      "input": "Workload",
+      "monitor": "Monitor",
+      "policy": "RL Model"
+    }
+  ],
+  "admission": "Admission Control",
+  "manager": "vSSD Manager",
+  "resources": [
+    "ghost Superblock",
+    "ghost Superblock"
+  ],
+  "pool_name": "Ghost Superblock Manager",
+  "system_name": "SSD Virtualization",
+  "action_label": "Actions",
+  "feedback_label": "Reward",
+  "allocation_label": "Block\nHarvesting",
+  "font_profile": "reference-system",
+  "caption": "VA-004: editable architecture example; replace labels, objects and quantities for the current task."
+}

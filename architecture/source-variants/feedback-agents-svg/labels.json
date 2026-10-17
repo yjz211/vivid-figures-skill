@@ -1,0 +1,486 @@
+[
+  {
+    "key": "e0003",
+    "text": "Workload",
+    "font_family": "Arial",
+    "font_size": 21,
+    "font_weight": "400",
+    "bounds": [
+      84.84407043457031,
+      21.419740676879883,
+      88.31184387207031,
+      23.40032196044922
+    ],
+    "components": [
+      "workload-0"
+    ]
+  },
+  {
+    "key": "e0005",
+    "text": "vSSD-1",
+    "font_family": "Arial",
+    "font_size": 21,
+    "font_weight": "400",
+    "bounds": [
+      89.82699584960938,
+      73.41973876953125,
+      72.34600067138672,
+      23.40032196044922
+    ],
+    "components": [
+      "agent-0"
+    ]
+  },
+  {
+    "key": "e0007",
+    "text": "RL Agent",
+    "font_family": "Arial",
+    "font_size": 21,
+    "font_weight": "400",
+    "bounds": [
+      83.19081115722656,
+      104.41973876953125,
+      86.01769256591797,
+      23.40032196044922
+    ],
+    "components": [
+      "agent-0",
+      "rl-agent-0"
+    ]
+  },
+  {
+    "key": "e0009",
+    "text": "Monitor",
+    "font_family": "Arial",
+    "font_size": 21,
+    "font_weight": "400",
+    "bounds": [
+      90.99091339111328,
+      138.41973876953125,
+      70.82451629638672,
+      23.40032196044922
+    ],
+    "components": [
+      "agent-0",
+      "rl-agent-0",
+      "monitor-0"
+    ]
+  },
+  {
+    "key": "e0011",
+    "text": "RL Model",
+    "font_family": "Arial",
+    "font_size": 21,
+    "font_weight": "400",
+    "bounds": [
+      81.45406341552734,
+      204.41973876953125,
+      89.09185028076172,
+      23.40032196044922
+    ],
+    "components": [
+      "agent-0",
+      "rl-agent-0",
+      "policy-0"
+    ]
+  },
+  {
+    "key": "e0015",
+    "text": "Workload",
+    "font_family": "Arial",
+    "font_size": 21,
+    "font_weight": "400",
+    "bounds": [
+      351.8440856933594,
+      21.419740676879883,
+      88.31184387207031,
+      23.40032196044922
+    ],
+    "components": [
+      "workload-1"
+    ]
+  },
+  {
+    "key": "e0017",
+    "text": "vSSD-2",
+    "font_family": "Arial",
+    "font_size": 21,
+    "font_weight": "400",
+    "bounds": [
+      356.82696533203125,
+      73.41973876953125,
+      72.34600067138672,
+      23.40032196044922
+    ],
+    "components": [
+      "agent-1"
+    ]
+  },
+  {
+    "key": "e0019",
+    "text": "RL Agent",
+    "font_family": "Arial",
+    "font_size": 21,
+    "font_weight": "400",
+    "bounds": [
+      350.1907958984375,
+      104.41973876953125,
+      86.01770782470703,
+      23.40032196044922
+    ],
+    "components": [
+      "agent-1",
+      "rl-agent-1"
+    ]
+  },
+  {
+    "key": "e0021",
+    "text": "Monitor",
+    "font_family": "Arial",
+    "font_size": 21,
+    "font_weight": "400",
+    "bounds": [
+      357.99090576171875,
+      138.41973876953125,
+      70.82449340820312,
+      23.40032196044922
+    ],
+    "components": [
+      "agent-1",
+      "rl-agent-1",
+      "monitor-1"
+    ]
+  },
+  {
+    "key": "e0023",
+    "text": "RL Model",
+    "font_family": "Arial",
+    "font_size": 21,
+    "font_weight": "400",
+    "bounds": [
+      348.45404052734375,
+      204.41973876953125,
+      89.09185028076172,
+      23.40032196044922
+    ],
+    "components": [
+      "agent-1",
+      "rl-agent-1",
+      "policy-1"
+    ]
+  },
+  {
+    "key": "e0027",
+    "text": "Workload",
+    "font_family": "Arial",
+    "font_size": 21,
+    "font_weight": "400",
+    "bounds": [
+      618.8440551757812,
+      21.419740676879883,
+      88.31184387207031,
+      23.40032196044922
+    ],
+    "components": [
+      "workload-2"
+    ]
+  },
+  {
+    "key": "e0029",
+    "text": "vSSD-3",
+    "font_family": "Arial",
+    "font_size": 21,
+    "font_weight": "400",
+    "bounds": [
+      623.8269653320312,
+      73.41973876953125,
+      72.36642456054688,
+      23.40032196044922
+    ],
+    "components": [
+      "agent-2"
+    ]
+  },
+  {
+    "key": "e0031",
+    "text": "RL Agent",
+    "font_family": "Arial",
+    "font_size": 21,
+    "font_weight": "400",
+    "bounds": [
+      617.1907958984375,
+      104.41973876953125,
+      86.01770782470703,
+      23.40032196044922
+    ],
+    "components": [
+      "agent-2",
+      "rl-agent-2"
+    ]
+  },
+  {
+    "key": "e0033",
+    "text": "Monitor",
+    "font_family": "Arial",
+    "font_size": 21,
+    "font_weight": "400",
+    "bounds": [
+      624.9909057617188,
+      138.41973876953125,
+      70.82449340820312,
+      23.40032196044922
+    ],
+    "components": [
+      "agent-2",
+      "rl-agent-2",
+      "monitor-2"
+    ]
+  },
+  {
+    "key": "e0035",
+    "text": "RL Model",
+    "font_family": "Arial",
+    "font_size": 21,
+    "font_weight": "400",
+    "bounds": [
+      615.4540405273438,
+      204.41973876953125,
+      89.09185028076172,
+      23.40032196044922
+    ],
+    "components": [
+      "agent-2",
+      "rl-agent-2",
+      "policy-2"
+    ]
+  },
+  {
+    "key": "e0038",
+    "text": "...",
+    "font_family": "Arial",
+    "font_size": 25,
+    "font_weight": "400",
+    "bounds": [
+      241.57952880859375,
+      136.8796844482422,
+      20.840911865234375,
+      28.080387115478516
+    ],
+    "components": []
+  },
+  {
+    "key": "e0039",
+    "text": "...",
+    "font_family": "Arial",
+    "font_size": 25,
+    "font_weight": "400",
+    "bounds": [
+      508.57952880859375,
+      136.8796844482422,
+      20.840911865234375,
+      28.080387115478516
+    ],
+    "components": []
+  },
+  {
+    "key": "e0042",
+    "text": "Admission Control",
+    "font_family": "Arial",
+    "font_size": 21,
+    "font_weight": "400",
+    "bounds": [
+      295.0281677246094,
+      385.91973876953125,
+      171.16360473632812,
+      23.40032196044922
+    ],
+    "components": [
+      "shared-system",
+      "admission"
+    ]
+  },
+  {
+    "key": "e0044",
+    "text": "vSSD Manager",
+    "font_family": "Arial",
+    "font_size": 23,
+    "font_weight": "400",
+    "bounds": [
+      126.03548431396484,
+      549.2597045898438,
+      156.84434509277344,
+      25.740354537963867
+    ],
+    "components": [
+      "shared-system",
+      "manager"
+    ]
+  },
+  {
+    "key": "e0049",
+    "text": "ghost Superblock",
+    "font_family": "Arial",
+    "font_size": 19,
+    "font_weight": "400",
+    "bounds": [
+      447.6180725097656,
+      515.2997436523438,
+      147.4052734375,
+      21.060291290283203
+    ],
+    "components": [
+      "shared-system",
+      "resource-pool",
+      "resource-0"
+    ]
+  },
+  {
+    "key": "e0053",
+    "text": "ghost Superblock",
+    "font_family": "Arial",
+    "font_size": 19,
+    "font_weight": "400",
+    "bounds": [
+      447.6180725097656,
+      584.2997436523438,
+      147.4052734375,
+      21.060291290283203
+    ],
+    "components": [
+      "shared-system",
+      "resource-pool",
+      "resource-1"
+    ]
+  },
+  {
+    "key": "e0054",
+    "text": "Ghost Superblock Manager",
+    "font_family": "Arial",
+    "font_size": 20,
+    "font_weight": "400",
+    "bounds": [
+      418.26953125,
+      618.8597412109375,
+      244.60040283203125,
+      21.840301513671875
+    ],
+    "components": [
+      "shared-system",
+      "resource-pool"
+    ]
+  },
+  {
+    "key": "e0055",
+    "text": "SSD Virtualization",
+    "font_family": "Arial",
+    "font_size": 25,
+    "font_weight": "400",
+    "bounds": [
+      44.999996185302734,
+      617.8796997070312,
+      201.0233917236328,
+      28.080387115478516
+    ],
+    "components": [
+      "shared-system"
+    ]
+  },
+  {
+    "key": "e0058",
+    "text": "Actions",
+    "font_family": "Arial",
+    "font_size": 21,
+    "font_weight": "400",
+    "bounds": [
+      22.789833068847656,
+      273.41973876953125,
+      69.64033508300781,
+      23.40032196044922
+    ],
+    "components": []
+  },
+  {
+    "key": "e0059",
+    "text": "Reward",
+    "font_family": "Arial",
+    "font_size": 21,
+    "font_weight": "400",
+    "bounds": [
+      185.82090759277344,
+      310.41973876953125,
+      72.35818481445312,
+      23.40032196044922
+    ],
+    "components": []
+  },
+  {
+    "key": "e0062",
+    "text": "Actions",
+    "font_family": "Arial",
+    "font_size": 21,
+    "font_weight": "400",
+    "bounds": [
+      274.789794921875,
+      273.41973876953125,
+      69.64033508300781,
+      23.40032196044922
+    ],
+    "components": []
+  },
+  {
+    "key": "e0063",
+    "text": "Reward",
+    "font_family": "Arial",
+    "font_size": 21,
+    "font_weight": "400",
+    "bounds": [
+      438.8208923339844,
+      310.41973876953125,
+      72.35818481445312,
+      23.40032196044922
+    ],
+    "components": []
+  },
+  {
+    "key": "e0066",
+    "text": "Actions",
+    "font_family": "Arial",
+    "font_size": 21,
+    "font_weight": "400",
+    "bounds": [
+      532.789794921875,
+      273.41973876953125,
+      69.64033508300781,
+      23.40032196044922
+    ],
+    "components": []
+  },
+  {
+    "key": "e0067",
+    "text": "Reward",
+    "font_family": "Arial",
+    "font_size": 21,
+    "font_weight": "400",
+    "bounds": [
+      667.8209228515625,
+      310.41973876953125,
+      72.35818481445312,
+      23.40032196044922
+    ],
+    "components": []
+  },
+  {
+    "key": "e0071",
+    "text": "Block\n    Harvesting",
+    "font_family": "Arial",
+    "font_size": 24,
+    "font_weight": "400",
+    "bounds": [
+      545.656982421875,
+      423.1596984863281,
+      114.68597412109375,
+      55.620391845703125
+    ],
+    "components": []
+  }
+]

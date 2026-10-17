@@ -1,0 +1,93 @@
+{
+  "source_repository": "https://github.com/google/fonts",
+  "source_commit": "47d54ca1ebb14fd864695f1d39dc734f39017c33",
+  "retrieved": "2026-10-16",
+  "license": "SIL Open Font License 1.1; unmodified font files; licences included by family",
+  "purpose": "Explicit portable architecture typography profile; does not silently replace reference-system fonts.",
+  "files": [
+    {
+      "file": "tinos/Tinos-Regular.ttf",
+      "url": "https://raw.githubusercontent.com/google/fonts/47d54ca1ebb14fd864695f1d39dc734f39017c33/ofl/tinos/Tinos-Regular.ttf",
+      "sha256": "60a0e8ef0c04dd5dd69ffe91025fa2ae5836cbd35600a82ba031977557e2cb61",
+      "bytes": 521588,
+      "postscript_name": "Tinos-Regular",
+      "family": "Tinos",
+      "fsType": 0,
+      "glyph_count": 3011
+    },
+    {
+      "file": "tinos/Tinos-Italic.ttf",
+      "url": "https://raw.githubusercontent.com/google/fonts/47d54ca1ebb14fd864695f1d39dc734f39017c33/ofl/tinos/Tinos-Italic.ttf",
+      "sha256": "5942266ed398b155d7dc23e36833e7ec6be988f2439bdbeb8ef1bede808eaa91",
+      "bytes": 565016,
+      "postscript_name": "Tinos-Italic",
+      "family": "Tinos",
+      "fsType": 0,
+      "glyph_count": 3011
+    },
+    {
+      "file": "tinos/Tinos-Bold.ttf",
+      "url": "https://raw.githubusercontent.com/google/fonts/47d54ca1ebb14fd864695f1d39dc734f39017c33/ofl/tinos/Tinos-Bold.ttf",
+      "sha256": "393269dbab8899f938db19783eca5eac92eb431f7ae0ab45b8349ca895f1a06b",
+      "bytes": 597880,
+      "postscript_name": "Tinos-Bold",
+      "family": "Tinos",
+      "fsType": 0,
+      "glyph_count": 3011
+    },
+    {
+      "file": "tinos/Tinos-BoldItalic.ttf",
+      "url": "https://raw.githubusercontent.com/google/fonts/47d54ca1ebb14fd864695f1d39dc734f39017c33/ofl/tinos/Tinos-BoldItalic.ttf",
+      "sha256": "a5de79f0fe863ea0954757acb3d47b3ccd0a930ce3dd5b97230cd3866790a06e",
+      "bytes": 578976,
+      "postscript_name": "Tinos-BoldItalic",
+      "family": "Tinos",
+      "fsType": 0,
+      "glyph_count": 3011
+    },
+    {
+      "file": "tinos/OFL.txt",
+      "url": "https://raw.githubusercontent.com/googlefonts/tinos/3b4482a99b80ea5fc75f187b1be3120a3f5905b3/OFL.txt",
+      "sha256": "cb3382d4643e8b02c12e322c220a3c76a5020d667e4fd4e7c75e744cca6caa6b",
+      "bytes": 4383
+    },
+    {
+      "file": "tinos/METADATA.pb",
+      "url": "https://raw.githubusercontent.com/google/fonts/47d54ca1ebb14fd864695f1d39dc734f39017c33/ofl/tinos/METADATA.pb",
+      "sha256": "e9db6bd24890351be0ac41486fbcf4ccb10b34ec19f2e77d7a5517f2eb1dbafe",
+      "bytes": 1395
+    },
+    {
+      "file": "inconsolata/Inconsolata-Regular.ttf",
+      "url": "https://raw.githubusercontent.com/google/fonts/47d54ca1ebb14fd864695f1d39dc734f39017c33/ofl/inconsolata/static/Inconsolata-Regular.ttf",
+      "sha256": "0f11ac40d1618e1aa1adb7322a14980a0b0c943421124022073f83236d15f0d5",
+      "bytes": 105628,
+      "postscript_name": "Inconsolata-Regular",
+      "family": "Inconsolata",
+      "fsType": 0,
+      "glyph_count": 882
+    },
+    {
+      "file": "inconsolata/Inconsolata-Bold.ttf",
+      "url": "https://raw.githubusercontent.com/google/fonts/47d54ca1ebb14fd864695f1d39dc734f39017c33/ofl/inconsolata/static/Inconsolata-Bold.ttf",
+      "sha256": "69deb4d3626bcdce00331458e62de49e0ae58236626841014939dd8c5119abb4",
+      "bytes": 107220,
+      "postscript_name": "Inconsolata-Bold",
+      "family": "Inconsolata Bold",
+      "fsType": 0,
+      "glyph_count": 882
+    },
+    {
+      "file": "inconsolata/OFL.txt",
+      "url": "https://raw.githubusercontent.com/google/fonts/47d54ca1ebb14fd864695f1d39dc734f39017c33/ofl/inconsolata/OFL.txt",
+      "sha256": "29bd0cfd0fb2a45f9b057c834a057724bae1f63b525a8ac83d3e7525706d9f80",
+      "bytes": 4350
+    },
+    {
+      "file": "inconsolata/METADATA.pb",
+      "url": "https://raw.githubusercontent.com/google/fonts/47d54ca1ebb14fd864695f1d39dc734f39017c33/ofl/inconsolata/METADATA.pb",
+      "sha256": "d8318dfb63d4012e3b5686c535f922c9a71ddeb2f2e897363b21078ea8d48e3e",
+      "bytes": 778
+    }
+  ]
+}

@@ -1,0 +1,1300 @@
+[
+  {
+    "key": "e0004",
+    "text": "'",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      318.09768469259143,
+      31.78017687945976,
+      1.5362461576629016,
+      7.681230453187027
+    ],
+    "components": [
+      "exchange"
+    ]
+  },
+  {
+    "key": "e0005",
+    "text": "stitch",
+    "font_family": "VividSource-Tinos-Italic",
+    "bounds": [
+      318.859458948853,
+      31.78017687945976,
+      15.812547837867896,
+      7.6812291126771015
+    ],
+    "components": [
+      "exchange"
+    ]
+  },
+  {
+    "key": "e0006",
+    "text": "'",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      334.6028150264174,
+      31.78017687945976,
+      1.5362461576629016,
+      7.681230453187027
+    ],
+    "components": [
+      "exchange"
+    ]
+  },
+  {
+    "key": "e0007",
+    "text": "packages",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      312.72080286555865,
+      40.213933410933805,
+      26.608778846366477,
+      7.681231793696952
+    ],
+    "components": [
+      "exchange"
+    ]
+  },
+  {
+    "key": "e0008",
+    "text": " ",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      338.99102252519515,
+      40.213933410933805,
+      1.7602820626372022,
+      7.681230453187027
+    ],
+    "components": [
+      "exchange"
+    ]
+  },
+  {
+    "key": "e0018",
+    "text": "Inner",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      363.4620848316699,
+      88.19597141029499,
+      16.810380529932445,
+      8.193309266175675
+    ],
+    "components": [
+      "host-tree"
+    ]
+  },
+  {
+    "key": "e0054",
+    "text": "BF3 packet",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      14.647074902430177,
+      37.40268302112236,
+      32.81652213019015,
+      7.6812291126771015
+    ],
+    "components": [
+      "packet-entry"
+    ]
+  },
+  {
+    "key": "e0055",
+    "text": "processing",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      14.32167818265657,
+      45.8364395525964,
+      30.64191207613476,
+      7.681231793696952
+    ],
+    "components": [
+      "packet-entry"
+    ]
+  },
+  {
+    "key": "e0056",
+    "text": " ",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      44.89308077723126,
+      45.8364395525964,
+      1.7602820626372306,
+      7.681230453187027
+    ],
+    "components": [
+      "packet-entry"
+    ]
+  },
+  {
+    "key": "e0069",
+    "text": "NIC-side",
+    "font_family": "VividSource-Tinos-Bold",
+    "bounds": [
+      15.294982224108253,
+      2.8342122705728836,
+      32.32661132983594,
+      9.729558439985908
+    ],
+    "components": []
+  },
+  {
+    "key": "e0073",
+    "text": "Inner",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      113.96337479539216,
+      54.4609345603194,
+      16.810380529932445,
+      8.193314628215376
+    ],
+    "components": [
+      "nic-tree"
+    ]
+  },
+  {
+    "key": "e0109",
+    "text": "Inner",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      149.1040381807834,
+      54.4609345603194,
+      16.810380529932445,
+      8.193314628215376
+    ],
+    "components": [
+      "nic-tree"
+    ]
+  },
+  {
+    "key": "e0145",
+    "text": "Inner",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      99.90710944123566,
+      88.89878467800281,
+      16.810380529932445,
+      8.193309266175675
+    ],
+    "components": [
+      "nic-tree"
+    ]
+  },
+  {
+    "key": "e0183",
+    "text": "Leaf",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      142.44928577625433,
+      91.00722448112629,
+      14.661178501000904,
+      8.193309266175675
+    ],
+    "components": [
+      "nic-tree"
+    ]
+  },
+  {
+    "key": "e0196",
+    "text": "Leaf",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      93.2523463126272,
+      124.74226669314157,
+      14.661178501000904,
+      8.193314628215376
+    ],
+    "components": [
+      "nic-tree"
+    ]
+  },
+  {
+    "key": "e0205",
+    "text": "Inner",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      184.24470156617463,
+      54.4609345603194,
+      16.810380529932445,
+      8.193314628215376
+    ],
+    "components": [
+      "nic-tree"
+    ]
+  },
+  {
+    "key": "e0243",
+    "text": "Leaf",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      177.58994916164556,
+      91.00722448112629,
+      14.6611570528421,
+      8.193309266175675
+    ],
+    "components": [
+      "nic-tree"
+    ]
+  },
+  {
+    "key": "e0290",
+    "text": "Inner",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      147.85215204767883,
+      8.778069478290945,
+      16.810380529932445,
+      8.193311947195525
+    ],
+    "components": [
+      "nic-tree"
+    ]
+  },
+  {
+    "key": "e0291",
+    "text": "0",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      164.17060833134929,
+      12.042450427381596,
+      3.584574144461783,
+      7.169148288923566
+    ],
+    "components": [
+      "nic-tree"
+    ]
+  },
+  {
+    "key": "e0292",
+    "text": "(root)",
+    "font_family": "VividSource-Tinos-Italic",
+    "bounds": [
+      148.74165008962154,
+      17.211827350274916,
+      17.752716111090194,
+      8.19331328770545
+    ],
+    "components": [
+      "nic-tree"
+    ]
+  },
+  {
+    "key": "e0329",
+    "text": "NIC",
+    "font_family": "VividSource-Tinos-BoldItalic",
+    "bounds": [
+      258.21985169443724,
+      7.884524772011275,
+      13.441153607800516,
+      7.681230453187027
+    ],
+    "components": [
+      "exchange"
+    ]
+  },
+  {
+    "key": "e0330",
+    "text": "↔Host",
+    "font_family": "VividSource-Tinos-BoldItalic",
+    "bounds": [
+      271.2398278077926,
+      7.884524772011275,
+      21.304456140569528,
+      7.681230453187027
+    ],
+    "components": [
+      "exchange"
+    ]
+  },
+  {
+    "key": "e0331",
+    "text": "PCIe",
+    "font_family": "VividSource-Tinos-Bold",
+    "bounds": [
+      267.2026837723279,
+      16.31828364937769,
+      16.199086555843678,
+      7.681230453187027
+    ],
+    "components": [
+      "exchange"
+    ]
+  },
+  {
+    "key": "e0334",
+    "text": "Hot-pair",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      82.06224131584167,
+      17.02109825759544,
+      24.03135360282249,
+      7.681230453187027
+    ],
+    "components": [
+      "nic-tree"
+    ]
+  },
+  {
+    "key": "e0335",
+    "text": "cache",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      82.06224131584167,
+      25.454857470089337,
+      16.460121372574577,
+      7.6812291126771015
+    ],
+    "components": [
+      "nic-tree"
+    ]
+  },
+  {
+    "key": "e0372",
+    "text": "'",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      317.91102136651534,
+      82.38273215442314,
+      1.5362461576629016,
+      7.681230453187027
+    ],
+    "components": [
+      "exchange"
+    ]
+  },
+  {
+    "key": "e0373",
+    "text": "patch",
+    "font_family": "VividSource-Tinos-Italic",
+    "bounds": [
+      318.1606779350004,
+      82.38273215442314,
+      16.711182795461355,
+      7.6812291126771015
+    ],
+    "components": [
+      "exchange"
+    ]
+  },
+  {
+    "key": "e0374",
+    "text": "'",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      334.8004812579602,
+      82.38273215442314,
+      1.5362461576629016,
+      7.681230453187027
+    ],
+    "components": [
+      "exchange"
+    ]
+  },
+  {
+    "key": "e0375",
+    "text": "requests",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      314.59462125951904,
+      90.81649136691703,
+      23.369742248178227,
+      7.6812291126771015
+    ],
+    "components": [
+      "exchange"
+    ]
+  },
+  {
+    "key": "e0376",
+    "text": " ",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      337.6258043209673,
+      90.81649136691703,
+      1.7602820626372022,
+      7.681230453187027
+    ],
+    "components": [
+      "exchange"
+    ]
+  },
+  {
+    "key": "e0403",
+    "text": "Inner",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      377.5183501858264,
+      53.75812129261158,
+      16.810380529932445,
+      8.193314628215376
+    ],
+    "components": [
+      "host-tree"
+    ]
+  },
+  {
+    "key": "e0439",
+    "text": "Inner",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      412.65901357121766,
+      53.75812129261158,
+      16.810380529932445,
+      8.193314628215376
+    ],
+    "components": [
+      "host-tree"
+    ]
+  },
+  {
+    "key": "e0479",
+    "text": "Leaf",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      448.5244960352502,
+      90.30441121341846,
+      14.661103432445088,
+      8.193309266175675
+    ],
+    "components": [
+      "host-tree"
+    ]
+  },
+  {
+    "key": "e0499",
+    "text": "Inner",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      413.51556724123657,
+      8.075256545710602,
+      16.810380529932445,
+      8.19331328770545
+    ],
+    "components": [
+      "host-tree"
+    ]
+  },
+  {
+    "key": "e0500",
+    "text": "0",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      429.8340128008276,
+      11.339637829928733,
+      3.584574144461783,
+      7.169148288923566
+    ],
+    "components": [
+      "host-tree"
+    ]
+  },
+  {
+    "key": "e0501",
+    "text": "(root)",
+    "font_family": "VividSource-Tinos-Italic",
+    "bounds": [
+      414.4050652831793,
+      16.509015423077017,
+      17.752683938851987,
+      8.193311947195525
+    ],
+    "components": [
+      "host-tree"
+    ]
+  },
+  {
+    "key": "e0538",
+    "text": "packets",
+    "font_family": "VividSource-Inconsolata-Regular",
+    "bounds": [
+      5.807001769542694,
+      72.54334640651359,
+      28.885852117070954,
+      7.6812291126771015
+    ],
+    "components": [
+      "packet-entry"
+    ]
+  },
+  {
+    "key": "e0539",
+    "text": "DPA",
+    "font_family": "VividSource-Inconsolata-Bold",
+    "bounds": [
+      43.39653281562323,
+      83.52712011559925,
+      18.283539274364102,
+      11.265806273286216
+    ],
+    "components": [
+      "packet-entry"
+    ]
+  },
+  {
+    "key": "e0540",
+    "text": "traverser",
+    "font_family": "VividSource-Inconsolata-Bold",
+    "bounds": [
+      32.008758906275034,
+      94.52128545762571,
+      41.20519463185701,
+      8.193314628215376
+    ],
+    "components": [
+      "packet-entry"
+    ]
+  },
+  {
+    "key": "e0541",
+    "text": "threads",
+    "font_family": "VividSource-Inconsolata-Bold",
+    "bounds": [
+      36.65391802855129,
+      102.9550446701196,
+      31.928053599870054,
+      8.193314628215376
+    ],
+    "components": [
+      "packet-entry"
+    ]
+  },
+  {
+    "key": "e0549",
+    "text": "Leaf",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      408.4640968795866,
+      90.30441121341846,
+      14.661146328762698,
+      8.193309266175675
+    ],
+    "components": [
+      "host-tree"
+    ]
+  },
+  {
+    "key": "e0568",
+    "text": "DPA traverser read",
+    "font_family": "VividSource-Inconsolata-Bold",
+    "bounds": [
+      248.12383872643113,
+      134.52154397600134,
+      60.421908442549466,
+      5.632897774603407
+    ],
+    "components": [
+      "exchange"
+    ]
+  },
+  {
+    "key": "e0569",
+    "text": "values per DMA",
+    "font_family": "VividSource-Inconsolata-Bold",
+    "bounds": [
+      253.18629054538906,
+      141.54966592900018,
+      46.92792801961332,
+      5.632897774603407
+    ],
+    "components": [
+      "exchange"
+    ]
+  },
+  {
+    "key": "e0570",
+    "text": " ",
+    "font_family": "VividSource-Inconsolata-Bold",
+    "bounds": [
+      300.41522202566557,
+      141.54966592900018,
+      2.8164512331940728,
+      5.6329024663881455
+    ],
+    "components": [
+      "exchange"
+    ]
+  },
+  {
+    "key": "e0572",
+    "text": "Insert buffer full?",
+    "font_family": "VividSource-Inconsolata-Bold",
+    "bounds": [
+      244.68664258904755,
+      100.08368313423853,
+      63.7954035482835,
+      5.632897774603407
+    ],
+    "components": [
+      "exchange"
+    ]
+  },
+  {
+    "key": "e0573",
+    "text": "DPA traverser add",
+    "font_family": "VividSource-Inconsolata-Bold",
+    "bounds": [
+      248.05794998258352,
+      105.0033760081933,
+      57.04841333681543,
+      5.632897774603407
+    ],
+    "components": [
+      "exchange"
+    ]
+  },
+  {
+    "key": "e0574",
+    "text": "patch request",
+    "font_family": "VividSource-Inconsolata-Bold",
+    "bounds": [
+      254.80056476965547,
+      109.92306888214807,
+      43.554454362038086,
+      5.632897774603407
+    ],
+    "components": [
+      "exchange"
+    ]
+  },
+  {
+    "key": "e0585",
+    "text": "metadata",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      19.702592263544602,
+      120.84673412618395,
+      23.61053536503732,
+      7.169143597138827
+    ],
+    "components": [
+      "symbol-key"
+    ]
+  },
+  {
+    "key": "e0586",
+    "text": "key→child/value",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      19.702592263544602,
+      127.8748668032622,
+      44.34493161681985,
+      7.169143597138827
+    ],
+    "components": [
+      "symbol-key"
+    ]
+  },
+  {
+    "key": "e0587",
+    "text": "insert buffer",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      19.702592263544602,
+      135.60580202396886,
+      31.938855428848,
+      7.169143597138827
+    ],
+    "components": [
+      "symbol-key"
+    ]
+  },
+  {
+    "key": "e0590",
+    "text": "ring queue",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      19.702592263544602,
+      142.6339454251265,
+      27.652419443597864,
+      7.169143597138827
+    ],
+    "components": [
+      "symbol-key"
+    ]
+  },
+  {
+    "key": "e0593",
+    "text": "new",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      223.74905720483002,
+      41.23809907997065,
+      10.428459429476789,
+      6.144985971161532
+    ],
+    "components": [
+      "nic-tree"
+    ]
+  },
+  {
+    "key": "e0594",
+    "text": "Inner",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      222.2734882235527,
+      46.348522387114826,
+      13.80051750857092,
+      7.1691489591785285
+    ],
+    "components": [
+      "nic-tree"
+    ]
+  },
+  {
+    "key": "e0597",
+    "text": "new",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      223.74905720483002,
+      58.105614823938595,
+      10.428459429476789,
+      6.144983290141681
+    ],
+    "components": [
+      "nic-tree"
+    ]
+  },
+  {
+    "key": "e0598",
+    "text": "Inner",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      222.2734882235527,
+      63.21604617414232,
+      13.80051750857092,
+      7.1691489591785285
+    ],
+    "components": [
+      "nic-tree"
+    ]
+  },
+  {
+    "key": "e0601",
+    "text": "new",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      211.81221311110494,
+      74.27032534325826,
+      10.428459429476789,
+      6.144983290141681
+    ],
+    "components": [
+      "nic-tree"
+    ]
+  },
+  {
+    "key": "e0602",
+    "text": "Leaf",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      211.2151607144624,
+      79.38074596938259,
+      12.042068760820257,
+      7.1691489591785285
+    ],
+    "components": [
+      "nic-tree"
+    ]
+  },
+  {
+    "key": "e0605",
+    "text": "new",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      225.86847846526143,
+      74.27032534325826,
+      10.428459429476789,
+      6.144983290141681
+    ],
+    "components": [
+      "nic-tree"
+    ]
+  },
+  {
+    "key": "e0606",
+    "text": "Leaf",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      225.2714260686189,
+      79.38074596938259,
+      12.042068760820257,
+      7.1691489591785285
+    ],
+    "components": [
+      "nic-tree"
+    ]
+  },
+  {
+    "key": "e0618",
+    "text": "new",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      482.3843182731507,
+      93.94909147703765,
+      10.428523773953202,
+      6.144983290141681
+    ],
+    "components": [
+      "host-tree"
+    ]
+  },
+  {
+    "key": "e0619",
+    "text": "Inner",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      480.9087707400322,
+      99.05952282724138,
+      13.80051750857092,
+      7.169143597138827
+    ],
+    "components": [
+      "host-tree"
+    ]
+  },
+  {
+    "key": "e0622",
+    "text": "new",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      482.3843182731507,
+      110.11379663431762,
+      10.428523773953202,
+      6.144983290141681
+    ],
+    "components": [
+      "host-tree"
+    ]
+  },
+  {
+    "key": "e0623",
+    "text": "Inner",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      480.9087707400322,
+      115.22422798452135,
+      13.80051750857092,
+      7.169143597138827
+    ],
+    "components": [
+      "host-tree"
+    ]
+  },
+  {
+    "key": "e0626",
+    "text": "new",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      470.4474741794256,
+      126.278512515677,
+      10.428523773953202,
+      6.144983290141681
+    ],
+    "components": [
+      "host-tree"
+    ]
+  },
+  {
+    "key": "e0627",
+    "text": "Leaf",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      469.8504432309419,
+      131.38893314180132,
+      12.042025864502648,
+      7.169143597138827
+    ],
+    "components": [
+      "host-tree"
+    ]
+  },
+  {
+    "key": "e0630",
+    "text": "new",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      484.50378242989973,
+      126.278512515677,
+      10.428437981317984,
+      6.144983290141681
+    ],
+    "components": [
+      "host-tree"
+    ]
+  },
+  {
+    "key": "e0631",
+    "text": "Leaf",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      483.9067085850984,
+      131.38893314180132,
+      12.042025864502648,
+      7.169143597138827
+    ],
+    "components": [
+      "host-tree"
+    ]
+  },
+  {
+    "key": "e0664",
+    "text": "Leaf",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      359.26716814003885,
+      124.03944270135435,
+      14.661146328762698,
+      8.193314628215376
+    ],
+    "components": [
+      "host-tree"
+    ]
+  },
+  {
+    "key": "e0685",
+    "text": "Host '",
+    "font_family": "VividSource-Inconsolata-Bold",
+    "bounds": [
+      422.35564037412405,
+      126.79058730713587,
+      19.683919053932186,
+      5.632897774603407
+    ],
+    "components": [
+      "host-tree"
+    ]
+  },
+  {
+    "key": "e0686",
+    "text": "patch'",
+    "font_family": "VividSource-Inconsolata-Bold",
+    "bounds": [
+      442.60544764995575,
+      126.79058730713587,
+      19.683919053932186,
+      5.632897774603407
+    ],
+    "components": [
+      "host-tree"
+    ]
+  },
+  {
+    "key": "e0687",
+    "text": "threads update",
+    "font_family": "VividSource-Inconsolata-Bold",
+    "bounds": [
+      418.9843329805881,
+      133.8187199842141,
+      46.92792801961332,
+      5.632897774603407
+    ],
+    "components": [
+      "host-tree"
+    ]
+  },
+  {
+    "key": "e0688",
+    "text": "host tree",
+    "font_family": "VividSource-Inconsolata-Bold",
+    "bounds": [
+      427.418092193082,
+      140.14402866950513,
+      30.060452490943135,
+      5.632897774603407
+    ],
+    "components": [
+      "host-tree"
+    ]
+  },
+  {
+    "key": "e0702",
+    "text": "DPA '",
+    "font_family": "VividSource-Inconsolata-Bold",
+    "bounds": [
+      256.7662456277758,
+      48.0755013238595,
+      16.31042394819815,
+      5.632903136643108
+    ],
+    "components": [
+      "exchange"
+    ]
+  },
+  {
+    "key": "e0703",
+    "text": "stich'",
+    "font_family": "VividSource-Inconsolata-Bold",
+    "bounds": [
+      273.6447455100715,
+      48.0755013238595,
+      19.683919053932186,
+      5.632903136643108
+    ],
+    "components": [
+      "exchange"
+    ]
+  },
+  {
+    "key": "e0704",
+    "text": "threads apply",
+    "font_family": "VividSource-Inconsolata-Bold",
+    "bounds": [
+      253.39493823423982,
+      55.103634000937745,
+      43.55443291387928,
+      5.632903136643108
+    ],
+    "components": [
+      "exchange"
+    ]
+  },
+  {
+    "key": "e0705",
+    "text": "host updates",
+    "font_family": "VividSource-Inconsolata-Bold",
+    "bounds": [
+      255.08608265966177,
+      61.42895341030817,
+      40.180937808145245,
+      5.632903136643108
+    ],
+    "components": [
+      "exchange"
+    ]
+  },
+  {
+    "key": "e0714",
+    "text": "Allocators:",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      455.44684639310435,
+      16.31828364937769,
+      31.83966305641661,
+      7.681230453187027
+    ],
+    "components": [
+      "host-tree"
+    ]
+  },
+  {
+    "key": "e0715",
+    "text": "- ",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      455.9588997364044,
+      23.346416326455937,
+      4.100673481843842,
+      7.681230453187027
+    ],
+    "components": [
+      "host-tree"
+    ]
+  },
+  {
+    "key": "e0716",
+    "text": "Host space",
+    "font_family": "VividSource-Inconsolata-Regular",
+    "bounds": [
+      460.065964769572,
+      23.346416326455937,
+      41.53650434091105,
+      7.681230453187027
+    ],
+    "components": [
+      "host-tree"
+    ]
+  },
+  {
+    "key": "e0717",
+    "text": "- ",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      455.9588997364044,
+      31.077360930732084,
+      4.100673481843842,
+      7.681231793696952
+    ],
+    "components": [
+      "host-tree"
+    ]
+  },
+  {
+    "key": "e0718",
+    "text": "DPA space",
+    "font_family": "VividSource-Inconsolata-Regular",
+    "bounds": [
+      460.065964769572,
+      31.077360930732084,
+      37.3196247346641,
+      7.681231793696952
+    ],
+    "components": [
+      "host-tree"
+    ]
+  },
+  {
+    "key": "e0719",
+    "text": "Host-side",
+    "font_family": "VividSource-Tinos-Bold",
+    "bounds": [
+      461.581405878067,
+      2.8342122705728836,
+      33.735036849975586,
+      9.729558439985908
+    ],
+    "components": []
+  },
+  {
+    "key": "e0722",
+    "text": "III",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      230.3558622503515,
+      137.20216703563347,
+      7.241112894007529,
+      7.6812291126771015
+    ],
+    "components": [
+      "nic-tree"
+    ]
+  },
+  {
+    "key": "e0725",
+    "text": "I",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      16.931218022480607,
+      27.56329727321281,
+      2.5604101510623423,
+      7.681230453187027
+    ],
+    "components": [
+      "packet-entry"
+    ]
+  },
+  {
+    "key": "e0728",
+    "text": "II",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      93.76847480610013,
+      78.16585254817619,
+      4.900775597889151,
+      7.6812291126771015
+    ],
+    "components": [
+      "nic-tree"
+    ]
+  },
+  {
+    "key": "e0731",
+    "text": "IV",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      119.11367827281356,
+      128.76841854721897,
+      7.973277967039394,
+      7.6812291126771015
+    ],
+    "components": [
+      "nic-tree"
+    ]
+  },
+  {
+    "key": "e0734",
+    "text": "V",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      400.89092359096685,
+      125.95715475230827,
+      6.1449846306516065,
+      7.681230453187027
+    ],
+    "components": [
+      "host-tree"
+    ]
+  },
+  {
+    "key": "e0737",
+    "text": "VI",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      259.1642570229196,
+      69.732098697722,
+      8.146804295847687,
+      7.6812291126771015
+    ],
+    "components": [
+      "exchange"
+    ]
+  },
+  {
+    "key": "e0740",
+    "text": "Inner",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      447.7996769566089,
+      53.75812129261158,
+      16.810380529932445,
+      8.193314628215376
+    ],
+    "components": [
+      "host-tree"
+    ]
+  },
+  {
+    "key": "e0783",
+    "text": "Host",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      362.0015510097146,
+      8.707560666985842,
+      24.713941256777616,
+      12.802049414801786
+    ],
+    "components": [
+      "host-tree"
+    ]
+  },
+  {
+    "key": "e0784",
+    "text": "DRAM",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      357.9603747203946,
+      22.7638266913973,
+      33.54629305249546,
+      12.802052095821637
+    ],
+    "components": [
+      "host-tree"
+    ]
+  },
+  {
+    "key": "e0785",
+    "text": "NIC",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      193.85347671061754,
+      8.707560666985842,
+      21.33870885018041,
+      12.802049414801786
+    ],
+    "components": [
+      "nic-tree"
+    ]
+  },
+  {
+    "key": "e0786",
+    "text": "DRAM",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      187.52815730124712,
+      22.7638266913973,
+      33.54627160433665,
+      12.802052095821637
+    ],
+    "components": [
+      "nic-tree"
+    ]
+  }
+]

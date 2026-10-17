@@ -1,0 +1,364 @@
+[
+  {
+    "key": "e0005",
+    "text": "Cilantro Scheduler",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      144.61025192765533,
+      97.40453424289478,
+      74.86787146674305,
+      11.160549728910155
+    ],
+    "components": []
+  },
+  {
+    "key": "e0010",
+    "text": "Job ",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      25.775962752372777,
+      55.990715534798625,
+      12.931863921105787,
+      6.944342078558975
+    ],
+    "components": [
+      "shared-pool"
+    ]
+  },
+  {
+    "key": "e0011",
+    "text": "1",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      29.620385110783218,
+      63.66299109951092,
+      3.503172259871974,
+      6.944342078558975
+    ],
+    "components": [
+      "shared-pool"
+    ]
+  },
+  {
+    "key": "e0014",
+    "text": "Job ",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      55.619296950370824,
+      55.990715534798625,
+      12.931863921105787,
+      6.944342078558975
+    ],
+    "components": [
+      "shared-pool"
+    ]
+  },
+  {
+    "key": "e0015",
+    "text": "2",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      59.463719308781265,
+      63.66299109951092,
+      3.503172259871974,
+      6.944342078558975
+    ],
+    "components": [
+      "shared-pool"
+    ]
+  },
+  {
+    "key": "e0025",
+    "text": "Shared Cluster",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      18.47825066063433,
+      95.21029349004863,
+      56.88209463315525,
+      10.416513680673233
+    ],
+    "components": [
+      "shared-pool"
+    ]
+  },
+  {
+    "key": "e0029",
+    "text": "Online Learners",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      157.84306083743104,
+      15.736189994038568,
+      50.27042054854974,
+      8.680428442450875
+    ],
+    "components": [
+      "learned-models"
+    ]
+  },
+  {
+    "key": "e0032",
+    "text": "Policy",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      173.91158844032725,
+      69.12532440108203,
+      19.031541848427878,
+      8.680428442450875
+    ],
+    "components": [
+      "objective-policy"
+    ]
+  },
+  {
+    "key": "e0035",
+    "text": "User-deﬁned Objective",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      150.86020073383906,
+      82.12102483551894,
+      65.29484448696621,
+      7.688379252465438
+    ],
+    "components": [
+      "objective-policy"
+    ]
+  },
+  {
+    "key": "e0042",
+    "text": "Job 1",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      93.76828391598224,
+      85.30900773667939,
+      13.331517132470026,
+      7.19235465747272
+    ],
+    "components": [
+      "allocation-table"
+    ]
+  },
+  {
+    "key": "e0043",
+    "text": "40",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      116.84809003114344,
+      85.30900773667939,
+      6.414662215612111,
+      7.19235465747272
+    ],
+    "components": [
+      "allocation-table"
+    ]
+  },
+  {
+    "key": "e0044",
+    "text": "Job 2",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      93.76828391598224,
+      93.98040208482392,
+      13.331517132470026,
+      7.19235465747272
+    ],
+    "components": [
+      "allocation-table"
+    ]
+  },
+  {
+    "key": "e0045",
+    "text": "60",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      116.84809003114344,
+      93.98040208482392,
+      6.414662215612111,
+      7.19235465747272
+    ],
+    "components": [
+      "allocation-table"
+    ]
+  },
+  {
+    "key": "e0067",
+    "text": "Per-Job Feedback",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      68.6854876911159,
+      8.376727438779255,
+      59.15886934527589,
+      9.176452474608823
+    ],
+    "components": [
+      "feedback-cards"
+    ]
+  },
+  {
+    "key": "e0069",
+    "text": "Resource",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      95.21559458439242,
+      60.804973936887166,
+      31.030017470699022,
+      9.176452474608823
+    ],
+    "components": [
+      "allocation-table"
+    ]
+  },
+  {
+    "key": "e0070",
+    "text": "Allocations",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      91.71824935290243,
+      69.77563516433042,
+      37.72410182244357,
+      9.176452474608823
+    ],
+    "components": [
+      "allocation-table"
+    ]
+  },
+  {
+    "key": "e0098",
+    "text": "Performance Model",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      142.73583326107496,
+      26.812160381292756,
+      34.899574060051236,
+      4.712232245343898
+    ],
+    "components": [
+      "learned-models"
+    ]
+  },
+  {
+    "key": "e0099",
+    "text": "(Job 1)",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      154.4255287227345,
+      31.533560079383278,
+      11.658614599946986,
+      4.712232808178669
+    ],
+    "components": [
+      "learned-models"
+    ]
+  },
+  {
+    "key": "e0128",
+    "text": "Performance Model",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      188.3593531585359,
+      26.812160381292756,
+      34.899574060051236,
+      4.712232245343898
+    ],
+    "components": [
+      "learned-models"
+    ]
+  },
+  {
+    "key": "e0129",
+    "text": "(Job 2)",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      200.04904862019544,
+      31.533560079383278,
+      11.658614599946986,
+      4.712232808178669
+    ],
+    "components": [
+      "learned-models"
+    ]
+  },
+  {
+    "key": "e0133",
+    "text": "   P95_SLO: 100ms",
+    "font_family": "VividSource-Inconsolata-Bold",
+    "bounds": [
+      71.94631153450837,
+      23.281635205388795,
+      51.14017587386843,
+      5.704280872494564
+    ],
+    "components": [
+      "feedback-cards"
+    ]
+  },
+  {
+    "key": "e0134",
+    "text": "P95_actual: 125ms",
+    "font_family": "VividSource-Inconsolata-Bold",
+    "bounds": [
+      71.94631153450837,
+      29.891595176699866,
+      51.14017587386843,
+      5.704280872494564
+    ],
+    "components": [
+      "feedback-cards"
+    ]
+  },
+  {
+    "key": "e0138",
+    "text": "2",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      69.5853561636938,
+      20.0052633108204,
+      2.4801224121288215,
+      4.960244824257643
+    ],
+    "components": [
+      "feedback-cards"
+    ]
+  },
+  {
+    "key": "e0141",
+    "text": "   P95_SLO: 100ms",
+    "font_family": "VividSource-Inconsolata-Bold",
+    "bounds": [
+      76.02153736458648,
+      27.35686103546692,
+      51.14017587386843,
+      5.704280872494564
+    ],
+    "components": [
+      "feedback-cards"
+    ]
+  },
+  {
+    "key": "e0142",
+    "text": "P95_actual: 125ms",
+    "font_family": "VividSource-Inconsolata-Bold",
+    "bounds": [
+      76.02153736458648,
+      33.96682100677799,
+      51.14017587386843,
+      5.704280872494564
+    ],
+    "components": [
+      "feedback-cards"
+    ]
+  },
+  {
+    "key": "e0146",
+    "text": "1",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      73.66058199377191,
+      24.080491048247158,
+      2.4801224121288215,
+      4.960244824257643
+    ],
+    "components": [
+      "feedback-cards"
+    ]
+  }
+]

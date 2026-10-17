@@ -18,10 +18,11 @@ import sys
 import tempfile
 import ast
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from template_sources import digest, materialize, preflight
+from template_sources import COMPLETE_TEMPLATES, complete_source, digest, materialize, preflight, workspace_for
 
 HEADER = re.compile(r'^## (\d+)\.\s+([^\n]+)$', re.MULTILINE)
 ID_REF = re.compile(r'\brecipe:([a-z][a-z0-9_]*\.[a-z][a-z0-9_]*)\b')
+COMPLETE_REF = re.compile(r'\b(template\.[a-z][a-z0-9_]*)\b')
 LEGACY_REF = re.compile(r'\b(basic|advanced|empirical|competition|academic|comp)\s*#\s*(\d+)((?:\s*[,/+]\s*#\s*\d+)*)')
 
 
@@ -38,9 +39,10 @@ def content_hash(section):
 
 
 class Recipes:
-    def __init__(self, root=None):
+    def __init__(self, root=None, workspace=None):
         # Never search the current directory: registry and recipes form one bundle.
         self.root = Path(root) if root is not None else Path(__file__).resolve().parent
+        self.workspace = workspace
         self.registry = json.loads((self.root / 'recipe_registry.json').read_text(encoding='utf-8'))
         if self.registry.get('schemaVersion') != 1:
             raise ValueError('Unsupported recipe registry version')
@@ -64,6 +66,9 @@ class Recipes:
 
     def extract(self, key):
         key = key.removeprefix('recipe:')
+        if key.startswith('template.'):
+            code, _ = complete_source(key, self.workspace)
+            return f'## {key}\n\nComplete composition; keep its original CLI.\n\n```python\n{code.rstrip()}\n```'
         if key not in self.entries:
             raise ValueError('Unknown recipe ID: ' + key)
         entry = self.entries[key]
@@ -77,6 +82,7 @@ class Recipes:
 
     def references(self, text):
         found = [(m.start(), m.group(1)) for m in ID_REF.finditer(text)]
+        found.extend((m.start(), m.group(1)) for m in COMPLETE_REF.finditer(text))
         for m in LEGACY_REF.finditer(text):
             for number in [m.group(2), *re.findall(r'#\s*(\d+)', m.group(3))]:
                 found.append((m.start(), self.legacy_id(m.group(1), number)))
@@ -84,6 +90,10 @@ class Recipes:
 
     def script(self, key, variant='main'):
         key = key.removeprefix('recipe:')
+        if key.startswith('template.'):
+            if variant != 'main':
+                raise ValueError('Complete compositions use their original CLI mode, not recipe variants')
+            return complete_source(key, self.workspace)
         chapter = self.extract(key)
         entry = self.entries[key]
         variants = entry.get('scripts', {})
@@ -120,7 +130,9 @@ def main(argv=None):
     args = parser.parse_args(argv)
     if (args.id or args.plan or args.list) and (args.category or args.number is not None):
         parser.error('Choose stable ID, plan, list, or legacy category/number')
-    recipes = Recipes()
+    workspace_hint = args.script or ((args.scripts_dir / 'figure.py') if args.scripts_dir else Path.cwd() / 'figure.py')
+    workspace = workspace_for(workspace_hint, args.workspace)
+    recipes = Recipes(workspace=workspace)
     if args.script or args.scripts_dir or args.list_variants:
         if args.output or args.list or (args.script and args.scripts_dir):
             parser.error('Script/variant mode cannot be combined with Markdown output or list')
@@ -134,6 +146,10 @@ def main(argv=None):
             if not key: parser.error('--script/--list-variants requires a recipe ID')
             if args.list_variants:
                 recipes.extract(key)
+                if key.removeprefix('recipe:') in COMPLETE_TEMPLATES:
+                    _, source = recipes.script(key)
+                    print(json.dumps({'main': source}, ensure_ascii=False, indent=2))
+                    return 0
                 print(json.dumps(recipes.entries[key.removeprefix('recipe:')].get('scripts', {}), ensure_ascii=False, indent=2))
                 return 0
             jobs = [(key, args.script)]
@@ -144,6 +160,7 @@ def main(argv=None):
         return 0
     if args.list:
         result = '\n'.join(f"recipe:{key}\t{entry['title']}" for key, entry in recipes.entries.items())
+        result += '\n' + '\n'.join(f'{key}\tComplete composition (original CLI)' for key in COMPLETE_TEMPLATES)
     elif args.plan:
         keys = []
         for path in args.plan:

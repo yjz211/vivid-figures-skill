@@ -1,0 +1,252 @@
+[
+  {
+    "key": "e0023",
+    "text": "GPU ClusterModelServing SystemRequest streams",
+    "font_family": "VividSource-Tinos-Bold",
+    "bounds": [
+      69.93406615917955,
+      66.15158940117725,
+      193.36940956729808,
+      18.567804456986778
+    ],
+    "components": []
+  },
+  {
+    "key": "e0026",
+    "text": "M",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      226.02475700378088,
+      90.16294789444144,
+      5.14700911369161,
+      6.358070362399303
+    ],
+    "components": [
+      "first-worker"
+    ]
+  },
+  {
+    "key": "e0027",
+    "text": "1 ",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      231.12999381244114,
+      93.38867588186984,
+      2.872817789168039,
+      4.238717491457464
+    ],
+    "components": [
+      "first-worker"
+    ]
+  },
+  {
+    "key": "e0028",
+    "text": "Models in GPU mem",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      222.88308546722325,
+      98.9691829502062,
+      43.65121756170626,
+      5.752544327722717
+    ],
+    "components": [
+      "first-worker"
+    ]
+  },
+  {
+    "key": "e0031",
+    "text": "rate",
+    "font_family": "VividSource-Tinos-Italic",
+    "bounds": [
+      69.12006743680375,
+      85.69251705833447,
+      7.871897198664556,
+      11.280671796117531
+    ],
+    "components": [
+      "request-streams"
+    ]
+  },
+  {
+    "key": "e0033",
+    "text": "time",
+    "font_family": "VividSource-Tinos-Italic",
+    "bounds": [
+      105.34721105515563,
+      92.0473562879424,
+      12.049223167085984,
+      7.871897198664541
+    ],
+    "components": [
+      "request-streams"
+    ]
+  },
+  {
+    "key": "e0048",
+    "text": "time",
+    "font_family": "VividSource-Tinos-Italic",
+    "bounds": [
+      103.98428399503426,
+      128.93902055095438,
+      12.049223167085984,
+      7.871897198664556
+    ],
+    "components": [
+      "request-streams"
+    ]
+  },
+  {
+    "key": "e0050",
+    "text": "rate",
+    "font_family": "VividSource-Tinos-Italic",
+    "bounds": [
+      67.78023416396034,
+      122.5610816592816,
+      7.871897198664556,
+      11.280671796117531
+    ],
+    "components": [
+      "request-streams"
+    ]
+  },
+  {
+    "key": "e0065",
+    "text": "M",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      242.44929820716968,
+      89.03101745496859,
+      5.14700911369161,
+      6.358070362399303
+    ],
+    "components": [
+      "first-worker"
+    ]
+  },
+  {
+    "key": "e0066",
+    "text": "2 ",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      247.55451151668237,
+      92.25674544239699,
+      2.872817789168039,
+      4.238717491457464
+    ],
+    "components": [
+      "first-worker"
+    ]
+  },
+  {
+    "key": "e0075",
+    "text": "Worker 1",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      230.804131133038,
+      77.21677401404484,
+      26.351615100971713,
+      7.871897198664556
+    ],
+    "components": [
+      "first-worker"
+    ]
+  },
+  {
+    "key": "e0086",
+    "text": "Worker n",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      231.0813270778162,
+      117.01911319296593,
+      26.483374821416902,
+      7.871897198664556
+    ],
+    "components": [
+      "last-worker"
+    ]
+  },
+  {
+    "key": "e0089",
+    "text": "M",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      227.89590012847654,
+      130.51969071249275,
+      5.14700911369161,
+      6.358070362399303
+    ],
+    "components": [
+      "last-worker"
+    ]
+  },
+  {
+    "key": "e0090",
+    "text": "3 ",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      233.0011369371368,
+      133.74541869992115,
+      2.872817789168039,
+      4.238717491457464
+    ],
+    "components": [
+      "last-worker"
+    ]
+  },
+  {
+    "key": "e0093",
+    "text": "M",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      244.87485672056934,
+      131.44372419338194,
+      5.14700911369161,
+      6.358070362399303
+    ],
+    "components": [
+      "last-worker"
+    ]
+  },
+  {
+    "key": "e0094",
+    "text": "4 ",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      249.6773305118913,
+      134.66946393038413,
+      3.175580806506332,
+      4.238717491457464
+    ],
+    "components": [
+      "last-worker"
+    ]
+  },
+  {
+    "key": "e0097",
+    "text": "Model provision",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      147.2748131406333,
+      96.94468438844522,
+      46.571503628973005,
+      7.871897198664541
+    ],
+    "components": [
+      "decision-service"
+    ]
+  },
+  {
+    "key": "e0100",
+    "text": "Request Serving",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      148.63774020075468,
+      113.55402288835282,
+      46.13332677374183,
+      7.871897198664556
+    ],
+    "components": [
+      "decision-service"
+    ]
+  }
+]

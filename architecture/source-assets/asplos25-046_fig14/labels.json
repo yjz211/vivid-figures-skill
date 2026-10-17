@@ -1,0 +1,532 @@
+[
+  {
+    "key": "e0005",
+    "text": "Guar",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      11.512024265763102,
+      20.884451320423977,
+      14.458726646415016,
+      6.996048321389026
+    ],
+    "components": [
+      "tenant-one"
+    ]
+  },
+  {
+    "key": "e0006",
+    "text": "Over",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      31.108816471931277,
+      20.884451320423977,
+      14.096255517637474,
+      6.996048321389026
+    ],
+    "components": [
+      "tenant-one"
+    ]
+  },
+  {
+    "key": "e0014",
+    "text": "Over",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      137.5427704724043,
+      22.322747996106045,
+      14.096277464303057,
+      6.996048321389026
+    ],
+    "components": [
+      "tenant-two"
+    ]
+  },
+  {
+    "key": "e0086",
+    "text": "Guaranteed",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      82.87623815704137,
+      21.60359965826501,
+      34.18419215289941,
+      6.996048321389026
+    ],
+    "components": [
+      "tenant-two"
+    ]
+  },
+  {
+    "key": "e0087",
+    "text": "Guaranteed",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      178.52296708989888,
+      21.60359965826501,
+      34.1843457795585,
+      6.996048321389026
+    ],
+    "components": [
+      "tenant-three"
+    ]
+  },
+  {
+    "key": "e0088",
+    "text": "Oversubscribed",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      244.14525291789323,
+      21.60359965826501,
+      45.32320032315329,
+      6.996048321389026
+    ],
+    "components": [
+      "tenant-three"
+    ]
+  },
+  {
+    "key": "e0089",
+    "text": "Cores",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      56.12835281766729,
+      28.760286085675034,
+      6.996048321389026,
+      17.26520040123978
+    ],
+    "components": [
+      "tenant-two"
+    ]
+  },
+  {
+    "key": "e0090",
+    "text": "Cores",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      161.48357802308874,
+      27.681580250568004,
+      6.996048321389026,
+      17.265178454574198
+    ],
+    "components": [
+      "tenant-three"
+    ]
+  },
+  {
+    "key": "e0097",
+    "text": "Mem",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      69.34945376429096,
+      51.499043612844616,
+      6.360044926111186,
+      12.786061528966457
+    ],
+    "components": [
+      "tenant-two"
+    ]
+  },
+  {
+    "key": "e0102",
+    "text": "Mem",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      160.5846416918166,
+      49.802720118517755,
+      6.996048321389026,
+      14.381211023573996
+    ],
+    "components": [
+      "tenant-three"
+    ]
+  },
+  {
+    "key": "e0110",
+    "text": "Guar",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      12.950298994779587,
+      53.96527486111154,
+      14.458726646415016,
+      6.996048321389026
+    ],
+    "components": [
+      "tenant-one"
+    ]
+  },
+  {
+    "key": "e0111",
+    "text": "Over",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      32.54709120094776,
+      53.96527486111154,
+      14.096277464303057,
+      6.996048321389026
+    ],
+    "components": [
+      "tenant-one"
+    ]
+  },
+  {
+    "key": "e0112",
+    "text": "Guar",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      69.04386934638023,
+      53.96527486111154,
+      14.4587485930806,
+      6.996048321389026
+    ],
+    "components": [
+      "tenant-two"
+    ]
+  },
+  {
+    "key": "e0113",
+    "text": "Guaranteed",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      202.97401057649404,
+      53.96527486111154,
+      34.1843457795585,
+      6.996048321389026
+    ],
+    "components": [
+      "tenant-three"
+    ]
+  },
+  {
+    "key": "e0114",
+    "text": "Oversubscribed",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      97.43899199832231,
+      54.684434172285364,
+      45.3230466964942,
+      6.996048321389026
+    ],
+    "components": [
+      "tenant-two"
+    ]
+  },
+  {
+    "key": "e0122",
+    "text": "CVM 1",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      47.660464935053824,
+      123.63952966246143,
+      17.58285643889576,
+      6.360055899443978
+    ],
+    "components": [
+      "physical-server"
+    ]
+  },
+  {
+    "key": "e0125",
+    "text": "CVM 3",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      131.77832513023168,
+      123.0035152938508,
+      19.78320718363466,
+      6.996048321389026
+    ],
+    "components": [
+      "physical-server"
+    ]
+  },
+  {
+    "key": "e0128",
+    "text": "Guaranteed",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      92.93307819403708,
+      134.59304461520333,
+      39.961454347772815,
+      7.950047927639389
+    ],
+    "components": [
+      "physical-server"
+    ]
+  },
+  {
+    "key": "e0129",
+    "text": "Oversubscribed",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      192.6812438844754,
+      134.59304461520333,
+      54.75438481769379,
+      7.950047927639389
+    ],
+    "components": [
+      "physical-server"
+    ]
+  },
+  {
+    "key": "e0130",
+    "text": "Cores",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      36.974281287604754,
+      91.9944934717023,
+      7.950058900972181,
+      19.181341826671996
+    ],
+    "components": [
+      "physical-server"
+    ]
+  },
+  {
+    "key": "e0131",
+    "text": "Mem",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      36.61471686404366,
+      118.39827567656357,
+      7.950047927639389,
+      15.98129851793783
+    ],
+    "components": [
+      "physical-server"
+    ]
+  },
+  {
+    "key": "e0132",
+    "text": "CVM 2",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      69.94282671534711,
+      123.0035152938508,
+      19.783185236969075,
+      6.996048321389026
+    ],
+    "components": [
+      "physical-server"
+    ]
+  },
+  {
+    "key": "e0135",
+    "text": "CVM 1",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      47.31210551224649,
+      86.9629534592359,
+      17.58285643889576,
+      6.360044926111186
+    ],
+    "components": [
+      "physical-server"
+    ]
+  },
+  {
+    "key": "e0137",
+    "text": "CVM 2",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      90.79810656607151,
+      86.32695006395807,
+      19.78320718363466,
+      6.996048321389026
+    ],
+    "components": [
+      "physical-server"
+    ]
+  },
+  {
+    "key": "e0139",
+    "text": "CVM 3",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      154.0831602960825,
+      86.32695006395807,
+      19.78320718363466,
+      6.996048321389026
+    ],
+    "components": [
+      "physical-server"
+    ]
+  },
+  {
+    "key": "e0140",
+    "text": "Mem",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      55.76877712882833,
+      49.9825290806275,
+      6.996048321389026,
+      14.38123297023958
+    ],
+    "components": []
+  },
+  {
+    "key": "e0142",
+    "text": "CVM 1+CVM 3",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      194.07454989571124,
+      86.32695006395807,
+      43.34251375423992,
+      6.996048321389026
+    ],
+    "components": [
+      "physical-server"
+    ]
+  },
+  {
+    "key": "e0143",
+    "text": "CVM 1+CVM 3",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      192.63625322002918,
+      123.0035152938508,
+      43.34251375423992,
+      6.996048321389026
+    ],
+    "components": [
+      "physical-server"
+    ]
+  },
+  {
+    "key": "e0144",
+    "text": "CVM 1",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      16.343780213966966,
+      14.495261222417867,
+      22.1127360019982,
+      7.950058900972181
+    ],
+    "components": [
+      "tenant-one"
+    ]
+  },
+  {
+    "key": "e0145",
+    "text": "CVM 2",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      95.4500973764807,
+      14.495261222417867,
+      22.112757948663784,
+      7.950058900972181
+    ],
+    "components": [
+      "tenant-two"
+    ]
+  },
+  {
+    "key": "e0146",
+    "text": "CVM 3",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      227.77339153923094,
+      14.495261222417867,
+      22.11280184199495,
+      7.950058900972181
+    ],
+    "components": [
+      "tenant-three"
+    ]
+  },
+  {
+    "key": "e0147",
+    "text": "Cores",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      2.192222890032099,
+      28.052366108118804,
+      6.996048321389026,
+      17.26520040123978
+    ],
+    "components": [
+      "tenant-one"
+    ]
+  },
+  {
+    "key": "e0148",
+    "text": "Mem",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      2.192218830838101,
+      49.62296103333938,
+      6.996048321389026,
+      14.381211023573996
+    ],
+    "components": [
+      "tenant-one"
+    ]
+  },
+  {
+    "key": "e0149",
+    "text": "Oversubscribed",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      267.1579997288063,
+      53.96527486111154,
+      45.32315642982212,
+      6.996048321389026
+    ],
+    "components": [
+      "tenant-three"
+    ]
+  },
+  {
+    "key": "e0150",
+    "text": "Server",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      40.50269163497978,
+      143.79025570795784,
+      27.005525627189854,
+      9.858069086805699
+    ],
+    "components": [
+      "physical-server"
+    ]
+  },
+  {
+    "key": "e0152",
+    "text": "Underutilized",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      40.221752368845046,
+      2.2697394791202896,
+      41.96371448895479,
+      7.950058900972181
+    ],
+    "components": [
+      "allocation-key"
+    ]
+  },
+  {
+    "key": "e0155",
+    "text": "Utilized Guaranteed",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      116.72115680668503,
+      2.2697394791202896,
+      63.55253969014302,
+      7.950058900972181
+    ],
+    "components": [
+      "allocation-key"
+    ]
+  },
+  {
+    "key": "e0157",
+    "text": "Utilized Oversubscribed",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      206.1764680184424,
+      2.2697394791202896,
+      75.92909838598644,
+      7.950058900972181
+    ],
+    "components": [
+      "allocation-key"
+    ]
+  }
+]

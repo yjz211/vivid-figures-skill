@@ -1,0 +1,226 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 638" width="468pt" height="331.7600pt" data-vivid-architecture="1" font-family="Arial, sans-serif" font-size="18" fill="#29333b">
+  <title>Planner with intermediate artifact rail</title>
+  <defs>
+    <marker id="arrow-29333b" viewBox="0 0 10 8" refX="9" refY="4" markerWidth="6" markerHeight="5" orient="auto-start-reverse" markerUnits="strokeWidth">
+      <path d="M0 0 L10 4 L0 8 Z" fill="#29333b" />
+    </marker>
+    <marker id="arrow-74857a" viewBox="0 0 10 8" refX="9" refY="4" markerWidth="6" markerHeight="5" orient="auto-start-reverse" markerUnits="strokeWidth">
+      <path d="M0 0 L10 4 L0 8 Z" fill="#74857a" />
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="900" height="638" rx="0" fill="#ffffff" stroke="none" stroke-width="1.6" data-asset-key="e0001" />
+  <text x="150" y="30.14" font-size="21" text-anchor="middle" font-weight="bold" fill="#29333b" data-asset-key="e0002">
+    <tspan x="150" y="30.14">Training framework</tspan>
+  </text>
+  <text x="444" y="30.14" font-size="21" text-anchor="middle" font-weight="bold" fill="#29333b" data-asset-key="e0003">
+    <tspan x="444" y="30.14">Execution planner</tspan>
+  </text>
+  <text x="734" y="30.14" font-size="21" text-anchor="middle" font-weight="bold" fill="#29333b" data-asset-key="e0004">
+    <tspan x="734" y="30.14">Produced artifacts</tspan>
+  </text>
+  <g id="planner" data-role="region" data-bounds="306 40 273 569" data-vivid-part="planner">
+    <rect x="306" y="40" width="273" height="569" rx="0" fill="#ffffff" stroke="#a7b0b7" stroke-width="1.6" stroke-dasharray="7 4" data-asset-key="e0005" />
+    <g id="stage-0" data-role="component" data-bounds="320 46 250 92" data-vivid-part="stage-0">
+      <rect x="324" y="51" width="246" height="87" rx="3" fill="#c3c7c8" stroke="none" stroke-width="1.6" data-asset-key="e0006" />
+      <rect x="320" y="46" width="246" height="87" rx="3" fill="#d9e2dc" stroke="#29333b" stroke-width="1.8" data-asset-key="e0007" />
+      <text x="343" y="68.78" font-size="17" text-anchor="middle" font-weight="bold" fill="#62756c" data-asset-key="e0008">
+        <tspan x="343" y="68.78">1</tspan>
+      </text>
+      <text x="443" y="88.25" font-size="23" text-anchor="middle" font-weight="bold" fill="#29333b" data-text-box="336.0 63.86 214 60.279999999999994" data-asset-key="e0009">
+        <tspan x="443" y="88.25">Graph</tspan>
+        <tspan x="443" y="115.39">contraction</tspan>
+      </text>
+    </g>
+    <g id="stage-1" data-role="component" data-bounds="320 158 250 92" data-vivid-part="stage-1">
+      <rect x="324" y="163" width="246" height="87" rx="3" fill="#c3c7c8" stroke="none" stroke-width="1.6" data-asset-key="e0010" />
+      <rect x="320" y="158" width="246" height="87" rx="3" fill="#d9e2dc" stroke="#29333b" stroke-width="1.8" data-asset-key="e0011" />
+      <text x="343" y="180.78" font-size="17" text-anchor="middle" font-weight="bold" fill="#62756c" data-asset-key="e0012">
+        <tspan x="343" y="180.78">2</tspan>
+      </text>
+      <text x="443" y="200.25" font-size="23" text-anchor="middle" font-weight="bold" fill="#29333b" data-text-box="336.0 175.86 214 60.279999999999994" data-asset-key="e0013">
+        <tspan x="443" y="200.25">Scalability</tspan>
+        <tspan x="443" y="227.39">estimation</tspan>
+      </text>
+    </g>
+    <path d="M 443 133 L 443 158" fill="none" stroke="#29333b" stroke-width="1.7" marker-end="url(#arrow-29333b)" stroke-linejoin="round" id="stage-link-1" data-from="stage-0" data-to="stage-1" data-asset-key="e0014" />
+    <g id="stage-2" data-role="component" data-bounds="320 270 250 92" data-vivid-part="stage-2">
+      <rect x="324" y="275" width="246" height="87" rx="3" fill="#c3c7c8" stroke="none" stroke-width="1.6" data-asset-key="e0015" />
+      <rect x="320" y="270" width="246" height="87" rx="3" fill="#d9e2dc" stroke="#29333b" stroke-width="1.8" data-asset-key="e0016" />
+      <text x="343" y="292.78" font-size="17" text-anchor="middle" font-weight="bold" fill="#62756c" data-asset-key="e0017">
+        <tspan x="343" y="292.78">3</tspan>
+      </text>
+      <text x="443" y="312.25" font-size="23" text-anchor="middle" font-weight="bold" fill="#29333b" data-text-box="336.0 287.86 214 60.279999999999994" data-asset-key="e0018">
+        <tspan x="443" y="312.25">Resource</tspan>
+        <tspan x="443" y="339.39">allocation</tspan>
+      </text>
+    </g>
+    <path d="M 443 245 L 443 270" fill="none" stroke="#29333b" stroke-width="1.7" marker-end="url(#arrow-29333b)" stroke-linejoin="round" id="stage-link-2" data-from="stage-1" data-to="stage-2" data-asset-key="e0019" />
+    <g id="stage-3" data-role="component" data-bounds="320 382 250 92" data-vivid-part="stage-3">
+      <rect x="324" y="387" width="246" height="87" rx="3" fill="#c3c7c8" stroke="none" stroke-width="1.6" data-asset-key="e0020" />
+      <rect x="320" y="382" width="246" height="87" rx="3" fill="#d9e2dc" stroke="#29333b" stroke-width="1.8" data-asset-key="e0021" />
+      <text x="343" y="404.78" font-size="17" text-anchor="middle" font-weight="bold" fill="#62756c" data-asset-key="e0022">
+        <tspan x="343" y="404.78">4</tspan>
+      </text>
+      <text x="443" y="424.25" font-size="23" text-anchor="middle" font-weight="bold" fill="#29333b" data-text-box="336.0 399.86 214 60.279999999999994" data-asset-key="e0023">
+        <tspan x="443" y="424.25">Wavefront</tspan>
+        <tspan x="443" y="451.39">scheduling</tspan>
+      </text>
+    </g>
+    <path d="M 443 357 L 443 382" fill="none" stroke="#29333b" stroke-width="1.7" marker-end="url(#arrow-29333b)" stroke-linejoin="round" id="stage-link-3" data-from="stage-2" data-to="stage-3" data-asset-key="e0024" />
+    <g id="stage-4" data-role="component" data-bounds="320 494 250 92" data-vivid-part="stage-4">
+      <rect x="324" y="499" width="246" height="87" rx="3" fill="#c3c7c8" stroke="none" stroke-width="1.6" data-asset-key="e0025" />
+      <rect x="320" y="494" width="246" height="87" rx="3" fill="#d9e2dc" stroke="#29333b" stroke-width="1.8" data-asset-key="e0026" />
+      <text x="343" y="516.78" font-size="17" text-anchor="middle" font-weight="bold" fill="#62756c" data-asset-key="e0027">
+        <tspan x="343" y="516.78">5</tspan>
+      </text>
+      <text x="443" y="536.25" font-size="23" text-anchor="middle" font-weight="bold" fill="#29333b" data-text-box="336.0 511.86 214 60.279999999999994" data-asset-key="e0028">
+        <tspan x="443" y="536.25">Device</tspan>
+        <tspan x="443" y="563.39">placement</tspan>
+      </text>
+    </g>
+    <path d="M 443 469 L 443 494" fill="none" stroke="#29333b" stroke-width="1.7" marker-end="url(#arrow-29333b)" stroke-linejoin="round" id="stage-link-4" data-from="stage-3" data-to="stage-4" data-asset-key="e0029" />
+  </g>
+  <g id="artifact-0" data-role="object" data-bounds="604 46 277 96" data-vivid-part="artifact-0">
+    <rect x="604" y="46" width="277" height="96" rx="5" fill="#ffffff" stroke="#9b8e85" stroke-width="1.3" stroke-dasharray="3 3" data-asset-key="e0030" />
+    <text x="742" y="69.12" font-size="18" text-anchor="middle" font-weight="normal" fill="#ad4d42" font-style="italic" data-text-box="615.0 49.38 254 27.24" data-asset-key="e0031">
+      <tspan x="742" y="69.12">MetaGraph with operators</tspan>
+    </text>
+    <g id="artifact-glyph-0" data-role="object" data-bounds="627 80 228 53" data-vivid-part="artifact-glyph-0">
+      <desc>graph</desc>
+      <path d="M 663.091 104.314 L 704.909 93.8456" fill="none" stroke="#29333b" stroke-width="1.4" marker-end="url(#arrow-29333b)" stroke-linejoin="round" data-asset-key="e0032" />
+      <path d="M 663.091 108.686 L 704.909 119.154" fill="none" stroke="#29333b" stroke-width="1.4" marker-end="url(#arrow-29333b)" stroke-linejoin="round" data-asset-key="e0033" />
+      <path d="M 722.435 93.5682 L 773.245 104.592" fill="none" stroke="#29333b" stroke-width="1.4" marker-end="url(#arrow-29333b)" stroke-linejoin="round" data-asset-key="e0034" />
+      <path d="M 722.435 119.432 L 773.245 108.408" fill="none" stroke="#29333b" stroke-width="1.4" marker-end="url(#arrow-29333b)" stroke-linejoin="round" data-asset-key="e0035" />
+      <path d="M 791.04 106.5 L 823.2 106.5" fill="none" stroke="#29333b" stroke-width="1.4" marker-end="url(#arrow-29333b)" stroke-linejoin="round" data-asset-key="e0036" />
+      <circle cx="654.36" cy="106.5" r="9" fill="#cbdff3" stroke="#29333b" stroke-width="1.5" data-asset-key="e0037" />
+      <circle cx="713.64" cy="91.66" r="9" fill="#ffe5a0" stroke="#29333b" stroke-width="1.5" data-asset-key="e0038" />
+      <circle cx="713.64" cy="121.34" r="9" fill="#c8ddb6" stroke="#29333b" stroke-width="1.5" data-asset-key="e0039" />
+      <circle cx="782.04" cy="106.5" r="9" fill="#f2c8cb" stroke="#29333b" stroke-width="1.5" data-asset-key="e0040" />
+      <circle cx="832.2" cy="106.5" r="9" fill="#cbdff3" stroke="#29333b" stroke-width="1.5" data-asset-key="e0041" />
+    </g>
+  </g>
+  <path d="M 566 89 L 601 89" fill="none" stroke="#74857a" stroke-width="1.7" marker-end="url(#arrow-74857a)" stroke-linejoin="round" id="artifact-link-0" data-from="stage-0" data-to="artifact-0" data-asset-key="e0042" />
+  <g id="artifact-1" data-role="object" data-bounds="604 158 277 96" data-vivid-part="artifact-1">
+    <rect x="604" y="158" width="277" height="96" rx="5" fill="#ffffff" stroke="#9b8e85" stroke-width="1.3" stroke-dasharray="3 3" data-asset-key="e0043" />
+    <text x="742" y="181.12" font-size="18" text-anchor="middle" font-weight="normal" fill="#ad4d42" font-style="italic" data-text-box="615.0 161.38 254 27.24" data-asset-key="e0044">
+      <tspan x="742" y="181.12">Schematic scaling curves</tspan>
+    </text>
+    <g id="artifact-glyph-1" data-role="object" data-bounds="627 192 228 53" data-vivid-part="artifact-glyph-1">
+      <desc>curves</desc>
+      <path d="M 634 194 L 634 240 L 855 240" fill="none" stroke="#29333b" stroke-width="1.2" marker-end="url(#arrow-29333b)" stroke-linejoin="round" data-asset-key="e0045" />
+      <path d="M 639 199.8 L 670.2 215 L 722.2 223.36 L 784.6 226.4 L 847 227.54" fill="none" stroke="#82a9c4" stroke-width="2.5" stroke-linejoin="round" data-asset-key="e0046" />
+      <path d="M 639 201.7 L 670.2 209.3 L 722.2 216.9 L 784.6 221.08 L 847 223.74" fill="none" stroke="#d79694" stroke-width="2.5" stroke-linejoin="round" data-asset-key="e0047" />
+      <path d="M 639 211.2 L 670.2 219.56 L 722.2 226.78 L 784.6 229.44 L 847 230.2" fill="none" stroke="#cca958" stroke-width="2.5" stroke-linejoin="round" data-asset-key="e0048" />
+    </g>
+  </g>
+  <path d="M 566 201 L 601 201" fill="none" stroke="#74857a" stroke-width="1.7" marker-end="url(#arrow-74857a)" stroke-linejoin="round" id="artifact-link-1" data-from="stage-1" data-to="artifact-1" data-asset-key="e0049" />
+  <g id="artifact-2" data-role="object" data-bounds="604 270 277 96" data-vivid-part="artifact-2">
+    <rect x="604" y="270" width="277" height="96" rx="5" fill="#ffffff" stroke="#9b8e85" stroke-width="1.3" stroke-dasharray="3 3" data-asset-key="e0050" />
+    <text x="742" y="293.12" font-size="18" text-anchor="middle" font-weight="normal" fill="#ad4d42" font-style="italic" data-text-box="615.0 273.38 254 27.24" data-asset-key="e0051">
+      <tspan x="742" y="293.12">Allocation plan</tspan>
+    </text>
+    <g id="artifact-glyph-2" data-role="object" data-bounds="627 304 228 53" data-vivid-part="artifact-glyph-2">
+      <desc>slots</desc>
+      <rect x="627.0" y="304.0" width="53.25" height="22.5" rx="0" fill="#cbdff3" stroke="#29333b" stroke-width="1" data-asset-key="e0052" />
+      <rect x="685.25" y="304.0" width="53.25" height="22.5" rx="0" fill="#cbdff3" stroke="#29333b" stroke-width="1" data-asset-key="e0053" />
+      <rect x="743.5" y="304.0" width="53.25" height="22.5" rx="0" fill="#ffe5a0" stroke="#29333b" stroke-width="1" data-asset-key="e0054" />
+      <rect x="801.75" y="304.0" width="53.25" height="22.5" rx="0" fill="#ffe5a0" stroke="#29333b" stroke-width="1" data-asset-key="e0055" />
+      <rect x="627.0" y="334.5" width="53.25" height="22.5" rx="0" fill="#c8ddb6" stroke="#29333b" stroke-width="1" data-asset-key="e0056" />
+      <rect x="685.25" y="334.5" width="53.25" height="22.5" rx="0" fill="#c8ddb6" stroke="#29333b" stroke-width="1" data-asset-key="e0057" />
+      <rect x="743.5" y="334.5" width="53.25" height="22.5" rx="0" fill="#c8ddb6" stroke="#29333b" stroke-width="1" data-asset-key="e0058" />
+      <rect x="801.75" y="334.5" width="53.25" height="22.5" rx="0" fill="#ffffff" stroke="#29333b" stroke-width="1" data-asset-key="e0059" />
+    </g>
+  </g>
+  <path d="M 566 313 L 601 313" fill="none" stroke="#74857a" stroke-width="1.7" marker-end="url(#arrow-74857a)" stroke-linejoin="round" id="artifact-link-2" data-from="stage-2" data-to="artifact-2" data-asset-key="e0060" />
+  <g id="artifact-3" data-role="object" data-bounds="604 382 277 96" data-vivid-part="artifact-3">
+    <rect x="604" y="382" width="277" height="96" rx="5" fill="#ffffff" stroke="#9b8e85" stroke-width="1.3" stroke-dasharray="3 3" data-asset-key="e0061" />
+    <text x="742" y="405.12" font-size="18" text-anchor="middle" font-weight="normal" fill="#ad4d42" font-style="italic" data-text-box="615.0 385.38 254 27.24" data-asset-key="e0062">
+      <tspan x="742" y="405.12">Wavefront schedule</tspan>
+    </text>
+    <g id="artifact-glyph-3" data-role="object" data-bounds="627 416 228 53" data-vivid-part="artifact-glyph-3">
+      <desc>timeline</desc>
+      <path d="M 627 423.667 L 855 423.667" fill="none" stroke="#b3bdc4" stroke-width="0.8" stroke-linejoin="round" data-asset-key="e0063" />
+      <rect x="627.0" y="418.0" width="62.0" height="3.666666666666666" rx="0" fill="#cbdff3" stroke="#29333b" stroke-width="1" data-asset-key="e0064" />
+      <rect x="723.0" y="418.0" width="62.0" height="3.666666666666666" rx="0" fill="#ffe5a0" stroke="#29333b" stroke-width="1" data-asset-key="e0065" />
+      <path d="M 627 436.333 L 855 436.333" fill="none" stroke="#b3bdc4" stroke-width="0.8" stroke-linejoin="round" data-asset-key="e0066" />
+      <rect x="659.0" y="430.6666666666667" width="62.0" height="3.666666666666666" rx="0" fill="#c8ddb6" stroke="#29333b" stroke-width="1" data-asset-key="e0067" />
+      <rect x="755.0" y="430.6666666666667" width="62.0" height="3.666666666666666" rx="0" fill="#cbdff3" stroke="#29333b" stroke-width="1" data-asset-key="e0068" />
+      <path d="M 627 449 L 855 449" fill="none" stroke="#b3bdc4" stroke-width="0.8" stroke-linejoin="round" data-asset-key="e0069" />
+      <rect x="691.0" y="443.3333333333333" width="62.0" height="3.666666666666666" rx="0" fill="#ffe5a0" stroke="#29333b" stroke-width="1" data-asset-key="e0070" />
+      <rect x="787.0" y="443.3333333333333" width="62.0" height="3.666666666666666" rx="0" fill="#c8ddb6" stroke="#29333b" stroke-width="1" data-asset-key="e0071" />
+      <path d="M 627 466 L 855 466" fill="none" stroke="#29333b" stroke-width="1" marker-end="url(#arrow-29333b)" stroke-linejoin="round" data-asset-key="e0072" />
+    </g>
+  </g>
+  <path d="M 566 425 L 601 425" fill="none" stroke="#74857a" stroke-width="1.7" marker-end="url(#arrow-74857a)" stroke-linejoin="round" id="artifact-link-3" data-from="stage-3" data-to="artifact-3" data-asset-key="e0073" />
+  <g id="artifact-4" data-role="object" data-bounds="604 494 277 96" data-vivid-part="artifact-4">
+    <rect x="604" y="494" width="277" height="96" rx="5" fill="#ffffff" stroke="#9b8e85" stroke-width="1.3" stroke-dasharray="3 3" data-asset-key="e0074" />
+    <text x="742" y="517.12" font-size="18" text-anchor="middle" font-weight="normal" fill="#ad4d42" font-style="italic" data-text-box="615.0 497.38 254 27.24" data-asset-key="e0075">
+      <tspan x="742" y="517.12">Execution plan</tspan>
+    </text>
+    <g id="artifact-glyph-4" data-role="object" data-bounds="627 528 228 53" data-vivid-part="artifact-glyph-4">
+      <desc>matrix</desc>
+      <rect x="627.0" y="528.0" width="54.0" height="15.0" rx="0" fill="#cbdff3" stroke="#29333b" stroke-width="1" data-asset-key="e0076" />
+      <rect x="685.0" y="528.0" width="54.0" height="15.0" rx="0" fill="#cbdff3" stroke="#29333b" stroke-width="1" data-asset-key="e0077" />
+      <rect x="743.0" y="528.0" width="54.0" height="15.0" rx="0" fill="#ffffff" stroke="#29333b" stroke-width="1" data-asset-key="e0078" />
+      <rect x="801.0" y="528.0" width="54.0" height="15.0" rx="0" fill="#ffffff" stroke="#29333b" stroke-width="1" data-asset-key="e0079" />
+      <rect x="627.0" y="547.0" width="54.0" height="15.0" rx="0" fill="#ffffff" stroke="#29333b" stroke-width="1" data-asset-key="e0080" />
+      <rect x="685.0" y="547.0" width="54.0" height="15.0" rx="0" fill="#ffe5a0" stroke="#29333b" stroke-width="1" data-asset-key="e0081" />
+      <rect x="743.0" y="547.0" width="54.0" height="15.0" rx="0" fill="#ffe5a0" stroke="#29333b" stroke-width="1" data-asset-key="e0082" />
+      <rect x="801.0" y="547.0" width="54.0" height="15.0" rx="0" fill="#ffffff" stroke="#29333b" stroke-width="1" data-asset-key="e0083" />
+      <rect x="627.0" y="566.0" width="54.0" height="15.0" rx="0" fill="#ffffff" stroke="#29333b" stroke-width="1" data-asset-key="e0084" />
+      <rect x="685.0" y="566.0" width="54.0" height="15.0" rx="0" fill="#ffffff" stroke="#29333b" stroke-width="1" data-asset-key="e0085" />
+      <rect x="743.0" y="566.0" width="54.0" height="15.0" rx="0" fill="#c8ddb6" stroke="#29333b" stroke-width="1" data-asset-key="e0086" />
+      <rect x="801.0" y="566.0" width="54.0" height="15.0" rx="0" fill="#c8ddb6" stroke="#29333b" stroke-width="1" data-asset-key="e0087" />
+    </g>
+  </g>
+  <path d="M 566 537 L 601 537" fill="none" stroke="#74857a" stroke-width="1.7" marker-end="url(#arrow-74857a)" stroke-linejoin="round" id="artifact-link-4" data-from="stage-4" data-to="artifact-4" data-asset-key="e0088" />
+  <g id="input-0" data-role="object" data-bounds="18 46 253 116" data-vivid-part="input-0">
+    <rect x="18" y="46" width="253" height="116" rx="0" fill="#ffffff" stroke="#29333b" stroke-width="1.6" stroke-dasharray="7 4" data-asset-key="e0089" />
+    <text x="144" y="72.8" font-size="20" text-anchor="middle" font-weight="normal" fill="#29333b" data-text-box="29.0 51.2 230 29.599999999999998" data-asset-key="e0090">
+      <tspan x="144" y="72.8">Computation graph</tspan>
+    </text>
+    <g id="input-glyph-0" data-role="object" data-bounds="36 86 215 63" data-vivid-part="input-glyph-0">
+      <desc>graph</desc>
+      <path d="M 70.3828 114.792 L 109.117 102.568" fill="none" stroke="#29333b" stroke-width="1.4" marker-end="url(#arrow-29333b)" stroke-linejoin="round" data-asset-key="e0091" />
+      <path d="M 70.3828 120.208 L 109.117 132.432" fill="none" stroke="#29333b" stroke-width="1.4" marker-end="url(#arrow-29333b)" stroke-linejoin="round" data-asset-key="e0092" />
+      <path d="M 126.381 102.234 L 173.519 115.126" fill="none" stroke="#29333b" stroke-width="1.4" marker-end="url(#arrow-29333b)" stroke-linejoin="round" data-asset-key="e0093" />
+      <path d="M 126.381 132.766 L 173.519 119.874" fill="none" stroke="#29333b" stroke-width="1.4" marker-end="url(#arrow-29333b)" stroke-linejoin="round" data-asset-key="e0094" />
+      <path d="M 191.2 117.5 L 220.5 117.5" fill="none" stroke="#29333b" stroke-width="1.4" marker-end="url(#arrow-29333b)" stroke-linejoin="round" data-asset-key="e0095" />
+      <circle cx="61.8" cy="117.5" r="9" fill="#cbdff3" stroke="#29333b" stroke-width="1.5" data-asset-key="e0096" />
+      <circle cx="117.7" cy="99.86" r="9" fill="#ffe5a0" stroke="#29333b" stroke-width="1.5" data-asset-key="e0097" />
+      <circle cx="117.7" cy="135.14" r="9" fill="#c8ddb6" stroke="#29333b" stroke-width="1.5" data-asset-key="e0098" />
+      <circle cx="182.20000000000002" cy="117.5" r="9" fill="#f2c8cb" stroke="#29333b" stroke-width="1.5" data-asset-key="e0099" />
+      <circle cx="229.5" cy="117.5" r="9" fill="#cbdff3" stroke="#29333b" stroke-width="1.5" data-asset-key="e0100" />
+    </g>
+  </g>
+  <path d="M 271 104 L 291 104 L 291 90 L 317 90" fill="none" stroke="#29333b" stroke-width="1.7" marker-end="url(#arrow-29333b)" stroke-linejoin="round" id="input-link-0" data-from="input-0" data-to="stage-0" data-asset-key="e0101" />
+  <g id="input-1" data-role="object" data-bounds="18 270 253 142" data-vivid-part="input-1">
+    <rect x="18" y="270" width="253" height="142" rx="0" fill="#eaf2f3" stroke="#29333b" stroke-width="1.6" stroke-dasharray="7 4" data-asset-key="e0102" />
+    <text x="144" y="296.8" font-size="20" text-anchor="middle" font-weight="normal" fill="#29333b" data-text-box="29.0 275.2 230 29.599999999999998" data-asset-key="e0103">
+      <tspan x="144" y="296.8">GPU cluster</tspan>
+    </text>
+    <g id="input-glyph-1" data-role="object" data-bounds="36 310 215 89" data-vivid-part="input-glyph-1">
+      <desc>graph</desc>
+      <path d="M 77.25 327.8 L 209.75 327.8" fill="none" stroke="#29333b" stroke-width="1.4" stroke-linejoin="round" data-asset-key="e0104" />
+      <path d="M 68.25 336.8 L 68.25 372.2" fill="none" stroke="#29333b" stroke-width="1.4" stroke-linejoin="round" data-asset-key="e0105" />
+      <path d="M 218.75 336.8 L 218.75 372.2" fill="none" stroke="#29333b" stroke-width="1.4" stroke-linejoin="round" data-asset-key="e0106" />
+      <path d="M 77.25 381.2 L 209.75 381.2" fill="none" stroke="#29333b" stroke-width="1.4" stroke-linejoin="round" data-asset-key="e0107" />
+      <circle cx="68.25" cy="327.8" r="9" fill="#cbdff3" stroke="#29333b" stroke-width="1.5" data-asset-key="e0108" />
+      <circle cx="218.75" cy="327.8" r="9" fill="#cbdff3" stroke="#29333b" stroke-width="1.5" data-asset-key="e0109" />
+      <circle cx="68.25" cy="381.2" r="9" fill="#c8ddb6" stroke="#29333b" stroke-width="1.5" data-asset-key="e0110" />
+      <circle cx="218.75" cy="381.2" r="9" fill="#c8ddb6" stroke="#29333b" stroke-width="1.5" data-asset-key="e0111" />
+    </g>
+  </g>
+  <path d="M 271 341 L 291 341 L 291 314 L 317 314" fill="none" stroke="#29333b" stroke-width="1.7" marker-end="url(#arrow-29333b)" stroke-linejoin="round" id="input-link-1" data-from="input-1" data-to="stage-2" data-asset-key="e0112" />
+  <g id="runtime" data-role="component" data-bounds="20 494 251 87" data-vivid-part="runtime">
+    <rect x="20" y="494" width="251" height="87" rx="3" fill="#d9e2dc" stroke="#29333b" stroke-width="1.6" data-asset-key="e0113" />
+    <text x="145.5" y="545.32" font-size="23" text-anchor="middle" font-weight="bold" fill="#29333b" data-text-box="27.0 520.93 237 33.14" data-asset-key="e0114">
+      <tspan x="145.5" y="545.32">Runtime engine</tspan>
+    </text>
+  </g>
+  <path d="M 320 538 L 274 538" fill="none" stroke="#29333b" stroke-width="1.7" marker-end="url(#arrow-29333b)" stroke-linejoin="round" id="execution" data-from="stage-4" data-to="runtime" data-asset-key="e0115" />
+  <text x="145" y="608.78" font-size="17" text-anchor="middle" font-weight="normal" fill="#6c7479" font-style="italic" data-asset-key="e0116">
+    <tspan x="145" y="608.78">Training environment</tspan>
+  </text>
+</svg>

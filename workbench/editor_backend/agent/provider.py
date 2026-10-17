@@ -66,6 +66,9 @@ def call(prompt,schema,workdir,cancelled=lambda:False,images=None,on_process=Non
         for flag in ['shell_tool','multi_agent','apps','plugins','hooks','browser_use','computer_use','skill_search','sleep_tool']:
             args+=['--disable',flag]
         args+=['--enable','skip_host_skill_discovery']
+        # All drawing operations go through application tools. Image reviewers
+        # must not search the web for local source files or execute the task.
+        args+=['-c','web_search="disabled"']
         if c['model'].strip():args+=['-m',c['model'].strip()]
         for img in images or []:args+=['-i',str(img)]
         args+=['-']

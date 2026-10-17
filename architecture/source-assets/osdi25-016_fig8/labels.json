@@ -1,0 +1,448 @@
+[
+  {
+    "key": "e0003",
+    "text": "Global Memory",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      6.468505859375,
+      3.171829223632784,
+      109.77606201171875,
+      22.860198974609375
+    ],
+    "components": [
+      "global-output"
+    ]
+  },
+  {
+    "key": "e0013",
+    "text": "Computing Units",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      6.459991455078125,
+      82.89440917968747,
+      121.05609130859375,
+      22.860198974609375
+    ],
+    "components": []
+  },
+  {
+    "key": "e0016",
+    "text": "Shared Memory",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      24.459991455078125,
+      105.48703002929685,
+      114.24008178710938,
+      22.860198974609375
+    ],
+    "components": [
+      "shared-buffers"
+    ]
+  },
+  {
+    "key": "e0019",
+    "text": "Record Slot",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      68.69888305664062,
+      140.37091064453122,
+      83.98007202148438,
+      22.860198974609375
+    ],
+    "components": [
+      "shared-buffers"
+    ]
+  },
+  {
+    "key": "e0022",
+    "text": "Record Slot",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      68.69888305664062,
+      158.37451171874997,
+      83.98007202148438,
+      22.860198974609375
+    ],
+    "components": [
+      "shared-buffers"
+    ]
+  },
+  {
+    "key": "e0024",
+    "text": "Empty Slot",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      71.65087890625,
+      176.37802124023435,
+      78.0760498046875,
+      22.860198974609375
+    ],
+    "components": [
+      "shared-buffers"
+    ]
+  },
+  {
+    "key": "e0030",
+    "text": "Record Slot",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      193.21746826171875,
+      140.37091064453122,
+      83.98007202148438,
+      22.860198974609375
+    ],
+    "components": [
+      "shared-buffers"
+    ]
+  },
+  {
+    "key": "e0033",
+    "text": "Record Slot",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      193.21746826171875,
+      158.37451171874997,
+      83.98007202148438,
+      22.860198974609375
+    ],
+    "components": [
+      "shared-buffers"
+    ]
+  },
+  {
+    "key": "e0035",
+    "text": "Empty Slot",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      196.16949462890625,
+      176.37802124023435,
+      78.0760498046875,
+      22.860198974609375
+    ],
+    "components": [
+      "shared-buffers"
+    ]
+  },
+  {
+    "key": "e0038",
+    "text": "Warp Group 0",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      44.61396789550781,
+      221.27453613281247,
+      100.68601989746094,
+      22.860198974609375
+    ],
+    "components": [
+      "worker-zero"
+    ]
+  },
+  {
+    "key": "e0039",
+    "text": "Bu",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      53.459991455078125,
+      121.32672119140622,
+      19.858016967773438,
+      22.860198974609375
+    ],
+    "components": [
+      "shared-buffers"
+    ]
+  },
+  {
+    "key": "e0040",
+    "text": "ﬀ",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      72.8079833984375,
+      121.32672119140622,
+      9.144078254699707,
+      22.860197067260742
+    ],
+    "components": [
+      "shared-buffers"
+    ]
+  },
+  {
+    "key": "e0041",
+    "text": "er 0",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      82.54800415039062,
+      121.32672119140622,
+      27.2659912109375,
+      22.860198974609375
+    ],
+    "components": [
+      "shared-buffers"
+    ]
+  },
+  {
+    "key": "e0042",
+    "text": "Bu",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      178.18218994140625,
+      121.32672119140622,
+      19.85797119140625,
+      22.860198974609375
+    ],
+    "components": [
+      "shared-buffers"
+    ]
+  },
+  {
+    "key": "e0043",
+    "text": "ﬀ",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      197.53018188476562,
+      121.32672119140622,
+      9.144078254699707,
+      22.860197067260742
+    ],
+    "components": [
+      "shared-buffers"
+    ]
+  },
+  {
+    "key": "e0044",
+    "text": "er 1",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      207.27017211914062,
+      121.32672119140622,
+      27.26605224609375,
+      22.860198974609375
+    ],
+    "components": [
+      "shared-buffers"
+    ]
+  },
+  {
+    "key": "e0047",
+    "text": "Warp Group 1",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      184.61398315429688,
+      221.27453613281247,
+      100.68603515625,
+      22.860198974609375
+    ],
+    "components": [
+      "worker-one"
+    ]
+  },
+  {
+    "key": "e0050",
+    "text": "Region 0",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      63.35400390625,
+      239.35101318359372,
+      63.7139892578125,
+      22.860198974609403
+    ],
+    "components": [
+      "worker-zero"
+    ]
+  },
+  {
+    "key": "e0053",
+    "text": "Region 1",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      63.35400390625,
+      257.3545227050781,
+      63.7139892578125,
+      22.860198974609375
+    ],
+    "components": [
+      "worker-zero"
+    ]
+  },
+  {
+    "key": "e0056",
+    "text": "Region 0",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      203.35397338867188,
+      239.35101318359372,
+      63.7139892578125,
+      22.860198974609403
+    ],
+    "components": [
+      "worker-one"
+    ]
+  },
+  {
+    "key": "e0059",
+    "text": "Region 2",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      203.35397338867188,
+      257.3545227050781,
+      63.7139892578125,
+      22.860198974609375
+    ],
+    "components": [
+      "worker-one"
+    ]
+  },
+  {
+    "key": "e0068",
+    "text": "Program Trace",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      92.8892822265625,
+      23.453216552734347,
+      104.91403198242188,
+      22.860198974609375
+    ],
+    "components": [
+      "global-output"
+    ]
+  },
+  {
+    "key": "e0071",
+    "text": "Meta Data",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      325.687255859375,
+      23.453216552734347,
+      74.64794921875,
+      22.860198974609375
+    ],
+    "components": [
+      "global-output"
+    ]
+  },
+  {
+    "key": "e0074",
+    "text": "Record Slot",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      317.7359619140625,
+      140.37091064453122,
+      83.97991943359375,
+      22.860198974609375
+    ],
+    "components": [
+      "shared-buffers"
+    ]
+  },
+  {
+    "key": "e0077",
+    "text": "Record Slot",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      317.7359619140625,
+      158.37451171874997,
+      83.97991943359375,
+      22.860198974609375
+    ],
+    "components": [
+      "shared-buffers"
+    ]
+  },
+  {
+    "key": "e0079",
+    "text": "Empty Slot",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      320.68798828125,
+      176.37802124023435,
+      78.075927734375,
+      22.860198974609375
+    ],
+    "components": [
+      "shared-buffers"
+    ]
+  },
+  {
+    "key": "e0083",
+    "text": "Bu",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      302.7007141113281,
+      121.32672119140622,
+      19.85797119140625,
+      22.860198974609375
+    ],
+    "components": [
+      "shared-buffers"
+    ]
+  },
+  {
+    "key": "e0084",
+    "text": "ﬀ",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      322.0486755371094,
+      121.32672119140622,
+      9.144078254699707,
+      22.860197067260742
+    ],
+    "components": [
+      "shared-buffers"
+    ]
+  },
+  {
+    "key": "e0085",
+    "text": "er 2",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      331.7886657714844,
+      121.32672119140622,
+      27.265960693359375,
+      22.860198974609375
+    ],
+    "components": [
+      "shared-buffers"
+    ]
+  },
+  {
+    "key": "e0088",
+    "text": "Warp Group 1",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      332.864013671875,
+      221.27453613281247,
+      100.6859130859375,
+      22.860198974609375
+    ],
+    "components": [
+      "worker-last"
+    ]
+  },
+  {
+    "key": "e0091",
+    "text": "Region 0",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      351.60400390625,
+      239.35101318359372,
+      63.71405029296875,
+      22.860198974609403
+    ],
+    "components": [
+      "worker-last"
+    ]
+  },
+  {
+    "key": "e0094",
+    "text": "Region 2",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      351.60400390625,
+      257.3545227050781,
+      63.71405029296875,
+      22.860198974609375
+    ],
+    "components": [
+      "worker-last"
+    ]
+  }
+]

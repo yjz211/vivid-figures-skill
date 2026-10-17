@@ -1,0 +1,514 @@
+[
+  {
+    "key": "e0003",
+    "text": "RISC-V Processor",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      115.7890400439501,
+      7.006147595015591,
+      58.37672326440223,
+      7.927309735241124
+    ],
+    "components": []
+  },
+  {
+    "key": "e0004",
+    "text": "Pipeline",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      135.75951027870178,
+      33.46356788148478,
+      20.043378774658777,
+      6.193209546019716
+    ],
+    "components": [
+      "pipeline-memory"
+    ]
+  },
+  {
+    "key": "e0009",
+    "text": "RF1",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      130.85448250174522,
+      102.33213797134158,
+      15.405568261499866,
+      9.165954949279694
+    ],
+    "components": [
+      "register-banks"
+    ]
+  },
+  {
+    "key": "e0010",
+    "text": "(APP)",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      127.68532494455577,
+      112.52440348190066,
+      21.74826908583053,
+      9.165954949279694
+    ],
+    "components": [
+      "register-banks"
+    ]
+  },
+  {
+    "key": "e0013",
+    "text": "RF2",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      158.8831815514568,
+      102.33213797134158,
+      15.405599365825765,
+      9.165954949279694
+    ],
+    "components": [
+      "register-banks"
+    ]
+  },
+  {
+    "key": "e0014",
+    "text": "(ISR)",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      157.0756780691445,
+      112.52440348190066,
+      19.024867623098544,
+      9.165954949279694
+    ],
+    "components": [
+      "register-banks"
+    ]
+  },
+  {
+    "key": "e0018",
+    "text": "Regfile",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      120.47111201286317,
+      78.8191494034727,
+      17.548734076750392,
+      6.193213434060453
+    ],
+    "components": [
+      "register-banks"
+    ]
+  },
+  {
+    "key": "e0043",
+    "text": "F",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      143.96906163915992,
+      47.80352137789123,
+      4.981663975920583,
+      9.165948145208404
+    ],
+    "components": [
+      "pipeline-memory"
+    ]
+  },
+  {
+    "key": "e0046",
+    "text": "D",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      163.899718336761,
+      47.80352137789123,
+      5.891291518641083,
+      9.165948145208404
+    ],
+    "components": [
+      "pipeline-memory"
+    ]
+  },
+  {
+    "key": "e0049",
+    "text": "X",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      184.50720516592264,
+      47.80352137789123,
+      5.450025625230182,
+      9.165948145208404
+    ],
+    "components": [
+      "pipeline-memory"
+    ]
+  },
+  {
+    "key": "e0052",
+    "text": "M",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      204.21490605548024,
+      47.80352137789123,
+      6.793177972253488,
+      9.165948145208404
+    ],
+    "components": [
+      "pipeline-memory"
+    ]
+  },
+  {
+    "key": "e0055",
+    "text": "W",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      223.8978167972964,
+      47.80352137789123,
+      8.175038194842728,
+      9.165948145208404
+    ],
+    "components": [
+      "pipeline-memory"
+    ]
+  },
+  {
+    "key": "e0058",
+    "text": "e",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      175.36601703613997,
+      49.50930982647333,
+      2.9727410292141485,
+      5.697754084831786
+    ],
+    "components": [
+      "pipeline-memory"
+    ]
+  },
+  {
+    "key": "e0061",
+    "text": "RTOSUnit",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      10.904257774353042,
+      24.332999934976215,
+      32.493585063035425,
+      7.92730876323094
+    ],
+    "components": []
+  },
+  {
+    "key": "e0064",
+    "text": "Store FSM",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      23.294230535626426,
+      73.22755584094921,
+      29.2251113932507,
+      6.688666465222923
+    ],
+    "components": [
+      "rtos-controller"
+    ]
+  },
+  {
+    "key": "e0067",
+    "text": "Restore FSM    ",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      16.502041097730412,
+      144.57342219094426,
+      42.81893043195305,
+      6.688674241304398
+    ],
+    "components": [
+      "rtos-controller"
+    ]
+  },
+  {
+    "key": "e0070",
+    "text": "HW Scheduler",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      18.198097780346885,
+      51.823798268775136,
+      39.61274317478092,
+      6.688666465222923
+    ],
+    "components": [
+      "rtos-controller"
+    ]
+  },
+  {
+    "key": "e0078",
+    "text": "Read RF",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      72.05785083770753,
+      70.16987618778148,
+      24.466336156670877,
+      6.688666465222923
+    ],
+    "components": []
+  },
+  {
+    "key": "e0079",
+    "text": "Write RF",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      71.81012043408556,
+      141.00612926224858,
+      24.254080236736627,
+      6.688674241304398
+    ],
+    "components": []
+  },
+  {
+    "key": "e0080",
+    "text": "Instructions",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      72.05785083770753,
+      52.84303259591252,
+      31.26804351829196,
+      6.688666465222923
+    ],
+    "components": []
+  },
+  {
+    "key": "e0081",
+    "text": "(custom, mret)",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      72.05785083770753,
+      60.487223952750355,
+      39.41308450683573,
+      6.688666465222923
+    ],
+    "components": []
+  },
+  {
+    "key": "e0088",
+    "text": "Switch RF",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      72.05785083770753,
+      88.51595410678783,
+      27.860377990109555,
+      6.688666465222923
+    ],
+    "components": []
+  },
+  {
+    "key": "e0092",
+    "text": "Enters ISR",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      72.05785083770753,
+      36.53540389097725,
+      29.611567090381868,
+      6.688666465222923
+    ],
+    "components": []
+  },
+  {
+    "key": "e0095",
+    "text": "mstatus",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      194.3650369644165,
+      100.7466804955402,
+      21.410040646005655,
+      6.688666465222923
+    ],
+    "components": [
+      "status-registers"
+    ]
+  },
+  {
+    "key": "e0096",
+    "text": "mepc",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      194.3650369644165,
+      107.88125857685009,
+      15.114836127322633,
+      6.688666465222923
+    ],
+    "components": [
+      "status-registers"
+    ]
+  },
+  {
+    "key": "e0097",
+    "text": "mcause",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      194.3650369644165,
+      115.5254577097694,
+      21.477910285117105,
+      6.688666465222923
+    ],
+    "components": [
+      "status-registers"
+    ]
+  },
+  {
+    "key": "e0098",
+    "text": "CSRs",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      194.3650369644165,
+      92.59286031101146,
+      15.96743680453801,
+      6.688666465222923
+    ],
+    "components": [
+      "status-registers"
+    ]
+  },
+  {
+    "key": "e0099",
+    "text": "Read / Write CSRs",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      59.31751894950868,
+      161.39066028336674,
+      51.53986801451538,
+      6.688674241304398
+    ],
+    "components": []
+  },
+  {
+    "key": "e0103",
+    "text": "Memory",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      214.09662597626448,
+      3.948466969837682,
+      25.911583107401384,
+      7.9273107072513085
+    ],
+    "components": [
+      "pipeline-memory"
+    ]
+  },
+  {
+    "key": "e0106",
+    "text": "Memory Interface Arbitration     ",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      151.9636198990047,
+      22.266232176194535,
+      85.30799948774802,
+      6.688666465222923
+    ],
+    "components": [
+      "pipeline-memory"
+    ]
+  },
+  {
+    "key": "e0123",
+    "text": "RF write trace",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      72.05785083770753,
+      149.1599261185329,
+      38.12393461562897,
+      6.688674241304398
+    ],
+    "components": []
+  },
+  {
+    "key": "e0137",
+    "text": "b",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      55.606897287070765,
+      73.97073927573365,
+      2.9727410292141485,
+      5.697754084831786
+    ],
+    "components": [
+      "rtos-controller"
+    ]
+  },
+  {
+    "key": "e0140",
+    "text": "a",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      177.91408341377974,
+      138.69162526778382,
+      2.9727410292141485,
+      5.697754084831786
+    ],
+    "components": [
+      "register-banks"
+    ]
+  },
+  {
+    "key": "e0143",
+    "text": "c",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      205.06691575050354,
+      122.89361372641724,
+      2.725012812615091,
+      5.697754084831786
+    ],
+    "components": [
+      "status-registers"
+    ]
+  },
+  {
+    "key": "e0146",
+    "text": "g",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      232.95231717079878,
+      21.990191003943437,
+      2.837264679746113,
+      5.697754084831786
+    ],
+    "components": [
+      "pipeline-memory"
+    ]
+  },
+  {
+    "key": "e0149",
+    "text": "f",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      56.31557824835183,
+      145.31659784964722,
+      1.7340989742086776,
+      5.697754084831786
+    ],
+    "components": [
+      "rtos-controller"
+    ]
+  },
+  {
+    "key": "e0152",
+    "text": "d",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      172.30833738297224,
+      131.04744168702746,
+      2.837264679746113,
+      5.697754084831786
+    ],
+    "components": [
+      "register-banks"
+    ]
+  },
+  {
+    "key": "e0155",
+    "text": "d",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      172.30833738297224,
+      87.73030549106988,
+      2.837264679746113,
+      5.697754084831786
+    ],
+    "components": [
+      "register-banks"
+    ]
+  }
+]

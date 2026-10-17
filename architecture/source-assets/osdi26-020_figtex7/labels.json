@@ -1,0 +1,322 @@
+[
+  {
+    "key": "e0010",
+    "text": "GEMV",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      73.57010269165039,
+      142.08847045898432,
+      38.30119323730469,
+      15.70416259765625
+    ],
+    "components": [
+      "cpu-history"
+    ]
+  },
+  {
+    "key": "e0013",
+    "text": "②",
+    "font_family": "VividSource-DejaVuSans",
+    "bounds": [
+      46.74990463256836,
+      105.56173706054682,
+      25.067262649536133,
+      32.64813995361328
+    ],
+    "components": [
+      "cpu-history"
+    ]
+  },
+  {
+    "key": "e0020",
+    "text": "Preprocessing Phase",
+    "font_family": "VividSource-Arimo-Italic",
+    "bounds": [
+      3.2551002502441406,
+      17.764221191406193,
+      145.6847381591797,
+      17.7705078125
+    ],
+    "components": [
+      "preprocessing"
+    ]
+  },
+  {
+    "key": "e0025",
+    "text": "GPU",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      206.33029556274414,
+      33.67153930664057,
+      32.04608154296875,
+      17.7705078125
+    ],
+    "components": [
+      "gpu-training"
+    ]
+  },
+  {
+    "key": "e0026",
+    "text": "CPU",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      6.995029449462891,
+      115.5171508789062,
+      17.7705078125,
+      31.806640625
+    ],
+    "components": [
+      "cpu-history"
+    ]
+  },
+  {
+    "key": "e0029",
+    "text": "CXL Mem",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      395.7174415588379,
+      96.54800415039057,
+      17.7705078125,
+      65.47518920898438
+    ],
+    "components": []
+  },
+  {
+    "key": "e0032",
+    "text": "Distributed",
+    "font_family": "VividSource-Arimo-Italic",
+    "bounds": [
+      386.46823501586914,
+      15.756103515624943,
+      15.70416259765625,
+      67.9625244140625
+    ],
+    "components": [
+      "history-partition"
+    ]
+  },
+  {
+    "key": "e0033",
+    "text": "Noise History",
+    "font_family": "VividSource-Arimo-Italic",
+    "bounds": [
+      374.7026710510254,
+      8.792297363281193,
+      15.70416259765625,
+      82.49288940429688
+    ],
+    "components": [
+      "history-partition"
+    ]
+  },
+  {
+    "key": "e0042",
+    "text": "GEMV",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      245.89319229125977,
+      57.78530883789057,
+      38.301177978515625,
+      15.70416259765625
+    ],
+    "components": [
+      "gpu-training"
+    ]
+  },
+  {
+    "key": "e0043",
+    "text": "DP Training",
+    "font_family": "VividSource-Arimo-Italic",
+    "bounds": [
+      186.43379592895508,
+      141.07058715820307,
+      68.33634948730469,
+      15.70416259765625
+    ],
+    "components": [
+      "gpu-training"
+    ]
+  },
+  {
+    "key": "e0046",
+    "text": "Emb",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      183.24219131469727,
+      104.2859497070312,
+      31.324920654296875,
+      17.7705078125
+    ],
+    "components": [
+      "gpu-training"
+    ]
+  },
+  {
+    "key": "e0051",
+    "text": "Noise Pre-compute & Coalesce ",
+    "font_family": "VividSource-Arimo-Italic",
+    "bounds": [
+      25.296199798583984,
+      46.14907836914057,
+      121.2740249633789,
+      32.51007080078125
+    ],
+    "components": [
+      "preprocessing"
+    ]
+  },
+  {
+    "key": "e0052",
+    "text": "(§§4.1)",
+    "font_family": "VividSource-Arimo-BoldItalic",
+    "bounds": [
+      99.58183670043945,
+      62.95498657226557,
+      42.01023864746094,
+      15.70416259765625
+    ],
+    "components": [
+      "preprocessing"
+    ]
+  },
+  {
+    "key": "e0057",
+    "text": "NMP",
+    "font_family": "VividSource-Arimo-Italic",
+    "bounds": [
+      298.28171157836914,
+      127.88662719726557,
+      30.50054931640625,
+      15.70416259765625
+    ],
+    "components": [
+      "near-memory"
+    ]
+  },
+  {
+    "key": "e0058",
+    "text": " (§§4.2)",
+    "font_family": "VividSource-Arimo-BoldItalic",
+    "bounds": [
+      292.27258682250977,
+      127.88662719726557,
+      42.010223388671875,
+      27.46966552734375
+    ],
+    "components": [
+      "near-memory"
+    ]
+  },
+  {
+    "key": "e0059",
+    "text": "①",
+    "font_family": "VividSource-DejaVuSans",
+    "bounds": [
+      329.7925148010254,
+      -3.270935058593807,
+      25.067262649536133,
+      32.64813995361328
+    ],
+    "components": [
+      "history-partition"
+    ]
+  },
+  {
+    "key": "e0060",
+    "text": "②",
+    "font_family": "VividSource-DejaVuSans",
+    "bounds": [
+      329.7925148010254,
+      23.934112548828068,
+      25.067262649536133,
+      32.64813995361328
+    ],
+    "components": [
+      "history-partition"
+    ]
+  },
+  {
+    "key": "e0061",
+    "text": "③",
+    "font_family": "VividSource-DejaVuSans",
+    "bounds": [
+      329.7925148010254,
+      60.19824218749994,
+      25.067262649536133,
+      32.64813995361328
+    ],
+    "components": [
+      "history-partition"
+    ]
+  },
+  {
+    "key": "e0064",
+    "text": "①",
+    "font_family": "VividSource-DejaVuSans",
+    "bounds": [
+      179.58110427856445,
+      50.16302490234369,
+      25.067262649536133,
+      32.64813995361328
+    ],
+    "components": [
+      "gpu-training"
+    ]
+  },
+  {
+    "key": "e0067",
+    "text": "③",
+    "font_family": "VividSource-DejaVuSans",
+    "bounds": [
+      354.44906997680664,
+      116.04763793945307,
+      25.067235946655273,
+      32.64813995361328
+    ],
+    "components": [
+      "near-memory"
+    ]
+  },
+  {
+    "key": "e0078",
+    "text": "DNN",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      225.14789199829102,
+      102.93762207031244,
+      33.723480224609375,
+      17.7705078125
+    ],
+    "components": [
+      "gpu-training"
+    ]
+  },
+  {
+    "key": "e0079",
+    "text": "GPU",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      1.2959365844726562,
+      47.53424072265619,
+      17.770503997802734,
+      32.046051025390625
+    ],
+    "components": [
+      "preprocessing"
+    ]
+  },
+  {
+    "key": "e0084",
+    "text": "Coalesced Noise",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      90.90030288696289,
+      112.0519409179687,
+      59.25843811035156,
+      21.864593505859375
+    ],
+    "components": [
+      "cpu-history"
+    ]
+  }
+]

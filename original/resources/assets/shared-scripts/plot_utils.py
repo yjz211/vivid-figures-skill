@@ -8,6 +8,7 @@
     heatmap(corr_matrix, output='figures/fig_heatmap.pdf')
 """
 import os
+import operator
 import sys
 import platform
 import numpy as np
@@ -45,10 +46,26 @@ def _get_sns():
 # ============================================================
 # 学术配色方案
 # ============================================================
+class _Palette(list):
+    """Keep the supplied colors, cycling positive indices for template roles.
+
+    Templates can request a third or fourth category even with a two-color
+    custom palette. Iteration, length, slices, and negative indices retain
+    normal list behavior, so color scales still see only the supplied colors.
+    """
+
+    def __getitem__(self, key):
+        if not isinstance(key, slice):
+            key = operator.index(key)
+            if self and key >= len(self):
+                key %= len(self)
+        return super().__getitem__(key)
+
+
 # All user palette definitions are maintained in palettes.json.
 _registry = vc.registry()
 PALETTES = {k: vc.categorical_colors({'palette': k}) for k in _registry['palettes']}
-PALETTE = vc.categorical_colors()
+PALETTE = _Palette(vc.categorical_colors())
 PALETTE_LIGHT = None  # 延迟初始化，在 _lighten 定义后赋值
 
 COLORS = {
@@ -383,7 +400,7 @@ def _lighten(hex_color, amount=0.4):
 
 
 # 初始化 PALETTE_LIGHT（必须在 _lighten 定义之后）
-PALETTE_LIGHT = [_lighten(c, 0.4) for c in PALETTE]
+PALETTE_LIGHT = _Palette(_lighten(c, 0.4) for c in PALETTE)
 COLORS["bg_fill"] = _lighten(PALETTE[0], 0.8)
 COLORS["bg_fill2"] = _lighten(PALETTE[1], 0.8)
 

@@ -1,0 +1,166 @@
+[
+  {
+    "key": "e0005",
+    "text": "Driver",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      213.57630920410153,
+      92.9235115275223,
+      18.323069418810064,
+      7.725214736754424
+    ],
+    "components": [
+      "core-layer-stack"
+    ]
+  },
+  {
+    "key": "e0006",
+    "text": "(e.g., DPDK PMD)",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      194.89450073242185,
+      100.89439775799104,
+      55.45322970851521,
+      7.725214736754424
+    ],
+    "components": [
+      "core-layer-stack"
+    ]
+  },
+  {
+    "key": "e0009",
+    "text": "Application",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      205.55303651462145,
+      118.8289070353348,
+      33.52865551788091,
+      7.725214736754424
+    ],
+    "components": [
+      "core-layer-stack"
+    ]
+  },
+  {
+    "key": "e0010",
+    "text": "(e.g., load balancer)",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      192.44134521484372,
+      126.70921709392854,
+      60.388625085381136,
+      7.725214736754424
+    ],
+    "components": [
+      "core-layer-stack"
+    ]
+  },
+  {
+    "key": "e0013",
+    "text": "Monitoring",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      206.7828826904297,
+      147.08937456463167,
+      31.699288476659603,
+      7.725214736754424
+    ],
+    "components": [
+      "core-layer-stack"
+    ]
+  },
+  {
+    "key": "e0016",
+    "text": "NIC",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      129.04159545898435,
+      64.21013262127235,
+      11.74023780023299,
+      7.725214736754424
+    ],
+    "components": [
+      "ingress-nic"
+    ]
+  },
+  {
+    "key": "e0019",
+    "text": "Core 1",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      86.74710083007811,
+      120.82164385174104,
+      20.383552650344427,
+      7.725214736754424
+    ],
+    "components": [
+      "core-layer-stack"
+    ]
+  },
+  {
+    "key": "e0022",
+    "text": "Aggregator",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      18.709183517795285,
+      112.21669390056917,
+      34.11419483154077,
+      7.725214736754424
+    ],
+    "components": [
+      "aggregator"
+    ]
+  },
+  {
+    "key": "e0025",
+    "text": "Core 2",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      124.4941711425781,
+      120.82164385174104,
+      20.383552650344427,
+      7.725214736754424
+    ],
+    "components": [
+      "core-layer-stack"
+    ]
+  },
+  {
+    "key": "e0027",
+    "text": "Core 3",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      162.24128723144528,
+      120.82164385174104,
+      20.383552650344427,
+      7.725214736754424
+    ],
+    "components": [
+      "core-layer-stack"
+    ]
+  },
+  {
+    "key": "e0032",
+    "text": "poll queues ",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      178.88703918457028,
+      74.70119579065789,
+      32.487755708358236,
+      6.798201352110482
+    ],
+    "components": []
+  },
+  {
+    "key": "e0033",
+    "text": "in NIC",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      185.91630554199216,
+      81.85689647425164,
+      16.773991519653464,
+      6.798201352110482
+    ],
+    "components": []
+  }
+]

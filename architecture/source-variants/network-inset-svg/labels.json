@@ -1,0 +1,480 @@
+[
+  {
+    "key": "e0006",
+    "text": "Profiler",
+    "font_family": "\"Times New Roman\"",
+    "font_size": 14.25,
+    "font_weight": "400",
+    "font_style": "normal",
+    "bounds": [
+      37.446502685546875,
+      6.051094055175781,
+      44.01969528198242,
+      15.738432884216309
+    ],
+    "components": [
+      "controller",
+      "profiler"
+    ]
+  },
+  {
+    "key": "e0009",
+    "text": "Model Placement",
+    "font_family": "\"Times New Roman\"",
+    "font_size": 11.25,
+    "font_weight": "400",
+    "font_style": "normal",
+    "bounds": [
+      20.23250389099121,
+      41.21561813354492,
+      79.37399291992188,
+      12.24100399017334
+    ],
+    "components": [
+      "controller",
+      "planner"
+    ]
+  },
+  {
+    "key": "e0010",
+    "text": "Planner",
+    "font_family": "\"Times New Roman\"",
+    "font_size": 11.25,
+    "font_weight": "400",
+    "font_style": "normal",
+    "bounds": [
+      41.98249816894531,
+      54.71562194824219,
+      34.683509826660156,
+      12.24100399017334
+    ],
+    "components": [
+      "controller",
+      "planner"
+    ]
+  },
+  {
+    "key": "e0013",
+    "text": "Scheduler",
+    "font_family": "\"Times New Roman\"",
+    "font_size": 14.25,
+    "font_weight": "400",
+    "font_style": "normal",
+    "bounds": [
+      30.758750915527344,
+      88.55108642578125,
+      57.465919494628906,
+      15.738432884216309
+    ],
+    "components": [
+      "controller",
+      "scheduler"
+    ]
+  },
+  {
+    "key": "e0014",
+    "text": "Init",
+    "font_family": "Consolas",
+    "font_size": 9.75,
+    "font_weight": "400",
+    "font_style": "normal",
+    "bounds": [
+      123.3762435913086,
+      43.13142776489258,
+      21.439971923828125,
+      11.075193405151367
+    ],
+    "components": [
+      "controller",
+      "init-worker"
+    ]
+  },
+  {
+    "key": "e0015",
+    "text": "Worker",
+    "font_family": "Consolas",
+    "font_size": 9.75,
+    "font_weight": "400",
+    "font_style": "normal",
+    "bounds": [
+      123.3762435913086,
+      55.13142395019531,
+      32.15996551513672,
+      11.075193405151367
+    ],
+    "components": [
+      "controller",
+      "init-worker"
+    ]
+  },
+  {
+    "key": "e0016",
+    "text": "Worker",
+    "font_family": "Consolas",
+    "font_size": 9.75,
+    "font_weight": "400",
+    "font_style": "normal",
+    "bounds": [
+      123.62224578857422,
+      85.13142395019531,
+      32.159950256347656,
+      11.075193405151367
+    ],
+    "components": [
+      "controller",
+      "worker-exec"
+    ]
+  },
+  {
+    "key": "e0017",
+    "text": "Exec",
+    "font_family": "Consolas",
+    "font_size": 9.75,
+    "font_weight": "400",
+    "font_style": "normal",
+    "bounds": [
+      123.62224578857422,
+      97.13141632080078,
+      21.439971923828125,
+      11.075193405151367
+    ],
+    "components": [
+      "controller",
+      "worker-exec"
+    ]
+  },
+  {
+    "key": "e0022",
+    "text": "Cluster Info",
+    "font_family": "\"Times New Roman\"",
+    "font_size": 12,
+    "font_weight": "400",
+    "font_style": "normal",
+    "bounds": [
+      26.39525032043457,
+      25.632715225219727,
+      58.05171203613281,
+      12.823908805847168
+    ],
+    "components": [
+      "controller"
+    ]
+  },
+  {
+    "key": "e0023",
+    "text": "Placement",
+    "font_family": "\"Times New Roman\"",
+    "font_size": 12,
+    "font_weight": "400",
+    "font_style": "normal",
+    "bounds": [
+      26.39525032043457,
+      71.3827133178711,
+      50.71196365356445,
+      12.823908805847168
+    ],
+    "components": [
+      "controller"
+    ]
+  },
+  {
+    "key": "e0024",
+    "text": "Coordinator",
+    "font_family": "\"Times New Roman\"",
+    "font_size": 14.25,
+    "font_weight": "400",
+    "font_style": "normal",
+    "bounds": [
+      81.14900207519531,
+      108.80108642578125,
+      69.34700775146484,
+      15.738432884216309
+    ],
+    "components": [
+      "controller"
+    ]
+  },
+  {
+    "key": "e0027",
+    "text": "Coordinator",
+    "font_family": "\"Times New Roman\"",
+    "font_size": 11.25,
+    "font_weight": "400",
+    "font_style": "normal",
+    "bounds": [
+      182.72913455963135,
+      28.625003814697266,
+      12.24100399017334,
+      54.673851013183594
+    ],
+    "components": [
+      "cluster",
+      "coordinator"
+    ]
+  },
+  {
+    "key": "e0078",
+    "text": "Queue 1",
+    "font_family": "\"Times New Roman\"",
+    "font_size": 12,
+    "font_weight": "400",
+    "font_style": "normal",
+    "bounds": [
+      390.0838670730591,
+      48.875003814697266,
+      12.823908805847168,
+      40.31151580810547
+    ],
+    "components": [
+      "node-detail",
+      "queue-1"
+    ]
+  },
+  {
+    "key": "e0081",
+    "text": "Layer 1",
+    "font_family": "\"Times New Roman\"",
+    "font_size": 12,
+    "font_weight": "400",
+    "font_style": "normal",
+    "bounds": [
+      414.34784412384033,
+      50.375003814697266,
+      12.823908805847168,
+      36.968929290771484
+    ],
+    "components": [
+      "node-detail",
+      "layer-1"
+    ]
+  },
+  {
+    "key": "e0086",
+    "text": "Queue 2",
+    "font_family": "\"Times New Roman\"",
+    "font_size": 12,
+    "font_weight": "400",
+    "font_style": "normal",
+    "bounds": [
+      438.47162342071533,
+      48.875003814697266,
+      12.823908805847168,
+      40.31151580810547
+    ],
+    "components": [
+      "node-detail",
+      "queue-2"
+    ]
+  },
+  {
+    "key": "e0089",
+    "text": "Layer 2",
+    "font_family": "\"Times New Roman\"",
+    "font_size": 12,
+    "font_weight": "400",
+    "font_style": "normal",
+    "bounds": [
+      462.58859729766846,
+      50.375003814697266,
+      12.823908805847168,
+      36.968929290771484
+    ],
+    "components": [
+      "node-detail",
+      "layer-2"
+    ]
+  },
+  {
+    "key": "e0094",
+    "text": "Queue 3",
+    "font_family": "\"Times New Roman\"",
+    "font_size": 12,
+    "font_weight": "400",
+    "font_style": "normal",
+    "bounds": [
+      486.44308948516846,
+      48.875003814697266,
+      12.823908805847168,
+      40.31151580810547
+    ],
+    "components": [
+      "node-detail",
+      "queue-3"
+    ]
+  },
+  {
+    "key": "e0097",
+    "text": "Layer 3",
+    "font_family": "\"Times New Roman\"",
+    "font_size": 12,
+    "font_weight": "400",
+    "font_style": "normal",
+    "bounds": [
+      510.5600633621216,
+      50.375003814697266,
+      12.823908805847168,
+      36.968929290771484
+    ],
+    "components": [
+      "node-detail",
+      "layer-3"
+    ]
+  },
+  {
+    "key": "e0100",
+    "text": "Compute Node",
+    "font_family": "\"Times New Roman\"",
+    "font_size": 14.25,
+    "font_weight": "400",
+    "font_style": "normal",
+    "bounds": [
+      442.1990051269531,
+      101.30108642578125,
+      86.74151611328125,
+      15.738432884216309
+    ],
+    "components": [
+      "node-detail"
+    ]
+  },
+  {
+    "key": "e0103",
+    "text": "Request",
+    "font_family": "Consolas",
+    "font_size": 9.75,
+    "font_weight": "400",
+    "font_style": "normal",
+    "bounds": [
+      530.3037719726562,
+      5.6314287185668945,
+      37.51539611816406,
+      11.075193405151367
+    ],
+    "components": [
+      "request-tensor"
+    ]
+  },
+  {
+    "key": "e0104",
+    "text": "Tensor",
+    "font_family": "Consolas",
+    "font_size": 9.75,
+    "font_weight": "400",
+    "font_style": "normal",
+    "bounds": [
+      533.0532836914062,
+      17.631423950195312,
+      32.15995788574219,
+      11.075193405151367
+    ],
+    "components": [
+      "request-tensor"
+    ]
+  },
+  {
+    "key": "e0110",
+    "text": "New Request",
+    "font_family": "Consolas",
+    "font_size": 9.75,
+    "font_weight": "400",
+    "font_style": "normal",
+    "bounds": [
+      13.288250923156738,
+      137.6314239501953,
+      58.94626235961914,
+      11.075193405151367
+    ],
+    "components": [
+      "new-request"
+    ]
+  },
+  {
+    "key": "e0113",
+    "text": "Worker Finished",
+    "font_family": "Consolas",
+    "font_size": 9.75,
+    "font_weight": "400",
+    "font_style": "normal",
+    "bounds": [
+      94.7127456665039,
+      136.8814239501953,
+      80.38623046875,
+      11.075193405151367
+    ],
+    "components": [
+      "worker-finished"
+    ]
+  },
+  {
+    "key": "e0119",
+    "text": "Type-1",
+    "font_family": "Consolas",
+    "font_size": 9.75,
+    "font_weight": "400",
+    "font_style": "normal",
+    "bounds": [
+      228.3889923095703,
+      135.3814239501953,
+      32.15995788574219,
+      11.075193405151367
+    ],
+    "components": [
+      "legend",
+      "legend-type1"
+    ]
+  },
+  {
+    "key": "e0121",
+    "text": "Type-2",
+    "font_family": "Consolas",
+    "font_size": 9.75,
+    "font_weight": "400",
+    "font_style": "normal",
+    "bounds": [
+      300.0657653808594,
+      134.6314239501953,
+      32.15995788574219,
+      11.075193405151367
+    ],
+    "components": [
+      "legend",
+      "legend-type2"
+    ]
+  },
+  {
+    "key": "e0123",
+    "text": "Type-3",
+    "font_family": "Consolas",
+    "font_size": 9.75,
+    "font_weight": "400",
+    "font_style": "normal",
+    "bounds": [
+      373.86724853515625,
+      134.6314239501953,
+      32.15995788574219,
+      11.075193405151367
+    ],
+    "components": [
+      "legend",
+      "legend-type3"
+    ]
+  },
+  {
+    "key": "e0126",
+    "text": "Model Layer",
+    "font_family": "Consolas",
+    "font_size": 9.75,
+    "font_weight": "400",
+    "font_style": "normal",
+    "bounds": [
+      431.853515625,
+      133.8814239501953,
+      58.94626235961914,
+      11.075193405151367
+    ],
+    "components": [
+      "legend",
+      "legend-layer"
+    ]
+  }
+]

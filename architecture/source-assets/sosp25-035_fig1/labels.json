@@ -1,0 +1,260 @@
+[
+  {
+    "key": "e0005",
+    "text": "Metadata Service",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      56.43948955736414,
+      84.58585206317548,
+      54.992256366369475,
+      7.873771842546375
+    ],
+    "components": [
+      "metadata-service"
+    ]
+  },
+  {
+    "key": "e0008",
+    "text": "Data Service",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      158.73247944972718,
+      84.63299214283052,
+      40.43017330360999,
+      7.873771842546375
+    ],
+    "components": [
+      "data-service"
+    ]
+  },
+  {
+    "key": "e0010",
+    "text": "RESTful API (HTTP GET/PUT)",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      133.89179720558968,
+      30.02201001512549,
+      97.02230343757765,
+      7.873777836199224
+    ],
+    "components": [
+      "api-boundary"
+    ]
+  },
+  {
+    "key": "e0011",
+    "text": "Object Storage ",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      93.83798933896105,
+      98.51061803122684,
+      49.05345742853933,
+      7.873771842546375
+    ],
+    "components": []
+  },
+  {
+    "key": "e0012",
+    "text": "Service",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      142.9615485312188,
+      98.51061803122684,
+      23.557249372339356,
+      7.873771842546375
+    ],
+    "components": []
+  },
+  {
+    "key": "e0015",
+    "text": "Data Warehouse",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      50.103623105613224,
+      4.839593660166429,
+      52.7844703649389,
+      7.873777836199224
+    ],
+    "components": [
+      "application-sdk"
+    ]
+  },
+  {
+    "key": "e0018",
+    "text": "AI Training",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      140.4608167531551,
+      4.839593660166429,
+      34.38225392201639,
+      7.873777836199224
+    ],
+    "components": [
+      "application-sdk"
+    ]
+  },
+  {
+    "key": "e0021",
+    "text": "Proxy 1",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      47.78611130148147,
+      54.8233978711869,
+      23.998837739620285,
+      7.873771842546375
+    ],
+    "components": [
+      "proxy-pool"
+    ]
+  },
+  {
+    "key": "e0024",
+    "text": "Proxy 2",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      89.52897249644411,
+      54.8233978711869,
+      23.963487175118644,
+      7.873771842546375
+    ],
+    "components": [
+      "proxy-pool"
+    ]
+  },
+  {
+    "key": "e0027",
+    "text": "Proxy",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      188.77776213234029,
+      54.86268027195729,
+      18.162038785969344,
+      7.873771842546375
+    ],
+    "components": [
+      "proxy-pool"
+    ]
+  },
+  {
+    "key": "e0028",
+    "text": " ",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      206.68943405151367,
+      54.86268027195729,
+      1.9684431479382454,
+      7.8737725917529815
+    ],
+    "components": [
+      "proxy-pool"
+    ]
+  },
+  {
+    "key": "e0029",
+    "text": "n",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      208.81056382005772,
+      54.86268027195729,
+      3.9407308495756297,
+      7.8737725917529815
+    ],
+    "components": [
+      "proxy-pool"
+    ]
+  },
+  {
+    "key": "e0030",
+    "text": "…",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      167.68046372408207,
+      52.6747812106787,
+      7.070247757517336,
+      7.8737725917529815
+    ],
+    "components": [
+      "proxy-pool"
+    ]
+  },
+  {
+    "key": "e0033",
+    "text": "…",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      207.96207834818415,
+      4.839593660166429,
+      7.081781793218056,
+      7.8737725917529815
+    ],
+    "components": [
+      "application-sdk"
+    ]
+  },
+  {
+    "key": "e0036",
+    "text": "Cloud SDK",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      112.67273174605725,
+      18.076959570305917,
+      35.14707998742779,
+      7.873777836199224
+    ],
+    "components": [
+      "application-sdk"
+    ]
+  },
+  {
+    "key": "e0037",
+    "text": "Proxy Layer",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      111.0976117647242,
+      67.07090002605764,
+      37.692356593463046,
+      7.873771842546375
+    ],
+    "components": [
+      "proxy-pool"
+    ]
+  },
+  {
+    "key": "e0040",
+    "text": "Apps",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      16.202626542256894,
+      8.643069859506795,
+      8.857992573658066,
+      18.1867086610946
+    ],
+    "components": []
+  },
+  {
+    "key": "e0041",
+    "text": "Cloud",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      17.553859615079546,
+      64.30449359182239,
+      8.857992573658066,
+      20.586471363269084
+    ],
+    "components": []
+  },
+  {
+    "key": "e0044",
+    "text": "Proxy 3",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      131.2639760125221,
+      54.8233978711869,
+      23.967311125636115,
+      7.873771842546375
+    ],
+    "components": [
+      "proxy-pool"
+    ]
+  }
+]

@@ -1,0 +1,332 @@
+[
+  {
+    "key": "e0010",
+    "text": "Cloud Assets",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      32.33561675203896,
+      95.8029956098917,
+      49.59363065605682,
+      9.26980206186181
+    ],
+    "components": [
+      "observation"
+    ]
+  },
+  {
+    "key": "e0011",
+    "text": "Flow ",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      26.4684934370697,
+      147.78890948814114,
+      19.854212975526142,
+      9.26980206186181
+    ],
+    "components": [
+      "observation"
+    ]
+  },
+  {
+    "key": "e0012",
+    "text": "Telemetry",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      45.34830678319464,
+      147.78890948814114,
+      37.952635973477534,
+      9.26980206186181
+    ],
+    "components": [
+      "observation"
+    ]
+  },
+  {
+    "key": "e0015",
+    "text": "Communication ",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      130.48838665702897,
+      128.3044048945858,
+      59.56344344911216,
+      9.26980206186181
+    ],
+    "components": [
+      "graph-construction"
+    ]
+  },
+  {
+    "key": "e0016",
+    "text": "Graph Generator",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      129.7264121193357,
+      138.10108097807415,
+      58.81853517006951,
+      9.269808982485756
+    ],
+    "components": [
+      "graph-construction"
+    ]
+  },
+  {
+    "key": "e0021",
+    "text": "1",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      120.26535169410455,
+      117.10794264992455,
+      6.0626179652714995,
+      11.918320520574014
+    ],
+    "components": [
+      "graph-construction"
+    ]
+  },
+  {
+    "key": "e0023",
+    "text": "Communication Graph",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      106.19170232954413,
+      90.29690567477701,
+      84.59288343999062,
+      9.26980206186181
+    ],
+    "components": []
+  },
+  {
+    "key": "e0025",
+    "text": "Implementing and Monitoring",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      301.2000819108453,
+      102.09532379025404,
+      122.47489098578808,
+      10.15263837614657
+    ],
+    "components": []
+  },
+  {
+    "key": "e0027",
+    "text": "Policy Authoring",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      353.77559142554315,
+      122.42797853087724,
+      68.06732621763149,
+      10.152645296770501
+    ],
+    "components": []
+  },
+  {
+    "key": "e0031",
+    "text": "Role Inference ",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      238.8596550559469,
+      141.34850071720803,
+      53.04868641512806,
+      9.269808982485756
+    ],
+    "components": [
+      "training-feedback"
+    ]
+  },
+  {
+    "key": "e0032",
+    "text": "Trainer",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      252.31647612883174,
+      151.1451768006964,
+      23.868872117020175,
+      9.26980206186181
+    ],
+    "components": [
+      "training-feedback"
+    ]
+  },
+  {
+    "key": "e0037",
+    "text": "2",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      219.8785428069696,
+      138.76948868001864,
+      6.055721130970397,
+      11.918320520574014
+    ],
+    "components": [
+      "training-feedback"
+    ]
+  },
+  {
+    "key": "e0044",
+    "text": "Feedback/",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      314.8519261665261,
+      131.02569111885532,
+      38.903761544548615,
+      9.26980206186181
+    ],
+    "components": [
+      "training-feedback"
+    ]
+  },
+  {
+    "key": "e0045",
+    "text": "Approval",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      314.8519261665261,
+      140.83598699026925,
+      32.85114993642492,
+      9.269808982485756
+    ],
+    "components": [
+      "training-feedback"
+    ]
+  },
+  {
+    "key": "e0046",
+    "text": "Deployment ",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      375.4053925535973,
+      169.922151405141,
+      47.77475573090305,
+      9.269808982485756
+    ],
+    "components": [
+      "training-feedback"
+    ]
+  },
+  {
+    "key": "e0047",
+    "text": "Owner",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      375.4053925535973,
+      179.71882748862936,
+      24.691512844223325,
+      9.269802061861839
+    ],
+    "components": [
+      "training-feedback"
+    ]
+  },
+  {
+    "key": "e0062",
+    "text": "Auto",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      298.6193812414131,
+      193.90133826785907,
+      17.6161991118679,
+      9.269805522173783
+    ],
+    "components": [
+      "training-feedback"
+    ]
+  },
+  {
+    "key": "e0063",
+    "text": "-",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      315.9268374778058,
+      193.90133826785907,
+      2.724384717371777,
+      9.269805522173783
+    ],
+    "components": [
+      "training-feedback"
+    ]
+  },
+  {
+    "key": "e0064",
+    "text": "Segmented Graph",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      318.7569851167446,
+      193.90133826785907,
+      66.90167168517291,
+      9.269805522173783
+    ],
+    "components": [
+      "training-feedback"
+    ]
+  },
+  {
+    "key": "e0073",
+    "text": "Security Policy",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      270.77596710975746,
+      88.34664616432201,
+      55.724891695013866,
+      9.26980206186181
+    ],
+    "components": [
+      "policy-deployment"
+    ]
+  },
+  {
+    "key": "e0074",
+    "text": "Role Inference",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      213.31116134850075,
+      62.36276216319038,
+      53.961392142363394,
+      9.26980206186181
+    ],
+    "components": [
+      "policy-deployment"
+    ]
+  },
+  {
+    "key": "e0075",
+    "text": "Model",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      213.31116134850075,
+      72.15944516730269,
+      22.97283125224658,
+      9.26980206186181
+    ],
+    "components": [
+      "policy-deployment"
+    ]
+  },
+  {
+    "key": "e0079",
+    "text": "Policy Enforcer",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      352.4239935689057,
+      59.14255431741185,
+      52.33638811611854,
+      9.26980206186181
+    ],
+    "components": [
+      "policy-deployment"
+    ]
+  },
+  {
+    "key": "e0084",
+    "text": "3",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      343.06274238222255,
+      39.17897645182438,
+      6.1798702039361615,
+      11.918320520574014
+    ],
+    "components": [
+      "policy-deployment"
+    ]
+  }
+]

@@ -66,7 +66,7 @@ def check(skill_root=None):
     if ids!=actual: raise ValueError('模板目录与来源记录不同。')
     palettes = read(WEB/'editor_backend/_utils/palettes.json')['palettes']
     if len(palettes)!=manifest['palette_count']: raise ValueError('配色数量与来源记录不同。')
-    for name in ['index.html', 'editor.html', 'agent.html']:
+    for name in ['index.html', 'editor.html', 'agent.html', 'architecture.html', 'architecture-editor.html', 'architecture-agent.html']:
         parser = ResourceParser(); parser.feed((WEB/name).read_text(encoding='utf8'))
         for resource in parser.paths:
             if not (WEB/resource.split('?')[0]).is_file():

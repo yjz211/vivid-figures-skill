@@ -1,0 +1,740 @@
+[
+  {
+    "key": "e0005",
+    "text": "Ranked",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      210.69949340820312,
+      21.558880622744255,
+      19.432748169783736,
+      7.186043334381793
+    ],
+    "components": [
+      "ranked-output"
+    ]
+  },
+  {
+    "key": "e0006",
+    "text": "l",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      231.66773986816406,
+      21.558880622744255,
+      1.7655366287995378,
+      7.186043939202023
+    ],
+    "components": [
+      "ranked-output"
+    ]
+  },
+  {
+    "key": "e0007",
+    "text": "ist",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      233.4117889404297,
+      21.558880622744255,
+      6.187102889166454,
+      7.186043334381793
+    ],
+    "components": [
+      "ranked-output"
+    ]
+  },
+  {
+    "key": "e0009",
+    "text": "Relation",
+    "font_family": "VividSource-Inconsolata-Regular",
+    "bounds": [
+      207.98353576660156,
+      29.27845903654908,
+      26.71439664747595,
+      5.947071513623996
+    ],
+    "components": [
+      "ranked-output"
+    ]
+  },
+  {
+    "key": "e0010",
+    "text": "1",
+    "font_family": "VividSource-Inconsolata-Regular",
+    "bounds": [
+      238.6629638671875,
+      29.27845903654908,
+      2.8535097870968684,
+      5.9470709088037665
+    ],
+    "components": [
+      "ranked-output"
+    ]
+  },
+  {
+    "key": "e0011",
+    "text": "Relation",
+    "font_family": "VividSource-Inconsolata-Regular",
+    "bounds": [
+      207.98353576660156,
+      36.25465532561158,
+      26.71439664747595,
+      5.947071513623996
+    ],
+    "components": [
+      "ranked-output"
+    ]
+  },
+  {
+    "key": "e0012",
+    "text": "2",
+    "font_family": "VividSource-Inconsolata-Regular",
+    "bounds": [
+      238.6629638671875,
+      36.25465532561158,
+      2.8535097870968684,
+      5.9470709088037665
+    ],
+    "components": [
+      "ranked-output"
+    ]
+  },
+  {
+    "key": "e0013",
+    "text": "Relation",
+    "font_family": "VividSource-Inconsolata-Regular",
+    "bounds": [
+      207.98353576660156,
+      42.91375871916625,
+      26.71439664747595,
+      5.947071513623996
+    ],
+    "components": [
+      "ranked-output"
+    ]
+  },
+  {
+    "key": "e0014",
+    "text": "3",
+    "font_family": "VividSource-Inconsolata-Regular",
+    "bounds": [
+      238.6629638671875,
+      42.91375871916625,
+      2.8535097870968684,
+      5.9470709088037665
+    ],
+    "components": [
+      "ranked-output"
+    ]
+  },
+  {
+    "key": "e0015",
+    "text": "..",
+    "font_family": "VividSource-Inconsolata-Regular",
+    "bounds": [
+      219.9144287109375,
+      49.88995500822875,
+      6.262208255619726,
+      5.947071513623996
+    ],
+    "components": [
+      "ranked-output"
+    ]
+  },
+  {
+    "key": "e0016",
+    "text": ".",
+    "font_family": "VividSource-Inconsolata-Regular",
+    "bounds": [
+      226.73207092285156,
+      49.88995500822875,
+      2.8535097870968684,
+      5.9470709088037665
+    ],
+    "components": [
+      "ranked-output"
+    ]
+  },
+  {
+    "key": "e0017",
+    "text": "Relation",
+    "font_family": "VividSource-Inconsolata-Regular",
+    "bounds": [
+      207.98353576660156,
+      56.866166556080316,
+      26.71439664747595,
+      5.947071513623996
+    ],
+    "components": [
+      "ranked-output"
+    ]
+  },
+  {
+    "key": "e0018",
+    "text": "n",
+    "font_family": "VividSource-Inconsolata-Regular",
+    "bounds": [
+      238.6629638671875,
+      56.866166556080316,
+      2.8535097870968684,
+      5.9470709088037665
+    ],
+    "components": [
+      "ranked-output"
+    ]
+  },
+  {
+    "key": "e0020",
+    "text": "./",
+    "font_family": "VividSource-Inconsolata-Regular",
+    "bounds": [
+      5.3355450630188,
+      21.985162222584222,
+      6.262208255619725,
+      5.947071513623996
+    ],
+    "components": [
+      "symptom-input"
+    ]
+  },
+  {
+    "key": "e0021",
+    "text": "good",
+    "font_family": "VividSource-Inconsolata-Regular",
+    "bounds": [
+      12.153194427490234,
+      21.985162222584222,
+      13.07960519266544,
+      5.947071513623996
+    ],
+    "components": [
+      "symptom-input"
+    ]
+  },
+  {
+    "key": "e0022",
+    "text": "_",
+    "font_family": "VividSource-Inconsolata-Regular",
+    "bounds": [
+      25.788496017456055,
+      21.985162222584222,
+      2.8535097870968684,
+      5.9470709088037665
+    ],
+    "components": [
+      "symptom-input"
+    ]
+  },
+  {
+    "key": "e0023",
+    "text": "run",
+    "font_family": "VividSource-Inconsolata-Regular",
+    "bounds": [
+      29.19732093811035,
+      21.985162222584222,
+      9.670906119322353,
+      5.947071513623996
+    ],
+    "components": [
+      "symptom-input"
+    ]
+  },
+  {
+    "key": "e0024",
+    "text": "./",
+    "font_family": "VividSource-Inconsolata-Regular",
+    "bounds": [
+      5.3355450630188,
+      28.961366141041253,
+      6.262208255619725,
+      5.947071513623996
+    ],
+    "components": [
+      "symptom-input"
+    ]
+  },
+  {
+    "key": "e0025",
+    "text": "bad",
+    "font_family": "VividSource-Inconsolata-Regular",
+    "bounds": [
+      12.153194427490234,
+      28.961366141041253,
+      9.670906119322353,
+      5.947071513623996
+    ],
+    "components": [
+      "symptom-input"
+    ]
+  },
+  {
+    "key": "e0026",
+    "text": "_run",
+    "font_family": "VividSource-Inconsolata-Regular",
+    "bounds": [
+      22.379671096801754,
+      28.961366141041253,
+      13.079605192665444,
+      5.947071513623996
+    ],
+    "components": [
+      "symptom-input"
+    ]
+  },
+  {
+    "key": "e0027",
+    "text": "insn",
+    "font_family": "VividSource-Inconsolata-Regular",
+    "bounds": [
+      12.509931564331055,
+      37.52305742522094,
+      13.07960519266544,
+      5.947071513623996
+    ],
+    "components": [
+      "symptom-input"
+    ]
+  },
+  {
+    "key": "e0028",
+    "text": "1",
+    "font_family": "VividSource-Inconsolata-Regular",
+    "bounds": [
+      29.55405616760254,
+      37.52305742522094,
+      2.8535097870968684,
+      5.9470709088037665
+    ],
+    "components": [
+      "symptom-input"
+    ]
+  },
+  {
+    "key": "e0029",
+    "text": "i",
+    "font_family": "VividSource-Inconsolata-Regular",
+    "bounds": [
+      12.509931564331055,
+      44.49926134367797,
+      2.8535097870968684,
+      5.9470709088037665
+    ],
+    "components": [
+      "symptom-input"
+    ]
+  },
+  {
+    "key": "e0030",
+    "text": "nsn",
+    "font_family": "VividSource-Inconsolata-Regular",
+    "bounds": [
+      15.91875648498535,
+      44.49926134367797,
+      9.670906119322355,
+      5.947071513623996
+    ],
+    "components": [
+      "symptom-input"
+    ]
+  },
+  {
+    "key": "e0031",
+    "text": "2",
+    "font_family": "VividSource-Inconsolata-Regular",
+    "bounds": [
+      29.55405616760254,
+      44.49926134367797,
+      2.8535097870968684,
+      5.9470709088037665
+    ],
+    "components": [
+      "symptom-input"
+    ]
+  },
+  {
+    "key": "e0032",
+    "text": "i",
+    "font_family": "VividSource-Inconsolata-Regular",
+    "bounds": [
+      12.509931564331055,
+      51.475465262135,
+      2.8535097870968684,
+      5.9470709088037665
+    ],
+    "components": [
+      "symptom-input"
+    ]
+  },
+  {
+    "key": "e0033",
+    "text": "nsn",
+    "font_family": "VividSource-Inconsolata-Regular",
+    "bounds": [
+      15.91875648498535,
+      51.475465262135,
+      9.670906119322355,
+      5.947071513623996
+    ],
+    "components": [
+      "symptom-input"
+    ]
+  },
+  {
+    "key": "e0034",
+    "text": "3",
+    "font_family": "VividSource-Inconsolata-Regular",
+    "bounds": [
+      29.55405616760254,
+      51.475465262135,
+      2.8535097870968684,
+      5.9470709088037665
+    ],
+    "components": [
+      "symptom-input"
+    ]
+  },
+  {
+    "key": "e0035",
+    "text": "..",
+    "font_family": "VividSource-Inconsolata-Regular",
+    "bounds": [
+      17.623168945312496,
+      58.13456865568969,
+      6.262208255619726,
+      5.947071513623996
+    ],
+    "components": [
+      "symptom-input"
+    ]
+  },
+  {
+    "key": "e0036",
+    "text": ".",
+    "font_family": "VividSource-Inconsolata-Regular",
+    "bounds": [
+      24.440820693969727,
+      58.13456865568969,
+      2.8535097870968684,
+      5.9470709088037665
+    ],
+    "components": [
+      "symptom-input"
+    ]
+  },
+  {
+    "key": "e0037",
+    "text": "i",
+    "font_family": "VividSource-Inconsolata-Regular",
+    "bounds": [
+      12.509931564331055,
+      65.11076494475219,
+      2.8535097870968684,
+      5.9470709088037665
+    ],
+    "components": [
+      "symptom-input"
+    ]
+  },
+  {
+    "key": "e0038",
+    "text": "nsn",
+    "font_family": "VividSource-Inconsolata-Regular",
+    "bounds": [
+      15.91875648498535,
+      65.11076494475219,
+      9.670906119322355,
+      5.947071513623996
+    ],
+    "components": [
+      "symptom-input"
+    ]
+  },
+  {
+    "key": "e0039",
+    "text": "m",
+    "font_family": "VividSource-Inconsolata-Regular",
+    "bounds": [
+      29.55405616760254,
+      65.11076494475219,
+      2.9735354544018833,
+      5.9470709088037665
+    ],
+    "components": [
+      "symptom-input"
+    ]
+  },
+  {
+    "key": "e0042",
+    "text": "Dyninst",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      62.95234298706055,
+      8.399227912783331,
+      20.294880698377256,
+      7.186043334381793
+    ],
+    "components": [
+      "static-analysis"
+    ]
+  },
+  {
+    "key": "e0049",
+    "text": "PIN",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      114.07057189941406,
+      63.25751953875988,
+      10.337255920360349,
+      7.186043334381793
+    ],
+    "components": [
+      "dynamic-analysis"
+    ]
+  },
+  {
+    "key": "e0061",
+    "text": "RR",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      78.1427688598633,
+      63.098980720400505,
+      8.701832906677964,
+      7.186043334381793
+    ],
+    "components": [
+      "static-analysis"
+    ]
+  },
+  {
+    "key": "e0062",
+    "text": "Static",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      64.81092834472656,
+      27.543897519775797,
+      17.38474219801674,
+      8.42501515513959
+    ],
+    "components": [
+      "static-analysis"
+    ]
+  },
+  {
+    "key": "e0063",
+    "text": "c",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      59.503658294677734,
+      35.15429485864297,
+      3.4691248480072545,
+      8.425016969600279
+    ],
+    "components": [
+      "static-analysis"
+    ]
+  },
+  {
+    "key": "e0064",
+    "text": "ausality",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      62.87284469604492,
+      35.15429485864297,
+      23.78219672442583,
+      8.42501515513959
+    ],
+    "components": [
+      "static-analysis"
+    ]
+  },
+  {
+    "key": "e0065",
+    "text": "analysis",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      61.203948974609375,
+      43.08180035180705,
+      24.4957466961705,
+      8.42501515513959
+    ],
+    "components": [
+      "static-analysis"
+    ]
+  },
+  {
+    "key": "e0066",
+    "text": "Dynamic",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      105.13993072509767,
+      27.385351072021876,
+      27.964724572861982,
+      8.42501515513959
+    ],
+    "components": [
+      "dynamic-analysis"
+    ]
+  },
+  {
+    "key": "e0067",
+    "text": "c",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      105.124267578125,
+      34.995748410889064,
+      3.4691248480072545,
+      8.425016969600279
+    ],
+    "components": [
+      "dynamic-analysis"
+    ]
+  },
+  {
+    "key": "e0068",
+    "text": "ausality",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      108.49345397949219,
+      34.995748410889064,
+      23.78219672442583,
+      8.42501515513959
+    ],
+    "components": [
+      "dynamic-analysis"
+    ]
+  },
+  {
+    "key": "e0069",
+    "text": "analysis",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      106.82452392578125,
+      42.923246274658595,
+      24.4957466961705,
+      8.42501515513959
+    ],
+    "components": [
+      "dynamic-analysis"
+    ]
+  },
+  {
+    "key": "e0070",
+    "text": "Relational",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      157.4414825439453,
+      10.89614666528361,
+      31.323189697227463,
+      8.42501515513959
+    ],
+    "components": [
+      "iterative-refinement"
+    ]
+  },
+  {
+    "key": "e0071",
+    "text": "debugger",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      158.4365692138672,
+      18.506551633545314,
+      28.489986749334548,
+      8.42501515513959
+    ],
+    "components": [
+      "iterative-refinement"
+    ]
+  },
+  {
+    "key": "e0074",
+    "text": "Compute",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      157.01792907714844,
+      30.437680061220817,
+      23.228423322336766,
+      7.186043334381793
+    ],
+    "components": [
+      "iterative-refinement"
+    ]
+  },
+  {
+    "key": "e0077",
+    "text": "Filter",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      161.79428100585938,
+      45.34138184344738,
+      13.80747246888177,
+      7.186043334381793
+    ],
+    "components": [
+      "iterative-refinement"
+    ]
+  },
+  {
+    "key": "e0080",
+    "text": "Refine",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      160.44525146484375,
+      60.24506836688488,
+      16.885787282244564,
+      7.186043334381793
+    ],
+    "components": [
+      "iterative-refinement"
+    ]
+  },
+  {
+    "key": "e0086",
+    "text": "Input",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      13.574214935302734,
+      9.944852719971095,
+      16.18229789019665,
+      8.42501515513959
+    ],
+    "components": [
+      "symptom-input"
+    ]
+  },
+  {
+    "key": "e0087",
+    "text": "Output",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      214.6246337890625,
+      9.627752195068766,
+      21.256150520421215,
+      8.42501515513959
+    ],
+    "components": []
+  },
+  {
+    "key": "e0088",
+    "text": "Perspect",
+    "font_family": "VividSource-Tinos-Bold",
+    "bounds": [
+      108.37066650390626,
+      4.395597348877345,
+      28.04401892422446,
+      8.42501515513959
+    ],
+    "components": []
+  },
+  {
+    "key": "e0098",
+    "text": "Symptom",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      3.1221969679591126,
+      42.626013142288684,
+      7.186043334381793,
+      24.903840678512097
+    ],
+    "components": [
+      "symptom-input"
+    ]
+  }
+]

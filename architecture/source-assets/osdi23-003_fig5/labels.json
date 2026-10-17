@@ -1,0 +1,608 @@
+[
+  {
+    "key": "e0011",
+    "text": "A",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      153.95704650878906,
+      117.89677429199219,
+      11.73564624786377,
+      21.9405574798584
+    ],
+    "components": [
+      "primary-server"
+    ]
+  },
+  {
+    "key": "e0012",
+    "text": "per-thread logs",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      122.33729553222656,
+      253.85076522827148,
+      112.15261840820312,
+      21.940555572509766
+    ],
+    "components": [
+      "primary-server"
+    ]
+  },
+  {
+    "key": "e0013",
+    "text": "per-shard hash indexes",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      10.557296752929688,
+      70.916748046875,
+      168.93182373046875,
+      21.9405517578125
+    ],
+    "components": [
+      "primary-server"
+    ]
+  },
+  {
+    "key": "e0015",
+    "text": "DRAM",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      5.933353900909424,
+      99.0010986328125,
+      21.9405574798584,
+      48.129913330078125
+    ],
+    "components": [
+      "primary-server"
+    ]
+  },
+  {
+    "key": "e0016",
+    "text": "PM",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      5.933353900909424,
+      161.443115234375,
+      21.9405574798584,
+      25.323898315429688
+    ],
+    "components": [
+      "primary-server"
+    ]
+  },
+  {
+    "key": "e0031",
+    "text": "B",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      192.5045928955078,
+      117.89677429199219,
+      10.093294143676758,
+      21.9405574798584
+    ],
+    "components": [
+      "primary-server"
+    ]
+  },
+  {
+    "key": "e0034",
+    "text": "C",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      230.47940063476562,
+      117.89677429199219,
+      9.69466495513916,
+      21.9405574798584
+    ],
+    "components": [
+      "primary-server"
+    ]
+  },
+  {
+    "key": "e0037",
+    "text": "D",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      41.355201721191406,
+      117.89677429199219,
+      11.073922157287598,
+      21.9405574798584
+    ],
+    "components": [
+      "primary-server"
+    ]
+  },
+  {
+    "key": "e0040",
+    "text": "E",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      80.2051010131836,
+      117.89677429199219,
+      8.79376220703125,
+      21.9405574798584
+    ],
+    "components": [
+      "primary-server"
+    ]
+  },
+  {
+    "key": "e0043",
+    "text": "F",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      118.11740112304688,
+      117.89677429199219,
+      8.275544166564941,
+      21.9405574798584
+    ],
+    "components": [
+      "primary-server"
+    ]
+  },
+  {
+    "key": "e0050",
+    "text": "backup log",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      29.902599334716797,
+      253.8464584350586,
+      78.98757934570312,
+      21.94055938720703
+    ],
+    "components": [
+      "primary-server"
+    ]
+  },
+  {
+    "key": "e0054",
+    "text": "RDMA",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      273.75860595703125,
+      271.55006408691406,
+      46.823150634765625,
+      21.9405574798584
+    ],
+    "components": []
+  },
+  {
+    "key": "e0055",
+    "text": "Server 1",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      16.795499801635742,
+      277.15466690063477,
+      60.13520812988281,
+      21.9405574798584
+    ],
+    "components": [
+      "primary-server"
+    ]
+  },
+  {
+    "key": "e0061",
+    "text": "",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      244.1842041015625,
+      152.67642211914062,
+      15.586405754089355,
+      21.9405574798584
+    ],
+    "components": [
+      "primary-server"
+    ]
+  },
+  {
+    "key": "e0062",
+    "text": "",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      292.1399230957031,
+      148.08726501464844,
+      15.586405754089355,
+      21.9405574798584
+    ],
+    "components": []
+  },
+  {
+    "key": "e0063",
+    "text": "●",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      195.52706909179688,
+      151.61428833007812,
+      12.110358238220215,
+      21.9405574798584
+    ],
+    "components": [
+      "primary-server"
+    ]
+  },
+  {
+    "key": "e0084",
+    "text": "Shard ID",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      337.9085998535156,
+      14.097625732421875,
+      45.613372802734375,
+      15.817596435546875
+    ],
+    "components": [
+      "mapping-table"
+    ]
+  },
+  {
+    "key": "e0085",
+    "text": "Primary",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      400.37579345703125,
+      14.097625732421875,
+      42.260986328125,
+      15.817596435546875
+    ],
+    "components": [
+      "mapping-table"
+    ]
+  },
+  {
+    "key": "e0086",
+    "text": "Backup",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      458.7605895996094,
+      14.097625732421875,
+      39.109710693359375,
+      15.817596435546875
+    ],
+    "components": [
+      "mapping-table"
+    ]
+  },
+  {
+    "key": "e0087",
+    "text": "A, B, C",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      343.28216552734375,
+      29.70147705078125,
+      34.64031982421875,
+      15.817596435546875
+    ],
+    "components": [
+      "mapping-table"
+    ]
+  },
+  {
+    "key": "e0088",
+    "text": "1",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      418.24761962890625,
+      29.70147705078125,
+      6.569410800933838,
+      15.817610740661621
+    ],
+    "components": [
+      "mapping-table"
+    ]
+  },
+  {
+    "key": "e0089",
+    "text": "{2,3}",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      465.953369140625,
+      29.70147705078125,
+      24.5950927734375,
+      15.817596435546875
+    ],
+    "components": [
+      "mapping-table"
+    ]
+  },
+  {
+    "key": "e0090",
+    "text": "…",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      356.27288818359375,
+      45.3052978515625,
+      8.945241928100586,
+      15.817610740661621
+    ],
+    "components": [
+      "mapping-table"
+    ]
+  },
+  {
+    "key": "e0091",
+    "text": "…",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      417.0423278808594,
+      45.3052978515625,
+      8.945241928100586,
+      15.817610740661621
+    ],
+    "components": [
+      "mapping-table"
+    ]
+  },
+  {
+    "key": "e0092",
+    "text": "…",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      473.7552795410156,
+      45.3052978515625,
+      8.945241928100586,
+      15.817610740661621
+    ],
+    "components": [
+      "mapping-table"
+    ]
+  },
+  {
+    "key": "e0096",
+    "text": "Clients",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      166.3867950439453,
+      22.195465087890625,
+      49.1597900390625,
+      21.9405517578125
+    ],
+    "components": [
+      "client-routing"
+    ]
+  },
+  {
+    "key": "e0098",
+    "text": "❶",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      173.49569702148438,
+      97.05583190917969,
+      16.351774215698242,
+      21.9405574798584
+    ],
+    "components": [
+      "primary-server"
+    ]
+  },
+  {
+    "key": "e0099",
+    "text": "❷",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      144.3575439453125,
+      152.16583251953125,
+      16.351774215698242,
+      21.9405574798584
+    ],
+    "components": [
+      "primary-server"
+    ]
+  },
+  {
+    "key": "e0104",
+    "text": "GET",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      61.551998138427734,
+      12.761627197265625,
+      22.861225128173828,
+      16.838104248046875
+    ],
+    "components": [
+      "client-routing"
+    ]
+  },
+  {
+    "key": "e0105",
+    "text": "PUT/DEL",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      61.748558044433594,
+      31.2803955078125,
+      49.32542419433594,
+      16.838104248046875
+    ],
+    "components": [
+      "client-routing"
+    ]
+  },
+  {
+    "key": "e0106",
+    "text": "Server 2",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      334.08331298828125,
+      73.27275085449219,
+      53.57818603515625,
+      19.389328002929688
+    ],
+    "components": [
+      "replica-two"
+    ]
+  },
+  {
+    "key": "e0111",
+    "text": "A",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      402.58404541015625,
+      82.7568359375,
+      10.204910278320312,
+      19.38932991027832
+    ],
+    "components": [
+      "replica-two"
+    ]
+  },
+  {
+    "key": "e0121",
+    "text": "B",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      432.8163146972656,
+      82.7568359375,
+      8.682146072387695,
+      19.38932991027832
+    ],
+    "components": [
+      "replica-two"
+    ]
+  },
+  {
+    "key": "e0124",
+    "text": "C",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      462.4132080078125,
+      82.7568359375,
+      8.674173355102539,
+      19.38932991027832
+    ],
+    "components": [
+      "replica-two"
+    ]
+  },
+  {
+    "key": "e0125",
+    "text": "backup log",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      338.86761474609375,
+      162.82542419433594,
+      61.342864990234375,
+      16.838104248046875
+    ],
+    "components": [
+      "replica-two"
+    ]
+  },
+  {
+    "key": "e0138",
+    "text": "per-thread logs",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      409.126708984375,
+      162.78564453125,
+      87.4476318359375,
+      16.838104248046875
+    ],
+    "components": [
+      "replica-two"
+    ]
+  },
+  {
+    "key": "e0145",
+    "text": "Server 3",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      333.5863037109375,
+      196.5366439819336,
+      53.57818603515625,
+      19.389328002929688
+    ],
+    "components": []
+  },
+  {
+    "key": "e0150",
+    "text": "A",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      402.0870361328125,
+      206.02074432373047,
+      10.204910278320312,
+      19.38932991027832
+    ],
+    "components": [
+      "replica-three"
+    ]
+  },
+  {
+    "key": "e0160",
+    "text": "B",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      432.3192138671875,
+      206.02074432373047,
+      8.682146072387695,
+      19.38932991027832
+    ],
+    "components": [
+      "replica-three"
+    ]
+  },
+  {
+    "key": "e0163",
+    "text": "C",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      461.91619873046875,
+      206.02074432373047,
+      8.674173355102539,
+      19.38932991027832
+    ],
+    "components": [
+      "replica-three"
+    ]
+  },
+  {
+    "key": "e0164",
+    "text": "backup log",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      338.37060546875,
+      286.0892276763916,
+      61.342864990234375,
+      16.838102340698242
+    ],
+    "components": [
+      "replica-three"
+    ]
+  },
+  {
+    "key": "e0177",
+    "text": "per-thread logs",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      408.62969970703125,
+      286.04942893981934,
+      87.4476318359375,
+      16.838102340698242
+    ],
+    "components": [
+      "replica-three"
+    ]
+  },
+  {
+    "key": "e0186",
+    "text": "",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      267.0758056640625,
+      196.00611114501953,
+      15.586405754089355,
+      21.9405574798584
+    ],
+    "components": []
+  },
+  {
+    "key": "e0187",
+    "text": "CM",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      296.1665954589844,
+      12.962127685546875,
+      22.171722412109375,
+      19.38934326171875
+    ],
+    "components": []
+  }
+]

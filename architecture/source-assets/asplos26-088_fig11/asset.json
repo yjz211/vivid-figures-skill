@@ -1,0 +1,86 @@
+{
+  "name": "共享资源控制器与异构执行阵列",
+  "family": "layered",
+  "tags": [
+    "局部展开",
+    "引擎",
+    "重复资源",
+    "控制器"
+  ],
+  "when_to_use": "多个功能引擎共享存储或资源接口；需要对两类模块的内部并行组织作展开",
+  "avoid": "没有共享接口的独立流水线；并行核心之间存在复杂互连需要逐条解释",
+  "preserve": [
+    "外部资源、控制器、引擎竖栈、展开阵列从左至右排列；两组展开各占独立框。",
+    "窄长矩形用于公共资源和控制器，宽矩形用于功能，引擎内部重复框表示并行实例。",
+    "黑色双向箭头表示交换，绿色虚线是展开关系；展开线不承担任务或数据传输语义。",
+    "浅绿色铺出系统范围，深绿色描边标记被展开的引擎及其阵列，白色模块保持文字清晰。",
+    "功能引擎使用粗体，核心名称用常规无衬线；竖排控制器名应保持同一阅读方向。"
+  ],
+  "adapt": "先决定并行实例代表物理核心还是逻辑工作者。 分别定义控制器和各引擎的输入输出。 如需表达阶段依赖，应另加有向处理线，不能借用展开虚线。",
+  "visual_note": "外部资源、控制器、引擎竖栈、展开阵列从左至右排列；两组展开各占独立框。",
+  "parts": [
+    {
+      "id": "memory-interface",
+      "name": "资源接口",
+      "role": "component",
+      "box": [
+        0.0,
+        0.01,
+        0.15,
+        0.98
+      ],
+      "meaning": "外部存储和进入系统的双向通道。",
+      "reuse": "可换数据库或资源池，但补充交换对象。"
+    },
+    {
+      "id": "engine-stack",
+      "name": "控制与功能栈",
+      "role": "component",
+      "box": [
+        0.14,
+        0.0,
+        0.43,
+        1.0
+      ],
+      "meaning": "控制器服务三种功能模块。",
+      "reuse": "增删功能时重排对应端口。"
+    },
+    {
+      "id": "sorting-array",
+      "name": "第一阵列",
+      "role": "component",
+      "box": [
+        0.62,
+        0.0,
+        0.38,
+        0.46
+      ],
+      "meaning": "第一类功能的重复核心及省略表达。",
+      "reuse": "明确核心总数，不继承显示的尾编号。"
+    },
+    {
+      "id": "raster-array",
+      "name": "第二阵列",
+      "role": "component",
+      "box": [
+        0.62,
+        0.5,
+        0.38,
+        0.49
+      ],
+      "meaning": "第二类功能的完整重复列表。",
+      "reuse": "数量增多时可改省略表示，但需统一规则。"
+    }
+  ],
+  "selection_evidence": {
+    "candidate_index": 21,
+    "semantics_read": true,
+    "preview_reviewed": true,
+    "source_render_reviewed": true,
+    "render": "source-renders/21.png"
+  },
+  "implementation": "source-derived editable SVG",
+  "validation_status": "source-fidelity-checked",
+  "id": "architecture.source.asplos26-088_fig11",
+  "display_code": "VA-045"
+}

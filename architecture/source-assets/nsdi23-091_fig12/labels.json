@@ -1,0 +1,191 @@
+[
+  {
+    "key": "e0006",
+    "text": "DAC",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      8.894012451171875,
+      19.29351806640625,
+      14.763946533203125,
+      7.81158447265625
+    ],
+    "components": [
+      "baseline-chain"
+    ]
+  },
+  {
+    "key": "e0012",
+    "text": "PLL+VCO",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      9.381011962890625,
+      49.6356201171875,
+      31.511474609375,
+      7.81158447265625
+    ],
+    "components": [
+      "baseline-chain"
+    ]
+  },
+  {
+    "key": "e0017",
+    "text": "PA",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      80.668212890625,
+      33.73822021484375,
+      10.077850341796875,
+      8.78802490234375
+    ],
+    "components": [
+      "baseline-chain",
+      "baseline-output"
+    ]
+  },
+  {
+    "key": "e0018",
+    "text": "Mixer",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      44.858123779296875,
+      6.27215576171875,
+      19.375823974609375,
+      8.78802490234375
+    ],
+    "components": [
+      "baseline-chain"
+    ]
+  },
+  {
+    "key": "e0020",
+    "text": "XO",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      12.149993896484375,
+      34.47052001953125,
+      10.103118896484375,
+      7.81158447265625
+    ],
+    "components": [
+      "baseline-chain"
+    ]
+  },
+  {
+    "key": "e0023",
+    "text": "(a)",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      3.000026282874387,
+      63.40674114864669,
+      10.415853876518668,
+      10.028580534766661
+    ],
+    "components": []
+  },
+  {
+    "key": "e0024",
+    "text": "Traditionalactivetransmitter.",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      15.65366602449285,
+      63.40674114864669,
+      105.50395136254338,
+      10.028580534766661
+    ],
+    "components": []
+  },
+  {
+    "key": "e0027",
+    "text": "Open",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      130.14932250976562,
+      30.7506103515625,
+      17.04046630859375,
+      7.81158447265625
+    ],
+    "components": [
+      "simplified-chain"
+    ]
+  },
+  {
+    "key": "e0028",
+    "text": "-loop oscillator",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      132.64520263671875,
+      30.7506103515625,
+      31.89727783203125,
+      16.142578125
+    ],
+    "components": [
+      "simplified-chain"
+    ]
+  },
+  {
+    "key": "e0037",
+    "text": "OOK Modulation",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      166.5531005859375,
+      6.7711181640625,
+      38.709686279296875,
+      18.30792236328125
+    ],
+    "components": [
+      "simplified-chain"
+    ]
+  },
+  {
+    "key": "e0038",
+    "text": "-",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      185.3773193359375,
+      48.024169921875,
+      2.635637044906616,
+      8.787999153137207
+    ],
+    "components": [
+      "simplified-chain"
+    ]
+  },
+  {
+    "key": "e0039",
+    "text": "20 dBm PA",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      187.99234008789062,
+      48.024169921875,
+      39.73095703125,
+      8.78802490234375
+    ],
+    "components": [
+      "simplified-chain"
+    ]
+  },
+  {
+    "key": "e0040",
+    "text": "(b)",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      124.95132446289062,
+      63.42291259765625,
+      10.9576416015625,
+      10.008544921875
+    ],
+    "components": []
+  },
+  {
+    "key": "e0041",
+    "text": "SlimWiFiactivetransmitter.",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      138.14892578125,
+      63.42291259765625,
+      101.41098022460938,
+      10.008544921875
+    ],
+    "components": []
+  }
+]

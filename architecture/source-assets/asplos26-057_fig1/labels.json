@@ -1,0 +1,254 @@
+[
+  {
+    "key": "e0005",
+    "text": "Compute node (host) …",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      13.612842603210524,
+      3.109656427937807,
+      71.79750352996005,
+      9.110232088865814
+    ],
+    "components": [
+      "host-stack"
+    ]
+  },
+  {
+    "key": "e0008",
+    "text": "Compute node (host) 1",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      8.468252526011824,
+      11.540689625386221,
+      68.97531312183172,
+      9.110232088865786
+    ],
+    "components": [
+      "host-stack"
+    ]
+  },
+  {
+    "key": "e0013",
+    "text": "CPU 0",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      24.665432225134722,
+      38.0466819873545,
+      18.59765218760367,
+      9.110232088865814
+    ],
+    "components": [
+      "host-stack"
+    ]
+  },
+  {
+    "key": "e0014",
+    "text": "Compute node (host) 0",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      4.51722751957594,
+      18.619670621417754,
+      68.97529926685046,
+      9.110232088865786
+    ],
+    "components": [
+      "host-stack"
+    ]
+  },
+  {
+    "key": "e0017",
+    "text": "CXL/PCIe ",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      50.498997026439554,
+      33.42180177386308,
+      8.318031970276934,
+      27.54116728694588
+    ],
+    "components": [
+      "host-stack"
+    ]
+  },
+  {
+    "key": "e0018",
+    "text": "root complex",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      57.47423192278251,
+      30.71909672413676,
+      8.318031970276934,
+      34.67627481206908
+    ],
+    "components": [
+      "host-stack"
+    ]
+  },
+  {
+    "key": "e0021",
+    "text": "Mem. ctrl.",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      18.73696194559487,
+      54.53178205207948,
+      26.5732375135226,
+      8.318031970276934
+    ],
+    "components": [
+      "host-stack"
+    ]
+  },
+  {
+    "key": "e0025",
+    "text": "DRAM",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      20.020736799353458,
+      64.53663028102162,
+      18.241870123781155,
+      9.110232088865814
+    ],
+    "components": [
+      "host-stack"
+    ]
+  },
+  {
+    "key": "e0030",
+    "text": "CXL ",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      155.79978869996282,
+      34.480742330109905,
+      13.773444697103514,
+      9.110232088865814
+    ],
+    "components": [
+      "memory-node"
+    ]
+  },
+  {
+    "key": "e0031",
+    "text": "controller",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      148.50311823834542,
+      41.92269612523884,
+      26.859862438376695,
+      9.110232088865814
+    ],
+    "components": [
+      "memory-node"
+    ]
+  },
+  {
+    "key": "e0032",
+    "text": "CXL disaggregated",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      133.0455451489415,
+      11.316488318607298,
+      58.144784212081504,
+      9.110232088865786
+    ],
+    "components": [
+      "memory-node"
+    ]
+  },
+  {
+    "key": "e0033",
+    "text": "shared memory node",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      129.98830498370623,
+      19.218843141066827,
+      64.17571900554321,
+      9.110232088865786
+    ],
+    "components": [
+      "memory-node"
+    ]
+  },
+  {
+    "key": "e0034",
+    "text": "CXL links",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      88.07788724045437,
+      33.11486285739372,
+      28.508702193403224,
+      9.704361395335582
+    ],
+    "components": [
+      "shared-link"
+    ]
+  },
+  {
+    "key": "e0037",
+    "text": "Mem. ctrl.",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      148.51763825870782,
+      53.77421938664517,
+      26.57323058603197,
+      8.318031970276934
+    ],
+    "components": [
+      "memory-node"
+    ]
+  },
+  {
+    "key": "e0040",
+    "text": "DRAM",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      153.95696535228942,
+      64.53663028102162,
+      18.241856268799893,
+      9.110232088865814
+    ],
+    "components": [
+      "memory-node"
+    ]
+  },
+  {
+    "key": "e0044",
+    "text": "CXL Links",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      88.59629907432824,
+      32.7413325625748,
+      32.834227343346356,
+      10.298518411767873
+    ],
+    "components": [
+      "shared-link"
+    ]
+  },
+  {
+    "key": "e0047",
+    "text": "CXL/PCIe ",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      122.8951914844474,
+      33.42181624551998,
+      8.318031970276934,
+      27.54113957698337
+    ],
+    "components": [
+      "memory-node"
+    ]
+  },
+  {
+    "key": "e0048",
+    "text": "root complex",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      129.87042638079035,
+      30.719083485831135,
+      8.318031970276934,
+      34.676274812069096
+    ],
+    "components": [
+      "memory-node"
+    ]
+  }
+]

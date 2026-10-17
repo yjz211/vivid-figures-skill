@@ -1,0 +1,260 @@
+[
+  {
+    "key": "e0008",
+    "text": "Application code",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      66.01217999979919,
+      6.8136462370980855,
+      41.19135305572445,
+      6.253447177769658
+    ],
+    "components": [
+      "application"
+    ]
+  },
+  {
+    "key": "e0011",
+    "text": "TNIC API",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      75.04675492132084,
+      17.683499582794756,
+      23.299261980594565,
+      6.253448362489621
+    ],
+    "components": []
+  },
+  {
+    "key": "e0016",
+    "text": "User-space buffers",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      16.548505585640672,
+      39.11263963656189,
+      47.12425529197937,
+      6.253447177769658
+    ],
+    "components": [
+      "programming-api"
+    ]
+  },
+  {
+    "key": "e0019",
+    "text": "Network library",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      114.64408622231987,
+      39.11263963656189,
+      37.42781523815667,
+      6.253447177769658
+    ],
+    "components": [
+      "programming-api"
+    ]
+  },
+  {
+    "key": "e0020",
+    "text": "TNIC (sw) programming API",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      49.68699954776094,
+      28.55335144759147,
+      74.02234584312285,
+      6.253447177769662
+    ],
+    "components": [
+      "programming-api"
+    ]
+  },
+  {
+    "key": "e0023",
+    "text": "Device access interface",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      57.179433971177794,
+      52.156460926541975,
+      59.02930716742413,
+      6.253449547209584
+    ],
+    "components": []
+  },
+  {
+    "key": "e0026",
+    "text": "TNIC driver",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      36.69170201802627,
+      89.42453326376473,
+      28.620801327132092,
+      6.253444808329732
+    ],
+    "components": [
+      "software-network"
+    ]
+  },
+  {
+    "key": "e0029",
+    "text": "Mapped memory",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      101.44012633493823,
+      89.42453326376473,
+      42.09564032573873,
+      6.253444808329732
+    ],
+    "components": [
+      "software-network"
+    ]
+  },
+  {
+    "key": "e0032",
+    "text": "RDMA OS abstractions",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      57.960704659111805,
+      72.65390284451043,
+      57.47432904380003,
+      6.253449547209584
+    ],
+    "components": [
+      "software-network"
+    ]
+  },
+  {
+    "key": "e0033",
+    "text": "TNIC (sw) network stack",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      54.38918625315046,
+      62.40517951608627,
+      64.8039118611,
+      6.253449547209591
+    ],
+    "components": [
+      "software-network"
+    ]
+  },
+  {
+    "key": "e0036",
+    "text": "TNIC hardware",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      65.88016902375968,
+      101.84721298545266,
+      37.89831018539098,
+      6.253444808329732
+    ],
+    "components": []
+  },
+  {
+    "key": "e0039",
+    "text": "\\",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      40.97269471272262,
+      129.3613768728865,
+      1.3896550435743649,
+      4.168964982633099
+    ],
+    "components": [
+      "trusted-hardware"
+    ]
+  },
+  {
+    "key": "e0042",
+    "text": "RDMA network stack",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      105.7880675547449,
+      129.17713870199717,
+      52.035933658989975,
+      6.253444808329732
+    ],
+    "components": [
+      "trusted-hardware"
+    ]
+  },
+  {
+    "key": "e0043",
+    "text": "TNIC (hw) architecture",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      56.87857196712867,
+      112.40650828274285,
+      59.63864181656482,
+      6.253444808329732
+    ],
+    "components": [
+      "trusted-hardware"
+    ]
+  },
+  {
+    "key": "e0044",
+    "text": "Security module",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      21.62433875072748,
+      123.27636133225954,
+      40.078502944540105,
+      6.253444808329732
+    ],
+    "components": [
+      "trusted-hardware"
+    ]
+  },
+  {
+    "key": "e0047",
+    "text": "Attestation kernel",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      19.73765917769686,
+      131.6616765418867,
+      43.365726470415225,
+      6.253444808329732
+    ],
+    "components": [
+      "trusted-hardware"
+    ]
+  },
+  {
+    "key": "e0055",
+    "text": "Network",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      73.80448600137608,
+      146.56890358122385,
+      20.65720377442176,
+      6.253444808329732
+    ],
+    "components": []
+  },
+  {
+    "key": "e0088",
+    "text": "Data path",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      19.396989398170266,
+      157.33873783258244,
+      21.546137073715276,
+      5.558611288897737
+    ],
+    "components": [
+      "path-legend"
+    ]
+  },
+  {
+    "key": "e0092",
+    "text": "Control path",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      59.49413035716862,
+      157.33873783258244,
+      27.06676624059856,
+      5.558611288897737
+    ],
+    "components": [
+      "path-legend"
+    ]
+  }
+]

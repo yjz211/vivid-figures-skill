@@ -1,0 +1,212 @@
+{
+  "title": "Platform with three internally distinct subsystems",
+  "platform_name": "Simulation platform",
+  "inputs": [
+    {
+      "title": "Native model",
+      "object": {
+        "kind": "document",
+        "lines": [
+          "Framework",
+          "Model graph",
+          "Parameters"
+        ]
+      }
+    },
+    {
+      "title": "System config",
+      "object": {
+        "kind": "document",
+        "lines": [
+          "Devices",
+          "Interconnect",
+          "Parallelism"
+        ]
+      }
+    }
+  ],
+  "modules": [
+    {
+      "name": "Graph frontend",
+      "heading": "Model config",
+      "layout": "transform",
+      "section_labels": [
+        "Graph transformation",
+        "Graph execution"
+      ],
+      "graph": {
+        "kind": "graph"
+      },
+      "artifact": {
+        "kind": "timeline",
+        "rows": [
+          [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              2,
+              1,
+              2
+            ]
+          ],
+          [
+            [
+              0.5,
+              1,
+              2
+            ],
+            [
+              1.5,
+              1,
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "name": "Engine backend",
+      "heading": "Op. simulator",
+      "layout": "engines",
+      "engines": [
+        {
+          "label": "Profiling",
+          "color": "blue"
+        },
+        {
+          "label": "Prediction",
+          "color": "peach"
+        },
+        {
+          "label": "Analysis",
+          "color": "green"
+        }
+      ],
+      "fusion": "Fused engine",
+      "postprocess": "Op overlap"
+    },
+    {
+      "name": "Design explorer",
+      "heading": "Design parameters",
+      "layout": "search",
+      "rule": "Rule-based pruning",
+      "graph": {
+        "kind": "graph",
+        "nodes": [
+          {
+            "id": "a",
+            "x": 0.5,
+            "y": 0.08
+          },
+          {
+            "id": "b",
+            "x": 0.25,
+            "y": 0.35
+          },
+          {
+            "id": "c",
+            "x": 0.75,
+            "y": 0.35
+          },
+          {
+            "id": "d",
+            "x": 0.1,
+            "y": 0.68
+          },
+          {
+            "id": "e",
+            "x": 0.38,
+            "y": 0.68
+          },
+          {
+            "id": "f",
+            "x": 0.65,
+            "y": 0.68
+          },
+          {
+            "id": "g",
+            "x": 0.9,
+            "y": 0.68,
+            "color": "grey"
+          },
+          {
+            "id": "h",
+            "x": 0.38,
+            "y": 0.94
+          }
+        ],
+        "edges": [
+          [
+            "a",
+            "b"
+          ],
+          [
+            "a",
+            "c"
+          ],
+          [
+            "b",
+            "d"
+          ],
+          [
+            "b",
+            "e"
+          ],
+          [
+            "c",
+            "f"
+          ],
+          [
+            "c",
+            "g"
+          ],
+          [
+            "e",
+            "h"
+          ]
+        ]
+      }
+    }
+  ],
+  "outputs": [
+    {
+      "title": "Summary",
+      "object": {
+        "kind": "document",
+        "lines": [
+          "Latency",
+          "Memory",
+          "Power"
+        ]
+      }
+    },
+    {
+      "title": "Timeline traces",
+      "object": {
+        "kind": "timeline"
+      }
+    },
+    {
+      "title": "Design options",
+      "object": {
+        "kind": "slots",
+        "rows": [
+          [
+            0,
+            1,
+            2
+          ]
+        ]
+      }
+    }
+  ],
+  "caption": "VA-003: editable architecture example; replace labels, objects and quantities for the current task."
+}

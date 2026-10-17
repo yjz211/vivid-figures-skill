@@ -1,0 +1,91 @@
+{
+  "name": "分离调度与统一任务映射对照",
+  "family": "comparison",
+  "tags": [
+    "调度对照",
+    "循环控制",
+    "多级硬件",
+    "任务分解",
+    "映射"
+  ],
+  "when_to_use": "集中调度与分离调度的架构比较；从逻辑算子到任务再到硬件单元的映射",
+  "avoid": "只有一个无层次流水线的简单过程；要量化加速比或资源利用率的图",
+  "preserve": [
+    "两个不等宽面板，左侧对照较窄，右侧分三层展示统一表示与部署。",
+    "黑粗箭头连接schedule与map，棕色细回边表示loop；回边方向必须单独核对。",
+    "蓝、灰、淡黄在算子、任务、内核三层保持对应；红色仅突出左图CPU循环控制。"
+  ],
+  "adapt": "保留从逻辑操作到执行实体的颜色对应，先定义每个小方块代表什么。；确认对照方案的循环控制位置，不能让CPU红块只剩装饰作用。；任务序列、循环回边与硬件单元映射一起改，不承诺任务数改变后自动重排。；源viewBox顶部约三成是留白；成稿裁边时同步更新画布和导出坐标。",
+  "visual_note": "源SVG上方有明显空白，部件盒按完整viewBox而非印刷裁图测定；左图CPU回边延伸到接近底部。",
+  "id": "architecture.source.osdi23-050_fig4",
+  "display_code": "VA-161",
+  "parts": [
+    {
+      "id": "baseline-operators",
+      "name": "基准算子与循环",
+      "role": "region",
+      "box": [
+        0.17,
+        0.323,
+        0.275,
+        0.14
+      ],
+      "meaning": "循环包围的三算子链",
+      "reuse": "更改算子种类时同步改下层内核"
+    },
+    {
+      "id": "split-execution",
+      "name": "分离执行部署",
+      "role": "region",
+      "box": [
+        0.17,
+        0.5,
+        0.26,
+        0.42
+      ],
+      "meaning": "CPU循环控制与加速器内核分离",
+      "reuse": "改设备角色时保持控制回路可见"
+    },
+    {
+      "id": "task-operators",
+      "name": "任务化算子链",
+      "role": "region",
+      "box": [
+        0.49,
+        0.323,
+        0.45,
+        0.14
+      ],
+      "meaning": "椭圆算子内部拆分小任务",
+      "reuse": "改变任务数量时重布椭圆内部对象"
+    },
+    {
+      "id": "unified-program",
+      "name": "统一任务程序",
+      "role": "region",
+      "box": [
+        0.473,
+        0.485,
+        0.482,
+        0.185
+      ],
+      "meaning": "多列任务和局部循环共同组成程序",
+      "reuse": "按实际调度重排每列任务"
+    },
+    {
+      "id": "hardware-map",
+      "name": "多级硬件映射",
+      "role": "region",
+      "box": [
+        0.474,
+        0.714,
+        0.48,
+        0.21
+      ],
+      "meaning": "L0嵌于L1，L1共同组成L2",
+      "reuse": "层级数改变时重建容器嵌套"
+    }
+  ],
+  "implementation": "editable vector geometry",
+  "validation_status": "baseline-and-components-checked"
+}

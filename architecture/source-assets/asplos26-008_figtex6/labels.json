@@ -1,0 +1,306 @@
+[
+  {
+    "key": "e0012",
+    "text": "AST",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      188.0674858351922,
+      119.19286477379501,
+      73.49271763840079,
+      44.95007454272127
+    ],
+    "components": [
+      "active-executor"
+    ]
+  },
+  {
+    "key": "e0016",
+    "text": "GPUs",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      332.51877565681934,
+      127.81408536247909,
+      96.3554967262462,
+      44.95007454272127
+    ],
+    "components": [
+      "active-executor"
+    ]
+  },
+  {
+    "key": "e0017",
+    "text": "Executor",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      211.55225234694808,
+      34.23309674530174,
+      177.06404900836787,
+      51.24313409047318
+    ],
+    "components": [
+      "active-executor"
+    ]
+  },
+  {
+    "key": "e0018",
+    "text": "Kernel Replica",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      188.36029284447432,
+      74.47308935690671,
+      239.86530951413442,
+      42.25313672184711
+    ],
+    "components": [
+      "active-executor"
+    ]
+  },
+  {
+    "key": "e0021",
+    "text": "1",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      51.02694299817085,
+      117.92507948703133,
+      28.768066672378154,
+      57.53613334475631
+    ],
+    "components": [
+      "active-executor"
+    ]
+  },
+  {
+    "key": "e0027",
+    "text": "Convert code to AST",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      549.7106714248657,
+      23.829294270981336,
+      283.085421925789,
+      35.0610686672735
+    ],
+    "components": [
+      "execution-detail"
+    ]
+  },
+  {
+    "key": "e0030",
+    "text": "2",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      492.14606311917305,
+      17.34417261905037,
+      28.768066672378154,
+      57.53613334475631
+    ],
+    "components": []
+  },
+  {
+    "key": "e0033",
+    "text": "3",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      490.70919302105904,
+      119.36194958514534,
+      28.768066672378154,
+      57.53613334475631
+    ],
+    "components": []
+  },
+  {
+    "key": "e0034",
+    "text": "Execute code",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      549.7106714248657,
+      131.59455162953236,
+      186.83073587933904,
+      35.0610686672735
+    ],
+    "components": [
+      "execution-detail"
+    ]
+  },
+  {
+    "key": "e0055",
+    "text": "Receive an ",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      0.8262939453125,
+      180.44804726581788,
+      160.56773402589897,
+      35.0610686672735
+    ],
+    "components": []
+  },
+  {
+    "key": "e0056",
+    "text": "execute_request",
+    "font_family": "VividSource-Inconsolata-Bold",
+    "bounds": [
+      160.47603250294924,
+      182.24606427946128,
+      281.3505486176291,
+      33.2630516536301
+    ],
+    "components": [
+      "active-executor"
+    ]
+  },
+  {
+    "key": "e0059",
+    "text": "Standby Replica",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      14.31940221041441,
+      246.72078645482543,
+      245.6913248902856,
+      38.65710269456031
+    ],
+    "components": [
+      "standby-replicas"
+    ]
+  },
+  {
+    "key": "e0062",
+    "text": "Standby Replica",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      14.31940221041441,
+      324.3118594525731,
+      245.6913248902856,
+      38.65710269456031
+    ],
+    "components": [
+      "standby-replicas"
+    ]
+  },
+  {
+    "key": "e0063",
+    "text": "Replicate ",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      72.66979885101318,
+      378.73612080555176,
+      140.91311559946917,
+      35.0610686672735
+    ],
+    "components": []
+  },
+  {
+    "key": "e0064",
+    "text": "AST & updated global",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      211.79827162445872,
+      378.73612080555176,
+      297.89709354081424,
+      35.0610686672735
+    ],
+    "components": []
+  },
+  {
+    "key": "e0065",
+    "text": "state to standby replicas",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      72.66979885101318,
+      407.473610467423,
+      343.1132486424758,
+      35.0610686672735
+    ],
+    "components": []
+  },
+  {
+    "key": "e0066",
+    "text": "Raft Log",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      538.1708084493876,
+      364.7209368755284,
+      139.55899006541586,
+      42.25313672184711
+    ],
+    "components": [
+      "replication-log"
+    ]
+  },
+  {
+    "key": "e0069",
+    "text": "4",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      490.70919302105904,
+      186.89484419650398,
+      28.768066672378154,
+      57.53613334475631
+    ],
+    "components": []
+  },
+  {
+    "key": "e0096",
+    "text": "Commit updated global",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      549.7106714248657,
+      181.88500506352284,
+      321.5708965208614,
+      35.0610686672735
+    ],
+    "components": [
+      "execution-detail"
+    ]
+  },
+  {
+    "key": "e0097",
+    "text": "state & AST to Raft Log",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      549.7106714248657,
+      213.49614722203114,
+      325.0655498210108,
+      35.0610686672735
+    ],
+    "components": [
+      "execution-detail"
+    ]
+  },
+  {
+    "key": "e0098",
+    "text": "AST & updated",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      707.3388467115292,
+      351.2588742656226,
+      187.70466230314923,
+      32.3640431468084
+    ],
+    "components": [
+      "replication-log"
+    ]
+  },
+  {
+    "key": "e0099",
+    "text": "global state",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      744.5861784815788,
+      381.43314632601687,
+      150.59370339702582,
+      32.3640431468084
+    ],
+    "components": []
+  },
+  {
+    "key": "e0125",
+    "text": "5",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      22.28954103589058,
+      385.18291773623787,
+      28.768066672378154,
+      57.53613334475631
+    ],
+    "components": []
+  }
+]

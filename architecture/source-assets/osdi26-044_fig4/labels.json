@@ -1,0 +1,664 @@
+[
+  {
+    "key": "e0008",
+    "text": "Procedural ",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      26.909940001576615,
+      25.4297091661428,
+      88.22240218467778,
+      20.251358219480608
+    ],
+    "components": [
+      "program-interface"
+    ]
+  },
+  {
+    "key": "e0009",
+    "text": "P",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      114.86589647334768,
+      25.4297091661428,
+      12.008169753082257,
+      20.25136584667416
+    ],
+    "components": [
+      "program-interface"
+    ]
+  },
+  {
+    "key": "e0010",
+    "text": "rogramming ",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      124.82250268748612,
+      25.4297091661428,
+      101.44791149502271,
+      20.251358219480608
+    ],
+    "components": [
+      "program-interface"
+    ]
+  },
+  {
+    "key": "e0011",
+    "text": "I",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      226.08792035764782,
+      25.4297091661428,
+      5.000834550653963,
+      20.25136584667416
+    ],
+    "components": [
+      "program-interface"
+    ]
+  },
+  {
+    "key": "e0012",
+    "text": "nterface",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      230.52639166024164,
+      25.4297091661428,
+      63.4691222133406,
+      20.251358219480608
+    ],
+    "components": [
+      "program-interface"
+    ]
+  },
+  {
+    "key": "e0015",
+    "text": "Launcher (Ray)",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      186.3314941773133,
+      491.8771301807901,
+      114.30143176266574,
+      20.25136584667416
+    ],
+    "components": [
+      "runtime-base"
+    ]
+  },
+  {
+    "key": "e0020",
+    "text": "Data ",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      100.66074890147138,
+      442.54737111537906,
+      41.13250497246918,
+      20.25136584667416
+    ],
+    "components": [
+      "runtime-base"
+    ]
+  },
+  {
+    "key": "e0021",
+    "text": "P",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      141.68673812845373,
+      442.54737111537906,
+      12.008177379871995,
+      20.25136584667416
+    ],
+    "components": [
+      "runtime-base"
+    ]
+  },
+  {
+    "key": "e0022",
+    "text": "lan",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      151.64334434259217,
+      442.54737111537906,
+      23.054946432384895,
+      20.25136584667416
+    ],
+    "components": [
+      "runtime-base"
+    ]
+  },
+  {
+    "key": "e0023",
+    "text": "e",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      174.67548667365918,
+      442.54737111537906,
+      10.009386459174493,
+      20.25136584667416
+    ],
+    "components": [
+      "runtime-base"
+    ]
+  },
+  {
+    "key": "e0024",
+    "text": ": ",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      183.93230442213826,
+      442.54737111537906,
+      8.95951023089583,
+      20.25136584667416
+    ],
+    "components": [
+      "runtime-base"
+    ]
+  },
+  {
+    "key": "e0025",
+    "text": "Adaptive communication",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      192.07545833301265,
+      442.54737111537906,
+      193.87866948230658,
+      20.25136584667416
+    ],
+    "components": [
+      "runtime-base"
+    ]
+  },
+  {
+    "key": "e0028",
+    "text": "Workflow",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      219.1162260970159,
+      96.87909225771722,
+      74.82864589270321,
+      20.251358219480608
+    ],
+    "components": [
+      "workflow-policy"
+    ]
+  },
+  {
+    "key": "e0031",
+    "text": "Profiler",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      232.03588588527055,
+      180.0714245802373,
+      48.78157256371924,
+      17.781672946672188
+    ],
+    "components": [
+      "workflow-policy"
+    ]
+  },
+  {
+    "key": "e0034",
+    "text": "Connection",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      377.1663271285943,
+      203.92452664859587,
+      78.48470008961158,
+      17.781672946672188
+    ],
+    "components": [
+      "controller"
+    ]
+  },
+  {
+    "key": "e0035",
+    "text": "M",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      385.6834072867641,
+      218.92019935138518,
+      13.289254972327399,
+      17.781686294260908
+    ],
+    "components": [
+      "controller"
+    ]
+  },
+  {
+    "key": "e0036",
+    "text": "anager",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      399.4787140584667,
+      218.92019935138518,
+      47.521123530808836,
+      17.781672946672188
+    ],
+    "components": [
+      "controller"
+    ]
+  },
+  {
+    "key": "e0037",
+    "text": "M2Flo",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      106.03891696773644,
+      398.78199297137326,
+      47.67050946141535,
+      20.25136584667416
+    ],
+    "components": [
+      "spatiotemporal"
+    ]
+  },
+  {
+    "key": "e0038",
+    "text": "w",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      153.5286257516127,
+      398.78199297137326,
+      13.829469069638435,
+      20.25136584667416
+    ],
+    "components": [
+      "spatiotemporal"
+    ]
+  },
+  {
+    "key": "e0039",
+    "text": "Transformation & Scheduling",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      171.67649566629552,
+      398.78199297137326,
+      225.71976921483292,
+      20.25136584667416
+    ],
+    "components": [
+      "spatiotemporal"
+    ]
+  },
+  {
+    "key": "e0044",
+    "text": "Scheduler",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      218.20059948175913,
+      147.74441894698242,
+      76.15441075293347,
+      20.251358219480608
+    ],
+    "components": [
+      "workflow-policy"
+    ]
+  },
+  {
+    "key": "e0047",
+    "text": "Exec ",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      383.16427863616263,
+      160.13717455996078,
+      34.87880432460224,
+      17.781672946672188
+    ],
+    "components": [
+      "controller"
+    ]
+  },
+  {
+    "key": "e0048",
+    "text": "F",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      418.0723698333604,
+      160.13717455996078,
+      9.746997245059902,
+      17.781686294260908
+    ],
+    "components": [
+      "controller"
+    ]
+  },
+  {
+    "key": "e0049",
+    "text": "low ",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      425.62978629232384,
+      160.13717455996078,
+      28.321412536140997,
+      17.781672946672188
+    ],
+    "components": [
+      "controller"
+    ]
+  },
+  {
+    "key": "e0050",
+    "text": "M",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      385.6834072867641,
+      175.1328472627501,
+      13.289254972327399,
+      17.781686294260908
+    ],
+    "components": [
+      "controller"
+    ]
+  },
+  {
+    "key": "e0051",
+    "text": "anager",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      399.4787140584667,
+      175.1328472627501,
+      47.521123530808836,
+      17.781672946672188
+    ],
+    "components": [
+      "controller"
+    ]
+  },
+  {
+    "key": "e0054",
+    "text": "Worker ",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      390.70760078768944,
+      116.41977909060364,
+      55.18818271905184,
+      17.781672946672188
+    ],
+    "components": [
+      "controller"
+    ]
+  },
+  {
+    "key": "e0055",
+    "text": "D",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      380.04531822621357,
+      131.41545179339295,
+      11.521984787626934,
+      17.781686294260908
+    ],
+    "components": [
+      "controller"
+    ]
+  },
+  {
+    "key": "e0056",
+    "text": "ispatcher",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      390.9616339002969,
+      131.41545179339295,
+      61.86427786300192,
+      17.781672946672188
+    ],
+    "components": [
+      "controller"
+    ]
+  },
+  {
+    "key": "e0064",
+    "text": "Controller",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      378.29594621033175,
+      91.36069568624947,
+      76.98210048250621,
+      20.251358219480608
+    ],
+    "components": [
+      "controller"
+    ]
+  },
+  {
+    "key": "e0081",
+    "text": "Data Channel",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      42.984451872289355,
+      183.96028650326474,
+      92.2892200233182,
+      17.781672946672188
+    ],
+    "components": [
+      "worker-group"
+    ]
+  },
+  {
+    "key": "e0082",
+    "text": "Worker",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      59.836617918495904,
+      210.38634604515386,
+      57.12815583728661,
+      20.251358219480608
+    ],
+    "components": [
+      "worker-group"
+    ]
+  },
+  {
+    "key": "e0089",
+    "text": "Communicator",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      39.697568619274534,
+      113.27069392477273,
+      101.76658927745302,
+      17.781672946672188
+    ],
+    "components": [
+      "worker-group"
+    ]
+  },
+  {
+    "key": "e0090",
+    "text": "Offloading",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      54.2366094191093,
+      148.47049726455583,
+      72.59742092793749,
+      17.781672946672188
+    ],
+    "components": [
+      "worker-group"
+    ]
+  },
+  {
+    "key": "e0091",
+    "text": "P",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      236.93420684835291,
+      216.730828696076,
+      10.642207897535627,
+      17.781686294260908
+    ],
+    "components": [
+      "workflow-policy"
+    ]
+  },
+  {
+    "key": "e0092",
+    "text": "olicy",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      245.69122581169358,
+      216.730828696076,
+      31.913462713564513,
+      17.781672946672188
+    ],
+    "components": [
+      "workflow-policy"
+    ]
+  },
+  {
+    "key": "e0095",
+    "text": "Context ",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      316.12714588665403,
+      374.55529570834915,
+      57.486378524510656,
+      17.781688201059296
+    ],
+    "components": [
+      "spatiotemporal"
+    ]
+  },
+  {
+    "key": "e0096",
+    "text": "S",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      373.7074864607421,
+      374.55529570834915,
+      10.642207897535627,
+      17.781686294260908
+    ],
+    "components": [
+      "spatiotemporal"
+    ]
+  },
+  {
+    "key": "e0097",
+    "text": "witch",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      381.3708237755927,
+      374.55529570834915,
+      36.36392332962714,
+      17.781688201059296
+    ],
+    "components": [
+      "spatiotemporal"
+    ]
+  },
+  {
+    "key": "e0100",
+    "text": "Elastic ",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      73.59799310265225,
+      374.55529570834915,
+      46.44582244558842,
+      17.781688201059296
+    ],
+    "components": [
+      "spatiotemporal"
+    ]
+  },
+  {
+    "key": "e0101",
+    "text": "P",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      120.14410020651121,
+      374.55529570834915,
+      10.642207897535627,
+      17.781686294260908
+    ],
+    "components": [
+      "spatiotemporal"
+    ]
+  },
+  {
+    "key": "e0102",
+    "text": "ipelining",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      128.90112679664162,
+      374.55529570834915,
+      58.190468499582494,
+      17.781688201059296
+    ],
+    "components": [
+      "spatiotemporal"
+    ]
+  },
+  {
+    "key": "e0103",
+    "text": "Spatial ",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      72.97420559673628,
+      286.8128542904378,
+      43.98952328885207,
+      15.80593998281256
+    ],
+    "components": []
+  },
+  {
+    "key": "e0104",
+    "text": "Scheduling",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      116.87521999067394,
+      286.8128542904378,
+      65.90164103967254,
+      15.80593998281256
+    ],
+    "components": []
+  },
+  {
+    "key": "e0105",
+    "text": "Temporal ",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      302.43184158200165,
+      286.8128542904378,
+      61.22472578269662,
+      15.80593998281256
+    ],
+    "components": []
+  },
+  {
+    "key": "e0106",
+    "text": "Scheduling",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      363.3910330531653,
+      286.8128542904378,
+      65.90171730756992,
+      15.80593998281256
+    ],
+    "components": []
+  },
+  {
+    "key": "e0125",
+    "text": "Time",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      453.87014130712487,
+      354.44333207826276,
+      29.98557805706514,
+      15.80593998281256
+    ],
+    "components": [
+      "spatiotemporal"
+    ]
+  },
+  {
+    "key": "e0169",
+    "text": "Worker Group",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      30.80652979995284,
+      236.27886814354855,
+      110.83703879188397,
+      20.251358219480608
+    ],
+    "components": []
+  }
+]

@@ -1,0 +1,912 @@
+[
+  {
+    "key": "e0007",
+    "text": "CPU",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      11.154030439339065,
+      11.675554043279076,
+      13.578136942400077,
+      8.680298316226127
+    ],
+    "components": [
+      "interleaved-topology"
+    ]
+  },
+  {
+    "key": "e0009",
+    "text": "RC",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      38.55110959683815,
+      11.675554043279076,
+      8.83149250640372,
+      8.680298316226127
+    ],
+    "components": [
+      "interleaved-topology"
+    ]
+  },
+  {
+    "key": "e0011",
+    "text": "Host Adapter 1",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      8.819951514417651,
+      23.63446430646854,
+      41.92165048313972,
+      8.680296546969426
+    ],
+    "components": [
+      "interleaved-topology"
+    ]
+  },
+  {
+    "key": "e0012",
+    "text": "Server 1",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      19.561632630876144,
+      3.272316608017149,
+      23.527757220082773,
+      8.680297136721661
+    ],
+    "components": [
+      "interleaved-topology"
+    ]
+  },
+  {
+    "key": "e0013",
+    "text": "(a). Interleaved paths over the routable PCIe fabric",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      26.76268903737991,
+      75.25408071251694,
+      138.71934991731902,
+      8.680294187960499
+    ],
+    "components": [
+      "interleaved-topology"
+    ]
+  },
+  {
+    "key": "e0014",
+    "text": "(c). A generic port architecture",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      411.10541282916887,
+      75.25408071251694,
+      84.14301776901988,
+      8.680294187960499
+    ],
+    "components": [
+      "port-internals"
+    ]
+  },
+  {
+    "key": "e0018",
+    "text": "Endpoint ",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      114.33488957543067,
+      15.725233418786273,
+      26.58296394422449,
+      8.680296546969428
+    ],
+    "components": [
+      "interleaved-topology"
+    ]
+  },
+  {
+    "key": "e0019",
+    "text": "Adapter 1",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      112.6802429668687,
+      23.009980385146033,
+      27.658653144829245,
+      8.68029654696943
+    ],
+    "components": [
+      "interleaved-topology"
+    ]
+  },
+  {
+    "key": "e0020",
+    "text": "Remote Chassis 1",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      122.18670926275169,
+      5.044565119574883,
+      50.39989555613374,
+      8.680297136721663
+    ],
+    "components": [
+      "interleaved-topology"
+    ]
+  },
+  {
+    "key": "e0022",
+    "text": "FPGA 1",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      158.1325230391212,
+      13.985248482629798,
+      21.415498263981135,
+      8.680297726473894
+    ],
+    "components": [
+      "interleaved-topology"
+    ]
+  },
+  {
+    "key": "e0024",
+    "text": "FPGA 2",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      158.1325230391212,
+      25.051761590415932,
+      22.06173460665923,
+      8.680296546969426
+    ],
+    "components": [
+      "interleaved-topology"
+    ]
+  },
+  {
+    "key": "e0030",
+    "text": "Endpoint ",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      114.33488957543067,
+      52.338031021384715,
+      26.58296394422449,
+      8.680298905978361
+    ],
+    "components": [
+      "interleaved-topology"
+    ]
+  },
+  {
+    "key": "e0031",
+    "text": "Adapter 2",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      112.6802429668687,
+      59.62278270576234,
+      28.30488948750734,
+      8.680298905978354
+    ],
+    "components": [
+      "interleaved-topology"
+    ]
+  },
+  {
+    "key": "e0032",
+    "text": "Remote Chassis 2",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      122.18670926275169,
+      41.22813455984737,
+      51.046131898811836,
+      8.68029654696943
+    ],
+    "components": [
+      "interleaved-topology"
+    ]
+  },
+  {
+    "key": "e0034",
+    "text": "FPGA 3",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      158.1325230391212,
+      50.447153258441624,
+      22.06173460665923,
+      8.680298905978361
+    ],
+    "components": [
+      "interleaved-topology"
+    ]
+  },
+  {
+    "key": "e0036",
+    "text": "FPGA 4",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      158.1325230391212,
+      61.51366990474116,
+      22.06173460665923,
+      8.680298905978354
+    ],
+    "components": [
+      "interleaved-topology"
+    ]
+  },
+  {
+    "key": "e0041",
+    "text": "PCIe Switch",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      75.90606872128728,
+      22.036185662409473,
+      8.68029654696943,
+      34.024250025247966
+    ],
+    "components": [
+      "interleaved-topology"
+    ]
+  },
+  {
+    "key": "e0056",
+    "text": "CPU",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      11.502780422221234,
+      48.377986318488176,
+      13.578138121904543,
+      8.680298905978361
+    ],
+    "components": [
+      "interleaved-topology"
+    ]
+  },
+  {
+    "key": "e0058",
+    "text": "RC",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      38.8998843493141,
+      48.377986318488176,
+      8.83149250640372,
+      8.680298905978361
+    ],
+    "components": [
+      "interleaved-topology"
+    ]
+  },
+  {
+    "key": "e0060",
+    "text": "Host Adapter 2",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      9.168705035813216,
+      60.33691132548346,
+      42.56788210779995,
+      8.680298905978354
+    ],
+    "components": [
+      "interleaved-topology"
+    ]
+  },
+  {
+    "key": "e0061",
+    "text": "Server 2",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      19.91038615227171,
+      39.97476008851867,
+      24.173991203751935,
+      8.68029654696943
+    ],
+    "components": [
+      "interleaved-topology"
+    ]
+  },
+  {
+    "key": "e0073",
+    "text": "F1",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      60.30230898579792,
+      17.312806326404367,
+      6.988224261712276,
+      8.68029654696943
+    ],
+    "components": [
+      "interleaved-topology"
+    ]
+  },
+  {
+    "key": "e0074",
+    "text": "F2",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      60.30230898579792,
+      31.688604394783166,
+      7.6344606043903696,
+      8.680296546969426
+    ],
+    "components": [
+      "interleaved-topology"
+    ]
+  },
+  {
+    "key": "e0077",
+    "text": "SerDes (Retimer)",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      396.26032242913834,
+      15.62144716756302,
+      8.68029654696943,
+      47.58415418761797
+    ],
+    "components": [
+      "port-internals"
+    ]
+  },
+  {
+    "key": "e0085",
+    "text": "Lane",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      429.34632672203946,
+      47.452452754379,
+      14.282270441279252,
+      8.680298905978361
+    ],
+    "components": [
+      "port-internals"
+    ]
+  },
+  {
+    "key": "e0086",
+    "text": "1",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      442.35393971341176,
+      50.51608821743229,
+      2.576963074241064,
+      5.106057139248037
+    ],
+    "components": [
+      "port-internals"
+    ]
+  },
+  {
+    "key": "e0087",
+    "text": "Downstream",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      410.0030951357475,
+      39.45230330347521,
+      34.81240434523352,
+      8.680298905978361
+    ],
+    "components": [
+      "port-internals"
+    ]
+  },
+  {
+    "key": "e0089",
+    "text": "Lane",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      429.3886756503743,
+      58.74378766985,
+      14.282270441279252,
+      8.680298905978354
+    ],
+    "components": [
+      "port-internals"
+    ]
+  },
+  {
+    "key": "e0090",
+    "text": "n",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      442.3962886417466,
+      61.80742313290329,
+      3.063634283548822,
+      5.10605713924803
+    ],
+    "components": [
+      "port-internals"
+    ]
+  },
+  {
+    "key": "e0093",
+    "text": "RR",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      452.1145829058737,
+      53.465813726470515,
+      7.148481174451717,
+      7.4736799916681775
+    ],
+    "components": [
+      "port-internals"
+    ]
+  },
+  {
+    "key": "e0094",
+    "text": "Aribter",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      446.4104568478115,
+      48.97022209797069,
+      7.148481174451717,
+      16.163853709032992
+    ],
+    "components": [
+      "port-internals"
+    ]
+  },
+  {
+    "key": "e0110",
+    "text": "Upstream",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      430.89293072154754,
+      7.27912925272909,
+      26.915423790931527,
+      8.680297136721663
+    ],
+    "components": [
+      "port-internals"
+    ]
+  },
+  {
+    "key": "e0121",
+    "text": "Credit Engine",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      490.62506746809174,
+      20.136720226950217,
+      8.680298905978361,
+      38.613616976785124
+    ],
+    "components": [
+      "port-internals"
+    ]
+  },
+  {
+    "key": "e0129",
+    "text": "RR ",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      414.9685562715247,
+      19.98904551981832,
+      7.148479994947252,
+      8.157868070033146
+    ],
+    "components": [
+      "port-internals"
+    ]
+  },
+  {
+    "key": "e0130",
+    "text": "Aribter",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      409.26443729048924,
+      15.493453891318495,
+      7.148478815442786,
+      16.163853709032992
+    ],
+    "components": [
+      "port-internals"
+    ]
+  },
+  {
+    "key": "e0132",
+    "text": "Lane",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      442.92855654493536,
+      15.015972613994903,
+      14.282270441279252,
+      8.680297726473894
+    ],
+    "components": [
+      "port-internals"
+    ]
+  },
+  {
+    "key": "e0133",
+    "text": "1",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      455.93616953630766,
+      18.079606897543723,
+      2.576963074241064,
+      5.106057139248037
+    ],
+    "components": [
+      "port-internals"
+    ]
+  },
+  {
+    "key": "e0135",
+    "text": "Lane",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      443.12550548259236,
+      26.30730163194357,
+      14.282270441279252,
+      8.680296546969426
+    ],
+    "components": [
+      "port-internals"
+    ]
+  },
+  {
+    "key": "e0136",
+    "text": "n",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      456.13311847396466,
+      29.370937094996858,
+      3.063634283548822,
+      5.106057139248033
+    ],
+    "components": [
+      "port-internals"
+    ]
+  },
+  {
+    "key": "e0154",
+    "text": "F3",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      60.30230898579792,
+      53.46778870669504,
+      7.6344606043903696,
+      8.680298905978354
+    ],
+    "components": [
+      "interleaved-topology"
+    ]
+  },
+  {
+    "key": "e0158",
+    "text": "F4",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      93.22457157887492,
+      68.82176162348513,
+      7.6344606043903696,
+      8.680298905978361
+    ],
+    "components": [
+      "interleaved-topology"
+    ]
+  },
+  {
+    "key": "e0162",
+    "text": "CPU",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      204.71326805978967,
+      12.228404889145734,
+      13.578153455462598,
+      8.680297726473894
+    ],
+    "components": [
+      "orthogonal-topology"
+    ]
+  },
+  {
+    "key": "e0164",
+    "text": "RC",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      232.11034485827983,
+      12.228404889145734,
+      8.83150666045728,
+      8.680297726473894
+    ],
+    "components": [
+      "orthogonal-topology"
+    ]
+  },
+  {
+    "key": "e0166",
+    "text": "Host Adapter 1",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      202.37915139072535,
+      24.187312203574034,
+      41.92160802097894,
+      8.680296546969426
+    ],
+    "components": [
+      "orthogonal-topology"
+    ]
+  },
+  {
+    "key": "e0167",
+    "text": "Server 1",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      213.12083250718385,
+      3.825163399337206,
+      23.527735989002366,
+      8.680297136721663
+    ],
+    "components": [
+      "orthogonal-topology"
+    ]
+  },
+  {
+    "key": "e0171",
+    "text": "Endpoint ",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      307.89411068281873,
+      16.2780801363873,
+      26.582916764045876,
+      8.680297726473896
+    ],
+    "components": [
+      "orthogonal-topology"
+    ]
+  },
+  {
+    "key": "e0172",
+    "text": "Adapter 1",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      306.2394640742568,
+      23.56283300026939,
+      27.658719197079336,
+      8.680296546969426
+    ],
+    "components": [
+      "orthogonal-topology"
+    ]
+  },
+  {
+    "key": "e0173",
+    "text": "Remote Chassis 1",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      315.7459303701398,
+      5.597413901308726,
+      50.39990499216947,
+      8.680297726473896
+    ],
+    "components": [
+      "orthogonal-topology"
+    ]
+  },
+  {
+    "key": "e0175",
+    "text": "FPGA 1",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      351.6917158384021,
+      14.538097559239757,
+      21.415460519838234,
+      8.680296546969428
+    ],
+    "components": [
+      "orthogonal-topology"
+    ]
+  },
+  {
+    "key": "e0177",
+    "text": "FPGA 2",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      351.6917158384021,
+      25.604611846530357,
+      22.06171573458778,
+      8.680296546969426
+    ],
+    "components": [
+      "orthogonal-topology"
+    ]
+  },
+  {
+    "key": "e0183",
+    "text": "Endpoint ",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      307.89411068281873,
+      52.89088363650807,
+      26.582916764045876,
+      8.680298905978361
+    ],
+    "components": [
+      "orthogonal-topology"
+    ]
+  },
+  {
+    "key": "e0184",
+    "text": "Adapter 2",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      306.2394640742568,
+      60.17560701277852,
+      28.30497441182888,
+      8.680298905978354
+    ],
+    "components": [
+      "orthogonal-topology"
+    ]
+  },
+  {
+    "key": "e0185",
+    "text": "Remote Chassis 2",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      315.7459303701398,
+      41.78098009794393,
+      51.04616020691901,
+      8.680298905978361
+    ],
+    "components": [
+      "orthogonal-topology"
+    ]
+  },
+  {
+    "key": "e0187",
+    "text": "FPGA 3",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      351.6917158384021,
+      50.999996437529255,
+      22.06171573458778,
+      8.680298905978361
+    ],
+    "components": [
+      "orthogonal-topology"
+    ]
+  },
+  {
+    "key": "e0189",
+    "text": "FPGA 4",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      351.6917158384021,
+      62.06648949373947,
+      22.06171573458778,
+      8.680298905978361
+    ],
+    "components": [
+      "orthogonal-topology"
+    ]
+  },
+  {
+    "key": "e0194",
+    "text": "PCIe Switch",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      269.4652385060663,
+      22.588897089621213,
+      8.680298905978361,
+      34.024250025247966
+    ],
+    "components": [
+      "orthogonal-topology"
+    ]
+  },
+  {
+    "key": "e0209",
+    "text": "CPU",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      205.06200506812272,
+      48.93082949757581,
+      13.578134583391147,
+      8.680298905978361
+    ],
+    "components": [
+      "orthogonal-topology"
+    ]
+  },
+  {
+    "key": "e0211",
+    "text": "RC",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      232.45910073868433,
+      48.93082949757581,
+      8.83150666045728,
+      8.680298905978361
+    ],
+    "components": [
+      "orthogonal-topology"
+    ]
+  },
+  {
+    "key": "e0213",
+    "text": "Host Adapter 2",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      202.72790727112985,
+      60.88976394060682,
+      42.56784436365703,
+      8.680303623996217
+    ],
+    "components": [
+      "orthogonal-topology"
+    ]
+  },
+  {
+    "key": "e0214",
+    "text": "Server 2",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      213.46958838758835,
+      40.52761270364203,
+      24.17397233168046,
+      8.68029654696943
+    ],
+    "components": [
+      "orthogonal-topology"
+    ]
+  },
+  {
+    "key": "e0226",
+    "text": "F1",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      253.86152065715027,
+      17.86565186450093,
+      6.988233697748001,
+      8.68029654696943
+    ],
+    "components": [
+      "orthogonal-topology"
+    ]
+  },
+  {
+    "key": "e0227",
+    "text": "F2",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      339.40037344686056,
+      22.377287112742575,
+      7.634432296283194,
+      8.68029654696943
+    ],
+    "components": [
+      "orthogonal-topology"
+    ]
+  },
+  {
+    "key": "e0231",
+    "text": "F3",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      284.12466120267885,
+      67.7659966123142,
+      7.634470040426095,
+      8.680298905978361
+    ],
+    "components": [
+      "orthogonal-topology"
+    ]
+  },
+  {
+    "key": "e0235",
+    "text": "(b). Orthogonal paths over the routable PCIe fabric",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      216.1006759729971,
+      75.25408071251694,
+      139.52937696811566,
+      8.680294187960499
+    ],
+    "components": [
+      "orthogonal-topology"
+    ]
+  },
+  {
+    "key": "e0236",
+    "text": "F4",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      339.40037344686056,
+      54.77347656008441,
+      7.634432296283194,
+      8.680298905978354
+    ],
+    "components": [
+      "orthogonal-topology"
+    ]
+  }
+]

@@ -15,7 +15,7 @@ function setup(){
   function element(){return {value:'',textContent:'',hidden:false,disabled:false,inert:false,open:false,children:[],dataset:{},style:{},classList:{add(){},remove(){},toggle(){}},replaceChildren(...nodes){this.children=nodes;},append(...nodes){this.children.push(...nodes);},appendChild(node){this.children.push(node);},querySelectorAll(){return [];},querySelector(){return element();},setAttribute(){},addEventListener(){},close(){this.open=false;},showModal(){this.open=true;},focus(){},getBoundingClientRect(){return {};}};}
   const el=id=>{if(!elements.has(id))elements.set(id,element());return elements.get(id);};
   const env={console,crypto:require('node:crypto'),URLSearchParams,structuredClone,setTimeout,clearTimeout,setInterval(){},location:{origin:'http://127.0.0.1:8766',search:''},localStorage:{setItem(){},getItem(){}},history:{replaceState(){}},window:{addEventListener(){}},document:{getElementById:el,querySelectorAll:()=>[],createElement:element,addEventListener(){},body:element()},EventSource:class{constructor(url){this.url=url;this.handlers={};streams.push(this);}close(){this.closed=true;}addEventListener(name,fn){this.handlers[name]=fn;}}};
-  vm.createContext(env);vm.runInContext(source.slice(0,source.lastIndexOf('init().catch')),env);
+  vm.createContext(env);vm.runInContext(fs.readFileSync(path.join(__dirname,'../frontend/model-settings.js'),'utf8'),env);vm.runInContext(source.slice(0,source.lastIndexOf('init().catch')),env);
   const state=vm.runInContext('state',env);state.session=workspace('A');state.chart=chart('A1','A');
   env.paintWorkspace=()=>{};env.paintMessages=()=>{};env.paintRun=()=>{};env.status=()=>{};
   env.api=async()=>{throw Error('unexpected API call');};

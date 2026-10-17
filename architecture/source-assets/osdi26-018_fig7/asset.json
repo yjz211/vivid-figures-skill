@@ -1,0 +1,65 @@
+{
+  "name": "三种计算通信协作粒度对照",
+  "family": "comparison",
+  "tags": [
+    "三行方案",
+    "资源侧栏",
+    "Tile",
+    "通信粒度",
+    "同步信号"
+  ],
+  "when_to_use": "对照相同逻辑任务的多种执行后端；比较集中通信和细粒度计算通信交错",
+  "avoid": "需要定量证明重叠收益的性能图；只有单个后端的完整系统架构",
+  "preserve": [
+    "三行比较，每行左侧灰色资源侧栏，右侧圆角执行框；第三行进一步拆为两条 Tile 行。",
+    "红箭头连接计算结束与后续通信；前两行文字说明 Global Memory Signal，第三行说明 Shared Memory Barrier。",
+    "蓝色计算、绿色通信、红色同步、灰色资源侧栏四类作用固定。"
+  ],
+  "adapt": "先保持三种方案处理相同逻辑工作量，再改变资源分工。；绿色条的 Kernel、Chunk、Tile 是粒度差异，不是可以随意替换的同义词。；若新增耗时轴需重新设计，本图横向长度不是测得时间。；第三行红字屏障说明已靠近绿色条，改字后优先修正该重叠区域。",
+  "visual_note": "这是后端协作方式局部对照，不是完整系统总览。源图第三行屏障注释与绿色任务区域接近并有叠压风险。按整行导出最能保持语义。",
+  "id": "architecture.source.osdi26-018_fig7",
+  "display_code": "VA-170",
+  "parts": [
+    {
+      "id": "copy-engine-row",
+      "name": "拷贝引擎方案",
+      "role": "region",
+      "box": [
+        0,
+        0,
+        0.999,
+        0.3
+      ],
+      "meaning": "资源独立的整核通信路径",
+      "reuse": "更换独立通信设备时更新侧栏与同步方式。"
+    },
+    {
+      "id": "dedicated-sm-row",
+      "name": "专用计算单元方案",
+      "role": "region",
+      "box": [
+        0,
+        0.322,
+        1,
+        0.298
+      ],
+      "meaning": "保留专用 SM 做分块通信",
+      "reuse": "按实际专用资源数调整左侧列表及绿色任务粒度。"
+    },
+    {
+      "id": "colocated-sm-row",
+      "name": "共置计算单元方案",
+      "role": "region",
+      "box": [
+        0,
+        0.647,
+        1,
+        0.35
+      ],
+      "meaning": "计算与通信在每个 Tile 粒度交错",
+      "reuse": "增减 Tile 行时同步复制对应计算条、通信条和红箭头。"
+    }
+  ],
+  "implementation": "editable vector geometry",
+  "validation_status": "baseline-and-components-checked"
+}

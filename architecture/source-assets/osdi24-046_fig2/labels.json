@@ -1,0 +1,386 @@
+[
+  {
+    "key": "e0006",
+    "text": "actions",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      51.91899884148006,
+      26.226804768233706,
+      14.559107246640451,
+      5.41171233188652
+    ],
+    "components": [
+      "expanded-unit"
+    ]
+  },
+  {
+    "key": "e0011",
+    "text": "Match-Action Tables",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      24.751206094575537,
+      36.29492909596593,
+      48.87038446299994,
+      6.149567490836489
+    ],
+    "components": [
+      "expanded-unit"
+    ]
+  },
+  {
+    "key": "e0014",
+    "text": "ALUs",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      41.88099061650064,
+      16.68702991873579,
+      14.507605513095768,
+      7.379517585584836
+    ],
+    "components": [
+      "expanded-unit"
+    ]
+  },
+  {
+    "key": "e0019",
+    "text": "ALU",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      24.12089156687489,
+      73.36287773407821,
+      8.901751363867334,
+      5.41171233188652
+    ],
+    "components": [
+      "expanded-unit"
+    ]
+  },
+  {
+    "key": "e0022",
+    "text": "read   update",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      37.519099968539194,
+      59.73082048220749,
+      27.477400198630676,
+      5.41171233188652
+    ],
+    "components": [
+      "expanded-unit"
+    ]
+  },
+  {
+    "key": "e0025",
+    "text": "ALU",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      39.96108646769608,
+      73.36287773407821,
+      8.901751363867334,
+      5.41171233188652
+    ],
+    "components": [
+      "expanded-unit"
+    ]
+  },
+  {
+    "key": "e0028",
+    "text": "ALU",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      64.92069792575512,
+      73.36287773407821,
+      8.90174372943875,
+      5.41171233188652
+    ],
+    "components": [
+      "expanded-unit"
+    ]
+  },
+  {
+    "key": "e0046",
+    "text": "Packet Headers",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      6.103330378025021,
+      27.092470060335472,
+      6.149594175843504,
+      36.77809346259164
+    ],
+    "components": [
+      "expanded-unit"
+    ]
+  },
+  {
+    "key": "e0054",
+    "text": "Programmable Switch (PS)",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      161.93500147605118,
+      1.9989311204990372,
+      70.97791647241138,
+      7.379517585584836
+    ],
+    "components": []
+  },
+  {
+    "key": "e0057",
+    "text": "CPU",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      127.18300368241762,
+      18.1508931606877,
+      10.553648318647902,
+      6.149567490836489
+    ],
+    "components": [
+      "control-plane"
+    ]
+  },
+  {
+    "key": "e0060",
+    "text": "DRAM",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      182.47902957405677,
+      18.1508931606877,
+      15.109217974732019,
+      6.149567490836489
+    ],
+    "components": [
+      "control-plane"
+    ]
+  },
+  {
+    "key": "e0063",
+    "text": "Parser",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      116.32326324631595,
+      57.53939684374927,
+      5.411697083159197,
+      12.667166058134171
+    ],
+    "components": [
+      "ingress-pipeline"
+    ]
+  },
+  {
+    "key": "e0066",
+    "text": "Deparser",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      150.40325388871952,
+      54.75466267329466,
+      5.411697083159197,
+      18.235962569327967
+    ],
+    "components": [
+      "ingress-pipeline"
+    ]
+  },
+  {
+    "key": "e0069",
+    "text": "Match-Action Unit ",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      126.59524818392129,
+      44.294396154917195,
+      5.411697083159197,
+      37.91220589767909
+    ],
+    "components": [
+      "ingress-pipeline"
+    ]
+  },
+  {
+    "key": "e0072",
+    "text": "Match-Action Unit ",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      140.13125370238686,
+      44.294396154917195,
+      5.411697083159197,
+      37.91220589767909
+    ],
+    "components": [
+      "ingress-pipeline"
+    ]
+  },
+  {
+    "key": "e0090",
+    "text": "Parser",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      184.38725379262723,
+      57.53939684374927,
+      5.411697083159197,
+      12.667166058134171
+    ],
+    "components": [
+      "egress-pipeline"
+    ]
+  },
+  {
+    "key": "e0093",
+    "text": "Deparser",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      218.37126894526227,
+      54.75466267329466,
+      5.4116818344318744,
+      18.235962569327967
+    ],
+    "components": [
+      "egress-pipeline"
+    ]
+  },
+  {
+    "key": "e0096",
+    "text": "Match-Action Unit ",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      194.56324799173672,
+      44.294396154917195,
+      5.411697083159197,
+      37.91220589767909
+    ],
+    "components": [
+      "egress-pipeline"
+    ]
+  },
+  {
+    "key": "e0099",
+    "text": "Match-Action Unit ",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      208.19524424869815,
+      44.294396154917195,
+      5.4116818344318744,
+      37.91220589767909
+    ],
+    "components": [
+      "egress-pipeline"
+    ]
+  },
+  {
+    "key": "e0103",
+    "text": "Control Plane",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      120.36701006055227,
+      26.79091898619663,
+      32.09795923806087,
+      6.149567490836489
+    ],
+    "components": [
+      "control-plane"
+    ]
+  },
+  {
+    "key": "e0105",
+    "text": "Data Plane",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      194.95900069126583,
+      30.534871216092142,
+      25.66596590203335,
+      6.149567490836489
+    ],
+    "components": []
+  },
+  {
+    "key": "e0106",
+    "text": "Ingress PipelineEgress PipelineTraffic Mgr.",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      120.65499638477195,
+      89.77886463578398,
+      98.70964975945753,
+      5.41171233188652
+    ],
+    "components": []
+  },
+  {
+    "key": "e0107",
+    "text": "Ingress PortsEgress Ports",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      99.41534854288147,
+      48.41118138440652,
+      141.02960638420154,
+      30.43540855520405
+    ],
+    "components": []
+  },
+  {
+    "key": "e0113",
+    "text": "Modified Packet Headers",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      85.4953357379818,
+      15.956538116079173,
+      6.149582739411926,
+      59.05001842713682
+    ],
+    "components": [
+      "expanded-unit"
+    ]
+  },
+  {
+    "key": "e0114",
+    "text": "Match-Action Unit (MAU)",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      17.167197118245895,
+      1.9989311204990372,
+      68.00247503875471,
+      7.379517585584836
+    ],
+    "components": [
+      "expanded-unit"
+    ]
+  },
+  {
+    "key": "e0117",
+    "text": "Register Arrays ",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      28.879314114615227,
+      86.3830227313083,
+      41.82149000756817,
+      7.379517585584836
+    ],
+    "components": [
+      "expanded-unit"
+    ]
+  },
+  {
+    "key": "e0119",
+    "text": "Stateful",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      59.023006387731584,
+      51.46293106035591,
+      17.559160869608604,
+      6.149567490836489
+    ],
+    "components": [
+      "expanded-unit"
+    ]
+  },
+  {
+    "key": "e0121",
+    "text": "Stateless",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      21.87110470223888,
+      48.10287696566229,
+      20.64618022582181,
+      6.149567490836489
+    ],
+    "components": [
+      "expanded-unit"
+    ]
+  }
+]

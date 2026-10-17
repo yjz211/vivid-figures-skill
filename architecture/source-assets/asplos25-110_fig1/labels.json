@@ -1,0 +1,456 @@
+[
+  {
+    "key": "e0010",
+    "text": "Shared LLC",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      95.17870330810547,
+      359.5465621948242,
+      75.00106048583984,
+      20.232032775878906
+    ],
+    "components": []
+  },
+  {
+    "key": "e0012",
+    "text": "Shared LLC",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      387.9350891113281,
+      359.5465621948242,
+      75.00103759765625,
+      20.232032775878906
+    ],
+    "components": []
+  },
+  {
+    "key": "e0036",
+    "text": "Tensor Core",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      34.47414016723633,
+      139.3831787109375,
+      70.6359634399414,
+      16.763671875
+    ],
+    "components": [
+      "baseline-cluster",
+      "local-core"
+    ]
+  },
+  {
+    "key": "e0039",
+    "text": "Register File",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      35.213401794433594,
+      182.8719482421875,
+      72.2886962890625,
+      16.763687133789062
+    ],
+    "components": [
+      "baseline-cluster",
+      "local-core"
+    ]
+  },
+  {
+    "key": "e0042",
+    "text": "FPU",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      34.64649963378906,
+      104.40130615234375,
+      24.006877899169922,
+      17.34173583984375
+    ],
+    "components": [
+      "baseline-cluster",
+      "local-core"
+    ]
+  },
+  {
+    "key": "e0047",
+    "text": "L1 $",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      35.69969940185547,
+      216.24899291992188,
+      23.61669921875,
+      17.341751098632812
+    ],
+    "components": [
+      "baseline-cluster",
+      "local-core"
+    ]
+  },
+  {
+    "key": "e0050",
+    "text": "Warps",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      88.46734619140625,
+      216.24899291992188,
+      35.16310119628906,
+      17.341751098632812
+    ],
+    "components": [
+      "baseline-cluster",
+      "local-core"
+    ]
+  },
+  {
+    "key": "e0053",
+    "text": "FPU",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      34.64649963378906,
+      70.22799682617188,
+      24.006877899169922,
+      17.34173583984375
+    ],
+    "components": [
+      "baseline-cluster",
+      "local-core"
+    ]
+  },
+  {
+    "key": "e0056",
+    "text": "ALUALUSIMT CoreCluster",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      16.394100189208984,
+      18.879974365234375,
+      97.05087280273438,
+      102.86575317382812
+    ],
+    "components": [
+      "baseline-cluster"
+    ]
+  },
+  {
+    "key": "e0063",
+    "text": "Lanes",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      167.64259338378906,
+      70.22799682617188,
+      33.046630859375,
+      17.34173583984375
+    ],
+    "components": [
+      "baseline-cluster"
+    ]
+  },
+  {
+    "key": "e0064",
+    "text": "SIMT Core",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      159.44659423828125,
+      45.051971435546875,
+      58.057891845703125,
+      17.34173583984375
+    ],
+    "components": [
+      "baseline-cluster"
+    ]
+  },
+  {
+    "key": "e0069",
+    "text": "LanesSIMT Core",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      159.4461212158203,
+      191.20431518554688,
+      58.05787658691406,
+      42.517730712890625
+    ],
+    "components": [
+      "baseline-cluster"
+    ]
+  },
+  {
+    "key": "e0074",
+    "text": "LanesSIMT CoreSharedMemory",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      27.302108764648438,
+      118.12722778320312,
+      190.20188903808594,
+      192.0857391357422
+    ],
+    "components": [
+      "baseline-cluster"
+    ]
+  },
+  {
+    "key": "e0077",
+    "text": "Matrix",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      202.42041015625,
+      286.8739929199219,
+      33.022613525390625,
+      17.341751098632812
+    ],
+    "components": [
+      "baseline-cluster"
+    ]
+  },
+  {
+    "key": "e0080",
+    "text": "Matrix",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      145.30520629882812,
+      286.8739929199219,
+      33.02262878417969,
+      17.341751098632812
+    ],
+    "components": [
+      "baseline-cluster"
+    ]
+  },
+  {
+    "key": "e0083",
+    "text": "Matrix",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      88.69339752197266,
+      286.8739929199219,
+      33.02264404296875,
+      17.341751098632812
+    ],
+    "components": [
+      "baseline-cluster"
+    ]
+  },
+  {
+    "key": "e0086",
+    "text": "TC",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      220.70315551757812,
+      70.228515625,
+      16.580917358398438,
+      17.34173583984375
+    ],
+    "components": [
+      "baseline-cluster"
+    ]
+  },
+  {
+    "key": "e0089",
+    "text": "TC",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      220.70315551757812,
+      143.3955078125,
+      16.580917358398438,
+      17.34173583984375
+    ],
+    "components": [
+      "baseline-cluster"
+    ]
+  },
+  {
+    "key": "e0092",
+    "text": "TC",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      220.70315551757812,
+      216.6826171875,
+      16.580917358398438,
+      17.341751098632812
+    ],
+    "components": [
+      "baseline-cluster"
+    ]
+  },
+  {
+    "key": "e0100",
+    "text": "Virgo",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      299.3164367675781,
+      19.4583740234375,
+      31.22161865234375,
+      16.763671875
+    ],
+    "components": [
+      "disaggregated-cluster"
+    ]
+  },
+  {
+    "key": "e0101",
+    "text": " Cluster",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      330.35528564453125,
+      18.88031005859375,
+      41.96844482421875,
+      17.34173583984375
+    ],
+    "components": [
+      "disaggregated-cluster"
+    ]
+  },
+  {
+    "key": "e0106",
+    "text": "LanesSIMT Core",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      308.549072265625,
+      45.052490234375,
+      58.05792236328125,
+      42.51776123046875
+    ],
+    "components": [
+      "disaggregated-cluster"
+    ]
+  },
+  {
+    "key": "e0111",
+    "text": "LanesSIMT Core",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      309.369384765625,
+      264.281494140625,
+      58.057891845703125,
+      42.51774597167969
+    ],
+    "components": [
+      "disaggregated-cluster"
+    ]
+  },
+  {
+    "key": "e0116",
+    "text": "LanesSIMT Core",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      308.549072265625,
+      118.12722778320312,
+      58.05792236328125,
+      42.5177001953125
+    ],
+    "components": [
+      "disaggregated-cluster"
+    ]
+  },
+  {
+    "key": "e0121",
+    "text": "LanesSIMT CoreSharedMemory",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      308.549072265625,
+      191.20431518554688,
+      133.30667114257812,
+      73.83773803710938
+    ],
+    "components": [
+      "disaggregated-cluster"
+    ]
+  },
+  {
+    "key": "e0124",
+    "text": "Matrix",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      496.08111572265625,
+      286.8734893798828,
+      33.0225830078125,
+      17.341751098632812
+    ],
+    "components": [
+      "disaggregated-cluster",
+      "specialized-array"
+    ]
+  },
+  {
+    "key": "e0127",
+    "text": "Matrix",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      496.08111572265625,
+      245.1346893310547,
+      33.0225830078125,
+      17.341751098632812
+    ],
+    "components": [
+      "disaggregated-cluster",
+      "specialized-array"
+    ]
+  },
+  {
+    "key": "e0130",
+    "text": "Matrix Data",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      405.9613952636719,
+      286.8734893798828,
+      62.186798095703125,
+      17.341751098632812
+    ],
+    "components": [
+      "disaggregated-cluster",
+      "specialized-array"
+    ]
+  },
+  {
+    "key": "e0135",
+    "text": "Matrix Unit",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      399.0273132324219,
+      45.629241943359375,
+      62.054412841796875,
+      16.763702392578125
+    ],
+    "components": [
+      "disaggregated-cluster",
+      "specialized-array"
+    ]
+  },
+  {
+    "key": "e0136",
+    "text": "PEArray",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      406.8972473144531,
+      136.01116943359375,
+      29.604705810546875,
+      29.34173583984375
+    ],
+    "components": [
+      "disaggregated-cluster",
+      "specialized-array"
+    ]
+  },
+  {
+    "key": "e0139",
+    "text": "Accumulator Memory",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      405.7901306152344,
+      70.228515625,
+      114.28866577148438,
+      17.34173583984375
+    ],
+    "components": [
+      "disaggregated-cluster",
+      "specialized-array"
+    ]
+  },
+  {
+    "key": "e0196",
+    "text": "(a) GPU Cluster withTensor Cores.(b) GPU Cluster withDisaggregated Matrix Unit.",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      2.3027000427246094,
+      397.43544006347656,
+      550.7753295898438,
+      55.39067840576172
+    ],
+    "components": []
+  }
+]

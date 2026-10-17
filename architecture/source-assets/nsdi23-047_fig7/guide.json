@@ -1,0 +1,83 @@
+{
+  "asset_id": "architecture.source.nsdi23-047_fig7",
+  "title": "多处理器缓存查询与远端回退路径",
+  "summary": "三条工作线程链共享查询分发关系，各自连接 GPU 缓存，同时可向 CPU 缓存及远端存储升级查找。顶部线型图例、右侧回退支路与底部横向互连使数据所在位置和访问介质可同时辨认。",
+  "suitable_for": [
+    "本地加速器、主机内存、远端存储的多级缓存查询",
+    "多工作线程共享缓存请求队列并存在设备间互访的结构"
+  ],
+  "not_suitable_for": [
+    "纯顺序算法而不存在真实存储层级",
+    "只想表达缓存命中率数值、不需要查询路径的结果图"
+  ],
+  "reading_order": [
+    "先读顶部 NVLink、PCIe、Network 图例。",
+    "从上部三列 Subgraphs 和 Dispatching Thread 下行到共享 Cache Query Queue。",
+    "按圈号 1–4 看处理线程及对应 GPU Cache Map 与设备缓存。",
+    "再按圈号 5–6 查看 CPU 缓存和上方远端图存储的回退路径。"
+  ],
+  "design": {
+    "layout": "大外框是工作机器，内层 CPU 框包住线程与主机缓存；三列 GPU 位于 CPU 框下方，远端存储在整机外。",
+    "shapes": "绿色子图、浅橙派发线程、紫色处理线程、粉色缓存映射和浅蓝缓存缓冲区形成重复列；小圆圈标步骤。",
+    "connectors": "黑灰箭头用于查询/远端访问，紫色竖向线表示 PCIe，绿色底部双向边表示 NVLink；共享查询线与跨级回退边保留整图关系。",
+    "color": "功能块颜色在三列间一致，绿色/紫色/灰色连线类别有顶部图例，颜色不表示命中概率。",
+    "typography": "图例与内部块使用紧凑无衬线标签，圈号为较小步骤标记；缓存 Map 与 Buffer 必须保持可区分。"
+  },
+  "parts": [
+    {
+      "id": "transport-legend",
+      "name": "互连介质图例",
+      "meaning": "说明三种连接媒介及其线色。",
+      "adaptation": "删除不存在的互连类别，新增介质需同步全图线型。"
+    },
+    {
+      "id": "remote-stores",
+      "name": "远端存储节点",
+      "meaning": "位于工作机器外的两个远端存储目标。",
+      "adaptation": "改为实际远端服务，不与本机缓存合并同一外框。"
+    },
+    {
+      "id": "worker-query-bank",
+      "name": "三路线程与查询共享区",
+      "meaning": "从子图输入、派发到处理和缓存映射的完整多列区域。",
+      "adaptation": "按工作路数扩展整列；共享队列连线需随列数重建。"
+    },
+    {
+      "id": "gpu-cache-bank",
+      "name": "设备缓存与互连区",
+      "meaning": "三块设备缓存及横向直接互访连接。",
+      "adaptation": "按设备拓扑重新画互连；不假设所有设备可直接互通。"
+    },
+    {
+      "id": "cpu-cache",
+      "name": "主机缓存双结构",
+      "meaning": "缓存缓冲区与缓存映射在右侧分列堆叠。",
+      "adaptation": "保持数据内容与索引映射的不同职责，换名不可混淆二者。"
+    }
+  ],
+  "adaptation": [
+    "先替换各级缓存与存储名称，保留 Map/Buffer 的不同语义。",
+    "按新系统核查共享队列、线程、设备是一对一还是多对多。",
+    "重编号实际访问步骤，并逐条核查缓存缺失后的升级方向。",
+    "设备互连改变时同步底部拓扑和顶部图例。"
+  ],
+  "example": {
+    "scenario": "假设场景：多块加速卡读取特征数据，优先本地缓存，随后访问主机与远端对象存储。",
+    "mapping": "子图输入改为批任务，处理线程对应特征读取器，GPU/CPU 缓存保持两级，远端节点改为对象存储分片。",
+    "structural_changes": "根据真实命中与缺失路径重绘缓存访问边；增加或删减一整列线程和设备，并调整共享查询线。"
+  },
+  "checks": [
+    "每个线程对应的设备缓存清楚。",
+    "Map 与 Buffer 没有因改字混为同一对象。",
+    "圈号与正文步骤严格对应。",
+    "远端存储仍在机器边界之外。",
+    "三类线在黑白打印时仍能通过图例或标签辨认。"
+  ],
+  "editing": {
+    "entry": "make_figure.py 负责构建；example.json 保存改造配置；labels.json 定位可编辑文字；asset.json 登记部件及 element_keys。先在工作副本运行 python make_figure.py --config example.json --out . --parts 查看整图与部件。",
+    "configurable": "labels、components 可改文字、配色、显隐和位移；配置不自动重排。先替换各级缓存与存储名称，保留 Map/Buffer 的不同语义。",
+    "code_required": "在 customize(root, context) 中实施拓扑和几何修改。根据真实命中与缺失路径重绘缓存访问边；增加或删减一整列线程和设备，并调整共享查询线。 新增对象要分配唯一 data-asset-key，并补入部件的 element_keys；跨区连线应随两端重绘，不随两个部件重复移动。",
+    "fonts": "图例与内部块使用紧凑无衬线标签，圈号为较小步骤标记；缓存 Map 与 Buffer 必须保持可区分。 最终字体文件以构建后的映射为准；局部 font_size 属于源坐标，不能直接当作论文纸面 pt，须按最终插图尺寸检查。 本资源的圈号和数学符号已在源覆盖文件中单独指定 DejaVuSans；普通文字不作全图换字。本批构建已确认并嵌入完整字体：Arimo-Bold.ttf, Arimo-Regular.ttf, DejaVuSans.ttf。映射可能改变原字形和字宽，需按实际论文尺寸复核。"
+  },
+  "display_code": "VA-139"
+}

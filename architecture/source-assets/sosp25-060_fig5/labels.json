@@ -1,0 +1,322 @@
+[
+  {
+    "key": "e0007",
+    "text": "LCM allocator",
+    "font_family": "VividSource-texgyretermes-regular",
+    "bounds": [
+      48.118988037109375,
+      71.49972534179688,
+      107.27536010742188,
+      24.003326416015625
+    ],
+    "components": [
+      "shared-managers"
+    ]
+  },
+  {
+    "key": "e0010",
+    "text": "Prefix",
+    "font_family": "VividSource-texgyretermes-regular",
+    "bounds": [
+      205.24896240234375,
+      71.49972534179688,
+      44.8541259765625,
+      24.003326416015625
+    ],
+    "components": [
+      "shared-managers"
+    ]
+  },
+  {
+    "key": "e0011",
+    "text": "-",
+    "font_family": "VividSource-texgyretermes-regular",
+    "bounds": [
+      249.66998291015625,
+      71.49972534179688,
+      6.006786823272705,
+      24.003334045410156
+    ],
+    "components": [
+      "shared-managers"
+    ]
+  },
+  {
+    "key": "e0012",
+    "text": "subset evictor",
+    "font_family": "VividSource-texgyretermes-regular",
+    "bounds": [
+      255.679931640625,
+      71.49972534179688,
+      100.135009765625,
+      24.003326416015625
+    ],
+    "components": [
+      "shared-managers"
+    ]
+  },
+  {
+    "key": "e0015",
+    "text": "self",
+    "font_family": "VividSource-texgyretermes-regular",
+    "bounds": [
+      32.769989013671875,
+      142.92974853515625,
+      27.44512939453125,
+      24.003326416015625
+    ],
+    "components": [
+      "left-specialization"
+    ]
+  },
+  {
+    "key": "e0016",
+    "text": "-",
+    "font_family": "VividSource-texgyretermes-regular",
+    "bounds": [
+      58.799957275390625,
+      142.92974853515625,
+      6.006786823272705,
+      24.003334045410156
+    ],
+    "components": [
+      "left-specialization"
+    ]
+  },
+  {
+    "key": "e0017",
+    "text": "attn",
+    "font_family": "VividSource-texgyretermes-regular",
+    "bounds": [
+      64.79995727539062,
+      142.92974853515625,
+      27.1151123046875,
+      24.003326416015625
+    ],
+    "components": [
+      "left-specialization"
+    ]
+  },
+  {
+    "key": "e0018",
+    "text": "allocator",
+    "font_family": "VividSource-texgyretermes-regular",
+    "bounds": [
+      30.769989013671875,
+      160.19973754882812,
+      63.418121337890625,
+      24.003326416015625
+    ],
+    "components": [
+      "left-specialization"
+    ]
+  },
+  {
+    "key": "e0021",
+    "text": "self",
+    "font_family": "VividSource-texgyretermes-regular",
+    "bounds": [
+      112.72991943359375,
+      142.92974853515625,
+      27.5352783203125,
+      24.003326416015625
+    ],
+    "components": [
+      "left-specialization"
+    ]
+  },
+  {
+    "key": "e0022",
+    "text": "-",
+    "font_family": "VividSource-texgyretermes-regular",
+    "bounds": [
+      138.75,
+      142.92974853515625,
+      6.006786823272705,
+      24.003334045410156
+    ],
+    "components": [
+      "left-specialization"
+    ]
+  },
+  {
+    "key": "e0023",
+    "text": "attn",
+    "font_family": "VividSource-texgyretermes-regular",
+    "bounds": [
+      144.75,
+      142.92974853515625,
+      27.1871337890625,
+      24.003326416015625
+    ],
+    "components": [
+      "left-specialization"
+    ]
+  },
+  {
+    "key": "e0024",
+    "text": "evictor",
+    "font_family": "VividSource-texgyretermes-regular",
+    "bounds": [
+      117.24993896484375,
+      160.19973754882812,
+      50.69244384765625,
+      24.003326416015625
+    ],
+    "components": [
+      "left-specialization"
+    ]
+  },
+  {
+    "key": "e0027",
+    "text": "Workers",
+    "font_family": "VividSource-texgyretermes-regular",
+    "bounds": [
+      298.3189697265625,
+      1.41973876953125,
+      60.65777587890625,
+      24.003326416015625
+    ],
+    "components": [
+      "request-line"
+    ]
+  },
+  {
+    "key": "e0030",
+    "text": "Scheduler",
+    "font_family": "VividSource-texgyretermes-regular",
+    "bounds": [
+      153.780029296875,
+      1.41973876953125,
+      72.4305419921875,
+      24.003326416015625
+    ],
+    "components": [
+      "request-line"
+    ]
+  },
+  {
+    "key": "e0035",
+    "text": "mamba",
+    "font_family": "VividSource-texgyretermes-regular",
+    "bounds": [
+      213.948974609375,
+      142.92974853515625,
+      53.75360107421875,
+      24.003326416015625
+    ],
+    "components": [
+      "right-specialization"
+    ]
+  },
+  {
+    "key": "e0036",
+    "text": "allocator",
+    "font_family": "VividSource-texgyretermes-regular",
+    "bounds": [
+      209.2999267578125,
+      160.19973754882812,
+      63.59844970703125,
+      24.003326416015625
+    ],
+    "components": [
+      "right-specialization"
+    ]
+  },
+  {
+    "key": "e0039",
+    "text": "mamba",
+    "font_family": "VividSource-texgyretermes-regular",
+    "bounds": [
+      293.89898681640625,
+      142.92974853515625,
+      53.75360107421875,
+      24.003326416015625
+    ],
+    "components": [
+      "right-specialization"
+    ]
+  },
+  {
+    "key": "e0040",
+    "text": "evictor",
+    "font_family": "VividSource-texgyretermes-regular",
+    "bounds": [
+      295.77001953125,
+      160.19973754882812,
+      50.6923828125,
+      24.003326416015625
+    ],
+    "components": [
+      "right-specialization"
+    ]
+  },
+  {
+    "key": "e0043",
+    "text": "request",
+    "font_family": "VividSource-texgyretermes-regular",
+    "bounds": [
+      24.198944091796875,
+      1.41973876953125,
+      53.066802978515625,
+      24.003326416015625
+    ],
+    "components": [
+      "request-line"
+    ]
+  },
+  {
+    "key": "e0057",
+    "text": "Customized pages for the request",
+    "font_family": "VividSource-texgyretermes-regular",
+    "bounds": [
+      65.64996337890625,
+      227.91973876953125,
+      239.947509765625,
+      24.003334045410156
+    ],
+    "components": [
+      "page-outputs"
+    ]
+  },
+  {
+    "key": "e0064",
+    "text": "LCM",
+    "font_family": "VividSource-texgyretermes-regular",
+    "bounds": [
+      290.93896484375,
+      97.00576782226562,
+      34.74847412109375,
+      21.3363037109375
+    ],
+    "components": [
+      "shared-pages"
+    ]
+  },
+  {
+    "key": "e0065",
+    "text": "page",
+    "font_family": "VividSource-texgyretermes-regular",
+    "bounds": [
+      290.93896484375,
+      115.7857666015625,
+      30.60723876953125,
+      21.3363037109375
+    ],
+    "components": [
+      "shared-pages"
+    ]
+  },
+  {
+    "key": "e0086",
+    "text": "Jenga’s Memory Manager",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      95.97998046875,
+      47.497802734375,
+      188.2208251953125,
+      19.812286376953125
+    ],
+    "components": []
+  }
+]

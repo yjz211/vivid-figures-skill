@@ -1,0 +1,390 @@
+[
+  {
+    "key": "e0033",
+    "text": "Local Node",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      38.85325958495562,
+      4.696313455930081,
+      36.934399441397545,
+      9.763770673112049
+    ],
+    "components": []
+  },
+  {
+    "key": "e0036",
+    "text": "Local DRAM Cache",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      29.31049764812815,
+      14.575363578352167,
+      57.776788376395444,
+      9.189431988156684
+    ],
+    "components": [
+      "cache-sections"
+    ]
+  },
+  {
+    "key": "e0043",
+    "text": "network/",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      44.7931218069771,
+      114.62445372700225,
+      26.604146492454674,
+      9.763770673112049
+    ],
+    "components": [
+      "interconnect"
+    ]
+  },
+  {
+    "key": "e0044",
+    "text": "interconnect",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      39.21911027851641,
+      122.50045827330817,
+      37.76016927607998,
+      9.763770673112049
+    ],
+    "components": [
+      "interconnect"
+    ]
+  },
+  {
+    "key": "e0047",
+    "text": "Far-Memory Node",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      50.310353516259084,
+      134.71050368009494,
+      58.820583335937044,
+      9.763757644241196
+    ],
+    "components": []
+  },
+  {
+    "key": "e0050",
+    "text": "Mira Runtime (local)",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      43.7100057152002,
+      99.92177686404469,
+      63.145855766333625,
+      9.763770673112049
+    ],
+    "components": [
+      "local-runtime"
+    ]
+  },
+  {
+    "key": "e0053",
+    "text": "Mira Runtime (remote)",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      34.34829296775024,
+      146.4510797834246,
+      70.35235875497168,
+      9.763757644241196
+    ],
+    "components": [
+      "remote-runtime"
+    ]
+  },
+  {
+    "key": "e0056",
+    "text": "Network ",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      44.346778749284596,
+      69.02259795044395,
+      26.57014113952755,
+      9.189431988156684
+    ],
+    "components": [
+      "local-runtime"
+    ]
+  },
+  {
+    "key": "e0057",
+    "text": "Stacks",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      46.65859553575322,
+      76.89309128437893,
+      20.403289929499806,
+      9.189431988156684
+    ],
+    "components": [
+      "local-runtime"
+    ]
+  },
+  {
+    "key": "e0106",
+    "text": "section 2 ",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      51.42677140193703,
+      22.550869611364774,
+      26.018316343406696,
+      8.61509330320132
+    ],
+    "components": [
+      "cache-sections"
+    ]
+  },
+  {
+    "key": "e0107",
+    "text": "(set assoc)",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      50.2958132963868,
+      29.696527773117865,
+      27.029434894848237,
+      7.925879063932371
+    ],
+    "components": [
+      "cache-sections"
+    ]
+  },
+  {
+    "key": "e0134",
+    "text": "hash",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      14.825677810083121,
+      42.86468046636398,
+      6.777201694021642,
+      10.092554229095185
+    ],
+    "components": [
+      "cache-sections"
+    ]
+  },
+  {
+    "key": "e0141",
+    "text": "section 1 ",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      13.516144725243066,
+      22.550869611364774,
+      26.01834240114843,
+      8.61509330320132
+    ],
+    "components": [
+      "cache-sections"
+    ]
+  },
+  {
+    "key": "e0142",
+    "text": "(fully assoc)",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      11.153098418579248,
+      29.696527773117865,
+      29.493689470300552,
+      7.925879063932371
+    ],
+    "components": [
+      "cache-sections"
+    ]
+  },
+  {
+    "key": "e0145",
+    "text": "2-side",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      36.678480462122025,
+      88.42695132275006,
+      15.955441882115366,
+      7.925879063932371
+    ],
+    "components": [
+      "local-runtime"
+    ]
+  },
+  {
+    "key": "e0148",
+    "text": "1-side",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      60.40553957726664,
+      88.42695132275006,
+      15.955441882115338,
+      7.925879063932371
+    ],
+    "components": [
+      "local-runtime"
+    ]
+  },
+  {
+    "key": "e0151",
+    "text": "Network ",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      37.86171039753572,
+      157.9970306139476,
+      26.570167197269285,
+      9.189418959285831
+    ],
+    "components": [
+      "remote-runtime"
+    ]
+  },
+  {
+    "key": "e0154",
+    "text": "Allocator ",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      75.50521916399524,
+      157.9970306139476,
+      28.241588923556264,
+      9.189418959285831
+    ],
+    "components": [
+      "remote-runtime"
+    ]
+  },
+  {
+    "key": "e0157",
+    "text": "Application ",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      8.665985741948163,
+      69.30851029376205,
+      9.189431988156684,
+      35.23469203648801
+    ],
+    "components": [
+      "application"
+    ]
+  },
+  {
+    "key": "e0158",
+    "text": "Processes",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      16.536466047012283,
+      72.14846538914023,
+      9.189431988156684,
+      31.097934338467894
+    ],
+    "components": [
+      "application"
+    ]
+  },
+  {
+    "key": "e0161",
+    "text": "Ofﬂoaded ",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      8.665981785479744,
+      137.57225380532148,
+      9.189418959285831,
+      30.969678133787966
+    ],
+    "components": [
+      "offloaded-functions"
+    ]
+  },
+  {
+    "key": "e0162",
+    "text": "Functions",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      16.536436032802158,
+      139.1187026023836,
+      9.189418959285831,
+      29.42002423449594
+    ],
+    "components": [
+      "offloaded-functions"
+    ]
+  },
+  {
+    "key": "e0165",
+    "text": "Alloc",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      86.73985815434938,
+      90.55563430050464,
+      14.716604725899742,
+      9.189431988156684
+    ],
+    "components": [
+      "local-runtime"
+    ]
+  },
+  {
+    "key": "e0170",
+    "text": "Default ",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      85.30941842336509,
+      29.43604155814775,
+      19.120675767217108,
+      7.925879063932371
+    ],
+    "components": [
+      "cache-sections"
+    ]
+  },
+  {
+    "key": "e0171",
+    "text": "Swap ",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      87.0604986660492,
+      35.99540053150214,
+      15.6185673973323,
+      7.925879063932385
+    ],
+    "components": [
+      "cache-sections"
+    ]
+  },
+  {
+    "key": "e0172",
+    "text": "Section",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      84.69338735167915,
+      42.55474647598568,
+      18.81045835219993,
+      7.925879063932385
+    ],
+    "components": [
+      "cache-sections"
+    ]
+  },
+  {
+    "key": "e0175",
+    "text": "swap",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      86.20830628127626,
+      69.02259795044395,
+      15.780985301389592,
+      9.189431988156684
+    ],
+    "components": [
+      "local-runtime"
+    ]
+  },
+  {
+    "key": "e0176",
+    "text": "sys",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      89.11251976770293,
+      76.89309128437893,
+      10.208198486789115,
+      9.189431988156684
+    ],
+    "components": [
+      "local-runtime"
+    ]
+  }
+]

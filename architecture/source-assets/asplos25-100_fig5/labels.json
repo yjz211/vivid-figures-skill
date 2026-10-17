@@ -1,0 +1,482 @@
+[
+  {
+    "key": "e0005",
+    "text": "Shared",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      330.5794982910156,
+      27.591911216466542,
+      33.55044175590865,
+      13.510094138666318
+    ],
+    "components": [
+      "shared-state"
+    ]
+  },
+  {
+    "key": "e0006",
+    "text": "Buffer",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      331.6896057128906,
+      41.99192037173995,
+      31.40563084859332,
+      13.510094138666318
+    ],
+    "components": [
+      "shared-state"
+    ]
+  },
+  {
+    "key": "e0007",
+    "text": "(64KB)",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      328.95458984375,
+      56.39192952701342,
+      36.624346459920616,
+      13.510094138666318
+    ],
+    "components": [
+      "shared-state"
+    ]
+  },
+  {
+    "key": "e0009",
+    "text": "Decoder",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      202.11390686035156,
+      62.937370200841485,
+      40.994830978942446,
+      13.510094138666318
+    ],
+    "components": [
+      "dispatch-core"
+    ]
+  },
+  {
+    "key": "e0012",
+    "text": "Instruction",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      76.57330322265625,
+      45.26464070865404,
+      52.30164364019083,
+      13.510094138666318
+    ],
+    "components": [
+      "dispatch-core"
+    ]
+  },
+  {
+    "key": "e0013",
+    "text": "Buffer",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      69.24330139160156,
+      59.66463460513842,
+      31.40563084859332,
+      13.510094138666318
+    ],
+    "components": [
+      "dispatch-core"
+    ]
+  },
+  {
+    "key": "e0014",
+    "text": "(2MB)",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      103.4032974243164,
+      59.66463460513842,
+      32.62354522484247,
+      13.510094138666318
+    ],
+    "components": [
+      "dispatch-core"
+    ]
+  },
+  {
+    "key": "e0016",
+    "text": "PC",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      161.25860595703125,
+      40.464652915685264,
+      14.62872207113196,
+      13.510094138666318
+    ],
+    "components": [
+      "dispatch-core"
+    ]
+  },
+  {
+    "key": "e0018",
+    "text": "CXL ",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      18.029760360717773,
+      44.610099693029014,
+      26.560783313478623,
+      13.510094138666318
+    ],
+    "components": [
+      "input-port"
+    ]
+  },
+  {
+    "key": "e0019",
+    "text": "Port",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      19.80975914001465,
+      59.01009358951342,
+      20.09882484572563,
+      13.510094138666318
+    ],
+    "components": [
+      "input-port"
+    ]
+  },
+  {
+    "key": "e0021",
+    "text": "Inter",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      86.19783020019531,
+      11.882835288732139,
+      22.996029442764666,
+      13.510094138666318
+    ],
+    "components": []
+  },
+  {
+    "key": "e0022",
+    "text": "-",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      108.70780181884764,
+      11.882835288732139,
+      3.9987446277399386,
+      13.51008748028562
+    ],
+    "components": []
+  },
+  {
+    "key": "e0023",
+    "text": "device Communication Controller",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      112.70780181884766,
+      11.882835288732139,
+      164.87562185833667,
+      13.510094138666318
+    ],
+    "components": []
+  },
+  {
+    "key": "e0026",
+    "text": "PNM ",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      273.2355041503906,
+      45.26464070865404,
+      28.879184863980754,
+      13.510094138666318
+    ],
+    "components": [
+      "dispatch-core"
+    ]
+  },
+  {
+    "key": "e0027",
+    "text": "Units",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      273.1705017089844,
+      59.66463460513842,
+      26.049849141400045,
+      13.510094138666318
+    ],
+    "components": [
+      "dispatch-core"
+    ]
+  },
+  {
+    "key": "e0029",
+    "text": "PIM Ctrl",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      189.5897979736328,
+      146.93733968326336,
+      43.099228844609115,
+      13.510094138666318
+    ],
+    "components": [
+      "parallel-channels"
+    ]
+  },
+  {
+    "key": "e0031",
+    "text": "PIM Ctrl",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      313.6304016113281,
+      146.93733968326336,
+      43.099228844609115,
+      13.510094138666318
+    ],
+    "components": [
+      "parallel-channels"
+    ]
+  },
+  {
+    "key": "e0033",
+    "text": "LD/ST",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      205.97459411621094,
+      119.22832479068529,
+      33.33084836047692,
+      13.510094138666318
+    ],
+    "components": [
+      "parallel-channels"
+    ]
+  },
+  {
+    "key": "e0035",
+    "text": "LD/ST",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      329.29019165039057,
+      119.22832479068529,
+      33.33084836047692,
+      13.510094138666318
+    ],
+    "components": [
+      "parallel-channels"
+    ]
+  },
+  {
+    "key": "e0056",
+    "text": "Control Flow",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      41.91661071777343,
+      167.44643392154467,
+      64.63006496874914,
+      13.510094138666318
+    ],
+    "components": [
+      "connection-types"
+    ]
+  },
+  {
+    "key": "e0057",
+    "text": "Inter",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      42.10504150390624,
+      133.19191731998217,
+      22.996029442764673,
+      13.510094138666318
+    ],
+    "components": [
+      "connection-types"
+    ]
+  },
+  {
+    "key": "e0058",
+    "text": "-",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      64.61504364013672,
+      133.19191731998217,
+      3.9987446277399386,
+      13.51008748028562
+    ],
+    "components": [
+      "connection-types"
+    ]
+  },
+  {
+    "key": "e0059",
+    "text": "Device Data Flow",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      68.61502838134764,
+      133.19191731998217,
+      87.7540551717748,
+      13.510094138666318
+    ],
+    "components": []
+  },
+  {
+    "key": "e0060",
+    "text": "x16",
+    "font_family": "VividSource-Tinos-Bold",
+    "bounds": [
+      261.9340963700852,
+      132.10103597232592,
+      18.387134944457557,
+      13.510094138666318
+    ],
+    "components": [
+      "parallel-channels"
+    ]
+  },
+  {
+    "key": "e0065",
+    "text": "Intra",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      41.86849975585937,
+      150.86464681216967,
+      22.7788363935747,
+      13.510094138666318
+    ],
+    "components": [
+      "connection-types"
+    ]
+  },
+  {
+    "key": "e0066",
+    "text": "-",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      64.61849975585938,
+      150.86464681216967,
+      3.9987446277399386,
+      13.51008748028562
+    ],
+    "components": [
+      "connection-types"
+    ]
+  },
+  {
+    "key": "e0067",
+    "text": "Device Data Flow",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      68.61849975585938,
+      150.86464681216967,
+      87.75405517177478,
+      13.510094138666318
+    ],
+    "components": []
+  },
+  {
+    "key": "e0071",
+    "text": "…",
+    "font_family": "VividSource-Tinos-Bold",
+    "bounds": [
+      265.34939575195307,
+      146.0646285016228,
+      12.002265543834937,
+      13.51008748028562
+    ],
+    "components": [
+      "parallel-channels"
+    ]
+  },
+  {
+    "key": "e0074",
+    "text": "GDDR6",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      178.52720642089844,
+      174.21013631412274,
+      39.874734873532816,
+      13.510094138666318
+    ],
+    "components": [
+      "parallel-channels"
+    ]
+  },
+  {
+    "key": "e0075",
+    "text": "-",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      218.40220642089844,
+      174.21013631412274,
+      3.9987446277399386,
+      13.51008748028562
+    ],
+    "components": [
+      "parallel-channels"
+    ]
+  },
+  {
+    "key": "e0076",
+    "text": "PIM",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      222.4022064208984,
+      174.21013631412274,
+      21.29175031921386,
+      13.510094138666318
+    ],
+    "components": [
+      "parallel-channels"
+    ]
+  },
+  {
+    "key": "e0079",
+    "text": "GDDR6",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      302.56781005859375,
+      174.21013631412274,
+      39.874734873532816,
+      13.510094138666318
+    ],
+    "components": [
+      "parallel-channels"
+    ]
+  },
+  {
+    "key": "e0080",
+    "text": "-",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      342.4429016113281,
+      174.21013631412274,
+      3.9987446277399386,
+      13.51008748028562
+    ],
+    "components": [
+      "parallel-channels"
+    ]
+  },
+  {
+    "key": "e0081",
+    "text": "PIM",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      346.44281005859375,
+      174.21013631412274,
+      21.29175031921386,
+      13.510094138666318
+    ],
+    "components": [
+      "parallel-channels"
+    ]
+  },
+  {
+    "key": "e0082",
+    "text": "Legends",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      65.44212341308594,
+      114.42833699771649,
+      40.79904795288803,
+      13.510094138666318
+    ],
+    "components": [
+      "connection-types"
+    ]
+  }
+]

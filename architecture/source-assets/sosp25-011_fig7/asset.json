@@ -1,0 +1,99 @@
+{
+  "name": "矩阵分区与异构执行对应",
+  "family": "parallel-fusion",
+  "tags": [
+    "矩阵分块",
+    "异构资源",
+    "拆分合并",
+    "同步"
+  ],
+  "when_to_use": "矩阵或数据块划分对应多设备执行；需要解释分区计算如何恢复单一路径的方法",
+  "avoid": "不具备可分块关系的任务；仅展示设备列表而没有计算依赖的部署图",
+  "preserve": [
+    "上下两层，上层数学等式，下层对称分叉合流；中心分区框连接两种理解。",
+    "网格表示矩阵元素组，长圆角框表示同步边界，小矩形表示执行子图。",
+    "下方实线箭头表达依赖，并行分支不意味着耗时相等；乘号等号属于数学关系。",
+    "上部橙色和蓝色分配两类计算；下部第二支当前为粉色，迁移时应统一对应颜色并补图例。",
+    "维度标注和转置上标是数学信息，不能当普通标题替换；执行图标题较粗以区分层次。"
+  ],
+  "adapt": "先写出真实矩阵公式，再设置分区图。 逐层检查相同颜色是否代表同一种资源。 如果分支数量改变，同步重画矩阵分块与下层拓扑。 合并算子必须与上方输出分区一致。",
+  "visual_note": "上下两层，上层数学等式，下层对称分叉合流；中心分区框连接两种理解。",
+  "parts": [
+    {
+      "id": "partitioned-weight",
+      "name": "行分块权重",
+      "role": "component",
+      "box": [
+        0.065,
+        0.0,
+        0.25,
+        0.52
+      ],
+      "meaning": "同一矩阵按行交给两类资源。",
+      "reuse": "替换资源名和行数，保留划分方向，不能把行切分写成列切分。"
+    },
+    {
+      "id": "matrix-operation",
+      "name": "矩阵运算与输出",
+      "role": "component",
+      "box": [
+        0.42,
+        0.0,
+        0.53,
+        0.57
+      ],
+      "meaning": "公共输入参与运算，结果保持对应分块。",
+      "reuse": "依据新问题重算维度和转置，方格数量只作示意需注明。"
+    },
+    {
+      "id": "split-sync",
+      "name": "拆分同步入口",
+      "role": "component",
+      "box": [
+        0.04,
+        0.57,
+        0.3,
+        0.41
+      ],
+      "meaning": "单一路径在此进入分区执行。",
+      "reuse": "说明拆分的是数据、图还是任务，并设置真实同步条件。"
+    },
+    {
+      "id": "parallel-subgraphs",
+      "name": "并行计算分支",
+      "role": "component",
+      "box": [
+        0.41,
+        0.56,
+        0.28,
+        0.43
+      ],
+      "meaning": "两个子图和中央分区表示异构分工。",
+      "reuse": "改为实际设备与子任务；统一与上方矩阵的配色。"
+    },
+    {
+      "id": "merge-sync",
+      "name": "合并同步出口",
+      "role": "component",
+      "box": [
+        0.7,
+        0.59,
+        0.28,
+        0.39
+      ],
+      "meaning": "合并两个部分输出并恢复后续执行。",
+      "reuse": "写清拼接、求和或归约，不默认所有合并运算相同。"
+    }
+  ],
+  "selection_evidence": {
+    "candidate_index": 77,
+    "semantics_read": true,
+    "preview_reviewed": true,
+    "source_render_reviewed": true,
+    "render": "source-renders/77.png"
+  },
+  "implementation": "source-derived editable SVG",
+  "validation_status": "source-fidelity-checked",
+  "id": "architecture.source.sosp25-011_fig7",
+  "display_code": "VA-068"
+}

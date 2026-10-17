@@ -1,0 +1,342 @@
+[
+  {
+    "key": "e0015",
+    "text": "Lock manager (§4.5)",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      22.663114539191184,
+      68.89763593903632,
+      58.54120497617623,
+      9.10669845488701
+    ],
+    "components": [
+      "kernel-space"
+    ]
+  },
+  {
+    "key": "e0018",
+    "text": "Lock library (§4.4)",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      26.53903292898943,
+      38.6408654904572,
+      50.77489633301229,
+      9.10669845488701
+    ],
+    "components": [
+      "user-space"
+    ]
+  },
+  {
+    "key": "e0021",
+    "text": "GCP-extended DRAM",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      31.659906692420037,
+      81.72933883521551,
+      62.40665667535086,
+      9.10669845488701
+    ],
+    "components": [
+      "kernel-space"
+    ]
+  },
+  {
+    "key": "e0022",
+    "text": "cache controller (§4.2, §4.3)",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      23.367516768050365,
+      89.26283923838133,
+      78.99551429835628,
+      9.10669845488701
+    ],
+    "components": [
+      "kernel-space"
+    ]
+  },
+  {
+    "key": "e0023",
+    "text": "OS",
+    "font_family": "VividSource-texgyreheros-italic",
+    "bounds": [
+      95.65856516195348,
+      65.23545584192658,
+      9.245391180815204,
+      8.860579972477353
+    ],
+    "components": [
+      "kernel-space"
+    ]
+  },
+  {
+    "key": "e0024",
+    "text": "kernel",
+    "font_family": "VividSource-texgyreheros-italic",
+    "bounds": [
+      91.36180110754324,
+      72.55008745896527,
+      17.83405500104527,
+      8.860579972477353
+    ],
+    "components": [
+      "kernel-space"
+    ]
+  },
+  {
+    "key": "e0025",
+    "text": "User",
+    "font_family": "VividSource-texgyreheros-italic",
+    "bounds": [
+      93.16768639705882,
+      14.011931738323312,
+      13.745947146766412,
+      8.860579972477353
+    ],
+    "components": [
+      "user-space"
+    ]
+  },
+  {
+    "key": "e0026",
+    "text": "space",
+    "font_family": "VividSource-texgyreheros-italic",
+    "bounds": [
+      91.03739419931301,
+      21.32653915492125,
+      17.450744220033812,
+      8.860579972477353
+    ],
+    "components": [
+      "user-space"
+    ]
+  },
+  {
+    "key": "e0030",
+    "text": "GCP interfaces",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      55.21860015290352,
+      55.180269512793586,
+      35.062215667297096,
+      7.383796476697171
+    ],
+    "components": []
+  },
+  {
+    "key": "e0033",
+    "text": "Applications",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      34.5745230745961,
+      13.044906326464172,
+      34.48317172151383,
+      9.10669845488701
+    ],
+    "components": [
+      "user-space"
+    ]
+  },
+  {
+    "key": "e0037",
+    "text": "Lock APIs",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      56.31999851201729,
+      27.05478348003095,
+      23.423364595819294,
+      7.383796476697171
+    ],
+    "components": [
+      "user-space"
+    ]
+  },
+  {
+    "key": "e0038",
+    "text": "Compute blades",
+    "font_family": "VividSource-texgyreheros-italic",
+    "bounds": [
+      42.631382209383474,
+      113.40004423495162,
+      46.916136055704555,
+      8.860579972477353
+    ],
+    "components": []
+  },
+  {
+    "key": "e0041",
+    "text": "Programmable Switch",
+    "font_family": "VividSource-texgyreheros-italic",
+    "bounds": [
+      161.0186557264406,
+      111.9403946512212,
+      62.67209920969799,
+      8.860579972477353
+    ],
+    "components": []
+  },
+  {
+    "key": "e0044",
+    "text": "Control Plane",
+    "font_family": "VividSource-texgyreheros-italic",
+    "bounds": [
+      172.9229735327063,
+      48.001837976286026,
+      38.60413167410843,
+      8.860579972477353
+    ],
+    "components": [
+      "switch-planes"
+    ]
+  },
+  {
+    "key": "e0047",
+    "text": "Data",
+    "font_family": "VividSource-texgyreheros-italic",
+    "bounds": [
+      213.6041080340329,
+      71.85081572354471,
+      13.283597726271182,
+      8.860579972477353
+    ],
+    "components": [
+      "switch-planes"
+    ]
+  },
+  {
+    "key": "e0048",
+    "text": "plane",
+    "font_family": "VividSource-texgyreheros-italic",
+    "bounds": [
+      211.93819809380517,
+      79.16547154102415,
+      16.174316173208354,
+      8.860579972477353
+    ],
+    "components": [
+      "switch-planes"
+    ]
+  },
+  {
+    "key": "e0049",
+    "text": "ASIC",
+    "font_family": "VividSource-texgyreheros-italic",
+    "bounds": [
+      212.3537438618933,
+      86.48010315806283,
+      15.400216674994226,
+      8.860579972477353
+    ],
+    "components": [
+      "switch-planes"
+    ]
+  },
+  {
+    "key": "e0052",
+    "text": "GCP-extended",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      162.0251762576009,
+      74.64495021145564,
+      41.96351585657612,
+      9.10669845488701
+    ],
+    "components": [
+      "switch-planes"
+    ]
+  },
+  {
+    "key": "e0053",
+    "text": "cache directory",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      161.49862306780057,
+      82.17845061462145,
+      43.046243575652625,
+      9.10669845488701
+    ],
+    "components": [
+      "switch-planes"
+    ]
+  },
+  {
+    "key": "e0054",
+    "text": "(§4.2, §4.3)",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      166.78472534043982,
+      89.71195101778727,
+      32.44833816229948,
+      9.10669845488701
+    ],
+    "components": [
+      "switch-planes"
+    ]
+  },
+  {
+    "key": "e0058",
+    "text": "GCP",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      129.0952493244113,
+      72.626246246,
+      11.079590986006252,
+      7.383796476697171
+    ],
+    "components": []
+  },
+  {
+    "key": "e0059",
+    "text": "Txns.",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      128.0836951015754,
+      78.71807799291133,
+      12.752470653169468,
+      7.383796476697171
+    ],
+    "components": []
+  },
+  {
+    "key": "e0063",
+    "text": "Memory blades",
+    "font_family": "VividSource-texgyreheros-italic",
+    "bounds": [
+      150.46215726720771,
+      3.990601825797114,
+      43.9775733374081,
+      8.860579972477353
+    ],
+    "components": [
+      "remote-endpoint"
+    ]
+  },
+  {
+    "key": "e0064",
+    "text": "GCP",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      168.7717025280745,
+      20.962975933560358,
+      11.079590986006224,
+      7.383796476697171
+    ],
+    "components": [
+      "remote-endpoint"
+    ]
+  },
+  {
+    "key": "e0065",
+    "text": "Txns.",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      167.76017250567935,
+      27.05478348003095,
+      12.752446452728691,
+      7.383796476697171
+    ],
+    "components": [
+      "remote-endpoint"
+    ]
+  }
+]

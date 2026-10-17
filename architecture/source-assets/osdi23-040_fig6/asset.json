@@ -1,0 +1,86 @@
+{
+  "name": "元信息与主体数据的分离通路",
+  "family": "pipeline",
+  "tags": [
+    "控制数据分离",
+    "并行管理器",
+    "缓冲",
+    "汇合"
+  ],
+  "when_to_use": "元信息控制与载荷传输分离的系统；并行管理器加共享通知与数据缓冲的局部架构",
+  "avoid": "每个数据包都必须串行经过所有模块；没有最终关联规则的两条无关业务链",
+  "preserve": [
+    "横向长幅，上路容纳处理块，下路保持近乎直线，右端竖长块同时接收两路。",
+    "梯形表示分流汇流，灰矩形表示管理，绿色分段条表示先进先出队列。",
+    "上方垂直短箭头是配置输入，不属于载荷；两条主线始终保持清晰分离。",
+    "大部分灰白以突出唯一下方绿色缓冲；绿色只表示队列对象，不自动表示占用率。",
+    "输出引擎标签竖排节省横向空间；管理器多行文字需与框边保留余量。"
+  ],
+  "adapt": "先定义元信息与载荷各自包含什么。 确认分流是按键选择而非把同一消息广播到全部单元。 说明共同终点的关联依据，避免读成无条件同步。 无硬件配置接口时删除顶部接口和短箭头。",
+  "visual_note": "横向长幅，上路容纳处理块，下路保持近乎直线，右端竖长块同时接收两路。",
+  "parts": [
+    {
+      "id": "metadata-managers",
+      "name": "并行元信息管理",
+      "role": "component",
+      "box": [
+        0.23,
+        0.06,
+        0.25,
+        0.65
+      ],
+      "meaning": "分流器把元信息路由到某个管理单元后汇回。",
+      "reuse": "替换管理对象与单元数量，省略号表达重复但不能冒充实测并发数。"
+    },
+    {
+      "id": "notification-aggregate",
+      "name": "通知汇总管理",
+      "role": "component",
+      "box": [
+        0.54,
+        0.04,
+        0.18,
+        0.66
+      ],
+      "meaning": "集中整理各管理器输出的通知。",
+      "reuse": "修改聚合职责，保留配置接口时写清其控制内容。"
+    },
+    {
+      "id": "data-buffer",
+      "name": "主体数据缓冲",
+      "role": "component",
+      "box": [
+        0.05,
+        0.7,
+        0.83,
+        0.21
+      ],
+      "meaning": "独立于管理路径的队列。",
+      "reuse": "把绿色条改成真实缓存对象；若展示容量要明确刻度。"
+    },
+    {
+      "id": "output-engine",
+      "name": "统一输出引擎",
+      "role": "component",
+      "box": [
+        0.88,
+        0.12,
+        0.065,
+        0.77
+      ],
+      "meaning": "共同接收通知和载荷的终点。",
+      "reuse": "补充二者如何匹配，换成存储写入或传输端均需核实关系。"
+    }
+  ],
+  "selection_evidence": {
+    "candidate_index": 54,
+    "semantics_read": true,
+    "preview_reviewed": true,
+    "source_render_reviewed": true,
+    "render": "source-renders/54.png"
+  },
+  "implementation": "source-derived editable SVG",
+  "validation_status": "source-fidelity-checked",
+  "id": "architecture.source.osdi23-040_fig6",
+  "display_code": "VA-060"
+}

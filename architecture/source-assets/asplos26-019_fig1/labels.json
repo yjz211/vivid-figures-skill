@@ -1,0 +1,831 @@
+[
+  {
+    "key": "e0006",
+    "text": "Large",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      197.4900054931641,
+      23.588452855627224,
+      51.16229815618226,
+      22.194300481256505
+    ],
+    "components": [
+      "baseline-pair"
+    ]
+  },
+  {
+    "key": "e0007",
+    "text": "Model",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      195.8000030517578,
+      47.588452855627224,
+      54.466839180014176,
+      22.194300481256505
+    ],
+    "components": [
+      "baseline-pair"
+    ]
+  },
+  {
+    "key": "e0010",
+    "text": "Prompt",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      29.912439346313477,
+      35.588452855627224,
+      64.6374224794208,
+      22.194300481256505
+    ],
+    "components": [
+      "baseline-pair"
+    ]
+  },
+  {
+    "key": "e0011",
+    "text": "Image",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      347.6864013671875,
+      35.588452855627224,
+      55.52209597418323,
+      22.194300481256505
+    ],
+    "components": [
+      "baseline-pair"
+    ]
+  },
+  {
+    "key": "e0014",
+    "text": "Small",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      604.1900024414062,
+      23.588452855627224,
+      50.09901135489099,
+      22.194300481256505
+    ],
+    "components": [
+      "baseline-pair"
+    ]
+  },
+  {
+    "key": "e0015",
+    "text": "Model",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      602,
+      47.588452855627224,
+      54.466839180014176,
+      22.194300481256505
+    ],
+    "components": [
+      "baseline-pair"
+    ]
+  },
+  {
+    "key": "e0018",
+    "text": "Prompt",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      436.1123962402343,
+      35.588452855627224,
+      64.63742247942082,
+      22.194300481256505
+    ],
+    "components": [
+      "baseline-pair"
+    ]
+  },
+  {
+    "key": "e0019",
+    "text": "Image",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      753.8864135742188,
+      35.588452855627224,
+      55.52209597418323,
+      22.194300481256505
+    ],
+    "components": [
+      "baseline-pair"
+    ]
+  },
+  {
+    "key": "e0020",
+    "text": "High Image Quality",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      138.0500030517578,
+      95.80659250406472,
+      170.76214974937648,
+      22.194300481256505
+    ],
+    "components": [
+      "baseline-pair"
+    ]
+  },
+  {
+    "key": "e0021",
+    "text": "Long Latency",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      163.04989624023438,
+      119.80659250406472,
+      120.68867661365402,
+      22.194300481256505
+    ],
+    "components": []
+  },
+  {
+    "key": "e0022",
+    "text": "Low Image Quality",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      546.4998779296875,
+      95.80659250406472,
+      166.19355510024616,
+      22.194300481256505
+    ],
+    "components": [
+      "baseline-pair"
+    ]
+  },
+  {
+    "key": "e0023",
+    "text": "Short Latency",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      567.6248779296875,
+      119.80659250406472,
+      123.96858162890203,
+      22.194300481256505
+    ],
+    "components": []
+  },
+  {
+    "key": "e0026",
+    "text": "Large",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      563.4351196289061,
+      236.53388742593972,
+      51.16229815618226,
+      22.194300481256505
+    ],
+    "components": [
+      "prior-cache"
+    ]
+  },
+  {
+    "key": "e0027",
+    "text": "Model",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      561.7451171875,
+      260.5338874259397,
+      54.466839180014176,
+      22.194300481256505
+    ],
+    "components": [
+      "prior-cache"
+    ]
+  },
+  {
+    "key": "e0031",
+    "text": "Latent Feat",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      271.55010986328125,
+      249.4066291251586,
+      101.2601076733572,
+      22.194300481256505
+    ],
+    "components": [
+      "prior-cache"
+    ]
+  },
+  {
+    "key": "e0032",
+    "text": "Cache",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      293.11499023437494,
+      273.4066291251586,
+      57.922785122545974,
+      22.194300481256505
+    ],
+    "components": [
+      "prior-cache"
+    ]
+  },
+  {
+    "key": "e0034",
+    "text": "Prompt",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      29.912439346313477,
+      249.6248298087521,
+      64.6374224794208,
+      22.194300481256505
+    ],
+    "components": [
+      "prior-cache"
+    ]
+  },
+  {
+    "key": "e0039",
+    "text": "Cache Miss: ",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      150.0644073486328,
+      173.91572336343972,
+      115.63382042212288,
+      22.194300481256505
+    ],
+    "components": [
+      "prior-cache"
+    ]
+  },
+  {
+    "key": "e0040",
+    "text": "T",
+    "font_family": "VividSource-Arimo-Italic",
+    "bounds": [
+      265.5643005371094,
+      173.91572336343972,
+      13.974181608746449,
+      22.194288829090283
+    ],
+    "components": [
+      "prior-cache"
+    ]
+  },
+  {
+    "key": "e0041",
+    "text": "De",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      283.31439208984375,
+      173.91572336343972,
+      25.661901919200773,
+      22.194300481256505
+    ],
+    "components": [
+      "prior-cache"
+    ]
+  },
+  {
+    "key": "e0042",
+    "text": "-",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      308.93939208984375,
+      173.91572336343972,
+      6.691680924822094,
+      22.194288829090283
+    ],
+    "components": [
+      "prior-cache"
+    ]
+  },
+  {
+    "key": "e0043",
+    "text": "noising Steps",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      315.5643920898437,
+      173.91572336343972,
+      120.17094756407278,
+      22.194300481256505
+    ],
+    "components": [
+      "prior-cache"
+    ]
+  },
+  {
+    "key": "e0044",
+    "text": "<",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      384.4480895996094,
+      262.9339118400022,
+      11.726496222748779,
+      22.194288829090283
+    ],
+    "components": [
+      "prior-cache"
+    ]
+  },
+  {
+    "key": "e0045",
+    "text": "T",
+    "font_family": "VividSource-Arimo-Italic",
+    "bounds": [
+      396.0730895996093,
+      262.9339118400022,
+      13.974181608746449,
+      22.194288829090283
+    ],
+    "components": [
+      "prior-cache"
+    ]
+  },
+  {
+    "key": "e0046",
+    "text": "Denoising ",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      413.8230895996094,
+      262.9339118400022,
+      94.74213890716965,
+      22.194300481256505
+    ],
+    "components": [
+      "prior-cache"
+    ]
+  },
+  {
+    "key": "e0047",
+    "text": "Steps",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      420.8880920410156,
+      286.9339118400022,
+      51.17697988562213,
+      22.194300481256505
+    ],
+    "components": [
+      "prior-cache"
+    ]
+  },
+  {
+    "key": "e0049",
+    "text": "Image",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      753.8864135742188,
+      249.4066291251586,
+      55.52209597418323,
+      22.194300481256505
+    ],
+    "components": [
+      "prior-cache"
+    ]
+  },
+  {
+    "key": "e0052",
+    "text": "High Image Quality",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      509.46389770507807,
+      307.006604711096,
+      170.76214974937642,
+      22.194300481256505
+    ],
+    "components": [
+      "prior-cache"
+    ]
+  },
+  {
+    "key": "e0053",
+    "text": "0.8 * Long Latency (Limited Benefit)",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      435.71389770507807,
+      331.00660471109586,
+      317.5982074649,
+      22.194300481256505
+    ],
+    "components": []
+  },
+  {
+    "key": "e0054",
+    "text": "Baseline",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      16.3264102935791,
+      115.86404433361179,
+      98.68884079907365,
+      26.304332451691153
+    ],
+    "components": []
+  },
+  {
+    "key": "e0055",
+    "text": "Prior Work (N",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      19.25358009338379,
+      329.2458192359554,
+      154.17288745675611,
+      26.304332451691153
+    ],
+    "components": []
+  },
+  {
+    "key": "e0056",
+    "text": "IRVANA",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      173.443603515625,
+      332.5338874259396,
+      74.99998686950312,
+      22.194300481256505
+    ],
+    "components": []
+  },
+  {
+    "key": "e0057",
+    "text": ")",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      247.65159159369492,
+      329.2458192359554,
+      8.823770995813192,
+      26.3043424392622
+    ],
+    "components": []
+  },
+  {
+    "key": "e0060",
+    "text": "Large",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      563.4351196289061,
+      397.1156745353147,
+      51.16229815618226,
+      22.194300481256505
+    ],
+    "components": [
+      "mixed-cache",
+      "branch-core"
+    ]
+  },
+  {
+    "key": "e0061",
+    "text": "Model",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      561.7451171875,
+      421.1156745353147,
+      54.466839180014176,
+      22.194300481256505
+    ],
+    "components": [
+      "mixed-cache",
+      "branch-core"
+    ]
+  },
+  {
+    "key": "e0064",
+    "text": "Small",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      563.9351196289062,
+      504.2429938712522,
+      50.09901135489099,
+      22.194300481256505
+    ],
+    "components": [
+      "mixed-cache",
+      "branch-core"
+    ]
+  },
+  {
+    "key": "e0065",
+    "text": "Model",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      561.7451171875,
+      528.2429938712522,
+      54.466839180014176,
+      22.194300481256505
+    ],
+    "components": [
+      "mixed-cache",
+      "branch-core"
+    ]
+  },
+  {
+    "key": "e0066",
+    "text": "Prompt",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      29.912439346313477,
+      462.7885260978147,
+      64.6374224794208,
+      22.194300481256505
+    ],
+    "components": [
+      "mixed-cache"
+    ]
+  },
+  {
+    "key": "e0070",
+    "text": "Image",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      295.16839599609375,
+      518.8611579337522,
+      55.52209597418323,
+      22.194300481256505
+    ],
+    "components": [
+      "mixed-cache",
+      "branch-core"
+    ]
+  },
+  {
+    "key": "e0071",
+    "text": "Cache",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      293.97839355468744,
+      542.8611579337522,
+      57.922785122545974,
+      22.194300481256505
+    ],
+    "components": [
+      "mixed-cache",
+      "branch-core"
+    ]
+  },
+  {
+    "key": "e0073",
+    "text": "Image",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      753.8862915039061,
+      462.1338630118772,
+      55.52209597418323,
+      22.194300481256505
+    ],
+    "components": [
+      "mixed-cache"
+    ]
+  },
+  {
+    "key": "e0078",
+    "text": "<",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      381.1040954589843,
+      531.9521003165647,
+      11.726496222748779,
+      22.194288829090283
+    ],
+    "components": [
+      "mixed-cache",
+      "branch-core"
+    ]
+  },
+  {
+    "key": "e0079",
+    "text": "T",
+    "font_family": "VividSource-Arimo-Italic",
+    "bounds": [
+      392.7290954589844,
+      531.9521003165647,
+      13.974181608746449,
+      22.194288829090283
+    ],
+    "components": [
+      "mixed-cache",
+      "branch-core"
+    ]
+  },
+  {
+    "key": "e0080",
+    "text": "De",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      410.47918701171875,
+      531.9521003165647,
+      25.661901919200773,
+      22.194300481256505
+    ],
+    "components": [
+      "mixed-cache",
+      "branch-core"
+    ]
+  },
+  {
+    "key": "e0081",
+    "text": "-",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      436.1040954589843,
+      531.9521003165647,
+      6.691680924822094,
+      22.194288829090283
+    ],
+    "components": [
+      "mixed-cache",
+      "branch-core"
+    ]
+  },
+  {
+    "key": "e0082",
+    "text": "noising ",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      442.7291870117187,
+      531.9521003165647,
+      69.08516086049531,
+      22.194300481256505
+    ],
+    "components": [
+      "mixed-cache",
+      "branch-core"
+    ]
+  },
+  {
+    "key": "e0083",
+    "text": "Steps",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      420.8540954589844,
+      555.9521003165647,
+      51.17697988562213,
+      22.194300481256505
+    ],
+    "components": [
+      "mixed-cache"
+    ]
+  },
+  {
+    "key": "e0084",
+    "text": "Cache Hit",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      151.03179931640625,
+      264.89753488687734,
+      88.15662752717799,
+      22.194300481256505
+    ],
+    "components": [
+      "prior-cache"
+    ]
+  },
+  {
+    "key": "e0085",
+    "text": "Cache Hit",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      154.93960571289062,
+      529.1157966056272,
+      88.15662752717799,
+      22.194300481256505
+    ],
+    "components": [
+      "mixed-cache"
+    ]
+  },
+  {
+    "key": "e0089",
+    "text": "High Quality",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      390.4335021972656,
+      456.4612555900022,
+      109.7330103044851,
+      22.194300481256505
+    ],
+    "components": [
+      "mixed-cache",
+      "branch-core"
+    ]
+  },
+  {
+    "key": "e0090",
+    "text": "Short Latency",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      383.30850219726557,
+      480.4612555900022,
+      123.96858162890203,
+      22.194300481256505
+    ],
+    "components": [
+      "mixed-cache",
+      "branch-core"
+    ]
+  },
+  {
+    "key": "e0092",
+    "text": "MoDM",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      44.816810607910156,
+      519.5004579078305,
+      72.00357572924894,
+      26.304332451691153
+    ],
+    "components": [
+      "mixed-cache"
+    ]
+  },
+  {
+    "key": "e0093",
+    "text": "(This Work",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      15.096810340881346,
+      548.300384665643,
+      124.03097065604558,
+      26.304332451691153
+    ],
+    "components": [
+      "mixed-cache"
+    ]
+  },
+  {
+    "key": "e0094",
+    "text": ")",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      137.71479349799185,
+      548.300384665643,
+      8.823770995813192,
+      26.3043424392622
+    ],
+    "components": [
+      "mixed-cache"
+    ]
+  },
+  {
+    "key": "e0095",
+    "text": "Cache Miss: ",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      153.45269775390625,
+      425.9157233634397,
+      115.63382042212288,
+      22.194300481256505
+    ],
+    "components": [
+      "mixed-cache"
+    ]
+  },
+  {
+    "key": "e0096",
+    "text": "T",
+    "font_family": "VividSource-Arimo-Italic",
+    "bounds": [
+      268.95269775390625,
+      425.9157233634397,
+      13.974181608746449,
+      22.194288829090283
+    ],
+    "components": [
+      "mixed-cache",
+      "branch-core"
+    ]
+  },
+  {
+    "key": "e0097",
+    "text": "De",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      286.70269775390625,
+      425.9157233634397,
+      25.661901919200773,
+      22.194300481256505
+    ],
+    "components": [
+      "mixed-cache",
+      "branch-core"
+    ]
+  },
+  {
+    "key": "e0098",
+    "text": "-",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      312.3276977539062,
+      425.9157233634397,
+      6.691680924822094,
+      22.194288829090283
+    ],
+    "components": [
+      "mixed-cache",
+      "branch-core"
+    ]
+  },
+  {
+    "key": "e0099",
+    "text": "noising Steps",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      318.95269775390625,
+      425.9157233634397,
+      120.17094756407278,
+      22.194300481256505
+    ],
+    "components": [
+      "mixed-cache",
+      "branch-core"
+    ]
+  }
+]

@@ -1,0 +1,324 @@
+[
+  {
+    "key": "e0012",
+    "text": "Trustlet 1",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      47.56392247509211,
+      17.22350688264399,
+      23.47096685662109,
+      6.742304659996989
+    ],
+    "components": [
+      "left-peer"
+    ]
+  },
+  {
+    "key": "e0019",
+    "text": "Trustlet 2",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      183.7675780756399,
+      17.22350688264399,
+      23.470873239375578,
+      6.742304659996989
+    ],
+    "components": [
+      "right-peer"
+    ]
+  },
+  {
+    "key": "e0020",
+    "text": "Memory",
+    "font_family": "VividSource-Tinos-Italic",
+    "bounds": [
+      63.86036321091524,
+      74.89531887618114,
+      20.965057875673665,
+      6.742304659996989
+    ],
+    "components": [
+      "memory-strip"
+    ]
+  },
+  {
+    "key": "e0021",
+    "text": "Data path",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      126.92019084934145,
+      14.155857032013449,
+      23.860920131073726,
+      6.742304659996991
+    ],
+    "components": [
+      "permission-legend"
+    ]
+  },
+  {
+    "key": "e0026",
+    "text": "Object",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      117.3913033446297,
+      84.7117985591035,
+      16.64883477137664,
+      6.742304659996989
+    ],
+    "components": [
+      "memory-strip"
+    ]
+  },
+  {
+    "key": "e0029",
+    "text": "Trustlet1",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      76.85997902881354,
+      84.7117985591035,
+      21.93714190616447,
+      6.742304659996989
+    ],
+    "components": [
+      "memory-strip"
+    ]
+  },
+  {
+    "key": "e0032",
+    "text": "Trustlet2",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      149.25651669036597,
+      84.7117985591035,
+      21.93704828891896,
+      6.742304659996989
+    ],
+    "components": [
+      "memory-strip"
+    ]
+  },
+  {
+    "key": "e0039",
+    "text": "Control path",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      126.70930864210277,
+      22.745276411733926,
+      31.026927082530165,
+      6.742304659996989
+    ],
+    "components": [
+      "permission-legend"
+    ]
+  },
+  {
+    "key": "e0041",
+    "text": "①",
+    "font_family": "VividSource-DejaVuSans",
+    "bounds": [
+      23.722530901432037,
+      54.39911957033928,
+      5.501533283811,
+      7.241734526458288
+    ],
+    "components": []
+  },
+  {
+    "key": "e0042",
+    "text": " createObject()",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      29.857830703258514,
+      54.64883421101604,
+      36.623141337804554,
+      6.742304659996989
+    ],
+    "components": []
+  },
+  {
+    "key": "e0047",
+    "text": "④",
+    "font_family": "VividSource-DejaVuSans",
+    "bounds": [
+      188.7333363527432,
+      54.39911957033928,
+      5.501533283811,
+      7.241734526458288
+    ],
+    "components": []
+  },
+  {
+    "key": "e0048",
+    "text": " getObject()",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      194.86863615456969,
+      54.64883421101604,
+      29.475464643019222,
+      6.742304659996989
+    ],
+    "components": []
+  },
+  {
+    "key": "e0056",
+    "text": "Page table",
+    "font_family": "VividSource-Tinos-Italic",
+    "bounds": [
+      82.65930525994918,
+      36.856464785719254,
+      26.684996682615747,
+      6.742304659996989
+    ],
+    "components": []
+  },
+  {
+    "key": "e0067",
+    "text": "WO",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      107.92903387182378,
+      75.50885353722606,
+      10.536321407107607,
+      6.742304659996989
+    ],
+    "components": [
+      "memory-strip"
+    ]
+  },
+  {
+    "key": "e0075",
+    "text": "③",
+    "font_family": "VividSource-DejaVuSans",
+    "bounds": [
+      47.813169029541314,
+      96.11915822275932,
+      5.501533283811,
+      7.241734526458288
+    ],
+    "components": []
+  },
+  {
+    "key": "e0076",
+    "text": " Updates PT",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      53.94846883136779,
+      96.36887286343608,
+      30.579698777273734,
+      6.742304659996989
+    ],
+    "components": []
+  },
+  {
+    "key": "e0077",
+    "text": "Trusted Monitor",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      107.31599070131779,
+      109.25300244727168,
+      40.37640649794412,
+      6.742304659996989
+    ],
+    "components": [
+      "trusted-base"
+    ]
+  },
+  {
+    "key": "e0079",
+    "text": "⑤",
+    "font_family": "VividSource-DejaVuSans",
+    "bounds": [
+      168.3718101354316,
+      96.73268820294197,
+      5.501533283811,
+      7.241734526458288
+    ],
+    "components": []
+  },
+  {
+    "key": "e0080",
+    "text": " Updates PT",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      174.50710993725806,
+      96.98240284361873,
+      30.579698777273734,
+      6.742304659996989
+    ],
+    "components": []
+  },
+  {
+    "key": "e0082",
+    "text": "Write",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      52.19370718150458,
+      35.62940482535396,
+      13.996040332222037,
+      6.742304659996989
+    ],
+    "components": []
+  },
+  {
+    "key": "e0084",
+    "text": "Read",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      193.8045450951904,
+      35.01587718560245,
+      12.786692754707474,
+      6.742304659996989
+    ],
+    "components": []
+  },
+  {
+    "key": "e0085",
+    "text": "Page table",
+    "font_family": "VividSource-Tinos-Italic",
+    "bounds": [
+      147.0799531791272,
+      36.242934805536606,
+      26.684959235717542,
+      6.742304659996989
+    ],
+    "components": []
+  },
+  {
+    "key": "e0090",
+    "text": "②",
+    "font_family": "VividSource-DejaVuSans",
+    "bounds": [
+      104.81393875088543,
+      97.34621818312462,
+      5.501533283811,
+      7.241734526458288
+    ],
+    "components": []
+  },
+  {
+    "key": "e0091",
+    "text": " Allocates object",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      110.9492385527119,
+      97.59593282380138,
+      41.18896674208372,
+      6.742304659996989
+    ],
+    "components": []
+  },
+  {
+    "key": "e0092",
+    "text": "RO",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      132.9596265917644,
+      75.50885353722606,
+      8.58711673831749,
+      6.742304659996989
+    ],
+    "components": [
+      "memory-strip"
+    ]
+  }
+]

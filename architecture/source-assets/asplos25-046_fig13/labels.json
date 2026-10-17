@@ -1,0 +1,544 @@
+[
+  {
+    "key": "e0017",
+    "text": "VM Requests",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      78.0873999420437,
+      9.871250977550545,
+      47.75507052258766,
+      8.71234648400059
+    ],
+    "components": []
+  },
+  {
+    "key": "e0024",
+    "text": "Prediction Model",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      69.60520490631461,
+      41.38469716288094,
+      64.25935518647023,
+      9.836508544416574
+    ],
+    "components": [
+      "cluster-planning"
+    ]
+  },
+  {
+    "key": "e0025",
+    "text": "Cluster Manager",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      70.57140870764852,
+      27.004000393706548,
+      63.99087990691626,
+      9.836519516025874
+    ],
+    "components": [
+      "cluster-planning"
+    ]
+  },
+  {
+    "key": "e0028",
+    "text": "Server Manager",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      11.666670638438518,
+      80.33671890739063,
+      59.35887492132679,
+      8.712335512391292
+    ],
+    "components": [
+      "local-agent"
+    ]
+  },
+  {
+    "key": "e0029",
+    "text": "Oversubscription Agent",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      10.464533350732381,
+      90.40321432593922,
+      89.97594062690405,
+      8.712335512391292
+    ],
+    "components": [
+      "local-agent"
+    ]
+  },
+  {
+    "key": "e0032",
+    "text": "Cluster Scheduler",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      193.99832686409357,
+      27.723035780745732,
+      68.78830384591126,
+      9.836519516025874
+    ],
+    "components": [
+      "cluster-planning"
+    ]
+  },
+  {
+    "key": "e0035",
+    "text": "Prediction",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      150.27196544655456,
+      114.53651974321843,
+      31.642977004717977,
+      7.307135679773637
+    ],
+    "components": [
+      "local-agent"
+    ]
+  },
+  {
+    "key": "e0038",
+    "text": "Scheduling Policy",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      194.2342384072472,
+      41.38469716288094,
+      68.27805818383783,
+      9.836508544416574
+    ],
+    "components": [
+      "cluster-planning"
+    ]
+  },
+  {
+    "key": "e0046",
+    "text": "VM Allocations",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      173.67416670656533,
+      66.67502461042753,
+      52.14999000282842,
+      8.712335512391292
+    ],
+    "components": []
+  },
+  {
+    "key": "e0047",
+    "text": "Server",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      240.9827954359353,
+      75.36916919460057,
+      33.59550653884068,
+      12.08485460846714
+    ],
+    "components": []
+  },
+  {
+    "key": "e0055",
+    "text": "Monitor",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      173.5282662461032,
+      156.39753203412698,
+      24.107631851518818,
+      7.869211224176979
+    ],
+    "components": []
+  },
+  {
+    "key": "e0058",
+    "text": "Monitoring",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      149.38440614067807,
+      138.9837229025507,
+      33.42906722577027,
+      7.307135679773637
+    ],
+    "components": [
+      "local-agent"
+    ]
+  },
+  {
+    "key": "e0063",
+    "text": "Reactive",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      29.51898207888007,
+      105.34599761112628,
+      27.973105353412393,
+      7.869211224176979
+    ],
+    "components": [
+      "local-agent"
+    ]
+  },
+  {
+    "key": "e0066",
+    "text": "Proactive",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      82.44672752171755,
+      105.34599761112628,
+      29.972000908434012,
+      7.869211224176979
+    ],
+    "components": [
+      "local-agent"
+    ]
+  },
+  {
+    "key": "e0071",
+    "text": "Manage",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      99.18674818300497,
+      156.39753203412698,
+      25.981385230872576,
+      7.869211224176979
+    ],
+    "components": []
+  },
+  {
+    "key": "e0074",
+    "text": "Action",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      60.909195148560684,
+      128.35512999638019,
+      20.26565953674435,
+      7.8691892809583806
+    ],
+    "components": [
+      "local-agent"
+    ]
+  },
+  {
+    "key": "e0085",
+    "text": "Cold",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      220.56893140077594,
+      134.6695105803156,
+      13.307859897060553,
+      7.307135679773637
+    ],
+    "components": [
+      "backing-store"
+    ]
+  },
+  {
+    "key": "e0086",
+    "text": "Memory",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      215.53566174828305,
+      144.7360059988642,
+      23.504851636615058,
+      7.307135679773637
+    ],
+    "components": []
+  },
+  {
+    "key": "e0090",
+    "text": "Backing",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      213.34485080339803,
+      109.66020993336139,
+      25.578705226369493,
+      7.869211224176979
+    ],
+    "components": [
+      "backing-store"
+    ]
+  },
+  {
+    "key": "e0091",
+    "text": "Store",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      217.54669190318967,
+      118.2886345778316,
+      17.18764037748042,
+      7.869211224176979
+    ],
+    "components": [
+      "backing-store"
+    ]
+  },
+  {
+    "key": "e0094",
+    "text": "CVM 2",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      75.66083105653524,
+      182.28276208110043,
+      21.976330915473227,
+      7.869211224176979
+    ],
+    "components": [
+      "resource-band"
+    ]
+  },
+  {
+    "key": "e0097",
+    "text": "CVM 3",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      122.39813121408227,
+      182.28276208110043,
+      21.976352858691826,
+      7.869211224176979
+    ],
+    "components": [
+      "resource-band"
+    ]
+  },
+  {
+    "key": "e0105",
+    "text": "Guaranteed",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      157.17023313418034,
+      206.7300091268699,
+      37.974868277095084,
+      7.869211224176979
+    ],
+    "components": [
+      "instance-allocation"
+    ]
+  },
+  {
+    "key": "e0108",
+    "text": "Oversub",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      210.0305470662643,
+      206.7300091268699,
+      27.175030492981023,
+      7.869211224176979
+    ],
+    "components": [
+      "instance-allocation"
+    ]
+  },
+  {
+    "key": "e0113",
+    "text": "Guaranteed",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      83.46910596266389,
+      206.01097373983072,
+      37.97484633387651,
+      7.869211224176979
+    ],
+    "components": [
+      "instance-allocation"
+    ]
+  },
+  {
+    "key": "e0115",
+    "text": "Over",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      126.30788613110784,
+      206.01097373983072,
+      15.716501172973949,
+      7.869211224176979
+    ],
+    "components": [
+      "instance-allocation"
+    ]
+  },
+  {
+    "key": "e0124",
+    "text": "GPVM 1",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      24.878956846892834,
+      182.28276208110043,
+      27.174964663325227,
+      7.869211224176979
+    ],
+    "components": [
+      "resource-band"
+    ]
+  },
+  {
+    "key": "e0126",
+    "text": "Guaranteed",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      29.181934241205454,
+      206.01097373983072,
+      37.974868277095084,
+      7.869211224176979
+    ],
+    "components": [
+      "instance-allocation"
+    ]
+  },
+  {
+    "key": "e0127",
+    "text": "Memory",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      2.150015702282019,
+      165.45505333732578,
+      8.712335512391292,
+      30.42366914845843
+    ],
+    "components": []
+  },
+  {
+    "key": "e0131",
+    "text": "Unallocated",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      224.77079444378617,
+      183.0018194113582,
+      37.96764895817611,
+      7.869211224176979
+    ],
+    "components": []
+  },
+  {
+    "key": "e0132",
+    "text": "Cluster",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      3.3528239757979463,
+      21.44152613827103,
+      37.17623386458945,
+      12.084865580076439
+    ],
+    "components": [
+      "cluster-planning"
+    ]
+  },
+  {
+    "key": "e0137",
+    "text": "VM Utilization",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      24.440608140557742,
+      59.48469268325428,
+      48.6256567488781,
+      8.712335512391292
+    ],
+    "components": []
+  },
+  {
+    "key": "e0138",
+    "text": "Mitigation",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      17.183020248379762,
+      138.42162541492877,
+      33.95521074971839,
+      7.869211224176979
+    ],
+    "components": [
+      "local-agent"
+    ]
+  },
+  {
+    "key": "e0139",
+    "text": "Guaranteed",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      61.594701297581196,
+      168.65396066881664,
+      47.950101849492086,
+      9.836508544416574
+    ],
+    "components": [
+      "resource-band"
+    ]
+  },
+  {
+    "key": "e0140",
+    "text": "Oversubscribed",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      179.98834980153336,
+      168.65396066881664,
+      65.69880838332028,
+      9.836508544416574
+    ],
+    "components": [
+      "resource-band"
+    ]
+  },
+  {
+    "key": "e0149",
+    "text": "CVM 2 + CVM 3",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      164.47291434057846,
+      182.28276208110043,
+      52.1470934979734,
+      7.869211224176979
+    ],
+    "components": [
+      "resource-band"
+    ]
+  },
+  {
+    "key": "e0150",
+    "text": "CoachVM 2",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      95.9848156683147,
+      220.95373508179915,
+      33.808970169367996,
+      7.307135679773637
+    ],
+    "components": [
+      "instance-allocation"
+    ]
+  },
+  {
+    "key": "e0151",
+    "text": "CoachVM 3",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      180.8309693957199,
+      220.95373508179915,
+      33.86167778044182,
+      7.307135679773637
+    ],
+    "components": [
+      "instance-allocation"
+    ]
+  },
+  {
+    "key": "e0152",
+    "text": "General Purpose",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      23.71052434295416,
+      217.35855814660323,
+      48.972216971815214,
+      7.307135679773637
+    ],
+    "components": [
+      "instance-allocation"
+    ]
+  },
+  {
+    "key": "e0153",
+    "text": "VM 1",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      40.33804212248651,
+      225.26794740403426,
+      15.387901474459795,
+      7.307135679773637
+    ],
+    "components": [
+      "instance-allocation"
+    ]
+  }
+]

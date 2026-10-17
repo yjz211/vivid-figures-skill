@@ -1,0 +1,490 @@
+[
+  {
+    "key": "e0031",
+    "text": "Application Service",
+    "font_family": "VividSource-Tinos-BoldItalic",
+    "bounds": [
+      20.559566020965576,
+      42.0579252243042,
+      79.05392074584961,
+      10.637051582336426
+    ],
+    "components": [
+      "host-collector"
+    ]
+  },
+  {
+    "key": "e0032",
+    "text": "Application Service",
+    "font_family": "VividSource-Tinos-BoldItalic",
+    "bounds": [
+      112.80956602096558,
+      42.0579252243042,
+      79.05391502380371,
+      10.637051582336426
+    ],
+    "components": [
+      "host-collector"
+    ]
+  },
+  {
+    "key": "e0060",
+    "text": "Mint-agent",
+    "font_family": "VividSource-Tinos-BoldItalic",
+    "bounds": [
+      79.43817520141602,
+      88.83917522430421,
+      46.051998138427734,
+      10.637051582336426
+    ],
+    "components": [
+      "host-collector"
+    ]
+  },
+  {
+    "key": "e0064",
+    "text": "Pattern Library",
+    "font_family": "VividSource-Tinos-BoldItalic",
+    "bounds": [
+      20.49286127090454,
+      139.9329252243042,
+      63.28938102722168,
+      10.637051582336426
+    ],
+    "components": [
+      "host-collector"
+    ]
+  },
+  {
+    "key": "e0073",
+    "text": "Params Buffer",
+    "font_family": "VividSource-Tinos-BoldItalic",
+    "bounds": [
+      95.99676752090454,
+      139.9329252243042,
+      60.520151138305664,
+      10.637051582336426
+    ],
+    "components": [
+      "host-collector"
+    ]
+  },
+  {
+    "key": "e0090",
+    "text": "Mint-collector",
+    "font_family": "VividSource-Tinos-BoldItalic",
+    "bounds": [
+      177.68994426727295,
+      111.7385210990906,
+      10.637051582336426,
+      58.258432388305664
+    ],
+    "components": [
+      "host-collector"
+    ]
+  },
+  {
+    "key": "e0091",
+    "text": "Mint-backend",
+    "font_family": "VividSource-Tinos-BoldItalic",
+    "bounds": [
+      279.0670709609986,
+      49.1829252243042,
+      57.37862777709961,
+      10.637051582336426
+    ],
+    "components": [
+      "backend-rebuild"
+    ]
+  },
+  {
+    "key": "e0124",
+    "text": "Rebuild",
+    "font_family": "VividSource-Tinos-BoldItalic",
+    "bounds": [
+      235.51882410049438,
+      87.12644243240356,
+      22.618104457855225,
+      7.2331953048706055
+    ],
+    "components": [
+      "backend-rebuild"
+    ]
+  },
+  {
+    "key": "e0125",
+    "text": "Topo",
+    "font_family": "VividSource-Tinos-BoldItalic",
+    "bounds": [
+      240.01071166992188,
+      95.3764431476593,
+      13.64604663848877,
+      7.233196020126343
+    ],
+    "components": [
+      "backend-rebuild"
+    ]
+  },
+  {
+    "key": "e0149",
+    "text": "Merge",
+    "font_family": "VividSource-Tinos-BoldItalic",
+    "bounds": [
+      274.41167688369757,
+      119.70042705535889,
+      26.397960662841797,
+      10.637051582336426
+    ],
+    "components": [
+      "backend-rebuild"
+    ]
+  },
+  {
+    "key": "e0152",
+    "text": "+",
+    "font_family": "VividSource-Tinos-Bold",
+    "bounds": [
+      315.36364746093756,
+      116.81139898300172,
+      8.549530506134033,
+      16.59380149841307
+    ],
+    "components": [
+      "backend-rebuild"
+    ]
+  },
+  {
+    "key": "e0153",
+    "text": "if sampled",
+    "font_family": "VividSource-Tinos-BoldItalic",
+    "bounds": [
+      285.0589606761933,
+      157.9210844039917,
+      42.070329666137695,
+      10.637051582336426
+    ],
+    "components": [
+      "backend-rebuild"
+    ]
+  },
+  {
+    "key": "e0167",
+    "text": "Common Pattern Part",
+    "font_family": "VividSource-Tinos-BoldItalic",
+    "bounds": [
+      20.73417043685913,
+      185.11453533172607,
+      89.47809219360352,
+      10.637051582336426
+    ],
+    "components": [
+      "semantic-legend"
+    ]
+  },
+  {
+    "key": "e0170",
+    "text": "Variable Parameter Part",
+    "font_family": "VividSource-Tinos-BoldItalic",
+    "bounds": [
+      131.36267852783203,
+      185.86453533172607,
+      98.66558074951172,
+      10.637051582336426
+    ],
+    "components": [
+      "semantic-legend"
+    ]
+  },
+  {
+    "key": "e0173",
+    "text": "Metadata stored in Bloom Filter",
+    "font_family": "VividSource-Tinos-BoldItalic",
+    "bounds": [
+      257.2617436647415,
+      185.86453533172607,
+      130.27014541625977,
+      10.637051582336426
+    ],
+    "components": [
+      "semantic-legend"
+    ]
+  },
+  {
+    "key": "e0176",
+    "text": "Tracepoint",
+    "font_family": "VividSource-Tinos-BoldItalic",
+    "bounds": [
+      24.999427795410156,
+      204.8079252243042,
+      44.17339324951172,
+      10.637051582336426
+    ],
+    "components": [
+      "semantic-legend"
+    ]
+  },
+  {
+    "key": "e0179",
+    "text": "Collectors ",
+    "font_family": "VividSource-Tinos-BoldItalic",
+    "bounds": [
+      113.90662384033205,
+      202.76796579360965,
+      36.3800811767578,
+      8.93512487411499
+    ],
+    "components": [
+      "semantic-legend"
+    ]
+  },
+  {
+    "key": "e0180",
+    "text": "①",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      149.78215723744552,
+      202.50919628143313,
+      11.071456183872726,
+      9.156843423843384
+    ],
+    "components": [
+      "semantic-legend"
+    ]
+  },
+  {
+    "key": "e0181",
+    "text": " report all patterns and bloom",
+    "font_family": "VividSource-Tinos-BoldItalic",
+    "bounds": [
+      158.53162956237793,
+      202.76796579360965,
+      100.96236419677734,
+      8.93512487411499
+    ],
+    "components": [
+      "semantic-legend"
+    ]
+  },
+  {
+    "key": "e0182",
+    "text": "filters ",
+    "font_family": "VividSource-Tinos-BoldItalic",
+    "bounds": [
+      105.74676716327669,
+      214.76796722412112,
+      22.145403385162354,
+      8.935123443603516
+    ],
+    "components": [
+      "semantic-legend"
+    ]
+  },
+  {
+    "key": "e0183",
+    "text": "②",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      127.38762813321273,
+      214.50919628143313,
+      11.071456183872726,
+      9.156843423843384
+    ],
+    "components": [
+      "semantic-legend"
+    ]
+  },
+  {
+    "key": "e0184",
+    "text": " selectively report sampled parameters.",
+    "font_family": "VividSource-Tinos-BoldItalic",
+    "bounds": [
+      136.13709259033203,
+      214.76796722412112,
+      131.0910301208496,
+      8.935123443603516
+    ],
+    "components": [
+      "semantic-legend"
+    ]
+  },
+  {
+    "key": "e0187",
+    "text": "Backend notifies hosts to report all",
+    "font_family": "VividSource-Tinos-BoldItalic",
+    "bounds": [
+      301.2975407838822,
+      203.8050435781479,
+      119.0174446105957,
+      8.935123443603516
+    ],
+    "components": [
+      "semantic-legend"
+    ]
+  },
+  {
+    "key": "e0188",
+    "text": "parameters of the sampled trace.",
+    "font_family": "VividSource-Tinos-BoldItalic",
+    "bounds": [
+      304.7744021415711,
+      213.5550446510315,
+      111.38730239868164,
+      8.935123443603516
+    ],
+    "components": [
+      "semantic-legend"
+    ]
+  },
+  {
+    "key": "e0189",
+    "text": "Ingress",
+    "font_family": "VividSource-Tinos-BoldItalic",
+    "bounds": [
+      20.928730010986328,
+      6.432925224304199,
+      30.22357177734375,
+      10.637051582336426
+    ],
+    "components": []
+  },
+  {
+    "key": "e0190",
+    "text": "Egress",
+    "font_family": "VividSource-Tinos-BoldItalic",
+    "bounds": [
+      169.19207096099854,
+      6.432925224304199,
+      27.5165433883667,
+      10.637051582336426
+    ],
+    "components": []
+  },
+  {
+    "key": "e0194",
+    "text": "Match",
+    "font_family": "VividSource-Tinos-BoldItalic",
+    "bounds": [
+      254.31585168838507,
+      47.93894243240357,
+      18.493104457855225,
+      7.2331953048706055
+    ],
+    "components": [
+      "backend-rebuild"
+    ]
+  },
+  {
+    "key": "e0196",
+    "text": "Frontend",
+    "font_family": "VividSource-Tinos-BoldItalic",
+    "bounds": [
+      238.76617050170898,
+      12.1867094039917,
+      38.96846580505371,
+      10.637051582336426
+    ],
+    "components": [
+      "query-frontend"
+    ]
+  },
+  {
+    "key": "e0203",
+    "text": "Query",
+    "font_family": "VividSource-Tinos-BoldItalic",
+    "bounds": [
+      320.416506767273,
+      2.5639424324035645,
+      17.63042163848877,
+      7.2331953048706055
+    ],
+    "components": []
+  },
+  {
+    "key": "e0204",
+    "text": "Trace",
+    "font_family": "VividSource-Tinos-BoldItalic",
+    "bounds": [
+      321.10791015625006,
+      24.208252429962158,
+      16.25933074951172,
+      7.2331953048706055
+    ],
+    "components": [
+      "query-frontend"
+    ]
+  },
+  {
+    "key": "e0210",
+    "text": "Host",
+    "font_family": "VividSource-Tinos-BoldItalic",
+    "bounds": [
+      6.430362701416016,
+      113.57692313194276,
+      24.24700927734375,
+      13.189945220947266
+    ],
+    "components": [
+      "host-collector"
+    ]
+  },
+  {
+    "key": "e0211",
+    "text": "Approxi-",
+    "font_family": "VividSource-Tinos-BoldItalic",
+    "bounds": [
+      385.66893410682684,
+      95.96712017059326,
+      36.73919677734375,
+      10.637051582336426
+    ],
+    "components": []
+  },
+  {
+    "key": "e0212",
+    "text": "mate trace",
+    "font_family": "VividSource-Tinos-BoldItalic",
+    "bounds": [
+      383.4144290685654,
+      107.21712017059326,
+      41.94513988494873,
+      10.637051582336426
+    ],
+    "components": []
+  },
+  {
+    "key": "e0213",
+    "text": "Exact",
+    "font_family": "VividSource-Tinos-BoldItalic",
+    "bounds": [
+      392.32879114151007,
+      139.9299955368042,
+      24.395742416381836,
+      10.637051582336426
+    ],
+    "components": []
+  },
+  {
+    "key": "e0214",
+    "text": "trace",
+    "font_family": "VividSource-Tinos-BoldItalic",
+    "bounds": [
+      394.38318014144903,
+      151.1799955368042,
+      20.019354343414307,
+      10.637051582336426
+    ],
+    "components": []
+  },
+  {
+    "key": "e0221",
+    "text": "Storage",
+    "font_family": "VividSource-Tinos-BoldItalic",
+    "bounds": [
+      391.52740550041204,
+      47.682925224304206,
+      30.85920238494873,
+      10.637051582336426
+    ],
+    "components": []
+  }
+]

@@ -1,0 +1,104 @@
+{
+  "name": "索引预测表与执行反馈更新环",
+  "family": "control-loop",
+  "tags": [
+    "状态表",
+    "条件判断",
+    "反馈更新",
+    "编号步骤",
+    "不确定边界"
+  ],
+  "when_to_use": "有离散状态表、条件选择和结果回写的预测控制逻辑；需要把可观察执行步骤与仍不确定的控制模块分开说明",
+  "avoid": "没有状态更新的纯前馈分类流程；用此图替代经过验证的处理器精确实现模型",
+  "preserve": [
+    "左指令、中状态表、右执行决策的横向结构；启用与更新逻辑位于下方形成回路。",
+    "细黑箭头从指令到表再到执行，下面的更新路径回写表；Y/N 标签决定分支语义。",
+    "主体黑白，选中表项与指令行浅黄，逻辑区域淡粉；颜色表示关注区域而非状态概率。"
+  ],
+  "adapt": "先统一表容量、索引、状态位宽和更新规则，再改示例高亮行。；把 Uncovered 与 Not fully studied 换成项目实际证据状态，不能照搬研究结论。；条件与 Y/N 出口成对改写，回写必须落到被选表项。；复杂代码与数学条件通过 labels 定位修改后检查换行；拓扑改变使用 customize。",
+  "visual_note": "实际出版图很小，已放大确认中央表、右上 k=0 分支和右下 Aliasing 更新。虚线框的研究状态是示例内容，迁移时必须改写，不能当作通用视觉装饰。源标题中三处丢失的ti连字已由相邻文字和print确认修复。",
+  "id": "architecture.source.asplos25-117_fig2",
+  "display_code": "VA-114",
+  "parts": [
+    {
+      "id": "instruction-example",
+      "name": "指令与索引示例",
+      "role": "component",
+      "box": [
+        0.005,
+        0.005,
+        0.39,
+        0.54
+      ],
+      "meaning": "左侧代码块标出 Store 和 Load，并给出选择表项的示例索引。",
+      "reuse": "替换为事件序列时同步状态表索引，不能保留失配十六进制标签。"
+    },
+    {
+      "id": "enable-logic",
+      "name": "启用条件逻辑",
+      "role": "component",
+      "box": [
+        0.09,
+        0.55,
+        0.305,
+        0.3
+      ],
+      "meaning": "下方 Enable 菱形判断预测器是否介入。",
+      "reuse": "用实际触发条件替换，并重新命名 Uncovered 的证据状态。"
+    },
+    {
+      "id": "counter-table",
+      "name": "预测计数器表",
+      "role": "component",
+      "box": [
+        0.37,
+        0.005,
+        0.29,
+        0.66
+      ],
+      "meaning": "表格以首行、选中行和末行概括 256 个计数器。",
+      "reuse": "改变表容量和位宽必须同步 ID 范围、4 Bits 注释与更新阈值。"
+    },
+    {
+      "id": "execution-choice",
+      "name": "执行方式选择",
+      "role": "component",
+      "box": [
+        0.66,
+        0.005,
+        0.335,
+        0.31
+      ],
+      "meaning": "按 k=0 判断 In Order 或 Out of Order。",
+      "reuse": "条件与分支文本一起修改，勿只改菱形条件。"
+    },
+    {
+      "id": "order-buffer",
+      "name": "依赖记录缓冲",
+      "role": "component",
+      "box": [
+        0.43,
+        0.675,
+        0.215,
+        0.18
+      ],
+      "meaning": "Memory Order Buffer 提供待决依赖上下文。",
+      "reuse": "换成事件日志或任务依赖缓冲时保持连接含义。"
+    },
+    {
+      "id": "update-logic",
+      "name": "计数更新与回写",
+      "role": "component",
+      "box": [
+        0.66,
+        0.445,
+        0.335,
+        0.41
+      ],
+      "meaning": "Aliasing 判断后分别递减或置为 15，结果回写表项。",
+      "reuse": "按真实状态更新式改写两个分支；不沿用不成立的饱和值。"
+    }
+  ],
+  "implementation": "editable vector geometry",
+  "validation_status": "baseline-and-components-checked"
+}

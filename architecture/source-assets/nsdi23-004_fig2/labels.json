@@ -1,0 +1,1514 @@
+[
+  {
+    "key": "e0009",
+    "text": "Ctrl",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      429.49896240234364,
+      31.818969726562273,
+      20.16217041015625,
+      15.9290771484375
+    ],
+    "components": [
+      "runtime"
+    ]
+  },
+  {
+    "key": "e0012",
+    "text": "Data",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      460.0815429687499,
+      61.65893554687477,
+      25.217041015625,
+      15.9290771484375
+    ],
+    "components": [
+      "runtime"
+    ]
+  },
+  {
+    "key": "e0021",
+    "text": "App A",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      700.2780761718749,
+      9.158935546874773,
+      33.40496826171875,
+      15.9290771484375
+    ],
+    "components": [
+      "management"
+    ]
+  },
+  {
+    "key": "e0024",
+    "text": "App B",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      760.1734619140624,
+      9.158935546874773,
+      33.40509033203125,
+      15.9290771484375
+    ],
+    "components": [
+      "management"
+    ]
+  },
+  {
+    "key": "e0027",
+    "text": "App C",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      819.9699707031248,
+      9.158935546874773,
+      33.4051513671875,
+      15.9290771484375
+    ],
+    "components": [
+      "management"
+    ]
+  },
+  {
+    "key": "e0028",
+    "text": "…",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      867.4999999999998,
+      5.070922851562273,
+      14.0551118850708,
+      20.614164352416992
+    ],
+    "components": [
+      "management"
+    ]
+  },
+  {
+    "key": "e0031",
+    "text": "Frontend",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      696.9000244140624,
+      44.61596679687477,
+      40.8291015625,
+      14.0550537109375
+    ],
+    "components": [
+      "management"
+    ]
+  },
+  {
+    "key": "e0034",
+    "text": "Frontend",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      756.9000854492186,
+      44.61596679687477,
+      40.8289794921875,
+      14.0550537109375
+    ],
+    "components": [
+      "management"
+    ]
+  },
+  {
+    "key": "e0037",
+    "text": "Frontend",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      816.9000244140624,
+      44.61596679687477,
+      40.829223632812386,
+      14.0550537109375
+    ],
+    "components": [
+      "management"
+    ]
+  },
+  {
+    "key": "e0040",
+    "text": "Policy",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      702.1334838867186,
+      78.66479492187477,
+      30.7921142578125,
+      14.9920654296875
+    ],
+    "components": [
+      "management"
+    ]
+  },
+  {
+    "key": "e0043",
+    "text": "Global QoS Policy",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      731.2490234374999,
+      113.66491699218727,
+      91.62414550781239,
+      14.9920654296875
+    ],
+    "components": [
+      "management"
+    ]
+  },
+  {
+    "key": "e0046",
+    "text": "RDMA",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      731.0059814453124,
+      148.66491699218727,
+      33.29302978515625,
+      14.9920654296875
+    ],
+    "components": [
+      "management"
+    ]
+  },
+  {
+    "key": "e0049",
+    "text": "TCP",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      825.3709716796873,
+      148.66491699218727,
+      23.626220703125,
+      14.9920654296875
+    ],
+    "components": [
+      "management"
+    ]
+  },
+  {
+    "key": "e0081",
+    "text": "User - Initialization (§4.1)",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      59.5890197753906,
+      214.36791992187477,
+      166.300048828125,
+      20.6141357421875
+    ],
+    "components": [
+      "initialization"
+    ]
+  },
+  {
+    "key": "e0082",
+    "text": "User - Runtime (§4.2)",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      391.8740234374999,
+      214.36791992187477,
+      141.730224609375,
+      20.6141357421875
+    ],
+    "components": [
+      "runtime"
+    ]
+  },
+  {
+    "key": "e0083",
+    "text": "Operator - Management (§4.3)",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      698.3580322265624,
+      214.36791992187477,
+      202.8251953124999,
+      20.6141357421875
+    ],
+    "components": [
+      "management"
+    ]
+  },
+  {
+    "key": "e0084",
+    "text": "      Users build apps with the mRPC library and the ",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      2,
+      233.94494628906227,
+      278.0660705566406,
+      17.8031005859375
+    ],
+    "components": [
+      "initialization"
+    ]
+  },
+  {
+    "key": "e0085",
+    "text": "compiled protocol stub.      The app connects to the ",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      1.0630035400390625,
+      248.28100585937477,
+      282.8190612792969,
+      17.8031005859375
+    ],
+    "components": [
+      "initialization"
+    ]
+  },
+  {
+    "key": "e0086",
+    "text": "mRPC service, specifying protocols of interest.",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      2,
+      262.6169433593748,
+      251.54803466796872,
+      17.8031005859375
+    ],
+    "components": [
+      "initialization"
+    ]
+  },
+  {
+    "key": "e0087",
+    "text": "      The mRPC service compiles and loads a library ",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      2,
+      276.9530029296873,
+      276.72210693359375,
+      17.8031005859375
+    ],
+    "components": [
+      "initialization"
+    ]
+  },
+  {
+    "key": "e0088",
+    "text": "with app-speciﬁc marshaling functions.",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      1.0630035400390625,
+      291.2889404296873,
+      211.60099792480466,
+      17.8031005859375
+    ],
+    "components": [
+      "initialization"
+    ]
+  },
+  {
+    "key": "e0089",
+    "text": "      Users invoke RPCs using familiar function stubs,",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      327.00006103515614,
+      233.94494628906227,
+      280.9122314453125,
+      17.8031005859375
+    ],
+    "components": [
+      "runtime"
+    ]
+  },
+  {
+    "key": "e0090",
+    "text": "      while the mRPC library handles allocations and ",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      327.00006103515614,
+      248.28100585937477,
+      275.37823486328125,
+      17.8031005859375
+    ],
+    "components": [
+      "runtime"
+    ]
+  },
+  {
+    "key": "e0091",
+    "text": "dispatching RPCs through shared memory.      The ",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      326.06304931640614,
+      262.6169433593748,
+      274.81524658203125,
+      17.8031005859375
+    ],
+    "components": [
+      "runtime"
+    ]
+  },
+  {
+    "key": "e0092",
+    "text": "mRPC service implements the RPC processing logic ",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      327.00006103515614,
+      276.9530029296873,
+      284.498291015625,
+      17.8031005859375
+    ],
+    "components": [
+      "runtime"
+    ]
+  },
+  {
+    "key": "e0093",
+    "text": "with minimal copies and marshaling of data.",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      326.06304931640614,
+      291.2889404296873,
+      237.185302734375,
+      17.8031005859375
+    ],
+    "components": [
+      "runtime"
+    ]
+  },
+  {
+    "key": "e0094",
+    "text": "      Operators manage RPC services by applying ",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      667.0000610351561,
+      233.94494628906227,
+      264.27789306640614,
+      17.8031005859375
+    ],
+    "components": [
+      "management"
+    ]
+  },
+  {
+    "key": "e0095",
+    "text": "policies (global or per-app) and adding/upgrading ",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      666.0630493164061,
+      248.28100585937477,
+      269.42657470703114,
+      17.8031005859375
+    ],
+    "components": [
+      "management"
+    ]
+  },
+  {
+    "key": "e0096",
+    "text": "processing logic. All of this can be done without ",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      666.0630493164061,
+      262.6169433593748,
+      261.19500732421864,
+      17.8031005859375
+    ],
+    "components": [
+      "management"
+    ]
+  },
+  {
+    "key": "e0097",
+    "text": "disrupting (or modifying) apps.",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      666.0630493164061,
+      276.9530029296873,
+      164.71710205078114,
+      17.8031005859375
+    ],
+    "components": [
+      "management"
+    ]
+  },
+  {
+    "key": "e0098",
+    "text": "mRPC Service",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      669.2080078124999,
+      63.661865234375,
+      16.8660888671875,
+      81.78912353515625
+    ],
+    "components": [
+      "management"
+    ]
+  },
+  {
+    "key": "e0102",
+    "text": "Apply",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      899.5050048828123,
+      52.81884765624977,
+      30.112060546875,
+      14.9920654296875
+    ],
+    "components": [
+      "management"
+    ]
+  },
+  {
+    "key": "e0103",
+    "text": "to",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      908.6740722656248,
+      80.81896972656227,
+      11.89794921875,
+      14.9920654296875
+    ],
+    "components": [
+      "management"
+    ]
+  },
+  {
+    "key": "e0106",
+    "text": "Policy",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      900.9849853515623,
+      68.61596679687477,
+      28.5889892578125,
+      14.0550537109375
+    ],
+    "components": [
+      "management"
+    ]
+  },
+  {
+    "key": "e0109",
+    "text": "App A",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      899.3929443359373,
+      95.61096191406227,
+      31.040283203125,
+      14.0550537109375
+    ],
+    "components": [
+      "management"
+    ]
+  },
+  {
+    "key": "e0118",
+    "text": "7",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      875.5051269531248,
+      121.65881347656227,
+      8.433067321777344,
+      15.92912769317627
+    ],
+    "components": [
+      "management"
+    ]
+  },
+  {
+    "key": "e0119",
+    "text": "Update",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      896.3669433593748,
+      141.81896972656227,
+      37.8560791015625,
+      14.9920654296875
+    ],
+    "components": [
+      "management"
+    ]
+  },
+  {
+    "key": "e0122",
+    "text": "RDMA",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      899.9600830078123,
+      158.61596679687477,
+      31.032958984375,
+      14.0550537109375
+    ],
+    "components": [
+      "management"
+    ]
+  },
+  {
+    "key": "e0125",
+    "text": "Frontend",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      553.3900756835936,
+      108.66491699218727,
+      44.256103515625,
+      14.9920654296875
+    ],
+    "components": [
+      "runtime"
+    ]
+  },
+  {
+    "key": "e0128",
+    "text": "Policy",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      560.6335449218749,
+      128.66491699218727,
+      30.7919921875,
+      14.9920654296875
+    ],
+    "components": [
+      "runtime"
+    ]
+  },
+  {
+    "key": "e0131",
+    "text": "RDMA   libApp",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      539.1284790039061,
+      148.66491699218727,
+      73.71600341796875,
+      14.9920654296875
+    ],
+    "components": [
+      "runtime"
+    ]
+  },
+  {
+    "key": "e0134",
+    "text": "NIC",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      546.1335449218749,
+      183.66491699218727,
+      19.22406005859375,
+      14.9920654296875
+    ],
+    "components": [
+      "runtime"
+    ]
+  },
+  {
+    "key": "e0139",
+    "text": "mRPC",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      341.0059814453124,
+      52.51098632812477,
+      32.47900390625,
+      14.9920654296875
+    ],
+    "components": [
+      "runtime"
+    ]
+  },
+  {
+    "key": "e0140",
+    "text": "Library",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      340.0930175781249,
+      64.81896972656227,
+      34.8731689453125,
+      14.9920654296875
+    ],
+    "components": [
+      "runtime"
+    ]
+  },
+  {
+    "key": "e0145",
+    "text": "Stub",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      344.4470214843749,
+      31.164916992187273,
+      25.14208984375,
+      14.9920654296875
+    ],
+    "components": [
+      "runtime"
+    ]
+  },
+  {
+    "key": "e0148",
+    "text": "libApp",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      571.2095336914061,
+      31.164916992187273,
+      32.55401611328125,
+      14.9920654296875
+    ],
+    "components": [
+      "runtime"
+    ]
+  },
+  {
+    "key": "e0151",
+    "text": "App A",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      337.4079589843749,
+      6.818969726562273,
+      39.64910888671875,
+      18.7401123046875
+    ],
+    "components": [
+      "runtime"
+    ]
+  },
+  {
+    "key": "e0154",
+    "text": "mRPC",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      567.2659912109374,
+      6.818969726562273,
+      40.14208984375,
+      18.7401123046875
+    ],
+    "components": [
+      "runtime"
+    ]
+  },
+  {
+    "key": "e0159",
+    "text": "mRPC",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      96.0060119628906,
+      52.51098632812477,
+      32.47906494140625,
+      14.9920654296875
+    ],
+    "components": [
+      "initialization"
+    ]
+  },
+  {
+    "key": "e0160",
+    "text": "Library",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      95.09301757812497,
+      64.81896972656227,
+      34.873046875,
+      14.9920654296875
+    ],
+    "components": [
+      "initialization"
+    ]
+  },
+  {
+    "key": "e0165",
+    "text": "mRPC",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      16.006011962890625,
+      68.85693359374977,
+      32.47904968261719,
+      14.9920654296875
+    ],
+    "components": [
+      "initialization"
+    ]
+  },
+  {
+    "key": "e0166",
+    "text": "Schema",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      10.889007568359375,
+      81.16491699218727,
+      42.87408447265622,
+      14.9920654296875
+    ],
+    "components": [
+      "initialization"
+    ]
+  },
+  {
+    "key": "e0167",
+    "text": "Compiler",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      8.7550048828125,
+      93.47302246093727,
+      46.57501220703122,
+      14.9920654296875
+    ],
+    "components": [
+      "initialization"
+    ]
+  },
+  {
+    "key": "e0170",
+    "text": "Stub",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      99.44699096679685,
+      31.164916992187273,
+      25.14208984375,
+      14.9920654296875
+    ],
+    "components": [
+      "initialization"
+    ]
+  },
+  {
+    "key": "e0173",
+    "text": "libApp",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      186.20953369140622,
+      31.164916992187273,
+      32.55401611328125,
+      14.9920654296875
+    ],
+    "components": [
+      "initialization"
+    ]
+  },
+  {
+    "key": "e0176",
+    "text": "Stub",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      19.446990966796875,
+      31.164916992187273,
+      25.14208984375,
+      14.9920654296875
+    ],
+    "components": [
+      "initialization"
+    ]
+  },
+  {
+    "key": "e0179",
+    "text": "App A",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      92.4079895019531,
+      6.818969726562273,
+      39.64910888671875,
+      18.7401123046875
+    ],
+    "components": [
+      "initialization"
+    ]
+  },
+  {
+    "key": "e0182",
+    "text": "mRPC",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      182.2660217285156,
+      6.818969726562273,
+      40.14202880859375,
+      18.7401123046875
+    ],
+    "components": [
+      "initialization"
+    ]
+  },
+  {
+    "key": "e0185",
+    "text": "Proto",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      188.6570129394531,
+      52.51098632812477,
+      27.868072509765625,
+      14.9920654296875
+    ],
+    "components": [
+      "initialization"
+    ]
+  },
+  {
+    "key": "e0186",
+    "text": "Codegen",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      178.55151367187497,
+      64.81896972656227,
+      46.403076171875,
+      14.9920654296875
+    ],
+    "components": [
+      "initialization"
+    ]
+  },
+  {
+    "key": "e0199",
+    "text": "Connect(            , …)",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      99.9270324707031,
+      112.70800781249977,
+      114.5579833984375,
+      16.8660888671875
+    ],
+    "components": [
+      "initialization"
+    ]
+  },
+  {
+    "key": "e0202",
+    "text": "Proto",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      157.1570129394531,
+      113.16479492187477,
+      27.8680419921875,
+      14.9920654296875
+    ],
+    "components": [
+      "initialization"
+    ]
+  },
+  {
+    "key": "e0206",
+    "text": "Compile",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      236.06298828124997,
+      73.35693359374977,
+      43.47903442382815,
+      14.9920654296875
+    ],
+    "components": [
+      "initialization"
+    ]
+  },
+  {
+    "key": "e0207",
+    "text": "And",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      236.06298828124997,
+      85.66491699218727,
+      20.740081787109403,
+      14.9920654296875
+    ],
+    "components": [
+      "initialization"
+    ]
+  },
+  {
+    "key": "e0208",
+    "text": "Load",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      236.99999999999997,
+      97.97302246093727,
+      24.89605712890628,
+      14.9920654296875
+    ],
+    "components": [
+      "initialization"
+    ]
+  },
+  {
+    "key": "e0211",
+    "text": "1",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      28.942001342773438,
+      11.658813476562273,
+      6.119815826416016,
+      15.92912769317627
+    ],
+    "components": [
+      "initialization"
+    ]
+  },
+  {
+    "key": "e0214",
+    "text": "2",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      153.00497436523435,
+      94.15881347656227,
+      8.433067321777344,
+      15.92912769317627
+    ],
+    "components": [
+      "initialization"
+    ]
+  },
+  {
+    "key": "e0217",
+    "text": "3",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      243.00500488281247,
+      59.15893554687477,
+      8.433067321777344,
+      15.92912769317627
+    ],
+    "components": [
+      "initialization"
+    ]
+  },
+  {
+    "key": "e0223",
+    "text": "m",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      359.80853271484364,
+      183.66491699218727,
+      9.370075225830078,
+      14.992119789123535
+    ],
+    "components": [
+      "runtime"
+    ]
+  },
+  {
+    "key": "e0226",
+    "text": "key",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      397.50506591796864,
+      183.66491699218727,
+      19.1119384765625,
+      14.9920654296875
+    ],
+    "components": [
+      "runtime"
+    ]
+  },
+  {
+    "key": "e0229",
+    "text": "…",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      442.00006103515614,
+      184.61096191406227,
+      10.307082176208496,
+      14.0551118850708
+    ],
+    "components": [
+      "runtime"
+    ]
+  },
+  {
+    "key": "e0232",
+    "text": "5",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      330.5050048828124,
+      251.65893554687477,
+      8.433067321777344,
+      15.92912769317627
+    ],
+    "components": [
+      "runtime"
+    ]
+  },
+  {
+    "key": "e0235",
+    "text": "RPC",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      492.19757080078114,
+      133.66479492187477,
+      23.095947265625,
+      14.9920654296875
+    ],
+    "components": [
+      "runtime"
+    ]
+  },
+  {
+    "key": "e0244",
+    "text": "Verbs",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      488.7084960937499,
+      163.66491699218727,
+      29.705078125,
+      14.9920654296875
+    ],
+    "components": [
+      "runtime"
+    ]
+  },
+  {
+    "key": "e0247",
+    "text": "6",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      490.50506591796864,
+      106.65881347656227,
+      8.433067321777344,
+      15.92912769317627
+    ],
+    "components": [
+      "runtime"
+    ]
+  },
+  {
+    "key": "e0256",
+    "text": "4",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      330.5050048828124,
+      106.65881347656227,
+      8.433067321777344,
+      15.92912769317627
+    ],
+    "components": [
+      "runtime"
+    ]
+  },
+  {
+    "key": "e0257",
+    "text": "key = ",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      351.0629882812499,
+      105.83984374999977,
+      30.7708740234375,
+      14.9920654296875
+    ],
+    "components": [
+      "runtime"
+    ]
+  },
+  {
+    "key": "e0258",
+    "text": "mBytes",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      380.89495849609364,
+      105.83984374999977,
+      41.235107421875,
+      15.9290771484375
+    ],
+    "components": [
+      "runtime"
+    ]
+  },
+  {
+    "key": "e0259",
+    "text": "::new()",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      420.3430175781249,
+      105.83984374999977,
+      33.0740966796875,
+      14.9920654296875
+    ],
+    "components": [
+      "runtime"
+    ]
+  },
+  {
+    "key": "e0260",
+    "text": "m = ",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      351.9999999999999,
+      119.15893554687477,
+      22.1009521484375,
+      14.9920654296875
+    ],
+    "components": [
+      "runtime"
+    ]
+  },
+  {
+    "key": "e0261",
+    "text": "mRef",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      373.1619873046874,
+      119.15893554687477,
+      29.0521240234375,
+      15.9290771484375
+    ],
+    "components": [
+      "runtime"
+    ]
+  },
+  {
+    "key": "e0262",
+    "text": "(GetReq{key})",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      400.9940185546874,
+      119.15893554687477,
+      68.72509765625,
+      14.9920654296875
+    ],
+    "components": [
+      "runtime"
+    ]
+  },
+  {
+    "key": "e0263",
+    "text": "entry = ",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      351.0629882812499,
+      132.47900390624977,
+      38.3060302734375,
+      14.9920654296875
+    ],
+    "components": [
+      "runtime"
+    ]
+  },
+  {
+    "key": "e0264",
+    "text": "Get",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      388.4300537109374,
+      132.47900390624977,
+      20.0870361328125,
+      15.9290771484375
+    ],
+    "components": [
+      "runtime"
+    ]
+  },
+  {
+    "key": "e0265",
+    "text": "(m)",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      407.4949951171874,
+      132.47900390624977,
+      15.98004150390625,
+      14.9920654296875
+    ],
+    "components": [
+      "runtime"
+    ]
+  },
+  {
+    "key": "e0271",
+    "text": "NIC",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      737.6334838867186,
+      183.66491699218727,
+      19.22406005859375,
+      14.9920654296875
+    ],
+    "components": [
+      "management"
+    ]
+  },
+  {
+    "key": "e0274",
+    "text": "NIC",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      827.6330566406248,
+      183.66491699218727,
+      19.22412109375,
+      14.9920654296875
+    ],
+    "components": [
+      "management"
+    ]
+  },
+  {
+    "key": "e0277",
+    "text": "1",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      6.4420166015625,
+      236.65893554687477,
+      6.119830131530762,
+      15.92912769317627
+    ],
+    "components": [
+      "initialization"
+    ]
+  },
+  {
+    "key": "e0280",
+    "text": "2",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      135.50500488281247,
+      250.65893554687477,
+      8.433067321777344,
+      15.92912769317627
+    ],
+    "components": [
+      "initialization"
+    ]
+  },
+  {
+    "key": "e0283",
+    "text": "3",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      5.5050048828125,
+      279.6589355468748,
+      8.433067321777344,
+      15.92912769317627
+    ],
+    "components": [
+      "initialization"
+    ]
+  },
+  {
+    "key": "e0287",
+    "text": "&m",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      387.9064941406249,
+      161.16479492187477,
+      17.237060546875,
+      14.9920654296875
+    ],
+    "components": [
+      "runtime"
+    ]
+  },
+  {
+    "key": "e0288",
+    "text": "Meta",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      354.5700683593749,
+      161.16479492187477,
+      26.448974609375,
+      14.9920654296875
+    ],
+    "components": [
+      "runtime"
+    ]
+  },
+  {
+    "key": "e0292",
+    "text": "4",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      330.5050048828124,
+      236.65893554687477,
+      8.433067321777344,
+      15.92912769317627
+    ],
+    "components": [
+      "runtime"
+    ]
+  },
+  {
+    "key": "e0295",
+    "text": "6",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      563.5050659179686,
+      265.6589355468748,
+      8.433067321777344,
+      15.92912769317627
+    ],
+    "components": [
+      "runtime"
+    ]
+  },
+  {
+    "key": "e0298",
+    "text": "5",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      330.5050048828124,
+      161.65881347656227,
+      8.433067321777344,
+      15.92912769317627
+    ],
+    "components": [
+      "runtime"
+    ]
+  },
+  {
+    "key": "e0301",
+    "text": "7",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      670.5050048828124,
+      236.65893554687477,
+      8.433067321777344,
+      15.92912769317627
+    ],
+    "components": [
+      "management"
+    ]
+  },
+  {
+    "key": "e0304",
+    "text": "RPC",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      575.6975097656249,
+      52.51098632812477,
+      23.0960693359375,
+      14.9920654296875
+    ],
+    "components": [
+      "runtime"
+    ]
+  },
+  {
+    "key": "e0305",
+    "text": "Engines",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      567.4420166015624,
+      64.81896972656227,
+      40.1751708984375,
+      14.9920654296875
+    ],
+    "components": [
+      "runtime"
+    ]
+  },
+  {
+    "key": "e0306",
+    "text": "Service KVStore",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      11.063003540039062,
+      167.50500488281227,
+      84.44306945800778,
+      15.9290771484375
+    ],
+    "components": [
+      "initialization"
+    ]
+  },
+  {
+    "key": "e0307",
+    "text": "  Get(GetReq)",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      12,
+      180.82495117187477,
+      68.1200256347656,
+      14.9920654296875
+    ],
+    "components": [
+      "initialization"
+    ]
+  },
+  {
+    "key": "e0308",
+    "text": "→",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      79.22100830078122,
+      182.69897460937477,
+      10.995197296142578,
+      12.181097030639648
+    ],
+    "components": [
+      "initialization"
+    ]
+  },
+  {
+    "key": "e0309",
+    "text": "(Entry)",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      90.22100830078122,
+      180.82495117187477,
+      32.06201171875,
+      14.9920654296875
+    ],
+    "components": [
+      "initialization"
+    ]
+  },
+  {
+    "key": "e0310",
+    "text": "Msg GetReq",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      128.0630187988281,
+      168.00488281249977,
+      65.49008178710938,
+      15.9290771484375
+    ],
+    "components": [
+      "initialization"
+    ]
+  },
+  {
+    "key": "e0311",
+    "text": "  bytes key",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      129.0000305175781,
+      180.32495117187477,
+      54.244110107421875,
+      14.9920654296875
+    ],
+    "components": [
+      "initialization"
+    ]
+  },
+  {
+    "key": "e0312",
+    "text": "Msg Entry",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      201.0630187988281,
+      168.00488281249977,
+      54.281097412109375,
+      15.9290771484375
+    ],
+    "components": [
+      "initialization"
+    ]
+  },
+  {
+    "key": "e0313",
+    "text": "  bytes? value",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      202.0000305175781,
+      180.32495117187477,
+      69.6460876464844,
+      14.9920654296875
+    ],
+    "components": [
+      "initialization"
+    ]
+  },
+  {
+    "key": "e0317",
+    "text": "Proto",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      18.657012939453125,
+      146.16479492187477,
+      27.8680419921875,
+      14.9920654296875
+    ],
+    "components": [
+      "initialization"
+    ]
+  },
+  {
+    "key": "e0318",
+    "text": "Shared Memory",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      427.04705810546864,
+      5.881958007812273,
+      91.17401123046875,
+      16.8660888671875
+    ],
+    "components": [
+      "runtime"
+    ]
+  }
+]

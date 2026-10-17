@@ -1,0 +1,256 @@
+[
+  {
+    "key": "e0003",
+    "text": "Inferlet Lifcycle Manager",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      489.56640625,
+      42.276397705078125,
+      218.53717041015625,
+      28.615432739257812
+    ],
+    "components": [
+      "application-control"
+    ]
+  },
+  {
+    "key": "e0006",
+    "text": "Inferlet",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      48.0078010559082,
+      42.659698486328125,
+      61.449832916259766,
+      28.615432739257812
+    ],
+    "components": [
+      "application-control"
+    ]
+  },
+  {
+    "key": "e0009",
+    "text": "Inferlet",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      325.68548583984375,
+      43.424285888671875,
+      61.449798583984375,
+      28.615432739257812
+    ],
+    "components": [
+      "application-control"
+    ]
+  },
+  {
+    "key": "e0012",
+    "text": "Inferlet",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      159.5625,
+      43.039581298828125,
+      61.44981384277344,
+      28.615432739257812
+    ],
+    "components": [
+      "application-control"
+    ]
+  },
+  {
+    "key": "e0016",
+    "text": "Controller",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      311.5653991699219,
+      150.85739135742188,
+      87.35723876953125,
+      28.615432739257812
+    ],
+    "components": [
+      "request-controller"
+    ]
+  },
+  {
+    "key": "e0019",
+    "text": "Batch scheduler",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      547.9180297851562,
+      161.92239379882812,
+      144.0772705078125,
+      28.615432739257812
+    ],
+    "components": [
+      "queue-batcher"
+    ]
+  },
+  {
+    "key": "e0022",
+    "text": "API handler",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      598.2408447265625,
+      275.37789154052734,
+      105.91107177734375,
+      28.615428924560547
+    ],
+    "components": [
+      "execution-handlers"
+    ]
+  },
+  {
+    "key": "e0036",
+    "text": "commandqueues",
+    "font_family": "VividSource-texgyreheros-italic",
+    "bounds": [
+      618.8307495117188,
+      102.04100036621094,
+      91.007080078125,
+      52.61543273925781
+    ],
+    "components": []
+  },
+  {
+    "key": "e0040",
+    "text": "...",
+    "font_family": "VividSource-texgyreheros-italic",
+    "bounds": [
+      567.2227205521449,
+      115.14106452340275,
+      10.843179619932926,
+      23.901179568014413
+    ],
+    "components": [
+      "queue-batcher"
+    ]
+  },
+  {
+    "key": "e0043",
+    "text": "API handler",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      426.9771728515625,
+      275.37789154052734,
+      105.91094970703125,
+      28.615428924560547
+    ],
+    "components": [
+      "execution-handlers"
+    ]
+  },
+  {
+    "key": "e0046",
+    "text": "API handler",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      256.9371643066406,
+      275.37789154052734,
+      105.91098022460938,
+      28.615428924560547
+    ],
+    "components": [
+      "execution-handlers"
+    ]
+  },
+  {
+    "key": "e0049",
+    "text": "API handler",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      85.12857055664062,
+      275.37789154052734,
+      105.9110107421875,
+      28.615428924560547
+    ],
+    "components": [
+      "execution-handlers"
+    ]
+  },
+  {
+    "key": "e0052",
+    "text": "Event dispatcher",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      48.209999084472656,
+      157.76080322265625,
+      149.6372833251953,
+      28.615432739257812
+    ],
+    "components": [
+      "event-dispatcher"
+    ]
+  },
+  {
+    "key": "e0059",
+    "text": "1",
+    "font_family": "VividSource-texgyreheros-italic",
+    "bounds": [
+      423.1972961425781,
+      17.789581298828125,
+      11.120579719543457,
+      28.615428924560547
+    ],
+    "components": [
+      "application-control"
+    ]
+  },
+  {
+    "key": "e0060",
+    "text": "Application layerControl layerInference layer",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      4.20355749130249,
+      -2.290374755859375,
+      162.91847229003906,
+      266.9354248046875
+    ],
+    "components": []
+  },
+  {
+    "key": "e0063",
+    "text": "2",
+    "font_family": "VividSource-texgyreheros-italic",
+    "bounds": [
+      365.3460388183594,
+      94.57078552246094,
+      13.940850257873535,
+      28.615428924560547
+    ],
+    "components": []
+  },
+  {
+    "key": "e0066",
+    "text": "3",
+    "font_family": "VividSource-texgyreheros-italic",
+    "bounds": [
+      483.96795654296875,
+      137.92237854003906,
+      12.473392486572266,
+      28.615428924560547
+    ],
+    "components": []
+  },
+  {
+    "key": "e0069",
+    "text": "4",
+    "font_family": "VividSource-texgyreheros-italic",
+    "bounds": [
+      551.4962158203125,
+      209.9644012451172,
+      12.473392486572266,
+      28.615428924560547
+    ],
+    "components": []
+  },
+  {
+    "key": "e0072",
+    "text": "5",
+    "font_family": "VividSource-texgyreheros-italic",
+    "bounds": [
+      230.7716522216797,
+      212.85888671875,
+      13.207120895385742,
+      28.615428924560547
+    ],
+    "components": []
+  }
+]

@@ -1,0 +1,86 @@
+{
+  "svg": "C:\\Users\\hhhh\\Desktop\\MCM-ICM-AI-Lab\\workstreams\\architecture-native-guides\\package\\architecture\\source-assets\\nsdi24-064_fig3\\fig.svg",
+  "print_size_pt": [
+    468.0,
+    268.67621621121305
+  ],
+  "text_count": 31,
+  "parts": 0,
+  "errors": [
+    {
+      "type": "text-overlap",
+      "texts": [
+        "Internal Service Interface",
+        "Internal Service Interface"
+      ],
+      "overlap": [
+        79.4,
+        6.2
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "Klonet Worker",
+        "Klonet Worker"
+      ],
+      "overlap": [
+        39.6,
+        5.4
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "Klonet Worker",
+        "Internal Service Interface"
+      ],
+      "overlap": [
+        6.0,
+        4.3
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "Internal Service Interface",
+        "Internal Service Interface"
+      ],
+      "overlap": [
+        81.5,
+        6.3
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "Klonet Worker",
+        "Klonet Agent"
+      ],
+      "overlap": [
+        39.3,
+        5.5
+      ]
+    }
+  ],
+  "warnings": [],
+  "pdf": {
+    "page_count": 1,
+    "fonts": [
+      {
+        "name": "AAAAAA+Carlito-Bold",
+        "type": "Type0"
+      },
+      {
+        "name": "BAAAAA+Carlito-BoldItalic",
+        "type": "Type0"
+      },
+      {
+        "name": "CAAAAA+Carlito",
+        "type": "Type0"
+      }
+    ],
+    "images": 0
+  },
+  "scope": "Measured text bounds, intersections, print font size, and PDF structure. Connections and visual fidelity require actual image inspection."
+}

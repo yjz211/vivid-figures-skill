@@ -1,0 +1,378 @@
+[
+  {
+    "key": "e0002",
+    "text": "\n    Training framework\n  ",
+    "font_family": "Arial, sans-serif",
+    "font_size": 21,
+    "font_weight": "700",
+    "font_style": "normal",
+    "bounds": [
+      53.149681091308594,
+      11.239628791809082,
+      193.7152557373047,
+      23.40045738220215
+    ],
+    "components": []
+  },
+  {
+    "key": "e0003",
+    "text": "\n    Execution planner\n  ",
+    "font_family": "Arial, sans-serif",
+    "font_size": 21,
+    "font_weight": "700",
+    "font_style": "normal",
+    "bounds": [
+      352.9857177734375,
+      11.239628791809082,
+      182.8438262939453,
+      23.40045738220215
+    ],
+    "components": []
+  },
+  {
+    "key": "e0004",
+    "text": "\n    Produced artifacts\n  ",
+    "font_family": "Arial, sans-serif",
+    "font_size": 21,
+    "font_weight": "700",
+    "font_style": "normal",
+    "bounds": [
+      641.8185424804688,
+      11.239628791809082,
+      184.3629913330078,
+      23.40045738220215
+    ],
+    "components": []
+  },
+  {
+    "key": "e0008",
+    "text": "\n        1\n      ",
+    "font_family": "Arial, sans-serif",
+    "font_size": 17,
+    "font_weight": "700",
+    "font_style": "normal",
+    "bounds": [
+      338.2678527832031,
+      53.479698181152344,
+      9.464247703552246,
+      18.90036964416504
+    ],
+    "components": [
+      "planner",
+      "stage-0"
+    ]
+  },
+  {
+    "key": "e0009",
+    "text": "\n        Graph\n        contraction\n      ",
+    "font_family": "Arial, sans-serif",
+    "font_size": 23,
+    "font_weight": "700",
+    "font_style": "normal",
+    "bounds": [
+      380.39251708984375,
+      67.54959106445312,
+      125.2149658203125,
+      52.34049987792969
+    ],
+    "components": [
+      "planner",
+      "stage-0"
+    ]
+  },
+  {
+    "key": "e0012",
+    "text": "\n        2\n      ",
+    "font_family": "Arial, sans-serif",
+    "font_size": 17,
+    "font_weight": "700",
+    "font_style": "normal",
+    "bounds": [
+      338.2678527832031,
+      165.47970581054688,
+      9.464247703552246,
+      18.90036964416504
+    ],
+    "components": [
+      "planner",
+      "stage-1"
+    ]
+  },
+  {
+    "key": "e0013",
+    "text": "\n        Scalability\n        estimation\n      ",
+    "font_family": "Arial, sans-serif",
+    "font_size": 23,
+    "font_weight": "700",
+    "font_style": "normal",
+    "bounds": [
+      382.923828125,
+      179.54959106445312,
+      120.15234375,
+      52.340484619140625
+    ],
+    "components": [
+      "planner",
+      "stage-1"
+    ]
+  },
+  {
+    "key": "e0017",
+    "text": "\n        3\n      ",
+    "font_family": "Arial, sans-serif",
+    "font_size": 17,
+    "font_weight": "700",
+    "font_style": "normal",
+    "bounds": [
+      338.2678527832031,
+      277.4797058105469,
+      9.464247703552246,
+      18.90036964416504
+    ],
+    "components": [
+      "planner",
+      "stage-2"
+    ]
+  },
+  {
+    "key": "e0018",
+    "text": "\n        Resource\n        allocation\n      ",
+    "font_family": "Arial, sans-serif",
+    "font_size": 23,
+    "font_weight": "700",
+    "font_style": "normal",
+    "bounds": [
+      387.3957824707031,
+      291.5495910644531,
+      111.20843505859375,
+      52.34051513671875
+    ],
+    "components": [
+      "planner",
+      "stage-2"
+    ]
+  },
+  {
+    "key": "e0022",
+    "text": "\n        4\n      ",
+    "font_family": "Arial, sans-serif",
+    "font_size": 17,
+    "font_weight": "700",
+    "font_style": "normal",
+    "bounds": [
+      338.2678527832031,
+      389.47967529296875,
+      9.90019416809082,
+      18.90036964416504
+    ],
+    "components": [
+      "planner",
+      "stage-3"
+    ]
+  },
+  {
+    "key": "e0023",
+    "text": "\n        Wavefront\n        scheduling\n      ",
+    "font_family": "Arial, sans-serif",
+    "font_size": 23,
+    "font_weight": "700",
+    "font_style": "normal",
+    "bounds": [
+      382.3050537109375,
+      403.5495910644531,
+      121.389892578125,
+      52.34051513671875
+    ],
+    "components": [
+      "planner",
+      "stage-3"
+    ]
+  },
+  {
+    "key": "e0027",
+    "text": "\n        5\n      ",
+    "font_family": "Arial, sans-serif",
+    "font_size": 17,
+    "font_weight": "700",
+    "font_style": "normal",
+    "bounds": [
+      338.2678527832031,
+      501.4797058105469,
+      9.90019416809082,
+      18.90036964416504
+    ],
+    "components": [
+      "planner",
+      "stage-4"
+    ]
+  },
+  {
+    "key": "e0028",
+    "text": "\n        Device\n        placement\n      ",
+    "font_family": "Arial, sans-serif",
+    "font_size": 23,
+    "font_weight": "700",
+    "font_style": "normal",
+    "bounds": [
+      386.12310791015625,
+      515.549560546875,
+      114.1845703125,
+      52.34051513671875
+    ],
+    "components": [
+      "planner",
+      "stage-4"
+    ]
+  },
+  {
+    "key": "e0031",
+    "text": "\n      MetaGraph with operators\n    ",
+    "font_family": "Arial, sans-serif",
+    "font_size": 18,
+    "font_weight": "400",
+    "font_style": "italic",
+    "bounds": [
+      637.998779296875,
+      52.91968536376953,
+      208.90296936035156,
+      19.80038833618164
+    ],
+    "components": [
+      "artifact-0"
+    ]
+  },
+  {
+    "key": "e0044",
+    "text": "\n      Schematic scaling curves\n    ",
+    "font_family": "Arial, sans-serif",
+    "font_size": 18,
+    "font_weight": "400",
+    "font_style": "italic",
+    "bounds": [
+      640.501953125,
+      164.919677734375,
+      203.8868408203125,
+      19.80038833618164
+    ],
+    "components": [
+      "artifact-1"
+    ]
+  },
+  {
+    "key": "e0051",
+    "text": "\n      Allocation plan\n    ",
+    "font_family": "Arial, sans-serif",
+    "font_size": 18,
+    "font_weight": "400",
+    "font_style": "italic",
+    "bounds": [
+      682.5847778320312,
+      276.919677734375,
+      117.93043518066406,
+      19.80038833618164
+    ],
+    "components": [
+      "artifact-2"
+    ]
+  },
+  {
+    "key": "e0062",
+    "text": "\n      Wavefront schedule\n    ",
+    "font_family": "Arial, sans-serif",
+    "font_size": 18,
+    "font_weight": "400",
+    "font_style": "italic",
+    "bounds": [
+      662.6577758789062,
+      388.919677734375,
+      158.68435668945312,
+      19.80038833618164
+    ],
+    "components": [
+      "artifact-3"
+    ]
+  },
+  {
+    "key": "e0075",
+    "text": "\n      Execution plan\n    ",
+    "font_family": "Arial, sans-serif",
+    "font_size": 18,
+    "font_weight": "400",
+    "font_style": "italic",
+    "bounds": [
+      682.9855346679688,
+      500.919677734375,
+      118.02886962890625,
+      19.80038833618164
+    ],
+    "components": [
+      "artifact-4"
+    ]
+  },
+  {
+    "key": "e0090",
+    "text": "\n      Computation graph\n    ",
+    "font_family": "Arial, sans-serif",
+    "font_size": 20,
+    "font_weight": "400",
+    "font_style": "normal",
+    "bounds": [
+      58.948326110839844,
+      54.79964828491211,
+      170.10333251953125,
+      22.50044059753418
+    ],
+    "components": [
+      "input-0"
+    ]
+  },
+  {
+    "key": "e0103",
+    "text": "\n      GPU cluster\n    ",
+    "font_family": "Arial, sans-serif",
+    "font_size": 20,
+    "font_weight": "400",
+    "font_style": "normal",
+    "bounds": [
+      90.09737396240234,
+      278.79962158203125,
+      108.3344955444336,
+      22.50044059753418
+    ],
+    "components": [
+      "input-1"
+    ]
+  },
+  {
+    "key": "e0114",
+    "text": "\n      Runtime engine\n    ",
+    "font_family": "Arial, sans-serif",
+    "font_size": 23,
+    "font_weight": "700",
+    "font_style": "normal",
+    "bounds": [
+      59.260013580322266,
+      524.6195678710938,
+      172.4799346923828,
+      25.20049285888672
+    ],
+    "components": [
+      "runtime"
+    ]
+  },
+  {
+    "key": "e0116",
+    "text": "\n    Training environment\n  ",
+    "font_family": "Arial, sans-serif",
+    "font_size": 17,
+    "font_weight": "400",
+    "font_style": "italic",
+    "bounds": [
+      65.81952667236328,
+      593.479736328125,
+      159.936279296875,
+      18.90036964416504
+    ],
+    "components": []
+  }
+]

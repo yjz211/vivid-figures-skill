@@ -1,0 +1,828 @@
+[
+  {
+    "key": "e0003",
+    "text": "Models",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      81.86542350798842,
+      22.68148340500443,
+      15.396402347885669,
+      5.2729127966540545
+    ],
+    "components": [
+      "baseline"
+    ]
+  },
+  {
+    "key": "e0006",
+    "text": "TensorFlow/PyTorch",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      68.06947063840923,
+      30.219397323499607,
+      42.979432420376725,
+      5.2729127966540545
+    ],
+    "components": [
+      "baseline"
+    ]
+  },
+  {
+    "key": "e0009",
+    "text": "Device SDK (CUDA)",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      67.67294495832172,
+      37.757311721242445,
+      43.765222220004034,
+      5.2729127966540545
+    ],
+    "components": [
+      "baseline"
+    ]
+  },
+  {
+    "key": "e0012",
+    "text": "CPU/GPU/NPU",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      72.98089267592874,
+      67.90896979146146,
+      33.157788381478895,
+      5.2729127966540545
+    ],
+    "components": [
+      "baseline"
+    ]
+  },
+  {
+    "key": "e0015",
+    "text": "PCIe Driver",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      77.22489525191483,
+      52.83313812048982,
+      24.755311683940818,
+      5.2729127966540545
+    ],
+    "components": [
+      "baseline"
+    ]
+  },
+  {
+    "key": "e0016",
+    "text": "Application",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      33.66970236050835,
+      22.68148340500443,
+      23.590195444256096,
+      5.2729127966540545
+    ],
+    "components": [
+      "baseline"
+    ]
+  },
+  {
+    "key": "e0017",
+    "text": "Framework",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      33.65025640744713,
+      30.219397323499607,
+      24.119514900019567,
+      5.2729127966540545
+    ],
+    "components": [
+      "baseline"
+    ]
+  },
+  {
+    "key": "e0018",
+    "text": "Driver",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      39.22124591283497,
+      49.06418307823287,
+      12.815527176200703,
+      5.2729127966540545
+    ],
+    "components": [
+      "baseline"
+    ]
+  },
+  {
+    "key": "e0020",
+    "text": "Hardware",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      35.24028512462971,
+      67.90896979146146,
+      20.69140654468538,
+      5.2729127966540545
+    ],
+    "components": [
+      "baseline"
+    ]
+  },
+  {
+    "key": "e0026",
+    "text": "PCIe",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      90.53402451425788,
+      60.371052038985,
+      10.613457023118826,
+      5.2729127966540545
+    ],
+    "components": [
+      "baseline"
+    ]
+  },
+  {
+    "key": "e0029",
+    "text": "Device Driver",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      75.2344148578122,
+      45.29522516048996,
+      28.73205509273612,
+      5.2729127966540545
+    ],
+    "components": [
+      "baseline"
+    ]
+  },
+  {
+    "key": "e0032",
+    "text": "Models",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      134.63082093745467,
+      22.68148340500443,
+      15.396411932838873,
+      5.2729127966540545
+    ],
+    "components": [
+      "graph-split"
+    ]
+  },
+  {
+    "key": "e0035",
+    "text": "TensorFlow/PyTorch",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      120.83486806787548,
+      30.219397323499607,
+      42.979436254358006,
+      5.2729127966540545
+    ],
+    "components": []
+  },
+  {
+    "key": "e0037",
+    "text": "CPU",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      137.28479479625818,
+      37.757311721242445,
+      10.08022115547601,
+      5.2729127966540545
+    ],
+    "components": [
+      "graph-split"
+    ]
+  },
+  {
+    "key": "e0040",
+    "text": "TensorFlow/PyTorch",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      191.1887313071638,
+      30.219397323499607,
+      42.979432420376725,
+      5.2729127966540545
+    ],
+    "components": [
+      "graph-split"
+    ]
+  },
+  {
+    "key": "e0043",
+    "text": "Device SDK (CUDA)",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      190.7922056270763,
+      37.757311721242445,
+      43.76524138991044,
+      5.2729127966540545
+    ],
+    "components": [
+      "graph-split"
+    ]
+  },
+  {
+    "key": "e0045",
+    "text": "GPU/NPU",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      201.80070266253594,
+      67.90896979146146,
+      21.752677484362266,
+      5.2729127966540545
+    ],
+    "components": [
+      "graph-split"
+    ]
+  },
+  {
+    "key": "e0048",
+    "text": "PCIe Driver",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      200.3441559206694,
+      52.83313812048982,
+      24.75531935190338,
+      5.2729127966540545
+    ],
+    "components": [
+      "graph-split"
+    ]
+  },
+  {
+    "key": "e0054",
+    "text": "PCIe",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      213.65328901699374,
+      60.371052038985,
+      10.613457023118826,
+      5.2729127966540545
+    ],
+    "components": [
+      "graph-split"
+    ]
+  },
+  {
+    "key": "e0057",
+    "text": "Device Driver",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      198.35367552656678,
+      45.29522516048996,
+      28.732074262642527,
+      5.2729127966540545
+    ],
+    "components": [
+      "graph-split"
+    ]
+  },
+  {
+    "key": "e0064",
+    "text": "RDMA",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      171.35459530912337,
+      30.47066112078278,
+      14.225916617415805,
+      5.2729127966540545
+    ],
+    "components": [
+      "graph-split"
+    ]
+  },
+  {
+    "key": "e0067",
+    "text": "Models",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      19.049474187195273,
+      88.01006974013399,
+      15.396440687698487,
+      5.2729127966540545
+    ],
+    "components": [
+      "api-split"
+    ]
+  },
+  {
+    "key": "e0070",
+    "text": "TensorFlow/PyTorch",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      5.253521317616077,
+      95.54798365862916,
+      42.97944392232057,
+      5.2729127966540545
+    ],
+    "components": [
+      "api-split"
+    ]
+  },
+  {
+    "key": "e0072",
+    "text": "CPU",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      21.703448045998783,
+      125.69963933260988,
+      10.080211570522806,
+      5.2729127966540545
+    ],
+    "components": [
+      "api-split"
+    ]
+  },
+  {
+    "key": "e0075",
+    "text": "API (rCUDA) Server",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      67.96720302169885,
+      86.7537545876994,
+      43.03120650360597,
+      5.2729127966540545
+    ],
+    "components": [
+      "api-split"
+    ]
+  },
+  {
+    "key": "e0077",
+    "text": "GPU/NPU",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      78.68144007679072,
+      116.90540642769884,
+      21.752675567371625,
+      5.2729127966540545
+    ],
+    "components": [
+      "api-split"
+    ]
+  },
+  {
+    "key": "e0080",
+    "text": "PCIe Driver",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      77.22489525191483,
+      101.82957859070848,
+      24.755311683940818,
+      5.2729127966540545
+    ],
+    "components": [
+      "api-split"
+    ]
+  },
+  {
+    "key": "e0086",
+    "text": "PCIe",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      90.53402451425788,
+      109.36750017716622,
+      10.613457023118826,
+      5.2729127966540545
+    ],
+    "components": [
+      "api-split"
+    ]
+  },
+  {
+    "key": "e0089",
+    "text": "Device Driver",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      75.2344148578122,
+      94.2916646722133,
+      28.73205509273612,
+      5.2729127966540545
+    ],
+    "components": [
+      "api-split"
+    ]
+  },
+  {
+    "key": "e0096",
+    "text": "RDMA",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      51.501764005050035,
+      103.33716137440751,
+      14.225910866443883,
+      5.2729127966540545
+    ],
+    "components": [
+      "api-split"
+    ]
+  },
+  {
+    "key": "e0100",
+    "text": "API (rCUDA) Client",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      6.077781285424834,
+      118.1617254141147,
+      41.197041360343064,
+      5.2729127966540545
+    ],
+    "components": [
+      "api-split"
+    ]
+  },
+  {
+    "key": "e0103",
+    "text": "Device SDK (CUDA)",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      4.85699563752857,
+      103.08589757712434,
+      43.76525672583557,
+      5.2729127966540545
+    ],
+    "components": [
+      "api-split"
+    ]
+  },
+  {
+    "key": "e0106",
+    "text": "Device Runtime",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      9.89404957368967,
+      110.62381916358208,
+      33.691079841850296,
+      5.2729127966540545
+    ],
+    "components": [
+      "api-split"
+    ]
+  },
+  {
+    "key": "e0109",
+    "text": "Models",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      134.63082093745467,
+      88.01006974013399,
+      15.396411932838873,
+      5.2729127966540545
+    ],
+    "components": [
+      "hardware-split"
+    ]
+  },
+  {
+    "key": "e0112",
+    "text": "TensorFlow/PyTorch",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      120.83486806787548,
+      95.54798365862916,
+      42.979436254358006,
+      5.2729127966540545
+    ],
+    "components": []
+  },
+  {
+    "key": "e0115",
+    "text": "Device SDK (CUDA)",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      120.43834238778797,
+      103.08589757712434,
+      43.76523755592916,
+      5.2729127966540545
+    ],
+    "components": []
+  },
+  {
+    "key": "e0117",
+    "text": "CPU",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      137.28479479625818,
+      125.69963933260988,
+      10.08022115547601,
+      5.2729127966540545
+    ],
+    "components": [
+      "hardware-split"
+    ]
+  },
+  {
+    "key": "e0120",
+    "text": "PCIe Driver",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      129.99029268138108,
+      118.1617254141147,
+      24.75531935190338,
+      5.2729127966540545
+    ],
+    "components": [
+      "hardware-split"
+    ]
+  },
+  {
+    "key": "e0127",
+    "text": "PCIe/CXL",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      167.0163688091561,
+      104.3422165635402,
+      21.22609165725271,
+      5.2729127966540545
+    ],
+    "components": [
+      "hardware-split"
+    ]
+  },
+  {
+    "key": "e0128",
+    "text": "Switch",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      170.5968779204413,
+      110.12129156901574,
+      14.060297252500504,
+      5.2729127966540545
+    ],
+    "components": [
+      "hardware-split"
+    ]
+  },
+  {
+    "key": "e0131",
+    "text": "Device Driver",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      127.99981228727844,
+      110.62381916358208,
+      28.732072345651886,
+      5.2729127966540545
+    ],
+    "components": [
+      "hardware-split"
+    ]
+  },
+  {
+    "key": "e0134",
+    "text": "GPU/NPU",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      201.80070266253594,
+      88.01006974013399,
+      21.752677484362266,
+      5.2729127966540545
+    ],
+    "components": [
+      "hardware-split"
+    ]
+  },
+  {
+    "key": "e0135",
+    "text": "API",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      41.50206604144475,
+      37.757311721242445,
+      7.937660142859386,
+      5.2729127966540545
+    ],
+    "components": [
+      "baseline"
+    ]
+  },
+  {
+    "key": "e0137",
+    "text": "④",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      147.42171861790118,
+      135.2824225036711,
+      5.527570625866929,
+      6.231624737043148
+    ],
+    "components": [
+      "hardware-split"
+    ]
+  },
+  {
+    "key": "e0138",
+    "text": " Hardware-level disaggregation",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      153.20078595541415,
+      135.2824225036711,
+      82.02202550913898,
+      6.2316228200525074
+    ],
+    "components": [
+      "hardware-split"
+    ]
+  },
+  {
+    "key": "e0139",
+    "text": "Server",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      82.5289169726893,
+      13.887249541598067,
+      14.147459941455963,
+      5.2729127966540545
+    ],
+    "components": [
+      "baseline"
+    ]
+  },
+  {
+    "key": "e0140",
+    "text": "Local Server",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      128.9224215429276,
+      13.887249541598067,
+      26.884530441696825,
+      5.2729127966540545
+    ],
+    "components": [
+      "graph-split"
+    ]
+  },
+  {
+    "key": "e0141",
+    "text": "Remote Server",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      196.62623692024496,
+      13.887249541598067,
+      32.18845439594861,
+      5.2729127966540545
+    ],
+    "components": [
+      "graph-split"
+    ]
+  },
+  {
+    "key": "e0142",
+    "text": "Local Server",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      13.341074792668195,
+      79.21583683522294,
+      26.884566864519,
+      5.2729127966540545
+    ],
+    "components": []
+  },
+  {
+    "key": "e0143",
+    "text": "Remote Server",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      73.50697625149039,
+      79.21583683522294,
+      32.18845056196733,
+      5.2729127966540545
+    ],
+    "components": []
+  },
+  {
+    "key": "e0144",
+    "text": "Local Server",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      128.9224215429276,
+      79.21583683522294,
+      26.884530441696825,
+      5.2729127966540545
+    ],
+    "components": []
+  },
+  {
+    "key": "e0145",
+    "text": "Remote Server",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      196.62623692024496,
+      79.21583683522294,
+      32.18845439594861,
+      5.2729127966540545
+    ],
+    "components": []
+  },
+  {
+    "key": "e0146",
+    "text": "Layer",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      39.61777159292248,
+      13.887249541598067,
+      12.027812717969937,
+      5.2729127966540545
+    ],
+    "components": [
+      "baseline"
+    ]
+  },
+  {
+    "key": "e0147",
+    "text": "②",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      151.87772502284494,
+      4.625249833411999,
+      5.527570625866929,
+      6.231624737043148
+    ],
+    "components": [
+      "graph-split"
+    ]
+  },
+  {
+    "key": "e0148",
+    "text": " Graph-level disaggregation",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      157.6567923603579,
+      4.625249833411999,
+      73.11120123344881,
+      6.231624737043148
+    ],
+    "components": [
+      "graph-split"
+    ]
+  },
+  {
+    "key": "e0149",
+    "text": "①",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      3.3768948316573812,
+      4.625249833411999,
+      5.527570625866929,
+      6.231624737043148
+    ],
+    "components": [
+      "baseline"
+    ]
+  },
+  {
+    "key": "e0150",
+    "text": " Existing s",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      9.155962169170351,
+      4.625249833411999,
+      27.692463400217093,
+      6.231624737043148
+    ],
+    "components": [
+      "baseline"
+    ]
+  },
+  {
+    "key": "e0151",
+    "text": "oftware stack",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      36.80675786081699,
+      4.625249833411999,
+      35.610225180224006,
+      6.231624737043148
+    ],
+    "components": [
+      "baseline"
+    ]
+  },
+  {
+    "key": "e0152",
+    "text": "③",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      3.3768948316573812,
+      135.2824225036711,
+      5.527570625866929,
+      6.231624737043148
+    ],
+    "components": [
+      "api-split"
+    ]
+  },
+  {
+    "key": "e0153",
+    "text": " API-level disaggregation",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      9.155962169170351,
+      135.2824225036711,
+      65.84061549380749,
+      6.2316228200525074
+    ],
+    "components": [
+      "api-split"
+    ]
+  }
+]

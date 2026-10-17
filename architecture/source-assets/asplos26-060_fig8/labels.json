@@ -1,0 +1,588 @@
+[
+  {
+    "key": "e0008",
+    "text": "User",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      27.495102352399044,
+      16.302084321047005,
+      15.074524739053686,
+      8.893941941601952
+    ],
+    "components": [
+      "user-tools"
+    ]
+  },
+  {
+    "key": "e0014",
+    "text": "Writeback ",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      17.524180272881722,
+      45.80858215436001,
+      37.58366455396754,
+      8.93454674941222
+    ],
+    "components": [
+      "runtime-manager"
+    ]
+  },
+  {
+    "key": "e0015",
+    "text": "Manager",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      55.39360046386719,
+      45.798011779785156,
+      30.535324096679688,
+      8.947563171386719
+    ],
+    "components": [
+      "runtime-manager"
+    ]
+  },
+  {
+    "key": "e0070",
+    "text": "Cache Scheduler",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      163.6807068106682,
+      45.43196662338596,
+      55.48062211182878,
+      8.89394977538268
+    ],
+    "components": [
+      "runtime-manager"
+    ]
+  },
+  {
+    "key": "e0075",
+    "text": "KV",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      208.24799753848856,
+      59.70925381568577,
+      7.727938409172566,
+      6.700868368088777
+    ],
+    "components": [
+      "runtime-manager"
+    ]
+  },
+  {
+    "key": "e0078",
+    "text": "X",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      210.42971047403807,
+      69.44385685565794,
+      4.054506136002345,
+      7.2155544470575705
+    ],
+    "components": [
+      "runtime-manager"
+    ]
+  },
+  {
+    "key": "e0081",
+    "text": "Batch 1,Head 1",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      172.67579650878906,
+      56.96808624267578,
+      20.705215454101562,
+      13.314018249511719
+    ],
+    "components": [
+      "runtime-manager"
+    ]
+  },
+  {
+    "key": "e0091",
+    "text": "Batch 1,Head 0",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      170.5194854736328,
+      59.146888732910156,
+      20.705230712890625,
+      13.314018249511719
+    ],
+    "components": [
+      "runtime-manager"
+    ]
+  },
+  {
+    "key": "e0094",
+    "text": "Batch 0,Head 1",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      168.36329650878906,
+      61.32649230957031,
+      20.705215454101562,
+      13.314018249511719
+    ],
+    "components": [
+      "runtime-manager"
+    ]
+  },
+  {
+    "key": "e0097",
+    "text": "Batch 0,Head 0",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      166.20899963378906,
+      63.50328826904297,
+      20.705215454101562,
+      13.314018249511719
+    ],
+    "components": [
+      "runtime-manager"
+    ]
+  },
+  {
+    "key": "e0098",
+    "text": "User-LevelMiddleware",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      2.8303616238487166,
+      3.899303202650117,
+      18.493946457118454,
+      81.33530565567071
+    ],
+    "components": []
+  },
+  {
+    "key": "e0107",
+    "text": "InferenceController",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      108.18466673999592,
+      41.33677157618058,
+      32.46923308897658,
+      18.493958207789547
+    ],
+    "components": [
+      "runtime-manager"
+    ]
+  },
+  {
+    "key": "e0110",
+    "text": "WeightsPrefetcher",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      107.31659479022801,
+      66.23516671420657,
+      34.18110949280981,
+      18.49395037400882
+    ],
+    "components": [
+      "runtime-manager"
+    ]
+  },
+  {
+    "key": "e0116",
+    "text": "BitstreamGenerator",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      234.66599894814863,
+      65.83599590381527,
+      32.52765226930933,
+      18.588650188532483
+    ],
+    "components": [
+      "compile-path"
+    ]
+  },
+  {
+    "key": "e0119",
+    "text": "Vitis Compiler",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      227.79479144752804,
+      43.89096794879879,
+      46.009017053040225,
+      8.89394977538268
+    ],
+    "components": [
+      "compile-path"
+    ]
+  },
+  {
+    "key": "e0123",
+    "text": "System Interconnect",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      110.19921810936648,
+      115.66826980306587,
+      68.55375833167636,
+      8.893945858492316
+    ],
+    "components": [
+      "interconnect"
+    ]
+  },
+  {
+    "key": "e0136",
+    "text": "HLS Codes",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      72.58350751013768,
+      3.334278717162306,
+      36.17260451216043,
+      8.893941941601952
+    ],
+    "components": [
+      "user-tools"
+    ]
+  },
+  {
+    "key": "e0139",
+    "text": "LLM Config.",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      75.34080325731793,
+      14.983674692068234,
+      39.142229701225915,
+      8.893941941601952
+    ],
+    "components": [
+      "user-tools"
+    ]
+  },
+  {
+    "key": "e0170",
+    "text": "Storage I/O",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      33.645504463269845,
+      94.96467231731276,
+      39.66303349027612,
+      8.893945858492316
+    ],
+    "components": [
+      "interconnect"
+    ]
+  },
+  {
+    "key": "e0174",
+    "text": "Storage I/O",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      105.66311344111818,
+      94.96467231731276,
+      39.66304463578854,
+      8.893945858492316
+    ],
+    "components": [
+      "interconnect"
+    ]
+  },
+  {
+    "key": "e0176",
+    "text": "cuFile I/O",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      153.69972211305685,
+      94.96467231731276,
+      33.150246188679375,
+      8.893945858492316
+    ],
+    "components": [
+      "interconnect"
+    ]
+  },
+  {
+    "key": "e0181",
+    "text": "OpenCL API",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      192.790006296078,
+      94.96467231731276,
+      39.343287314886766,
+      8.893945858492316
+    ],
+    "components": [
+      "interconnect"
+    ]
+  },
+  {
+    "key": "e0183",
+    "text": "XRT API",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      246.2905166719047,
+      94.96467231731276,
+      26.559027916204286,
+      8.893945858492316
+    ],
+    "components": [
+      "interconnect"
+    ]
+  },
+  {
+    "key": "e0186",
+    "text": "SmartSSD",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      2.733003616333008,
+      129.03101229667664,
+      8.947565078735352,
+      35.53689193725586
+    ],
+    "components": [
+      "device-array"
+    ]
+  },
+  {
+    "key": "e0195",
+    "text": "PCIe Switch",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      23.005399703979492,
+      131.35454177856445,
+      36.56592559814453,
+      7.829120635986328
+    ],
+    "components": [
+      "device-array"
+    ]
+  },
+  {
+    "key": "e0198",
+    "text": "FPGA Logic",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      24.02199935913086,
+      142.414644241333,
+      34.95995330810547,
+      7.829118728637695
+    ],
+    "components": [
+      "device-array"
+    ]
+  },
+  {
+    "key": "e0201",
+    "text": "SSD controller",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      77.2666015625,
+      131.35454177856445,
+      43.64219665527344,
+      7.829120635986328
+    ],
+    "components": [
+      "device-array"
+    ]
+  },
+  {
+    "key": "e0204",
+    "text": "FPGA DRAM",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      22.671899795532227,
+      154.2710418701172,
+      37.68952560424805,
+      7.829119682312012
+    ],
+    "components": [
+      "device-array"
+    ]
+  },
+  {
+    "key": "e0213",
+    "text": "NAND",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      73.36869812011719,
+      151.35994148254395,
+      18.59284210205078,
+      7.829119682312012
+    ],
+    "components": [
+      "device-array"
+    ]
+  },
+  {
+    "key": "e0220",
+    "text": "NAND",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      103.18900299072266,
+      151.35994148254395,
+      18.59284210205078,
+      7.829119682312012
+    ],
+    "components": [
+      "device-array"
+    ]
+  },
+  {
+    "key": "e0221",
+    "text": "...",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      96.60189839091618,
+      148.32522830936,
+      5.220093643292785,
+      6.764685514779558
+    ],
+    "components": [
+      "device-array"
+    ]
+  },
+  {
+    "key": "e0224",
+    "text": "SmartSSD",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      151.01670837402344,
+      129.03101229667664,
+      8.94757080078125,
+      35.53689193725586
+    ],
+    "components": [
+      "device-array"
+    ]
+  },
+  {
+    "key": "e0233",
+    "text": "PCIe Switch",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      171.28909301757812,
+      131.35454177856445,
+      36.565887451171875,
+      7.829120635986328
+    ],
+    "components": [
+      "device-array"
+    ]
+  },
+  {
+    "key": "e0236",
+    "text": "FPGA Logic",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      172.30567932128906,
+      142.414644241333,
+      34.95994567871094,
+      7.829118728637695
+    ],
+    "components": [
+      "device-array"
+    ]
+  },
+  {
+    "key": "e0239",
+    "text": "SSD controller",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      225.55078125,
+      131.35454177856445,
+      43.642242431640625,
+      7.829120635986328
+    ],
+    "components": [
+      "device-array"
+    ]
+  },
+  {
+    "key": "e0242",
+    "text": "FPGA DRAM",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      170.9561004638672,
+      154.2710418701172,
+      37.68951416015625,
+      7.829119682312012
+    ],
+    "components": [
+      "device-array"
+    ]
+  },
+  {
+    "key": "e0251",
+    "text": "NAND",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      221.65280151367188,
+      151.35994148254395,
+      18.592864990234375,
+      7.829119682312012
+    ],
+    "components": [
+      "device-array"
+    ]
+  },
+  {
+    "key": "e0258",
+    "text": "NAND",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      251.4727020263672,
+      151.35994148254395,
+      18.592849731445312,
+      7.829119682312012
+    ],
+    "components": [
+      "device-array"
+    ]
+  },
+  {
+    "key": "e0259",
+    "text": "...",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      244.88552400504705,
+      148.32522830936,
+      5.220078507321887,
+      6.764685514779558
+    ],
+    "components": [
+      "device-array"
+    ]
+  },
+  {
+    "key": "e0260",
+    "text": "...",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      134.3879878424068,
+      137.9568943928307,
+      8.697219654772198,
+      11.27451254673474
+    ],
+    "components": [
+      "device-array"
+    ]
+  },
+  {
+    "key": "e0263",
+    "text": "C/C++ Simulator(lm_eval_harness)",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      139.44767303247318,
+      4.3586552202923485,
+      61.119924459793765,
+      18.493973875351003
+    ],
+    "components": [
+      "user-tools"
+    ]
+  },
+  {
+    "key": "e0266",
+    "text": "PerformanceEstimator",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      225.12012109906573,
+      4.3586552202923485,
+      42.238103824609425,
+      18.493973875351003
+    ],
+    "components": [
+      "user-tools"
+    ]
+  }
+]

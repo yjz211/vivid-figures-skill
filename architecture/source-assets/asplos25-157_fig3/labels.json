@@ -1,0 +1,697 @@
+[
+  {
+    "key": "e0003",
+    "text": "Memory Mode",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      115.37000274658203,
+      23.668624877929716,
+      102.40250396728516,
+      23.2130126953125
+    ],
+    "components": [
+      "mode-a"
+    ]
+  },
+  {
+    "key": "e0005",
+    "text": "Compute  Mode",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      445.44000244140625,
+      24.50860595703128,
+      113.89501953125,
+      23.2130126953125
+    ],
+    "components": [
+      "mode-b"
+    ]
+  },
+  {
+    "key": "e0014",
+    "text": "Data IO",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      134.13999938964844,
+      198.79179763793948,
+      61.975921630859375,
+      26.18904685974121
+    ],
+    "components": [
+      "mode-a"
+    ]
+  },
+  {
+    "key": "e0087",
+    "text": "…",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      180.94000244140625,
+      83.90943908691409,
+      18.004968643188477,
+      19.64178466796875
+    ],
+    "components": [
+      "mode-a"
+    ]
+  },
+  {
+    "key": "e0088",
+    "text": "…",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      180.94000244140625,
+      114.02944946289065,
+      18.023569107055664,
+      19.64178466796875
+    ],
+    "components": [
+      "mode-a"
+    ]
+  },
+  {
+    "key": "e0089",
+    "text": "…",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      180.5800018310547,
+      166.47344970703128,
+      18.004968643188477,
+      19.64178466796875
+    ],
+    "components": [
+      "mode-a"
+    ]
+  },
+  {
+    "key": "e0091",
+    "text": "…",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      136.17877612779876,
+      142.6799910382537,
+      19.641785460187492,
+      18.00496950742715
+    ],
+    "components": [
+      "mode-a"
+    ]
+  },
+  {
+    "key": "e0092",
+    "text": "…",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      108.69876514147063,
+      142.679989829133,
+      19.641785460187492,
+      18.00496950742715
+    ],
+    "components": [
+      "mode-a"
+    ]
+  },
+  {
+    "key": "e0093",
+    "text": "…",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      162.91878162096282,
+      142.67999221481412,
+      19.641785460187492,
+      18.00496950742715
+    ],
+    "components": [
+      "mode-a"
+    ]
+  },
+  {
+    "key": "e0094",
+    "text": "…",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      211.63876758287688,
+      142.67999435849384,
+      19.641785460187492,
+      18.004969507427177
+    ],
+    "components": [
+      "mode-a"
+    ]
+  },
+  {
+    "key": "e0097",
+    "text": "Memory circuits",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      101.62000274658203,
+      45.387802124023466,
+      125.85851287841797,
+      26.189041137695312
+    ],
+    "components": [
+      "mode-a"
+    ]
+  },
+  {
+    "key": "e0100",
+    "text": "READ",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      155.35000610351562,
+      151.0606155395508,
+      44.38447570800781,
+      23.21302032470703
+    ],
+    "components": [
+      "mode-a"
+    ]
+  },
+  {
+    "key": "e0103",
+    "text": "PSUM",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      483.10003662109375,
+      199.55979919433597,
+      52.009033203125,
+      26.18904685974121
+    ],
+    "components": [
+      "mode-b"
+    ]
+  },
+  {
+    "key": "e0176",
+    "text": "…",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      524.8300170898438,
+      84.65943908691409,
+      18.023569107055664,
+      19.64178466796875
+    ],
+    "components": [
+      "mode-b"
+    ]
+  },
+  {
+    "key": "e0177",
+    "text": "…",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      524.8300170898438,
+      114.79943847656253,
+      18.004968643188477,
+      19.64178466796875
+    ],
+    "components": [
+      "mode-b"
+    ]
+  },
+  {
+    "key": "e0178",
+    "text": "…",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      524.5,
+      167.24143981933597,
+      18.004968643188477,
+      19.64178466796875
+    ],
+    "components": [
+      "mode-b"
+    ]
+  },
+  {
+    "key": "e0180",
+    "text": "…",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      480.07876999172356,
+      143.41999640423091,
+      19.641785460187464,
+      18.00496950742712
+    ],
+    "components": [
+      "mode-b"
+    ]
+  },
+  {
+    "key": "e0181",
+    "text": "…",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      452.59878952297356,
+      143.41999519511154,
+      19.641785460187464,
+      18.004969507427177
+    ],
+    "components": [
+      "mode-b"
+    ]
+  },
+  {
+    "key": "e0182",
+    "text": "…",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      506.8087809780517,
+      143.41999758035158,
+      19.64178546018752,
+      18.00496950742715
+    ],
+    "components": [
+      "mode-b"
+    ]
+  },
+  {
+    "key": "e0183",
+    "text": "…",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      555.5287516811767,
+      143.41999972403062,
+      19.64178546018752,
+      18.004969507427177
+    ],
+    "components": [
+      "mode-b"
+    ]
+  },
+  {
+    "key": "e0186",
+    "text": "Memory circuits",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      445.510009765625,
+      46.197799682617216,
+      126.1104736328125,
+      26.189041137695312
+    ],
+    "components": [
+      "mode-b"
+    ]
+  },
+  {
+    "key": "e0198",
+    "text": "Change",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      251.23001098632812,
+      66.04861450195315,
+      55.93060302734375,
+      23.2130126953125
+    ],
+    "components": [
+      "mode-switch"
+    ]
+  },
+  {
+    "key": "e0199",
+    "text": "Driver",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      251.23001098632812,
+      85.27861022949222,
+      43.25054931640625,
+      23.2130126953125
+    ],
+    "components": [
+      "mode-switch"
+    ]
+  },
+  {
+    "key": "e0200",
+    "text": "INPUT",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      251.23001098632812,
+      104.47862243652347,
+      48.2469482421875,
+      23.21302032470703
+    ],
+    "components": [
+      "mode-switch"
+    ]
+  },
+  {
+    "key": "e0201",
+    "text": "MAC OUTPUT  ",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      456.8399963378906,
+      227.88462066650393,
+      114.22348022460938,
+      23.2130184173584
+    ],
+    "components": []
+  },
+  {
+    "key": "e0203",
+    "text": "Dual",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      222.00001525878906,
+      1.8486022949219034,
+      32.804595947265625,
+      23.2130126953125
+    ],
+    "components": []
+  },
+  {
+    "key": "e0204",
+    "text": "-",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      254.88002014160156,
+      1.8486022949219034,
+      5.356850624084473,
+      23.2130184173584
+    ],
+    "components": []
+  },
+  {
+    "key": "e0205",
+    "text": "mode CIM array",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      260.1600036621094,
+      1.8486022949219034,
+      114.96160888671875,
+      23.2130126953125
+    ],
+    "components": []
+  },
+  {
+    "key": "e0207",
+    "text": "DATA",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      146.7100067138672,
+      227.1406230926514,
+      40.23616027832031,
+      23.2130184173584
+    ],
+    "components": []
+  },
+  {
+    "key": "e0208",
+    "text": "IA",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      381.77001953125,
+      66.13026428222659,
+      11.692840576171875,
+      17.260971069335938
+    ],
+    "components": [
+      "mode-b"
+    ]
+  },
+  {
+    "key": "e0209",
+    "text": "…",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      368.98004150390625,
+      134.00628662109378,
+      12.006413459777832,
+      13.094523429870605
+    ],
+    "components": [
+      "mode-switch",
+      "mode-b"
+    ]
+  },
+  {
+    "key": "e0212",
+    "text": "Driver ",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      51.55180844111861,
+      105.30546227764347,
+      26.18905490949834,
+      52.90252037839275
+    ],
+    "components": [
+      "mode-a"
+    ]
+  },
+  {
+    "key": "e0213",
+    "text": "1",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      44.63999938964844,
+      95.46026611328128,
+      6.677463054656982,
+      17.260963439941406
+    ],
+    "components": [
+      "mode-a"
+    ]
+  },
+  {
+    "key": "e0214",
+    "text": "1",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      44.47200012207031,
+      120.09027099609378,
+      6.677463054656982,
+      17.260963439941406
+    ],
+    "components": [
+      "mode-a"
+    ]
+  },
+  {
+    "key": "e0215",
+    "text": "GIA",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      12.815999984741211,
+      94.33026123046878,
+      21.052881240844727,
+      17.260955810546875
+    ],
+    "components": [
+      "mode-a"
+    ]
+  },
+  {
+    "key": "e0216",
+    "text": "GIAb",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      10.920000076293945,
+      119.20025634765628,
+      27.92646598815918,
+      17.260963439941406
+    ],
+    "components": []
+  },
+  {
+    "key": "e0217",
+    "text": "GIA",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      344.5000305175781,
+      65.61026000976565,
+      21.04083251953125,
+      17.260955810546875
+    ],
+    "components": [
+      "mode-switch",
+      "mode-b"
+    ]
+  },
+  {
+    "key": "e0218",
+    "text": "GIAb",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      345.1400146484375,
+      85.48025512695315,
+      27.931976318359375,
+      17.260955810546875
+    ],
+    "components": [
+      "mode-switch",
+      "mode-b"
+    ]
+  },
+  {
+    "key": "e0219",
+    "text": "GIA",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      345.2900085449219,
+      98.2902526855469,
+      21.0662841796875,
+      17.260955810546875
+    ],
+    "components": [
+      "mode-switch",
+      "mode-b"
+    ]
+  },
+  {
+    "key": "e0220",
+    "text": "GIAb",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      345.54998779296875,
+      118.60026550292972,
+      27.89593505859375,
+      17.260963439941406
+    ],
+    "components": [
+      "mode-switch",
+      "mode-b"
+    ]
+  },
+  {
+    "key": "e0221",
+    "text": "GIA",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      345.5299987792969,
+      148.28626251220706,
+      21.052886962890625,
+      17.260963439941406
+    ],
+    "components": [
+      "mode-switch",
+      "mode-b"
+    ]
+  },
+  {
+    "key": "e0222",
+    "text": "GIAb",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      345.8399963378906,
+      168.97426605224612,
+      27.878448486328125,
+      17.260963439941406
+    ],
+    "components": [
+      "mode-switch",
+      "mode-b"
+    ]
+  },
+  {
+    "key": "e0223",
+    "text": "/IA",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      379.089599609375,
+      85.48025512695315,
+      16.24322509765625,
+      17.260955810546875
+    ],
+    "components": [
+      "mode-b"
+    ]
+  },
+  {
+    "key": "e0224",
+    "text": "IA",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      383.69000244140625,
+      99.1802673339844,
+      11.692840576171875,
+      17.260955810546875
+    ],
+    "components": [
+      "mode-b"
+    ]
+  },
+  {
+    "key": "e0225",
+    "text": "/IA",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      381.0096130371094,
+      118.69026184082034,
+      16.243255615234375,
+      17.260963439941406
+    ],
+    "components": [
+      "mode-b"
+    ]
+  },
+  {
+    "key": "e0226",
+    "text": "IA",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      382.5799865722656,
+      148.86225891113284,
+      11.692840576171875,
+      17.260963439941406
+    ],
+    "components": [
+      "mode-b"
+    ]
+  },
+  {
+    "key": "e0227",
+    "text": "/IA",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      379.90960693359375,
+      167.8222579956055,
+      16.24322509765625,
+      17.260963439941406
+    ],
+    "components": [
+      "mode-b"
+    ]
+  },
+  {
+    "key": "e0230",
+    "text": "vector",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      310.4035688692222,
+      115.34480125541535,
+      20.237001245731676,
+      39.409378942185924
+    ],
+    "components": [
+      "mode-switch"
+    ]
+  },
+  {
+    "key": "e0234",
+    "text": "matrix",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      339.04998779296875,
+      213.34544754028323,
+      38.920501708984375,
+      20.236989974975586
+    ],
+    "components": [
+      "mode-switch"
+    ]
+  },
+  {
+    "key": "e0239",
+    "text": "Driver ",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      395.4677973958766,
+      106.0472379168217,
+      26.189058725349696,
+      52.92875023679133
+    ],
+    "components": [
+      "mode-b"
+    ]
+  }
+]

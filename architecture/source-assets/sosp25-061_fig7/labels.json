@@ -1,0 +1,334 @@
+[
+  {
+    "key": "e0004",
+    "text": "Scheduler",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      310.4756145477295,
+      20.163737297058102,
+      99.61602401733398,
+      24.479999542236325
+    ],
+    "components": [
+      "scheduler"
+    ]
+  },
+  {
+    "key": "e0012",
+    "text": "Worker-0",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      130.32425808906552,
+      316.11534237861633,
+      82.56624984741211,
+      22.32000160217285
+    ],
+    "components": [
+      "worker-zero"
+    ]
+  },
+  {
+    "key": "e0014",
+    "text": "Memory Manager",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      26.95308494567871,
+      132.73202395439148,
+      141.497989654541,
+      20.160000801086426
+    ],
+    "components": [
+      "worker-zero",
+      "resource-groups"
+    ]
+  },
+  {
+    "key": "e0018",
+    "text": "Head-0",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      34.20767211914062,
+      164.8910903930664,
+      52.46675491333007,
+      18
+    ],
+    "components": [
+      "worker-zero",
+      "resource-groups"
+    ]
+  },
+  {
+    "key": "e0022",
+    "text": "Head-1",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      176.7851409912109,
+      152.09696197509766,
+      52.46675491333008,
+      18
+    ],
+    "components": [
+      "worker-zero",
+      "resource-groups"
+    ]
+  },
+  {
+    "key": "e0025",
+    "text": "Req-0",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      43.578658103942864,
+      195.94472527503967,
+      41.144997596740716,
+      16.560001373291016
+    ],
+    "components": [
+      "worker-zero",
+      "resource-groups"
+    ]
+  },
+  {
+    "key": "e0028",
+    "text": "Req-1",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      108.15542793273926,
+      185.798743724823,
+      40.85250663757324,
+      16.55999994277954
+    ],
+    "components": [
+      "worker-zero",
+      "resource-groups"
+    ]
+  },
+  {
+    "key": "e0031",
+    "text": "Req-0",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      186.09636306762692,
+      190.27027797698975,
+      41.14500045776367,
+      16.560001373291016
+    ],
+    "components": [
+      "worker-zero",
+      "resource-groups"
+    ]
+  },
+  {
+    "key": "e0034",
+    "text": "Req-1",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      249.24991035461423,
+      194.02906894683838,
+      40.852506637573214,
+      16.560001373291016
+    ],
+    "components": [
+      "worker-zero",
+      "resource-groups"
+    ]
+  },
+  {
+    "key": "e0038",
+    "text": "Execution Engine",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      26.95308494567871,
+      246.39913821220398,
+      140.07600402832028,
+      20.160000801086426
+    ],
+    "components": [
+      "worker-zero",
+      "execution-engine"
+    ]
+  },
+  {
+    "key": "e0041",
+    "text": "KV Compressor",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      189.4783058166504,
+      275.28101420402527,
+      105.85499954223633,
+      16.560001373291016
+    ],
+    "components": [
+      "worker-zero",
+      "execution-engine"
+    ]
+  },
+  {
+    "key": "e0044",
+    "text": "Custom Attention",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      41.78633308410644,
+      275.4542610645294,
+      114.14251327514646,
+      16.560001373291016
+    ],
+    "components": [
+      "worker-zero",
+      "execution-engine"
+    ]
+  },
+  {
+    "key": "e0058",
+    "text": "Worker-N",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      516.9985058307648,
+      316.11534237861633,
+      85.88500213623047,
+      22.32000160217285
+    ],
+    "components": [
+      "worker-final"
+    ]
+  },
+  {
+    "key": "e0060",
+    "text": "Memory Manager",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      412.58007812499994,
+      132.73202395439148,
+      141.49798965454096,
+      20.160000801086426
+    ],
+    "components": [
+      "worker-final"
+    ]
+  },
+  {
+    "key": "e0064",
+    "text": "Head-2N",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      415.05206298828125,
+      164.8910903930664,
+      64.01775741577148,
+      18
+    ],
+    "components": [
+      "worker-final"
+    ]
+  },
+  {
+    "key": "e0068",
+    "text": "Head-2N+1",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      565.3001708984375,
+      137.9422836303711,
+      82.24275398254395,
+      18
+    ],
+    "components": [
+      "worker-final"
+    ]
+  },
+  {
+    "key": "e0071",
+    "text": "Req-0",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      462.20267486572266,
+      198.49166047573087,
+      41.14501190185547,
+      16.560001373291016
+    ],
+    "components": [
+      "worker-final"
+    ]
+  },
+  {
+    "key": "e0074",
+    "text": "Req-1",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      496.8187885284423,
+      170.7121194601059,
+      40.852506637573185,
+      16.560001373291016
+    ],
+    "components": [
+      "worker-final"
+    ]
+  },
+  {
+    "key": "e0077",
+    "text": "Req-0",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      574.658374786377,
+      183.33023262023923,
+      41.14500045776367,
+      16.560001373291016
+    ],
+    "components": [
+      "worker-final"
+    ]
+  },
+  {
+    "key": "e0080",
+    "text": "Req-1",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      637.8030414581299,
+      188.09404706954953,
+      40.85250663757324,
+      16.55999994277954
+    ],
+    "components": [
+      "worker-final"
+    ]
+  },
+  {
+    "key": "e0084",
+    "text": "Execution Engine",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      412.58007812499994,
+      246.39913821220398,
+      140.07600402832026,
+      20.160000801086426
+    ],
+    "components": [
+      "worker-final"
+    ]
+  },
+  {
+    "key": "e0087",
+    "text": "KV Compressor",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      575.1052742004395,
+      275.28101420402527,
+      105.85499954223633,
+      16.560001373291016
+    ],
+    "components": [
+      "worker-final"
+    ]
+  },
+  {
+    "key": "e0090",
+    "text": "Custom Attention",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      427.4133052825928,
+      275.4542610645294,
+      114.14251327514648,
+      16.560001373291016
+    ],
+    "components": [
+      "worker-final"
+    ]
+  }
+]

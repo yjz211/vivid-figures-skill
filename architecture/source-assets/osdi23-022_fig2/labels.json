@@ -1,0 +1,650 @@
+[
+  {
+    "key": "e0006",
+    "text": "Item-tracking instrumentation",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      129.56889996494283,
+      24.02565551895532,
+      49.834907212964026,
+      18.67378923666547
+    ],
+    "components": [
+      "instrumentation"
+    ]
+  },
+  {
+    "key": "e0013",
+    "text": "Version-set-tracking instrumentation",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      123.4379832058039,
+      55.164586886327015,
+      63.588751573784975,
+      18.673763498140033
+    ],
+    "components": [
+      "instrumentation"
+    ]
+  },
+  {
+    "key": "e0019",
+    "text": "②",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      106.0623422380886,
+      3.93025030681747,
+      7.588182200999654,
+      8.695499412056051
+    ],
+    "components": [
+      "instrumentation"
+    ]
+  },
+  {
+    "key": "e0020",
+    "text": "SQL-level Instrumentation",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      117.44824225868797,
+      3.4954751351324376,
+      82.0929496663448,
+      9.565053777070716
+    ],
+    "components": [
+      "instrumentation"
+    ]
+  },
+  {
+    "key": "e0059",
+    "text": "Instrumented test case",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      198.20860550904763,
+      16.692312066967133,
+      55.148908913251944,
+      7.391177918645553
+    ],
+    "components": []
+  },
+  {
+    "key": "e0060",
+    "text": "Txn",
+    "font_family": "VividSource-Carlito-Italic",
+    "bounds": [
+      262.191002090869,
+      33.7358102331782,
+      8.227834426506888,
+      7.391177918645553
+    ],
+    "components": [
+      "dependency-graph"
+    ]
+  },
+  {
+    "key": "e0061",
+    "text": "0",
+    "font_family": "VividSource-Carlito-Italic",
+    "bounds": [
+      271.806348946644,
+      33.7358102331782,
+      3.4781997648224205,
+      7.391174701329874
+    ],
+    "components": [
+      "dependency-graph"
+    ]
+  },
+  {
+    "key": "e0066",
+    "text": "Transaction ",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      261.3537535969226,
+      23.282558551058173,
+      29.98883109673625,
+      7.391177918645553
+    ],
+    "components": [
+      "dependency-graph"
+    ]
+  },
+  {
+    "key": "e0067",
+    "text": "Execution",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      291.34196696904837,
+      23.282558551058173,
+      24.174498200474773,
+      7.391177918645553
+    ],
+    "components": [
+      "dependency-graph"
+    ]
+  },
+  {
+    "key": "e0068",
+    "text": "Txn",
+    "font_family": "VividSource-Carlito-Italic",
+    "bounds": [
+      262.195300424617,
+      43.95171410297917,
+      8.227834426506888,
+      7.391177918645553
+    ],
+    "components": [
+      "dependency-graph"
+    ]
+  },
+  {
+    "key": "e0069",
+    "text": "1",
+    "font_family": "VividSource-Carlito-Italic",
+    "bounds": [
+      271.810647280392,
+      43.95171410297917,
+      3.043424794219618,
+      7.391174701329874
+    ],
+    "components": [
+      "dependency-graph"
+    ]
+  },
+  {
+    "key": "e0070",
+    "text": "Txn",
+    "font_family": "VividSource-Carlito-Italic",
+    "bounds": [
+      262.195300424617,
+      54.15069489230518,
+      8.227834426506888,
+      7.391177918645553
+    ],
+    "components": [
+      "dependency-graph"
+    ]
+  },
+  {
+    "key": "e0071",
+    "text": "2",
+    "font_family": "VividSource-Carlito-Italic",
+    "bounds": [
+      271.810647280392,
+      54.15069489230518,
+      3.4781997648224205,
+      7.391174701329874
+    ],
+    "components": [
+      "dependency-graph"
+    ]
+  },
+  {
+    "key": "e0073",
+    "text": "Record",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      323.18361155790626,
+      36.319996794860344,
+      16.685410931066144,
+      7.391177918645553
+    ],
+    "components": [
+      "dependency-graph"
+    ]
+  },
+  {
+    "key": "e0075",
+    "text": "Statement ",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      342.55107979362947,
+      56.43027887470089,
+      26.21144510357408,
+      7.391177918645553
+    ],
+    "components": [
+      "dependency-graph"
+    ]
+  },
+  {
+    "key": "e0076",
+    "text": "output",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      346.82524506625487,
+      63.5165067439666,
+      16.52014385923394,
+      7.391177918645553
+    ],
+    "components": [
+      "dependency-graph"
+    ]
+  },
+  {
+    "key": "e0078",
+    "text": "Build",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      371.57126722406247,
+      37.14647371591127,
+      12.074637222773163,
+      7.391177918645553
+    ],
+    "components": [
+      "dependency-graph"
+    ]
+  },
+  {
+    "key": "e0092",
+    "text": "Statement-dependency graph",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      374.18038154763053,
+      56.73255211743526,
+      57.58719664349337,
+      14.477392918648547
+    ],
+    "components": [
+      "dependency-graph"
+    ]
+  },
+  {
+    "key": "e0093",
+    "text": "③",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      271.3205085404916,
+      3.93025030681747,
+      7.588182200999654,
+      8.695499412056051
+    ],
+    "components": [
+      "dependency-graph"
+    ]
+  },
+  {
+    "key": "e0094",
+    "text": "Building Statement-Dependency Graph",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      282.7063828225655,
+      3.4954751351324376,
+      122.53949807936442,
+      9.565053777070716
+    ],
+    "components": [
+      "dependency-graph"
+    ]
+  },
+  {
+    "key": "e0118",
+    "text": "Refine the test case ",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      75.84622709247924,
+      174.24051594392222,
+      48.28189606513479,
+      7.391174701329874
+    ],
+    "components": [
+      "decycling"
+    ]
+  },
+  {
+    "key": "e0119",
+    "text": "Execute the test case again",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      67.69883199259493,
+      181.3267470305036,
+      64.5828828149024,
+      7.391174701329874
+    ],
+    "components": [
+      "decycling"
+    ]
+  },
+  {
+    "key": "e0122",
+    "text": "Rebuild the graph",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      76.40650331419602,
+      118.6730278261166,
+      42.566141721297754,
+      7.391171484014194
+    ],
+    "components": [
+      "decycling"
+    ]
+  },
+  {
+    "key": "e0124",
+    "text": "Graph ",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      78.83724965648435,
+      109.35206535502948,
+      16.29189461565693,
+      7.391171484014194
+    ],
+    "components": [
+      "decycling"
+    ]
+  },
+  {
+    "key": "e0125",
+    "text": "Decycling",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      95.10847623621521,
+      109.35206535502948,
+      23.43725674711459,
+      7.391171484014194
+    ],
+    "components": [
+      "decycling"
+    ]
+  },
+  {
+    "key": "e0127",
+    "text": "Output",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      150.3008703881933,
+      142.39015242957248,
+      17.304358121516998,
+      7.391171484014194
+    ],
+    "components": []
+  },
+  {
+    "key": "e0146",
+    "text": "Refined",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      173.1875414684182,
+      181.151631755376,
+      18.250570662901737,
+      7.391174701329874
+    ],
+    "components": [
+      "equivalent-validation"
+    ]
+  },
+  {
+    "key": "e0147",
+    "text": "test ",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      171.38503392426355,
+      188.23786123329955,
+      10.80893236513657,
+      7.391174701329874
+    ],
+    "components": [
+      "equivalent-validation"
+    ]
+  },
+  {
+    "key": "e0148",
+    "text": "case",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      182.2958908501314,
+      188.23786123329955,
+      10.633743091748329,
+      7.391174701329874
+    ],
+    "components": [
+      "equivalent-validation"
+    ]
+  },
+  {
+    "key": "e0149",
+    "text": "Databases",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      9.202055164045305,
+      58.15662612208689,
+      24.928501868525927,
+      7.391177918645553
+    ],
+    "components": [
+      "case-input"
+    ]
+  },
+  {
+    "key": "e0150",
+    "text": "SQL statements for ",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      39.93459451865783,
+      57.75573571913992,
+      46.80805018691899,
+      7.391177918645553
+    ],
+    "components": []
+  },
+  {
+    "key": "e0151",
+    "text": "each transaction",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      42.817431625619065,
+      64.84195071914291,
+      39.71388841718726,
+      7.391177918645553
+    ],
+    "components": [
+      "case-input"
+    ]
+  },
+  {
+    "key": "e0160",
+    "text": "Topological",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      210.63588626883575,
+      113.73065825998492,
+      27.323889911494916,
+      7.391177918645553
+    ],
+    "components": [
+      "equivalent-validation"
+    ]
+  },
+  {
+    "key": "e0161",
+    "text": "Sorting",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      215.98149487836054,
+      120.81688612925063,
+      17.31075414508814,
+      7.391177918645553
+    ],
+    "components": [
+      "equivalent-validation"
+    ]
+  },
+  {
+    "key": "e0178",
+    "text": "①",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      3.000003555229341,
+      3.93025030681747,
+      7.588182200999654,
+      8.695499412056051
+    ],
+    "components": [
+      "case-input"
+    ]
+  },
+  {
+    "key": "e0179",
+    "text": "Random Generation",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      14.385903575828706,
+      3.4954751351324376,
+      63.489162784237124,
+      9.565053777070716
+    ],
+    "components": [
+      "case-input"
+    ]
+  },
+  {
+    "key": "e0181",
+    "text": "Execution without transactions",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      240.9576709306275,
+      102.99624536062038,
+      76.23751234496012,
+      7.391171484014194
+    ],
+    "components": [
+      "equivalent-validation"
+    ]
+  },
+  {
+    "key": "e0182",
+    "text": "Acyclic graph ",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      181.03866683662636,
+      144.58215464453679,
+      33.01315931265708,
+      7.391177918645553
+    ],
+    "components": [
+      "equivalent-validation"
+    ]
+  },
+  {
+    "key": "e0184",
+    "text": "Semantically Equivalent ",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      227.85009520500898,
+      145.61695919047634,
+      59.58038805334945,
+      7.391177918645553
+    ],
+    "components": [
+      "equivalent-validation"
+    ]
+  },
+  {
+    "key": "e0185",
+    "text": "Test Case",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      246.03876471423428,
+      152.7031806251107,
+      22.88515250722412,
+      7.391174701329874
+    ],
+    "components": [
+      "equivalent-validation"
+    ]
+  },
+  {
+    "key": "e0187",
+    "text": "Transaction ",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      209.81274248682894,
+      181.151631755376,
+      29.299064353544964,
+      7.391174701329874
+    ],
+    "components": [
+      "equivalent-validation"
+    ]
+  },
+  {
+    "key": "e0188",
+    "text": "execution results",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      204.4052327236277,
+      188.23786123329955,
+      40.96263158656075,
+      7.391174701329874
+    ],
+    "components": [
+      "equivalent-validation"
+    ]
+  },
+  {
+    "key": "e0192",
+    "text": "Execution results comparison",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      331.72218720201636,
+      137.0903905684827,
+      82.30130302975886,
+      8.260721827384259
+    ],
+    "components": [
+      "equivalent-validation"
+    ]
+  },
+  {
+    "key": "e0193",
+    "text": "Equivalent",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      357.98809502541553,
+      145.1836382454785,
+      29.733916740806308,
+      8.260721827384259
+    ],
+    "components": [
+      "equivalent-validation"
+    ]
+  },
+  {
+    "key": "e0194",
+    "text": "Not equivalent ",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      351.94178079938865,
+      153.27687948784296,
+      43.12296898060595,
+      8.260725044699939
+    ],
+    "components": [
+      "equivalent-validation"
+    ]
+  },
+  {
+    "key": "e0200",
+    "text": "④",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      133.15176705211343,
+      92.07780200437992,
+      7.588182200999654,
+      8.695499412056051
+    ],
+    "components": []
+  },
+  {
+    "key": "e0201",
+    "text": "Transactional Oracle Construction",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      144.10287903176504,
+      91.64302683269489,
+      106.16336126995157,
+      9.565047342439357
+    ],
+    "components": []
+  }
+]

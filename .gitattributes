@@ -3,6 +3,7 @@
 catalog/sources/** -text
 templates/**/*.py -text
 original/resources/assets/** -text
+architecture/** -text
 
 # Shell entrypoints must remain executable by Unix shells.
 *.sh text eol=lf

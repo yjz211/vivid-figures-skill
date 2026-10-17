@@ -1,0 +1,290 @@
+[
+  {
+    "key": "e0121",
+    "text": "...",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      58.83042360581749,
+      59.99329143265095,
+      7.204172483394359,
+      10.906034553895552
+    ],
+    "components": [
+      "task-graphs"
+    ]
+  },
+  {
+    "key": "e0124",
+    "text": "Modality 1",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      24.218750469974566,
+      78.17701719267279,
+      32.70227445358387,
+      9.161067063305381
+    ],
+    "components": []
+  },
+  {
+    "key": "e0127",
+    "text": "Modality 2",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      24.218750469974566,
+      87.92701790200954,
+      32.70227445358387,
+      9.161059429687157
+    ],
+    "components": []
+  },
+  {
+    "key": "e0130",
+    "text": "Backbone Model",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      24.218750469974566,
+      97.67702624496451,
+      51.21687561726958,
+      9.161059429687157
+    ],
+    "components": []
+  },
+  {
+    "key": "e0212",
+    "text": "Data dep.",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      84.1523818953192,
+      78.17701719267279,
+      29.319968387876543,
+      9.161067063305381
+    ],
+    "components": []
+  },
+  {
+    "key": "e0219",
+    "text": "MCTS",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      139.5909808604074,
+      -1.3229791959274735,
+      17.48874837675885,
+      9.161067063305381
+    ],
+    "components": []
+  },
+  {
+    "key": "e0232",
+    "text": "①",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      169.5578232611888,
+      19.178858742256125,
+      7.959404461365693,
+      7.197979656703922
+    ],
+    "components": [
+      "search-tree"
+    ]
+  },
+  {
+    "key": "e0233",
+    "text": " Pipeline     segment        reorder",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      169.5577927604927,
+      16.997654924702147,
+      44.273193899143735,
+      29.833550256384115
+    ],
+    "components": [
+      "search-tree"
+    ]
+  },
+  {
+    "key": "e0309",
+    "text": "FwBw",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      4.215905966723312,
+      106.32885998410529,
+      17.10546900458894,
+      7.197982042209333
+    ],
+    "components": []
+  },
+  {
+    "key": "e0358",
+    "text": "PP0PP1PP2",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      10.496449175757334,
+      129.57885831831663,
+      9.247448857007612,
+      22.197978997541213
+    ],
+    "components": [
+      "resource-lanes"
+    ]
+  },
+  {
+    "key": "e0361",
+    "text": "②",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      84.90156286806496,
+      119.07886350303124,
+      7.959404461365693,
+      7.197979656703922
+    ],
+    "components": [
+      "resource-lanes"
+    ]
+  },
+  {
+    "key": "e0362",
+    "text": " Pipeline stage interleave",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      92.86772704620034,
+      116.89766777108889,
+      85.47086535897051,
+      10.033551458291186
+    ],
+    "components": []
+  },
+  {
+    "key": "e0387",
+    "text": "Memory",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      13.684282803230872,
+      160.24740443344126,
+      7.190016777464052,
+      21.027592790782364
+    ],
+    "components": [
+      "occupancy-before-after"
+    ]
+  },
+  {
+    "key": "e0414",
+    "text": "③",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      63.92478538779642,
+      185.0788592668323,
+      7.959404461365693,
+      7.197979656703922
+    ],
+    "components": [
+      "occupancy-before-after"
+    ]
+  },
+  {
+    "key": "e0415",
+    "text": " Per-layer memory opt.",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      71.89095719110583,
+      182.89765613111376,
+      78.87572272017451,
+      10.033551458291186
+    ],
+    "components": [
+      "occupancy-before-after"
+    ]
+  },
+  {
+    "key": "e0416",
+    "text": "Memory",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      14.058877102190763,
+      193.62240376594855,
+      7.190016777464052,
+      21.027577523547734
+    ],
+    "components": [
+      "occupancy-before-after"
+    ]
+  },
+  {
+    "key": "e0417",
+    "text": "Time",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      203.60761084260503,
+      203.82884019376252,
+      12.130294586572745,
+      7.197982042209333
+    ],
+    "components": [
+      "occupancy-before-after"
+    ]
+  },
+  {
+    "key": "e0435",
+    "text": "Reserved butnot usedIn use",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      166.56112987090182,
+      155.07886535616854,
+      32.22352790266996,
+      36.447973051659574
+    ],
+    "components": [
+      "occupancy-before-after"
+    ]
+  },
+  {
+    "key": "e0440",
+    "text": "Pipeline segments",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      123.8584222913596,
+      74.24329312038662,
+      67.77705676037294,
+      10.906026920278237
+    ],
+    "components": [
+      "segment-artifact"
+    ]
+  },
+  {
+    "key": "e0442",
+    "text": "Computa",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      1.743641544910588,
+      -1.3229791959274735,
+      27.79390418516641,
+      9.161067063305381
+    ],
+    "components": []
+  },
+  {
+    "key": "e0443",
+    "text": "ti",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      29.470436573517418,
+      -1.3229791959274735,
+      4.173750995185088,
+      9.161065154900825
+    ],
+    "components": []
+  },
+  {
+    "key": "e0444",
+    "text": "on graphs of microbatches",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      33.643328306905005,
+      -1.3229791959274735,
+      80.50773871590764,
+      9.161067063305381
+    ],
+    "components": []
+  }
+]

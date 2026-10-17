@@ -1,0 +1,576 @@
+[
+  {
+    "key": "e0011",
+    "text": "System Bus",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      90.71545772063291,
+      100.29458771139613,
+      26.210458105646467,
+      5.682270988243545
+    ],
+    "components": [
+      "system-bus"
+    ]
+  },
+  {
+    "key": "e0014",
+    "text": "Processor Core",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      8.557293201980428,
+      16.172378498174083,
+      35.8283435075482,
+      6.423432722985126
+    ],
+    "components": [
+      "sender"
+    ]
+  },
+  {
+    "key": "e0015",
+    "text": "Local Apic",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      9.065245652112935,
+      75.70403073198756,
+      23.562606721874545,
+      5.682270988243545
+    ],
+    "components": [
+      "sender"
+    ]
+  },
+  {
+    "key": "e0019",
+    "text": "reg_sender(fd,flags);",
+    "font_family": "VividSource-Inconsolata-Regular",
+    "bounds": [
+      11.105112281014954,
+      34.169564833391604,
+      59.912889120887485,
+      5.188158733383716
+    ],
+    "components": [
+      "sender"
+    ]
+  },
+  {
+    "key": "e0020",
+    "text": "SENDUIPI",
+    "font_family": "VividSource-Inconsolata-Regular",
+    "bounds": [
+      11.105112281014954,
+      39.39740942930072,
+      22.52771642405969,
+      5.188158733383716
+    ],
+    "components": [
+      "sender"
+    ]
+  },
+  {
+    "key": "e0021",
+    "text": "...",
+    "font_family": "VividSource-Inconsolata-Regular",
+    "bounds": [
+      11.105112281014954,
+      44.62525402520984,
+      8.148777258164046,
+      5.188158733383716
+    ],
+    "components": [
+      "sender"
+    ]
+  },
+  {
+    "key": "e0024",
+    "text": "Interrupt Command Register (ICR)",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      12.568024909865926,
+      86.70414082315344,
+      63.44438578669906,
+      4.941109253501963
+    ],
+    "components": [
+      "sender"
+    ]
+  },
+  {
+    "key": "e0027",
+    "text": "2",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      35.80841167724611,
+      62.35633900751415,
+      2.9106189912820355,
+      5.682269326356504
+    ],
+    "components": [
+      "sender"
+    ]
+  },
+  {
+    "key": "e0030",
+    "text": "3",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      51.63805857356783,
+      102.77433589725476,
+      2.9646623114214776,
+      5.682269326356504
+    ],
+    "components": [
+      "system-bus"
+    ]
+  },
+  {
+    "key": "e0033",
+    "text": "Receiver",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      106.96658576059963,
+      6.547965203977554,
+      21.258300627099743,
+      6.670495497963202
+    ],
+    "components": [
+      "receiver"
+    ]
+  },
+  {
+    "key": "e0036",
+    "text": "Processor Core",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      109.02812339650882,
+      16.172378498174083,
+      35.8283435075482,
+      6.423432722985126
+    ],
+    "components": [
+      "receiver"
+    ]
+  },
+  {
+    "key": "e0037",
+    "text": "Local Apic",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      109.15748468373567,
+      76.57968566113684,
+      23.562686492452485,
+      5.682270988243545
+    ],
+    "components": [
+      "receiver"
+    ]
+  },
+  {
+    "key": "e0040",
+    "text": "End of Interrupt Register (EOI) ",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      142.0001484099339,
+      86.39861950964129,
+      70.39328060167458,
+      5.682257693147221
+    ],
+    "components": [
+      "receiver"
+    ]
+  },
+  {
+    "key": "e0043",
+    "text": "UIRR",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      193.49700224636393,
+      64.63606246918695,
+      11.179474235665111,
+      5.435208213265469
+    ],
+    "components": [
+      "receiver"
+    ]
+  },
+  {
+    "key": "e0046",
+    "text": "UI_NOTIFICATION:",
+    "font_family": "VividSource-Inconsolata-Regular",
+    "bounds": [
+      111.16980387305557,
+      32.70263708545096,
+      45.53397654518449,
+      5.188158733383716
+    ],
+    "components": [
+      "receiver"
+    ]
+  },
+  {
+    "key": "e0047",
+    "text": "  update(UPID,UIRR);",
+    "font_family": "VividSource-Inconsolata-Regular",
+    "bounds": [
+      111.16980387305557,
+      37.93048168136008,
+      57.037106605746885,
+      5.188158733383716
+    ],
+    "components": [
+      "receiver"
+    ]
+  },
+  {
+    "key": "e0048",
+    "text": "UI_DELIVERY:",
+    "font_family": "VividSource-Inconsolata-Regular",
+    "bounds": [
+      111.16980387305557,
+      43.15833957236552,
+      34.03084648462209,
+      5.188158733383716
+    ],
+    "components": [
+      "receiver"
+    ]
+  },
+  {
+    "key": "e0049",
+    "text": "  save_state;",
+    "font_family": "VividSource-Inconsolata-Regular",
+    "bounds": [
+      111.16980387305557,
+      48.386170873178315,
+      36.90662899976269,
+      5.188158733383716
+    ],
+    "components": [
+      "receiver"
+    ]
+  },
+  {
+    "key": "e0050",
+    "text": "  UIF=0;",
+    "font_family": "VividSource-Inconsolata-Regular",
+    "bounds": [
+      111.16980387305557,
+      53.614015469087434,
+      22.52771642405969,
+      5.188158733383716
+    ],
+    "components": [
+      "receiver"
+    ]
+  },
+  {
+    "key": "e0051",
+    "text": "  JMP HANDLER;",
+    "font_family": "VividSource-Inconsolata-Regular",
+    "bounds": [
+      111.16980387305557,
+      58.84186006499655,
+      39.78241151490329,
+      5.188158733383716
+    ],
+    "components": [
+      "receiver"
+    ]
+  },
+  {
+    "key": "e0054",
+    "text": "uipi_handler(vec){",
+    "font_family": "VividSource-Inconsolata-Regular",
+    "bounds": [
+      177.5943652712267,
+      32.69949944271863,
+      51.28551498527298,
+      5.188158733383716
+    ],
+    "components": [
+      "receiver"
+    ]
+  },
+  {
+    "key": "e0055",
+    "text": "  //handler code",
+    "font_family": "VividSource-Inconsolata-Regular",
+    "bounds": [
+      177.5943652712267,
+      37.927357333724075,
+      45.53394995499178,
+      5.188158733383716
+    ],
+    "components": [
+      "receiver"
+    ]
+  },
+  {
+    "key": "e0056",
+    "text": "  UIRET",
+    "font_family": "VividSource-Inconsolata-Regular",
+    "bounds": [
+      177.5943652712267,
+      43.15520192963319,
+      19.72524307004636,
+      5.188158733383716
+    ],
+    "components": [
+      "receiver"
+    ]
+  },
+  {
+    "key": "e0057",
+    "text": "}",
+    "font_family": "VividSource-Inconsolata-Regular",
+    "bounds": [
+      177.5943652712267,
+      48.38303323044599,
+      2.397207449957591,
+      5.188159148855476
+    ],
+    "components": [
+      "receiver"
+    ]
+  },
+  {
+    "key": "e0058",
+    "text": "Program Code",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      9.833037464790323,
+      23.46374169934458,
+      32.30232442142187,
+      5.682270988243545
+    ],
+    "components": [
+      "sender"
+    ]
+  },
+  {
+    "key": "e0061",
+    "text": "6",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      227.36163343675065,
+      38.53566117090574,
+      2.9646623114215345,
+      5.682269326356504
+    ],
+    "components": [
+      "receiver"
+    ]
+  },
+  {
+    "key": "e0062",
+    "text": "Program Code",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      175.44263370185945,
+      26.723765793328283,
+      32.302244650843875,
+      5.682270988243545
+    ],
+    "components": [
+      "receiver"
+    ]
+  },
+  {
+    "key": "e0063",
+    "text": "UPID",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      88.49535991773547,
+      19.223025764916088,
+      12.230964872397863,
+      5.851173306433452
+    ],
+    "components": [
+      "shared-state"
+    ]
+  },
+  {
+    "key": "e0065",
+    "text": "Micro Seq ROM (MSROM)",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      111.38848161738315,
+      25.92390620831881,
+      55.4814207947511,
+      5.435208213265469
+    ],
+    "components": [
+      "receiver"
+    ]
+  },
+  {
+    "key": "e0066",
+    "text": "Mem",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      85.74165582527166,
+      6.30748350167957,
+      13.123642761231167,
+      6.670495497963202
+    ],
+    "components": [
+      "shared-state"
+    ]
+  },
+  {
+    "key": "e0067",
+    "text": "...",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      91.83930927296666,
+      81.79363650537584,
+      5.731411735006475,
+      4.424155676156374
+    ],
+    "components": [
+      "shared-state"
+    ]
+  },
+  {
+    "key": "e0070",
+    "text": "outstanding ",
+    "font_family": "VividSource-Inconsolata-Regular",
+    "bounds": [
+      94.87094048819759,
+      30.141562738315884,
+      5.479932922623107,
+      37.13318379296038
+    ],
+    "components": [
+      "shared-state"
+    ]
+  },
+  {
+    "key": "e0071",
+    "text": "notificatin",
+    "font_family": "VividSource-Inconsolata-Regular",
+    "bounds": [
+      88.77745731437787,
+      28.56565991301079,
+      5.47615363274258,
+      33.99593991352344
+    ],
+    "components": [
+      "shared-state"
+    ]
+  },
+  {
+    "key": "e0075",
+    "text": " PIR",
+    "font_family": "VividSource-Inconsolata-Regular",
+    "bounds": [
+      91.4072533459836,
+      78.92306515694116,
+      5.945016445023725,
+      13.036603071865613
+    ],
+    "components": [
+      "shared-state"
+    ]
+  },
+  {
+    "key": "e0078",
+    "text": "4",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      160.10067752887335,
+      31.46499656870398,
+      2.964662311421421,
+      5.682269326356504
+    ],
+    "components": [
+      "receiver"
+    ]
+  },
+  {
+    "key": "e0081",
+    "text": "5",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      149.57659836156745,
+      44.35852780276943,
+      2.964662311421421,
+      5.682269326356504
+    ],
+    "components": [
+      "receiver"
+    ]
+  },
+  {
+    "key": "e0084",
+    "text": "7",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      201.86934984430258,
+      44.38135548315674,
+      2.9106189912820355,
+      5.682269326356504
+    ],
+    "components": [
+      "receiver"
+    ]
+  },
+  {
+    "key": "e0088",
+    "text": "...",
+    "font_family": "VividSource-Inconsolata-Regular",
+    "bounds": [
+      92.88962326303397,
+      69.75297034782386,
+      4.207965466911787,
+      6.671912104436842
+    ],
+    "components": [
+      "shared-state"
+    ]
+  },
+  {
+    "key": "e0100",
+    "text": "1",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      72.32903085035468,
+      16.792541561276238,
+      2.9106189912820355,
+      5.682269326356504
+    ],
+    "components": [
+      "sender"
+    ]
+  },
+  {
+    "key": "e0111",
+    "text": "UIF",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      219.4523806339493,
+      64.63606246918695,
+      7.5843206486570125,
+      5.435208213265469
+    ],
+    "components": [
+      "receiver"
+    ]
+  },
+  {
+    "key": "e0115",
+    "text": "Sender",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      5.272287622005024,
+      7.133481246060882,
+      17.321968278240092,
+      6.670495497963202
+    ],
+    "components": [
+      "sender"
+    ]
+  }
+]

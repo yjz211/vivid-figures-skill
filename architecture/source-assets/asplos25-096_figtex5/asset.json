@@ -1,0 +1,86 @@
+{
+  "name": "共同输入下的双执行轨迹检验",
+  "family": "parallel-fusion",
+  "tags": [
+    "双路验证",
+    "生成器",
+    "轨迹",
+    "比较判定"
+  ],
+  "when_to_use": "模型与实现的差分验证；相同输入下检查行为约束",
+  "avoid": "没有可比输入的性能展示；只需展示单一路径的数据处理",
+  "preserve": [
+    "左侧上部输入、下部并列执行，右侧独立竖向判定；直线分隔生成、执行和比较职责。",
+    "测试对象含两个彩色字段，轨迹用错位叠卡表示成对记录，椭圆容纳比较与逻辑运算。",
+    "粗黑箭头推动两路执行，金色和灰色弯箭头输出各自轨迹；红色箭头强调触发异常的比较。",
+    "金色贯穿参考路径，灰色贯穿目标路径，紫色表示随机输入，红色只用于异常判定。",
+    "无衬线文字较醒目，轨迹卡片上的短标签应保持对齐，比较符号需明显大于正文。"
+  ],
+  "adapt": "先写出违规判定的布尔表达式，再设置比较圆和汇合节点 两条分支必须共享输入身份，避免仅看起来共用 比较对象超过两组时增加轨迹行并重排判定区 可把随机源换成固定案例集，但相应删除随机含义",
+  "visual_note": "左侧上部输入、下部并列执行，右侧独立竖向判定；直线分隔生成、执行和比较职责。",
+  "parts": [
+    {
+      "id": "case-generator",
+      "name": "共同测试输入",
+      "role": "component",
+      "box": [
+        0.015,
+        0.02,
+        0.58,
+        0.47
+      ],
+      "meaning": "生成程序与输入组成的同一测试实例。",
+      "reuse": "替换为可复现样本及参数，保留随机种子位置或说明。"
+    },
+    {
+      "id": "model-execution",
+      "name": "参考执行分支",
+      "role": "component",
+      "box": [
+        0.01,
+        0.51,
+        0.3,
+        0.47
+      ],
+      "meaning": "用规范或基准方法产生应允许的观察。",
+      "reuse": "注明参考模型适用范围，不把预测自动当作真值。"
+    },
+    {
+      "id": "target-execution",
+      "name": "目标执行分支",
+      "role": "component",
+      "box": [
+        0.315,
+        0.51,
+        0.29,
+        0.47
+      ],
+      "meaning": "对待测实现执行相同案例并提取观察。",
+      "reuse": "保证轨迹字段与参考路径可比，补充必要转换。"
+    },
+    {
+      "id": "trace-comparison",
+      "name": "轨迹组合判定",
+      "role": "component",
+      "box": [
+        0.62,
+        0.04,
+        0.37,
+        0.92
+      ],
+      "meaning": "两类成对轨迹先分别比较，再由逻辑运算得结论。",
+      "reuse": "重新推导比较符号与AND等逻辑；不要只更换最终告警文字。"
+    }
+  ],
+  "selection_evidence": {
+    "candidate_index": 4,
+    "semantics_read": true,
+    "preview_reviewed": true,
+    "source_render_reviewed": true,
+    "render": "source-renders/4.png"
+  },
+  "implementation": "source-derived editable SVG",
+  "validation_status": "source-fidelity-checked",
+  "id": "architecture.source.asplos25-096_figtex5",
+  "display_code": "VA-038"
+}

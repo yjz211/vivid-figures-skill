@@ -1,0 +1,247 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 430" width="468pt" height="182.9455pt" data-vivid-architecture="1" font-family="Arial, sans-serif" font-size="18" fill="#29333b">
+  <title>Platform with three internally distinct subsystems</title>
+  <defs>
+    <marker id="arrow-29333b" viewBox="0 0 10 8" refX="9" refY="4" markerWidth="6" markerHeight="5" orient="auto-start-reverse" markerUnits="strokeWidth">
+      <path d="M0 0 L10 4 L0 8 Z" fill="#29333b" />
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="1100" height="430" rx="0" fill="#ffffff" stroke="none" stroke-width="1.6" data-asset-key="e0001" />
+  <rect x="4" y="4" width="1092" height="422" rx="0" fill="#ffffff" stroke="#29333b" stroke-width="2.5" data-asset-key="e0002" />
+  <text x="105" y="31.46" font-size="19" text-anchor="middle" font-weight="bold" fill="#29333b" data-asset-key="e0003">
+    <tspan x="105" y="31.46">Input description</tspan>
+  </text>
+  <text x="999" y="31.46" font-size="19" text-anchor="middle" font-weight="bold" fill="#29333b" data-asset-key="e0004">
+    <tspan x="999" y="31.46">Outputs</tspan>
+  </text>
+  <g id="input-0" data-role="object" data-bounds="18 44 172 145" data-vivid-part="input-0">
+    <rect x="18" y="44" width="172" height="145" rx="3" fill="#ffffff" stroke="#29333b" stroke-width="1.6" data-asset-key="e0005" />
+    <text x="104" y="70.46000000000001" font-size="19" text-anchor="middle" font-weight="bold" fill="#29333b" data-text-box="25.0 49.79 158 28.419999999999998" data-asset-key="e0006">
+      <tspan x="104" y="70.46000000000001">Native model</tspan>
+    </text>
+    <g id="input-object-0" data-role="object" data-bounds="31 88 146 87" data-vivid-part="input-object-0">
+      <desc>document</desc>
+      <rect x="31" y="88" width="146" height="87" rx="0" fill="#ffffff" stroke="#29333b" stroke-width="1.3" data-asset-key="e0007" />
+      <circle cx="39" cy="108.3" r="1.8" fill="#29333b" stroke="none" stroke-width="1.5" data-asset-key="e0008" />
+      <text x="47" y="114.42" font-size="18" text-anchor="start" font-weight="normal" fill="#29333b" data-text-box="47 94.67999999999999 122 27.24" data-asset-key="e0009">
+        <tspan x="47" y="114.42">Framework</tspan>
+      </text>
+      <circle cx="39" cy="137.3" r="1.8" fill="#29333b" stroke="none" stroke-width="1.5" data-asset-key="e0010" />
+      <text x="47" y="143.42000000000002" font-size="18" text-anchor="start" font-weight="normal" fill="#29333b" data-text-box="47 123.68 122 27.24" data-asset-key="e0011">
+        <tspan x="47" y="143.42000000000002">Model graph</tspan>
+      </text>
+      <circle cx="39" cy="166.3" r="1.8" fill="#29333b" stroke="none" stroke-width="1.5" data-asset-key="e0012" />
+      <text x="47" y="172.42000000000002" font-size="18" text-anchor="start" font-weight="normal" fill="#29333b" data-text-box="47 152.68 122 27.24" data-asset-key="e0013">
+        <tspan x="47" y="172.42000000000002">Parameters</tspan>
+      </text>
+    </g>
+  </g>
+  <g id="input-1" data-role="object" data-bounds="18 201 172 145" data-vivid-part="input-1">
+    <rect x="18" y="201" width="172" height="145" rx="3" fill="#ffffff" stroke="#29333b" stroke-width="1.6" data-asset-key="e0014" />
+    <text x="104" y="227.46" font-size="19" text-anchor="middle" font-weight="bold" fill="#29333b" data-text-box="25.0 206.79 158 28.419999999999998" data-asset-key="e0015">
+      <tspan x="104" y="227.46">System config</tspan>
+    </text>
+    <g id="input-object-1" data-role="object" data-bounds="31 245 146 87" data-vivid-part="input-object-1">
+      <desc>document</desc>
+      <rect x="31" y="245" width="146" height="87" rx="0" fill="#ffffff" stroke="#29333b" stroke-width="1.3" data-asset-key="e0016" />
+      <circle cx="39" cy="265.3" r="1.8" fill="#29333b" stroke="none" stroke-width="1.5" data-asset-key="e0017" />
+      <text x="47" y="271.42" font-size="18" text-anchor="start" font-weight="normal" fill="#29333b" data-text-box="47 251.68 122 27.24" data-asset-key="e0018">
+        <tspan x="47" y="271.42">Devices</tspan>
+      </text>
+      <circle cx="39" cy="294.3" r="1.8" fill="#29333b" stroke="none" stroke-width="1.5" data-asset-key="e0019" />
+      <text x="47" y="300.42" font-size="18" text-anchor="start" font-weight="normal" fill="#29333b" data-text-box="47 280.68 122 27.24" data-asset-key="e0020">
+        <tspan x="47" y="300.42">Interconnect</tspan>
+      </text>
+      <circle cx="39" cy="323.3" r="1.8" fill="#29333b" stroke="none" stroke-width="1.5" data-asset-key="e0021" />
+      <text x="47" y="329.42" font-size="18" text-anchor="start" font-weight="normal" fill="#29333b" data-text-box="47 309.68 122 27.24" data-asset-key="e0022">
+        <tspan x="47" y="329.42">Parallelism</tspan>
+      </text>
+    </g>
+  </g>
+  <g id="platform" data-role="region" data-bounds="218 20 665 390" data-vivid-part="platform">
+    <rect x="218" y="20" width="665" height="390" rx="6" fill="#ffffff" stroke="#365971" stroke-width="1.6" data-asset-key="e0023" />
+    <g id="module-0" data-role="region" data-bounds="230 34 203 332" data-vivid-part="module-0">
+      <rect x="230" y="34" width="203" height="303" rx="4" fill="#ffffff" stroke="#365971" stroke-width="1.4" data-asset-key="e0024" />
+      <rect x="240" y="45" width="183" height="28" rx="0" fill="#e6e9e9" stroke="#29333b" stroke-width="1.2" data-asset-key="e0025" />
+      <text x="331.5" y="65.12" font-size="18" text-anchor="middle" font-weight="bold" fill="#29333b" data-text-box="245.0 45.38 173 27.24" data-asset-key="e0026">
+        <tspan x="331.5" y="65.12">Model config</tspan>
+      </text>
+      <text x="331.5" y="97.12" font-size="18" text-anchor="middle" font-weight="bold" fill="#29333b" data-asset-key="e0027">
+        <tspan x="331.5" y="97.12">Graph transformation</tspan>
+      </text>
+      <g id="module-0-graph" data-role="object" data-bounds="243 107 177 71" data-vivid-part="module-0-graph">
+        <rect x="243" y="107" width="177" height="71" rx="0" fill="#f2c8cb" stroke="#29333b" stroke-width="1" data-asset-key="e0028" />
+        <g id="module-0-graph-object" data-role="object" data-bounds="253 116 157 49" data-vivid-part="module-0-graph-object">
+          <desc>graph</desc>
+          <path d="M 280.004 137.756 L 304.496 129.524" fill="none" stroke="#29333b" stroke-width="1.4" marker-end="url(#arrow-29333b)" stroke-linejoin="round" data-asset-key="e0029" />
+          <path d="M 280.004 143.244 L 304.496 151.476" fill="none" stroke="#29333b" stroke-width="1.4" marker-end="url(#arrow-29333b)" stroke-linejoin="round" data-asset-key="e0030" />
+          <path d="M 321.301 129.297 L 351.119 137.983" fill="none" stroke="#29333b" stroke-width="1.4" marker-end="url(#arrow-29333b)" stroke-linejoin="round" data-asset-key="e0031" />
+          <path d="M 321.301 151.703 L 351.119 143.017" fill="none" stroke="#29333b" stroke-width="1.4" marker-end="url(#arrow-29333b)" stroke-linejoin="round" data-asset-key="e0032" />
+          <path d="M 366.668 140.5 L 387.392 140.5" fill="none" stroke="#29333b" stroke-width="1.4" marker-end="url(#arrow-29333b)" stroke-linejoin="round" data-asset-key="e0033" />
+          <circle cx="271.84" cy="140.5" r="9" fill="#cbdff3" stroke="#29333b" stroke-width="1.5" data-asset-key="e0034" />
+          <circle cx="312.66" cy="126.78" r="9" fill="#ffe5a0" stroke="#29333b" stroke-width="1.5" data-asset-key="e0035" />
+          <circle cx="312.66" cy="154.22" r="9" fill="#c8ddb6" stroke="#29333b" stroke-width="1.5" data-asset-key="e0036" />
+          <circle cx="359.76" cy="140.5" r="9" fill="#f2c8cb" stroke="#29333b" stroke-width="1.5" data-asset-key="e0037" />
+          <circle cx="394.3" cy="140.5" r="9" fill="#cbdff3" stroke="#29333b" stroke-width="1.5" data-asset-key="e0038" />
+        </g>
+      </g>
+      <path d="M 331.5 180 L 331.5 195" fill="none" stroke="#29333b" stroke-width="1.7" marker-end="url(#arrow-29333b)" stroke-linejoin="round" data-asset-key="e0039" />
+      <text x="331.5" y="217.12" font-size="18" text-anchor="middle" font-weight="bold" fill="#29333b" data-asset-key="e0040">
+        <tspan x="331.5" y="217.12">Graph execution</tspan>
+      </text>
+      <g id="module-0-artifact" data-role="object" data-bounds="251 228 161 70" data-vivid-part="module-0-artifact">
+        <desc>timeline</desc>
+        <path d="M 251 250.5 L 412 250.5" fill="none" stroke="#b3bdc4" stroke-width="0.8" stroke-linejoin="round" data-asset-key="e0041" />
+        <rect x="251.0" y="230.0" width="50.33333333333333" height="18.5" rx="0" fill="#cbdff3" stroke="#29333b" stroke-width="1" data-asset-key="e0042" />
+        <rect x="303.3333333333333" y="230.0" width="50.33333333333333" height="18.5" rx="0" fill="#ffe5a0" stroke="#29333b" stroke-width="1" data-asset-key="e0043" />
+        <rect x="355.66666666666663" y="230.0" width="50.33333333333333" height="18.5" rx="0" fill="#c8ddb6" stroke="#29333b" stroke-width="1" data-asset-key="e0044" />
+        <path d="M 251 278 L 412 278" fill="none" stroke="#b3bdc4" stroke-width="0.8" stroke-linejoin="round" data-asset-key="e0045" />
+        <rect x="277.1666666666667" y="257.5" width="50.33333333333333" height="18.5" rx="0" fill="#c8ddb6" stroke="#29333b" stroke-width="1" data-asset-key="e0046" />
+        <rect x="329.5" y="257.5" width="50.33333333333333" height="18.5" rx="0" fill="#cbdff3" stroke="#29333b" stroke-width="1" data-asset-key="e0047" />
+        <path d="M 251 295 L 412 295" fill="none" stroke="#29333b" stroke-width="1" marker-end="url(#arrow-29333b)" stroke-linejoin="round" data-asset-key="e0048" />
+      </g>
+      <text x="331.5" y="356.12" font-size="18" text-anchor="middle" font-weight="bold" fill="#29333b" data-text-box="236.0 336.38 191 27.24" data-asset-key="e0049">
+        <tspan x="331.5" y="356.12">Graph frontend</tspan>
+      </text>
+    </g>
+    <g id="module-1" data-role="region" data-bounds="445 34 203 332" data-vivid-part="module-1">
+      <rect x="445" y="34" width="203" height="303" rx="4" fill="#ffffff" stroke="#365971" stroke-width="1.4" data-asset-key="e0050" />
+      <rect x="455" y="45" width="183" height="28" rx="0" fill="#e6e9e9" stroke="#29333b" stroke-width="1.2" data-asset-key="e0051" />
+      <text x="546.5" y="65.12" font-size="18" text-anchor="middle" font-weight="bold" fill="#29333b" data-text-box="460.0 45.38 173 27.24" data-asset-key="e0052">
+        <tspan x="546.5" y="65.12">Op. simulator</tspan>
+      </text>
+      <g id="engine-0" data-role="component" data-bounds="457 91 125 43" data-vivid-part="engine-0">
+        <rect x="457" y="91" width="125" height="43" rx="0" fill="#cbdff3" stroke="#29333b" stroke-width="1.6" data-asset-key="e0053" />
+        <text x="519.5" y="118.62" font-size="18" text-anchor="middle" font-weight="normal" fill="#29333b" data-text-box="464.0 98.88 111 27.24" data-asset-key="e0054">
+          <tspan x="519.5" y="118.62">Profiling</tspan>
+        </text>
+      </g>
+      <path d="M 583 112.5 L 596 112.5" fill="none" stroke="#29333b" stroke-width="1.2" marker-end="url(#arrow-29333b)" stroke-linejoin="round" data-asset-key="e0055" />
+      <g id="engine-1" data-role="component" data-bounds="457 150 125 43" data-vivid-part="engine-1">
+        <rect x="457" y="150" width="125" height="43" rx="0" fill="#f7d9c2" stroke="#29333b" stroke-width="1.6" data-asset-key="e0056" />
+        <text x="519.5" y="177.62" font-size="18" text-anchor="middle" font-weight="normal" fill="#29333b" data-text-box="464.0 157.88 111 27.24" data-asset-key="e0057">
+          <tspan x="519.5" y="177.62">Prediction</tspan>
+        </text>
+      </g>
+      <path d="M 583 171.5 L 596 171.5" fill="none" stroke="#29333b" stroke-width="1.2" marker-end="url(#arrow-29333b)" stroke-linejoin="round" data-asset-key="e0058" />
+      <g id="engine-2" data-role="component" data-bounds="457 209 125 43" data-vivid-part="engine-2">
+        <rect x="457" y="209" width="125" height="43" rx="0" fill="#c8ddb6" stroke="#29333b" stroke-width="1.6" data-asset-key="e0059" />
+        <text x="519.5" y="236.62" font-size="18" text-anchor="middle" font-weight="normal" fill="#29333b" data-text-box="464.0 216.88 111 27.24" data-asset-key="e0060">
+          <tspan x="519.5" y="236.62">Analysis</tspan>
+        </text>
+      </g>
+      <path d="M 583 230.5 L 596 230.5" fill="none" stroke="#29333b" stroke-width="1.2" marker-end="url(#arrow-29333b)" stroke-linejoin="round" data-asset-key="e0061" />
+      <g id="fusion" data-role="component" data-bounds="598 91 38 161" data-vivid-part="fusion">
+        <rect x="598" y="91" width="38" height="161" rx="0" fill="#e6e9e9" stroke="#29333b" stroke-width="1.6" data-asset-key="e0062" />
+      </g>
+      <text x="617" y="177.62" font-size="18" text-anchor="middle" font-weight="normal" fill="#29333b" transform="rotate(-90 617 171.5)" data-asset-key="e0063">
+        <tspan x="617" y="177.62">Fused engine</tspan>
+      </text>
+      <g id="postprocess" data-role="component" data-bounds="457 282 179 33" data-vivid-part="postprocess">
+        <rect x="457" y="282" width="179" height="33" rx="0" fill="#e6e9e9" stroke="#29333b" stroke-width="1.6" data-asset-key="e0064" />
+        <text x="546.5" y="304.62" font-size="18" text-anchor="middle" font-weight="normal" fill="#29333b" data-text-box="464.0 284.88 165 27.24" data-asset-key="e0065">
+          <tspan x="546.5" y="304.62">Op overlap</tspan>
+        </text>
+      </g>
+      <text x="546.5" y="356.12" font-size="18" text-anchor="middle" font-weight="bold" fill="#29333b" data-text-box="451.0 336.38 191 27.24" data-asset-key="e0066">
+        <tspan x="546.5" y="356.12">Engine backend</tspan>
+      </text>
+    </g>
+    <g id="module-2" data-role="region" data-bounds="660 34 203 332" data-vivid-part="module-2">
+      <rect x="660" y="34" width="203" height="303" rx="4" fill="#ffffff" stroke="#365971" stroke-width="1.4" data-asset-key="e0067" />
+      <rect x="670" y="45" width="183" height="28" rx="0" fill="#e6e9e9" stroke="#29333b" stroke-width="1.2" data-asset-key="e0068" />
+      <text x="761.5" y="65.12" font-size="18" text-anchor="middle" font-weight="bold" fill="#29333b" data-text-box="675.0 45.38 173 27.24" data-asset-key="e0069">
+        <tspan x="761.5" y="65.12">Design parameters</tspan>
+      </text>
+      <g id="module-2-search" data-role="object" data-bounds="674 91 175 154" data-vivid-part="module-2-search">
+        <desc>graph</desc>
+        <path d="M 754.976 109.52 L 724.274 138.7" fill="none" stroke="#29333b" stroke-width="1.4" marker-end="url(#arrow-29333b)" stroke-linejoin="round" data-asset-key="e0070" />
+        <path d="M 768.024 109.52 L 798.726 138.7" fill="none" stroke="#29333b" stroke-width="1.4" marker-end="url(#arrow-29333b)" stroke-linejoin="round" data-asset-key="e0071" />
+        <path d="M 713.62 152.896 L 695.63 187.724" fill="none" stroke="#29333b" stroke-width="1.4" marker-end="url(#arrow-29333b)" stroke-linejoin="round" data-asset-key="e0072" />
+        <path d="M 721.427 153.114 L 736.823 187.506" fill="none" stroke="#29333b" stroke-width="1.4" marker-end="url(#arrow-29333b)" stroke-linejoin="round" data-asset-key="e0073" />
+        <path d="M 802.32 153.41 L 790.68 187.21" fill="none" stroke="#29333b" stroke-width="1.4" marker-end="url(#arrow-29333b)" stroke-linejoin="round" data-asset-key="e0074" />
+        <path d="M 809.38 152.896 L 827.37 187.724" fill="none" stroke="#29333b" stroke-width="1.4" marker-end="url(#arrow-29333b)" stroke-linejoin="round" data-asset-key="e0075" />
+        <path d="M 740.5 203.728 L 740.5 227.752" fill="none" stroke="#29333b" stroke-width="1.4" marker-end="url(#arrow-29333b)" stroke-linejoin="round" data-asset-key="e0076" />
+        <circle cx="761.5" cy="103.32" r="9" fill="#cbdff3" stroke="#29333b" stroke-width="1.5" data-asset-key="e0077" />
+        <circle cx="717.75" cy="144.9" r="9" fill="#ffe5a0" stroke="#29333b" stroke-width="1.5" data-asset-key="e0078" />
+        <circle cx="805.25" cy="144.9" r="9" fill="#c8ddb6" stroke="#29333b" stroke-width="1.5" data-asset-key="e0079" />
+        <circle cx="691.5" cy="195.72000000000003" r="9" fill="#f2c8cb" stroke="#29333b" stroke-width="1.5" data-asset-key="e0080" />
+        <circle cx="740.5" cy="195.72000000000003" r="9" fill="#cbdff3" stroke="#29333b" stroke-width="1.5" data-asset-key="e0081" />
+        <circle cx="787.75" cy="195.72000000000003" r="9" fill="#ffe5a0" stroke="#29333b" stroke-width="1.5" data-asset-key="e0082" />
+        <circle cx="831.5" cy="195.72000000000003" r="9" fill="#e6e9e9" stroke="#29333b" stroke-width="1.5" data-asset-key="e0083" />
+        <circle cx="740.5" cy="235.76" r="9" fill="#f2c8cb" stroke="#29333b" stroke-width="1.5" data-asset-key="e0084" />
+      </g>
+      <g id="search-rule" data-role="component" data-bounds="672 259 179 56" data-vivid-part="search-rule">
+        <rect x="672" y="259" width="179" height="56" rx="0" fill="#f2c8cb" stroke="#29333b" stroke-width="1.6" data-asset-key="e0085" />
+        <text x="761.5" y="282.5" font-size="18" text-anchor="middle" font-weight="normal" fill="#29333b" data-text-box="679.0 262.76 165 48.48" data-asset-key="e0086">
+          <tspan x="761.5" y="282.5">Rule-based</tspan>
+          <tspan x="761.5" y="303.74">pruning</tspan>
+        </text>
+      </g>
+      <text x="761.5" y="356.12" font-size="18" text-anchor="middle" font-weight="bold" fill="#29333b" data-text-box="666.0 336.38 191 27.24" data-asset-key="e0087">
+        <tspan x="761.5" y="356.12">Design explorer</tspan>
+      </text>
+    </g>
+    <text x="550" y="395.8" font-size="20" text-anchor="middle" font-weight="bold" fill="#29333b" data-text-box="240.0 374.2 620 29.599999999999998" data-asset-key="e0088">
+      <tspan x="550" y="395.8">Simulation platform</tspan>
+    </text>
+  </g>
+  <g id="output-0" data-role="object" data-bounds="912 44 171 100" data-vivid-part="output-0">
+    <rect x="912" y="44" width="171" height="100" rx="3" fill="#ffffff" stroke="#29333b" stroke-width="1.4" data-asset-key="e0089" />
+    <text x="997" y="67.12" font-size="18" text-anchor="middle" font-weight="bold" fill="#29333b" data-text-box="918.0 47.38 158 27.24" data-asset-key="e0090">
+      <tspan x="997" y="67.12">Summary</tspan>
+    </text>
+    <g id="output-object-0" data-role="object" data-bounds="925 76 145 61" data-vivid-part="output-object-0">
+      <desc>document</desc>
+      <rect x="925" y="76" width="145" height="61" rx="0" fill="#ffffff" stroke="#29333b" stroke-width="1.3" data-asset-key="e0091" />
+      <circle cx="933" cy="90.23333333333333" r="1.8" fill="#29333b" stroke="none" stroke-width="1.5" data-asset-key="e0092" />
+      <text x="941" y="96.35333333333334" font-size="18" text-anchor="start" font-weight="normal" fill="#29333b" data-text-box="941 76.61333333333333 121 27.24" data-asset-key="e0093">
+        <tspan x="941" y="96.35333333333334">Latency</tspan>
+      </text>
+      <circle cx="933" cy="110.56666666666666" r="1.8" fill="#29333b" stroke="none" stroke-width="1.5" data-asset-key="e0094" />
+      <text x="941" y="116.68666666666667" font-size="18" text-anchor="start" font-weight="normal" fill="#29333b" data-text-box="941 96.94666666666666 121 27.24" data-asset-key="e0095">
+        <tspan x="941" y="116.68666666666667">Memory</tspan>
+      </text>
+      <circle cx="933" cy="130.9" r="1.8" fill="#29333b" stroke="none" stroke-width="1.5" data-asset-key="e0096" />
+      <text x="941" y="137.02" font-size="18" text-anchor="start" font-weight="normal" fill="#29333b" data-text-box="941 117.28 121 27.24" data-asset-key="e0097">
+        <tspan x="941" y="137.02">Power</tspan>
+      </text>
+    </g>
+  </g>
+  <path d="M 883 91 L 910 91" fill="none" stroke="#29333b" stroke-width="1.7" marker-end="url(#arrow-29333b)" stroke-linejoin="round" id="platform-output-0" data-from="platform" data-to="output-0" data-asset-key="e0098" />
+  <g id="output-1" data-role="object" data-bounds="912 156 171 100" data-vivid-part="output-1">
+    <rect x="912" y="156" width="171" height="100" rx="3" fill="#ffffff" stroke="#29333b" stroke-width="1.4" data-asset-key="e0099" />
+    <text x="997" y="179.12" font-size="18" text-anchor="middle" font-weight="bold" fill="#29333b" data-text-box="918.0 159.38 158 27.24" data-asset-key="e0100">
+      <tspan x="997" y="179.12">Timeline traces</tspan>
+    </text>
+    <g id="output-object-1" data-role="object" data-bounds="925 188 145 61" data-vivid-part="output-object-1">
+      <desc>timeline</desc>
+      <path d="M 925 198.333 L 1070 198.333" fill="none" stroke="#b3bdc4" stroke-width="0.8" stroke-linejoin="round" data-asset-key="e0101" />
+      <rect x="925.0" y="190.0" width="38.285714285714285" height="6.333333333333334" rx="0" fill="#cbdff3" stroke="#29333b" stroke-width="1" data-asset-key="e0102" />
+      <rect x="985.4285714285714" y="190.0" width="38.285714285714285" height="6.333333333333334" rx="0" fill="#ffe5a0" stroke="#29333b" stroke-width="1" data-asset-key="e0103" />
+      <path d="M 925 213.667 L 1070 213.667" fill="none" stroke="#b3bdc4" stroke-width="0.8" stroke-linejoin="round" data-asset-key="e0104" />
+      <rect x="945.1428571428571" y="205.33333333333334" width="38.285714285714285" height="6.333333333333334" rx="0" fill="#c8ddb6" stroke="#29333b" stroke-width="1" data-asset-key="e0105" />
+      <rect x="1005.5714285714286" y="205.33333333333334" width="38.285714285714285" height="6.333333333333334" rx="0" fill="#cbdff3" stroke="#29333b" stroke-width="1" data-asset-key="e0106" />
+      <path d="M 925 229 L 1070 229" fill="none" stroke="#b3bdc4" stroke-width="0.8" stroke-linejoin="round" data-asset-key="e0107" />
+      <rect x="965.2857142857143" y="220.66666666666666" width="38.285714285714285" height="6.333333333333334" rx="0" fill="#ffe5a0" stroke="#29333b" stroke-width="1" data-asset-key="e0108" />
+      <rect x="1025.7142857142858" y="220.66666666666666" width="38.285714285714285" height="6.333333333333334" rx="0" fill="#c8ddb6" stroke="#29333b" stroke-width="1" data-asset-key="e0109" />
+      <path d="M 925 246 L 1070 246" fill="none" stroke="#29333b" stroke-width="1" marker-end="url(#arrow-29333b)" stroke-linejoin="round" data-asset-key="e0110" />
+    </g>
+  </g>
+  <path d="M 883 203 L 910 203" fill="none" stroke="#29333b" stroke-width="1.7" marker-end="url(#arrow-29333b)" stroke-linejoin="round" id="platform-output-1" data-from="platform" data-to="output-1" data-asset-key="e0111" />
+  <g id="output-2" data-role="object" data-bounds="912 268 171 100" data-vivid-part="output-2">
+    <rect x="912" y="268" width="171" height="100" rx="3" fill="#ffffff" stroke="#29333b" stroke-width="1.4" data-asset-key="e0112" />
+    <text x="997" y="291.12" font-size="18" text-anchor="middle" font-weight="bold" fill="#29333b" data-text-box="918.0 271.38 158 27.24" data-asset-key="e0113">
+      <tspan x="997" y="291.12">Design options</tspan>
+    </text>
+    <g id="output-object-2" data-role="object" data-bounds="925 300 145 61" data-vivid-part="output-object-2">
+      <desc>slots</desc>
+      <rect x="925.0" y="318.5" width="45.0" height="24" rx="0" fill="#cbdff3" stroke="#29333b" stroke-width="1" data-asset-key="e0114" />
+      <rect x="975.0" y="318.5" width="45.0" height="24" rx="0" fill="#ffe5a0" stroke="#29333b" stroke-width="1" data-asset-key="e0115" />
+      <rect x="1025.0" y="318.5" width="45.0" height="24" rx="0" fill="#c8ddb6" stroke="#29333b" stroke-width="1" data-asset-key="e0116" />
+    </g>
+  </g>
+  <path d="M 883 315 L 910 315" fill="none" stroke="#29333b" stroke-width="1.7" marker-end="url(#arrow-29333b)" stroke-linejoin="round" id="platform-output-2" data-from="platform" data-to="output-2" data-asset-key="e0117" />
+  <path d="M 190 117 L 216 117" fill="none" stroke="#29333b" stroke-width="1.7" marker-end="url(#arrow-29333b)" stroke-linejoin="round" id="platform-input-0" data-from="input-0" data-to="platform" data-asset-key="e0118" />
+  <path d="M 190 274 L 216 274" fill="none" stroke="#29333b" stroke-width="1.7" marker-end="url(#arrow-29333b)" stroke-linejoin="round" id="platform-input-1" data-from="input-1" data-to="platform" data-asset-key="e0119" />
+</svg>

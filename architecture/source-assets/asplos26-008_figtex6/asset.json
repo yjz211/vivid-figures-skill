@@ -1,0 +1,86 @@
+{
+  "name": "主执行副本与日志复制步骤",
+  "family": "artifact-pipeline",
+  "tags": [
+    "编号流程",
+    "主备",
+    "日志",
+    "树形中间产物"
+  ],
+  "when_to_use": "带持久日志的主备执行；需要解释代码或状态如何复制的流程",
+  "avoid": "无顺序提交的并行任务；需要展开一致性算法全部消息的协议图",
+  "preserve": [
+    "上部主执行与右侧放大框，下部日志居中、备份靠左，构成回折阅读路径。",
+    "文档图标表示代码，树形节点表示结构化表示，木段式日志仅是持久记录隐喻。",
+    "粗箭头表达处理顺序；点状放大边界表示细节关系，不是数据通道。",
+    "主执行与待命副本用橙棕同族色，树节点紫色，输入文档青色。",
+    "大号步骤编号形成节奏；代码标识用等宽字，长步骤说明应拆行。"
+  ],
+  "adapt": "明确日志保存的是命令、状态、增量还是多者组合。 编号只表达图示顺序，不能隐含事务原子性。 改变恢复机制后应重画待命副本接收内容，而不只替换日志名称。",
+  "visual_note": "上部主执行与右侧放大框，下部日志居中、备份靠左，构成回折阅读路径。",
+  "parts": [
+    {
+      "id": "active-executor",
+      "name": "活动执行副本",
+      "role": "component",
+      "box": [
+        0.005,
+        0.04,
+        0.49,
+        0.44
+      ],
+      "meaning": "接收请求并承担执行责任。",
+      "reuse": "改为真实主节点，设备标签按实现保留或删除。"
+    },
+    {
+      "id": "execution-detail",
+      "name": "执行细节窗",
+      "role": "component",
+      "box": [
+        0.57,
+        0.0,
+        0.43,
+        0.56
+      ],
+      "meaning": "转换表示、执行以及准备提交。",
+      "reuse": "换内部算法时同步替换树形图与步骤说明。"
+    },
+    {
+      "id": "replication-log",
+      "name": "提交日志",
+      "role": "component",
+      "box": [
+        0.57,
+        0.56,
+        0.43,
+        0.36
+      ],
+      "meaning": "承载结构化表示与更新状态。",
+      "reuse": "定义记录内容及提交时点，不把日志外观当一致性保证。"
+    },
+    {
+      "id": "standby-replicas",
+      "name": "待命副本组",
+      "role": "component",
+      "box": [
+        0.005,
+        0.47,
+        0.31,
+        0.35
+      ],
+      "meaning": "接收已记录的可恢复状态。",
+      "reuse": "根据复制策略区分同步、异步或按需重放。"
+    }
+  ],
+  "selection_evidence": {
+    "candidate_index": 14,
+    "semantics_read": true,
+    "preview_reviewed": true,
+    "source_render_reviewed": true,
+    "render": "source-renders/14.png"
+  },
+  "implementation": "source-derived editable SVG",
+  "validation_status": "source-fidelity-checked",
+  "id": "architecture.source.asplos26-008_figtex6",
+  "display_code": "VA-042"
+}

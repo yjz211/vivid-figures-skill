@@ -1,0 +1,402 @@
+[
+  {
+    "key": "e0008",
+    "text": "Applications",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      54.596915935781,
+      13.70966582800611,
+      34.886714887026756,
+      9.009417820248927
+    ],
+    "components": [
+      "applications"
+    ]
+  },
+  {
+    "key": "e0011",
+    "text": "Anomaly detection",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      146.24434115381155,
+      15.788572953635594,
+      43.36401976046545,
+      7.5483971532812575
+    ],
+    "components": [
+      "applications"
+    ]
+  },
+  {
+    "key": "e0012",
+    "text": "Resource orchestration",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      146.48785371248232,
+      2.1672908541368088,
+      53.979592388870515,
+      7.5483971532812575
+    ],
+    "components": [
+      "applications"
+    ]
+  },
+  {
+    "key": "e0015",
+    "text": "Energy analysis",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      146.48785371248232,
+      8.939925789294648,
+      35.98293153897248,
+      7.5483971532812575
+    ],
+    "components": [
+      "applications"
+    ]
+  },
+  {
+    "key": "e0016",
+    "text": "Workload optimization",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      188.77928076561147,
+      8.939925789294648,
+      51.82007948927276,
+      7.5483971532812575
+    ],
+    "components": []
+  },
+  {
+    "key": "e0017",
+    "text": "Debugging",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      203.99911645034808,
+      2.110910560404591,
+      25.29446372963139,
+      7.5483971532812575
+    ],
+    "components": [
+      "applications"
+    ]
+  },
+  {
+    "key": "e0018",
+    "text": "…",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      196.69182571323108,
+      15.788572953635594,
+      5.375965763429235,
+      7.54841936908565
+    ],
+    "components": [
+      "applications"
+    ]
+  },
+  {
+    "key": "e0026",
+    "text": "HPC data + uncertainty",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      132.73836249692613,
+      32.450344220458646,
+      54.74433556801523,
+      7.5483971532812575
+    ],
+    "components": []
+  },
+  {
+    "key": "e0029",
+    "text": "Manager",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      187.1629818793881,
+      54.39994175569154,
+      32.49938404010754,
+      11.444379351785756
+    ],
+    "components": [
+      "manager"
+    ]
+  },
+  {
+    "key": "e0031",
+    "text": "Contexts",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      36.37377692245718,
+      63.897259654193476,
+      24.420350436554145,
+      9.009417820248927
+    ],
+    "components": [
+      "manager"
+    ]
+  },
+  {
+    "key": "e0034",
+    "text": "Scheduler",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      31.256841457066912,
+      98.68734604556084,
+      36.9827110929582,
+      11.444379351785756
+    ],
+    "components": [
+      "scheduler"
+    ]
+  },
+  {
+    "key": "e0037",
+    "text": "Events of interest",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      73.86896902677472,
+      64.85627149821084,
+      39.84016937461638,
+      7.5483971532812575
+    ],
+    "components": [
+      "manager"
+    ]
+  },
+  {
+    "key": "e0040",
+    "text": "Proﬁling scopes",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      132.25347009680627,
+      64.67985750443768,
+      36.880641434130666,
+      7.5483971532812575
+    ],
+    "components": [
+      "manager"
+    ]
+  },
+  {
+    "key": "e0043",
+    "text": "Monitor",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      177.1938959944382,
+      98.68734604556084,
+      27.1209446323046,
+      11.444379351785756
+    ],
+    "components": [
+      "monitor"
+    ]
+  },
+  {
+    "key": "e0050",
+    "text": "uArch Event ",
+    "font_family": "VividSource-texgyreheros-italic",
+    "bounds": [
+      208.3238021529396,
+      127.61798326805001,
+      20.625371538266336,
+      5.113435621744429
+    ],
+    "components": [
+      "monitor"
+    ]
+  },
+  {
+    "key": "e0051",
+    "text": "Source",
+    "font_family": "VividSource-texgyreheros-italic",
+    "bounds": [
+      212.34129454802314,
+      132.19813021425944,
+      11.860477950242057,
+      5.113435621744429
+    ],
+    "components": [
+      "monitor"
+    ]
+  },
+  {
+    "key": "e0054",
+    "text": "Sched. Decision",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      100.28518732995508,
+      134.51901871696464,
+      37.74477470431157,
+      7.5483971532812575
+    ],
+    "components": [
+      "feedback"
+    ]
+  },
+  {
+    "key": "e0057",
+    "text": "Uncertainty ",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      103.45421372367855,
+      103.65854583413602,
+      27.680591505297343,
+      7.5483971532812575
+    ],
+    "components": []
+  },
+  {
+    "key": "e0058",
+    "text": "Δ",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      130.8904997369791,
+      103.65854583413602,
+      4.382953058016085,
+      7.54841936908565
+    ],
+    "components": []
+  },
+  {
+    "key": "e0059",
+    "text": "Scheduling Policy",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      29.215366252930835,
+      83.49720434675692,
+      41.261871485625306,
+      7.5483971532812575
+    ],
+    "components": []
+  },
+  {
+    "key": "e0067",
+    "text": "Event Counts",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      142.1189004562766,
+      83.49720434675692,
+      31.49954980106486,
+      7.5483971532812575
+    ],
+    "components": []
+  },
+  {
+    "key": "e0068",
+    "text": "Proﬁling Scopes",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      201.5339140823089,
+      83.49720434675692,
+      37.778378671817336,
+      7.5483971532812575
+    ],
+    "components": []
+  },
+  {
+    "key": "e0071",
+    "text": "Event",
+    "font_family": "VividSource-texgyreheros-italic",
+    "bounds": [
+      152.9754427882035,
+      118.76819112908561,
+      9.671353092297068,
+      5.113435621744429
+    ],
+    "components": [
+      "monitor"
+    ]
+  },
+  {
+    "key": "e0074",
+    "text": "Uncertainty",
+    "font_family": "VividSource-texgyreheros-italic",
+    "bounds": [
+      170.78352221915338,
+      118.76819112908561,
+      18.78819970695622,
+      5.113435621744429
+    ],
+    "components": [
+      "monitor"
+    ]
+  },
+  {
+    "key": "e0085",
+    "text": "Minimizing",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      51.901735560670204,
+      121.06747903428914,
+      24.122480931258906,
+      7.5483971532812575
+    ],
+    "components": [
+      "scheduler"
+    ]
+  },
+  {
+    "key": "e0086",
+    "text": "Uncertainty",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      50.86958245296046,
+      127.94308593171445,
+      26.618361616256152,
+      7.5483971532812575
+    ],
+    "components": [
+      "scheduler"
+    ]
+  },
+  {
+    "key": "e0087",
+    "text": "User",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      3.000006163987564,
+      23.682087501430942,
+      13.757666631572647,
+      9.73990081120428
+    ],
+    "components": []
+  },
+  {
+    "key": "e0088",
+    "text": "Kernel",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      3.000006163987564,
+      41.45970735565061,
+      18.545972247124155,
+      9.73990081120428
+    ],
+    "components": []
+  },
+  {
+    "key": "e0091",
+    "text": "API",
+    "font_family": "VividSource-texgyreheros-italic",
+    "bounds": [
+      99.42031581150513,
+      48.00277442166407,
+      10.925800956574676,
+      8.765905261578155
+    ],
+    "components": [
+      "manager"
+    ]
+  },
+  {
+    "key": "e0094",
+    "text": "request",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      39.246246252252604,
+      32.68374004359066,
+      17.439338091826357,
+      7.5483971532812575
+    ],
+    "components": []
+  }
+]

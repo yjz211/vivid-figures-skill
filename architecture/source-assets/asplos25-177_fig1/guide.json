@@ -1,0 +1,76 @@
+{
+  "asset_id": "architecture.source.asplos25-177_fig1",
+  "title": "逻辑行列访问与物理存储维度对应",
+  "summary": "左边以数据库表展示行访问和列访问，右边以具有深度的存储阵列展示CPU方向与局部处理方向。两侧复用浅绿行和浅蓝列，使逻辑访问模式与物理结构建立可见对应。",
+  "suitable_for": [
+    "抽象数据组织与硬件布局的对应说明",
+    "行列访问模式映射到两个物理处理维度"
+  ],
+  "not_suitable_for": [
+    "时间先后顺序",
+    "多方案优劣的定量评比"
+  ],
+  "reading_order": [
+    "先看左表行R和列C的定义",
+    "读取上方OLTP与下方OLAP分别接出的行列访问",
+    "转向右侧CPU、存储阵列和底部PIM单元",
+    "结合ADE、IDE与Bank三个方向理解物理维度"
+  ],
+  "design": {
+    "layout": "左右并列两面板，左为平面表，右为叠放存储层；上下外部组件对应水平与垂直访问。",
+    "shapes": "规则表格加浅色高亮行列，右侧多层错位框暗示存储层数，底部一排PIM方块与列对齐。",
+    "connectors": "粗黑单箭头标维度，空心双箭头标访问连接；两者语义不同。",
+    "color": "浅绿贯穿CPU/OLTP和第一行，浅蓝贯穿OLAP及第一列；背景存储灰色。",
+    "typography": "无衬线表头较大，地址和维度标注较小；ADE/IDE有旋转文字，面板编号独立放底部。"
+  },
+  "parts": [
+    {
+      "id": "logical-access",
+      "name": "逻辑行列访问",
+      "meaning": "OLTP/OLAP围绕数据库表的两个访问方向",
+      "adaptation": "替换为新的行列任务时保持颜色与访问对象一致"
+    },
+    {
+      "id": "cpu-access",
+      "name": "CPU横向访问",
+      "meaning": "顶端CPU对右表行方向访问",
+      "adaptation": "更换控制单元名称时保留双向连接"
+    },
+    {
+      "id": "physical-array",
+      "name": "物理存储阵列",
+      "meaning": "存储设备列与层叠Bank组成的物理空间",
+      "adaptation": "新增列须同步地址序列和PIM单元"
+    },
+    {
+      "id": "bank-axis",
+      "name": "存储层深度方向",
+      "meaning": "斜向箭头解释叠放层次",
+      "adaptation": "维度名称与真正的叠放方向一致"
+    }
+  ],
+  "adaptation": [
+    "确定逻辑表行列各是什么，再定义它们映射的物理维度",
+    "同步修改两表的高亮色、地址标签和上下访问组件",
+    "保留面板边界，避免把左右两图连成处理流水线",
+    "改变行列数量需在代码中重算格宽、访问箭头和PIM对齐"
+  ],
+  "example": {
+    "scenario": "假设的空间数据存储布局教学图",
+    "mapping": "左表行表示时间批次、列表示传感器；右表列映射到设备，层映射到分区",
+    "structural_changes": "应重写地址样例和所有方向名，并去除不适用的OLTP/PIM术语"
+  },
+  "checks": [
+    "绿色行与蓝色列在两面板是否一致",
+    "右表十六进制地址顺序是否与文字描述相符",
+    "CPU与PIM访问箭头是否与维度箭头混淆",
+    "叠放后框和Bank方向箭头是否完整保留"
+  ],
+  "editing": {
+    "entry": "运行 make_figure.py --config example.json --out . --parts；example.json 是示例配置，labels.json 记录可定位文字，asset.json 记录部件及元素归属。",
+    "configurable": "labels 修改已有文字；components 可配色、显隐或位移。配置修改不自动重排容器、表格或连接线。",
+    "code_required": "在 customize(root, context) 中调整拓扑和几何；新增元素须设置 data-asset-key，并将键加入部件 element_keys。改变行列数量需在代码中重算格宽、访问箭头和PIM对齐",
+    "fonts": "无衬线表头较大，地址和维度标注较小；ADE/IDE有旋转文字，面板编号独立放底部。 最终字体文件以构建映射为准；局部 font_size 是源坐标字号，不能直接当成论文纸面 pt。本批构建已确认并嵌入完整字体：Arimo-Regular.ttf, Tinos-Regular.ttf。映射可能改变原字形和字宽，需按实际论文尺寸复核。"
+  },
+  "display_code": "VA-117"
+}

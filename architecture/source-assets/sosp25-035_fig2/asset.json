@@ -1,0 +1,86 @@
+{
+  "name": "层次对象到分片表的操作映射",
+  "family": "composite",
+  "tags": [
+    "树结构",
+    "代理",
+    "分布式表",
+    "更新高亮"
+  ],
+  "when_to_use": "树形对象映射到多节点表结构；一次操作包含查找及跨节点更新",
+  "avoid": "只有树结构不涉及存储映射；数据表很大需要逐行完整展示",
+  "preserve": [
+    "上方两面板并排，下方通栏放四个数据库节点；虚线分隔逻辑视角与记录视角。",
+    "圆和圆角矩形区分对象类型，表格提供键值对应，红色虚框圈出主键和被修改行。",
+    "树边表示父子关系；代理周围带号码的箭头表示访问次序，末端 a/b 表示操作分支。",
+    "绿色圆形及绿色表行对应对象记录，黄色代理强调协调入口，红色用于键定义和变更注释。",
+    "小表使用整齐的无衬线短字段，变更后的字可加粗；长字段应扩列而非覆盖边界。"
+  ],
+  "adapt": "建立一份树节点到表记录的对应表再改图。 区分查找读操作和真正写入操作。 所有示例值应构成一致的小例，不作为测量结果。",
+  "visual_note": "上方两面板并排，下方通栏放四个数据库节点；虚线分隔逻辑视角与记录视角。",
+  "parts": [
+    {
+      "id": "object-legend",
+      "name": "类型图例",
+      "role": "legend",
+      "box": [
+        0.01,
+        0.1,
+        0.18,
+        0.29
+      ],
+      "meaning": "两种形状代表不同对象类别。",
+      "reuse": "与树节点和表中对应行一起改。"
+    },
+    {
+      "id": "hierarchical-objects",
+      "name": "层次对象",
+      "role": "component",
+      "box": [
+        0.2,
+        0.015,
+        0.25,
+        0.5
+      ],
+      "meaning": "对象由父子边构成命名或归属路径。",
+      "reuse": "更换路径时重接树边。"
+    },
+    {
+      "id": "proxy-order",
+      "name": "访问代理",
+      "role": "component",
+      "box": [
+        0.47,
+        0.015,
+        0.51,
+        0.5
+      ],
+      "meaning": "一次请求触发多轮节点访问及更新。",
+      "reuse": "按新操作重编号，分支不强作顺序。"
+    },
+    {
+      "id": "sharded-tables",
+      "name": "分片记录",
+      "role": "component",
+      "box": [
+        0.015,
+        0.54,
+        0.97,
+        0.36
+      ],
+      "meaning": "节点表展示键映射和修改位置。",
+      "reuse": "同时改父键、对象编号、行位置及变更标记。"
+    }
+  ],
+  "selection_evidence": {
+    "candidate_index": 80,
+    "semantics_read": true,
+    "preview_reviewed": true,
+    "source_render_reviewed": true,
+    "render": "source-renders/80.png"
+  },
+  "implementation": "source-derived editable SVG",
+  "validation_status": "source-fidelity-checked",
+  "id": "architecture.source.sosp25-035_fig2",
+  "display_code": "VA-069"
+}

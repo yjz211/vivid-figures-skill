@@ -1,0 +1,99 @@
+{
+  "name": "异步评价与决策执行闭环",
+  "family": "control-loop",
+  "tags": [
+    "环境反馈",
+    "推理代理",
+    "异步评价",
+    "副本"
+  ],
+  "when_to_use": "环境交互、策略推理与轨迹评价分离的系统；需要表现多个环境和推理资源池的交互",
+  "avoid": "没有状态反馈的一次性批量预测；将评价分数直接作为动作而没有决策环节",
+  "preserve": [
+    "主流程水平排布，外部评价放左侧，主循环顶部留走线空间，下方给环境重置弧留白。",
+    "叠放矩形分别代表环境、推理和评价副本；代理保持单框以强调统一接口，不据此认定单点部署。",
+    "观测请求向右，动作沿顶部向左返回，完成轨迹单独向评价池输出；重置弧只连接环境自身。",
+    "黄色评价池、灰色环境、浅黄代理、紫色推理池按职责编码，浅紫底色限定主交互范围。",
+    "标题多用粗无衬线，边标签用较轻字重；历史信息标签容易较长，需保留代理前的水平间距。"
+  ],
+  "adapt": "先确定轨迹结束与环境重置条件，避免两者混同 分别命名请求、动作和轨迹，不让三条路径都叫数据 评价若影响下一轮策略更新，需要额外画真实更新通路 增加代理或资源池时手工更新顶部长回线与分组边界",
+  "visual_note": "主流程水平排布，外部评价放左侧，主循环顶部留走线空间，下方给环境重置弧留白。",
+  "parts": [
+    {
+      "id": "reward-workers",
+      "name": "轨迹评价池",
+      "role": "component",
+      "box": [
+        0.0,
+        0.17,
+        0.16,
+        0.66
+      ],
+      "meaning": "接收完成轨迹并进行评价的并行工作器。",
+      "reuse": "定义评价输入与评分标准，若同步等待分数须补充返回路径。"
+    },
+    {
+      "id": "environment",
+      "name": "环境管理副本",
+      "role": "component",
+      "box": [
+        0.3,
+        0.22,
+        0.23,
+        0.56
+      ],
+      "meaning": "维护环境状态并触发重置的实例集合。",
+      "reuse": "标明重置条件，区分模拟环境和真实设备，后者未必可直接重置。"
+    },
+    {
+      "id": "decision-proxy",
+      "name": "决策代理",
+      "role": "component",
+      "box": [
+        0.67,
+        0.23,
+        0.1,
+        0.51
+      ],
+      "meaning": "将环境请求分派给推理资源。",
+      "reuse": "替换为真实路由或批处理接口，不把无计算的代理写成预测模型。"
+    },
+    {
+      "id": "inference-workers",
+      "name": "推理工作池",
+      "role": "component",
+      "box": [
+        0.81,
+        0.18,
+        0.18,
+        0.59
+      ],
+      "meaning": "根据历史信息生成下一步动作。",
+      "reuse": "声明模型或求解器类型，副本数量只用示意叠片表达。"
+    },
+    {
+      "id": "action-feedback",
+      "name": "动作回传",
+      "role": "component",
+      "box": [
+        0.42,
+        0.02,
+        0.49,
+        0.28
+      ],
+      "meaning": "推理输出返回环境并形成闭环。",
+      "reuse": "标明动作粒度和约束检查位置，必要时加入执行安全过滤。"
+    }
+  ],
+  "selection_evidence": {
+    "candidate_index": 64,
+    "semantics_read": true,
+    "preview_reviewed": true,
+    "source_render_reviewed": true,
+    "render": "source-renders/64.png"
+  },
+  "implementation": "source-derived editable SVG",
+  "validation_status": "source-fidelity-checked",
+  "id": "architecture.source.osdi26-046_fig8",
+  "display_code": "VA-064"
+}

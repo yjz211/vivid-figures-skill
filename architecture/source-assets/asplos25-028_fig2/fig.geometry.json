@@ -1,0 +1,166 @@
+{
+  "fonts": [
+    "VividSource-Roboto-Bold",
+    "VividSource-Roboto-BoldItalic",
+    "VividSource-Roboto-Regular"
+  ],
+  "texts": [
+    {
+      "text": "Application",
+      "box": [
+        177.3345818885262,
+        4.4039890871825484,
+        201.63732073615842,
+        9.851491007260144
+      ],
+      "font": 22,
+      "constraint": null,
+      "print_font_pt": 48.46259980290181
+    },
+    {
+      "text": "Single ZNS DeviceDevice MapperZRAID Driver ",
+      "box": [
+        19.73777829507883,
+        17.250013596308488,
+        140.11603134292616,
+        58.19100479165211
+      ],
+      "font": 32,
+      "constraint": null,
+      "print_font_pt": 70.49105425876627
+    },
+    {
+      "text": "Kernel-spaceI/O devices",
+      "box": [
+        175.68994536697622,
+        45.28529036772191,
+        203.7141237005577,
+        122.79404605897787
+      ],
+      "font": 22,
+      "constraint": null,
+      "print_font_pt": 48.46259980290181
+    },
+    {
+      "text": "ZRWA",
+      "box": [
+        2.661854660669171,
+        143.09595688422903,
+        14.96905608543252,
+        147.8625210642969
+      ],
+      "font": 20,
+      "constraint": null,
+      "print_font_pt": 44.05690891172892
+    },
+    {
+      "text": "Dev 0Dev 1Dev 2",
+      "box": [
+        25.64624996909625,
+        170.65482994196506,
+        148.5942460248455,
+        178.82607970804162
+      ],
+      "font": 33,
+      "constraint": null,
+      "print_font_pt": 72.69389970435272
+    },
+    {
+      "text": "Durable",
+      "box": [
+        19.881309060323044,
+        125.91243928232767,
+        34.5381227983391,
+        130.67900034835574
+      ],
+      "font": 20,
+      "constraint": null,
+      "print_font_pt": 44.05690891172892
+    },
+    {
+      "text": "Ascending PBA",
+      "box": [
+        54.557490564845416,
+        130.7836850241683,
+        60.004992484922994,
+        162.81456757322536
+      ],
+      "font": 22,
+      "constraint": null,
+      "print_font_pt": 48.46259980290181
+    },
+    {
+      "text": "Semi-durableEmptyPP",
+      "box": [
+        19.540840190318193,
+        137.8006069485701,
+        45.098937229737466,
+        165.3916690571645
+      ],
+      "font": 20,
+      "constraint": null,
+      "print_font_pt": 44.05690891172892
+    },
+    {
+      "text": "Stripe BufferWP StatesZRWA Block BitmapI/O SubmitterCompletion HandlerZRWA Manager",
+      "box": [
+        33.98095257001012,
+        65.96682444234933,
+        199.20714587786068,
+        93.50853213422145
+      ],
+      "font": 25,
+      "constraint": null,
+      "print_font_pt": 55.07113613966115
+    },
+    {
+      "text": "SubmitWP advanceInterrupt",
+      "box": [
+        51.875934844038575,
+        97.22720635283213,
+        200.88961486888877,
+        101.99376741886022
+      ],
+      "font": 20,
+      "constraint": null,
+      "print_font_pt": 44.05690891172892
+    },
+    {
+      "text": "Read/Write",
+      "box": [
+        53.208009049141005,
+        76.8282856948771,
+        73.1180994426585,
+        81.7154602258369
+      ],
+      "font": 19.4936,
+      "constraint": null,
+      "print_font_pt": 42.941387978083945
+    },
+    {
+      "text": "Read",
+      "box": [
+        83.78659677274223,
+        76.92306276104745,
+        93.06784913804137,
+        81.68962382707552
+      ],
+      "font": 20,
+      "constraint": null,
+      "print_font_pt": 44.05690891172892
+    },
+    {
+      "text": "UpdateRead/Reset",
+      "box": [
+        147.71248728627853,
+        76.8282856948771,
+        199.17779531949972,
+        81.7154602258369
+      ],
+      "font": 19.4936,
+      "constraint": null,
+      "print_font_pt": 42.941387978083945
+    }
+  ],
+  "groups": []
+}

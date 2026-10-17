@@ -1,0 +1,86 @@
+{
+  "name": "双端对称处理的并行网络通道",
+  "family": "deployment",
+  "tags": [
+    "网络域",
+    "双通道",
+    "双向",
+    "缓冲"
+  ],
+  "when_to_use": "两端需要配合的多路径传输；跨接入网与核心网的端到端协议介绍",
+  "avoid": "没有接收端重排的单一路由；用链路颜色表达带宽数值的网络测量图",
+  "preserve": [
+    "按地理或管理域分成纵列，左右两个蓝色大块包围对称处理功能；中间列只承载路径。",
+    "应用用深蓝圆角框，端点协议用浅蓝容器，虚线小框区分导流与缓冲职责。",
+    "绿色实线和红色虚线区分并行通道，箭头区分方向；黑细线表示普通业务接口。",
+    "蓝色统一表示两端协议与应用家族，通道色只用于路径身份，不能再兼任故障或优劣编码。",
+    "通道缩写需展开解释；纵列标题较高，包标签放在路径空白处，避免盖住箭头。"
+  ],
+  "adapt": "先明确两种路径各自承担的语义，再设置颜色与线型图例。 同时检查上行与下行的导流和缓冲位置。 新场景若没有中间域差异，缩窄中间区域而非堆空白列。",
+  "visual_note": "按地理或管理域分成纵列，左右两个蓝色大块包围对称处理功能；中间列只承载路径。",
+  "parts": [
+    {
+      "id": "client-endpoint",
+      "name": "客户端端点",
+      "role": "component",
+      "box": [
+        0.02,
+        0.06,
+        0.32,
+        0.86
+      ],
+      "meaning": "业务入口和本地拆分、合并功能。",
+      "reuse": "改应用名时保留收发职能对应，不将两个小框合并成无含义模块。"
+    },
+    {
+      "id": "network-domains",
+      "name": "中间网络域",
+      "role": "component",
+      "box": [
+        0.35,
+        0.06,
+        0.29,
+        0.86
+      ],
+      "meaning": "展示双路径经过的网络范围。",
+      "reuse": "按真实部署改域名、分界和路径，不能假设两路都穿越同样节点。"
+    },
+    {
+      "id": "gateway-endpoint",
+      "name": "网关端点",
+      "role": "component",
+      "box": [
+        0.62,
+        0.2,
+        0.2,
+        0.69
+      ],
+      "meaning": "远端与客户端配合的对称处理。",
+      "reuse": "校验发送方向使用导流、接收方向使用重排。"
+    },
+    {
+      "id": "remote-service",
+      "name": "远端服务",
+      "role": "component",
+      "box": [
+        0.84,
+        0.06,
+        0.14,
+        0.86
+      ],
+      "meaning": "协议之外的业务终点。",
+      "reuse": "换成实际服务；若服务在网关内，应移动边界。"
+    }
+  ],
+  "selection_evidence": {
+    "candidate_index": 35,
+    "semantics_read": true,
+    "preview_reviewed": true,
+    "source_render_reviewed": true,
+    "render": "source-renders/35.png"
+  },
+  "implementation": "source-derived editable SVG",
+  "validation_status": "source-fidelity-checked",
+  "id": "architecture.source.nsdi23-068_fig1",
+  "display_code": "VA-051"
+}

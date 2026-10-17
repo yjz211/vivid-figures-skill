@@ -1,0 +1,163 @@
+{
+  "svg": "C:\\Users\\hhhh\\Desktop\\MCM-ICM-AI-Lab\\workstreams\\architecture-native-guides\\package\\architecture\\source-assets\\asplos25-110_fig1\\fig.svg",
+  "print_size_pt": [
+    468.0,
+    368.8257763169276
+  ],
+  "text_count": 32,
+  "parts": 0,
+  "errors": [
+    {
+      "type": "text-overlap",
+      "texts": [
+        "Tensor Core",
+        "LanesSIMT CoreSharedMemory"
+      ],
+      "overlap": [
+        72.4,
+        17.6
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "Register File",
+        "LanesSIMT CoreSharedMemory"
+      ],
+      "overlap": [
+        73.7,
+        17.6
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "FPU",
+        "ALUALUSIMT CoreCluster"
+      ],
+      "overlap": [
+        24.0,
+        17.6
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "FPU",
+        "LanesSIMT CoreSharedMemory"
+      ],
+      "overlap": [
+        24.0,
+        3.9
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "L1 $",
+        "LanesSIMT CoreSharedMemory"
+      ],
+      "overlap": [
+        24.1,
+        17.6
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "Warps",
+        "LanesSIMT CoreSharedMemory"
+      ],
+      "overlap": [
+        36.6,
+        17.6
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "FPU",
+        "ALUALUSIMT CoreCluster"
+      ],
+      "overlap": [
+        24.0,
+        17.6
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "ALUALUSIMT CoreCluster",
+        "LanesSIMT CoreSharedMemory"
+      ],
+      "overlap": [
+        87.1,
+        3.9
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "LanesSIMT Core",
+        "LanesSIMT CoreSharedMemory"
+      ],
+      "overlap": [
+        59.5,
+        42.8
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "LanesSIMT CoreSharedMemory",
+        "Matrix"
+      ],
+      "overlap": [
+        15.6,
+        17.6
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "LanesSIMT CoreSharedMemory",
+        "Matrix"
+      ],
+      "overlap": [
+        34.1,
+        17.6
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "LanesSIMT CoreSharedMemory",
+        "Matrix"
+      ],
+      "overlap": [
+        34.1,
+        17.6
+      ]
+    }
+  ],
+  "warnings": [],
+  "pdf": {
+    "page_count": 1,
+    "fonts": [
+      {
+        "name": "",
+        "type": "Type3"
+      },
+      {
+        "name": "",
+        "type": "Type3"
+      },
+      {
+        "name": "CAAAAA+Tinos",
+        "type": "Type0"
+      }
+    ],
+    "images": 0
+  },
+  "scope": "Measured text bounds, intersections, print font size, and PDF structure. Connections and visual fidelity require actual image inspection."
+}

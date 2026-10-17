@@ -1,0 +1,240 @@
+[
+  {
+    "key": "e0003",
+    "text": "DRAM",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      4.339599609375114,
+      54.42373657226557,
+      15.54852294921875,
+      31.57025146484375
+    ],
+    "components": [
+      "memory-interface"
+    ]
+  },
+  {
+    "key": "e0006",
+    "text": "Neo Architecture",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      75.35287475585943,
+      2.4935913085938637,
+      88.62704467773438,
+      15.88653564453125
+    ],
+    "components": [
+      "engine-stack"
+    ]
+  },
+  {
+    "key": "e0014",
+    "text": "Memory Controller",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      56.635864257812614,
+      30.712341308593636,
+      15.54852294921875,
+      91.86911010742188
+    ],
+    "components": [
+      "engine-stack"
+    ]
+  },
+  {
+    "key": "e0017",
+    "text": "Preprocess",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      112.52548217773443,
+      21.538574218750114,
+      59.905975341796875,
+      15.88653564453125
+    ],
+    "components": [
+      "engine-stack"
+    ]
+  },
+  {
+    "key": "e0018",
+    "text": "Engine",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      124.3505249023438,
+      34.857604980468864,
+      35.84893798828125,
+      15.88653564453125
+    ],
+    "components": [
+      "engine-stack"
+    ]
+  },
+  {
+    "key": "e0026",
+    "text": "Sorting",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      123.32751464843756,
+      62.017883300781364,
+      38.09527587890625,
+      15.88653564453125
+    ],
+    "components": [
+      "engine-stack"
+    ]
+  },
+  {
+    "key": "e0027",
+    "text": "Engine",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      124.3505249023438,
+      75.33697509765636,
+      35.84893798828125,
+      15.88653564453125
+    ],
+    "components": [
+      "engine-stack"
+    ]
+  },
+  {
+    "key": "e0030",
+    "text": "Rasterization",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      107.65249633789068,
+      102.49731445312511,
+      69.64334106445312,
+      15.8865966796875
+    ],
+    "components": [
+      "engine-stack"
+    ]
+  },
+  {
+    "key": "e0031",
+    "text": "Engine",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      124.3505249023438,
+      115.81634521484386,
+      35.84893798828125,
+      15.88653564453125
+    ],
+    "components": [
+      "engine-stack"
+    ]
+  },
+  {
+    "key": "e0048",
+    "text": "Rasterization Core 1",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      222.6577758789063,
+      72.22430419921886,
+      99.802978515625,
+      15.54852294921875
+    ],
+    "components": [
+      "raster-array"
+    ]
+  },
+  {
+    "key": "e0051",
+    "text": "Rasterization Core 2",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      222.6577758789063,
+      88.06640625000011,
+      99.802978515625,
+      15.54852294921875
+    ],
+    "components": [
+      "raster-array"
+    ]
+  },
+  {
+    "key": "e0054",
+    "text": "Rasterization Core 3",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      222.6577758789063,
+      103.90838623046886,
+      99.802978515625,
+      15.54852294921875
+    ],
+    "components": [
+      "raster-array"
+    ]
+  },
+  {
+    "key": "e0057",
+    "text": "Rasterization Core 4",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      222.6577758789063,
+      119.75042724609386,
+      99.802978515625,
+      15.54852294921875
+    ],
+    "components": [
+      "raster-array"
+    ]
+  },
+  {
+    "key": "e0060",
+    "text": "Sorting Core 1",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      236.90832519531256,
+      3.1007690429688637,
+      71.30206298828125,
+      15.54852294921875
+    ],
+    "components": [
+      "sorting-array"
+    ]
+  },
+  {
+    "key": "e0063",
+    "text": "Sorting Core 2",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      236.90832519531256,
+      19.943481445312614,
+      71.30206298828125,
+      15.54852294921875
+    ],
+    "components": [
+      "sorting-array"
+    ]
+  },
+  {
+    "key": "e0066",
+    "text": "Sorting Core 16",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      233.8502807617188,
+      45.381408691406364,
+      77.4180908203125,
+      15.54852294921875
+    ],
+    "components": [
+      "sorting-array"
+    ]
+  },
+  {
+    "key": "e0067",
+    "text": "…",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      264.00000000000006,
+      22.505004882812614,
+      17.999095916748047,
+      25.6888484954834
+    ],
+    "components": [
+      "sorting-array"
+    ]
+  }
+]

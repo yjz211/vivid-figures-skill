@@ -1,0 +1,86 @@
+{
+  "name": "测量驱动的分量预测与决策双分支",
+  "family": "parallel-fusion",
+  "tags": [
+    "测量",
+    "多分量模型",
+    "融合",
+    "双分支"
+  ],
+  "when_to_use": "多指标分解后汇总的性能或风险预测；一份主测量支持多个决策且有条件补充输入的方法",
+  "avoid": "各模型完全独立的平行比较；没有明确定义汇总规则的综合评分装饰图",
+  "preserve": [
+    "三列通过细竖线分区；上部占三行分量，下部是一条横向辅助模型链。",
+    "小矩形表达特征和估计，黄色汇总块是上分支终点；虚线框按模型家族分组。",
+    "上支路先扇出再汇合，下支路有外部输入和上方结果输入；向下箭头不能省略。",
+    "紫色为测量，绿色为特征，浅橙为分量，黄色为汇总，青色为辅助模型，粉色为应用。",
+    "衬线字和数学下标适合公式关联；标题中的章节号需要替换为当前论文位置或删除。"
+  ],
+  "adapt": "先定义输入和两种输出，再判断三行分解是否合理。 将数学符号、下标和特征名一起映射，保持一一对应。 改变分量数时重排上框并调整合流线。 删除任何不适用的章节引用与技术缩写。",
+  "visual_note": "三列通过细竖线分区；上部占三行分量，下部是一条横向辅助模型链。",
+  "parts": [
+    {
+      "id": "profiling-inputs",
+      "name": "测量输入组",
+      "role": "component",
+      "box": [
+        0.01,
+        0.21,
+        0.19,
+        0.72
+      ],
+      "meaning": "基线观测与条件性补充观测。",
+      "reuse": "替换为实际数据采集方式，并保留补充输入的触发条件。"
+    },
+    {
+      "id": "component-model",
+      "name": "分量模型与融合",
+      "role": "component",
+      "box": [
+        0.225,
+        0.17,
+        0.56,
+        0.5
+      ],
+      "meaning": "三路特征到分量再到总预测的主体。",
+      "reuse": "写清求和、乘积或学习融合，不能由汇合箭头含糊代替。"
+    },
+    {
+      "id": "secondary-model",
+      "name": "辅助模型链",
+      "role": "component",
+      "box": [
+        0.34,
+        0.67,
+        0.45,
+        0.26
+      ],
+      "meaning": "利用额外输入形成另一种配置预测。",
+      "reuse": "替换两步模型，并检验上方总预测是否仍是必要输入。"
+    },
+    {
+      "id": "application-outputs",
+      "name": "应用结果组",
+      "role": "component",
+      "box": [
+        0.8,
+        0.28,
+        0.18,
+        0.64
+      ],
+      "meaning": "两种由模型支撑的决策出口。",
+      "reuse": "用决策产物名，别用没有实际输出的笼统应用场景。"
+    }
+  ],
+  "selection_evidence": {
+    "candidate_index": 20,
+    "semantics_read": true,
+    "preview_reviewed": true,
+    "source_render_reviewed": true,
+    "render": "source-renders/20.png"
+  },
+  "implementation": "source-derived editable SVG",
+  "validation_status": "source-fidelity-checked",
+  "id": "architecture.source.asplos26-078_fig3",
+  "display_code": "VA-044"
+}

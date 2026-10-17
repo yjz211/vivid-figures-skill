@@ -1,0 +1,296 @@
+[
+  {
+    "key": "e0003",
+    "text": "Graph Store Sever",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      60.62445471063256,
+      139.8081912968264,
+      95.93328771349479,
+      13.02000062156003
+    ],
+    "components": [
+      "store-sampler"
+    ]
+  },
+  {
+    "key": "e0006",
+    "text": "Graph Store Server",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      277.69256837850116,
+      139.8081912968264,
+      99.76506999853154,
+      13.02000062156003
+    ],
+    "components": [
+      "store-sampler"
+    ]
+  },
+  {
+    "key": "e0021",
+    "text": "Graph Partition Module",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      142.50960790365934,
+      91.26080377411563,
+      147.8941587918307,
+      15.959998283960886
+    ],
+    "components": []
+  },
+  {
+    "key": "e0026",
+    "text": "Sampler",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      136.07071771845222,
+      177.92462324834923,
+      42.840690207638545,
+      13.02000062156003
+    ],
+    "components": [
+      "store-sampler"
+    ]
+  },
+  {
+    "key": "e0031",
+    "text": "Feature Cache",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      63.18652619794011,
+      273.2128279955359,
+      95.13528505585055,
+      15.960009257745696
+    ],
+    "components": [
+      "left-worker"
+    ]
+  },
+  {
+    "key": "e0032",
+    "text": "Engine",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      88.35774935827976,
+      290.4730990679236,
+      44.7784466163921,
+      15.960009257745696
+    ],
+    "components": [
+      "left-worker"
+    ]
+  },
+  {
+    "key": "e0135",
+    "text": "Feature Cache",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      276.78238071873784,
+      272.49365003418643,
+      95.13525213449611,
+      15.960009257745696
+    ],
+    "components": [
+      "right-worker"
+    ]
+  },
+  {
+    "key": "e0136",
+    "text": "Engine",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      301.9536093659699,
+      289.7539211065741,
+      44.7784411294997,
+      15.960009257745696
+    ],
+    "components": [
+      "right-worker"
+    ]
+  },
+  {
+    "key": "e0240",
+    "text": "Parameter",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      192.61608492955565,
+      345.3147422920374,
+      47.006887610994454,
+      11.34000195733097
+    ],
+    "components": [
+      "sharing"
+    ]
+  },
+  {
+    "key": "e0241",
+    "text": "Synchronization",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      180.2889251857996,
+      356.8215896736292,
+      71.63353121321416,
+      11.34000195733097
+    ],
+    "components": []
+  },
+  {
+    "key": "e0247",
+    "text": "Cached Feature",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      179.28880735951316,
+      290.6572172294764,
+      72.19735330299955,
+      11.34000195733097
+    ],
+    "components": []
+  },
+  {
+    "key": "e0248",
+    "text": " Sharing",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      196.63898665085435,
+      302.16406461106817,
+      37.50135131288698,
+      11.34000195733097
+    ],
+    "components": [
+      "sharing"
+    ]
+  },
+  {
+    "key": "e0249",
+    "text": "Subgraph ",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      106.58442130312324,
+      228.08871264450136,
+      46.45916406352626,
+      11.34000195733097
+    ],
+    "components": [
+      "store-sampler"
+    ]
+  },
+  {
+    "key": "e0250",
+    "text": "Sampling",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      108.83185243234038,
+      239.59558197366277,
+      41.97176397876319,
+      11.34000195733097
+    ],
+    "components": [
+      "store-sampler"
+    ]
+  },
+  {
+    "key": "e0251",
+    "text": "Remote Feature ",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      6.450127340853214,
+      187.81474680893007,
+      75.5470572213053,
+      11.34000195733097
+    ],
+    "components": []
+  },
+  {
+    "key": "e0252",
+    "text": "Retrieving",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      21.564101684838533,
+      199.32161613809149,
+      45.32457347817035,
+      11.34000195733097
+    ],
+    "components": []
+  },
+  {
+    "key": "e0253",
+    "text": "Distributed Graph Data Files",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      117.47322512418032,
+      1.3635580910335534,
+      181.44929319167568,
+      15.960001027407088
+    ],
+    "components": [
+      "data-partition"
+    ]
+  },
+  {
+    "key": "e0254",
+    "text": "Worker",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      81.89216544152077,
+      386.1237679274054,
+      46.75204340633718,
+      15.960009257745696
+    ],
+    "components": []
+  },
+  {
+    "key": "e0255",
+    "text": "Worker",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      310.5907461768729,
+      385.40458996605594,
+      46.75205438012199,
+      15.960009257745696
+    ],
+    "components": []
+  },
+  {
+    "key": "e0265",
+    "text": "Sampler",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      136.07071771845222,
+      205.25338577962975,
+      42.840690207638545,
+      13.02000062156003
+    ],
+    "components": [
+      "store-sampler"
+    ]
+  },
+  {
+    "key": "e0269",
+    "text": "Sampler",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      259.7693051229944,
+      177.92462324834923,
+      42.84073410277779,
+      13.02000062156003
+    ],
+    "components": [
+      "store-sampler"
+    ]
+  },
+  {
+    "key": "e0273",
+    "text": "Sampler",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      259.7693051229944,
+      207.41091966367821,
+      42.84073410277779,
+      13.02000062156003
+    ],
+    "components": [
+      "store-sampler"
+    ]
+  }
+]

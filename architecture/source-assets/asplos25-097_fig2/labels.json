@@ -1,0 +1,632 @@
+[
+  {
+    "key": "e0012",
+    "text": "Attestation kernel",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      70.47832362074405,
+      51.783578518915874,
+      45.39812702785639,
+      5.930251524407595
+    ],
+    "components": [
+      "attestation-core"
+    ]
+  },
+  {
+    "key": "e0019",
+    "text": "Untrusted n",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      141.8806791534762,
+      159.2447643830219,
+      24.69855879079205,
+      5.188978627384131
+    ],
+    "components": [
+      "wire-format"
+    ]
+  },
+  {
+    "key": "e0020",
+    "text": "etwork",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      166.5819718730636,
+      159.2447643830219,
+      14.276412133594931,
+      5.188978627384131
+    ],
+    "components": []
+  },
+  {
+    "key": "e0023",
+    "text": "Host CPU",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      32.85713044414297,
+      6.692268074038992,
+      23.89461968923115,
+      5.930251524407595
+    ],
+    "components": [
+      "host-interface"
+    ]
+  },
+  {
+    "key": "e0024",
+    "text": "Trusted FPGA NIC",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      69.3865018170327,
+      18.039750238759325,
+      46.40020306231236,
+      5.930251524407595
+    ],
+    "components": [
+      "host-interface"
+    ]
+  },
+  {
+    "key": "e0027",
+    "text": "IB hdr",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      108.10885772072925,
+      178.54163577305553,
+      11.953237913553494,
+      5.003654707443275
+    ],
+    "components": [
+      "wire-format"
+    ]
+  },
+  {
+    "key": "e0030",
+    "text": "Message",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      122.01791184209287,
+      178.54163577305553,
+      18.17506750053326,
+      5.003654707443275
+    ],
+    "components": [
+      "wire-format"
+    ]
+  },
+  {
+    "key": "e0033",
+    "text": "α",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      143.54639817681164,
+      178.54163577305553,
+      2.5944850419283227,
+      5.003649581326783
+    ],
+    "components": [
+      "wire-format"
+    ]
+  },
+  {
+    "key": "e0036",
+    "text": "CRC",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      149.2481433759558,
+      178.54163577305553,
+      9.705383431823975,
+      5.003654707443275
+    ],
+    "components": [
+      "wire-format"
+    ]
+  },
+  {
+    "key": "e0039",
+    "text": "Host memory",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      124.38353486323012,
+      6.692268074038992,
+      32.04732294031146,
+      5.930251524407595
+    ],
+    "components": [
+      "host-interface"
+    ]
+  },
+  {
+    "key": "e0042",
+    "text": "Keystore",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      51.814703044481575,
+      60.44349846630166,
+      21.212854255295497,
+      5.930251524407595
+    ],
+    "components": [
+      "attestation-core"
+    ]
+  },
+  {
+    "key": "e0045",
+    "text": "HMAC",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      78.40103055536747,
+      60.44349846630166,
+      15.83525276722412,
+      5.930251524407595
+    ],
+    "components": [
+      "attestation-core"
+    ]
+  },
+  {
+    "key": "e0048",
+    "text": "Counters store",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      99.74288068432361,
+      60.44349846630166,
+      35.25266307784477,
+      5.930251524407595
+    ],
+    "components": [
+      "attestation-core"
+    ]
+  },
+  {
+    "key": "e0049",
+    "text": "RoCE protocol",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      65.25250985939056,
+      84.63154617658984,
+      37.62570415911341,
+      5.930256080955587
+    ],
+    "components": [
+      "protocol-core"
+    ]
+  },
+  {
+    "key": "e0050",
+    "text": " kernel",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      102.87837805423169,
+      84.63154617658984,
+      17.329253722923568,
+      5.930256080955587
+    ],
+    "components": [
+      "protocol-core"
+    ]
+  },
+  {
+    "key": "e0053",
+    "text": "Req handler",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      25.680968332570046,
+      93.29146612397562,
+      29.34158095084058,
+      5.930256080955587
+    ],
+    "components": [
+      "protocol-core"
+    ]
+  },
+  {
+    "key": "e0056",
+    "text": "Headers",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      27.976595941724327,
+      119.11665874513983,
+      16.928744545774634,
+      5.00364559434729
+    ],
+    "components": [
+      "protocol-core"
+    ]
+  },
+  {
+    "key": "e0059",
+    "text": "[Message, α]",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      46.565559757407755,
+      119.11665874513983,
+      25.742240664965266,
+      5.00364559434729
+    ],
+    "components": [
+      "protocol-core"
+    ]
+  },
+  {
+    "key": "e0062",
+    "text": "Tag",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      73.74446177813797,
+      119.11665874513983,
+      7.223235808880872,
+      5.00364559434729
+    ],
+    "components": [
+      "protocol-core"
+    ]
+  },
+  {
+    "key": "e0063",
+    "text": "Request generation",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      30.902116188779473,
+      110.312688089527,
+      46.911306494055225,
+      5.930256080955587
+    ],
+    "components": [
+      "protocol-core"
+    ]
+  },
+  {
+    "key": "e0067",
+    "text": "Request",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      129.15675582560925,
+      111.805777735628,
+      20.190547147753932,
+      5.930256080955587
+    ],
+    "components": [
+      "protocol-core"
+    ]
+  },
+  {
+    "key": "e0068",
+    "text": "decoder",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      129.4507078496854,
+      118.37538129156837,
+      19.4835987267561,
+      5.930246967859603
+    ],
+    "components": [
+      "protocol-core"
+    ]
+  },
+  {
+    "key": "e0071",
+    "text": "State",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      94.66637588758022,
+      111.805777735628,
+      12.553526659148702,
+      5.930256080955587
+    ],
+    "components": [
+      "protocol-core"
+    ]
+  },
+  {
+    "key": "e0072",
+    "text": "tables",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      93.77052209991962,
+      118.37538129156837,
+      14.340413406694097,
+      5.930246967859603
+    ],
+    "components": [
+      "protocol-core"
+    ]
+  },
+  {
+    "key": "e0075",
+    "text": "Cmd",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      129.46003965997352,
+      93.29146612397562,
+      11.34949530458016,
+      5.930256080955587
+    ],
+    "components": [
+      "protocol-core"
+    ]
+  },
+  {
+    "key": "e0076",
+    "text": " merger",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      140.81218687548517,
+      93.29146612397562,
+      18.580591158747666,
+      5.930256080955587
+    ],
+    "components": [
+      "protocol-core"
+    ]
+  },
+  {
+    "key": "e0085",
+    "text": "100Gb MAC",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      78.39169874507934,
+      152.11920729345093,
+      29.58480948266697,
+      5.930246967859603
+    ],
+    "components": [
+      "wire-format"
+    ]
+  },
+  {
+    "key": "e0088",
+    "text": "ARP server",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      79.30287164708989,
+      135.39659414402377,
+      27.629941036839227,
+      5.930256080955587
+    ],
+    "components": []
+  },
+  {
+    "key": "e0103",
+    "text": "Transmission path",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      7.812108222532977,
+      53.93619010160364,
+      5.930251524407595,
+      43.711675711156204
+    ],
+    "components": []
+  },
+  {
+    "key": "e0107",
+    "text": "Reception path",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      170.18559572486947,
+      56.14501751767605,
+      5.930251524407595,
+      36.155688872045175
+    ],
+    "components": []
+  },
+  {
+    "key": "e0111",
+    "text": "Tx control path",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      16.437810242176056,
+      170.8908636226097,
+      31.60263575210365,
+      5.188978627384131
+    ],
+    "components": []
+  },
+  {
+    "key": "e0115",
+    "text": "Tx data path",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      16.437810242176056,
+      178.95354771155507,
+      26.561963648771325,
+      5.188978627384131
+    ],
+    "components": [
+      "path-legend"
+    ]
+  },
+  {
+    "key": "e0119",
+    "text": "Rx control path",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      62.42497134208679,
+      170.8908636226097,
+      32.132976929469805,
+      5.188978627384131
+    ],
+    "components": [
+      "wire-format"
+    ]
+  },
+  {
+    "key": "e0123",
+    "text": "Rx data path",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      62.42497134208679,
+      178.65492978233488,
+      27.092295713041494,
+      5.188978627384131
+    ],
+    "components": [
+      "wire-format"
+    ]
+  },
+  {
+    "key": "e0127",
+    "text": "Auxilary data",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      16.252489739646194,
+      186.41899594206006,
+      27.924808927061804,
+      5.188978627384131
+    ],
+    "components": [
+      "path-legend"
+    ]
+  },
+  {
+    "key": "e0131",
+    "text": "Host data path",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      62.42497134208679,
+      186.41899594206006,
+      31.077060723937393,
+      5.188978627384131
+    ],
+    "components": [
+      "wire-format"
+    ]
+  },
+  {
+    "key": "e0148",
+    "text": "Packet",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      124.39752346556634,
+      164.0226512505451,
+      14.760308417276065,
+      5.188978627384131
+    ],
+    "components": [
+      "wire-format"
+    ]
+  },
+  {
+    "key": "e0152",
+    "text": "Message",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      51.83336666505784,
+      40.39482171856048,
+      19.38557370979879,
+      5.188971792562143
+    ],
+    "components": []
+  },
+  {
+    "key": "e0154",
+    "text": "Attested m",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      41.91963507628816,
+      74.43726792793723,
+      23.025125531705726,
+      5.188974070836139
+    ],
+    "components": []
+  },
+  {
+    "key": "e0155",
+    "text": "essage",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      64.94456011988223,
+      74.43726792793723,
+      15.405588517746764,
+      5.188974070836139
+    ],
+    "components": []
+  },
+  {
+    "key": "e0157",
+    "text": "Verified m",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      105.12865661949309,
+      40.39482171856048,
+      21.428433653904904,
+      5.188971792562143
+    ],
+    "components": []
+  },
+  {
+    "key": "e0158",
+    "text": "essage",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      126.5578466603647,
+      40.39482171856048,
+      15.40557940465078,
+      5.188971792562143
+    ],
+    "components": []
+  },
+  {
+    "key": "e0165",
+    "text": "DMA",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      146.7005500542,
+      55.027102528624255,
+      10.76539141745343,
+      5.1889695142881465
+    ],
+    "components": []
+  },
+  {
+    "key": "e0166",
+    "text": "command",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      141.52140445738314,
+      60.99946111302825,
+      20.976588128801268,
+      5.1889695142881465
+    ],
+    "components": []
+  },
+  {
+    "key": "e0175",
+    "text": "PCIe DMA/Bridge IP",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      68.08938474353045,
+      27.59552397380571,
+      48.988445348707046,
+      5.930251524407595
+    ],
+    "components": []
+  },
+  {
+    "key": "e0180",
+    "text": "Tx request",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      22.0228986996226,
+      49.65197524611267,
+      22.725054063675998,
+      5.1889695142881465
+    ],
+    "components": []
+  },
+  {
+    "key": "e0185",
+    "text": "DMA request",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      79.67015675455332,
+      93.84742877070221,
+      27.77045586382428,
+      5.1889695142881465
+    ],
+    "components": [
+      "protocol-core"
+    ]
+  }
+]

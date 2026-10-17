@@ -1,0 +1,356 @@
+[
+  {
+    "key": "e0006",
+    "text": "LM Module",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      129.3866412517384,
+      58.409151152474806,
+      41.23898351345133,
+      8.768099694570992
+    ],
+    "components": []
+  },
+  {
+    "key": "e0009",
+    "text": "n Emulated Host Queues",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      31.737811712548137,
+      66.45014555807575,
+      80.79557917210877,
+      7.306749745475827
+    ],
+    "components": [
+      "host-queues"
+    ]
+  },
+  {
+    "key": "e0035",
+    "text": "...",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      71.60659868549556,
+      55.89006370358402,
+      5.882752589632219,
+      6.5761540972744115
+    ],
+    "components": [
+      "host-queues"
+    ]
+  },
+  {
+    "key": "e0058",
+    "text": "...",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      44.313258717767894,
+      103.65340864710743,
+      5.882752589632219,
+      6.5761540972744115
+    ],
+    "components": [
+      "vm-queues"
+    ]
+  },
+  {
+    "key": "e0059",
+    "text": "n-1 VM Queues",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      58.980382818728685,
+      105.44078987895045,
+      50.032068528116724,
+      7.306749745475827
+    ],
+    "components": [
+      "vm-queues"
+    ]
+  },
+  {
+    "key": "e0062",
+    "text": "1 LM",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      132.04185147117823,
+      105.76571059285197,
+      15.45542222915401,
+      7.306749745475827
+    ],
+    "components": [
+      "migration-queue"
+    ]
+  },
+  {
+    "key": "e0063",
+    "text": " ",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      147.56006608095743,
+      105.76571059285197,
+      1.8076607333590289,
+      7.306754703372462
+    ],
+    "components": [
+      "migration-queue"
+    ]
+  },
+  {
+    "key": "e0064",
+    "text": "Queue",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      149.83633682370407,
+      105.76571059285197,
+      20.86767538597769,
+      7.306749745475827
+    ],
+    "components": [
+      "migration-queue"
+    ]
+  },
+  {
+    "key": "e0071",
+    "text": "LM Controller",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      50.89290317427367,
+      83.91510988835944,
+      47.1979712006987,
+      8.037504046369577
+    ],
+    "components": []
+  },
+  {
+    "key": "e0074",
+    "text": "Network",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      192.1572604291141,
+      64.01308155112201,
+      24.162631516196598,
+      6.5761540972744115
+    ],
+    "components": []
+  },
+  {
+    "key": "e0075",
+    "text": " ",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      216.61598744817366,
+      64.01308155112201,
+      1.6249918347878634,
+      6.576079109087914
+    ],
+    "components": []
+  },
+  {
+    "key": "e0076",
+    "text": "Stack",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      197.24937228439285,
+      71.16133725695545,
+      16.033123781962786,
+      6.5761540972744115
+    ],
+    "components": []
+  },
+  {
+    "key": "e0112",
+    "text": "n Disk Queues",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      78.34362661279738,
+      141.1819097554253,
+      47.04929379639452,
+      7.306749745475827
+    ],
+    "components": [
+      "local-disk"
+    ]
+  },
+  {
+    "key": "e0114",
+    "text": "...",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      55.36056299041957,
+      140.04452860407764,
+      5.882757547528854,
+      6.5761540972744115
+    ],
+    "components": [
+      "local-disk"
+    ]
+  },
+  {
+    "key": "e0115",
+    "text": "Local Disk",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      133.93553000688553,
+      140.6140917695593,
+      39.06037217915582,
+      8.768099694570992
+    ],
+    "components": [
+      "local-disk"
+    ]
+  },
+  {
+    "key": "e0118",
+    "text": "SmartNIC",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      184.6231613755226,
+      47.36184687982313,
+      38.7586048425419,
+      8.768099694570992
+    ],
+    "components": []
+  },
+  {
+    "key": "e0122",
+    "text": "VM",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      42.140490264657274,
+      19.986642122850753,
+      10.103836374510138,
+      7.306749745475827
+    ],
+    "components": [
+      "vm-source"
+    ]
+  },
+  {
+    "key": "e0123",
+    "text": "LM double write",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      105.99235109030315,
+      24.3727544551366,
+      46.37531732777006,
+      6.5761540972744115
+    ],
+    "components": [
+      "path-legend"
+    ]
+  },
+  {
+    "key": "e0124",
+    "text": "LM recv (dst)",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      186.46606609178616,
+      24.69767516903812,
+      38.396777546086014,
+      6.5761540972744115
+    ],
+    "components": [
+      "path-legend"
+    ]
+  },
+  {
+    "key": "e0127",
+    "text": "LM send (source)",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      174.75369469076395,
+      12.675608754681889,
+      50.11731460286683,
+      6.5761540972744115
+    ],
+    "components": [
+      "path-legend"
+    ]
+  },
+  {
+    "key": "e0130",
+    "text": "VM access",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      105.74879193913785,
+      12.675608754681889,
+      30.301593330259493,
+      6.5761540972744115
+    ],
+    "components": [
+      "path-legend"
+    ]
+  },
+  {
+    "key": "e0133",
+    "text": "PCIe",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      38.124534495174885,
+      33.145613730477635,
+      13.325031397534985,
+      6.5761540972744115
+    ],
+    "components": []
+  },
+  {
+    "key": "e0134",
+    "text": "PCIe",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      39.099296636879444,
+      129.97198647313053,
+      13.325031397534985,
+      6.5761540972744115
+    ],
+    "components": []
+  },
+  {
+    "key": "e0137",
+    "text": "1",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      25.371406390333505,
+      79.69114060763968,
+      3.9768534584555937,
+      8.03743029765701
+    ],
+    "components": []
+  },
+  {
+    "key": "e0140",
+    "text": "2",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      123.49745331227336,
+      78.71637846593512,
+      3.9768534584555937,
+      8.03743029765701
+    ],
+    "components": []
+  },
+  {
+    "key": "e0143",
+    "text": "3",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      145.59206061810255,
+      84.56495131616248,
+      3.9768534584555937,
+      8.03743029765701
+    ],
+    "components": []
+  },
+  {
+    "key": "e0146",
+    "text": "4",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      192.3806434199214,
+      92.68796916370047,
+      3.9768534584555937,
+      8.03743029765701
+    ],
+    "components": []
+  }
+]

@@ -9,6 +9,7 @@ FRONTEND_FILES=frozenset(['app.js','style.css','editor.js','editor.css','grid.js
 sys.path.insert(0,str(ROOT))
 from schema import SPECS,sample,defaults,prepare,Invalid
 import object_editor,library
+from architecture_assets import architecture_file
 PORT=8766
 def python_exe():
     exe=Path(sys.executable)
@@ -42,11 +43,14 @@ class Handler(SimpleHTTPRequestHandler):
         self.send_response(code);self.send_header('Content-Type','application/json; charset=utf-8');self.send_header('Content-Length',str(len(content)));self.send_header('Cache-Control','no-store');self.end_headers();self.wfile.write(content)
     def end_headers(self):
         path=urllib.parse.urlsplit(self.path).path
-        if path in ['/', '/index.html', '/editor.html', '/assets/catalog.js', '/assets/editable.js'] or path.startswith('/frontend/') or path.lstrip('/') in FRONTEND_FILES:
+        if path in ['/', '/index.html', '/architecture.html', '/architecture-editor.html', '/architecture-agent.html', '/editor.html', '/assets/catalog.js', '/assets/editable.js'] or path.startswith(('/frontend/', '/architecture-assets/')) or path.lstrip('/') in FRONTEND_FILES:
             self.send_header('Cache-Control','no-cache')
         self.send_header('X-Content-Type-Options','nosniff');super().end_headers()
     def translate_path(self,path):
         decoded=urllib.parse.unquote(urllib.parse.urlsplit(path).path)
+        if decoded.startswith('/architecture-assets/'):
+            try:return str(architecture_file(decoded[len('/architecture-assets/'):]))
+            except (FileNotFoundError, OSError, ValueError):return str(WEB/'__missing_architecture_resource__')
         if decoded.startswith('/') and decoded[1:] in FRONTEND_FILES:
             return str(WEB/'frontend'/decoded[1:])
         parts=decoded.split('/')

@@ -1,0 +1,226 @@
+[
+  {
+    "key": "e0005",
+    "text": "API Calls",
+    "font_family": "VividSource-Roboto-Regular",
+    "bounds": [
+      5.693740367889404,
+      78.95689249038696,
+      8.385018825531006,
+      28.230010986328125
+    ],
+    "components": []
+  },
+  {
+    "key": "e0012",
+    "text": "Workload",
+    "font_family": "VividSource-Roboto-Regular",
+    "bounds": [
+      138.33956718444824,
+      142.30140388011932,
+      42.05032539367676,
+      12.04002571105957
+    ],
+    "components": [
+      "host-workload"
+    ]
+  },
+  {
+    "key": "e0014",
+    "text": "Txns",
+    "font_family": "VividSource-Roboto-Regular",
+    "bounds": [
+      24.59838596672609,
+      85.3292260579874,
+      8.39485377669083,
+      14.904005081173636
+    ],
+    "components": []
+  },
+  {
+    "key": "e0016",
+    "text": "Kernel Space",
+    "font_family": "VividSource-Roboto-Regular",
+    "bounds": [
+      30.096799612045288,
+      161.23486804962158,
+      52.24760627746582,
+      10.750023365020752
+    ],
+    "components": [
+      "host-mechanism"
+    ]
+  },
+  {
+    "key": "e0019",
+    "text": "Wave",
+    "font_family": "VividSource-Roboto-Regular",
+    "bounds": [
+      32.667301654815674,
+      138.16399145126343,
+      21.728599548339844,
+      10.750023365020752
+    ],
+    "components": [
+      "host-mechanism"
+    ]
+  },
+  {
+    "key": "e0020",
+    "text": "Mechanism",
+    "font_family": "VividSource-Roboto-Regular",
+    "bounds": [
+      20.0945463180542,
+      148.6639928817749,
+      46.854469299316406,
+      10.750023365020752
+    ],
+    "components": [
+      "host-mechanism"
+    ]
+  },
+  {
+    "key": "e0023",
+    "text": "Wave Userspace Agents",
+    "font_family": "VividSource-Roboto-Regular",
+    "bounds": [
+      54.02837657928467,
+      22.38735342025757,
+      107.52992248535156,
+      12.04002571105957
+    ],
+    "components": [
+      "device-agent"
+    ]
+  },
+  {
+    "key": "e0024",
+    "text": "System Software for: Thread Scheduling / RPC ",
+    "font_family": "VividSource-Roboto-Regular",
+    "bounds": [
+      25.41710138320923,
+      33.286357402801514,
+      166.77070999145508,
+      9.460019588470459
+    ],
+    "components": [
+      "device-agent"
+    ]
+  },
+  {
+    "key": "e0025",
+    "text": "Stack / Memory Management / …",
+    "font_family": "VividSource-Roboto-Regular",
+    "bounds": [
+      48.698851585388184,
+      40.78635883331299,
+      118.23282623291016,
+      9.460021018981934
+    ],
+    "components": [
+      "device-agent"
+    ]
+  },
+  {
+    "key": "e0035",
+    "text": "Messages",
+    "font_family": "VividSource-Roboto-Regular",
+    "bounds": [
+      60.76543050600638,
+      77.1188268661499,
+      8.392694893818145,
+      32.13801097869873
+    ],
+    "components": []
+  },
+  {
+    "key": "e0037",
+    "text": "Interrupts",
+    "font_family": "VividSource-Roboto-Regular",
+    "bounds": [
+      42.64288854598999,
+      78.375319480896,
+      8.385018825531006,
+      30.22001552581787
+    ],
+    "components": []
+  },
+  {
+    "key": "e0039",
+    "text": "Host Cache/DRAM",
+    "font_family": "VividSource-Roboto-Regular",
+    "bounds": [
+      105.01452922821045,
+      111.28443026542664,
+      100.54994201660156,
+      14.405033111572266
+    ],
+    "components": []
+  },
+  {
+    "key": "e0045",
+    "text": "Host CPU",
+    "font_family": "VividSource-Roboto-Regular",
+    "bounds": [
+      81.99965572357178,
+      171.95709872245789,
+      51.62497901916504,
+      14.405033111572266
+    ],
+    "components": []
+  },
+  {
+    "key": "e0049",
+    "text": "SmartNIC Cache/DRAM",
+    "font_family": "VividSource-Roboto-Regular",
+    "bounds": [
+      78.38778758049011,
+      59.46581149101257,
+      127.05794906616211,
+      14.405033111572266
+    ],
+    "components": [
+      "device-memory"
+    ]
+  },
+  {
+    "key": "e0053",
+    "text": "SmartNIC CPU",
+    "font_family": "VividSource-Roboto-Regular",
+    "bounds": [
+      68.71253728866577,
+      1.4563825130462646,
+      78.13298034667969,
+      14.405033111572266
+    ],
+    "components": []
+  },
+  {
+    "key": "e0055",
+    "text": "Userspace",
+    "font_family": "VividSource-Roboto-Regular",
+    "bounds": [
+      138.18769073486328,
+      161.23486804962158,
+      42.33860778808594,
+      10.750023365020752
+    ],
+    "components": [
+      "host-workload"
+    ]
+  },
+  {
+    "key": "e0077",
+    "text": "PCIe MMIO/DMA",
+    "font_family": "VividSource-Roboto-Regular",
+    "bounds": [
+      97.73031687736511,
+      84.57453894615173,
+      106.87544631958008,
+      16.77003765106201
+    ],
+    "components": [
+      "interconnect"
+    ]
+  }
+]

@@ -1,0 +1,166 @@
+[
+  {
+    "key": "e0005",
+    "text": "Resource Manager",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      103.98225684116552,
+      29.28034718582376,
+      28.098392017775026,
+      15.255172027396387
+    ],
+    "components": [
+      "resource-manager"
+    ]
+  },
+  {
+    "key": "e0006",
+    "text": "Schedule TaskSubmit Task",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      26.97035371050606,
+      16.645207294951433,
+      42.01681691822614,
+      41.37280272853969
+    ],
+    "components": []
+  },
+  {
+    "key": "e0009",
+    "text": "Application",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      39.26127760673717,
+      2.9964325822049886,
+      33.401189002767765,
+      7.951202375687673
+    ],
+    "components": [
+      "applications"
+    ]
+  },
+  {
+    "key": "e0012",
+    "text": "Spark Scheduler",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      166.12377165567162,
+      24.867969702144823,
+      46.58454525072011,
+      7.951203220004114
+    ],
+    "components": [
+      "resource-manager"
+    ]
+  },
+  {
+    "key": "e0015",
+    "text": "Granular Task Scheduler",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      10.594163529434978,
+      27.93133214091677,
+      70.11304410863342,
+      7.951203220004121
+    ],
+    "components": [
+      "granular-scheduler"
+    ]
+  },
+  {
+    "key": "e0020",
+    "text": "PolicyState",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      15.597184904847381,
+      36.96369945646985,
+      58.22074564746255,
+      7.951201531371225
+    ],
+    "components": [
+      "granular-scheduler"
+    ]
+  },
+  {
+    "key": "e0029",
+    "text": "RackServerWorkerTaskTask",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      20.419469579939232,
+      69.31034059533523,
+      41.571254243294796,
+      32.247761551230724
+    ],
+    "components": []
+  },
+  {
+    "key": "e0040",
+    "text": "Application",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      100.49626336213807,
+      2.996457120151703,
+      33.40119238003352,
+      7.951202375687673
+    ],
+    "components": [
+      "applications"
+    ]
+  },
+  {
+    "key": "e0043",
+    "text": "Application",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      161.73123223121004,
+      2.9964325822049886,
+      33.401199134565104,
+      7.951202375687673
+    ],
+    "components": [
+      "applications"
+    ]
+  },
+  {
+    "key": "e0131",
+    "text": "MapReduce Scheduler",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      157.4467788209113,
+      42.88313789196673,
+      64.2345009845194,
+      7.951201531371225
+    ],
+    "components": [
+      "resource-manager"
+    ]
+  },
+  {
+    "key": "e0161",
+    "text": "Worker Pool",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      201.1771427210115,
+      80.10740527169948,
+      23.048623162612785,
+      17.689834488181077
+    ],
+    "components": [
+      "worker-pool"
+    ]
+  },
+  {
+    "key": "e0172",
+    "text": "Allocate ",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      104.89476703797483,
+      49.78470548115184,
+      25.725714204563687,
+      7.951201531371225
+    ],
+    "components": [
+      "resource-manager"
+    ]
+  }
+]

@@ -1,0 +1,189 @@
+[
+  {
+    "key": "e0009",
+    "text": "NAm SAm EU",
+    "font_family": "VividSource-Arimo-Italic",
+    "bounds": [
+      25.0956375785172,
+      47.82847677924292,
+      36.84408809813431,
+      6.435130308670523
+    ],
+    "components": [
+      "primary-platform"
+    ]
+  },
+  {
+    "key": "e0010",
+    "text": "SAf Aus Asia",
+    "font_family": "VividSource-Arimo-Italic",
+    "bounds": [
+      26.525885270908475,
+      55.036024205466674,
+      33.65309648577386,
+      6.435130308670523
+    ],
+    "components": [
+      "primary-platform",
+      "regional-brokers"
+    ]
+  },
+  {
+    "key": "e0015",
+    "text": "AWS",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      24.990727764304893,
+      13.503735051103604,
+      16.34690612072086,
+      7.995162190260771
+    ],
+    "components": [
+      "primary-platform"
+    ]
+  },
+  {
+    "key": "e0018",
+    "text": "OVH",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      162.39941604807973,
+      13.503735051103604,
+      15.622108295483486,
+      7.995162190260771
+    ],
+    "components": [
+      "external-platform"
+    ]
+  },
+  {
+    "key": "e0020",
+    "text": "Load",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      162.9962800714693,
+      32.1076160877833,
+      14.427544412516,
+      7.215144187369788
+    ],
+    "components": [
+      "external-platform"
+    ]
+  },
+  {
+    "key": "e0021",
+    "text": "brokers",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      159.39250635835742,
+      40.03591825662943,
+      21.62854812121259,
+      7.215144187369788
+    ],
+    "components": [
+      "external-platform"
+    ]
+  },
+  {
+    "key": "e0023",
+    "text": "Servers",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      157.7933427710086,
+      88.46222965856123,
+      24.830746537203595,
+      7.995163564991344
+    ],
+    "components": [
+      "server-group"
+    ]
+  },
+  {
+    "key": "e0025",
+    "text": "Brokers",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      92.92541043607253,
+      88.46222965856123,
+      24.830752036125887,
+      7.995163564991344
+    ],
+    "components": [
+      "primary-platform",
+      "regional-brokers"
+    ]
+  },
+  {
+    "key": "e0027",
+    "text": "Clients",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      94.32187274990338,
+      38.00939767499494,
+      22.027005529394046,
+      7.995160815530198
+    ],
+    "components": [
+      "primary-platform"
+    ]
+  },
+  {
+    "key": "e0029",
+    "text": "Load",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      32.46084735522845,
+      82.69619171758222,
+      16.031962220114565,
+      7.995163564991344
+    ],
+    "components": [
+      "primary-platform",
+      "regional-brokers"
+    ]
+  },
+  {
+    "key": "e0030",
+    "text": "clients",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      30.253538705408573,
+      91.34524862905073,
+      20.42694011878939,
+      7.995163564991344
+    ],
+    "components": [
+      "primary-platform",
+      "regional-brokers"
+    ]
+  },
+  {
+    "key": "e0039",
+    "text": "continent",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      26.525885270908475,
+      35.92361520782242,
+      35.2284882320555,
+      9.55519407185102
+    ],
+    "components": [
+      "primary-platform"
+    ]
+  },
+  {
+    "key": "e0043",
+    "text": "region",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      61.60637000948191,
+      66.19531164850105,
+      24.037955912559482,
+      9.555191322389874
+    ],
+    "components": [
+      "primary-platform",
+      "regional-brokers"
+    ]
+  }
+]

@@ -1,0 +1,82 @@
+{
+  "asset_id": "architecture.source.asplos25-094_fig2",
+  "title": "专家模块放大与自回归阶段展开",
+  "summary": "左侧展开一个专家模块的内部结构，右侧把同一模块堆叠用于预填充和连续两次解码。虚线放大关系与跨列反馈线同时说明模块结构和随时间复用的方式。",
+  "suitable_for": [
+    "同时解释模块内部路由和模块在多个执行阶段的复用",
+    "用有限几列表达一次批量输入与后续逐步生成"
+  ],
+  "not_suitable_for": [
+    "仅比较多个独立模型而没有时间依赖",
+    "需要定量显示各阶段真实耗时的时间轴"
+  ],
+  "reading_order": [
+    "从右侧第一列输入 Research on MLSys 向上读预填充。",
+    "沿顶部输出 is 的回接线进入下一列，继续到 interesting 和 EOS。",
+    "再看左侧放大框中的 Attention、归一化、Gate 与专家聚合。",
+    "用下方阶段括线区分一次预填充与连续解码。"
+  ],
+  "design": {
+    "layout": "左窄详图加右三列纵向栈；三列保持相同高度与模块对齐。",
+    "shapes": "圆角矩形构成层，菱形 Gate 分派专家，带叉圆形汇合专家输出。",
+    "connectors": "列内箭头自下而上，跨列折线从上端输出回到下一列下端输入；虚线连接只表示放大。",
+    "color": "右侧主模块为蓝色；左侧专家浅蓝深浅交替，Gate 淡紫，其他层白底。",
+    "typography": "黑色无衬线层名，生成词用粗斜体；下标专家编号和 EOS 标记应完整保留。"
+  },
+  "parts": [
+    {
+      "id": "expert-block-detail",
+      "name": "专家模块内部放大",
+      "meaning": "把路由、专家选择与聚合放在一个明确层级中。",
+      "adaptation": "改变专家数要同步调整 Gate 发出边及汇合位置。"
+    },
+    {
+      "id": "prefill-stack",
+      "name": "预填充纵向栈",
+      "meaning": "整段提示输入经过重复模块形成首个输出。",
+      "adaptation": "输入换成真实提示或批量数据，不把省略号视为固定层数。"
+    },
+    {
+      "id": "decode-first",
+      "name": "第一次解码栈",
+      "meaning": "前一列输出作为新列输入。",
+      "adaptation": "修改输出词时同步下游输入标签。"
+    },
+    {
+      "id": "decode-second",
+      "name": "后续解码栈",
+      "meaning": "以同一结构展开后续生成与结束条件。",
+      "adaptation": "增加时间步需复制栈和回接线、移动阶段终点。"
+    },
+    {
+      "id": "stage-brackets",
+      "name": "阶段范围标尺",
+      "meaning": "标出预填充列与两列解码的范围，不编码时间长度。",
+      "adaptation": "按实际阶段边界调整端点；不要由宽度推断速度。"
+    }
+  ],
+  "adaptation": [
+    "先确定阶段语义并写明列是执行步骤，不是不同设备。",
+    "把模块详图中的专家数、Gate 规则与项目模型对应，必要时删去不成立的分支。",
+    "同步替换上一列输出与下一列输入，保持自回归关系。",
+    "结构变化通过 customize 修改；配置换字不能自动新增解码列。"
+  ],
+  "example": {
+    "scenario": "假设示例：带专家子模型的逐步交通需求预测",
+    "mapping": "预填充对应历史窗口编码，后两列对应两个未来步预测；Gate 对应专家分配。",
+    "structural_changes": "把词标签改为预测时段，按模型真实反馈决定是否保留跨列连线，重写结束符语义。"
+  },
+  "checks": [
+    "跨列线是否从输出回到下一列输入。",
+    "详图放大虚线是否与数据箭头区分。",
+    "所有专家到聚合节点的边是否完整。",
+    "阶段括线是否准确覆盖目标列。"
+  ],
+  "editing": {
+    "entry": "make_figure.py 调用本包共享运行库；example.json 配置本图实例，labels.json 定位可编辑文字，asset.json 登记语义部件。运行 python make_figure.py --config example.json --out . --parts 生成整图及部件。",
+    "configurable": "labels、components 支持既有文字、配色、显隐和位移；修改配置不会自动重排布局或重接跨部件箭头。",
+    "code_required": "改变对象数量或拓扑时在 customize(root, context) 中编辑矢量；新元素设置 data-asset-key 并登记到部件 element_keys。重叠语义区域不可同时移动同一元素。",
+    "fonts": "模块名用无衬线，词标签采用强调斜体；数学下标需检查字体映射。最终字体文件以构建映射为准；局部 font_size 使用源坐标，不能直接视为纸面 pt。本批构建已确认并嵌入完整字体：Arimo-BoldItalic.ttf, Arimo-Regular.ttf。映射可能改变原字形和字宽，需按实际论文尺寸复核。"
+  },
+  "display_code": "VA-108"
+}

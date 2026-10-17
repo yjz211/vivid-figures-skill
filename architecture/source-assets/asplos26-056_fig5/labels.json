@@ -1,0 +1,171 @@
+[
+  {
+    "key": "e0014",
+    "text": "Splitting?",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      704.132641141623,
+      370.5592162579706,
+      76.42849866169854,
+      20.342298487958033
+    ],
+    "components": [
+      "split-inset"
+    ]
+  },
+  {
+    "key": "e0017",
+    "text": "new VQA cluster 1",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      535.1267626496701,
+      451.090911441861,
+      162.11056320935313,
+      21.795283149549505
+    ],
+    "components": [
+      "split-inset"
+    ]
+  },
+  {
+    "key": "e0020",
+    "text": "new VQA cluster 2",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      790.8910468568502,
+      451.090911441861,
+      162.11058459375647,
+      21.795283149549505
+    ],
+    "components": [
+      "split-inset"
+    ]
+  },
+  {
+    "key": "e0024",
+    "text": "VQA",
+    "font_family": "VividSource-Inconsolata-Regular",
+    "bounds": [
+      563.6265266674309,
+      335.265199647256,
+      46.48128854278184,
+      27.6073928711412
+    ],
+    "components": [
+      "split-inset"
+    ]
+  },
+  {
+    "key": "e0025",
+    "text": "Cluster",
+    "font_family": "VividSource-Inconsolata-Regular",
+    "bounds": [
+      530.4735378921032,
+      367.4984666242381,
+      112.79002468145336,
+      27.6073928711412
+    ],
+    "components": [
+      "split-inset"
+    ]
+  },
+  {
+    "key": "e0026",
+    "text": "No",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      852.8613366534411,
+      358.5953697227524,
+      24.842902759701246,
+      21.795283149549505
+    ],
+    "components": [
+      "split-inset"
+    ]
+  },
+  {
+    "key": "e0027",
+    "text": "Yes",
+    "font_family": "VividSource-Tinos-Regular",
+    "bounds": [
+      757.4455835986009,
+      397.78434153704444,
+      32.58178998075891,
+      23.24831057994743
+    ],
+    "components": [
+      "split-inset"
+    ]
+  },
+  {
+    "key": "e0095",
+    "text": "Post-",
+    "font_family": "VividSource-Inconsolata-Regular",
+    "bounds": [
+      975.1595940788685,
+      97.22526043969995,
+      61.216232970036685,
+      21.79530453395273
+    ],
+    "components": [
+      "cluster-controller"
+    ]
+  },
+  {
+    "key": "e0096",
+    "text": "Processing",
+    "font_family": "VividSource-Inconsolata-Regular",
+    "bounds": [
+      943.4956654533745,
+      122.45132893640405,
+      124.59665308415413,
+      21.79530453395273
+    ],
+    "components": [
+      "cluster-controller"
+    ]
+  },
+  {
+    "key": "e0112",
+    "text": "......",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      737.0557261978684,
+      144.6682162877551,
+      42.07958713595872,
+      29.0603989171359
+    ],
+    "components": [
+      "cluster-controller",
+      "cluster-cards"
+    ]
+  },
+  {
+    "key": "e0174",
+    "text": "TreeVQA",
+    "font_family": "VividSource-Inconsolata-Regular",
+    "bounds": [
+      709.2128910472093,
+      202.98303481249607,
+      95.38260722983978,
+      23.248331964350683
+    ],
+    "components": [
+      "cluster-controller"
+    ]
+  },
+  {
+    "key": "e0175",
+    "text": "Controller",
+    "font_family": "VividSource-Inconsolata-Regular",
+    "bounds": [
+      688.2787578155694,
+      230.31127568392554,
+      137.2618225075713,
+      23.248331964350655
+    ],
+    "components": [
+      "cluster-controller"
+    ]
+  }
+]

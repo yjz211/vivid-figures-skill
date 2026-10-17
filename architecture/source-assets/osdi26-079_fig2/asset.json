@@ -1,0 +1,125 @@
+{
+  "name": "主机与智能网卡的设备边界图",
+  "family": "deployment",
+  "tags": [
+    "主机设备",
+    "PCIe",
+    "智能网卡",
+    "DMA",
+    "硬件边界"
+  ],
+  "when_to_use": "主机与加速设备职责划分；网络输入、片上处理和主机内存 DMA 的硬件说明",
+  "avoid": "需要详细包处理先后顺序的算法图；多层交换网络或多主机集群全景",
+  "preserve": [
+    "上下三个横带：主机、设备、网络；PCIe 灰带覆盖主机与设备之间的连接区。",
+    "黑箭头表达 DMA 和 RX/TX；双向横箭头连接设备内部单元，不能全改成单向流水线。",
+    "主机浅米色，设备浅青色，存储粉色，eSwitch 和网络为淡紫色，PCIe 灰色。"
+  ],
+  "adapt": "先核对新设备是否存在主机内存 DMA 和独立控制处理器。；按实物边界调整主机、设备及其内存的容器归属。；保留芯片/存储形状差异，把性能数字放正文而非挤入器件框。；移动组件后重新检查 PCIe 跨界箭头和收发端点。",
+  "visual_note": "硬件构成背景图；图面未给出完整软件控制流程，不应扩写成端到端调度系统。 整图未见缺字。eSwitch 部件扩大到包含紫色盒和完整 RX/TX；主机、ARM、DPA 存储部件排除跨区连线的孤立箭头头，DMA 完整线仍在整图。",
+  "id": "architecture.source.osdi26-079_fig2",
+  "display_code": "VA-178",
+  "parts": [
+    {
+      "id": "host",
+      "name": "主机 CPU 与内存",
+      "role": "region",
+      "box": [
+        0.095,
+        0.02,
+        0.815,
+        0.215
+      ],
+      "meaning": "主机侧计算和 DRAM 的硬件区域",
+      "reuse": "替换 CPU/内存标签并保留边界",
+      "exclude_keys": [
+        "e0048",
+        "e0049"
+      ]
+    },
+    {
+      "id": "pcie",
+      "name": "主机设备接口带",
+      "role": "region",
+      "box": [
+        0.04,
+        0.2,
+        0.925,
+        0.23
+      ],
+      "meaning": "跨主机与网卡的总线边界",
+      "reuse": "改接口时同步改 DMA 通道及 NIC–Host 名称"
+    },
+    {
+      "id": "device-switch",
+      "name": "设备交换入口",
+      "role": "region",
+      "box": [
+        0.165,
+        0.405,
+        0.17,
+        0.4
+      ],
+      "meaning": "交换器把网络收发引入设备侧",
+      "reuse": "保持 RX/TX 各自方向",
+      "exclude_keys": [
+        "e0025",
+        "e0026",
+        "e0027",
+        "e0028",
+        "e0029",
+        "e0040"
+      ]
+    },
+    {
+      "id": "dpa-memory",
+      "name": "DPA 与设备存储",
+      "role": "region",
+      "box": [
+        0.34,
+        0.39,
+        0.325,
+        0.38
+      ],
+      "meaning": "处理核心及其本地/网卡内存关系",
+      "reuse": "内存分区改变时调整粉色区边界和箭头",
+      "exclude_keys": [
+        "e0043",
+        "e0044"
+      ]
+    },
+    {
+      "id": "arm",
+      "name": "设备辅助处理器",
+      "role": "region",
+      "box": [
+        0.66,
+        0.45,
+        0.18,
+        0.3
+      ],
+      "meaning": "与网卡内存相连的 ARM 单元",
+      "reuse": "不要未经依据赋予主数据路径职责",
+      "exclude_keys": [
+        "e0042",
+        "e0045",
+        "e0046"
+      ]
+    },
+    {
+      "id": "network",
+      "name": "底部网络介质",
+      "role": "region",
+      "box": [
+        0.01,
+        0.775,
+        0.98,
+        0.09
+      ],
+      "meaning": "外部以太网或高速网络连接层",
+      "reuse": "替换介质说明并接回收发箭头"
+    }
+  ],
+  "implementation": "editable vector geometry",
+  "validation_status": "baseline-and-components-checked"
+}

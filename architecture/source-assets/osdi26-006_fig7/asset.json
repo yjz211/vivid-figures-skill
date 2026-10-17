@@ -1,0 +1,78 @@
+{
+  "name": "按带宽分配通道与两级节点抽象",
+  "family": "composite",
+  "tags": [
+    "双面板",
+    "容量带宽区分",
+    "扇出分配",
+    "硬件映射",
+    "两级树"
+  ],
+  "when_to_use": "展示资源分配策略及上层抽象视图；解释物理单元到两级逻辑节点的映射",
+  "avoid": "按时间调度资源的甘特图；无法形成清晰分组的任意网络拓扑",
+  "preserve": [
+    "横向双面板，左边以三组分配扇区并列，右边以硬件行、细节点行、粗节点行构成树。",
+    "右侧细节点向粗节点连线，硬件与通道一一垂直对应；横向虚线区分 Guest OS 与 Hardware。",
+    "左侧淡黄、浅粉、浅蓝区分不同分配组；右侧 DIMM 和 CXL 以淡色区分，不表示性能大小。"
+  ],
+  "adapt": "同时定义资源容量和带宽需求，不从 VM 图标大小推断数值。；每个硬件通道对应一个细节点，上层归组依实际硬件来源决定。；两面板的分配示意与抽象树不应被误认为逐列相同对象。；增减通道时需要代码重排矩形、垂线和括号，配置不会自动树布局。",
+  "visual_note": "源图双面板为不同视角；分配扇区不是精确比例。公共面板题注和硬件/软件边界线留整图。",
+  "id": "architecture.source.osdi26-006_fig7",
+  "display_code": "VA-169",
+  "parts": [
+    {
+      "id": "abbreviation-key",
+      "name": "资源缩写图例",
+      "role": "legend",
+      "box": [
+        0.013,
+        0.025,
+        0.475,
+        0.105
+      ],
+      "meaning": "解释 GPM、MEM、BW",
+      "reuse": "更换行业时去掉无用缩写并保留必要定义。"
+    },
+    {
+      "id": "allocation-view",
+      "name": "三种带宽通道分配",
+      "role": "component",
+      "box": [
+        0.01,
+        0.176,
+        0.457,
+        0.547
+      ],
+      "meaning": "不同虚拟机需求对应的通道集合",
+      "reuse": "改变分配数量需重画内存格、通道标签和扇区边界。"
+    },
+    {
+      "id": "logical-nodes",
+      "name": "两级逻辑节点树",
+      "role": "component",
+      "box": [
+        0.504,
+        0.06,
+        0.456,
+        0.294
+      ],
+      "meaning": "细 cNode 归属粗 sNode 的映射",
+      "reuse": "合并或拆分粗节点时重连全部归属边。"
+    },
+    {
+      "id": "physical-channels",
+      "name": "物理通道与来源括号",
+      "role": "component",
+      "box": [
+        0.568,
+        0.382,
+        0.386,
+        0.353
+      ],
+      "meaning": "DIMM/CXL 各通道及同源分组",
+      "reuse": "增加硬件类型须更新括号说明并保持与 cNode 对齐。"
+    }
+  ],
+  "implementation": "editable vector geometry",
+  "validation_status": "baseline-and-components-checked"
+}

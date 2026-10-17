@@ -1,0 +1,265 @@
+{
+  "svg": "C:\\Users\\hhhh\\Desktop\\MCM-ICM-AI-Lab\\workstreams\\architecture-native-guides\\package\\architecture\\source-assets\\asplos25-100_fig3\\fig.svg",
+  "print_size_pt": [
+    468.0,
+    493.70454545454544
+  ],
+  "text_count": 95,
+  "parts": 0,
+  "errors": [
+    {
+      "type": "text-outside-canvas",
+      "text": "(a) LLM Example",
+      "box": [
+        2.2021125839351003,
+        400.64936567572346,
+        102.99283419737297,
+        419.6878260341761
+      ]
+    },
+    {
+      "type": "text-outside-canvas",
+      "text": "(c) Llama2 Block Architecture",
+      "box": [
+        214.5498092309198,
+        399.29938176708106,
+        383.91608490250485,
+        418.3378421255336
+      ]
+    },
+    {
+      "type": "text-outside-canvas",
+      "text": "(b) Decoder",
+      "box": [
+        109.95094694223312,
+        400.59936697811753,
+        176.45393730247073,
+        419.63782733657
+      ]
+    },
+    {
+      "type": "text-outside-canvas",
+      "text": "Prefill Stage",
+      "box": [
+        -1.474917115136208,
+        36.9578830294122,
+        15.659704704268117,
+        103.30354246705981
+      ]
+    },
+    {
+      "type": "text-outside-canvas",
+      "text": "Decoding Stage",
+      "box": [
+        -1.8499141442101217,
+        226.55755247243155,
+        15.28470845874896,
+        310.7112701995591
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "…",
+        "="
+      ],
+      "overlap": [
+        10.2,
+        5.2
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "Output ",
+        "Emb."
+      ],
+      "overlap": [
+        28.6,
+        5.1
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "Top",
+        "Sampling"
+      ],
+      "overlap": [
+        21.1,
+        5.1
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "-",
+        "Sampling"
+      ],
+      "overlap": [
+        4.4,
+        5.1
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "k ",
+        "Sampling"
+      ],
+      "overlap": [
+        10.6,
+        5.1
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "Self ",
+        "Attention"
+      ],
+      "overlap": [
+        24.9,
+        7.0
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "Feed ",
+        "Forward"
+      ],
+      "overlap": [
+        30.8,
+        7.0
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "Add & ",
+        "Norm"
+      ],
+      "overlap": [
+        31.6,
+        5.1
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "Add & ",
+        "Norm"
+      ],
+      "overlap": [
+        31.7,
+        5.1
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "Rotary Embedding",
+        "="
+      ],
+      "overlap": [
+        10.2,
+        10.1
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "Rotary Embedding",
+        "="
+      ],
+      "overlap": [
+        10.2,
+        9.6
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "…",
+        "="
+      ],
+      "overlap": [
+        10.2,
+        4.9
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "Key",
+        "Cache"
+      ],
+      "overlap": [
+        22.6,
+        5.1
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "Cache",
+        "="
+      ],
+      "overlap": [
+        10.2,
+        8.9
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "Value",
+        "Cache"
+      ],
+      "overlap": [
+        5.1,
+        31.0
+      ]
+    },
+    {
+      "type": "text-overlap",
+      "texts": [
+        "…",
+        "="
+      ],
+      "overlap": [
+        10.0,
+        7.5
+      ]
+    }
+  ],
+  "warnings": [],
+  "pdf": {
+    "page_count": 1,
+    "fonts": [
+      {
+        "name": "AAAAAA+Tinos",
+        "type": "Type0"
+      },
+      {
+        "name": "",
+        "type": "Type3"
+      },
+      {
+        "name": "CAAAAA+DejaVuSans",
+        "type": "Type0"
+      },
+      {
+        "name": "",
+        "type": "Type3"
+      },
+      {
+        "name": "",
+        "type": "Type3"
+      }
+    ],
+    "images": 0
+  },
+  "scope": "Measured text bounds, intersections, print font size, and PDF structure. Connections and visual fidelity require actual image inspection."
+}

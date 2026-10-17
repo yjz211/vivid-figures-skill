@@ -1,0 +1,868 @@
+[
+  {
+    "key": "e0011",
+    "text": "VM 1",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      99.77526655407928,
+      43.594816627974964,
+      14.343423796490242,
+      8.885979589304043
+    ],
+    "components": [
+      "virtual-nic"
+    ]
+  },
+  {
+    "key": "e0014",
+    "text": "VM 1",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      201.79386214213082,
+      3.8630934294414914,
+      14.343470183212048,
+      8.885979589304043
+    ],
+    "components": [
+      "smartnic-deployment"
+    ]
+  },
+  {
+    "key": "e0019",
+    "text": "NICs",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      21.113637836788257,
+      144.1533785505053,
+      13.490464755923313,
+      8.885979589304043
+    ],
+    "components": [
+      "bare-metal"
+    ]
+  },
+  {
+    "key": "e0022",
+    "text": "Custom ",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      18.008278745492134,
+      94.45517825496243,
+      23.092191462692426,
+      8.885979589304043
+    ],
+    "components": [
+      "bare-metal"
+    ]
+  },
+  {
+    "key": "e0023",
+    "text": "scheduler",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      15.421244883655163,
+      101.46541797460121,
+      26.641935348889092,
+      8.885979589304043
+    ],
+    "components": [
+      "bare-metal"
+    ]
+  },
+  {
+    "key": "e0026",
+    "text": "DPDK or ",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      16.33933088163758,
+      116.11209496489754,
+      25.451280973575194,
+      8.885979589304043
+    ],
+    "components": [
+      "bare-metal"
+    ]
+  },
+  {
+    "key": "e0027",
+    "text": "SPDK",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      20.111962966111605,
+      123.12231149117541,
+      16.603060175821156,
+      8.885979589304057
+    ],
+    "components": [
+      "bare-metal"
+    ]
+  },
+  {
+    "key": "e0030",
+    "text": "LC ",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      14.888493383714376,
+      71.80470435066671,
+      9.460850232644589,
+      8.885979589304043
+    ],
+    "components": [
+      "bare-metal"
+    ]
+  },
+  {
+    "key": "e0031",
+    "text": "task",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      12.824423423517146,
+      78.81494407030549,
+      11.879129200551688,
+      8.885979589304043
+    ],
+    "components": [
+      "bare-metal"
+    ]
+  },
+  {
+    "key": "e0034",
+    "text": "BE ",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      34.70471539230857,
+      71.80470435066671,
+      9.570276509384712,
+      8.885979589304043
+    ],
+    "components": [
+      "bare-metal"
+    ]
+  },
+  {
+    "key": "e0035",
+    "text": "task",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      32.695381763842306,
+      78.81494407030549,
+      11.879129200551688,
+      8.885979589304043
+    ],
+    "components": [
+      "bare-metal"
+    ]
+  },
+  {
+    "key": "e0038",
+    "text": "(a) Bare-metal",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      8.416339637024066,
+      162.10972494829184,
+      38.06281012472027,
+      8.885979589304043
+    ],
+    "components": [
+      "bare-metal"
+    ]
+  },
+  {
+    "key": "e0039",
+    "text": "I/O path",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      5.305646072720265,
+      22.623426086248386,
+      22.093670889098576,
+      8.885979589304043
+    ],
+    "components": [
+      "path-legend"
+    ]
+  },
+  {
+    "key": "e0044",
+    "text": "NICs",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      195.79053899273276,
+      138.83639333694737,
+      13.490464755923313,
+      8.885979589304043
+    ],
+    "components": [
+      "smartnic-deployment"
+    ]
+  },
+  {
+    "key": "e0047",
+    "text": "DP",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      183.94972522439275,
+      83.57005851930897,
+      8.46195856527629,
+      8.885991185984494
+    ],
+    "components": [
+      "smartnic-deployment"
+    ]
+  },
+  {
+    "key": "e0048",
+    "text": "services",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      178.30826489180254,
+      90.86572733489992,
+      19.71792854508749,
+      7.579219249309972
+    ],
+    "components": [
+      "smartnic-deployment"
+    ]
+  },
+  {
+    "key": "e0051",
+    "text": "CP",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      156.16755786679278,
+      83.57005851930897,
+      8.571338455294608,
+      8.885991185984494
+    ],
+    "components": [
+      "smartnic-deployment"
+    ]
+  },
+  {
+    "key": "e0052",
+    "text": "tasks",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      153.76416903658537,
+      90.86572733489992,
+      13.089915413129347,
+      7.579219249309972
+    ],
+    "components": [
+      "smartnic-deployment"
+    ]
+  },
+  {
+    "key": "e0053",
+    "text": "SmartNIC",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      187.32946177517078,
+      147.84840564939805,
+      26.73841973024537,
+      8.885979589304043
+    ],
+    "components": [
+      "smartnic-deployment"
+    ]
+  },
+  {
+    "key": "e0056",
+    "text": "VM 0",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      188.72644428907734,
+      14.673333399419775,
+      14.35975192256592,
+      8.885979589304043
+    ],
+    "components": [
+      "smartnic-deployment"
+    ]
+  },
+  {
+    "key": "e0059",
+    "text": "Core",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      155.16778485171017,
+      104.56546578625056,
+      13.192522841764003,
+      8.885979589304043
+    ],
+    "components": [
+      "smartnic-deployment"
+    ]
+  },
+  {
+    "key": "e0062",
+    "text": "Core",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      182.08808691815648,
+      104.56546578625056,
+      13.192522841764003,
+      8.885979589304043
+    ],
+    "components": [
+      "smartnic-deployment"
+    ]
+  },
+  {
+    "key": "e0067",
+    "text": "eNIC",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      208.6398928665767,
+      102.61244563805666,
+      13.672439865567867,
+      8.885979589304043
+    ],
+    "components": [
+      "smartnic-deployment"
+    ]
+  },
+  {
+    "key": "e0070",
+    "text": "eNIC",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      237.70984839495213,
+      102.61244563805666,
+      13.672439865567867,
+      8.885979589304043
+    ],
+    "components": [
+      "smartnic-deployment"
+    ]
+  },
+  {
+    "key": "e0071",
+    "text": "Programmable I/O",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      205.96282237771447,
+      113.4789295082246,
+      50.004607786431734,
+      8.885979589304043
+    ],
+    "components": [
+      "smartnic-deployment"
+    ]
+  },
+  {
+    "key": "e0072",
+    "text": "accelerator",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      215.71210524654816,
+      120.48916922786337,
+      30.46016558089832,
+      8.885979589304057
+    ],
+    "components": [
+      "smartnic-deployment"
+    ]
+  },
+  {
+    "key": "e0073",
+    "text": "…",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      227.03941800449684,
+      101.91523001595304,
+      6.080526599918699,
+      8.62462882593178
+    ],
+    "components": [
+      "smartnic-deployment"
+    ]
+  },
+  {
+    "key": "e0076",
+    "text": "Core",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      155.16778485171017,
+      117.6026858834084,
+      13.192522841764003,
+      8.885979589304043
+    ],
+    "components": [
+      "smartnic-deployment"
+    ]
+  },
+  {
+    "key": "e0079",
+    "text": "Core",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      182.08808691815648,
+      117.6026858834084,
+      13.192522841764003,
+      8.885979589304043
+    ],
+    "components": [
+      "smartnic-deployment"
+    ]
+  },
+  {
+    "key": "e0082",
+    "text": "NIC driver",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      182.3515171112922,
+      46.96534541447453,
+      27.420118993904907,
+      8.885979589304043
+    ],
+    "components": [
+      "smartnic-deployment"
+    ]
+  },
+  {
+    "key": "e0085",
+    "text": "LC task",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      170.97990503401888,
+      28.248836613093758,
+      21.07835832221099,
+      8.885979589304043
+    ],
+    "components": [
+      "smartnic-deployment"
+    ]
+  },
+  {
+    "key": "e0088",
+    "text": "BE task",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      200.18558811039838,
+      28.248836613093758,
+      21.18778459895111,
+      8.885979589304043
+    ],
+    "components": [
+      "smartnic-deployment"
+    ]
+  },
+  {
+    "key": "e0103",
+    "text": "VM creation process",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      54.15471423224517,
+      21.901718275031257,
+      56.2146765549187,
+      8.885979589304043
+    ],
+    "components": [
+      "path-legend"
+    ]
+  },
+  {
+    "key": "e0106",
+    "text": "(c) VMs with SmartNICs",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      172.8834305500459,
+      162.9220724139177,
+      64.61118345572686,
+      8.885979589304043
+    ],
+    "components": [
+      "smartnic-deployment"
+    ]
+  },
+  {
+    "key": "e0109",
+    "text": "1",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      201.12533670746416,
+      39.09553654641148,
+      3.381246656010603,
+      8.62462882593178
+    ],
+    "components": [
+      "smartnic-deployment"
+    ]
+  },
+  {
+    "key": "e0112",
+    "text": "2",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      228.03283603869204,
+      91.81806992693599,
+      3.6589335181763545,
+      8.62462882593178
+    ],
+    "components": [
+      "smartnic-deployment"
+    ]
+  },
+  {
+    "key": "e0115",
+    "text": "3",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      201.82466292540994,
+      91.16415630963819,
+      3.6589335181763545,
+      8.62462882593178
+    ],
+    "components": [
+      "smartnic-deployment"
+    ]
+  },
+  {
+    "key": "e0118",
+    "text": "2",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      170.44534445192767,
+      79.83134672515551,
+      3.6589335181763545,
+      8.62462882593178
+    ],
+    "components": [
+      "smartnic-deployment"
+    ]
+  },
+  {
+    "key": "e0121",
+    "text": "3",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      181.88454198287218,
+      96.94118183670615,
+      3.6589335181763545,
+      8.62462882593178
+    ],
+    "components": [
+      "smartnic-deployment"
+    ]
+  },
+  {
+    "key": "e0124",
+    "text": "4",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      170.7064553089731,
+      92.88034904965205,
+      3.6589335181763545,
+      8.62462882593178
+    ],
+    "components": [
+      "smartnic-deployment"
+    ]
+  },
+  {
+    "key": "e0127",
+    "text": "5",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      162.04930141833756,
+      74.60581293363792,
+      3.6589335181763545,
+      8.62462882593178
+    ],
+    "components": [
+      "smartnic-deployment"
+    ]
+  },
+  {
+    "key": "e0132",
+    "text": "4",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      234.68668657469607,
+      127.07991062885047,
+      3.6589335181763545,
+      8.624628825931794
+    ],
+    "components": [
+      "smartnic-deployment"
+    ]
+  },
+  {
+    "key": "e0134",
+    "text": "NICs",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      93.6484155645121,
+      144.6085250648648,
+      13.490464755923313,
+      8.885979589304043
+    ],
+    "components": [
+      "virtual-nic"
+    ]
+  },
+  {
+    "key": "e0137",
+    "text": "DPDK ",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      118.28347578119065,
+      102.33433404746937,
+      17.105567533144495,
+      8.10192802397978
+    ],
+    "components": [
+      "virtual-nic"
+    ]
+  },
+  {
+    "key": "e0138",
+    "text": "or ",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      123.19773147602973,
+      108.95395118278064,
+      7.015666966090066,
+      8.10192802397978
+    ],
+    "components": [
+      "virtual-nic"
+    ]
+  },
+  {
+    "key": "e0139",
+    "text": "SPDK",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      118.44304610420295,
+      115.57354512473101,
+      15.581578174933384,
+      8.10192802397978
+    ],
+    "components": [
+      "virtual-nic"
+    ]
+  },
+  {
+    "key": "e0140",
+    "text": "(b) VMs with virtual NIC",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      67.50824538539746,
+      162.9220724139177,
+      63.55291678444701,
+      8.885979589304043
+    ],
+    "components": [
+      "virtual-nic"
+    ]
+  },
+  {
+    "key": "e0141",
+    "text": "Bare-metal",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      13.241579212717625,
+      56.36351558927889,
+      29.95812209079304,
+      8.885979589304043
+    ],
+    "components": [
+      "bare-metal"
+    ]
+  },
+  {
+    "key": "e0144",
+    "text": "VM 0",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      85.48347117895901,
+      51.822174347717905,
+      14.35975192256592,
+      8.885979589304043
+    ],
+    "components": [
+      "virtual-nic"
+    ]
+  },
+  {
+    "key": "e0147",
+    "text": "LC ",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      75.3073376960674,
+      62.17322056185911,
+      9.460850232644589,
+      8.885979589304043
+    ],
+    "components": [
+      "virtual-nic"
+    ]
+  },
+  {
+    "key": "e0148",
+    "text": "task",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      73.24326773587018,
+      69.18346028149789,
+      11.879129200551688,
+      8.885979589304043
+    ],
+    "components": [
+      "virtual-nic"
+    ]
+  },
+  {
+    "key": "e0151",
+    "text": "BE ",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      96.60825950950311,
+      62.17322056185911,
+      9.570276509384712,
+      8.885979589304043
+    ],
+    "components": [
+      "virtual-nic"
+    ]
+  },
+  {
+    "key": "e0152",
+    "text": "task",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      94.59892588103685,
+      69.18346028149789,
+      11.879082813829882,
+      8.885979589304043
+    ],
+    "components": [
+      "virtual-nic"
+    ]
+  },
+  {
+    "key": "e0155",
+    "text": "QEMU and KVM",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      64.78743221787227,
+      115.04995500234689,
+      44.490571778642334,
+      8.885979589304043
+    ],
+    "components": [
+      "virtual-nic"
+    ]
+  },
+  {
+    "key": "e0158",
+    "text": "vNIC",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      67.26169995899909,
+      105.88041338264337,
+      13.7088534421855,
+      8.885979589304043
+    ],
+    "components": [
+      "virtual-nic"
+    ]
+  },
+  {
+    "key": "e0161",
+    "text": "vNIC",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      91.46731190519859,
+      105.88041338264337,
+      13.708899828907306,
+      8.885979589304043
+    ],
+    "components": [
+      "virtual-nic"
+    ]
+  },
+  {
+    "key": "e0164",
+    "text": "NIC driver",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      78.43551905449203,
+      82.79215319462399,
+      27.420118993904907,
+      8.885991185984494
+    ],
+    "components": [
+      "virtual-nic"
+    ]
+  },
+  {
+    "key": "e0165",
+    "text": "Host",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      86.36801957707576,
+      127.28243505625504,
+      13.010501345397643,
+      8.885979589304057
+    ],
+    "components": [
+      "virtual-nic"
+    ]
+  },
+  {
+    "key": "e0174",
+    "text": "CSP",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      136.50329875883472,
+      69.63853721577469,
+      12.511287445322523,
+      8.885979589304043
+    ],
+    "components": []
+  },
+  {
+    "key": "e0177",
+    "text": "1",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      149.17554812882372,
+      74.58525201919745,
+      3.381246656010603,
+      8.62462882593178
+    ],
+    "components": [
+      "smartnic-deployment"
+    ]
+  },
+  {
+    "key": "e0180",
+    "text": "QEMU and KVM",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      169.34936537581962,
+      65.00851615880127,
+      44.490571778642334,
+      8.885979589304043
+    ],
+    "components": [
+      "smartnic-deployment"
+    ]
+  },
+  {
+    "key": "e0181",
+    "text": "Host",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      238.3980417996645,
+      64.68661550282921,
+      13.010454958675837,
+      8.885979589304043
+    ],
+    "components": [
+      "smartnic-deployment"
+    ]
+  }
+]

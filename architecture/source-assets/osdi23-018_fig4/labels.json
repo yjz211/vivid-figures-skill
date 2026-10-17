@@ -1,0 +1,296 @@
+[
+  {
+    "key": "e0024",
+    "text": "Database",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      114.95300531863722,
+      38.07221403543372,
+      22.69829209153977,
+      5.915070481991279
+    ],
+    "components": [
+      "state-core"
+    ]
+  },
+  {
+    "key": "e0027",
+    "text": "Release Creator",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      50.0350015657923,
+      37.06922833454155,
+      20.924090609970335,
+      12.164306771344854
+    ],
+    "components": []
+  },
+  {
+    "key": "e0036",
+    "text": "1",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      86.43000824484807,
+      28.801203324765083,
+      2.957555682562628,
+      5.91505283910476
+    ],
+    "components": []
+  },
+  {
+    "key": "e0039",
+    "text": "Backend Artifact Finder",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      11.731645105466669,
+      74.64924037367746,
+      33.42270211268533,
+      12.164306771344854
+    ],
+    "components": [
+      "artifact-finders"
+    ]
+  },
+  {
+    "key": "e0042",
+    "text": "Mobile Artifact Finder",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      60.554004394033655,
+      74.64820278121624,
+      34.74736984195715,
+      12.164306771344854
+    ],
+    "components": [
+      "artifact-finders"
+    ]
+  },
+  {
+    "key": "e0045",
+    "text": "Configuration Artifact Finder",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      11.731683252625771,
+      95.43227840668987,
+      33.9753323771738,
+      12.164245736494195
+    ],
+    "components": [
+      "artifact-finders"
+    ]
+  },
+  {
+    "key": "e0048",
+    "text": "……",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      71.89499457718739,
+      98.55628620286006,
+      10.605184890086093,
+      5.915070481991279
+    ],
+    "components": [
+      "artifact-finders"
+    ]
+  },
+  {
+    "key": "e0051",
+    "text": "2",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      49.25600605918862,
+      56.711219834469375,
+      2.957555682562628,
+      5.91505283910476
+    ],
+    "components": []
+  },
+  {
+    "key": "e0054",
+    "text": "3",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      87.08200422936716,
+      42.35826435331546,
+      2.957555682562628,
+      5.91505283910476
+    ],
+    "components": []
+  },
+  {
+    "key": "e0057",
+    "text": "Run Scheduler",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      115.28427524828476,
+      66.26823985532974,
+      24.07203232628126,
+      12.164245736494195
+    ],
+    "components": [
+      "run-scheduler"
+    ]
+  },
+  {
+    "key": "e0066",
+    "text": "Run Manager",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      182.31870627644093,
+      36.962234241334954,
+      21.129192625601718,
+      12.164306771344854
+    ],
+    "components": [
+      "run-manager"
+    ]
+  },
+  {
+    "key": "e0075",
+    "text": "4",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      119.16399391766208,
+      51.38318254612386,
+      2.957555682562628,
+      5.91505283910476
+    ],
+    "components": []
+  },
+  {
+    "key": "e0078",
+    "text": "5",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      158.81300667419782,
+      54.634325936218374,
+      2.957555682562628,
+      5.91505283910476
+    ],
+    "components": []
+  },
+  {
+    "key": "e0081",
+    "text": "Deploy",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      166.63199935774355,
+      79.51628143498965,
+      16.8073788999518,
+      5.915070481991279
+    ],
+    "components": [
+      "action-services"
+    ]
+  },
+  {
+    "key": "e0084",
+    "text": "Build",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      169.20598654762762,
+      97.48127937818936,
+      11.791347914087964,
+      5.915070481991279
+    ],
+    "components": [
+      "action-services"
+    ]
+  },
+  {
+    "key": "e0087",
+    "text": "Test",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      213.90702594935647,
+      79.10728690071846,
+      9.975665211710293,
+      5.915070481991279
+    ],
+    "components": [
+      "action-services"
+    ]
+  },
+  {
+    "key": "e0090",
+    "text": "…… ",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      213.68500948337896,
+      96.37526684938348,
+      12.079648883722257,
+      5.915070481991279
+    ],
+    "components": [
+      "action-services"
+    ]
+  },
+  {
+    "key": "e0093",
+    "text": "6",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      203.13202516580895,
+      58.4762256458489,
+      2.9575556825626563,
+      5.91505283910476
+    ],
+    "components": [
+      "run-manager"
+    ]
+  },
+  {
+    "key": "e0095",
+    "text": "Action Services",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      181.93253220526822,
+      116.2618860307557,
+      41.98153343386366,
+      6.654446662883856
+    ],
+    "components": [
+      "action-services"
+    ]
+  },
+  {
+    "key": "e0097",
+    "text": "Conveyor Core",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      102.03599875924192,
+      7.8964617995370645,
+      45.83581603701532,
+      7.640281570740626
+    ],
+    "components": [
+      "state-core"
+    ]
+  },
+  {
+    "key": "e0106",
+    "text": "7",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      159.47400538826514,
+      27.204287492102594,
+      2.957555682562628,
+      5.91505283910476
+    ],
+    "components": []
+  },
+  {
+    "key": "e0110",
+    "text": "Artifact Finders",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      36.7805374579566,
+      116.16490165305731,
+      40.9574423079448,
+      6.654446662883856
+    ],
+    "components": [
+      "artifact-finders"
+    ]
+  }
+]

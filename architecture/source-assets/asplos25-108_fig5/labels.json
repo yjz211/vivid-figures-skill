@@ -1,0 +1,728 @@
+[
+  {
+    "key": "e0003",
+    "text": "Kernel B",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      903.7603652344405,
+      170.72299725517945,
+      142.1450729204662,
+      38.220846746335155
+    ],
+    "components": [
+      "stream-two"
+    ]
+  },
+  {
+    "key": "e0006",
+    "text": "Kernel A",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      665.4028739833593,
+      170.72299725517945,
+      140.86735926481197,
+      38.220846746335155
+    ],
+    "components": [
+      "stream-two"
+    ]
+  },
+  {
+    "key": "e0014",
+    "text": "SM",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      177.1230800151825,
+      291.6791868875952,
+      51.831335956812836,
+      38.220846746335155
+    ],
+    "components": [
+      "sm-pool"
+    ]
+  },
+  {
+    "key": "e0020",
+    "text": "SM",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      565.9108324050903,
+      291.6791868875952,
+      51.831335956812836,
+      38.220846746335155
+    ],
+    "components": [
+      "sm-pool"
+    ]
+  },
+  {
+    "key": "e0026",
+    "text": "SM",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      954.6985847949982,
+      291.6791868875952,
+      51.831335956812836,
+      38.220846746335155
+    ],
+    "components": [
+      "sm-pool"
+    ]
+  },
+  {
+    "key": "e0029",
+    "text": "L1 $ / Shared mem",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      56.07689321786165,
+      435.67465073570924,
+      293.8818749318307,
+      38.220846746335155
+    ],
+    "components": [
+      "sm-pool"
+    ]
+  },
+  {
+    "key": "e0035",
+    "text": "L2 $",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      372.4170157470435,
+      550.8710218142005,
+      68.61730130516662,
+      38.220846746335155
+    ],
+    "components": [
+      "shared-memory-path"
+    ]
+  },
+  {
+    "key": "e0038",
+    "text": "DRAM",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      800.1284540705383,
+      550.8710218142005,
+      101.73458812096214,
+      38.220846746335155
+    ],
+    "components": [
+      "shared-memory-path"
+    ]
+  },
+  {
+    "key": "e0041",
+    "text": "L1 $ / Shared mem",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      444.8646456077695,
+      435.67465073570924,
+      293.881699156118,
+      38.220846746335155
+    ],
+    "components": [
+      "sm-pool"
+    ]
+  },
+  {
+    "key": "e0044",
+    "text": "L1 $ / Shared mem",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      833.6523979976773,
+      435.67465073570924,
+      293.881699156118,
+      38.220846746335155
+    ],
+    "components": [
+      "sm-pool"
+    ]
+  },
+  {
+    "key": "e0047",
+    "text": "Exec",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      78.21619578450918,
+      334.8778260420294,
+      77.18540053312609,
+      38.220846746335155
+    ],
+    "components": [
+      "sm-pool"
+    ]
+  },
+  {
+    "key": "e0048",
+    "text": "CTA",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      83.3461220719546,
+      378.07646519646363,
+      68.49285210057133,
+      38.220846746335155
+    ],
+    "components": [
+      "sm-pool"
+    ]
+  },
+  {
+    "key": "e0051",
+    "text": "Exec",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      639.7985047921538,
+      334.8778260420294,
+      77.18540053312609,
+      38.220846746335155
+    ],
+    "components": [
+      "sm-pool"
+    ]
+  },
+  {
+    "key": "e0052",
+    "text": "CTA",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      644.9283431917429,
+      378.07646519646363,
+      68.49293998842768,
+      38.220846746335155
+    ],
+    "components": [
+      "sm-pool"
+    ]
+  },
+  {
+    "key": "e0055",
+    "text": "Exec",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      251.010752402246,
+      334.8778260420294,
+      77.18548842098244,
+      38.220846746335155
+    ],
+    "components": [
+      "sm-pool"
+    ]
+  },
+  {
+    "key": "e0056",
+    "text": "CTA",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      256.14059080183506,
+      378.07646519646363,
+      68.49293998842768,
+      38.220846746335155
+    ],
+    "components": [
+      "sm-pool"
+    ]
+  },
+  {
+    "key": "e0059",
+    "text": "Exec",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      855.7917005643249,
+      334.8778260420294,
+      77.18540053312609,
+      38.220846746335155
+    ],
+    "components": [
+      "sm-pool"
+    ]
+  },
+  {
+    "key": "e0060",
+    "text": "CTA",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      860.9215389639139,
+      378.07646519646363,
+      68.49293998842768,
+      38.220846746335155
+    ],
+    "components": [
+      "sm-pool"
+    ]
+  },
+  {
+    "key": "e0063",
+    "text": "Exec",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      1028.5862571820617,
+      334.8778260420294,
+      77.18540053312609,
+      38.220846746335155
+    ],
+    "components": [
+      "sm-pool"
+    ]
+  },
+  {
+    "key": "e0064",
+    "text": "CTA",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      1033.7160955816507,
+      378.07646519646363,
+      68.49293998842768,
+      38.220846746335155
+    ],
+    "components": [
+      "sm-pool"
+    ]
+  },
+  {
+    "key": "e0065",
+    "text": "Stream 2",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      734.7906881251693,
+      3.6882591913671945,
+      145.98735422448954,
+      38.220846746335155
+    ],
+    "components": [
+      "stream-two"
+    ]
+  },
+  {
+    "key": "e0068",
+    "text": "Queued",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      602.3146856091917,
+      75.6859911154242,
+      122.97110662715568,
+      38.220846746335155
+    ],
+    "components": [
+      "stream-two"
+    ]
+  },
+  {
+    "key": "e0069",
+    "text": "CTA",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      630.5287968069315,
+      118.8846302698584,
+      68.49293998842768,
+      38.220846746335155
+    ],
+    "components": [
+      "stream-two"
+    ]
+  },
+  {
+    "key": "e0075",
+    "text": "Queued",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      746.3103252330184,
+      75.6859911154242,
+      122.97093085144297,
+      38.220846746335155
+    ],
+    "components": [
+      "stream-two"
+    ]
+  },
+  {
+    "key": "e0076",
+    "text": "CTA",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      774.5242606550455,
+      118.8846302698584,
+      68.49293998842768,
+      38.220846746335155
+    ],
+    "components": [
+      "stream-two"
+    ]
+  },
+  {
+    "key": "e0079",
+    "text": "Queued",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      913.3448875211179,
+      75.6859911154242,
+      122.97110662715568,
+      38.220846746335155
+    ],
+    "components": [
+      "stream-two"
+    ]
+  },
+  {
+    "key": "e0080",
+    "text": "CTA",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      941.5591744945705,
+      118.8846302698584,
+      68.49276421271497,
+      38.220846746335155
+    ],
+    "components": [
+      "stream-two"
+    ]
+  },
+  {
+    "key": "e0081",
+    "text": "GPU",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      33.12761616706848,
+      540.460441565665,
+      112.34634367268882,
+      57.33127011950273
+    ],
+    "components": []
+  },
+  {
+    "key": "e0087",
+    "text": "CTA",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      413.5906308032572,
+      98.72530927505062,
+      68.49293998842768,
+      38.22089069026333
+    ],
+    "components": [
+      "task-scheduler"
+    ]
+  },
+  {
+    "key": "e0088",
+    "text": "scheduler",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      366.1621248982847,
+      141.92390448555665,
+      164.5130596893432,
+      38.220846746335155
+    ],
+    "components": [
+      "task-scheduler"
+    ]
+  },
+  {
+    "key": "e0091",
+    "text": "SM",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      1308.9274258613586,
+      38.24717051491456,
+      51.83151173252554,
+      38.220846746335155
+    ],
+    "components": [
+      "sm-detail"
+    ]
+  },
+  {
+    "key": "e0094",
+    "text": "Warp pool",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      1249.5442379595916,
+      104.48512782897518,
+      169.13437895207608,
+      38.22089069026333
+    ],
+    "components": [
+      "sm-detail"
+    ]
+  },
+  {
+    "key": "e0097",
+    "text": "Exec",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      1238.8196344003081,
+      386.71619302735047,
+      77.18540053312609,
+      38.220846746335155
+    ],
+    "components": [
+      "sm-detail"
+    ]
+  },
+  {
+    "key": "e0098",
+    "text": "unit",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      1249.3493026942015,
+      429.9148321817847,
+      56.392012598662404,
+      38.220846746335155
+    ],
+    "components": [
+      "sm-detail"
+    ]
+  },
+  {
+    "key": "e0101",
+    "text": "Exec",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      1354.0160054787993,
+      386.71619302735047,
+      77.18540053312609,
+      38.220846746335155
+    ],
+    "components": [
+      "sm-detail"
+    ]
+  },
+  {
+    "key": "e0102",
+    "text": "unit",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      1364.5458495484054,
+      429.9148321817847,
+      56.391661047236994,
+      38.220846746335155
+    ],
+    "components": [
+      "sm-detail"
+    ]
+  },
+  {
+    "key": "e0105",
+    "text": "Exec",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      1238.8196344003081,
+      473.1134713362189,
+      77.18540053312609,
+      38.220846746335155
+    ],
+    "components": [
+      "sm-detail"
+    ]
+  },
+  {
+    "key": "e0106",
+    "text": "unit",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      1249.3493026942015,
+      516.3121104906531,
+      56.392012598662404,
+      38.220846746335155
+    ],
+    "components": [
+      "sm-detail"
+    ]
+  },
+  {
+    "key": "e0109",
+    "text": "Exec",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      1354.0160054787993,
+      473.1134713362189,
+      77.18540053312609,
+      38.220846746335155
+    ],
+    "components": [
+      "sm-detail"
+    ]
+  },
+  {
+    "key": "e0110",
+    "text": "unit",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      1364.5458495484054,
+      516.3121104906531,
+      56.391661047236994,
+      38.220846746335155
+    ],
+    "components": [
+      "sm-detail"
+    ]
+  },
+  {
+    "key": "e0113",
+    "text": "Warp",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      1242.299641960446,
+      159.2034040912585,
+      82.75397511162737,
+      38.22089069026333
+    ],
+    "components": [
+      "sm-detail"
+    ]
+  },
+  {
+    "key": "e0116",
+    "text": "Warp",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      1343.0962908784131,
+      159.2034040912585,
+      82.75397511162737,
+      38.22089069026333
+    ],
+    "components": [
+      "sm-detail"
+    ]
+  },
+  {
+    "key": "e0119",
+    "text": "Ld/st unit",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      1264.6938193105161,
+      573.9102960298987,
+      140.92308016573952,
+      38.220846746335155
+    ],
+    "components": [
+      "sm-detail"
+    ]
+  },
+  {
+    "key": "e0122",
+    "text": "Warp",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      1242.299641960446,
+      216.8015896305041,
+      82.75397511162737,
+      38.22089069026333
+    ],
+    "components": [
+      "sm-detail"
+    ]
+  },
+  {
+    "key": "e0125",
+    "text": "Warp",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      1343.0962908784131,
+      216.8015896305041,
+      82.75397511162737,
+      38.22089069026333
+    ],
+    "components": [
+      "sm-detail"
+    ]
+  },
+  {
+    "key": "e0131",
+    "text": "Warp",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      1285.9930897461454,
+      285.91936833367066,
+      86.57287824586092,
+      38.220846746335155
+    ],
+    "components": [
+      "sm-detail"
+    ]
+  },
+  {
+    "key": "e0132",
+    "text": " ",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      1372.5726474690891,
+      285.91936833367066,
+      9.60115575011605,
+      38.22086871829924
+    ],
+    "components": [
+      "sm-detail"
+    ]
+  },
+  {
+    "key": "e0133",
+    "text": "scheduler",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      1253.174182202667,
+      329.11800748810487,
+      164.5128839136305,
+      38.220846746335155
+    ],
+    "components": [
+      "sm-detail"
+    ]
+  },
+  {
+    "key": "e0141",
+    "text": "Kernel C",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      157.86368672549725,
+      170.72299725517945,
+      142.1452486961789,
+      38.220846746335155
+    ],
+    "components": [
+      "stream-one"
+    ]
+  },
+  {
+    "key": "e0144",
+    "text": "Queued",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      167.4484726757437,
+      75.6859911154242,
+      122.97101873929932,
+      38.220846746335155
+    ],
+    "components": [
+      "stream-one"
+    ]
+  },
+  {
+    "key": "e0145",
+    "text": "CTA",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      195.66249598562717,
+      118.8846302698584,
+      68.49293998842768,
+      38.220846746335155
+    ],
+    "components": [
+      "stream-one"
+    ]
+  },
+  {
+    "key": "e0146",
+    "text": "Stream 1",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      108.41024461016059,
+      3.6882591913671945,
+      145.9874421123459,
+      38.220846746335155
+    ],
+    "components": [
+      "stream-one"
+    ]
+  }
+]

@@ -1,0 +1,408 @@
+[
+  {
+    "key": "e0006",
+    "text": "Generator",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      24.332359313964844,
+      9.477524333888141,
+      115.19211676335544,
+      26.880309015621606
+    ],
+    "components": [
+      "case-generator"
+    ]
+  },
+  {
+    "key": "e0009",
+    "text": "Leakage Model",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      26.55463981628418,
+      505.62303214638814,
+      172.08126818305027,
+      26.880309015621606
+    ],
+    "components": [
+      "model-execution"
+    ]
+  },
+  {
+    "key": "e0014",
+    "text": "Contract ",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      154.47030639648438,
+      425.33213859170075,
+      97.42689122207594,
+      26.880309015621606
+    ],
+    "components": [
+      "model-execution"
+    ]
+  },
+  {
+    "key": "e0015",
+    "text": "Trace",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      169.15530395507812,
+      454.13206534951325,
+      61.44015462702009,
+      26.880309015621606
+    ],
+    "components": [
+      "model-execution"
+    ]
+  },
+  {
+    "key": "e0018",
+    "text": "Unicorn ",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      49.246261596679695,
+      323.8774877127945,
+      89.55489413221312,
+      26.880309015621606
+    ],
+    "components": [
+      "model-execution"
+    ]
+  },
+  {
+    "key": "e0019",
+    "text": "(Emulator)",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      34.62126159667969,
+      352.67747550576325,
+      112.12288291340337,
+      26.880309015621606
+    ],
+    "components": [
+      "model-execution"
+    ]
+  },
+  {
+    "key": "e0022",
+    "text": "RNG",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      58.31684112548829,
+      129.69566398232575,
+      53.428211691639255,
+      26.880309015621606
+    ],
+    "components": [
+      "case-generator"
+    ]
+  },
+  {
+    "key": "e0025",
+    "text": "Executor",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      418.16461181640625,
+      503.87742667763837,
+      103.28572690779129,
+      26.880309015621606
+    ],
+    "components": [
+      "target-execution"
+    ]
+  },
+  {
+    "key": "e0028",
+    "text": "Hardware ",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      308.8645935058594,
+      423.80479484170064,
+      110.88609535706473,
+      26.880309015621606
+    ],
+    "components": [
+      "target-execution"
+    ]
+  },
+  {
+    "key": "e0029",
+    "text": "Trace",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      330.3045959472656,
+      452.60484366982575,
+      61.44015462702009,
+      26.880309015621606
+    ],
+    "components": [
+      "target-execution"
+    ]
+  },
+  {
+    "key": "e0034",
+    "text": "CTrace",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      599.5098876953125,
+      54.64115958779439,
+      78.81615120781589,
+      26.880309015621606
+    ],
+    "components": [
+      "trace-comparison"
+    ]
+  },
+  {
+    "key": "e0035",
+    "text": "B",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      684.8848876953126,
+      54.64115958779439,
+      16.01617713050814,
+      26.88029569886021
+    ],
+    "components": [
+      "trace-comparison"
+    ]
+  },
+  {
+    "key": "e0037",
+    "text": "==",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      606.4564208984375,
+      254.4025376417485,
+      31.309919955244823,
+      31.360333884702413
+    ],
+    "components": [
+      "trace-comparison"
+    ]
+  },
+  {
+    "key": "e0039",
+    "text": "AND",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      700.3190169919044,
+      345.6026108839361,
+      57.30866269559465,
+      31.360333884702413
+    ],
+    "components": [
+      "trace-comparison"
+    ]
+  },
+  {
+    "key": "e0042",
+    "text": "Violation ",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      680.5043807614356,
+      442.35020499795075,
+      99.83730493544863,
+      26.880309015621606
+    ],
+    "components": [
+      "trace-comparison"
+    ]
+  },
+  {
+    "key": "e0043",
+    "text": "Found!",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      690.150390625,
+      471.15013175576314,
+      74.81407156364367,
+      26.880309015621606
+    ],
+    "components": [
+      "trace-comparison"
+    ]
+  },
+  {
+    "key": "e0048",
+    "text": "CTrace",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      571.7816162109375,
+      115.73210197060689,
+      78.81615120781589,
+      26.880309015621606
+    ],
+    "components": [
+      "trace-comparison"
+    ]
+  },
+  {
+    "key": "e0049",
+    "text": "A",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      656.260606347373,
+      115.73210197060689,
+      17.92019768743853,
+      26.88029569886021
+    ],
+    "components": [
+      "trace-comparison"
+    ]
+  },
+  {
+    "key": "e0054",
+    "text": "HTrace",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      763.1701049804689,
+      105.04112296670075,
+      78.81615120781589,
+      26.880309015621606
+    ],
+    "components": [
+      "trace-comparison"
+    ]
+  },
+  {
+    "key": "e0055",
+    "text": "B",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      848.5451049804689,
+      105.04112296670075,
+      16.01617713050814,
+      26.88029569886021
+    ],
+    "components": [
+      "trace-comparison"
+    ]
+  },
+  {
+    "key": "e0058",
+    "text": "HTrace",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      732.1248168945312,
+      166.78660636513814,
+      78.81615120781589,
+      26.880309015621606
+    ],
+    "components": [
+      "trace-comparison"
+    ]
+  },
+  {
+    "key": "e0059",
+    "text": "A",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      816.6038070309668,
+      166.78660636513814,
+      17.92019768743853,
+      26.88029569886021
+    ],
+    "components": [
+      "trace-comparison"
+    ]
+  },
+  {
+    "key": "e0063",
+    "text": "Program",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      236.81419372558597,
+      119.87748771279439,
+      92.16503263301362,
+      26.880309015621606
+    ],
+    "components": [
+      "case-generator"
+    ]
+  },
+  {
+    "key": "e0066",
+    "text": "Input",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      256.4455871582031,
+      161.550217204982,
+      53.89608944493193,
+      26.880309015621606
+    ],
+    "components": [
+      "case-generator"
+    ]
+  },
+  {
+    "key": "e0067",
+    "text": "Test Case",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      226.03640747070312,
+      79.07749991982575,
+      109.44016140461008,
+      26.880309015621606
+    ],
+    "components": [
+      "case-generator"
+    ]
+  },
+  {
+    "key": "e0069",
+    "text": "!=",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      770.8386840820314,
+      265.5298569776861,
+      24.559896634148572,
+      31.360333884702413
+    ],
+    "components": [
+      "trace-comparison"
+    ]
+  },
+  {
+    "key": "e0076",
+    "text": "Target ",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      426.6141052246094,
+      308.38658195107564,
+      76.07167987642606,
+      26.880309015621606
+    ],
+    "components": [
+      "target-execution"
+    ]
+  },
+  {
+    "key": "e0077",
+    "text": "Defense",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      416.5491027832031,
+      337.18663077920075,
+      89.56576726789353,
+      26.880309015621606
+    ],
+    "components": [
+      "target-execution"
+    ]
+  },
+  {
+    "key": "e0078",
+    "text": "(Simulator)",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      402.5491027832031,
+      365.98655753701314,
+      117.50609049069317,
+      26.880309015621606
+    ],
+    "components": [
+      "target-execution"
+    ]
+  }
+]

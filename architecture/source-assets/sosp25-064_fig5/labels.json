@@ -1,0 +1,623 @@
+[
+  {
+    "key": "e0008",
+    "text": "NIC",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      195.9189300537109,
+      36.83800224328297,
+      14.496512341805783,
+      9.59590184807712
+    ],
+    "components": [
+      "allocator",
+      "blue-pool"
+    ]
+  },
+  {
+    "key": "e0019",
+    "text": "NIC",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      164.33900451660153,
+      38.38039115929857,
+      14.496512341805783,
+      9.59590184807712
+    ],
+    "components": [
+      "allocator",
+      "blue-pool"
+    ]
+  },
+  {
+    "key": "e0022",
+    "text": "NIC",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      138.6684875488281,
+      34.02147392297047,
+      14.496512341805783,
+      9.59590184807712
+    ],
+    "components": [
+      "allocator",
+      "blue-pool"
+    ]
+  },
+  {
+    "key": "e0025",
+    "text": "NIC",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      136.7970275878906,
+      36.23447135949388,
+      14.496512341805783,
+      9.59590184807712
+    ],
+    "components": [
+      "allocator",
+      "blue-pool"
+    ]
+  },
+  {
+    "key": "e0028",
+    "text": "NIC",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      134.77807617187497,
+      38.24626640343922,
+      14.496512341805783,
+      9.59590184807712
+    ],
+    "components": [
+      "allocator",
+      "blue-pool"
+    ]
+  },
+  {
+    "key": "e0029",
+    "text": "Logical NIC Pool",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      138.15657043457028,
+      17.859913864376722,
+      60.43930671881162,
+      9.59590184807712
+    ],
+    "components": [
+      "allocator"
+    ]
+  },
+  {
+    "key": "e0034",
+    "text": "SSD",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      95.60322570800781,
+      36.43564323449391,
+      15.959180464789142,
+      9.59590184807712
+    ],
+    "components": [
+      "allocator",
+      "orange-pool"
+    ]
+  },
+  {
+    "key": "e0045",
+    "text": "SSD",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      64.0233154296875,
+      37.978032150509534,
+      15.959180464789142,
+      9.59590184807712
+    ],
+    "components": [
+      "allocator",
+      "orange-pool"
+    ]
+  },
+  {
+    "key": "e0048",
+    "text": "NIC",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      39.063560485839844,
+      33.61911491418141,
+      14.496512341805783,
+      9.59590184807712
+    ],
+    "components": [
+      "allocator",
+      "orange-pool"
+    ]
+  },
+  {
+    "key": "e0051",
+    "text": "NIC",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      37.19213867187499,
+      35.832097091915784,
+      14.496512341805783,
+      9.59590184807712
+    ],
+    "components": [
+      "allocator",
+      "orange-pool"
+    ]
+  },
+  {
+    "key": "e0054",
+    "text": "SSD",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      34.462379455566406,
+      37.8438921358611,
+      15.959180464789142,
+      9.59590184807712
+    ],
+    "components": [
+      "allocator",
+      "orange-pool"
+    ]
+  },
+  {
+    "key": "e0055",
+    "text": "Free",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      34.29859161376953,
+      48.64109764794736,
+      15.362890101344647,
+      8.857763108451763
+    ],
+    "components": [
+      "allocator"
+    ]
+  },
+  {
+    "key": "e0056",
+    "text": "Allocated",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      56.4716559575988,
+      48.70816002587708,
+      33.078352876136236,
+      8.857763108451763
+    ],
+    "components": [
+      "allocator"
+    ]
+  },
+  {
+    "key": "e0057",
+    "text": "Failed",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      93.12428283691406,
+      48.506972892088015,
+      21.017647212100655,
+      8.857763108451763
+    ],
+    "components": [
+      "allocator"
+    ]
+  },
+  {
+    "key": "e0058",
+    "text": "Logical SSD Pool",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      41.1474609375,
+      18.19522575402513,
+      61.864208366523144,
+      9.59590184807712
+    ],
+    "components": [
+      "allocator"
+    ]
+  },
+  {
+    "key": "e0059",
+    "text": "Pod",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      83.63272857666016,
+      5.7890520479704435,
+      15.106617736751446,
+      9.59590184807712
+    ],
+    "components": [
+      "allocator"
+    ]
+  },
+  {
+    "key": "e0060",
+    "text": "-",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      98.52739715576173,
+      5.7890520479704435,
+      2.8603175463994432,
+      9.595903894596859
+    ],
+    "components": [
+      "allocator"
+    ]
+  },
+  {
+    "key": "e0061",
+    "text": "Wide Allocator",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      100.94000922908317,
+      5.7890520479704435,
+      58.33644629093304,
+      9.59590184807712
+    ],
+    "components": [
+      "allocator"
+    ]
+  },
+  {
+    "key": "e0063",
+    "text": "Instance",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      79.05315399169923,
+      60.57784996728333,
+      30.182885585766826,
+      8.857763108451763
+    ],
+    "components": [
+      "allocator"
+    ]
+  },
+  {
+    "key": "e0064",
+    "text": "-",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      109.02075958251955,
+      60.57784996728333,
+      2.6604027540211916,
+      8.857756968892545
+    ],
+    "components": [
+      "allocator"
+    ]
+  },
+  {
+    "key": "e0065",
+    "text": "to",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      111.74860382080078,
+      60.57784996728333,
+      6.976514163599177,
+      8.857763108451763
+    ],
+    "components": [
+      "allocator"
+    ]
+  },
+  {
+    "key": "e0066",
+    "text": "-",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      118.70259857177734,
+      60.57784996728333,
+      2.6604027540211916,
+      8.857756968892545
+    ],
+    "components": [
+      "allocator"
+    ]
+  },
+  {
+    "key": "e0067",
+    "text": "Dev Mapping",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      121.43044281005861,
+      60.57784996728333,
+      45.27500884646359,
+      8.857763108451763
+    ],
+    "components": [
+      "allocator"
+    ]
+  },
+  {
+    "key": "e0068",
+    "text": "...",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      116.28173065185547,
+      129.31132710995553,
+      11.525745404142981,
+      15.2550200923979
+    ],
+    "components": [
+      "host-pair"
+    ]
+  },
+  {
+    "key": "e0071",
+    "text": "Instance",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      111.87477111816406,
+      79.22014335656422,
+      32.43336762201125,
+      9.59590184807712
+    ],
+    "components": [
+      "allocator",
+      "instance-mapping"
+    ]
+  },
+  {
+    "key": "e0077",
+    "text": "Instance",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      108.63670349121094,
+      82.03667167687675,
+      32.43336762201125,
+      9.59590184807712
+    ],
+    "components": [
+      "allocator",
+      "instance-mapping"
+    ]
+  },
+  {
+    "key": "e0080",
+    "text": "Instance",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      105.3985824584961,
+      85.05438713097826,
+      32.43336762201125,
+      9.59590184807712
+    ],
+    "components": [
+      "allocator",
+      "instance-mapping"
+    ]
+  },
+  {
+    "key": "e0083",
+    "text": "Free",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      134.53089904785153,
+      48.70816002587708,
+      15.362890101344647,
+      8.857763108451763
+    ],
+    "components": [
+      "allocator"
+    ]
+  },
+  {
+    "key": "e0084",
+    "text": "Allocated",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      156.70399390925894,
+      48.70816002587708,
+      33.07835287613625,
+      8.857763108451763
+    ],
+    "components": [
+      "allocator"
+    ]
+  },
+  {
+    "key": "e0085",
+    "text": "Failed",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      193.3565979003906,
+      48.5740352700177,
+      21.017647212100655,
+      8.857763108451763
+    ],
+    "components": [
+      "allocator"
+    ]
+  },
+  {
+    "key": "e0088",
+    "text": "Host 1",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      12.207027435302734,
+      113.68918327355641,
+      24.285695700155657,
+      9.59590184807712
+    ],
+    "components": []
+  },
+  {
+    "key": "e0091",
+    "text": "Engine",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      76.57804870605469,
+      130.72247795129078,
+      26.410167376482832,
+      9.59590184807712
+    ],
+    "components": [
+      "host-pair"
+    ]
+  },
+  {
+    "key": "e0094",
+    "text": "SSD",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      78.72185516357422,
+      150.10297111535328,
+      15.959180464789142,
+      9.59590184807712
+    ],
+    "components": [
+      "host-pair"
+    ]
+  },
+  {
+    "key": "e0097",
+    "text": "Instance",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      21.279783248901367,
+      136.15439323449385,
+      32.43336762201125,
+      9.59590184807712
+    ],
+    "components": [
+      "host-pair"
+    ]
+  },
+  {
+    "key": "e0100",
+    "text": "Instance",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      17.610847473144528,
+      139.17212394738453,
+      32.43336762201125,
+      9.59590184807712
+    ],
+    "components": [
+      "host-pair"
+    ]
+  },
+  {
+    "key": "e0103",
+    "text": "Host N",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      140.14755249023438,
+      113.48798088097828,
+      25.7120094464874,
+      9.59590184807712
+    ],
+    "components": []
+  },
+  {
+    "key": "e0106",
+    "text": "Engine",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      204.51861572265622,
+      130.52130607629078,
+      26.410167376482832,
+      9.59590184807712
+    ],
+    "components": [
+      "host-pair"
+    ]
+  },
+  {
+    "key": "e0109",
+    "text": "NIC",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      207.50138854980466,
+      150.03589347863453,
+      14.496512341805783,
+      9.59590184807712
+    ],
+    "components": [
+      "host-pair"
+    ]
+  },
+  {
+    "key": "e0112",
+    "text": "Instance",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      149.22033691406247,
+      135.88611320519703,
+      32.43336762201125,
+      9.59590184807712
+    ],
+    "components": [
+      "host-pair"
+    ]
+  },
+  {
+    "key": "e0115",
+    "text": "Instance",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      145.55140686035153,
+      138.90387443566578,
+      32.43336762201125,
+      9.59590184807712
+    ],
+    "components": [
+      "host-pair"
+    ]
+  },
+  {
+    "key": "e0118",
+    "text": "Engine",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      73.34754180908205,
+      134.27670768761885,
+      26.410167376482832,
+      9.59590184807712
+    ],
+    "components": [
+      "host-pair"
+    ]
+  },
+  {
+    "key": "e0121",
+    "text": "Engine",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      201.2881164550781,
+      134.07550529504078,
+      26.410167376482832,
+      9.59590184807712
+    ],
+    "components": [
+      "host-pair"
+    ]
+  },
+  {
+    "key": "e0124",
+    "text": "Control Path",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      54.52936553955078,
+      106.78242455224427,
+      45.7868475263399,
+      8.857763108451763
+    ],
+    "components": []
+  },
+  {
+    "key": "e0125",
+    "text": "Control Path",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      192.49023437499997,
+      106.64829979638483,
+      45.7868475263399,
+      8.857763108451763
+    ],
+    "components": []
+  }
+]

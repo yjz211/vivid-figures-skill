@@ -1,33 +1,31 @@
 ---
-name: vivid-figures-skill
-description: 规划、生成、修改和检查数学建模与科研图表；包含145个完整源码配方、3套组合模板、统一配色和来源差异工具，以及Draw.io/TikZ、HTML/Mermaid和科学场景插图。
+name: vivid-illustration-skill
+description: 科研与数学建模绘图总入口，按任务分派到独立的数据图或架构图子 Skill；支持完整图集规划、数据模板适配、SVG 架构设计及可编辑 PPTX 交付。
 ---
 
-# Vivid Figures Skill
+# Vivid Illustration Skill · 绘图总入口
 
-一套绘图指导、一个入口。根据当前任务加载下列资源，已读且未变化的内容复用；阶段划分不要求额外模型调用。
+本入口只负责识别任务与分派。先确定下面的通道，只读取所选子 Skill 及其当前任务需要的引用，不预先加载另一通道。用户直接指定通道、模板或已有作品时沿用选择。
 
-图内文字默认中文（`language: zh`），使用者要求英文时统一设置 `language: en`；中英文共用原模板源码。适配时覆盖标题、坐标轴、图例、文字刻度、色条和注释；用户原始名称用显示名映射处理，保留专业缩写、单位、公式和必要的专有名称。
+| 当前任务 | 读取的子 Skill |
+|---|---|
+| 真实数据、统计结果、实验对比、分布、时序、空间数据、完整组合模板 | [数据图 · vivid-figure-skill](channels/vivid-figure-skill/SKILL.md) |
+| 系统/模型架构、方法框架、技术路线、结构示意、已有 SVG 修改、架构图可编辑 PPT；用户指定的 Draw.io/TikZ/HTML/Mermaid 技术图 | [架构图 · vivid-architecture-diagram-skill](channels/vivid-architecture-diagram-skill/SKILL.md) |
 
-## 数据图
+按要表达的内容分派，不按最终文件扩展名分派：数据曲线即使交付 SVG/PDF，仍属于数据图；包含数值的系统结构图也不因此改走统计绘图。边界不明时先读取用户材料，确认需要表达的是量值证据还是对象关系；无法判断且会改变结果时再澄清。
 
-1. **选择**：尚未指定模板时读取 [数据与模板选择](figure-selection.md) 和 [设计目标](original/drawing-guide.md)，按数据与目的检索卡片、查看候选实图。用户指定模板、修图或换色时沿用选择，直接进入适配。
-2. **适配**：读取 [源码底稿与保真](template-fidelity.md)，用工具将选定的完整源码写成工作脚本，在这个实际文件上修改。读取所选卡片及预览、[执行环境](host-adapter.md)、[数据图执行](original/resources/references/paper-figure.md)、[配色](color-selection.md) 和 [尺寸预计算](original/fragments/original-size-preflight.md)。只加载本次需要的模板和专题。
-3. **检查**：用来源底稿比较当前源码，再按 [检查与修复](original/review-policy.md) 打开实际图件，核对模板特点、数据口径与可读性。差异提示不是视觉通过结论，必要适配不必为消除提示改回演示数据。
+## 完整图集与混合任务
 
-所选模板的具体实现决定默认视觉结构；通用技法帮助解决实际问题。数据真实性及用户要求决定需要适配什么；选图阶段的新颖性目标不要求适配阶段重新设计。
+完整论文或整题图集先读 [上游规划](original/upstream-planning.md) 与 [绘图入口](original/resources/ENTRYPOINT.md)，维护同一份 FIGURE_PLAN / FIGURE_MANIFEST，再按每项类别分派到对应子 Skill。分类、执行顺序、来源与最终对账沿用规划合同。
 
-## 完整组合模板
+混合任务共享用户事实、图内语言和项目设置，不共享两条通道的制作限制：数据图按数据图的源码保真与验收；SVG 架构图按架构图的字体/图案与候选交付流程。可以分别执行；给独立生成任务只传其通道、必要输入与输出目录。明确单图或用户限定的小批任务不重启整题规划。
 
-- `template.sem_violin_pearson`：[小提琴＋Pearson](templates/sem-violin-pearson/TEMPLATE.md)，保留原版默认样式。
-- `template.shap_dependence` / `template.shap_contribution`：[SHAP组合](templates/shap-composites/TEMPLATE.md)，保留完整布局与真实SHAP输入口径。
+科学场景插图按 [绘图入口](original/resources/ENTRYPOINT.md) 中相应路线处理，不用插图代替数据证据或精确结构。
 
-完整组合使用各自的源码和CLI，并按保真说明保存来源；不拆成普通配方重新拼接。
+## 路径与接入
 
-## 其他任务
+`<SKILL>` 始终指本文件所在的完整包根目录；`<RES>` 为 `<SKILL>/original/resources`，`<WORKSPACE>` 为当前任务工作区。两个子 Skill 位于 `channels/` 内，读取子入口不会改变这些根路径。工作区中的 `_utils/`、`figures/` 和 `.vivid/` 不属于安装目录。
 
-- 完整论文或整题图集：先读 [上游规划](original/upstream-planning.md) 和 [绘图入口](original/resources/ENTRYPOINT.md)，保留 FIGURE_MANIFEST 分类、执行顺序与对账。明确单图或用户限定的小批数据图不重启整题规划。
-- 技术图、HTML、Mermaid或场景插图：读 [绘图入口](original/resources/ENTRYPOINT.md)，只加载所选路由。数值图不因初始化加载这些指导。
-- 需要特定统计、优化、网络或布局知识时，再读相应 `original/fragments/` 或 [知识索引](original/resources/assets/shared-scripts/figure_style_guide.md) 指向的专题。
+两个通道共用一份资源包，既可从本入口分派，也可直接读取相应子 `SKILL.md`。不要单独复制子目录安装；宿主是否自动发现嵌套 Skill 由其自身决定。安装与直接调用方式见 [安装说明](docs/INSTALL.md)。
 
-`<SKILL>` 为本包目录，`<RES>` 为 `original/resources`；`_utils/`、`figures/` 和 `.vivid/` 均相对于任务工作区。工作流中的脚本路径相对于 `<RES>`，使用本包当前资源。
+[本地工作台](workbench/index.html) 提供图库与编辑入口，操作和自动化范围见 [工作台说明](workbench/README.md)。文件式 Skill 与网页 Agent 的执行边界在对应通道说明中定义。

@@ -1,0 +1,183 @@
+[
+  {
+    "key": "e0021",
+    "text": "Application",
+    "font_family": "VividSource-Roboto-Bold",
+    "bounds": [
+      177.4641936570406,
+      4.581131546758115,
+      24.000930483452976,
+      5.311400862410665
+    ],
+    "components": [
+      "logical-device"
+    ]
+  },
+  {
+    "key": "e0022",
+    "text": "Single ZNS DeviceDevice MapperZRAID Driver ",
+    "font_family": "VividSource-Roboto-Bold",
+    "bounds": [
+      19.997940958826803,
+      17.217765835113823,
+      120.19780196715146,
+      40.9718326991424
+    ],
+    "components": []
+  },
+  {
+    "key": "e0023",
+    "text": "Kernel-spaceI/O devices",
+    "font_family": "VividSource-Roboto-Bold",
+    "bounds": [
+      175.6915053045377,
+      45.46338998991996,
+      27.850480983033776,
+      77.37425726372749
+    ],
+    "components": []
+  },
+  {
+    "key": "e0024",
+    "text": "ZRWA",
+    "font_family": "VividSource-Roboto-Bold",
+    "bounds": [
+      2.7875422854849603,
+      143.02021193364635,
+      11.749077166314237,
+      4.886486800387502
+    ],
+    "components": [
+      "device-array"
+    ]
+  },
+  {
+    "key": "e0025",
+    "text": "Dev 0Dev 1Dev 2",
+    "font_family": "VividSource-Roboto-BoldItalic",
+    "bounds": [
+      25.772458225954324,
+      170.75404536811402,
+      122.77368153445423,
+      8.07332358090207
+    ],
+    "components": [
+      "device-array"
+    ]
+  },
+  {
+    "key": "e0047",
+    "text": "Durable",
+    "font_family": "VividSource-Roboto-Bold",
+    "bounds": [
+      19.87936499773059,
+      125.83630460361019,
+      14.270350817241706,
+      4.886486800387502
+    ],
+    "components": [
+      "device-array"
+    ]
+  },
+  {
+    "key": "e0048",
+    "text": "Ascending PBA",
+    "font_family": "VividSource-Roboto-Bold",
+    "bounds": [
+      54.73340587178245,
+      131.00455294991843,
+      5.311394634190947,
+      31.68565675150603
+    ],
+    "components": [
+      "device-array"
+    ]
+  },
+  {
+    "key": "e0049",
+    "text": "Semi-durableEmptyPP",
+    "font_family": "VividSource-Roboto-Bold",
+    "bounds": [
+      19.66690796671901,
+      137.7247397431638,
+      25.043863002792932,
+      27.711498260032386
+    ],
+    "components": [
+      "device-array"
+    ]
+  },
+  {
+    "key": "e0107",
+    "text": "Stripe BufferWP StatesZRWA Block BitmapI/O SubmitterCompletion HandlerZRWA Manager",
+    "font_family": "VividSource-Roboto-Bold",
+    "bounds": [
+      33.9793272940442,
+      65.84849014692008,
+      164.79952831286937,
+      27.574969455599785
+    ],
+    "components": [
+      "driver"
+    ]
+  },
+  {
+    "key": "e0108",
+    "text": "SubmitWP advanceInterrupt",
+    "font_family": "VividSource-Roboto-Regular",
+    "bounds": [
+      52.00273013161495,
+      97.15042628161609,
+      148.50220805965364,
+      4.886486800387502
+    ],
+    "components": [
+      "driver"
+    ]
+  },
+  {
+    "key": "e0109",
+    "text": "Read/Write",
+    "font_family": "VividSource-Roboto-Regular",
+    "bounds": [
+      53.20681325091664,
+      76.74904633516418,
+      19.533783829823733,
+      5.010132600000361
+    ],
+    "components": [
+      "driver",
+      "state-row"
+    ]
+  },
+  {
+    "key": "e0110",
+    "text": "Read",
+    "font_family": "VividSource-Roboto-Regular",
+    "bounds": [
+      83.7860951940529,
+      76.84581963624805,
+      9.23512945882976,
+      4.886486800387502
+    ],
+    "components": [
+      "driver",
+      "state-row"
+    ]
+  },
+  {
+    "key": "e0111",
+    "text": "UpdateRead/Reset",
+    "font_family": "VividSource-Roboto-Regular",
+    "bounds": [
+      147.7134177556527,
+      76.74904633516418,
+      51.25687527260379,
+      5.010132600000361
+    ],
+    "components": [
+      "driver",
+      "state-row"
+    ]
+  }
+]

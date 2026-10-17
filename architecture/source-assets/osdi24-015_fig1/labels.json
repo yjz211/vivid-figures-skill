@@ -1,0 +1,620 @@
+[
+  {
+    "key": "e0007",
+    "text": "Controller",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      134.360107421875,
+      17.69872511198264,
+      69.24761203277376,
+      17.664204589324072
+    ],
+    "components": [
+      "controller"
+    ]
+  },
+  {
+    "key": "e0008",
+    "text": "Inference ",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      10.672750473022461,
+      65.26235426237321,
+      71.20313849359627,
+      17.664204589324072
+    ],
+    "components": []
+  },
+  {
+    "key": "e0009",
+    "text": "Request",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      14.297750473022461,
+      84.46236646940451,
+      59.60651648326166,
+      17.664204589324072
+    ],
+    "components": []
+  },
+  {
+    "key": "e0012",
+    "text": "KV Cache",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      575.7568969726562,
+      16.826013930342015,
+      72.21483283204634,
+      17.664204589324072
+    ],
+    "components": [
+      "execution-inset"
+    ]
+  },
+  {
+    "key": "e0015",
+    "text": "Request Router",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      114.48590087890626,
+      55.88054884245133,
+      111.99640031365742,
+      17.664204589324072
+    ],
+    "components": [
+      "controller"
+    ]
+  },
+  {
+    "key": "e0017",
+    "text": "Model Loading ",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      118.23819732666014,
+      156.8987373190139,
+      109.12440767513273,
+      17.664204589324072
+    ],
+    "components": [
+      "controller"
+    ]
+  },
+  {
+    "key": "e0018",
+    "text": "Scheduler",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      134.67820739746094,
+      176.09874952604514,
+      71.86924289865965,
+      17.664204589324072
+    ],
+    "components": [
+      "controller"
+    ]
+  },
+  {
+    "key": "e0020",
+    "text": "Start",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      106.439697265625,
+      99.51690138151389,
+      33.96838831234436,
+      17.664204589324072
+    ],
+    "components": [
+      "controller"
+    ]
+  },
+  {
+    "key": "e0021",
+    "text": "-",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      140.314697265625,
+      99.51690138151389,
+      5.376060637907699,
+      17.664197930943374
+    ],
+    "components": [
+      "controller"
+    ]
+  },
+  {
+    "key": "e0022",
+    "text": "up ",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      145.68980407714844,
+      99.51690138151389,
+      22.177403175639256,
+      17.664204589324072
+    ],
+    "components": [
+      "controller"
+    ]
+  },
+  {
+    "key": "e0023",
+    "text": "request",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      106.439697265625,
+      118.71691358854514,
+      53.50477641128964,
+      17.664204589324072
+    ],
+    "components": [
+      "controller"
+    ]
+  },
+  {
+    "key": "e0025",
+    "text": "Model Storage",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      356.6405944824219,
+      23.15325392057639,
+      104.31150372141838,
+      17.664204589324072
+    ],
+    "components": [
+      "storage-server"
+    ]
+  },
+  {
+    "key": "e0026",
+    "text": "Route",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      259.57879638671875,
+      57.84417188932639,
+      42.964406623038485,
+      17.664204589324072
+    ],
+    "components": []
+  },
+  {
+    "key": "e0027",
+    "text": "Allocate",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      245.45798929197133,
+      157.7714179830764,
+      57.8567206692569,
+      17.664204589324072
+    ],
+    "components": []
+  },
+  {
+    "key": "e0030",
+    "text": "GPU Server",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      359.07440185546875,
+      87.51690138151389,
+      86.2499735806814,
+      17.664204589324072
+    ],
+    "components": [
+      "storage-server"
+    ]
+  },
+  {
+    "key": "e0033",
+    "text": "Inference Process",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      338.8026123046875,
+      115.66231764127951,
+      129.01535454626537,
+      17.664204589324072
+    ],
+    "components": [
+      "storage-server"
+    ]
+  },
+  {
+    "key": "e0036",
+    "text": "GPU",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      424.2333068847655,
+      141.6260322408889,
+      34.6281605973636,
+      17.664204589324072
+    ],
+    "components": [
+      "storage-server"
+    ]
+  },
+  {
+    "key": "e0039",
+    "text": "GPU",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      348.7333068847656,
+      141.1896308737014,
+      34.6281605973636,
+      17.664204589324072
+    ],
+    "components": [
+      "storage-server"
+    ]
+  },
+  {
+    "key": "e0043",
+    "text": "LLM",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      596.132080078125,
+      62.644190199873265,
+      31.021502207724552,
+      17.664204589324072
+    ],
+    "components": [
+      "execution-inset"
+    ]
+  },
+  {
+    "key": "e0066",
+    "text": "…",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      713.6497192382812,
+      164.97143019010764,
+      10.752121275815398,
+      18.432207187999893
+    ],
+    "components": [
+      "execution-inset"
+    ]
+  },
+  {
+    "key": "e0074",
+    "text": "EOS?",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      678.1029052734375,
+      112.38961256315451,
+      42.97077536417646,
+      17.664204589324072
+    ],
+    "components": [
+      "execution-inset"
+    ]
+  },
+  {
+    "key": "e0075",
+    "text": "Input Tokens",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      554.6505126953125,
+      191.37145460417014,
+      90.43154319333917,
+      17.664204589324072
+    ],
+    "components": []
+  },
+  {
+    "key": "e0076",
+    "text": "Output Tokens",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      652.1077880859375,
+      192.24425733854514,
+      102.85642781226488,
+      17.664204589324072
+    ],
+    "components": []
+  },
+  {
+    "key": "e0077",
+    "text": "Next ",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      682.2952880859375,
+      14.86236036588889,
+      37.301939900879006,
+      17.664204589324072
+    ],
+    "components": [
+      "execution-inset"
+    ]
+  },
+  {
+    "key": "e0078",
+    "text": "Token",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      677.4302978515625,
+      34.06237257292014,
+      42.6027999548819,
+      17.664204589324072
+    ],
+    "components": [
+      "execution-inset"
+    ]
+  },
+  {
+    "key": "e0079",
+    "text": "Yes",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      665.2410888671875,
+      138.57140577604508,
+      25.991388558868493,
+      17.664204589324072
+    ],
+    "components": [
+      "execution-inset"
+    ]
+  },
+  {
+    "key": "e0080",
+    "text": "No",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      643.3862915039062,
+      101.48052442838889,
+      20.715593979004552,
+      17.664204589324072
+    ],
+    "components": [
+      "execution-inset"
+    ]
+  },
+  {
+    "key": "e0092",
+    "text": "Download",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      332.9128112792969,
+      51.953272231123265,
+      70.8530075445733,
+      17.664204589324072
+    ],
+    "components": [
+      "storage-server"
+    ]
+  },
+  {
+    "key": "e0096",
+    "text": "DRAM / SSD",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      357.3190002441406,
+      169.7714179830764,
+      93.26844616558355,
+      17.664204589324072
+    ],
+    "components": [
+      "storage-server"
+    ]
+  },
+  {
+    "key": "e0097",
+    "text": "Serverless Cluster",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      33.945499420166016,
+      221.90817335035536,
+      158.74429194254117,
+      19.96821737913706
+    ],
+    "components": [
+      "contribution-row"
+    ]
+  },
+  {
+    "key": "e0099",
+    "text": "ServerlessLLM",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      33.945499420166016,
+      258.56271436598036,
+      128.1464624986529,
+      19.96821737913706
+    ],
+    "components": [
+      "contribution-row"
+    ]
+  },
+  {
+    "key": "e0102",
+    "text": "Startup",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      543.655517578125,
+      301.32626417066786,
+      58.078930808303085,
+      19.96821737913706
+    ],
+    "components": [
+      "contribution-row"
+    ]
+  },
+  {
+    "key": "e0103",
+    "text": "-",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      601.655517578125,
+      301.32626417066786,
+      6.144069062666631,
+      19.968224037517757
+    ],
+    "components": [
+      "contribution-row"
+    ]
+  },
+  {
+    "key": "e0104",
+    "text": "Time",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      607.655517578125,
+      301.32626417066786,
+      39.40846178998845,
+      19.96821737913706
+    ],
+    "components": [
+      "contribution-row"
+    ]
+  },
+  {
+    "key": "e0105",
+    "text": "-",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      646.9854736328125,
+      301.32626417066786,
+      6.144069062666631,
+      19.968224037517757
+    ],
+    "components": [
+      "contribution-row"
+    ]
+  },
+  {
+    "key": "e0106",
+    "text": "Optimized ",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      652.9854736328125,
+      301.32626417066786,
+      86.04020795516044,
+      19.96821737913706
+    ],
+    "components": [
+      "contribution-row"
+    ]
+  },
+  {
+    "key": "e0107",
+    "text": "Model ",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      567.3204956054688,
+      322.92623975660536,
+      54.05231170206707,
+      19.96821737913706
+    ],
+    "components": [
+      "contribution-row"
+    ]
+  },
+  {
+    "key": "e0108",
+    "text": "Scheduling",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      621.3204956054688,
+      322.92623975660536,
+      89.10160489103055,
+      19.96821737913706
+    ],
+    "components": [
+      "contribution-row"
+    ]
+  },
+  {
+    "key": "e0111",
+    "text": "Efficient Live Migration ",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      312.07940673828125,
+      301.54452588941786,
+      185.728937783706,
+      19.96821737913706
+    ],
+    "components": [
+      "contribution-row"
+    ]
+  },
+  {
+    "key": "e0112",
+    "text": "of LLM inference",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      335.4194030761719,
+      323.14450147535536,
+      134.0791596014551,
+      19.96821737913706
+    ],
+    "components": [
+      "contribution-row"
+    ]
+  },
+  {
+    "key": "e0115",
+    "text": "Fast Multi",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      115.65229797363281,
+      301.54452588941786,
+      78.07286285369719,
+      19.96821737913706
+    ],
+    "components": [
+      "contribution-row"
+    ]
+  },
+  {
+    "key": "e0116",
+    "text": "-",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      193.6522979736328,
+      301.54452588941786,
+      6.144069062666631,
+      19.968224037517757
+    ],
+    "components": [
+      "contribution-row"
+    ]
+  },
+  {
+    "key": "e0117",
+    "text": "Tier ",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      199.6522979736328,
+      301.54452588941786,
+      35.38365043411204,
+      19.96821737913706
+    ],
+    "components": [
+      "contribution-row"
+    ]
+  },
+  {
+    "key": "e0118",
+    "text": "Checkpoint Loading",
+    "font_family": "VividSource-Arimo-Regular",
+    "bounds": [
+      93.31735229492188,
+      323.14450147535536,
+      159.0026903806829,
+      19.96821737913706
+    ],
+    "components": [
+      "contribution-row"
+    ]
+  },
+  {
+    "key": "e0123",
+    "text": "LLM Inference",
+    "font_family": "VividSource-Arimo-Bold",
+    "bounds": [
+      591.9426879882812,
+      224.0899970808241,
+      122.08732274638896,
+      19.96821737913706
+    ],
+    "components": [
+      "contribution-row"
+    ]
+  }
+]

@@ -1,0 +1,382 @@
+[
+  {
+    "key": "e0058",
+    "text": "Activation",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      115.85102874000586,
+      47.8685875764495,
+      31.471388808629854,
+      10.35854984931575
+    ],
+    "components": [
+      "matrix-operation"
+    ]
+  },
+  {
+    "key": "e0059",
+    "text": "T",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      147.0672478965389,
+      46.04741140569604,
+      4.143419253136699,
+      8.804765998739185
+    ],
+    "components": [
+      "matrix-operation"
+    ]
+  },
+  {
+    "key": "e0132",
+    "text": "Output",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      203.70661665964872,
+      69.46682890564261,
+      21.6829170515266,
+      10.35854984931575
+    ],
+    "components": [
+      "matrix-operation"
+    ]
+  },
+  {
+    "key": "e0133",
+    "text": "T",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      225.0684075156314,
+      67.64565273488915,
+      4.143419253136699,
+      8.804765998739185
+    ],
+    "components": [
+      "matrix-operation"
+    ]
+  },
+  {
+    "key": "e0134",
+    "text": "Row",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      13.916511091189935,
+      36.66611217812806,
+      9.32269211802577,
+      13.201077486265604
+    ],
+    "components": []
+  },
+  {
+    "key": "e0135",
+    "text": "hidden_size",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      33.11425741109997,
+      1.8492901268000992,
+      34.59737084288645,
+      9.322693491204973
+    ],
+    "components": [
+      "partitioned-weight"
+    ]
+  },
+  {
+    "key": "e0136",
+    "text": "Sequence length",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      110.31672107893974,
+      1.8492901268000992,
+      48.631108494795626,
+      9.322693491204973
+    ],
+    "components": [
+      "matrix-operation"
+    ]
+  },
+  {
+    "key": "e0139",
+    "text": "npu_size",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      74.40174124846271,
+      21.926900806407502,
+      8.2868398794526,
+      23.213863558788944
+    ],
+    "components": []
+  },
+  {
+    "key": "e0142",
+    "text": "gpu_size",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      74.80850980887226,
+      47.53162890909152,
+      8.2868398794526,
+      23.47282867820104
+    ],
+    "components": []
+  },
+  {
+    "key": "e0146",
+    "text": "Weight",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      38.9635449176003,
+      69.46682890564261,
+      22.606160356432156,
+      10.35854984931575
+    ],
+    "components": []
+  },
+  {
+    "key": "e0147",
+    "text": "T",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      61.247980372356324,
+      67.64565273488915,
+      4.143419253136699,
+      8.804765998739185
+    ],
+    "components": []
+  },
+  {
+    "key": "e0150",
+    "text": "Execution",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      11.752246846444905,
+      82.31187672739907,
+      41.28902689199094,
+      12.4302598191789
+    ],
+    "components": [
+      "split-sync"
+    ]
+  },
+  {
+    "key": "e0151",
+    "text": "Graph",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      19.682851084508002,
+      92.39105601435585,
+      25.444549231266137,
+      12.4302598191789
+    ],
+    "components": [
+      "split-sync"
+    ]
+  },
+  {
+    "key": "e0154",
+    "text": "NPU Sub-graph",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      113.19648658949882,
+      81.04284492847546,
+      45.734798921206675,
+      9.322694864384175
+    ],
+    "components": [
+      "parallel-subgraphs"
+    ]
+  },
+  {
+    "key": "e0157",
+    "text": "GPU-Graph",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      13.034642425365746,
+      107.62372192055045,
+      38.00867754452338,
+      10.35854984931575
+    ],
+    "components": [
+      "split-sync"
+    ]
+  },
+  {
+    "key": "e0166",
+    "text": "GPU Sub-graph",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      113.01650124508888,
+      131.4387358705426,
+      46.09763680820106,
+      9.322689371667366
+    ],
+    "components": [
+      "parallel-subgraphs"
+    ]
+  },
+  {
+    "key": "e0181",
+    "text": "Merge",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      182.2658625068143,
+      102.6980402382651,
+      16.486741037246247,
+      8.2868398794526
+    ],
+    "components": [
+      "merge-sync"
+    ]
+  },
+  {
+    "key": "e0182",
+    "text": "&",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      188.5091041410342,
+      108.45757125938326,
+      3.884455506903805,
+      8.286838506273398
+    ],
+    "components": [
+      "merge-sync"
+    ]
+  },
+  {
+    "key": "e0183",
+    "text": "Sync",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      184.02071961481124,
+      114.2170912950678,
+      13.031228950727382,
+      8.2868398794526
+    ],
+    "components": [
+      "merge-sync"
+    ]
+  },
+  {
+    "key": "e0186",
+    "text": "GPU-Graph",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      211.7384626539424,
+      108.34366329819022,
+      38.00865557365614,
+      10.35854984931575
+    ],
+    "components": [
+      "merge-sync"
+    ]
+  },
+  {
+    "key": "e0192",
+    "text": "Split",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      71.79985737521201,
+      102.6980402382651,
+      11.413887500770215,
+      8.2868398794526
+    ],
+    "components": [
+      "split-sync"
+    ]
+  },
+  {
+    "key": "e0193",
+    "text": "&",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      75.47830785159022,
+      108.45757125938326,
+      3.884455506903805,
+      8.286838506273398
+    ],
+    "components": [
+      "split-sync"
+    ]
+  },
+  {
+    "key": "e0194",
+    "text": "Sync",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      70.98992881808408,
+      114.2170912950678,
+      13.031228950727382,
+      8.2868398794526
+    ],
+    "components": [
+      "split-sync"
+    ]
+  },
+  {
+    "key": "e0198",
+    "text": "Weight-centric Partition",
+    "font_family": "VividSource-texgyreheros-bold",
+    "bounds": [
+      93.02663725202001,
+      61.74948489042072,
+      89.44157694205205,
+      11.135439714835229
+    ],
+    "components": []
+  },
+  {
+    "key": "e0200",
+    "text": "NPU",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      42.43974806834012,
+      26.990287624896155,
+      15.19948989666591,
+      10.35854984931575
+    ],
+    "components": [
+      "partitioned-weight"
+    ]
+  },
+  {
+    "key": "e0202",
+    "text": "GPU",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      42.23726730223734,
+      52.90817721992789,
+      15.602652564116397,
+      10.35854984931575
+    ],
+    "components": [
+      "partitioned-weight"
+    ]
+  },
+  {
+    "key": "e0203",
+    "text": "GPU Partition",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      116.26748652849346,
+      112.00031867426878,
+      39.61169398904167,
+      9.322689371667366
+    ],
+    "components": [
+      "parallel-subgraphs"
+    ]
+  },
+  {
+    "key": "e0204",
+    "text": "NPU Partition",
+    "font_family": "VividSource-texgyreheros-regular",
+    "bounds": [
+      116.4474718729034,
+      100.48125663203245,
+      39.248845116613666,
+      9.322689371667366
+    ],
+    "components": [
+      "parallel-subgraphs"
+    ]
+  }
+]

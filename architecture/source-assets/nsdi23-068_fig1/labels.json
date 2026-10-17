@@ -1,0 +1,418 @@
+[
+  {
+    "key": "e0004",
+    "text": "User equipment",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      7.719048500061036,
+      7.852722688134236,
+      53.01578758498363,
+      9.911486410506768
+    ],
+    "components": [
+      "client-endpoint"
+    ]
+  },
+  {
+    "key": "e0007",
+    "text": "Client",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      11.695153236389162,
+      28.678472309800796,
+      16.984229952362284,
+      8.920342841449383
+    ],
+    "components": [
+      "client-endpoint"
+    ]
+  },
+  {
+    "key": "e0008",
+    "text": "app",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      14.63826084136963,
+      37.33467653343361,
+      11.039942574613404,
+      8.920342841449383
+    ],
+    "components": [
+      "client-endpoint"
+    ]
+  },
+  {
+    "key": "e0011",
+    "text": "DChannel",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      38.73097610473633,
+      28.21538544057877,
+      24.90361597440051,
+      7.681407040136037
+    ],
+    "components": [
+      "client-endpoint"
+    ]
+  },
+  {
+    "key": "e0012",
+    "text": "client",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      65.06024932861328,
+      28.21538544057877,
+      14.224407299326685,
+      7.681407040136037
+    ],
+    "components": [
+      "client-endpoint"
+    ]
+  },
+  {
+    "key": "e0015",
+    "text": "Packet ",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      49.391868591308594,
+      38.165670185777344,
+      20.756847245818335,
+      8.920342841449383
+    ],
+    "components": [
+      "client-endpoint"
+    ]
+  },
+  {
+    "key": "e0016",
+    "text": "steerer",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      48.530574798583984,
+      46.821859150621094,
+      20.830234762085183,
+      8.920342841449383
+    ],
+    "components": [
+      "client-endpoint"
+    ]
+  },
+  {
+    "key": "e0019",
+    "text": "Reordering ",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      42.555084228515625,
+      59.14830568382425,
+      34.013830998047524,
+      8.920342841449383
+    ],
+    "components": [
+      "client-endpoint"
+    ]
+  },
+  {
+    "key": "e0020",
+    "text": "buffer",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      49.8176383972168,
+      67.804494648668,
+      17.84672558157672,
+      8.920342841449383
+    ],
+    "components": [
+      "client-endpoint"
+    ]
+  },
+  {
+    "key": "e0025",
+    "text": "DChannel",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      155.3285675048828,
+      27.86913299917252,
+      24.90361597440051,
+      7.681407040136037
+    ],
+    "components": [
+      "gateway-endpoint"
+    ]
+  },
+  {
+    "key": "e0026",
+    "text": "proxy",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      181.65785217285156,
+      27.86913299917252,
+      14.360273319622593,
+      7.681407040136037
+    ],
+    "components": [
+      "gateway-endpoint"
+    ]
+  },
+  {
+    "key": "e0027",
+    "text": "Core ",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      123.46807861328126,
+      5.895353108140625,
+      15.317865653056728,
+      8.920342841449383
+    ],
+    "components": [
+      "network-domains"
+    ]
+  },
+  {
+    "key": "e0028",
+    "text": "network",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      118.0810012817383,
+      14.55154970237892,
+      24.643541065056965,
+      8.920342841449383
+    ],
+    "components": [
+      "network-domains"
+    ]
+  },
+  {
+    "key": "e0030",
+    "text": "Base",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      92.26426696777344,
+      6.795598774644532,
+      13.796150375763546,
+      8.920342841449383
+    ],
+    "components": [
+      "network-domains"
+    ]
+  },
+  {
+    "key": "e0031",
+    "text": "station",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      89.11773681640626,
+      15.451795368882827,
+      20.110204027771942,
+      8.920342841449383
+    ],
+    "components": [
+      "network-domains"
+    ]
+  },
+  {
+    "key": "e0032",
+    "text": "Packet core ",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      159.85118103027344,
+      5.866144913150507,
+      33.728935021533744,
+      8.672550609193422
+    ],
+    "components": []
+  },
+  {
+    "key": "e0033",
+    "text": "gateway",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      164.3163299560547,
+      14.176096695377069,
+      23.305008222142988,
+      8.672550609193422
+    ],
+    "components": []
+  },
+  {
+    "key": "e0037",
+    "text": "App",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      218.6597750262531,
+      43.359395771714844,
+      12.00908003277732,
+      8.920342841449383
+    ],
+    "components": [
+      "remote-service"
+    ]
+  },
+  {
+    "key": "e0038",
+    "text": "server",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      215.62831115722656,
+      52.015584736558594,
+      18.30695191285531,
+      8.920342841449383
+    ],
+    "components": [
+      "remote-service"
+    ]
+  },
+  {
+    "key": "e0039",
+    "text": "Internet",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      211.02537536621094,
+      7.765088825914077,
+      23.826958598448527,
+      8.920342841449383
+    ],
+    "components": [
+      "remote-service"
+    ]
+  },
+  {
+    "key": "e0042",
+    "text": "Packet ",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      166.3672332763672,
+      59.63304689476175,
+      20.756847245818335,
+      8.920342841449383
+    ],
+    "components": [
+      "gateway-endpoint"
+    ]
+  },
+  {
+    "key": "e0043",
+    "text": "steerer",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      165.5059356689453,
+      68.2892358596055,
+      20.830234762085183,
+      8.920342841449383
+    ],
+    "components": [
+      "gateway-endpoint"
+    ]
+  },
+  {
+    "key": "e0046",
+    "text": "Reordering ",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      159.90040588378906,
+      38.02716615745706,
+      34.013830998047524,
+      8.920342841449383
+    ],
+    "components": [
+      "gateway-endpoint"
+    ]
+  },
+  {
+    "key": "e0047",
+    "text": "buffer",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      167.16294860839844,
+      46.683370381089844,
+      17.84672558157672,
+      8.920342841449383
+    ],
+    "components": [
+      "gateway-endpoint"
+    ]
+  },
+  {
+    "key": "e0052",
+    "text": "LLC",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      133.48085021972656,
+      71.68247011253519,
+      10.00951219085232,
+      8.920342841449383
+    ],
+    "components": [
+      "network-domains"
+    ]
+  },
+  {
+    "key": "e0053",
+    "text": "HBC",
+    "font_family": "VividSource-Carlito-Bold",
+    "bounds": [
+      89.40832519531251,
+      54.78557375023047,
+      12.548666152423493,
+      8.920342841449383
+    ],
+    "components": [
+      "network-domains"
+    ]
+  },
+  {
+    "key": "e0056",
+    "text": "IP packet",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      113.82065582275392,
+      37.37472035260363,
+      25.55876746119337,
+      8.672550609193422
+    ],
+    "components": [
+      "network-domains"
+    ]
+  },
+  {
+    "key": "e0059",
+    "text": "IP packet",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      100.76848602294923,
+      68.2600352940099,
+      25.558767461193383,
+      8.672550609193422
+    ],
+    "components": [
+      "network-domains"
+    ]
+  },
+  {
+    "key": "e0061",
+    "text": "Virtual",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      10.753482110908811,
+      60.624198917141285,
+      17.426031211344252,
+      7.681407040136037
+    ],
+    "components": [
+      "client-endpoint"
+    ]
+  },
+  {
+    "key": "e0062",
+    "text": "interface",
+    "font_family": "VividSource-Carlito-Regular",
+    "bounds": [
+      8.169252395629883,
+      68.1724014317897,
+      22.876813641830722,
+      7.681407040136037
+    ],
+    "components": [
+      "client-endpoint"
+    ]
+  }
+]
